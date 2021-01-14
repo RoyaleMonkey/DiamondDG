@@ -12,6 +12,29 @@
 //////////////////////////////////////////////////////////////////////////
 // ADesignGateCharacter
 
+void ADesignGateCharacter::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor)
+{
+	if (OtherActor->ActorHasTag("Climb")) {
+		GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Flying;
+		GetCharacterMovement()->SetJumpAllowed(false);
+		IsClimbing = true;
+		WallActor = OtherActor;
+		GetCharacterMovement()->MaxFlySpeed = ClimbMaxSpeed;
+		JumpCurrentCount = 0;
+	}
+}
+
+void ADesignGateCharacter::ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor)
+{
+	if (OtherActor->ActorHasTag("Climb")) {
+		GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Walking;
+		GetCharacterMovement()->SetJumpAllowed(true);
+		IsClimbing = false;
+		WallActor = nullptr;
+		GetCharacterMovement()->MaxFlySpeed = WalkMaxSpeed;
+	}
+}
+
 ADesignGateCharacter::ADesignGateCharacter()
 {
 	// Set size for collision capsule
@@ -45,6 +68,26 @@ ADesignGateCharacter::ADesignGateCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+}
+
+void ADesignGateCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	if (IsClimbing && WallActor != nullptr) {
+
+		float rotation = WallActor->GetActorRotation().GetComponentForAxis(EAxis::Z);
+		FRotator rotator = GetActorRotation();
+		rotator.SetComponentForAxis(EAxis::Z, rotation);
+		SetActorRotation(rotator);
+	}
+}
+
+void ADesignGateCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	OnActorBeginOverlap.AddDynamic(this, &ADesignGateCharacter::ActorBeginOverlap);
+	OnActorEndOverlap.AddDynamic(this, &ADesignGateCharacter::ActorEndOverlap);
+	GetCharacterMovement()->MaxWalkSpeed = WalkMaxSpeed;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -114,13 +157,20 @@ void ADesignGateCharacter::MoveForward(float Value)
 {
 	if ((Controller != nullptr) && (Value != 0.0f))
 	{
-		// find out which way is forward
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
+		if (IsClimbing)
+		{
+			AddMovementInput(GetActorForwardVector(), Value > 0 ? Value / 10 : Value / 100);
+			AddMovementInput(GetActorUpVector(), Value);
+		}
+		else {
+			// find out which way is forward
+			const FRotator Rotation = Controller->GetControlRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-		// get forward vector
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(Direction, Value);
+			// get forward vector
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+			AddMovementInput(Direction, Value);
+		}
 	}
 }
 
@@ -128,13 +178,29 @@ void ADesignGateCharacter::MoveRight(float Value)
 {
 	if ( (Controller != nullptr) && (Value != 0.0f) )
 	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-	
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		AddMovementInput(Direction, Value);
+		if (IsClimbing) {
+			AddMovementInput(GetActorForwardVector(), 0.1);
+			AddMovementInput(GetActorRightVector(), Value);
+		}
+		else {
+			// find out which way is right
+			const FRotator Rotation = Controller->GetControlRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+			// get right vector 
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+			// add movement in that direction
+			AddMovementInput(Direction, Value);
+		}
 	}
+}
+
+void ADesignGateCharacter::RunOn()
+{
+	GetCharacterMovement()->MaxWalkSpeed = SprintMaxSpeed;
+}
+
+void ADesignGateCharacter::RunOff()
+{
+	GetCharacterMovement()->MaxWalkSpeed = WalkMaxSpeed;
 }

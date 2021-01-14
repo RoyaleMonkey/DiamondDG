@@ -18,9 +18,29 @@ class ADesignGateCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		bool IsClimbing;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Deplacement, meta = (AllowPrivateAccess = "true"))
+		int SprintMaxSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Deplacement, meta = (AllowPrivateAccess = "true"))
+		int ClimbMaxSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Deplacement, meta = (AllowPrivateAccess = "true"))
+		int WalkMaxSpeed;
+
+	class AActor* WallActor;
+
+	UFUNCTION()
+		void ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor);
+	UFUNCTION()
+		void ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor);
 public:
 	ADesignGateCharacter();
 
+	virtual void Tick(float DeltaTime) override;
+	virtual void BeginPlay() override;
+	
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
@@ -40,6 +60,8 @@ protected:
 	/** Called for side to side input */
 	void MoveRight(float Value);
 
+	void RunOn();
+	void RunOff();
 	/** 
 	 * Called via input to turn at a given rate. 
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate

@@ -49,6 +49,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Camera)
+	bool bUseFixedCamRot;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Camera)
+	FRotator FixedCamRot;
+
 protected:
 
 	/** Resets HMD orientation in VR. */

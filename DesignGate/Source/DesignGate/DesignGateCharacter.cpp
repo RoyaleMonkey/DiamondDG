@@ -44,6 +44,8 @@ ADesignGateCharacter::ADesignGateCharacter()
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
 
+	bUseFixedCamRot = false;
+	
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
@@ -144,12 +146,14 @@ void ADesignGateCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector L
 void ADesignGateCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
+	if(!bUseFixedCamRot)
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
 void ADesignGateCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
+	if(!bUseFixedCamRot)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
@@ -168,8 +172,16 @@ void ADesignGateCharacter::MoveForward(float Value)
 			const FRotator YawRotation(0, Rotation.Yaw, 0);
 
 			// get forward vector
-			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-			AddMovementInput(Direction, Value);
+			if(!bUseFixedCamRot)
+			{
+				const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+				AddMovementInput(Direction, Value);
+			}
+			else
+			{
+				const FVector Direction = FRotationMatrix(FixedCamRot).GetUnitAxis(EAxis::X);
+				AddMovementInput(Direction, Value);
+			}
 		}
 	}
 }
@@ -187,10 +199,17 @@ void ADesignGateCharacter::MoveRight(float Value)
 			const FRotator Rotation = Controller->GetControlRotation();
 			const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-			// get right vector 
-			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-			// add movement in that direction
-			AddMovementInput(Direction, Value);
+			// get right vector
+			if(!bUseFixedCamRot)
+			{
+				const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+				AddMovementInput(Direction, Value);
+			}
+			else
+			{
+				const FVector Direction = FRotationMatrix(FixedCamRot).GetUnitAxis(EAxis::Y);
+				AddMovementInput(Direction, Value);
+			}
 		}
 	}
 }

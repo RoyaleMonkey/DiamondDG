@@ -199,10 +199,13 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float RotationSpeed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	float JumpVelocity;
+	float WalkJumpVelocity;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	float AccelerationMax;
+	float RunJumpVelocity;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	float MaxSpeed;
-	
+	float SprintJumpVelocity;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float RunSpeed;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float SprintSpeed;
 };

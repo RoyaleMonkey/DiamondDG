@@ -208,4 +208,11 @@ public:
 	float RunSpeed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float SprintSpeed;
+
+	//SLOW MO
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float SlowDuration;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float SlowRatio;
 };

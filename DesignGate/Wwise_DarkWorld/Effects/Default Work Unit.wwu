@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFEB01DD-F127-4E07-BC1D-DE7CD823E02F}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{BFEB01DD-F127-4E07-BC1D-DE7CD823E02F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="RVB_FOREST" ID="{3B0F5E42-4E68-42A5-950E-06271B4BE61B}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+					<PropertyList>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="6.49316666666667"/>
+					</PropertyList>
+					<ChildrenList>
+						<PluginMediaSource Name="Field, Wide, Small Hills and Forest 100m" ID="{3E75820E-3D8A-411A-AD7B-EFA53C1092E0}">
+							<ParentPluginID>8323075</ParentPluginID>
+							<PropertyList>
+								<Property Name="DataFileName" Type="string" Value="Field, Wide, Small Hills and Forest 100m.wav"/>
+							</PropertyList>
+							<MediaIDList>
+								<MediaID ID="489588896"/>
+							</MediaIDList>
+						</PluginMediaSource>
+					</ChildrenList>
+					<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="" ID="{7E5FFAAD-9158-4A99-966B-BEFF5AAB4E2A}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="" ID="{0131036C-4AAC-4DA7-BBD0-8068FF0228B4}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>6.49316666666667</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="" ID="{32303522-FEF4-45E4-A497-149B0033B286}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>6.49316666666667</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

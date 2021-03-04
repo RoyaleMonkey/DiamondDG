@@ -1,0 +1,6 @@
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.bnk filter=lfs diff=lfs merge=lfs -text
+
+git lfs track "*.wav"
+git lfs track "*.bnk"
+git lfs track "*.wem"

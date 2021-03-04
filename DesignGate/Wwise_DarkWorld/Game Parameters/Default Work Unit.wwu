@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance" ID="{CF86ACDA-065D-4621-9788-1BE866EF64CF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="500"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

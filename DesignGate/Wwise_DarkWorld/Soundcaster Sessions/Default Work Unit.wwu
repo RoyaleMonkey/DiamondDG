@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CC630583-C0C9-43D4-B7F6-0701F1F89CF0}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CC630583-C0C9-43D4-B7F6-0701F1F89CF0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{8712331C-D0F3-40FF-9F88-362C42DA0EE1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{CF86ACDA-065D-4621-9788-1BE866EF64CF}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

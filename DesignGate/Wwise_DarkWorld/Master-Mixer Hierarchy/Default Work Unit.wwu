@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{300DE984-CA09-4B80-91B1-BD2812E93453}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{300DE984-CA09-4B80-91B1-BD2812E93453}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{C17E0B59-C99E-4A94-8CDB-FBFD4039973F}" WorkUnitID="{E894EADE-1CAF-421C-8F14-A66802B1DCC4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AMB" ID="{5A33D80D-2DCB-4A14-85DE-75D4E8E080B4}"/>
+						<AuxBus Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}">
+							<ReferenceList/>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

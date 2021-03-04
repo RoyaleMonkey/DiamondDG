@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DD1C8271-1B1D-4656-94D4-11108DF45E24}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{DD1C8271-1B1D-4656-94D4-11108DF45E24}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="Wind_LFO_Fast" ID="{1378DEAC-6266-4AB4-8649-94AB80127FCC}" ShortID="635060621">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="68.9"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="5.34"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="64"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="Wind_LFO_Slow" ID="{57EB95F4-A786-4A0E-9D30-8C31F71EE6A7}" ShortID="277299988">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="60.5"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="1.14"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="43"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

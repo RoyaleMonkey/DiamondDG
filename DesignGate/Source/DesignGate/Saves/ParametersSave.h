@@ -205,6 +205,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float SprintJumpVelocity;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float RunXYJumpVelocity;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	float SprintXYJumpVelocity;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float RunSpeed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float SprintSpeed;

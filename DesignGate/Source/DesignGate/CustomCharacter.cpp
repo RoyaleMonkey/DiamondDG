@@ -43,7 +43,7 @@ void ACustomCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 void ACustomCharacter::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
 	if (OtherActor->ActorHasTag("Climb")) {
-		GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Flying;
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
 		GetCharacterMovement()->SetJumpAllowed(false);
 		isClimbing = true;
 		wallActor = OtherActor;
@@ -55,7 +55,7 @@ void ACustomCharacter::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherA
 void ACustomCharacter::ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
 	if (OtherActor->ActorHasTag("Climb")) {
-		GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Walking;
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
 		GetCharacterMovement()->SetJumpAllowed(true);
 		isClimbing = false;
 		wallActor = nullptr;

@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="AMB" ID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

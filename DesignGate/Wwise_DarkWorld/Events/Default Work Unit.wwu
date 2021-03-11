@@ -3,17 +3,69 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{E5482311-EA18-40DD-A277-B2AA53354992}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}">
+				<Event Name="Play_Music" ID="{87CE6147-FC28-4A11-8838-1E9E26EE2DC1}">
 					<ChildrenList>
-						<Action Name="" ID="{10FA47F7-8DBE-477F-8E59-BBA8E5056AA4}" ShortID="1065209017">
+						<Action Name="" ID="{92A55B46-1BAB-45D5-9B40-5B76797A67BE}" ShortID="257093476">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Amb_Design_Gate" ID="{61A1729D-453F-4C1B-B67C-2EFAF3D0AB97}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+									<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="AMB" ID="{B339DFFE-AD80-4B80-9413-ABEAE59F7249}" ShortID="249481702">
+					<ChildrenList>
+						<Event Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}">
+							<ChildrenList>
+								<Action Name="" ID="{10FA47F7-8DBE-477F-8E59-BBA8E5056AA4}" ShortID="1065209017">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Design_Gate" ID="{61A1729D-453F-4C1B-B67C-2EFAF3D0AB97}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Lake_LP" ID="{628066DA-8FF2-4CF9-9CB9-41A91D0AA442}">
+							<ChildrenList>
+								<Action Name="" ID="{8A65B739-1153-4946-85A1-627F7F0D9C92}" ShortID="795415394">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lake_LP" ID="{DA4747E9-090E-4875-8D92-D7D40F65446F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Fountain" ID="{3D0CA2BD-D308-4979-87F4-C83673979D00}">
+							<ChildrenList>
+								<Action Name="" ID="{D2071FA4-C879-495C-8ED5-9D4AD97A8228}" ShortID="225396928">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Fountain" ID="{FBFB3339-4A21-4903-923D-7CF86D30B243}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Amb_Lake" ID="{B8C2E4E0-87B5-4EFE-BCB3-1186AD16B884}">
+							<ChildrenList>
+								<Action Name="" ID="{8E2D0724-7BD1-4A6F-98DF-DA244C199331}" ShortID="47417212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lake_LP" ID="{DA4747E9-090E-4875-8D92-D7D40F65446F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

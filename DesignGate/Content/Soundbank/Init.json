@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Content\\Soundbank\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "Hash": "1814610640",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1566008239",
+      "Name": "RVB_FOREST",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+     }
+    ]
+   }
+  ]
+ }
+}

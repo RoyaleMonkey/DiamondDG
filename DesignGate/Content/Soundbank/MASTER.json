@@ -1,0 +1,1902 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Content\\Soundbank\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\RSTD\\Documents\\Repositories\\DarkWorld\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4056684167",
+    "Language": "SFX",
+    "Hash": "866357765",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
+    "ShortName": "MASTER",
+    "Path": "MASTER.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2959533290",
+      "Name": "Play_Amb",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "269732270",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Forest_LP.wav",
+        "Path": "SFX\\Amb_Wind_Forest_LP_D79FB2B7.wem"
+       },
+       {
+        "Id": "836678601",
+        "Language": "SFX",
+        "ShortName": "Amb_Forest_Biome_LP.wav",
+        "Path": "SFX\\Amb_Forest_Biome_LP_D79FB2B7.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "8136119",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eleonoras_Falcon_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eleonoras_Falcon_02_10C4C929.wem"
+       },
+       {
+        "Id": "11170927",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Rock_Pipit_C_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Rock_Pipit_C_02_10C4C929.wem"
+       },
+       {
+        "Id": "13314066",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-003.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-003_10C4C929.wem"
+       },
+       {
+        "Id": "19197113",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Levant_Sparrowhawk_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Levant_Sparrowhawk_01_10C4C929.wem"
+       },
+       {
+        "Id": "30166619",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Cormorant_06.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Cormorant_06_10C4C929.wem"
+       },
+       {
+        "Id": "30453637",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Grey_Heron_C_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Grey_Heron_C_02_10C4C929.wem"
+       },
+       {
+        "Id": "41995396",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-017.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-017_10C4C929.wem"
+       },
+       {
+        "Id": "42140386",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tree_Pipit_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tree_Pipit_02_10C4C929.wem"
+       },
+       {
+        "Id": "49315695",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Water_Pipit_C_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Water_Pipit_C_01_10C4C929.wem"
+       },
+       {
+        "Id": "58382440",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Scops_Owl_B_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Scops_Owl_B_04_10C4C929.wem"
+       },
+       {
+        "Id": "59888163",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Boreal_Owl_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Boreal_Owl_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "69493721",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Black_Redstart_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Black_Redstart_01_10C4C929.wem"
+       },
+       {
+        "Id": "78235626",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-006.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-006_10C4C929.wem"
+       },
+       {
+        "Id": "79269412",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_05_10C4C929.wem"
+       },
+       {
+        "Id": "84069073",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Pygmy_Owl_A_08.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Pygmy_Owl_A_08_10C4C929.wem"
+       },
+       {
+        "Id": "97327692",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_04_10C4C929.wem"
+       },
+       {
+        "Id": "97707781",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Golden_Oriole_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_A_05_10C4C929.wem"
+       },
+       {
+        "Id": "101981967",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_02_10C4C929.wem"
+       },
+       {
+        "Id": "103635040",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Shelduck_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Shelduck_04_10C4C929.wem"
+       },
+       {
+        "Id": "108101045",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_European_Robin_03 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_European_Robin_03 1_10C4C929.wem"
+       },
+       {
+        "Id": "119719320",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Water_Pipit_C_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Water_Pipit_C_04_10C4C929.wem"
+       },
+       {
+        "Id": "124671868",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Demoiselle_Crane_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Demoiselle_Crane_01_10C4C929.wem"
+       },
+       {
+        "Id": "128664117",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Tree_Sparrow_B_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Tree_Sparrow_B_03_10C4C929.wem"
+       },
+       {
+        "Id": "134734135",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Demoiselle_Crane_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Demoiselle_Crane_03_10C4C929.wem"
+       },
+       {
+        "Id": "141152429",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_03_10C4C929.wem"
+       },
+       {
+        "Id": "143508101",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Golden_Oriole_B_07.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_B_07_10C4C929.wem"
+       },
+       {
+        "Id": "148896932",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Spotted_Cuckoo_C_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Spotted_Cuckoo_C_02_10C4C929.wem"
+       },
+       {
+        "Id": "151955263",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Starling_B_10.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Starling_B_10_10C4C929.wem"
+       },
+       {
+        "Id": "163099420",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Animal_Squirrel_D_Main_03.wav",
+        "Path": "SFX\\Amb_RFX_Animal_Squirrel_D_Main_03_10C4C929.wem"
+       },
+       {
+        "Id": "167608203",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Rock_Pipit_A_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Rock_Pipit_A_03_10C4C929.wem"
+       },
+       {
+        "Id": "170827374",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-005.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-005_10C4C929.wem"
+       },
+       {
+        "Id": "181470793",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Cormorant_15.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Cormorant_15_10C4C929.wem"
+       },
+       {
+        "Id": "185875362",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Mistle_Thrush_15.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Mistle_Thrush_15_10C4C929.wem"
+       },
+       {
+        "Id": "186667342",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Rock_Sparrow_C_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Rock_Sparrow_C_04_10C4C929.wem"
+       },
+       {
+        "Id": "190244123",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Goldfinch_03 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Goldfinch_03 1_10C4C929.wem"
+       },
+       {
+        "Id": "191725232",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-006.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-006_10C4C929.wem"
+       },
+       {
+        "Id": "193836498",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Golden_Oriole_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "194044872",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-015.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-015_10C4C929.wem"
+       },
+       {
+        "Id": "198161738",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Tit_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Tit_01_10C4C929.wem"
+       },
+       {
+        "Id": "201193254",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Blackbird_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Blackbird_04_10C4C929.wem"
+       },
+       {
+        "Id": "201495576",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "209477513",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_02_10C4C929.wem"
+       },
+       {
+        "Id": "210186342",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_03.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_03_10C4C929.wem"
+       },
+       {
+        "Id": "212259580",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Tree_Sparrow_B_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Tree_Sparrow_B_04_10C4C929.wem"
+       },
+       {
+        "Id": "220638617",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Scops_Owl_C_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Scops_Owl_C_01_10C4C929.wem"
+       },
+       {
+        "Id": "236134390",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Skylark_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Skylark_03_10C4C929.wem"
+       },
+       {
+        "Id": "239474561",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Animal_Squirrel_B_Main_02.wav",
+        "Path": "SFX\\Amb_RFX_Animal_Squirrel_B_Main_02_10C4C929.wem"
+       },
+       {
+        "Id": "267827001",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-005.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-005_10C4C929.wem"
+       },
+       {
+        "Id": "270030572",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-008.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-008_10C4C929.wem"
+       },
+       {
+        "Id": "271201983",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Grey_Heron_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Grey_Heron_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "276208213",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-002.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-002_10C4C929.wem"
+       },
+       {
+        "Id": "280194026",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Pipit_C_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Pipit_C_01_10C4C929.wem"
+       },
+       {
+        "Id": "281881072",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "285708362",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Bee_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Bee_05_10C4C929.wem"
+       },
+       {
+        "Id": "286737223",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Black_Redstart_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Black_Redstart_03_10C4C929.wem"
+       },
+       {
+        "Id": "292045712",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Boreal_Owl_A_08.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Boreal_Owl_A_08_10C4C929.wem"
+       },
+       {
+        "Id": "296320391",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tree_Pipit_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tree_Pipit_04_10C4C929.wem"
+       },
+       {
+        "Id": "297818444",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Cuckoo_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Cuckoo_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "301031283",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Pipit_D_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Pipit_D_01_10C4C929.wem"
+       },
+       {
+        "Id": "302330674",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Starling_B_14.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Starling_B_14_10C4C929.wem"
+       },
+       {
+        "Id": "303907767",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Mistle_Thrush_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Mistle_Thrush_01_10C4C929.wem"
+       },
+       {
+        "Id": "308099290",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Linnet_06 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_06 1_10C4C929.wem"
+       },
+       {
+        "Id": "308412496",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Spanish_Sparrow_D_09.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Spanish_Sparrow_D_09_10C4C929.wem"
+       },
+       {
+        "Id": "314134142",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Spotted_Cuckoo_B_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Spotted_Cuckoo_B_05_10C4C929.wem"
+       },
+       {
+        "Id": "321223482",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Fly_C_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Fly_C_01_10C4C929.wem"
+       },
+       {
+        "Id": "321847514",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Greenshank_01 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Greenshank_01 1_10C4C929.wem"
+       },
+       {
+        "Id": "323431156",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Animal_Squirrel_E_Main_01.wav",
+        "Path": "SFX\\Amb_RFX_Animal_Squirrel_E_Main_01_10C4C929.wem"
+       },
+       {
+        "Id": "325699247",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Tit_08.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Tit_08_10C4C929.wem"
+       },
+       {
+        "Id": "334639697",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-016.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-016_10C4C929.wem"
+       },
+       {
+        "Id": "339676483",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Water_Pipit_C_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Water_Pipit_C_02_10C4C929.wem"
+       },
+       {
+        "Id": "340130622",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Golden_Oriole_B_13.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_B_13_10C4C929.wem"
+       },
+       {
+        "Id": "343843921",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Scops_Owl_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Scops_Owl_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "345213785",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Spotted_Cuckoo_B_15.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Spotted_Cuckoo_B_15_10C4C929.wem"
+       },
+       {
+        "Id": "366708434",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Spotted_Cuckoo_B_13.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Spotted_Cuckoo_B_13_10C4C929.wem"
+       },
+       {
+        "Id": "367785812",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_04.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_04_10C4C929.wem"
+       },
+       {
+        "Id": "378849719",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Nuthatch_07.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Nuthatch_07_10C4C929.wem"
+       },
+       {
+        "Id": "380698803",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Little_Owl_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Little_Owl_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "384989249",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_European_Robin_04 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_European_Robin_04 1_10C4C929.wem"
+       },
+       {
+        "Id": "387170107",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Alpine_Chough_D_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Alpine_Chough_D_01_10C4C929.wem"
+       },
+       {
+        "Id": "389645391",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Goldfinch_01 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Goldfinch_01 1_10C4C929.wem"
+       },
+       {
+        "Id": "390502334",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Golden_Oriole_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "392817517",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Squacco_Heron_A_10.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Squacco_Heron_A_10_10C4C929.wem"
+       },
+       {
+        "Id": "393009084",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-014.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-014_10C4C929.wem"
+       },
+       {
+        "Id": "393863597",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-003.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-003_10C4C929.wem"
+       },
+       {
+        "Id": "413526516",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Whitethroat_13.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Whitethroat_13_10C4C929.wem"
+       },
+       {
+        "Id": "413586810",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Levant_Sparrowhawk_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Levant_Sparrowhawk_03_10C4C929.wem"
+       },
+       {
+        "Id": "415724446",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-011.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-011_10C4C929.wem"
+       },
+       {
+        "Id": "432822140",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Bee_11.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Bee_11_10C4C929.wem"
+       },
+       {
+        "Id": "443014057",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_B_11.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_B_11_10C4C929.wem"
+       },
+       {
+        "Id": "450701258",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_03.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_03_10C4C929.wem"
+       },
+       {
+        "Id": "452756822",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Black_Stork_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Black_Stork_02_10C4C929.wem"
+       },
+       {
+        "Id": "453838756",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_European_Robin_08 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_European_Robin_08 1_10C4C929.wem"
+       },
+       {
+        "Id": "456137261",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_06.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_06_10C4C929.wem"
+       },
+       {
+        "Id": "461058694",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Purple_Heron_B_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Purple_Heron_B_04_10C4C929.wem"
+       },
+       {
+        "Id": "466198625",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Owl_A_10.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Owl_A_10_10C4C929.wem"
+       },
+       {
+        "Id": "466237398",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-012.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-012_10C4C929.wem"
+       },
+       {
+        "Id": "466287570",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Nuthatch_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Nuthatch_01_10C4C929.wem"
+       },
+       {
+        "Id": "466361859",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Demoiselle_Crane_06.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Demoiselle_Crane_06_10C4C929.wem"
+       },
+       {
+        "Id": "468546689",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Levant_Sparrowhawk_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Levant_Sparrowhawk_04_10C4C929.wem"
+       },
+       {
+        "Id": "470432022",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Pygmy_Owl_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Pygmy_Owl_A_05_10C4C929.wem"
+       },
+       {
+        "Id": "474278436",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "475013426",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Owl_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Owl_A_05_10C4C929.wem"
+       },
+       {
+        "Id": "482796387",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Squacco_Heron_A_09.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Squacco_Heron_A_09_10C4C929.wem"
+       },
+       {
+        "Id": "482822484",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Alpine_Chough_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Alpine_Chough_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "483271574",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "490247971",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_European_Robin_11 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_European_Robin_11 1_10C4C929.wem"
+       },
+       {
+        "Id": "502696424",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-005.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-005_10C4C929.wem"
+       },
+       {
+        "Id": "508958175",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Purple_Heron_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Purple_Heron_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "509725482",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Little_Owl_A_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Little_Owl_A_02_10C4C929.wem"
+       },
+       {
+        "Id": "512758086",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-001.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-001_10C4C929.wem"
+       },
+       {
+        "Id": "516637972",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-010.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-010_10C4C929.wem"
+       },
+       {
+        "Id": "524399151",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Whitethroat_12.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Whitethroat_12_10C4C929.wem"
+       },
+       {
+        "Id": "531795477",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Shelduck_06.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Shelduck_06_10C4C929.wem"
+       },
+       {
+        "Id": "532141665",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Alpine_Chough_E_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Alpine_Chough_E_01_10C4C929.wem"
+       },
+       {
+        "Id": "532737880",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_05_10C4C929.wem"
+       },
+       {
+        "Id": "539720404",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Lanner_Falcon_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Lanner_Falcon_02_10C4C929.wem"
+       },
+       {
+        "Id": "541660795",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Owl_A_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Owl_A_03_10C4C929.wem"
+       },
+       {
+        "Id": "548658131",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-006.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-006_10C4C929.wem"
+       },
+       {
+        "Id": "548778070",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Greenshank_04 2.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Greenshank_04 2_10C4C929.wem"
+       },
+       {
+        "Id": "549172130",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_European_Robin_12.wav",
+        "Path": "SFX\\Amb_RFX_Bird_European_Robin_12_10C4C929.wem"
+       },
+       {
+        "Id": "555170211",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Spanish_Sparrow_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Spanish_Sparrow_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "560565943",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Alpine_Chough_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Alpine_Chough_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "570984614",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Whitethroat_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Whitethroat_01_10C4C929.wem"
+       },
+       {
+        "Id": "576932190",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Alpine_Chough_C_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Alpine_Chough_C_02_10C4C929.wem"
+       },
+       {
+        "Id": "577109691",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Ferruginous_Duck_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Ferruginous_Duck_01_10C4C929.wem"
+       },
+       {
+        "Id": "579096610",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Cormorant_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Cormorant_05_10C4C929.wem"
+       },
+       {
+        "Id": "583360945",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Water_Pipit_C_06.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Water_Pipit_C_06_10C4C929.wem"
+       },
+       {
+        "Id": "584491731",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Greenshank_03 2.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Greenshank_03 2_10C4C929.wem"
+       },
+       {
+        "Id": "586044578",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Lanner_Falcon_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Lanner_Falcon_03_10C4C929.wem"
+       },
+       {
+        "Id": "590839222",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Rock_Pipit_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Rock_Pipit_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "606915048",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Starling_A_09.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Starling_A_09_10C4C929.wem"
+       },
+       {
+        "Id": "614661301",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Tree_Sparrow_B_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Tree_Sparrow_B_05_10C4C929.wem"
+       },
+       {
+        "Id": "619607360",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Fly_C_03.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Fly_C_03_10C4C929.wem"
+       },
+       {
+        "Id": "620883306",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Pipit_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Pipit_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "624002788",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Fly_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Fly_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "625464729",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Animal_Squirrel_B_Main_01.wav",
+        "Path": "SFX\\Amb_RFX_Animal_Squirrel_B_Main_01_10C4C929.wem"
+       },
+       {
+        "Id": "631884824",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_A_05_10C4C929.wem"
+       },
+       {
+        "Id": "632591094",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Starling_A_15.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Starling_A_15_10C4C929.wem"
+       },
+       {
+        "Id": "640867676",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eleonoras_Falcon_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eleonoras_Falcon_01_10C4C929.wem"
+       },
+       {
+        "Id": "645231561",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Black_Stork_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Black_Stork_03_10C4C929.wem"
+       },
+       {
+        "Id": "645862371",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Skylark_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Skylark_02_10C4C929.wem"
+       },
+       {
+        "Id": "646381575",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Rock_Sparrow_B_07.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Rock_Sparrow_B_07_10C4C929.wem"
+       },
+       {
+        "Id": "649657306",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Alpine_Chough_D_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Alpine_Chough_D_03_10C4C929.wem"
+       },
+       {
+        "Id": "651845443",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Greenshank_03 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Greenshank_03 1_10C4C929.wem"
+       },
+       {
+        "Id": "657859961",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "660333960",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-002.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-002_10C4C929.wem"
+       },
+       {
+        "Id": "667565056",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_07.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_07_10C4C929.wem"
+       },
+       {
+        "Id": "670878471",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Little_Owl_C_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Little_Owl_C_01_10C4C929.wem"
+       },
+       {
+        "Id": "675947360",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Bee_04.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Bee_04_10C4C929.wem"
+       },
+       {
+        "Id": "681671299",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Greenshank_04 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Greenshank_04 1_10C4C929.wem"
+       },
+       {
+        "Id": "684923061",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Crane_F_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Crane_F_05_10C4C929.wem"
+       },
+       {
+        "Id": "685925224",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Nuthatch_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Nuthatch_04_10C4C929.wem"
+       },
+       {
+        "Id": "688212079",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Linnet_07 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_07 1_10C4C929.wem"
+       },
+       {
+        "Id": "689684698",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_10.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_10_10C4C929.wem"
+       },
+       {
+        "Id": "694419550",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Boreal_Owl_B_08.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Boreal_Owl_B_08_10C4C929.wem"
+       },
+       {
+        "Id": "696078383",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-009.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-009_10C4C929.wem"
+       },
+       {
+        "Id": "697869690",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_06.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_06_10C4C929.wem"
+       },
+       {
+        "Id": "708236038",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Tit_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Tit_04_10C4C929.wem"
+       },
+       {
+        "Id": "710546604",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Blue_Tit_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Blue_Tit_01_10C4C929.wem"
+       },
+       {
+        "Id": "711714805",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Linnet_02 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_02 1_10C4C929.wem"
+       },
+       {
+        "Id": "713439677",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tree_Pipit_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tree_Pipit_01_10C4C929.wem"
+       },
+       {
+        "Id": "714268196",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Cinereous_Vulture_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Cinereous_Vulture_02_10C4C929.wem"
+       },
+       {
+        "Id": "716279299",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Spanish_Sparrow_B_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Spanish_Sparrow_B_05_10C4C929.wem"
+       },
+       {
+        "Id": "723222998",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Starling_A_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Starling_A_04_10C4C929.wem"
+       },
+       {
+        "Id": "740215890",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Cuckoo_C_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Cuckoo_C_02_10C4C929.wem"
+       },
+       {
+        "Id": "748391753",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Shelduck_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Shelduck_01_10C4C929.wem"
+       },
+       {
+        "Id": "752547666",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Cuckoo_D_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Cuckoo_D_03_10C4C929.wem"
+       },
+       {
+        "Id": "753562624",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-001.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-001_10C4C929.wem"
+       },
+       {
+        "Id": "758456995",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Animal_Squirrel_E_Main_03.wav",
+        "Path": "SFX\\Amb_RFX_Animal_Squirrel_E_Main_03_10C4C929.wem"
+       },
+       {
+        "Id": "763188727",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Blue_Tit_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Blue_Tit_02_10C4C929.wem"
+       },
+       {
+        "Id": "763895857",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Mistle_Thrush_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Mistle_Thrush_04_10C4C929.wem"
+       },
+       {
+        "Id": "768527910",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_01_10C4C929.wem"
+       },
+       {
+        "Id": "770471112",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Mistle_Thrush_14.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Mistle_Thrush_14_10C4C929.wem"
+       },
+       {
+        "Id": "770682552",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Whitethroat_11.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Whitethroat_11_10C4C929.wem"
+       },
+       {
+        "Id": "770976768",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Spotted_Cuckoo_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Spotted_Cuckoo_A_05_10C4C929.wem"
+       },
+       {
+        "Id": "771849626",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_B_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_02_10C4C929.wem"
+       },
+       {
+        "Id": "775253044",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Skylark_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Skylark_01_10C4C929.wem"
+       },
+       {
+        "Id": "792133290",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Squacco_Heron_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Squacco_Heron_A_01_10C4C929.wem"
+       },
+       {
+        "Id": "792408138",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Blackbird_06.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Blackbird_06_10C4C929.wem"
+       },
+       {
+        "Id": "795084438",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Blackbird_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Blackbird_01_10C4C929.wem"
+       },
+       {
+        "Id": "797014514",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Boreal_Owl_B_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Boreal_Owl_B_03_10C4C929.wem"
+       },
+       {
+        "Id": "800118450",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Owl_A_06.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Owl_A_06_10C4C929.wem"
+       },
+       {
+        "Id": "804944621",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Bee_15.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Bee_15_10C4C929.wem"
+       },
+       {
+        "Id": "809363781",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Pipit_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Pipit_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "813806367",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Purple_Heron_B_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Purple_Heron_B_03_10C4C929.wem"
+       },
+       {
+        "Id": "815945173",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_04.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_04_10C4C929.wem"
+       },
+       {
+        "Id": "816790964",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_01_10C4C929.wem"
+       },
+       {
+        "Id": "817432174",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Black_Stork_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Black_Stork_01_10C4C929.wem"
+       },
+       {
+        "Id": "818955796",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Greenshank_01 2.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Greenshank_01 2_10C4C929.wem"
+       },
+       {
+        "Id": "831361572",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-007.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-007_10C4C929.wem"
+       },
+       {
+        "Id": "839258685",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Grey_Heron_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Grey_Heron_B_01_10C4C929.wem"
+       },
+       {
+        "Id": "842715537",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-001.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-001_10C4C929.wem"
+       },
+       {
+        "Id": "847771726",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-004.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-004_10C4C929.wem"
+       },
+       {
+        "Id": "853473225",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Bee_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Bee_02_10C4C929.wem"
+       },
+       {
+        "Id": "860816118",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_European_Robin_06 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_European_Robin_06 1_10C4C929.wem"
+       },
+       {
+        "Id": "861239046",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Ferruginous_Duck_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Ferruginous_Duck_03_10C4C929.wem"
+       },
+       {
+        "Id": "868839663",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Rock_Sparrow_A_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Rock_Sparrow_A_03_10C4C929.wem"
+       },
+       {
+        "Id": "873080018",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Skylark_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Skylark_04_10C4C929.wem"
+       },
+       {
+        "Id": "883339401",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Animal_Squirrel_D_Main_01.wav",
+        "Path": "SFX\\Amb_RFX_Animal_Squirrel_D_Main_01_10C4C929.wem"
+       },
+       {
+        "Id": "884753223",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_14.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_14_10C4C929.wem"
+       },
+       {
+        "Id": "891142242",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Tawny_Pipit_E_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Tawny_Pipit_E_01_10C4C929.wem"
+       },
+       {
+        "Id": "895175323",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-003.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-003_10C4C929.wem"
+       },
+       {
+        "Id": "895934793",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Magpie_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Magpie_03_10C4C929.wem"
+       },
+       {
+        "Id": "896805482",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Water_Pipit_C_09.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Water_Pipit_C_09_10C4C929.wem"
+       },
+       {
+        "Id": "897385129",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Little_Owl_D_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Little_Owl_D_04_10C4C929.wem"
+       },
+       {
+        "Id": "899593341",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Great_Cormorant_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Great_Cormorant_04_10C4C929.wem"
+       },
+       {
+        "Id": "907209125",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Starling_B_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Starling_B_05_10C4C929.wem"
+       },
+       {
+        "Id": "911655684",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-007.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-007_10C4C929.wem"
+       },
+       {
+        "Id": "914377455",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Crane_F_06.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Crane_F_06_10C4C929.wem"
+       },
+       {
+        "Id": "914504096",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Fly_C_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Fly_C_05_10C4C929.wem"
+       },
+       {
+        "Id": "919915685",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_05_10C4C929.wem"
+       },
+       {
+        "Id": "929734054",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_01_10C4C929.wem"
+       },
+       {
+        "Id": "931773022",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Spanish_Sparrow_C_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Spanish_Sparrow_C_01_10C4C929.wem"
+       },
+       {
+        "Id": "941793313",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-004.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-004_10C4C929.wem"
+       },
+       {
+        "Id": "943344444",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Magpie_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Magpie_01_10C4C929.wem"
+       },
+       {
+        "Id": "944584287",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-008.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-008_10C4C929.wem"
+       },
+       {
+        "Id": "945874277",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Goldfinch_09 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Goldfinch_09 1_10C4C929.wem"
+       },
+       {
+        "Id": "952141818",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Bee_13.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Bee_13_10C4C929.wem"
+       },
+       {
+        "Id": "969320694",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-013.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-013_10C4C929.wem"
+       },
+       {
+        "Id": "970508877",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Animal_Squirrel_D_Main_02.wav",
+        "Path": "SFX\\Amb_RFX_Animal_Squirrel_D_Main_02_10C4C929.wem"
+       },
+       {
+        "Id": "978714519",
+        "Language": "SFX",
+        "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-002.wav",
+        "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-002_10C4C929.wem"
+       },
+       {
+        "Id": "979525678",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Rock_Pipit_C_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Rock_Pipit_C_01_10C4C929.wem"
+       },
+       {
+        "Id": "990386383",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Bee_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Bee_01_10C4C929.wem"
+       },
+       {
+        "Id": "994393082",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Water_Pipit_C_07.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Water_Pipit_C_07_10C4C929.wem"
+       },
+       {
+        "Id": "996628520",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Cinereous_Vulture_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Cinereous_Vulture_03_10C4C929.wem"
+       },
+       {
+        "Id": "1008890909",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_02_10C4C929.wem"
+       },
+       {
+        "Id": "1012048358",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Golden_Oriole_A_07.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_A_07_10C4C929.wem"
+       },
+       {
+        "Id": "1014014115",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Goldfinch_05 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Goldfinch_05 1_10C4C929.wem"
+       },
+       {
+        "Id": "1021423880",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Cinereous_Vulture_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Cinereous_Vulture_04_10C4C929.wem"
+       },
+       {
+        "Id": "1021751823",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Alpine_Chough_C_08.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Alpine_Chough_C_08_10C4C929.wem"
+       },
+       {
+        "Id": "1023739985",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_07.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_07_10C4C929.wem"
+       },
+       {
+        "Id": "1027557838",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Golden_Oriole_B_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_B_02_10C4C929.wem"
+       },
+       {
+        "Id": "1030123161",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Grey_Heron_A_09.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Grey_Heron_A_09_10C4C929.wem"
+       },
+       {
+        "Id": "1031868741",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Rock_Sparrow_B_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Rock_Sparrow_B_02_10C4C929.wem"
+       },
+       {
+        "Id": "1035082967",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Goldfinch_04 1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Goldfinch_04 1_10C4C929.wem"
+       },
+       {
+        "Id": "1048508806",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eleonoras_Falcon_03.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eleonoras_Falcon_03_10C4C929.wem"
+       },
+       {
+        "Id": "1049388575",
+        "Language": "SFX",
+        "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-004.wav",
+        "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-004_10C4C929.wem"
+       },
+       {
+        "Id": "1061828501",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Lanner_Falcon_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Lanner_Falcon_04_10C4C929.wem"
+       },
+       {
+        "Id": "1064523156",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Blackbird_05.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Blackbird_05_10C4C929.wem"
+       },
+       {
+        "Id": "1070095703",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Squacco_Heron_A_08.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Squacco_Heron_A_08_10C4C929.wem"
+       },
+       {
+        "Id": "1072451038",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Ferruginous_Duck_02.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Ferruginous_Duck_02_10C4C929.wem"
+       },
+       {
+        "Id": "1072873473",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Crane_E_04.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Crane_E_04_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1566008239",
+        "Name": "RVB_FOREST",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+       }
+      ]
+     },
+     {
+      "Id": "570117905",
+      "Name": "Play_Amb_Fountain",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Fountain",
+      "MaxAttenuation": "4500.000000",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "40280027",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_ST_05.wav",
+        "Path": "SFX\\AMB_Fountain_Close_ST_05_D79FB2B7.wem"
+       },
+       {
+        "Id": "41454883",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_ST_01.wav",
+        "Path": "SFX\\AMB_Fountain_Close_ST_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "798718137",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_ST_06.wav",
+        "Path": "SFX\\AMB_Fountain_Close_ST_06_D79FB2B7.wem"
+       },
+       {
+        "Id": "842331082",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_ST_04.wav",
+        "Path": "SFX\\AMB_Fountain_Close_ST_04_D79FB2B7.wem"
+       },
+       {
+        "Id": "865947433",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_ST_03.wav",
+        "Path": "SFX\\AMB_Fountain_Close_ST_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "973144023",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_ST_02.wav",
+        "Path": "SFX\\AMB_Fountain_Close_ST_02_D79FB2B7.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "111309467",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_M_01.wav",
+        "Path": "SFX\\AMB_Fountain_Close_M_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "711516404",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_M_03.wav",
+        "Path": "SFX\\AMB_Fountain_Close_M_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "805102534",
+        "Language": "SFX",
+        "ShortName": "AMB_Fountain_Close_M_02.wav",
+        "Path": "SFX\\AMB_Fountain_Close_M_02_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1566008239",
+        "Name": "RVB_FOREST",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+       }
+      ]
+     },
+     {
+      "Id": "832042763",
+      "Name": "Play_Amb_Lake_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_LP",
+      "MaxAttenuation": "8000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "498618",
+        "Language": "SFX",
+        "ShortName": "AMB_Lake_LP.wav",
+        "Path": "SFX\\AMB_Lake_LP_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3531921507",
+      "Name": "Play_MC_Step",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Step",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "13778513",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_03.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_03_10C4C929.wem"
+       },
+       {
+        "Id": "31094058",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_04.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_04_10C4C929.wem"
+       },
+       {
+        "Id": "152823296",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_05.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_05_10C4C929.wem"
+       },
+       {
+        "Id": "157228708",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_06.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_06_10C4C929.wem"
+       },
+       {
+        "Id": "169809182",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_04.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_04_10C4C929.wem"
+       },
+       {
+        "Id": "244319818",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Land_Light_01.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Land_Light_01_10C4C929.wem"
+       },
+       {
+        "Id": "251813235",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Land_Light_04.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Land_Light_04_10C4C929.wem"
+       },
+       {
+        "Id": "272839001",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_03.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_03_10C4C929.wem"
+       },
+       {
+        "Id": "297340625",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Land_Light_05.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Land_Light_05_10C4C929.wem"
+       },
+       {
+        "Id": "297399665",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_07.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_07_10C4C929.wem"
+       },
+       {
+        "Id": "522328493",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Jump_02.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Jump_02_10C4C929.wem"
+       },
+       {
+        "Id": "579006242",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Land_Light_03.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Land_Light_03_10C4C929.wem"
+       },
+       {
+        "Id": "694678014",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_02.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_02_10C4C929.wem"
+       },
+       {
+        "Id": "699328330",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Land_Light_02.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Land_Light_02_10C4C929.wem"
+       },
+       {
+        "Id": "714702877",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_05.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_05_10C4C929.wem"
+       },
+       {
+        "Id": "785883112",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Jump_01.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Jump_01_10C4C929.wem"
+       },
+       {
+        "Id": "833694990",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Land_Light_06.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Land_Light_06_10C4C929.wem"
+       },
+       {
+        "Id": "849996687",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_06.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_06_10C4C929.wem"
+       },
+       {
+        "Id": "901616726",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_08.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_08_10C4C929.wem"
+       },
+       {
+        "Id": "918300487",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_08.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_08_10C4C929.wem"
+       },
+       {
+        "Id": "927101349",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_02.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_02_10C4C929.wem"
+       },
+       {
+        "Id": "978782256",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Jump_03.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Jump_03_10C4C929.wem"
+       },
+       {
+        "Id": "993921277",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_01.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_01_10C4C929.wem"
+       },
+       {
+        "Id": "1005895983",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Run_01.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_01_10C4C929.wem"
+       },
+       {
+        "Id": "1031192495",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FT_Grass_Short_Walk_07.wav",
+        "Path": "SFX\\SFX_MC_FT_Grass_Short_Walk_07_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{AE6E0446-601A-464B-A2D4-83CF61AE35E4}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{1CE1BF98-2832-419E-847E-B6EFA0044C62}",
+        "Media": [
+         {
+          "Id": "522328493"
+         },
+         {
+          "Id": "785883112"
+         },
+         {
+          "Id": "978782256"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E0B12E9B-FC7D-45B1-815F-E673E4142F69}",
+        "Media": [
+         {
+          "Id": "244319818"
+         },
+         {
+          "Id": "251813235"
+         },
+         {
+          "Id": "297340625"
+         },
+         {
+          "Id": "579006242"
+         },
+         {
+          "Id": "699328330"
+         },
+         {
+          "Id": "833694990"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AE6E0446-601A-464B-A2D4-83CF61AE35E4}",
+        "Media": [
+         {
+          "Id": "13778513"
+         },
+         {
+          "Id": "31094058"
+         },
+         {
+          "Id": "152823296"
+         },
+         {
+          "Id": "157228708"
+         },
+         {
+          "Id": "169809182"
+         },
+         {
+          "Id": "272839001"
+         },
+         {
+          "Id": "297399665"
+         },
+         {
+          "Id": "694678014"
+         },
+         {
+          "Id": "714702877"
+         },
+         {
+          "Id": "849996687"
+         },
+         {
+          "Id": "901616726"
+         },
+         {
+          "Id": "918300487"
+         },
+         {
+          "Id": "927101349"
+         },
+         {
+          "Id": "993921277"
+         },
+         {
+          "Id": "1005895983"
+         },
+         {
+          "Id": "1031192495"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1047465193",
+        "Language": "SFX",
+        "ShortName": "DarkWorld_Flute_V2.wav",
+        "Path": "SFX\\DarkWorld_Flute_V2_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3516178482",
+      "Name": "Stop_Amb_Lake",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Stop_Amb_Lake",
+      "MaxAttenuation": "0.000000"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1227053913",
+      "Name": "MC_Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Speed"
+     },
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3043323106",
+      "Name": "MC_MvtState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\MC_MvtState",
+      "Switches": [
+       {
+        "Id": "3833651337",
+        "Name": "Jump",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MC_MvtState\\Jump"
+       },
+       {
+        "Id": "2332106820",
+        "Name": "Scuff",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MC_MvtState\\Scuff"
+       },
+       {
+        "Id": "674522502",
+        "Name": "Land",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MC_MvtState\\Land"
+       },
+       {
+        "Id": "2951998248",
+        "Name": "Walk_Run",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MC_MvtState\\Walk_Run"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

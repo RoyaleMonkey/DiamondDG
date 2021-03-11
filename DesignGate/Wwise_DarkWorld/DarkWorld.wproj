@@ -22,6 +22,8 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
+				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
 					<ValueList>
 						<Value Platform="Windows">256</Value>
@@ -29,6 +31,7 @@
 				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9Ijk3ODMiIG1hc2s9IkJaUlQyNTY3IiBlbmM9IjAiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMS0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNlIGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhwaXJlcz0iMjAyMS0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|VNY/4QaWov0u1kNVikkK08oaDxP0tr4XDuOK+s5BmsicqDzLbc3ZjXBNA4DqyUxgVB0Tb4UssOxKRESWbK4/a8YkYdWdJQaBVZdO6i9stRmwXyujtL9ritFmQXjIr3CWZnDQWMMa533PKcAXKRyVkfxofXEonYSvTsX9u/Djz45mCDjgt/dRvpzFSjANFE+rhjXg/3g3eoB62BqR2URSPsYcpVlnojeHWYCbuSK7H6fBWIUiSVP2L6D0wKfXyvEUwlFzYjlR6NCkdR5MHiNAE/W/Eg7tiu6SSHH5sHVg5vRDQ2hZGzqsoZmjcTnFicAq+++/EzIcGASzJ5S0r1ZKJA=="/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Content\Soundbank"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

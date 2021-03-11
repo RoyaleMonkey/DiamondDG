@@ -1,6 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" SchemaVersion="97">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" ShortID="149500145">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="DarkWorld_Flute_V2" ID="{7E768F9D-21DA-4814-AB40-5035D9F6DE82}" ShortID="79644968">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="126082.970521542"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="DarkWorld_Flute_V2" ID="{07278D9F-AC21-49E9-B385-746A92C69D87}" ShortID="337638669">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DarkWorld_Flute_V2" ID="{F4D8BE27-582B-48FC-8D84-B96B77C31D1F}">
+											<Language>SFX</Language>
+											<AudioFile>DarkWorld_Flute_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1047465193"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AE8ED3A3-A8BA-4772-A0A4-1C34BA937584}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{764453F2-F96B-4A88-9262-9572AAC37210}">
+											<ClipList>
+												<MusicClip Name="DarkWorld_Flute_V2" ID="{45DCAA9F-4436-4689-AB1B-7418AFD71E92}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="126082.970521542"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="DarkWorld_Flute_V2" ID="{F4D8BE27-582B-48FC-8D84-B96B77C31D1F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{F5FFEB28-BFC3-4905-BF7B-F2B98AB7344F}"/>
+								<MusicCue Name="Exit Cue" ID="{42183A31-BD2C-4B9D-8492-D258622EEA5C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="126082.970521542"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Silence20s" ID="{D6ECB9CD-5F4F-4D3E-A3AD-5DD1E4672A2C}" ShortID="404627138">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="29110.7419712071"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{005DAA82-9E20-4F48-BE47-4D8138DA2EF9}"/>
+								<MusicCue Name="Exit Cue" ID="{AFE27243-AA1A-43F0-807E-5A46038C132F}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="20016.6112956811"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{F7AC48A2-0D51-4259-8EAF-E8AE0BDC0898}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{2059860C-4A0D-4A1D-988E-819E23F58993}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{CA6EBA17-C618-48E0-9628-DEE40E50F89F}" ShortID="872039615">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{1387388E-6416-4691-8CD9-2FB835EAAA1A}" ShortID="942411560">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="DarkWorld_Flute_V2" ID="{7E768F9D-21DA-4814-AB40-5035D9F6DE82}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{F2A02C41-5C50-4527-B40C-02AE0032E2F7}" ShortID="146641435">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Silence20s" ID="{D6ECB9CD-5F4F-4D3E-A3AD-5DD1E4672A2C}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

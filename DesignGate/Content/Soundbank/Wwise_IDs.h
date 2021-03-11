@@ -14,11 +14,34 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AMB = 2959533290U;
+        static const AkUniqueID PLAY_AMB_FOUNTAIN = 570117905U;
+        static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
+        static const AkUniqueID PLAY_MC_STEP = 3531921507U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace MC_MVTSTATE
+        {
+            static const AkUniqueID GROUP = 3043323106U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID JUMP = 3833651337U;
+                static const AkUniqueID LAND = 674522502U;
+                static const AkUniqueID SCUFF = 2332106820U;
+                static const AkUniqueID WALK_RUN = 2951998248U;
+            } // namespace SWITCH
+        } // namespace MC_MVTSTATE
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID MC_SPEED = 1227053913U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

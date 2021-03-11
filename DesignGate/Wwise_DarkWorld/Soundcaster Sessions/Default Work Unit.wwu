@@ -15,9 +15,15 @@
 							<GameParameterRef Name="Distance" ID="{CF86ACDA-065D-4621-9788-1BE866EF64CF}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MC_Speed" ID="{D0915ADA-C332-48B2-B976-B0F0003A8577}"/>
+							<Value>8.33438055082695E-312</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Jump" ID="{1CE1BF98-2832-419E-847E-B6EFA0044C62}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

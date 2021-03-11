@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2EAB82F0-7C6E-483D-B142-DB299B661E1C}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{2EAB82F0-7C6E-483D-B142-DB299B661E1C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2EAB82F0-7C6E-483D-B142-DB299B661E1C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="MC_MvtState" ID="{112F9604-BBB9-4759-A200-48B5E557EB66}">
+					<ChildrenList>
+						<Switch Name="Jump" ID="{1CE1BF98-2832-419E-847E-B6EFA0044C62}"/>
+						<Switch Name="Scuff" ID="{47BE33F3-CBC0-4369-A6A8-D28D29C901EE}"/>
+						<Switch Name="Land" ID="{E0B12E9B-FC7D-45B1-815F-E673E4142F69}"/>
+						<Switch Name="Walk_Run" ID="{AE6E0446-601A-464B-A2D4-83CF61AE35E4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

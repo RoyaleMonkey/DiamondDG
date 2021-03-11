@@ -9,18 +9,42 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
+		<File Id="40280027" Language="SFX">
+			<ShortName>AMB_Fountain_Close_ST_05.wav</ShortName>
+			<Path>SFX\AMB_Fountain_Close_ST_05_D79FB2B7.wem</Path>
+		</File>
+		<File Id="41454883" Language="SFX">
+			<ShortName>AMB_Fountain_Close_ST_01.wav</ShortName>
+			<Path>SFX\AMB_Fountain_Close_ST_01_D79FB2B7.wem</Path>
+		</File>
 		<File Id="269732270" Language="SFX">
 			<ShortName>Amb_Wind_Forest_LP.wav</ShortName>
 			<Path>SFX\Amb_Wind_Forest_LP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="798718137" Language="SFX">
+			<ShortName>AMB_Fountain_Close_ST_06.wav</ShortName>
+			<Path>SFX\AMB_Fountain_Close_ST_06_D79FB2B7.wem</Path>
 		</File>
 		<File Id="836678601" Language="SFX">
 			<ShortName>Amb_Forest_Biome_LP.wav</ShortName>
 			<Path>SFX\Amb_Forest_Biome_LP_D79FB2B7.wem</Path>
 		</File>
+		<File Id="842331082" Language="SFX">
+			<ShortName>AMB_Fountain_Close_ST_04.wav</ShortName>
+			<Path>SFX\AMB_Fountain_Close_ST_04_D79FB2B7.wem</Path>
+		</File>
+		<File Id="865947433" Language="SFX">
+			<ShortName>AMB_Fountain_Close_ST_03.wav</ShortName>
+			<Path>SFX\AMB_Fountain_Close_ST_03_D79FB2B7.wem</Path>
+		</File>
+		<File Id="973144023" Language="SFX">
+			<ShortName>AMB_Fountain_Close_ST_02.wav</ShortName>
+			<Path>SFX\AMB_Fountain_Close_ST_02_D79FB2B7.wem</Path>
+		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4104346182">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1814610640">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -28,12 +52,12 @@
 				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="4220194057">
+		<SoundBank Id="4056684167" Language="SFX" Hash="866357765">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\Play_Amb">
+				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb">
 					<ReferencedStreamedFiles>
 						<File Id="269732270" Language="SFX">
 							<ShortName>Amb_Wind_Forest_LP.wav</ShortName>
@@ -1018,10 +1042,227 @@
 						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="570117905" Name="Play_Amb_Fountain" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fountain" MaxAttenuation="4500.000000">
+					<ReferencedStreamedFiles>
+						<File Id="40280027" Language="SFX">
+							<ShortName>AMB_Fountain_Close_ST_05.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_ST_05_D79FB2B7.wem</Path>
+						</File>
+						<File Id="41454883" Language="SFX">
+							<ShortName>AMB_Fountain_Close_ST_01.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_ST_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="798718137" Language="SFX">
+							<ShortName>AMB_Fountain_Close_ST_06.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_ST_06_D79FB2B7.wem</Path>
+						</File>
+						<File Id="842331082" Language="SFX">
+							<ShortName>AMB_Fountain_Close_ST_04.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_ST_04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="865947433" Language="SFX">
+							<ShortName>AMB_Fountain_Close_ST_03.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_ST_03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="973144023" Language="SFX">
+							<ShortName>AMB_Fountain_Close_ST_02.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_ST_02_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="111309467" Language="SFX">
+							<ShortName>AMB_Fountain_Close_M_01.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_M_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="711516404" Language="SFX">
+							<ShortName>AMB_Fountain_Close_M_03.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_M_03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="805102534" Language="SFX">
+							<ShortName>AMB_Fountain_Close_M_02.wav</ShortName>
+							<Path>SFX\AMB_Fountain_Close_M_02_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP" MaxAttenuation="8000.000000">
+					<IncludedMemoryFiles>
+						<File Id="498618" Language="SFX">
+							<ShortName>AMB_Lake_LP.wav</ShortName>
+							<Path>SFX\AMB_Lake_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3531921507" Name="Play_MC_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Step">
+					<IncludedMemoryFiles>
+						<File Id="13778513" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_03_10C4C929.wem</Path>
+						</File>
+						<File Id="31094058" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="152823296" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_05_10C4C929.wem</Path>
+						</File>
+						<File Id="157228708" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_06_10C4C929.wem</Path>
+						</File>
+						<File Id="169809182" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_04_10C4C929.wem</Path>
+						</File>
+						<File Id="244319818" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_Light_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_Light_01_10C4C929.wem</Path>
+						</File>
+						<File Id="251813235" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_Light_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_Light_04_10C4C929.wem</Path>
+						</File>
+						<File Id="272839001" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_03_10C4C929.wem</Path>
+						</File>
+						<File Id="297340625" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_Light_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_Light_05_10C4C929.wem</Path>
+						</File>
+						<File Id="297399665" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_07_10C4C929.wem</Path>
+						</File>
+						<File Id="522328493" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_02_10C4C929.wem</Path>
+						</File>
+						<File Id="579006242" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_Light_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_Light_03_10C4C929.wem</Path>
+						</File>
+						<File Id="694678014" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_02_10C4C929.wem</Path>
+						</File>
+						<File Id="699328330" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_Light_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_Light_02_10C4C929.wem</Path>
+						</File>
+						<File Id="714702877" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="785883112" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_01_10C4C929.wem</Path>
+						</File>
+						<File Id="833694990" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_Light_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_Light_06_10C4C929.wem</Path>
+						</File>
+						<File Id="849996687" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_06_10C4C929.wem</Path>
+						</File>
+						<File Id="901616726" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_08_10C4C929.wem</Path>
+						</File>
+						<File Id="918300487" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_08_10C4C929.wem</Path>
+						</File>
+						<File Id="927101349" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="978782256" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_03_10C4C929.wem</Path>
+						</File>
+						<File Id="993921277" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1005895983" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1031192495" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Walk_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Walk_07_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{AE6E0446-601A-464B-A2D4-83CF61AE35E4}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1CE1BF98-2832-419E-847E-B6EFA0044C62}">
+							<Media>
+								<File Id="522328493"/>
+								<File Id="785883112"/>
+								<File Id="978782256"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E0B12E9B-FC7D-45B1-815F-E673E4142F69}">
+							<Media>
+								<File Id="244319818"/>
+								<File Id="251813235"/>
+								<File Id="297340625"/>
+								<File Id="579006242"/>
+								<File Id="699328330"/>
+								<File Id="833694990"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AE6E0446-601A-464B-A2D4-83CF61AE35E4}">
+							<Media>
+								<File Id="13778513"/>
+								<File Id="31094058"/>
+								<File Id="152823296"/>
+								<File Id="157228708"/>
+								<File Id="169809182"/>
+								<File Id="272839001"/>
+								<File Id="297399665"/>
+								<File Id="694678014"/>
+								<File Id="714702877"/>
+								<File Id="849996687"/>
+								<File Id="901616726"/>
+								<File Id="918300487"/>
+								<File Id="927101349"/>
+								<File Id="993921277"/>
+								<File Id="1005895983"/>
+								<File Id="1031192495"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music">
+					<IncludedMemoryFiles>
+						<File Id="1047465193" Language="SFX">
+							<ShortName>DarkWorld_Flute_V2.wav</ShortName>
+							<Path>SFX\DarkWorld_Flute_V2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="1227053913" Name="MC_Speed" ObjectPath="\Game Parameters\Default Work Unit\MC_Speed"/>
 				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">
+					<Switches>
+						<Switch Id="3833651337" Name="Jump" ObjectPath="\Switches\Default Work Unit\MC_MvtState\Jump"/>
+						<Switch Id="2332106820" Name="Scuff" ObjectPath="\Switches\Default Work Unit\MC_MvtState\Scuff"/>
+						<Switch Id="674522502" Name="Land" ObjectPath="\Switches\Default Work Unit\MC_MvtState\Land"/>
+						<Switch Id="2951998248" Name="Walk_Run" ObjectPath="\Switches\Default Work Unit\MC_MvtState\Walk_Run"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

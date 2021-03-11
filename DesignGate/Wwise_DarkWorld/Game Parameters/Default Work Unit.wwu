@@ -9,6 +9,12 @@
 						<Property Name="Max" Type="Real64" Value="500"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="MC_Speed" ID="{D0915ADA-C332-48B2-B976-B0F0003A8577}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="600"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

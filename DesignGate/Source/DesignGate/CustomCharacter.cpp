@@ -3,6 +3,7 @@
 
 #include "CustomCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 ACustomCharacter::ACustomCharacter()
@@ -55,7 +56,11 @@ void ACustomCharacter::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherA
 void ACustomCharacter::ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
 	if (OtherActor->ActorHasTag("Climb")) {
-		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
+		FHitResult hit;
+		FVector start = GetActorLocation();
+		if(GetWorld()->LineTraceSingleByChannel(hit,start,start+GetActorUpVector()*-2000,ECC_Visibility))
+			GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
+		DrawDebugLine(GetWorld(), start, start + GetActorUpVector() * -2000, FColor::Red);
 		GetCharacterMovement()->SetJumpAllowed(true);
 		isClimbing = false;
 		wallActor = nullptr;

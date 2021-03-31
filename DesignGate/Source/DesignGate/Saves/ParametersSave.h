@@ -7,10 +7,10 @@
 UENUM(BlueprintType)
 enum class MusicInput : uint8
 {
-	B_RT,
-	X_LB,
-	Y_RB,
-	LT
+	LT,
+	LB,
+	RT,
+	RB
 };
 
 USTRUCT(BlueprintType)

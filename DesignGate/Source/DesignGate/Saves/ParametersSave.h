@@ -5,6 +5,26 @@
 #include "ParametersSave.generated.h"
 
 UENUM(BlueprintType)
+enum class MusicInput : uint8
+{
+	B_RT,
+	X_LB,
+	Y_RB,
+	LT
+};
+
+USTRUCT(BlueprintType)
+struct FMultiMusicInput
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<MusicInput> valableInput;
+
+};
+
+
+UENUM(BlueprintType)
 enum class ShieldModes : uint8
 {
 	STOP,

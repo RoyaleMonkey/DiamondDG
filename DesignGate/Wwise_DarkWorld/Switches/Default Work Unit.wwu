@@ -11,6 +11,13 @@
 						<Switch Name="Walk_Run" ID="{AE6E0446-601A-464B-A2D4-83CF61AE35E4}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Material" ID="{4993603F-BAF7-4375-A52F-52EBC62934D6}">
+					<ChildrenList>
+						<Switch Name="Grass_Short" ID="{B5F3AFED-5CB8-42C5-86A3-5A45DE8B5EBE}"/>
+						<Switch Name="Stone" ID="{8D6ACE41-66E2-4999-BBA1-62A501D89565}"/>
+						<Switch Name="Water_Shallow" ID="{7898D5D5-67F8-4983-A864-CBFC8B0819D3}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

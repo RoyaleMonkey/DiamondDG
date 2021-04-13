@@ -23,6 +23,18 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace MATERIAL
+        {
+            static const AkUniqueID GROUP = 3865314626U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GRASS_SHORT = 2705388594U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WATER_SHALLOW = 122593115U;
+            } // namespace SWITCH
+        } // namespace MATERIAL
+
         namespace MC_MVTSTATE
         {
             static const AkUniqueID GROUP = 3043323106U;

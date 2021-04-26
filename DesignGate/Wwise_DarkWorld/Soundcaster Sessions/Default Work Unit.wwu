@@ -6,8 +6,16 @@
 				<SoundcasterSession Name="Test" ID="{8712331C-D0F3-40FF-9F88-362C42DA0EE1}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="Flute_Start" ID="{62077525-81D4-47EC-8C3E-E63AA8CECCC0}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_End" ID="{F19D10B8-4AAD-4192-98FE-6FB57EE58FB5}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

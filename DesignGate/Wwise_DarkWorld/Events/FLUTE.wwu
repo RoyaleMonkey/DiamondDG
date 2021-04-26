@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}" SchemaVersion="97" RootDocumentID="{E5482311-EA18-40DD-A277-B2AA53354992}">
+	<Events>
+		<WorkUnit Name="FLUTE" ID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}" OwnerID="{E5482311-EA18-40DD-A277-B2AA53354992}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="16"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Flute_Start" ID="{62077525-81D4-47EC-8C3E-E63AA8CECCC0}">
+					<ChildrenList>
+						<Action Name="" ID="{C42045B6-0295-4525-836B-39B578F84BC9}" ShortID="718897431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flute_Start" ID="{3B5687F0-4D90-4F3F-A3F9-F4AC74A6652D}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{07F4171B-1783-4191-B4C2-330D42F2E092}" ShortID="366000953">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flute_Loop" ID="{286C6C76-CB06-4BD7-8BC6-A1922C226A7E}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{483326D0-99E6-4F9D-9452-6E946A9AED72}" ShortID="395797908">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flute_End" ID="{1AB73CD5-489E-4A3B-B20C-96C481B917C4}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Flute_End" ID="{F19D10B8-4AAD-4192-98FE-6FB57EE58FB5}">
+					<ChildrenList>
+						<Action Name="" ID="{6FE0AEB8-2B00-4C66-A983-925C04D7BF5C}" ShortID="248736780">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flute_Start" ID="{3B5687F0-4D90-4F3F-A3F9-F4AC74A6652D}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D1B5BBA0-9222-45F3-A3A7-39B02E70AA68}" ShortID="17937075">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flute_Loop" ID="{286C6C76-CB06-4BD7-8BC6-A1922C226A7E}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{62029337-1776-4F02-BEB6-084621C9CEBF}" ShortID="672121050">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flute_End" ID="{1AB73CD5-489E-4A3B-B20C-96C481B917C4}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

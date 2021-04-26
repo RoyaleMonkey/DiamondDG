@@ -6,16 +6,48 @@
 				<SoundcasterSession Name="Test" ID="{8712331C-D0F3-40FF-9F88-362C42DA0EE1}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Flute_Start" ID="{62077525-81D4-47EC-8C3E-E63AA8CECCC0}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<ObjectRef Name="Flute_C_Start" ID="{4EF452E9-451B-43FB-BC56-561A5534253B}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_C_End" ID="{0A60906A-E5D3-43CA-A0B1-8B7D2AA6DDBD}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Flute_End" ID="{F19D10B8-4AAD-4192-98FE-6FB57EE58FB5}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<ObjectRef Name="Flute_D_Start" ID="{62077525-81D4-47EC-8C3E-E63AA8CECCC0}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_D_End" ID="{F19D10B8-4AAD-4192-98FE-6FB57EE58FB5}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_DD_Start" ID="{296CDA01-719A-4878-AF4C-F1C329880DB9}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_DD_End" ID="{3CE63D3C-8E4F-4DE6-8FB5-BCBBB90917FB}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_F_Start" ID="{228B0FB6-CD65-4234-8C44-3BB56E2FF6EC}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_F_End" ID="{E2581310-BD8A-491A-8E94-96A09CFBEF55}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_G_Start" ID="{A585FB3F-4D4D-4A50-8913-692013886DD9}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flute_G_End" ID="{FEA618BE-D150-46BE-B2CA-127AFB2F5632}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

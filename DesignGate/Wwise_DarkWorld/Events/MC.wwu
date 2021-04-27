@@ -8,7 +8,18 @@
 						<Action Name="" ID="{26F423E0-EF82-4243-BD5F-F6AEB4F0B4C8}" ShortID="365572956">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Steps_Material" ID="{F7E95507-98D3-480F-972F-EF86BE5DE147}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+									<ObjectRef Name="MC_Steps" ID="{F7E95507-98D3-480F-972F-EF86BE5DE147}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_FOL_Step" ID="{CE7E1942-1380-4532-A5E3-31B92A35AB6B}">
+					<ChildrenList>
+						<Action Name="" ID="{8A5ED87A-C1C4-4576-9B82-71E3AC20C12D}" ShortID="1000410281">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_FOL_Step" ID="{EB763515-F246-4E69-B415-B111CF40666B}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

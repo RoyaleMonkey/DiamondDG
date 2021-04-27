@@ -18,6 +18,12 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<Bus Name="MC" ID="{A6DFCCB4-8F4C-40F9-A387-7A1923B1E27B}">
+							<ChildrenList>
+								<Bus Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}"/>
+								<Bus Name="Footsteps" ID="{F3F56342-3CD1-445D-9EC1-AE30BF17318A}"/>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

@@ -25,6 +25,94 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MC_FOL_Jump" ID="{7D85A03A-27FC-4C23-BAB9-D72489399172}">
+					<ChildrenList>
+						<Action Name="" ID="{A251C916-3394-4E7D-9EC1-8054F825C21F}" ShortID="863159945">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_FOL_Jump" ID="{67AF8419-7AF1-4324-B730-1AB927D6492F}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_FOL_Land" ID="{66D2954A-636E-4373-8E75-2B0640B577D2}">
+					<ChildrenList>
+						<Action Name="" ID="{169D2571-5995-482E-989D-8B027316108D}" ShortID="483356943">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_FOL_Land" ID="{DBDB5BE2-98F6-45B3-BBC8-D180A2F87CB5}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_FOL_Scuff" ID="{A45F167F-E3D2-476C-8B63-46D279580960}">
+					<ChildrenList>
+						<Action Name="" ID="{7EAACCFF-9E2A-4004-B325-94F2A7F050E5}" ShortID="18558013">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_FOL_Scuff" ID="{F1C2CDCB-A019-40AE-AC01-6C13D406847A}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_FOL_Pivot" ID="{0279391D-DCA8-4396-88FE-0A1110571336}">
+					<ChildrenList>
+						<Action Name="" ID="{E81E403E-B667-45D8-B67C-E3465BFD3DDA}" ShortID="291403389">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_FOL_Pivot" ID="{3176F166-EF0D-4AAE-B731-6000727A9C7F}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_GPE_PlantPlatorm" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}">
+					<ChildrenList>
+						<Action Name="" ID="{E6FBC02E-421F-4030-89F8-5F3320E7443A}" ShortID="879494714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_GPE_PlantPlatorm" ID="{AE2AAD33-C0E6-41E2-9A35-004A7D3E81BA}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_GPE_Bumper" ID="{D2A0E9AD-2691-479B-AAF4-7D3DDA19A861}">
+					<ChildrenList>
+						<Action Name="" ID="{E8E18654-6FC4-43F3-B6E0-FFC49B70E57B}" ShortID="552083193">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Taps" ID="{C2C5B654-32D4-45A5-8CF3-636494E3F970}">
+					<ChildrenList>
+						<Action Name="" ID="{4A7B648B-57AF-4318-94AC-40C9CFE126DF}" ShortID="1010008158">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Taps" ID="{75620F22-58B2-430C-B36C-59B54B8B527C}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Jump" ID="{14B3DBCF-7567-4356-8292-495561168EDC}">
+					<ChildrenList>
+						<Action Name="" ID="{A4C66A1D-9E55-479B-83DB-391EC0B2FF89}" ShortID="756079215">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Steps" ID="{F7E95507-98D3-480F-972F-EF86BE5DE147}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

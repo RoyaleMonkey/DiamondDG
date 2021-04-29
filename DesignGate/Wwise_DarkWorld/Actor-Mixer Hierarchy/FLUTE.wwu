@@ -8,8 +8,15 @@
 			</PropertyList>
 			<ChildrenList>
 				<Folder Name="D" ID="{422EB895-2E41-4419-870F-8EB8BCE9FF89}" ShortID="776415208">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
-						<BlendContainer Name="Flute_End" ID="{1AB73CD5-489E-4A3B-B20C-96C481B917C4}" ShortID="166972219">
+						<BlendContainer Name="Flute_D_End" ID="{1AB73CD5-489E-4A3B-B20C-96C481B917C4}" ShortID="166972219">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -19,7 +26,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_End" ID="{FE3D9008-F729-4251-B790-45BBFDE692A0}" ShortID="1044394430">
+								<RandomSequenceContainer Name="Flute_D_Layer_End" ID="{FE3D9008-F729-4251-B790-45BBFDE692A0}" ShortID="1044394430">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -53,7 +60,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_End" ID="{F7A7F0E9-A5BE-41D6-B390-75CE073D2866}" ShortID="457821126">
+								<RandomSequenceContainer Name="Flute_D_Main_End" ID="{F7A7F0E9-A5BE-41D6-B390-75CE073D2866}" ShortID="457821126">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -87,7 +94,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_End" ID="{79C702EB-25F7-40B9-8D6F-6E5F68404056}" ShortID="623394597">
+								<RandomSequenceContainer Name="Flute_D_Reverb_End" ID="{79C702EB-25F7-40B9-8D6F-6E5F68404056}" ShortID="623394597">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -123,7 +130,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Loop" ID="{286C6C76-CB06-4BD7-8BC6-A1922C226A7E}" ShortID="778680252">
+						<BlendContainer Name="Flute_D_Loop" ID="{286C6C76-CB06-4BD7-8BC6-A1922C226A7E}" ShortID="778680252">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -133,7 +140,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_Loop" ID="{B33E5DF1-60CC-4FB9-A987-05A138A56421}" ShortID="154149935">
+								<RandomSequenceContainer Name="Flute_D_Layer_Loop" ID="{B33E5DF1-60CC-4FB9-A987-05A138A56421}" ShortID="154149935">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -171,7 +178,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Loop" ID="{6EA566DC-7894-44E1-807A-0780086AAA4F}" ShortID="204962433">
+								<RandomSequenceContainer Name="Flute_D_Main_Loop" ID="{6EA566DC-7894-44E1-807A-0780086AAA4F}" ShortID="204962433">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -209,7 +216,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Loop" ID="{EE5B057B-7F56-4EC2-8E7C-88B9315ABF83}" ShortID="920194505">
+								<RandomSequenceContainer Name="Flute_D_Reverb_Loop" ID="{EE5B057B-7F56-4EC2-8E7C-88B9315ABF83}" ShortID="920194505">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -249,7 +256,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Start" ID="{3B5687F0-4D90-4F3F-A3F9-F4AC74A6652D}" ShortID="785900229">
+						<BlendContainer Name="Flute_D_Start" ID="{3B5687F0-4D90-4F3F-A3F9-F4AC74A6652D}" ShortID="785900229">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -259,7 +266,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Breath" ID="{4218897C-C799-49E1-9079-05D5BC75A55B}" ShortID="697166562">
+								<RandomSequenceContainer Name="Flute_D_Breath" ID="{4218897C-C799-49E1-9079-05D5BC75A55B}" ShortID="697166562">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -293,7 +300,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Layer_Start" ID="{D60D4F4B-0874-4989-9E2F-91C1E094ED5D}" ShortID="644538702">
+								<RandomSequenceContainer Name="Flute_D_Layer_Start" ID="{D60D4F4B-0874-4989-9E2F-91C1E094ED5D}" ShortID="644538702">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -327,7 +334,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Start" ID="{8575620A-7287-4561-87A9-EEC3A8229297}" ShortID="924301352">
+								<RandomSequenceContainer Name="Flute_D_Main_Start" ID="{8575620A-7287-4561-87A9-EEC3A8229297}" ShortID="924301352">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -361,7 +368,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Start" ID="{3007BC53-6DC1-4979-B74E-476F76D23953}" ShortID="52719434">
+								<RandomSequenceContainer Name="Flute_D_Reverb_Start" ID="{3007BC53-6DC1-4979-B74E-476F76D23953}" ShortID="52719434">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -399,9 +406,9 @@
 						</BlendContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="DD" ID="{B514E29D-A5B3-4230-8005-545ED43EA3E7}" ShortID="88266231">
+				<Folder Name="DS" ID="{B514E29D-A5B3-4230-8005-545ED43EA3E7}" ShortID="88266231">
 					<ChildrenList>
-						<BlendContainer Name="Flute_End" ID="{58C8BAAC-7A34-48CD-8458-15A7BF3372B1}" ShortID="678848131">
+						<BlendContainer Name="Flute_DS_End" ID="{58C8BAAC-7A34-48CD-8458-15A7BF3372B1}" ShortID="678848131">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -411,7 +418,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_End" ID="{FC07AD01-52BA-4B1C-9F30-3A41B283532B}" ShortID="1015890477">
+								<RandomSequenceContainer Name="Flute_DS_Layer_End" ID="{FC07AD01-52BA-4B1C-9F30-3A41B283532B}" ShortID="1015890477">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -445,7 +452,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_End" ID="{66844E7B-F727-4FB6-AE2C-6AB39701583D}" ShortID="27335470">
+								<RandomSequenceContainer Name="Flute_DS_Main_End" ID="{66844E7B-F727-4FB6-AE2C-6AB39701583D}" ShortID="27335470">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -466,6 +473,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Flt_D#_Main_End" ID="{31DB5563-34EC-4EDC-96F7-4DEF2A7FE85A}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.88651433443953"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.00311347713864"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Flt_D#_Main_End.wav</AudioFile>
 													<MediaIDList>
@@ -479,7 +492,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_End" ID="{8BC2B94D-94AA-447B-9CFB-06649F3C2B20}" ShortID="345533163">
+								<RandomSequenceContainer Name="Flute_DS_Reverb_End" ID="{8BC2B94D-94AA-447B-9CFB-06649F3C2B20}" ShortID="345533163">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -515,7 +528,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Loop" ID="{956D86E7-4374-40D5-9199-5A688ED049A9}" ShortID="193621442">
+						<BlendContainer Name="Flute_DS_Loop" ID="{956D86E7-4374-40D5-9199-5A688ED049A9}" ShortID="193621442">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -525,7 +538,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_Loop" ID="{C0FB39B7-355B-4DFA-871C-B1B327672A59}" ShortID="108030468">
+								<RandomSequenceContainer Name="Flute_DS_Layer_Loop" ID="{C0FB39B7-355B-4DFA-871C-B1B327672A59}" ShortID="108030468">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -563,7 +576,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Loop" ID="{A122D8DD-EB92-4E1B-8F76-6CBFC1DA62DD}" ShortID="1013844074">
+								<RandomSequenceContainer Name="Flute_DS_Main_Loop" ID="{A122D8DD-EB92-4E1B-8F76-6CBFC1DA62DD}" ShortID="1013844074">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -601,7 +614,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Loop" ID="{172CAD2E-71E8-4890-AE8C-1C1670A3CFA9}" ShortID="869286832">
+								<RandomSequenceContainer Name="Flute_DS_Reverb_Loop" ID="{172CAD2E-71E8-4890-AE8C-1C1670A3CFA9}" ShortID="869286832">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -641,7 +654,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Start" ID="{33EE8503-573F-44A7-A577-AC0EBC1E9D81}" ShortID="197562349">
+						<BlendContainer Name="Flute_DS_Start" ID="{33EE8503-573F-44A7-A577-AC0EBC1E9D81}" ShortID="197562349">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -651,7 +664,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Breath" ID="{C2723AFE-F3CC-4E9F-9A1F-EC3E9EBD853F}" ShortID="255345349">
+								<RandomSequenceContainer Name="Flute_DS_Breath" ID="{C2723AFE-F3CC-4E9F-9A1F-EC3E9EBD853F}" ShortID="255345349">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -685,7 +698,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Layer_Start" ID="{251B5908-AC23-4E1C-BBF6-352F3552CD7D}" ShortID="394160111">
+								<RandomSequenceContainer Name="Flute_DS_Layer_Start" ID="{251B5908-AC23-4E1C-BBF6-352F3552CD7D}" ShortID="394160111">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -719,7 +732,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Start" ID="{ABF7F82D-1337-422F-8372-BB8F6A26F206}" ShortID="540275826">
+								<RandomSequenceContainer Name="Flute_DS_Main_Start" ID="{ABF7F82D-1337-422F-8372-BB8F6A26F206}" ShortID="540275826">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -753,7 +766,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Start" ID="{CDB81328-42F2-4EB7-9B6F-E9770616DB42}" ShortID="529480810">
+								<RandomSequenceContainer Name="Flute_DS_Reverb_Start" ID="{CDB81328-42F2-4EB7-9B6F-E9770616DB42}" ShortID="529480810">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -793,7 +806,7 @@
 				</Folder>
 				<Folder Name="F" ID="{EE476932-9F71-49D2-9766-60AA3F461618}" ShortID="897003051">
 					<ChildrenList>
-						<BlendContainer Name="Flute_End" ID="{B0B1B9C3-CD3F-453A-B26F-12436EE01DCD}" ShortID="464190755">
+						<BlendContainer Name="Flute_F_End" ID="{B0B1B9C3-CD3F-453A-B26F-12436EE01DCD}" ShortID="464190755">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -803,7 +816,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_End" ID="{AAFA24D1-01F2-4C0C-9D0A-C8C9CB58C3AE}" ShortID="464574010">
+								<RandomSequenceContainer Name="Flute_F_Layer_End" ID="{AAFA24D1-01F2-4C0C-9D0A-C8C9CB58C3AE}" ShortID="464574010">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -837,7 +850,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_End" ID="{E89AD9E1-52A7-4D0B-AFE3-03D33DD389FC}" ShortID="265831557">
+								<RandomSequenceContainer Name="Flute_F_Main_End" ID="{E89AD9E1-52A7-4D0B-AFE3-03D33DD389FC}" ShortID="265831557">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -858,6 +871,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Flt_F_Main_End" ID="{DA3079C7-F5A6-425C-B85C-47A9CED8A653}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.99414431231563"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.01806208517699"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Flt_F_Main_End.wav</AudioFile>
 													<MediaIDList>
@@ -871,7 +890,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_End" ID="{E9EB0493-1870-4D9D-B118-C1ECA30859D4}" ShortID="912840302">
+								<RandomSequenceContainer Name="Flute_F_Reverb_End" ID="{E9EB0493-1870-4D9D-B118-C1ECA30859D4}" ShortID="912840302">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -907,7 +926,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Loop" ID="{C6355952-5784-473F-90D6-3A5878A730A4}" ShortID="738279994">
+						<BlendContainer Name="Flute_F_Loop" ID="{C6355952-5784-473F-90D6-3A5878A730A4}" ShortID="738279994">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -917,7 +936,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_Loop" ID="{A1A01345-D966-44C2-A7A3-41CA52278CA7}" ShortID="644287558">
+								<RandomSequenceContainer Name="Flute_F_Layer_Loop" ID="{A1A01345-D966-44C2-A7A3-41CA52278CA7}" ShortID="644287558">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -955,7 +974,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Loop" ID="{A92BA4B6-34F7-42F9-9C64-CC5A337C1755}" ShortID="125879842">
+								<RandomSequenceContainer Name="Flute_F_Main_Loop" ID="{A92BA4B6-34F7-42F9-9C64-CC5A337C1755}" ShortID="125879842">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -993,7 +1012,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Loop" ID="{D5DABEF7-4791-40F9-B035-8B2A1E75AACC}" ShortID="552801128">
+								<RandomSequenceContainer Name="Flute_F_Reverb_Loop" ID="{D5DABEF7-4791-40F9-B035-8B2A1E75AACC}" ShortID="552801128">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -1033,7 +1052,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Start" ID="{3BF0BD7A-3EFC-4D9E-82F4-F78D709970F3}" ShortID="288740061">
+						<BlendContainer Name="Flute_F_Start" ID="{3BF0BD7A-3EFC-4D9E-82F4-F78D709970F3}" ShortID="288740061">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1043,7 +1062,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Breath" ID="{A2CABE7E-5C3C-4169-B0B5-C68D716F41E0}" ShortID="795260389">
+								<RandomSequenceContainer Name="Flute_F_Breath" ID="{A2CABE7E-5C3C-4169-B0B5-C68D716F41E0}" ShortID="795260389">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1077,7 +1096,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Layer_Start" ID="{2972E528-3071-4B0F-B51A-C6244AFC642C}" ShortID="897920358">
+								<RandomSequenceContainer Name="Flute_F_Layer_Start" ID="{2972E528-3071-4B0F-B51A-C6244AFC642C}" ShortID="897920358">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1111,7 +1130,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Start" ID="{E561A4D7-E417-4DF1-A849-8C778DCA8FB1}" ShortID="742908486">
+								<RandomSequenceContainer Name="Flute_F_Main_Start" ID="{E561A4D7-E417-4DF1-A849-8C778DCA8FB1}" ShortID="742908486">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1145,7 +1164,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Start" ID="{428E0364-CA15-44FF-9770-3C864F7EBB0A}" ShortID="763781619">
+								<RandomSequenceContainer Name="Flute_F_Reverb_Start" ID="{428E0364-CA15-44FF-9770-3C864F7EBB0A}" ShortID="763781619">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1185,7 +1204,7 @@
 				</Folder>
 				<Folder Name="G" ID="{7B00F2DE-4233-49C7-BBB8-3A48E1EDD191}" ShortID="95364524">
 					<ChildrenList>
-						<BlendContainer Name="Flute_End" ID="{E177E264-15B3-4CF9-9A25-0ABE286C43D6}" ShortID="197262583">
+						<BlendContainer Name="Flute_G_End" ID="{E177E264-15B3-4CF9-9A25-0ABE286C43D6}" ShortID="197262583">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1195,7 +1214,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_End" ID="{C73C2CBD-F14B-4D53-A517-DF4409AA56F7}" ShortID="558598146">
+								<RandomSequenceContainer Name="Flute_G_Layer_End" ID="{C73C2CBD-F14B-4D53-A517-DF4409AA56F7}" ShortID="558598146">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1229,7 +1248,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_End" ID="{9DD75FF9-B864-43FE-A909-D2B85D6AE6C3}" ShortID="205303800">
+								<RandomSequenceContainer Name="Flute_G_Main_End" ID="{9DD75FF9-B864-43FE-A909-D2B85D6AE6C3}" ShortID="205303800">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1250,6 +1269,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Flt_G_Main_End" ID="{BB8EC5FB-BB11-4D8C-A86C-F03017564197}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.8984732208702"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.00610319874631"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Flt_G_Main_End.wav</AudioFile>
 													<MediaIDList>
@@ -1263,7 +1288,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_End" ID="{EE74F356-38C2-42B9-A2CE-EE7364919194}" ShortID="551288851">
+								<RandomSequenceContainer Name="Flute_G_Reverb_End" ID="{EE74F356-38C2-42B9-A2CE-EE7364919194}" ShortID="551288851">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1299,7 +1324,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Loop" ID="{5C703B2C-007E-4BA9-8222-1D4F01AA9255}" ShortID="694994501">
+						<BlendContainer Name="Flute_G_Loop" ID="{5C703B2C-007E-4BA9-8222-1D4F01AA9255}" ShortID="694994501">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1309,7 +1334,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_Loop" ID="{FA32B21D-9BAE-4E1A-B081-A6D99DCF9362}" ShortID="467548811">
+								<RandomSequenceContainer Name="Flute_G_Layer_Loop" ID="{FA32B21D-9BAE-4E1A-B081-A6D99DCF9362}" ShortID="467548811">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -1347,7 +1372,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Loop" ID="{C7EA8533-227C-461A-BCFF-663C63B5B24E}" ShortID="809507100">
+								<RandomSequenceContainer Name="Flute_G_Main_Loop" ID="{C7EA8533-227C-461A-BCFF-663C63B5B24E}" ShortID="809507100">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -1385,7 +1410,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Loop" ID="{459946F1-49C5-44AB-B9C2-5D6AEBB91900}" ShortID="490456857">
+								<RandomSequenceContainer Name="Flute_G_Reverb_Loop" ID="{459946F1-49C5-44AB-B9C2-5D6AEBB91900}" ShortID="490456857">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -1425,7 +1450,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Start" ID="{EACAC0A4-F42A-4AF8-85E8-9D9B7C8B9CD6}" ShortID="423899048">
+						<BlendContainer Name="Flute_G_Start" ID="{EACAC0A4-F42A-4AF8-85E8-9D9B7C8B9CD6}" ShortID="423899048">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1435,7 +1460,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Breath" ID="{083A24F4-33B8-4FAF-ABD7-E8FC59753175}" ShortID="570497183">
+								<RandomSequenceContainer Name="Flute_G_Breath" ID="{083A24F4-33B8-4FAF-ABD7-E8FC59753175}" ShortID="570497183">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1469,7 +1494,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Layer_Start" ID="{ADBA650A-6FA0-4255-BDD3-A3FD809D82E7}" ShortID="995458623">
+								<RandomSequenceContainer Name="Flute_G_Layer_Start" ID="{ADBA650A-6FA0-4255-BDD3-A3FD809D82E7}" ShortID="995458623">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1503,7 +1528,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Start" ID="{B4156E35-3C67-43B9-82CA-A318DAEAA032}" ShortID="596659051">
+								<RandomSequenceContainer Name="Flute_G_Main_Start" ID="{B4156E35-3C67-43B9-82CA-A318DAEAA032}" ShortID="596659051">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1537,7 +1562,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Start" ID="{338B4FFE-2CA7-4D7D-AD4D-F45955FCAFA6}" ShortID="186150503">
+								<RandomSequenceContainer Name="Flute_G_Reverb_Start" ID="{338B4FFE-2CA7-4D7D-AD4D-F45955FCAFA6}" ShortID="186150503">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1577,7 +1602,7 @@
 				</Folder>
 				<Folder Name="C" ID="{5B1590EC-F428-466B-865C-11C6775FBD56}" ShortID="812985545">
 					<ChildrenList>
-						<BlendContainer Name="Flute_End" ID="{624B70B4-7138-4A7A-8ADF-0DF74FFCFBF1}" ShortID="450005088">
+						<BlendContainer Name="Flute_C_End" ID="{624B70B4-7138-4A7A-8ADF-0DF74FFCFBF1}" ShortID="450005088">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1587,7 +1612,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_End" ID="{01F9C2AE-0459-44B3-A45B-58611710B541}" ShortID="239700352">
+								<RandomSequenceContainer Name="Flute_C_Layer_End" ID="{01F9C2AE-0459-44B3-A45B-58611710B541}" ShortID="239700352">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1621,7 +1646,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_End" ID="{B6319561-D8D7-4AED-B033-1C245A3BF296}" ShortID="85470012">
+								<RandomSequenceContainer Name="Flute_C_Main_End" ID="{B6319561-D8D7-4AED-B033-1C245A3BF296}" ShortID="85470012">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1642,6 +1667,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Flt_C_Main_End" ID="{4A278951-5269-4905-B96C-32DB9FA69BC7}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.89249377765487"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.00311347713864"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Flt_C_Main_End.wav</AudioFile>
 													<MediaIDList>
@@ -1655,7 +1686,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_End" ID="{EE7EB37B-D6DA-45E6-8B06-93587A0EFFF7}" ShortID="388020718">
+								<RandomSequenceContainer Name="Flute_C_Reverb_End" ID="{EE7EB37B-D6DA-45E6-8B06-93587A0EFFF7}" ShortID="388020718">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1691,7 +1722,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Loop" ID="{91D07710-06D1-4267-A0CA-FE5443723F6B}" ShortID="28894982">
+						<BlendContainer Name="Flute_C_Loop" ID="{91D07710-06D1-4267-A0CA-FE5443723F6B}" ShortID="28894982">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1701,7 +1732,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Layer_Loop" ID="{39258845-5455-4D59-85F0-565532B15400}" ShortID="979825448">
+								<RandomSequenceContainer Name="Flute_C_Layer_Loop" ID="{39258845-5455-4D59-85F0-565532B15400}" ShortID="979825448">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -1739,7 +1770,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Loop" ID="{522A509D-36E1-480B-A815-29C3B568C717}" ShortID="333073188">
+								<RandomSequenceContainer Name="Flute_C_Main_Loop" ID="{522A509D-36E1-480B-A815-29C3B568C717}" ShortID="333073188">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -1777,7 +1808,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Loop" ID="{270E8A35-08AB-48EA-9CDA-F88230B7B104}" ShortID="602276756">
+								<RandomSequenceContainer Name="Flute_C_Reverb_Loop" ID="{270E8A35-08AB-48EA-9CDA-F88230B7B104}" ShortID="602276756">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -1817,7 +1848,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Flute_Start" ID="{6ED7BA81-4123-4702-A7BB-FB8EF013BDB0}" ShortID="1064511370">
+						<BlendContainer Name="Flute_C_Start" ID="{6ED7BA81-4123-4702-A7BB-FB8EF013BDB0}" ShortID="1064511370">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1827,7 +1858,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Flute_Breath" ID="{2F879AB4-2EE2-4CCB-832D-AEFB656767CB}" ShortID="925191841">
+								<RandomSequenceContainer Name="Flute_C_Breath" ID="{2F879AB4-2EE2-4CCB-832D-AEFB656767CB}" ShortID="925191841">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1861,7 +1892,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Layer_Start" ID="{D7E457CB-1DC4-4B05-9606-C769BE187EDB}" ShortID="987046767">
+								<RandomSequenceContainer Name="Flute_C_Layer_Start" ID="{D7E457CB-1DC4-4B05-9606-C769BE187EDB}" ShortID="987046767">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1895,7 +1926,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Main_Start" ID="{9272988D-FB44-48A9-9044-80DC4DD21D3C}" ShortID="407012785">
+								<RandomSequenceContainer Name="Flute_C_Main_Start" ID="{9272988D-FB44-48A9-9044-80DC4DD21D3C}" ShortID="407012785">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1929,7 +1960,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Flute_Reverb_Start" ID="{81EB68A3-AB08-407C-9F87-9112E1282AD3}" ShortID="1063402234">
+								<RandomSequenceContainer Name="Flute_C_Reverb_Start" ID="{81EB68A3-AB08-407C-9F87-9112E1282AD3}" ShortID="1063402234">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>

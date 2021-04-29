@@ -17,8 +17,8 @@ namespace AK
         static const AkUniqueID FLUTE_C_START = 984296002U;
         static const AkUniqueID FLUTE_D_END = 2387598574U;
         static const AkUniqueID FLUTE_D_START = 3839819269U;
-        static const AkUniqueID FLUTE_DD_END = 3115172146U;
-        static const AkUniqueID FLUTE_DD_START = 2920546321U;
+        static const AkUniqueID FLUTE_DS_END = 2027045613U;
+        static const AkUniqueID FLUTE_DS_START = 3098025574U;
         static const AkUniqueID FLUTE_F_END = 3901381120U;
         static const AkUniqueID FLUTE_F_START = 4214291931U;
         static const AkUniqueID FLUTE_G_END = 1634689741U;

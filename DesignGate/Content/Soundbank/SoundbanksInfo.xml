@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -52,7 +52,7 @@
 				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="870351946">
+		<SoundBank Id="4056684167" Language="SFX" Hash="3179091145">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -69,7 +69,7 @@
 						</File>
 						<File Id="755490073" Language="SFX">
 							<ShortName>Flt_C_Main_End.wav</ShortName>
-							<Path>SFX\Flt_C_Main_End_D8C07C79.wem</Path>
+							<Path>SFX\Flt_C_Main_End_D5582FCA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -105,59 +105,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2387598574" Name="Flute_D_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_D_End">
-					<IncludedMemoryFiles>
-						<File Id="185484287" Language="SFX">
-							<ShortName>Flt_D_Main_End.wav</ShortName>
-							<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
-						</File>
-						<File Id="621618583" Language="SFX">
-							<ShortName>Flt_D_Reverb_End.wav</ShortName>
-							<Path>SFX\Flt_D_Reverb_End_D8C07C79.wem</Path>
-						</File>
-						<File Id="785499893" Language="SFX">
-							<ShortName>Flt_D_Layer_End.wav</ShortName>
-							<Path>SFX\Flt_D_Layer_End_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3839819269" Name="Flute_D_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_D_Start">
-					<IncludedMemoryFiles>
-						<File Id="476056095" Language="SFX">
-							<ShortName>Flt_D_Main_Start.wav</ShortName>
-							<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
-						</File>
-						<File Id="733805807" Language="SFX">
-							<ShortName>Flt_D_Reverb_Start.wav</ShortName>
-							<Path>SFX\Flt_D_Reverb_Start_D8C07C79.wem</Path>
-						</File>
-						<File Id="738348293" Language="SFX">
-							<ShortName>Flt_D_Breath.wav</ShortName>
-							<Path>SFX\Flt_D_Breath_D8C07C79.wem</Path>
-						</File>
-						<File Id="816672819" Language="SFX">
-							<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
-							<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
-						</File>
-						<File Id="867948560" Language="SFX">
-							<ShortName>Flt_D_Main_Loop.wav</ShortName>
-							<Path>SFX\Flt_D_Main_Loop_D8C07C79.wem</Path>
-						</File>
-						<File Id="978713243" Language="SFX">
-							<ShortName>Flt_D_Layer_Loop.wav</ShortName>
-							<Path>SFX\Flt_D_Layer_Loop_D8C07C79.wem</Path>
-						</File>
-						<File Id="1027134471" Language="SFX">
-							<ShortName>Flt_D_Layer_Start.wav</ShortName>
-							<Path>SFX\Flt_D_Layer_Start_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3115172146" Name="Flute_DD_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_DD_End">
+				<Event Id="2387598574" Name="Flute_D_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_D_End"/>
+				<Event Id="3839819269" Name="Flute_D_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_D_Start"/>
+				<Event Id="2027045613" Name="Flute_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_DS_End">
 					<IncludedMemoryFiles>
 						<File Id="50587423" Language="SFX">
 							<ShortName>Flt_D#_Main_End.wav</ShortName>
-							<Path>SFX\Flt_D#_Main_End_D8C07C79.wem</Path>
+							<Path>SFX\Flt_D#_Main_End_E24DF396.wem</Path>
 						</File>
 						<File Id="663326384" Language="SFX">
 							<ShortName>Flt_D#_Reverb_End.wav</ShortName>
@@ -169,7 +123,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2920546321" Name="Flute_DD_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_DD_Start">
+				<Event Id="3098025574" Name="Flute_DS_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_DS_Start">
 					<IncludedMemoryFiles>
 						<File Id="9877435" Language="SFX">
 							<ShortName>Flt_D#_Layer_Loop.wav</ShortName>
@@ -209,7 +163,7 @@
 						</File>
 						<File Id="680197971" Language="SFX">
 							<ShortName>Flt_F_Main_End.wav</ShortName>
-							<Path>SFX\Flt_F_Main_End_D8C07C79.wem</Path>
+							<Path>SFX\Flt_F_Main_End_27332A56.wem</Path>
 						</File>
 						<File Id="1057739009" Language="SFX">
 							<ShortName>Flt_F_Layer_End.wav</ShortName>
@@ -253,7 +207,7 @@
 					<IncludedMemoryFiles>
 						<File Id="38663786" Language="SFX">
 							<ShortName>Flt_G_Main_End.wav</ShortName>
-							<Path>SFX\Flt_G_Main_End_D8C07C79.wem</Path>
+							<Path>SFX\Flt_G_Main_End_416B1F72.wem</Path>
 						</File>
 						<File Id="269017053" Language="SFX">
 							<ShortName>Flt_G_Reverb_End.wav</ShortName>
@@ -4015,7 +3969,7 @@
 				</File>
 				<File Id="38663786" Language="SFX">
 					<ShortName>Flt_G_Main_End.wav</ShortName>
-					<Path>SFX\Flt_G_Main_End_D8C07C79.wem</Path>
+					<Path>SFX\Flt_G_Main_End_416B1F72.wem</Path>
 				</File>
 				<File Id="38722383" Language="SFX">
 					<ShortName>Flt_C_Reverb_End.wav</ShortName>
@@ -4055,7 +4009,7 @@
 				</File>
 				<File Id="50587423" Language="SFX">
 					<ShortName>Flt_D#_Main_End.wav</ShortName>
-					<Path>SFX\Flt_D#_Main_End_D8C07C79.wem</Path>
+					<Path>SFX\Flt_D#_Main_End_E24DF396.wem</Path>
 				</File>
 				<File Id="58382440" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Scops_Owl_B_04.wav</ShortName>
@@ -4332,10 +4286,6 @@
 				<File Id="183999045" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="185484287" Language="SFX">
-					<ShortName>Flt_D_Main_End.wav</ShortName>
-					<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="185875362" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Mistle_Thrush_15.wav</ShortName>
@@ -4985,10 +4935,6 @@
 					<ShortName>SFX_MC_FT_Dirt_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Land_03_D8C07C79.wem</Path>
 				</File>
-				<File Id="476056095" Language="SFX">
-					<ShortName>Flt_D_Main_Start.wav</ShortName>
-					<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="477171880" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_01_D8C07C79.wem</Path>
@@ -5297,10 +5243,6 @@
 					<ShortName>Amb_RFX_Bird_Tawny_Pipit_A_01.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Tawny_Pipit_A_01_D8C07C79.wem</Path>
 				</File>
-				<File Id="621618583" Language="SFX">
-					<ShortName>Flt_D_Reverb_End.wav</ShortName>
-					<Path>SFX\Flt_D_Reverb_End_D8C07C79.wem</Path>
-				</File>
 				<File Id="622253550" Language="SFX">
 					<ShortName>SFX_MC_Tap_Dirt_3.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Dirt_3_D8C07C79.wem</Path>
@@ -5459,7 +5401,7 @@
 				</File>
 				<File Id="680197971" Language="SFX">
 					<ShortName>Flt_F_Main_End.wav</ShortName>
-					<Path>SFX\Flt_F_Main_End_D8C07C79.wem</Path>
+					<Path>SFX\Flt_F_Main_End_27332A56.wem</Path>
 				</File>
 				<File Id="680612543" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Jump_05.wav</ShortName>
@@ -5613,10 +5555,6 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_06_D8C07C79.wem</Path>
 				</File>
-				<File Id="733805807" Language="SFX">
-					<ShortName>Flt_D_Reverb_Start.wav</ShortName>
-					<Path>SFX\Flt_D_Reverb_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="734283362" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Walk_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Walk_04_D8C07C79.wem</Path>
@@ -5624,10 +5562,6 @@
 				<File Id="737738012" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_08.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Run_08_D8C07C79.wem</Path>
-				</File>
-				<File Id="738348293" Language="SFX">
-					<ShortName>Flt_D_Breath.wav</ShortName>
-					<Path>SFX\Flt_D_Breath_D8C07C79.wem</Path>
 				</File>
 				<File Id="740215890" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Common_Cuckoo_C_02.wav</ShortName>
@@ -5663,7 +5597,7 @@
 				</File>
 				<File Id="755490073" Language="SFX">
 					<ShortName>Flt_C_Main_End.wav</ShortName>
-					<Path>SFX\Flt_C_Main_End_D8C07C79.wem</Path>
+					<Path>SFX\Flt_C_Main_End_D5582FCA.wem</Path>
 				</File>
 				<File Id="757761301" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Scuff_04.wav</ShortName>
@@ -5744,10 +5678,6 @@
 				<File Id="782596960" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Walk_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Walk_01_D8C07C79.wem</Path>
-				</File>
-				<File Id="785499893" Language="SFX">
-					<ShortName>Flt_D_Layer_End.wav</ShortName>
-					<Path>SFX\Flt_D_Layer_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="785883112" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Jump_01.wav</ShortName>
@@ -5832,10 +5762,6 @@
 				<File Id="816118979" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_02_D8C07C79.wem</Path>
-				</File>
-				<File Id="816672819" Language="SFX">
-					<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
-					<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="816790964" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Wren_01.wav</ShortName>
@@ -5924,10 +5850,6 @@
 				<File Id="861239046" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Ferruginous_Duck_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Ferruginous_Duck_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="867948560" Language="SFX">
-					<ShortName>Flt_D_Main_Loop.wav</ShortName>
-					<Path>SFX\Flt_D_Main_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="868839663" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Rock_Sparrow_A_03.wav</ShortName>
@@ -6157,10 +6079,6 @@
 					<ShortName>SFX_MC_FOL_Os_Run_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Run_04_D8C07C79.wem</Path>
 				</File>
-				<File Id="978713243" Language="SFX">
-					<ShortName>Flt_D_Layer_Loop.wav</ShortName>
-					<Path>SFX\Flt_D_Layer_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="978714519" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-002.wav</ShortName>
 					<Path>SFX\Amb_Wind_Tree_Lush_Med_RFX-002_D8C07C79.wem</Path>
@@ -6280,10 +6198,6 @@
 				<File Id="1023739985" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Cricket_F_07.wav</ShortName>
 					<Path>SFX\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem</Path>
-				</File>
-				<File Id="1027134471" Language="SFX">
-					<ShortName>Flt_D_Layer_Start.wav</ShortName>
-					<Path>SFX\Flt_D_Layer_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="1027557838" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Golden_Oriole_B_02.wav</ShortName>

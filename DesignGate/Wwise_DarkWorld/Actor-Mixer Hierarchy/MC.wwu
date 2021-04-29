@@ -20,7 +20,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-10</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -72,6 +72,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{2B24CECD-DF56-4306-9657-30CA38B95419}">
@@ -105,7 +108,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -258,7 +261,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1048,6 +1051,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C6E3A059-FB2E-4493-9CBA-F663D3FF9E37}">
@@ -1081,7 +1087,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1210,6 +1216,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2403,6 +2414,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Water_Shallow_Steps" ID="{70934CA4-975A-4AD2-878E-E92C3096D9FC}" ShortID="747875789">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -2934,6 +2952,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{D51DF73E-EF10-4AC5-A77C-848133D1C708}">
@@ -4898,6 +4919,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{71C2294E-116C-4C78-9663-F18DD58EE574}">
@@ -4927,6 +4951,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Water_Puddle_Jump" ID="{FE0E3864-EB8B-46B5-A8A7-1CDE96D6A3B0}" ShortID="821527184">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5049,6 +5082,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water_Puddle_Land" ID="{36AEE11E-C2D4-49AE-ABA9-55E41A823468}" ShortID="211500487">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5171,6 +5213,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water_Puddle_Scuff" ID="{48C5010C-0D2B-4B1D-9667-2DF48F222285}" ShortID="419476186">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5293,6 +5344,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Water_Puddle_Steps" ID="{3D27966B-5D47-44CF-9F8E-28B2069CF9F3}" ShortID="672650037">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5846,6 +5904,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{6CBE8F6C-1760-4327-8BB0-22B4F93D5EB8}">
@@ -6896,7 +6957,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7027,7 +7088,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-17</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7696,6 +7757,8 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="SFX_MC_FOL_Cloth_Run" ID="{E98AAA17-6299-414D-BCED-FAFEFD9350E5}" ShortID="54343321">
 											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-9</Value>
@@ -7983,9 +8046,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="SFX_MC_FOL_Os_Run" ID="{1EFF09D8-624E-467B-9451-BBC615330667}" ShortID="716850742">
 											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-14</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -8342,6 +8407,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8490,6 +8560,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8638,11 +8713,6 @@
 						</BlendContainer>
 						<BlendContainer Name="SFX_MC_FOL_Pivot" ID="{3176F166-EF0D-4AAE-B731-6000727A9C7F}" ShortID="431695567">
 							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -8657,6 +8727,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{AA1BEB22-E74C-468D-9F78-ABEC0AF5D2CB}">
@@ -8683,6 +8756,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8809,6 +8887,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8830,6 +8913,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_01" ID="{01276CB5-45F8-45C7-9BB3-D14B70F4B84F}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.265026558568633"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.685756220296338"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_01.wav</AudioFile>
 													<MediaIDList>
@@ -8852,6 +8940,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_02" ID="{41D6089F-5808-4D68-88D5-02420A7E673B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.117742211039667"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.217370235765539"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0199256049451744"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.697396173081105"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_02.wav</AudioFile>
 													<MediaIDList>
@@ -8874,6 +8969,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_03" ID="{E6C4087F-FB38-480C-A0DC-EE08B62DC63E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.21986301369863"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.110958904109589"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.647260273972603"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_03.wav</AudioFile>
 													<MediaIDList>
@@ -8896,6 +8997,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_04" ID="{F4298379-DCB6-4CDE-ADCD-A3D8CC871B7B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.119178082191781"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.174657534246575"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0205479452054794"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.661643835616439"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_04.wav</AudioFile>
 													<MediaIDList>
@@ -8918,6 +9026,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_05" ID="{E3A18154-D98F-472E-870F-D20604F8DA9A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.147195741310223"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.191185273196036"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.641232022489361"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_05.wav</AudioFile>
 													<MediaIDList>
@@ -8935,12 +9049,23 @@
 						</BlendContainer>
 						<BlendContainer Name="SFX_MC_FOL_Scuff" ID="{F1C2CDCB-A019-40AE-AC01-6C13D406847A}" ShortID="369953510">
 							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FAD23BC9-CB33-4838-A9CE-CCF56AE24287}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{9ACFCA8E-80E2-4356-957B-354C64B06B35}">
@@ -8967,6 +9092,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9230,6 +9360,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="MC_Taps" ID="{75620F22-58B2-430C-B36C-59B54B8B527C}" ShortID="874795150">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -9259,6 +9396,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9385,6 +9527,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9601,6 +9748,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9792,6 +9944,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Tap_Stone" ID="{6D0AAB25-E4E9-4793-BCBF-EAD65CBABB65}" ShortID="619110672">
 									<PropertyList>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

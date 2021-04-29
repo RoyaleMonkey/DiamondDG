@@ -52,7 +52,7 @@
 				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="423332973">
+		<SoundBank Id="4056684167" Language="SFX" Hash="288808161">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -1385,8 +1385,94 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1608668697" Name="Play_MC_FOL_Pivot" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Pivot"/>
-				<Event Id="2017862678" Name="Play_MC_FOL_Scuff" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Scuff"/>
+				<Event Id="1608668697" Name="Play_MC_FOL_Pivot" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Pivot">
+					<IncludedMemoryFiles>
+						<File Id="170015718" Language="SFX">
+							<ShortName>SFX_MC_FOL_Pivot_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Pivot_03_BD2D4CC1.wem</Path>
+						</File>
+						<File Id="179054816" Language="SFX">
+							<ShortName>SFX_MC_FOL_Pivot_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Pivot_01_FC2F6916.wem</Path>
+						</File>
+						<File Id="183379352" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Pivot_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Pivot_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="194444405" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Pivot_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="276436891" Language="SFX">
+							<ShortName>SFX_MC_FOL_Pivot_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Pivot_02_DE339D1F.wem</Path>
+						</File>
+						<File Id="278492696" Language="SFX">
+							<ShortName>SFX_MC_FOL_Pivot_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Pivot_05_4167F005.wem</Path>
+						</File>
+						<File Id="340288444" Language="SFX">
+							<ShortName>SFX_MC_FOL_Pivot_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Pivot_04_C3F2AE33.wem</Path>
+						</File>
+						<File Id="342385799" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Pivot_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Pivot_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="858586255" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Pivot_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Pivot_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="894578471" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Pivot_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Pivot_03_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2017862678" Name="Play_MC_FOL_Scuff" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Scuff">
+					<IncludedMemoryFiles>
+						<File Id="41073016" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="136405470" Language="SFX">
+							<ShortName>SFX_MC_FOL_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="346298508" Language="SFX">
+							<ShortName>SFX_MC_FOL_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="511203523" Language="SFX">
+							<ShortName>SFX_MC_FOL_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="683035483" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="712163534" Language="SFX">
+							<ShortName>SFX_MC_FOL_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="720540275" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="776916813" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="941706445" Language="SFX">
+							<ShortName>SFX_MC_FOL_Os_Scuff_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Os_Scuff_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="988188749" Language="SFX">
+							<ShortName>SFX_MC_FOL_Scuff_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FOL_Scuff_05_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4164330385" Name="Play_MC_FOL_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Step">
 					<IncludedMemoryFiles>
 						<File Id="35904334" Language="SFX">
@@ -1395,79 +1481,79 @@
 						</File>
 						<File Id="41299416" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_05_E6BF1517.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_05_A8799F5D.wem</Path>
 						</File>
 						<File Id="73631700" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_08_7813E969.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_08_387A6450.wem</Path>
 						</File>
 						<File Id="82567975" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_08_D68682A2.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_08_937D9F6B.wem</Path>
 						</File>
 						<File Id="181788599" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_02_9D132C24.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_02_3321CFD4.wem</Path>
 						</File>
 						<File Id="223642117" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_06_2FB3BE1B.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_06_40278158.wem</Path>
 						</File>
 						<File Id="331500768" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_01_3911BF97.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_01_2545A4A9.wem</Path>
 						</File>
 						<File Id="337946791" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_10_654F2540.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_10_8B1DA6A3.wem</Path>
 						</File>
 						<File Id="426371853" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_03_0D143289.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_03_0C5E023B.wem</Path>
 						</File>
 						<File Id="452401271" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_03_58B53BBE.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_03_091F3D48.wem</Path>
 						</File>
 						<File Id="524729111" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_01_C4C4A9F3.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_01_D6BB85FD.wem</Path>
 						</File>
 						<File Id="540174215" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_02_CCA05A6A.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_02_5804FFBD.wem</Path>
 						</File>
 						<File Id="581302225" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_05_BB22E8BD.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_05_47BF2499.wem</Path>
 						</File>
 						<File Id="663779980" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_07_CE7DD5EF.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_07_F3513DD5.wem</Path>
 						</File>
 						<File Id="703364872" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_06_9A8E3D37.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_06_84A1F6C9.wem</Path>
 						</File>
 						<File Id="765442832" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_07_B95B8213.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_07_D88E8373.wem</Path>
 						</File>
 						<File Id="827739080" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_10_CC98F8FE.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_10_B9D12E54.wem</Path>
 						</File>
 						<File Id="916734846" Language="SFX">
 							<ShortName>SFX_MC_FOL_Run_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Run_09_1CF52AC0.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Run_09_8A3F1370.wem</Path>
 						</File>
 						<File Id="974139481" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_04_CA908548.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_04_6E92E6AA.wem</Path>
 						</File>
 						<File Id="1000415432" Language="SFX">
 							<ShortName>SFX_MC_FOL_Os_Run_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_09_8F4D77C0.wem</Path>
+							<Path>SFX\SFX_MC_FOL_Os_Run_09_A1EC5BDB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3809,9 +3895,13 @@
 					<ShortName>Flt_C_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="41073016" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Scuff_02.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Scuff_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="41299416" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_05.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_05_E6BF1517.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_05_A8799F5D.wem</Path>
 				</File>
 				<File Id="41995396" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-017.wav</ShortName>
@@ -3891,7 +3981,7 @@
 				</File>
 				<File Id="73631700" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_08.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_08_7813E969.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_08_387A6450.wem</Path>
 				</File>
 				<File Id="73934293" Language="SFX">
 					<ShortName>SFX_MC_FOL_Land_05.wav</ShortName>
@@ -3911,7 +4001,7 @@
 				</File>
 				<File Id="82567975" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_08.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_08_D68682A2.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_08_937D9F6B.wem</Path>
 				</File>
 				<File Id="84069073" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Pygmy_Owl_A_08.wav</ShortName>
@@ -4009,6 +4099,10 @@
 					<ShortName>Amb_RFX_Bird_Demoiselle_Crane_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Demoiselle_Crane_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="136405470" Language="SFX">
+					<ShortName>SFX_MC_FOL_Scuff_04.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Scuff_04_D8C07C79.wem</Path>
+				</File>
 				<File Id="139556063" Language="SFX">
 					<ShortName>SFX_MC_FOL_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Jump_01_D8C07C79.wem</Path>
@@ -4073,9 +4167,17 @@
 					<ShortName>SFX_MC_FT_Dirt_Jump_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Jump_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="170015718" Language="SFX">
+					<ShortName>SFX_MC_FOL_Pivot_03.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Pivot_03_BD2D4CC1.wem</Path>
+				</File>
 				<File Id="170827374" Language="SFX">
 					<ShortName>Amb_Branch_Rustle_Apple_Tree_RFX-005.wav</ShortName>
 					<Path>SFX\Amb_Branch_Rustle_Apple_Tree_RFX-005_D8C07C79.wem</Path>
+				</File>
+				<File Id="179054816" Language="SFX">
+					<ShortName>SFX_MC_FOL_Pivot_01.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Pivot_01_FC2F6916.wem</Path>
 				</File>
 				<File Id="181470793" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Great_Cormorant_15.wav</ShortName>
@@ -4087,7 +4189,11 @@
 				</File>
 				<File Id="181788599" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_02.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_02_9D132C24.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_02_3321CFD4.wem</Path>
+				</File>
+				<File Id="183379352" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Pivot_04.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Pivot_04_D8C07C79.wem</Path>
 				</File>
 				<File Id="183999045" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_03.wav</ShortName>
@@ -4116,6 +4222,10 @@
 				<File Id="194044872" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-015.wav</ShortName>
 					<Path>SFX\Amb_Wind_Tree_Lush_Med_RFX-015_D8C07C79.wem</Path>
+				</File>
+				<File Id="194444405" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Pivot_05.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem</Path>
 				</File>
 				<File Id="197976420" Language="SFX">
 					<ShortName>Flt_G_Reverb_Loop.wav</ShortName>
@@ -4175,7 +4285,7 @@
 				</File>
 				<File Id="223642117" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_06.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_06_2FB3BE1B.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_06_40278158.wem</Path>
 				</File>
 				<File Id="225893759" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_09.wav</ShortName>
@@ -4253,9 +4363,17 @@
 					<ShortName>Amb_Branch_Rustle_Apple_Tree_RFX-002.wav</ShortName>
 					<Path>SFX\Amb_Branch_Rustle_Apple_Tree_RFX-002_D8C07C79.wem</Path>
 				</File>
+				<File Id="276436891" Language="SFX">
+					<ShortName>SFX_MC_FOL_Pivot_02.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Pivot_02_DE339D1F.wem</Path>
+				</File>
 				<File Id="278060721" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Run_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="278492696" Language="SFX">
+					<ShortName>SFX_MC_FOL_Pivot_05.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Pivot_05_4167F005.wem</Path>
 				</File>
 				<File Id="279224178" Language="SFX">
 					<ShortName>Flt_C_Main_Start.wav</ShortName>
@@ -4383,7 +4501,7 @@
 				</File>
 				<File Id="331500768" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_01.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_01_3911BF97.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_01_2545A4A9.wem</Path>
 				</File>
 				<File Id="331513841" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Scuff_03.wav</ShortName>
@@ -4399,7 +4517,7 @@
 				</File>
 				<File Id="337946791" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_10.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_10_654F2540.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_10_8B1DA6A3.wem</Path>
 				</File>
 				<File Id="338066242" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Walk_10.wav</ShortName>
@@ -4417,6 +4535,14 @@
 					<ShortName>Amb_RFX_Bird_Eurasian_Golden_Oriole_B_13.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Golden_Oriole_B_13_D8C07C79.wem</Path>
 				</File>
+				<File Id="340288444" Language="SFX">
+					<ShortName>SFX_MC_FOL_Pivot_04.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Pivot_04_C3F2AE33.wem</Path>
+				</File>
+				<File Id="342385799" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Pivot_01.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Pivot_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="343843921" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Scops_Owl_A_01.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Scops_Owl_A_01_D8C07C79.wem</Path>
@@ -4428,6 +4554,10 @@
 				<File Id="345416826" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="346298508" Language="SFX">
+					<ShortName>SFX_MC_FOL_Scuff_01.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Scuff_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="348201401" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_10.wav</ShortName>
@@ -4575,7 +4705,7 @@
 				</File>
 				<File Id="426371853" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_03.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_03_0D143289.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_03_0C5E023B.wem</Path>
 				</File>
 				<File Id="431687919" Language="SFX">
 					<ShortName>SFX_MC_FOL_Land_04.wav</ShortName>
@@ -4615,7 +4745,7 @@
 				</File>
 				<File Id="452401271" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_03.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_03_58B53BBE.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_03_091F3D48.wem</Path>
 				</File>
 				<File Id="452574099" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_03.wav</ShortName>
@@ -4757,6 +4887,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Walk_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_06_D8C07C79.wem</Path>
 				</File>
+				<File Id="511203523" Language="SFX">
+					<ShortName>SFX_MC_FOL_Scuff_03.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Scuff_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="512758086" Language="SFX">
 					<ShortName>Amb_Branch_Rustle_Maple_Green_Tree_RFX-001.wav</ShortName>
 					<Path>SFX\Amb_Branch_Rustle_Maple_Green_Tree_RFX-001_D8C07C79.wem</Path>
@@ -4791,7 +4925,7 @@
 				</File>
 				<File Id="524729111" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_01.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_01_C4C4A9F3.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_01_D6BB85FD.wem</Path>
 				</File>
 				<File Id="528652241" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Jump_01.wav</ShortName>
@@ -4831,7 +4965,7 @@
 				</File>
 				<File Id="540174215" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_02.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_02_CCA05A6A.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_02_5804FFBD.wem</Path>
 				</File>
 				<File Id="541046737" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_06.wav</ShortName>
@@ -4915,7 +5049,7 @@
 				</File>
 				<File Id="581302225" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_05.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_05_BB22E8BD.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_05_47BF2499.wem</Path>
 				</File>
 				<File Id="583360945" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Water_Pipit_C_06.wav</ShortName>
@@ -5103,7 +5237,7 @@
 				</File>
 				<File Id="663779980" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_07.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_07_CE7DD5EF.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_07_F3513DD5.wem</Path>
 				</File>
 				<File Id="664030189" Language="SFX">
 					<ShortName>Flt_C_Main_Loop.wav</ShortName>
@@ -5169,6 +5303,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Run_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Run_07_D8C07C79.wem</Path>
 				</File>
+				<File Id="683035483" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Scuff_03.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Scuff_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="684923061" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Common_Crane_F_05.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Common_Crane_F_05_D8C07C79.wem</Path>
@@ -5227,7 +5365,7 @@
 				</File>
 				<File Id="703364872" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_06.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_06_9A8E3D37.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_06_84A1F6C9.wem</Path>
 				</File>
 				<File Id="708222018" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Jump_03.wav</ShortName>
@@ -5253,6 +5391,10 @@
 					<ShortName>Amb_RFX_Bird_Common_Linnet_02 1.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Common_Linnet_02 1_D8C07C79.wem</Path>
 				</File>
+				<File Id="712163534" Language="SFX">
+					<ShortName>SFX_MC_FOL_Scuff_02.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Scuff_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="713439677" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Tree_Pipit_01.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Tree_Pipit_01_D8C07C79.wem</Path>
@@ -5272,6 +5414,10 @@
 				<File Id="717473042" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Land_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Land_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="720540275" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Scuff_01.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Scuff_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="720902656" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Land_03.wav</ShortName>
@@ -5355,7 +5501,7 @@
 				</File>
 				<File Id="765442832" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_07.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_07_B95B8213.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_07_D88E8373.wem</Path>
 				</File>
 				<File Id="767060845" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_04.wav</ShortName>
@@ -5392,6 +5538,10 @@
 				<File Id="775724364" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Land_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="776916813" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Scuff_04.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Scuff_04_D8C07C79.wem</Path>
 				</File>
 				<File Id="782450985" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Scuff_02.wav</ShortName>
@@ -5499,7 +5649,7 @@
 				</File>
 				<File Id="827739080" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_10.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_10_CC98F8FE.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_10_B9D12E54.wem</Path>
 				</File>
 				<File Id="829229526" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_01.wav</ShortName>
@@ -5540,6 +5690,10 @@
 				<File Id="853473225" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Bee_02.wav</ShortName>
 					<Path>SFX\Amb_RFX_Insect_Bee_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="858586255" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Pivot_02.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Pivot_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="860538697" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_07.wav</ShortName>
@@ -5596,6 +5750,10 @@
 				<File Id="893359331" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="894578471" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Pivot_03.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Pivot_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="895175323" Language="SFX">
 					<ShortName>Amb_Branch_Rustle_Maple_Green_Tree_RFX-003.wav</ShortName>
@@ -5671,7 +5829,7 @@
 				</File>
 				<File Id="916734846" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_09.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Run_09_1CF52AC0.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Run_09_8A3F1370.wem</Path>
 				</File>
 				<File Id="918594307" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_06.wav</ShortName>
@@ -5716,6 +5874,10 @@
 				<File Id="936639895" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="941706445" Language="SFX">
+					<ShortName>SFX_MC_FOL_Os_Scuff_05.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Os_Scuff_05_D8C07C79.wem</Path>
 				</File>
 				<File Id="941793313" Language="SFX">
 					<ShortName>Amb_Branch_Rustle_Maple_Green_Tree_RFX-004.wav</ShortName>
@@ -5767,7 +5929,7 @@
 				</File>
 				<File Id="974139481" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_04.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_04_CA908548.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_04_6E92E6AA.wem</Path>
 				</File>
 				<File Id="978714519" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-002.wav</ShortName>
@@ -5792,6 +5954,10 @@
 				<File Id="983427185" Language="SFX">
 					<ShortName>Flt_D#_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_D#_Main_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="988188749" Language="SFX">
+					<ShortName>SFX_MC_FOL_Scuff_05.wav</ShortName>
+					<Path>SFX\SFX_MC_FOL_Scuff_05_D8C07C79.wem</Path>
 				</File>
 				<File Id="990386383" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Bee_01.wav</ShortName>
@@ -5819,7 +5985,7 @@
 				</File>
 				<File Id="1000415432" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_09.wav</ShortName>
-					<Path>SFX\SFX_MC_FOL_Os_Run_09_8F4D77C0.wem</Path>
+					<Path>SFX\SFX_MC_FOL_Os_Run_09_A1EC5BDB.wem</Path>
 				</File>
 				<File Id="1000663756" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Jump_04.wav</ShortName>

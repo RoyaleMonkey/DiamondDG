@@ -14,20 +14,27 @@
 						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB_Fountain_Close_M_01" ID="{D35D65E8-CB48-4341-9D1C-60A0FEDA5818}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Jump_04" ID="{C79D604F-3DD7-4349-A762-C3FC07BD379E}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_Jump" ID="{14B3DBCF-7567-4356-8292-495561168EDC}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_FOL_Land" ID="{66D2954A-636E-4373-8E75-2B0640B577D2}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Jump_01" ID="{C5E26F18-3163-4381-8D81-C2CB09883CBE}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Grass_Short_Run" ID="{12AE7DEA-20C8-4388-BF58-829FE363622C}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Jump_06" ID="{67C05AB3-A7E5-4390-8A23-B816EC91C8C9}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_FOL_Pivot" ID="{0279391D-DCA8-4396-88FE-0A1110571336}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Grass_Short_Steps" ID="{239F1917-0E79-43CA-B2F2-84E4C7E6F51F}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Grass_Short_Land" ID="{24C1D227-96CA-4402-9ABB-0EED67BE59E8}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Branch_Rustle_Maple_Green_Tree_RFX" ID="{6E9D42EF-D75C-4463-98BE-54EA99A6E344}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_FOL_Step" ID="{CE7E1942-1380-4532-A5E3-31B92A35AB6B}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_Taps" ID="{C2C5B654-32D4-45A5-8CF3-636494E3F970}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_Steps_Grass_Short" ID="{C3BF32D9-130A-469C-B434-DEAAA1F3D1F0}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Land_04" ID="{AF22F5A3-CD13-46C2-A9AB-BE2A2FD7B8D4}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Grass_Short_Scuff" ID="{9B7ADDBD-6C43-472C-A7A4-34416E60B75F}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB" ID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_FOL_Scuff" ID="{A45F167F-E3D2-476C-8B63-46D279580960}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_Steps_Stone" ID="{805F07FF-EAAD-4785-BC7A-753F6C5E24BC}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_Bumper" ID="{D2A0E9AD-2691-479B-AAF4-7D3DDA19A861}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Land_01" ID="{A91D1F8C-1FCB-47CC-AA25-D4057AB1A94C}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Steps" ID="{F7E95507-98D3-480F-972F-EF86BE5DE147}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DarkWorld_Flute_V2" ID="{7E768F9D-21DA-4814-AB40-5035D9F6DE82}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" Origin="Manual" Filter="7"/>
@@ -50,6 +57,7 @@
 						<ObjectRef Name="Default Work Unit" ID="{300DE984-CA09-4B80-91B1-BD2812E93453}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Design_Gate" ID="{61A1729D-453F-4C1B-B67C-2EFAF3D0AB97}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_FOL_Jump" ID="{7D85A03A-27FC-4C23-BAB9-D72489399172}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{C4054EFD-30D7-4C27-B17F-A23A129FBCF1}" WorkUnitID="{C4054EFD-30D7-4C27-B17F-A23A129FBCF1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Step" ID="{A3C66970-486B-4C6D-A9E6-F141FBFCCECA}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" WorkUnitID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" Origin="Manual" Filter="7"/>

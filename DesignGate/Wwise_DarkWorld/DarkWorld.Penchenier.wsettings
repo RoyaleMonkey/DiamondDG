@@ -63,7 +63,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="lbguQkEuGUSHD464vOn/ieyQFVso9GtGhlwRxndfvVah6XhKAEftTYIYDUY7FzQ3t9t15xpJs06cVZmWMWpQ4g=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="lbguQkEuGUSHD464vOn/icO5sbA/zTpFsm8SQ27gHc3skBVbKPRrRoZcEcZ3X71WrLrIWDR6zUiEWBWnvzNysdU8txqeSDtKsgyWxIG5F8RhlTG219jtSrAzHCRaO/KWdmxsKAbL10uLxqGSLCJqfmTid+GzFflMmiUKvihsQ9ah6XhKAEftTYIYDUY7FzQ3t9t15xpJs06cVZmWMWpQ4vCHVjuQTT9Po/n0rHSmZS17ToRmJ/e2T64sarOXAVg9"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="ESNI5Rjq3UCid7KqUzVJknSRIk2KpvpEgM75/bbR/l8="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
@@ -105,8 +105,13 @@
 				<List Name="BatchRenameSettings">
 					<PluginInnerObject Name="" ID="{08F848C2-82C4-4D83-BC79-9D9A7DB2EE66}" PluginName="BatchRenameSettings" CompanyID="0" PluginID="992">
 						<PropertyList>
+							<Property Name="EnableInsert" Type="bool" Value="True"/>
+							<Property Name="EnableReplace" Type="bool" Value="False"/>
+							<Property Name="InsertAtPosition" Type="int32" Value="5"/>
+							<Property Name="InsertToInsert" Type="string" Value="_G"/>
 							<Property Name="ReplaceFindWhat" Type="string" Value="D#"/>
 							<Property Name="ReplaceReplaceWith" Type="string" Value="DD"/>
+							<Property Name="insertFrom" Type="int16" Value="0"/>
 						</PropertyList>
 					</PluginInnerObject>
 				</List>

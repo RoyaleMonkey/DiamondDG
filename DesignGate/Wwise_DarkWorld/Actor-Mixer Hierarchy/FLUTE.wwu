@@ -502,7 +502,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Flt_DD_Reverb_End" ID="{6C979D57-B023-49C5-A530-CA3E5E79DC28}" ShortID="462576910">
+										<Sound Name="Flt_DS_Reverb_End" ID="{61F96EF3-F2AD-4EF7-B79F-B7A538737F77}" ShortID="1042414888">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -512,16 +512,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Flt_D#_Reverb_End" ID="{AEFEBFC0-20DC-4C1C-AF7D-C701D89AF9CC}">
+												<AudioFileSource Name="Flt_DS_Reverb_End" ID="{FC93A47F-1A1B-45DE-B3D7-2AEC6BCCA2CC}">
 													<Language>SFX</Language>
-													<AudioFile>Flt_D#_Reverb_End.wav</AudioFile>
+													<AudioFile>Flt_DS_Reverb_End.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="663326384"/>
+														<MediaID ID="846732178"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Flt_D#_Reverb_End" ID="{AEFEBFC0-20DC-4C1C-AF7D-C701D89AF9CC}" Platform="Linked"/>
+												<ActiveSource Name="Flt_DS_Reverb_End" ID="{FC93A47F-1A1B-45DE-B3D7-2AEC6BCCA2CC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -628,7 +628,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Flt_DD_Reverb_Loop" ID="{43AF12CB-0180-4ACB-883E-A75F3E29D20C}" ShortID="121522813">
+										<Sound Name="Flt_DS_Reverb_Loop" ID="{EC347DA4-9F0B-4C10-8212-35E8C8604714}" ShortID="286089746">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -638,16 +638,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Flt_D#_Reverb_Loop" ID="{39C7FEAB-5B32-4EEA-8840-BCC5E173C555}">
+												<AudioFileSource Name="Flt_DS_Reverb_Loop" ID="{3703AC39-E5ED-4923-8ADE-6D5353335325}">
 													<Language>SFX</Language>
-													<AudioFile>Flt_D#_Reverb_Loop.wav</AudioFile>
+													<AudioFile>Flt_DS_Reverb_Loop.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="439824818"/>
+														<MediaID ID="258398410"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Flt_D#_Reverb_Loop" ID="{39C7FEAB-5B32-4EEA-8840-BCC5E173C555}" Platform="Linked"/>
+												<ActiveSource Name="Flt_DS_Reverb_Loop" ID="{3703AC39-E5ED-4923-8ADE-6D5353335325}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -776,7 +776,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Flt_DD_Reverb_Start" ID="{A22522E1-B6DC-4399-B8DF-6279CEF4C9E3}" ShortID="1682282">
+										<Sound Name="Flt_DS_Reverb_Start" ID="{F732B047-F21E-42C7-B078-BE1255FBA100}" ShortID="375971655">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -786,16 +786,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Flt_D#_Reverb_Start" ID="{468A8D2B-EF28-4B4E-ADA6-B15BA2438F7F}">
+												<AudioFileSource Name="Flt_DS_Reverb_Start" ID="{E14ACDF4-CD9C-4572-8205-4C11616CFB34}">
 													<Language>SFX</Language>
-													<AudioFile>Flt_D#_Reverb_Start.wav</AudioFile>
+													<AudioFile>Flt_DS_Reverb_Start.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="363708492"/>
+														<MediaID ID="785861194"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Flt_D#_Reverb_Start" ID="{468A8D2B-EF28-4B4E-ADA6-B15BA2438F7F}" Platform="Linked"/>
+												<ActiveSource Name="Flt_DS_Reverb_Start" ID="{E14ACDF4-CD9C-4572-8205-4C11616CFB34}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

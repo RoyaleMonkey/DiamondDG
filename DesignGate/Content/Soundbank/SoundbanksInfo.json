@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -82,7 +82,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "288808161",
+    "Hash": "2180437321",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -183,10 +183,10 @@
         "Path": "SFX\\Flt_D#_Main_End_3C5EAB40.wem"
        },
        {
-        "Id": "663326384",
+        "Id": "846732178",
         "Language": "SFX",
-        "ShortName": "Flt_D#_Reverb_End.wav",
-        "Path": "SFX\\Flt_D#_Reverb_End_D8C07C79.wem"
+        "ShortName": "Flt_DS_Reverb_End.wav",
+        "Path": "SFX\\Flt_DS_Reverb_End_D8C07C79.wem"
        },
        {
         "Id": "1040993073",
@@ -214,16 +214,10 @@
         "Path": "SFX\\Flt_D#_Breath_D8C07C79.wem"
        },
        {
-        "Id": "363708492",
+        "Id": "258398410",
         "Language": "SFX",
-        "ShortName": "Flt_D#_Reverb_Start.wav",
-        "Path": "SFX\\Flt_D#_Reverb_Start_D8C07C79.wem"
-       },
-       {
-        "Id": "439824818",
-        "Language": "SFX",
-        "ShortName": "Flt_D#_Reverb_Loop.wav",
-        "Path": "SFX\\Flt_D#_Reverb_Loop_D8C07C79.wem"
+        "ShortName": "Flt_DS_Reverb_Loop.wav",
+        "Path": "SFX\\Flt_DS_Reverb_Loop_D8C07C79.wem"
        },
        {
         "Id": "446395729",
@@ -236,6 +230,12 @@
         "Language": "SFX",
         "ShortName": "Flt_D#_Main_Start.wav",
         "Path": "SFX\\Flt_D#_Main_Start_D8C07C79.wem"
+       },
+       {
+        "Id": "785861194",
+        "Language": "SFX",
+        "ShortName": "Flt_DS_Reverb_Start.wav",
+        "Path": "SFX\\Flt_DS_Reverb_Start_D8C07C79.wem"
        },
        {
         "Id": "983427185",
@@ -2113,13 +2113,13 @@
         "Id": "170015718",
         "Language": "SFX",
         "ShortName": "SFX_MC_FOL_Pivot_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_03_BD2D4CC1.wem"
+        "Path": "SFX\\SFX_MC_FOL_Pivot_03_2B7AB334.wem"
        },
        {
         "Id": "179054816",
         "Language": "SFX",
         "ShortName": "SFX_MC_FOL_Pivot_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_01_FC2F6916.wem"
+        "Path": "SFX\\SFX_MC_FOL_Pivot_01_C0D7F589.wem"
        },
        {
         "Id": "183379352",
@@ -2137,19 +2137,19 @@
         "Id": "276436891",
         "Language": "SFX",
         "ShortName": "SFX_MC_FOL_Pivot_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_02_DE339D1F.wem"
+        "Path": "SFX\\SFX_MC_FOL_Pivot_02_37D6BC44.wem"
        },
        {
         "Id": "278492696",
         "Language": "SFX",
         "ShortName": "SFX_MC_FOL_Pivot_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_05_4167F005.wem"
+        "Path": "SFX\\SFX_MC_FOL_Pivot_05_1A3A1D39.wem"
        },
        {
         "Id": "340288444",
         "Language": "SFX",
         "ShortName": "SFX_MC_FOL_Pivot_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_04_C3F2AE33.wem"
+        "Path": "SFX\\SFX_MC_FOL_Pivot_04_FF55A03A.wem"
        },
        {
         "Id": "342385799",
@@ -6617,7 +6617,7 @@
       "Id": "170015718",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Pivot_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_03_BD2D4CC1.wem"
+      "Path": "SFX\\SFX_MC_FOL_Pivot_03_2B7AB334.wem"
      },
      {
       "Id": "170827374",
@@ -6629,7 +6629,7 @@
       "Id": "179054816",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Pivot_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_01_FC2F6916.wem"
+      "Path": "SFX\\SFX_MC_FOL_Pivot_01_C0D7F589.wem"
      },
      {
       "Id": "181470793",
@@ -6848,6 +6848,12 @@
       "Path": "SFX\\SFX_MC_Tap_Stone_1_D8C07C79.wem"
      },
      {
+      "Id": "258398410",
+      "Language": "SFX",
+      "ShortName": "Flt_DS_Reverb_Loop.wav",
+      "Path": "SFX\\Flt_DS_Reverb_Loop_D8C07C79.wem"
+     },
+     {
       "Id": "260850528",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Land_02.wav",
@@ -6911,7 +6917,7 @@
       "Id": "276436891",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Pivot_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_02_DE339D1F.wem"
+      "Path": "SFX\\SFX_MC_FOL_Pivot_02_37D6BC44.wem"
      },
      {
       "Id": "278060721",
@@ -6923,7 +6929,7 @@
       "Id": "278492696",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Pivot_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_05_4167F005.wem"
+      "Path": "SFX\\SFX_MC_FOL_Pivot_05_1A3A1D39.wem"
      },
      {
       "Id": "279224178",
@@ -7169,7 +7175,7 @@
       "Id": "340288444",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Pivot_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_04_C3F2AE33.wem"
+      "Path": "SFX\\SFX_MC_FOL_Pivot_04_FF55A03A.wem"
      },
      {
       "Id": "342385799",
@@ -7230,12 +7236,6 @@
       "Language": "SFX",
       "ShortName": "Flt_F_Main_Start.wav",
       "Path": "SFX\\Flt_F_Main_Start_D8C07C79.wem"
-     },
-     {
-      "Id": "363708492",
-      "Language": "SFX",
-      "ShortName": "Flt_D#_Reverb_Start.wav",
-      "Path": "SFX\\Flt_D#_Reverb_Start_D8C07C79.wem"
      },
      {
       "Id": "364921439",
@@ -7446,12 +7446,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Walk_07.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem"
-     },
-     {
-      "Id": "439824818",
-      "Language": "SFX",
-      "ShortName": "Flt_D#_Reverb_Loop.wav",
-      "Path": "SFX\\Flt_D#_Reverb_Loop_D8C07C79.wem"
      },
      {
       "Id": "443014057",
@@ -8210,12 +8204,6 @@
       "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-002_D8C07C79.wem"
      },
      {
-      "Id": "663326384",
-      "Language": "SFX",
-      "ShortName": "Flt_D#_Reverb_End.wav",
-      "Path": "SFX\\Flt_D#_Reverb_End_D8C07C79.wem"
-     },
-     {
       "Id": "663779980",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Run_07.wav",
@@ -8684,6 +8672,12 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Scuff_02_D8C07C79.wem"
      },
      {
+      "Id": "785861194",
+      "Language": "SFX",
+      "ShortName": "Flt_DS_Reverb_Start.wav",
+      "Path": "SFX\\Flt_DS_Reverb_Start_D8C07C79.wem"
+     },
+     {
       "Id": "785883112",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Jump_01.wav",
@@ -8874,6 +8868,12 @@
       "Language": "SFX",
       "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-001.wav",
       "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-001_D8C07C79.wem"
+     },
+     {
+      "Id": "846732178",
+      "Language": "SFX",
+      "ShortName": "Flt_DS_Reverb_End.wav",
+      "Path": "SFX\\Flt_DS_Reverb_End_D8C07C79.wem"
      },
      {
       "Id": "847771726",

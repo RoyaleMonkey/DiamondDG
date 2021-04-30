@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3759479743">
+		<SoundBank Id="4056684167" Language="SFX" Hash="2180437321">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -69,9 +69,9 @@
 							<ShortName>Flt_D#_Main_End.wav</ShortName>
 							<Path>SFX\Flt_D#_Main_End_3C5EAB40.wem</Path>
 						</File>
-						<File Id="663326384" Language="SFX">
-							<ShortName>Flt_D#_Reverb_End.wav</ShortName>
-							<Path>SFX\Flt_D#_Reverb_End_D8C07C79.wem</Path>
+						<File Id="846732178" Language="SFX">
+							<ShortName>Flt_DS_Reverb_End.wav</ShortName>
+							<Path>SFX\Flt_DS_Reverb_End_D8C07C79.wem</Path>
 						</File>
 						<File Id="1040993073" Language="SFX">
 							<ShortName>Flt_D#_Layer_End.wav</ShortName>
@@ -89,13 +89,9 @@
 							<ShortName>Flt_D#_Breath.wav</ShortName>
 							<Path>SFX\Flt_D#_Breath_D8C07C79.wem</Path>
 						</File>
-						<File Id="363708492" Language="SFX">
-							<ShortName>Flt_D#_Reverb_Start.wav</ShortName>
-							<Path>SFX\Flt_D#_Reverb_Start_D8C07C79.wem</Path>
-						</File>
-						<File Id="439824818" Language="SFX">
-							<ShortName>Flt_D#_Reverb_Loop.wav</ShortName>
-							<Path>SFX\Flt_D#_Reverb_Loop_D8C07C79.wem</Path>
+						<File Id="258398410" Language="SFX">
+							<ShortName>Flt_DS_Reverb_Loop.wav</ShortName>
+							<Path>SFX\Flt_DS_Reverb_Loop_D8C07C79.wem</Path>
 						</File>
 						<File Id="446395729" Language="SFX">
 							<ShortName>Flt_D#_Layer_Start.wav</ShortName>
@@ -104,6 +100,10 @@
 						<File Id="592711064" Language="SFX">
 							<ShortName>Flt_D#_Main_Start.wav</ShortName>
 							<Path>SFX\Flt_D#_Main_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="785861194" Language="SFX">
+							<ShortName>Flt_DS_Reverb_Start.wav</ShortName>
+							<Path>SFX\Flt_DS_Reverb_Start_D8C07C79.wem</Path>
 						</File>
 						<File Id="983427185" Language="SFX">
 							<ShortName>Flt_D#_Main_Loop.wav</ShortName>
@@ -4303,6 +4303,10 @@
 					<ShortName>SFX_MC_Tap_Stone_1.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Stone_1_D8C07C79.wem</Path>
 				</File>
+				<File Id="258398410" Language="SFX">
+					<ShortName>Flt_DS_Reverb_Loop.wav</ShortName>
+					<Path>SFX\Flt_DS_Reverb_Loop_D8C07C79.wem</Path>
+				</File>
 				<File Id="260850528" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Land_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Land_02_D8C07C79.wem</Path>
@@ -4559,10 +4563,6 @@
 					<ShortName>Flt_F_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_F_Main_Start_D8C07C79.wem</Path>
 				</File>
-				<File Id="363708492" Language="SFX">
-					<ShortName>Flt_D#_Reverb_Start.wav</ShortName>
-					<Path>SFX\Flt_D#_Reverb_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="364921439" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem</Path>
@@ -4702,10 +4702,6 @@
 				<File Id="438975099" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem</Path>
-				</File>
-				<File Id="439824818" Language="SFX">
-					<ShortName>Flt_D#_Reverb_Loop.wav</ShortName>
-					<Path>SFX\Flt_D#_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="443014057" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Dead_Sea_Sparrow_B_11.wav</ShortName>
@@ -5211,10 +5207,6 @@
 					<ShortName>Amb_Branch_Rustle_Maple_Green_Tree_RFX-002.wav</ShortName>
 					<Path>SFX\Amb_Branch_Rustle_Maple_Green_Tree_RFX-002_D8C07C79.wem</Path>
 				</File>
-				<File Id="663326384" Language="SFX">
-					<ShortName>Flt_D#_Reverb_End.wav</ShortName>
-					<Path>SFX\Flt_D#_Reverb_End_D8C07C79.wem</Path>
-				</File>
 				<File Id="663779980" Language="SFX">
 					<ShortName>SFX_MC_FOL_Run_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Run_07_F3513DD5.wem</Path>
@@ -5527,6 +5519,10 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Scuff_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="785861194" Language="SFX">
+					<ShortName>Flt_DS_Reverb_Start.wav</ShortName>
+					<Path>SFX\Flt_DS_Reverb_Start_D8C07C79.wem</Path>
+				</File>
 				<File Id="785883112" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Jump_01_D8C07C79.wem</Path>
@@ -5654,6 +5650,10 @@
 				<File Id="842715537" Language="SFX">
 					<ShortName>Amb_Branch_Rustle_Apple_Tree_RFX-001.wav</ShortName>
 					<Path>SFX\Amb_Branch_Rustle_Apple_Tree_RFX-001_D8C07C79.wem</Path>
+				</File>
+				<File Id="846732178" Language="SFX">
+					<ShortName>Flt_DS_Reverb_End.wav</ShortName>
+					<Path>SFX\Flt_DS_Reverb_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="847771726" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-004.wav</ShortName>

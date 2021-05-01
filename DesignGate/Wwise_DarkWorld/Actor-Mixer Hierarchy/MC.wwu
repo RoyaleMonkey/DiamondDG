@@ -20,7 +20,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-10</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -72,6 +72,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{2B24CECD-DF56-4306-9657-30CA38B95419}">
@@ -103,6 +106,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -251,6 +259,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1038,6 +1051,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C6E3A059-FB2E-4493-9CBA-F663D3FF9E37}">
@@ -1069,6 +1085,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1195,6 +1216,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2388,6 +2414,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Water_Shallow_Steps" ID="{70934CA4-975A-4AD2-878E-E92C3096D9FC}" ShortID="747875789">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -2919,6 +2952,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{D51DF73E-EF10-4AC5-A77C-848133D1C708}">
@@ -4883,6 +4919,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{71C2294E-116C-4C78-9663-F18DD58EE574}">
@@ -4912,6 +4951,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Water_Puddle_Jump" ID="{FE0E3864-EB8B-46B5-A8A7-1CDE96D6A3B0}" ShortID="821527184">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5034,6 +5082,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water_Puddle_Land" ID="{36AEE11E-C2D4-49AE-ABA9-55E41A823468}" ShortID="211500487">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5156,6 +5213,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water_Puddle_Scuff" ID="{48C5010C-0D2B-4B1D-9667-2DF48F222285}" ShortID="419476186">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5278,6 +5344,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Water_Puddle_Steps" ID="{3D27966B-5D47-44CF-9F8E-28B2069CF9F3}" ShortID="672650037">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5831,6 +5904,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{6CBE8F6C-1760-4327-8BB0-22B4F93D5EB8}">
@@ -6825,13 +6901,6 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<ActorMixer Name="MC_Foleys" ID="{6425DB7C-1630-45F0-AFF8-E10521376E7C}" ShortID="610386626">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6857,6 +6926,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{1AC18724-8093-4013-9526-4223DA877120}">
@@ -6883,6 +6955,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -7009,6 +7086,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -7149,6 +7231,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{5A5FA95F-7CE3-42C6-96C5-3B86080991F4}">
@@ -7171,6 +7256,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="SFX_MC_FOL_Walk" ID="{8FF1D8BF-118D-4924-B33D-1A6F10DC2DCB}" ShortID="612319551">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -7647,6 +7739,13 @@
 									</ChildrenList>
 								</BlendContainer>
 								<BlendContainer Name="SFX_MC_FOL_Run" ID="{38B7AF42-20F2-4CD7-83CF-45F8D30512EC}" ShortID="69665888">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -7657,6 +7756,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="SFX_MC_FOL_Cloth_Run" ID="{E98AAA17-6299-414D-BCED-FAFEFD9350E5}" ShortID="54343321">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -7677,6 +7785,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_01" ID="{4B394AA5-E9A0-485A-B0D2-7D397850CDF3}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.293835616438356"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_01.wav</AudioFile>
 															<MediaIDList>
@@ -7699,6 +7811,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_02" ID="{F40B546E-0414-43F1-947D-04ED5139AFFC}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.207534246575342"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_02.wav</AudioFile>
 															<MediaIDList>
@@ -7721,6 +7838,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_03" ID="{A036A3A6-8F9A-4601-9921-14821402C482}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.205021433230827"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_03.wav</AudioFile>
 															<MediaIDList>
@@ -7743,6 +7865,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_04" ID="{7DACC091-F9E8-40BA-9DCA-EBEBBA2D8498}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.289531031590719"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_04.wav</AudioFile>
 															<MediaIDList>
@@ -7765,6 +7891,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_05" ID="{A0DFF055-CD4D-4DA1-9CC2-FE2FF62F442D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.251775230640201"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_05.wav</AudioFile>
 															<MediaIDList>
@@ -7787,6 +7918,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_06" ID="{D0221502-945E-4542-9E33-FE7D9C5E211C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.248630136986301"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_06.wav</AudioFile>
 															<MediaIDList>
@@ -7809,6 +7945,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_07" ID="{553865B0-D28D-497C-A422-5B2449C360C0}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.240918677973472"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_07.wav</AudioFile>
 															<MediaIDList>
@@ -7831,6 +7972,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_08" ID="{C417EA39-03C1-408A-916E-6CEF0315E278}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.357534246575342"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0534246575342466"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_08.wav</AudioFile>
 															<MediaIDList>
@@ -7853,6 +7999,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_09" ID="{0003B2AE-38BF-4298-BB62-4EAF27D03E37}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.126162209175908"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0282452707110241"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_09.wav</AudioFile>
 															<MediaIDList>
@@ -7875,6 +8026,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Run_10" ID="{223EA641-5F68-4790-A916-778CD9563453}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.230593646134253"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Run_10.wav</AudioFile>
 															<MediaIDList>
@@ -7889,6 +8045,15 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="SFX_MC_FOL_Os_Run" ID="{1EFF09D8-624E-467B-9451-BBC615330667}" ShortID="716850742">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -7909,6 +8074,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_01" ID="{DDDA019B-5C8F-44DD-B62E-40F52F2AE952}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.172602739726027"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.552739726027398"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_01.wav</AudioFile>
 															<MediaIDList>
@@ -7931,6 +8101,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_02" ID="{A0F9241B-44A4-43BE-9E07-BB95136A36AB}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.121232876712329"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.73972602739726"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_02.wav</AudioFile>
 															<MediaIDList>
@@ -7953,6 +8128,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_03" ID="{978D359D-D0C2-48F3-A9F3-EC2B3B3D9922}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.20855628552791"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.613296873543938"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_03.wav</AudioFile>
 															<MediaIDList>
@@ -7975,6 +8155,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_04" ID="{A955786B-1E32-4D86-B405-E6D81C2EAD80}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.189446230547013"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.695231921535737"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_04.wav</AudioFile>
 															<MediaIDList>
@@ -7997,6 +8182,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_05" ID="{862C28B0-3BD5-42E9-AB39-8C976B5A83F9}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.154046687168018"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.617843164663125"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_05.wav</AudioFile>
 															<MediaIDList>
@@ -8019,6 +8209,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_06" ID="{C728426A-1605-4098-853D-40E42FB7A72D}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.336986301369863"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.710958904109589"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_06.wav</AudioFile>
 															<MediaIDList>
@@ -8041,6 +8236,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_07" ID="{55BAEB0E-DFC4-42C2-B0CC-FEB4DC933CAE}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.175707607243811"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.632185102351443"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_07.wav</AudioFile>
 															<MediaIDList>
@@ -8063,6 +8263,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_08" ID="{B34091E3-9BB3-4662-8D25-9AADB62DA4FA}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.328767123287671"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.737671232876712"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_08.wav</AudioFile>
 															<MediaIDList>
@@ -8085,6 +8290,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_09" ID="{F030D558-3918-4DBF-A6C2-509CA886356B}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.246675364209611"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.589384648836702"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_09.wav</AudioFile>
 															<MediaIDList>
@@ -8107,6 +8317,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_MC_FOL_Os_Run_10" ID="{9D5A55F7-4F90-4D4A-82EF-FC1EA28BB29A}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.179138865591899"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.558379655515175"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_10.wav</AudioFile>
 															<MediaIDList>
@@ -8163,6 +8378,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{5B3D617B-4EF4-4386-999E-1B09945290B3}">
@@ -8189,6 +8407,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8337,6 +8560,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8499,6 +8727,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{AA1BEB22-E74C-468D-9F78-ABEC0AF5D2CB}">
@@ -8525,6 +8756,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8651,6 +8887,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8672,6 +8913,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_01" ID="{01276CB5-45F8-45C7-9BB3-D14B70F4B84F}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.265026558568633"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.685756220296338"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_01.wav</AudioFile>
 													<MediaIDList>
@@ -8694,6 +8940,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_02" ID="{41D6089F-5808-4D68-88D5-02420A7E673B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.117742211039667"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.217370235765539"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0199256049451744"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.697396173081105"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_02.wav</AudioFile>
 													<MediaIDList>
@@ -8716,6 +8969,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_03" ID="{E6C4087F-FB38-480C-A0DC-EE08B62DC63E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.21986301369863"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.110958904109589"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.647260273972603"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_03.wav</AudioFile>
 													<MediaIDList>
@@ -8738,6 +8997,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_04" ID="{F4298379-DCB6-4CDE-ADCD-A3D8CC871B7B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.119178082191781"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.174657534246575"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0205479452054794"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.661643835616439"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_04.wav</AudioFile>
 													<MediaIDList>
@@ -8760,6 +9026,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_FOL_Pivot_05" ID="{E3A18154-D98F-472E-870F-D20604F8DA9A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.147195741310223"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.191185273196036"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.641232022489361"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_FOL_Pivot_05.wav</AudioFile>
 													<MediaIDList>
@@ -8777,7 +9049,23 @@
 						</BlendContainer>
 						<BlendContainer Name="SFX_MC_FOL_Scuff" ID="{F1C2CDCB-A019-40AE-AC01-6C13D406847A}" ShortID="369953510">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FAD23BC9-CB33-4838-A9CE-CCF56AE24287}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{9ACFCA8E-80E2-4356-957B-354C64B06B35}">
@@ -8804,6 +9092,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9067,6 +9360,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="MC_Taps" ID="{75620F22-58B2-430C-B36C-59B54B8B527C}" ShortID="874795150">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -9096,6 +9396,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9222,6 +9527,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9438,6 +9748,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9629,6 +9944,11 @@
 								<RandomSequenceContainer Name="SFX_MC_Tap_Stone" ID="{6D0AAB25-E4E9-4793-BCBF-EAD65CBABB65}" ShortID="619110672">
 									<PropertyList>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

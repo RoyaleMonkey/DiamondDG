@@ -6912,6 +6912,11 @@
 					<ChildrenList>
 						<BlendContainer Name="SFX_MC_FOL_Jump" ID="{67AF8419-7AF1-4324-B730-1AB927D6492F}" ShortID="375710585">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -7232,7 +7237,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-12</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -7739,13 +7744,6 @@
 									</ChildrenList>
 								</BlendContainer>
 								<BlendContainer Name="SFX_MC_FOL_Run" ID="{38B7AF42-20F2-4CD7-83CF-45F8D30512EC}" ShortID="69665888">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -7759,11 +7757,6 @@
 											<PropertyList>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -7774,272 +7767,163 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SFX_MC_FOL_Run_01" ID="{4800B6D5-C49D-4C41-AF19-E29B5883599E}" ShortID="766810198">
+												<Sound Name="SFX_MC_FOL_Cloth_Run_1" ID="{D58A3C09-8A70-495B-A95B-FF760A11378F}" ShortID="705819038">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+															<ObjectRef Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_01" ID="{4B394AA5-E9A0-485A-B0D2-7D397850CDF3}">
+														<AudioFileSource Name="SFX_MC_FOL_Cloth_Run_1" ID="{28822CD5-F300-4FD2-9E94-DB5EC92CD338}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.293835616438356"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0311958476027397"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.329784674657534"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_01.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Cloth_Run_1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="331500768"/>
+																<MediaID ID="396025044"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_01" ID="{4B394AA5-E9A0-485A-B0D2-7D397850CDF3}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Cloth_Run_1" ID="{28822CD5-F300-4FD2-9E94-DB5EC92CD338}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_02" ID="{6A656005-F1D5-4110-9113-F5DFAED88B80}" ShortID="805551212">
+												<Sound Name="SFX_MC_FOL_Cloth_Run_2" ID="{7C8425D3-9B10-4EBE-BC9A-6DE37EEB54B8}" ShortID="346318794">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+															<ObjectRef Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_02" ID="{F40B546E-0414-43F1-947D-04ED5139AFFC}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.207534246575342"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Cloth_Run_2" ID="{526F0F50-605C-4302-A1D3-57063F98EDD3}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_02.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Cloth_Run_2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="540174215"/>
+																<MediaID ID="794552977"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_02" ID="{F40B546E-0414-43F1-947D-04ED5139AFFC}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Cloth_Run_2" ID="{526F0F50-605C-4302-A1D3-57063F98EDD3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_03" ID="{6F57E8EC-7796-44FB-AF89-43A776C22A49}" ShortID="506768453">
+												<Sound Name="SFX_MC_FOL_Cloth_Run_5" ID="{EE601306-FDE7-4079-891D-49EA02186E91}" ShortID="941312234">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+															<ObjectRef Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_03" ID="{A036A3A6-8F9A-4601-9921-14821402C482}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.205021433230827"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Cloth_Run_5" ID="{4D983EBD-9A13-4437-8E31-49A457DF423B}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_03.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Cloth_Run_5.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="426371853"/>
+																<MediaID ID="1035831620"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_03" ID="{A036A3A6-8F9A-4601-9921-14821402C482}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Cloth_Run_5" ID="{4D983EBD-9A13-4437-8E31-49A457DF423B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_04" ID="{3C316E2F-A98E-4621-822D-C9A981351615}" ShortID="1072984474">
+												<Sound Name="SFX_MC_FOL_Cloth_Run_6" ID="{ABCE07A6-5371-4ACA-BEED-D5B483FE85A2}" ShortID="189130058">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+															<ObjectRef Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_04" ID="{7DACC091-F9E8-40BA-9DCA-EBEBBA2D8498}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.289531031590719"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Cloth_Run_6" ID="{3AC41555-F9A5-48DD-BC38-AD0E4F4BA6C8}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_04.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Cloth_Run_6.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="35904334"/>
+																<MediaID ID="1050381949"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_04" ID="{7DACC091-F9E8-40BA-9DCA-EBEBBA2D8498}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Cloth_Run_6" ID="{3AC41555-F9A5-48DD-BC38-AD0E4F4BA6C8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_05" ID="{E6033398-1B8C-44E0-A8D2-7A233D1ED15A}" ShortID="964350901">
+												<Sound Name="SFX_MC_FOL_Cloth_Run_7" ID="{EDE4DA2C-AB3E-42AA-8978-FFA53C2388E7}" ShortID="671464594">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+															<ObjectRef Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_05" ID="{A0DFF055-CD4D-4DA1-9CC2-FE2FF62F442D}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.251775230640201"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Cloth_Run_7" ID="{A183BEE3-3865-4E3D-B4D6-25CE17442EF9}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_05.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Cloth_Run_7.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="581302225"/>
+																<MediaID ID="631354978"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_05" ID="{A0DFF055-CD4D-4DA1-9CC2-FE2FF62F442D}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Cloth_Run_7" ID="{A183BEE3-3865-4E3D-B4D6-25CE17442EF9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_06" ID="{B330DB89-21B9-4247-AB54-E7FC8C6C9860}" ShortID="999392485">
+												<Sound Name="SFX_MC_FOL_Cloth_Run_3" ID="{069EA3F8-A354-4504-8F0D-8192A3460CB3}" ShortID="334130077">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+															<ObjectRef Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_06" ID="{D0221502-945E-4542-9E33-FE7D9C5E211C}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.248630136986301"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Cloth_Run_3" ID="{728A2961-B477-4616-933D-90B6376501DF}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_06.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Cloth_Run_3.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="703364872"/>
+																<MediaID ID="906549633"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_06" ID="{D0221502-945E-4542-9E33-FE7D9C5E211C}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Cloth_Run_3" ID="{728A2961-B477-4616-933D-90B6376501DF}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_07" ID="{92FB0D57-630A-4A4E-BAF9-1E9A491D581A}" ShortID="37897267">
+												<Sound Name="SFX_MC_FOL_Cloth_Run_4" ID="{7538CEBB-400F-457C-8800-F90217C06FC8}" ShortID="313490214">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+															<ObjectRef Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_07" ID="{553865B0-D28D-497C-A422-5B2449C360C0}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.240918677973472"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Cloth_Run_4" ID="{B8A36B8B-9D3F-4918-A880-93DCB656D6A8}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_07.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Cloth_Run_4.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="663779980"/>
+																<MediaID ID="755415499"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_07" ID="{553865B0-D28D-497C-A422-5B2449C360C0}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_08" ID="{2C6C0816-8F62-4D1F-84E1-679CEEBE4CA8}" ShortID="958571241">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_08" ID="{C417EA39-03C1-408A-916E-6CEF0315E278}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.357534246575342"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0534246575342466"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_08.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="73631700"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_08" ID="{C417EA39-03C1-408A-916E-6CEF0315E278}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_09" ID="{7423646E-327E-4FDB-9322-3104F1481A99}" ShortID="587861624">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_09" ID="{0003B2AE-38BF-4298-BB62-4EAF27D03E37}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.126162209175908"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0282452707110241"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_09.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="916734846"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_09" ID="{0003B2AE-38BF-4298-BB62-4EAF27D03E37}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="SFX_MC_FOL_Run_10" ID="{BDDEBE9F-6E9A-43DF-9211-13E17F127B82}" ShortID="5053753">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Run_10" ID="{223EA641-5F68-4790-A916-778CD9563453}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.230593646134253"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Run_10.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="827739080"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Run_10" ID="{223EA641-5F68-4790-A916-778CD9563453}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Cloth_Run_4" ID="{B8A36B8B-9D3F-4918-A880-93DCB656D6A8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8047,11 +7931,35 @@
 										<RandomSequenceContainer Name="SFX_MC_FOL_Os_Run" ID="{1EFF09D8-624E-467B-9451-BBC615330667}" ShortID="716850742">
 											<PropertyList>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DC97FE44-6A5C-4102-A7D2-BEAE48AF4EF7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="75"/>
+																	<Property Name="Min" Type="Real64" Value="-75"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-14</Value>
+														<Value>-17</Value>
 													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{08A5561C-8584-4C3A-A9E8-2A890BAF42CB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -8063,7 +7971,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SFX_MC_FOL_Os_Run_01" ID="{FD8DE7E4-57D4-439E-A4B0-442A057DE9BE}" ShortID="748452927">
+												<Sound Name="SFX_MC_FOL_Os_Run_1" ID="{40270E79-5C01-44BA-8E5C-40FAFA2FAA4B}" ShortID="228285302">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8073,24 +7981,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_01" ID="{DDDA019B-5C8F-44DD-B62E-40F52F2AE952}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.172602739726027"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.552739726027398"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_1" ID="{4C2030A7-C76A-4111-9DDF-D395880022CC}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_01.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="524729111"/>
+																<MediaID ID="819087988"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_01" ID="{DDDA019B-5C8F-44DD-B62E-40F52F2AE952}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_1" ID="{4C2030A7-C76A-4111-9DDF-D395880022CC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_02" ID="{56456D69-FB3D-40E7-9BF7-B5CD78E650FD}" ShortID="29619065">
+												<Sound Name="SFX_MC_FOL_Os_Run_2" ID="{ABA36395-981D-424D-9D65-3598F02C612A}" ShortID="1046841368">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8100,24 +8003,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_02" ID="{A0F9241B-44A4-43BE-9E07-BB95136A36AB}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.121232876712329"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.73972602739726"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_2" ID="{30E96A26-4D24-47CF-813F-816F4E08B26F}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_02.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="181788599"/>
+																<MediaID ID="672005522"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_02" ID="{A0F9241B-44A4-43BE-9E07-BB95136A36AB}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_2" ID="{30E96A26-4D24-47CF-813F-816F4E08B26F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_03" ID="{5B520839-1DDA-4077-85F6-7C04D8C1EC7A}" ShortID="678580653">
+												<Sound Name="SFX_MC_FOL_Os_Run_3" ID="{CDC325FB-B046-49BF-9E41-B015F4B0464C}" ShortID="901381428">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8127,24 +8025,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_03" ID="{978D359D-D0C2-48F3-A9F3-EC2B3B3D9922}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.20855628552791"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.613296873543938"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_3" ID="{CD98294B-B61C-49CD-A5D6-B7F92EAFE6E1}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_03.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_3.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="452401271"/>
+																<MediaID ID="806457757"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_03" ID="{978D359D-D0C2-48F3-A9F3-EC2B3B3D9922}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_3" ID="{CD98294B-B61C-49CD-A5D6-B7F92EAFE6E1}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_04" ID="{33A91024-7576-4635-B8E4-A0A4C6F7CDE7}" ShortID="405006262">
+												<Sound Name="SFX_MC_FOL_Os_Run_4" ID="{FD123288-5B3F-4ED4-9610-5F8E3E20DF05}" ShortID="746392523">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8154,24 +8047,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_04" ID="{A955786B-1E32-4D86-B405-E6D81C2EAD80}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.189446230547013"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.695231921535737"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_4" ID="{4A972D5E-813C-4143-B097-302EFB54EFD0}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_04.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_4.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="974139481"/>
+																<MediaID ID="482730767"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_04" ID="{A955786B-1E32-4D86-B405-E6D81C2EAD80}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_4" ID="{4A972D5E-813C-4143-B097-302EFB54EFD0}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_05" ID="{3FA5DE85-AD7C-4130-AE7E-8237D9139643}" ShortID="611069110">
+												<Sound Name="SFX_MC_FOL_Os_Run_5" ID="{D2879C17-E5B0-415F-9669-943EA9D30030}" ShortID="299780142">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8181,24 +8069,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_05" ID="{862C28B0-3BD5-42E9-AB39-8C976B5A83F9}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.154046687168018"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.617843164663125"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_5" ID="{D2C978A8-CAD7-43D5-8D95-EE76682654A7}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_05.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_5.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="41299416"/>
+																<MediaID ID="647263499"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_05" ID="{862C28B0-3BD5-42E9-AB39-8C976B5A83F9}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_5" ID="{D2C978A8-CAD7-43D5-8D95-EE76682654A7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_06" ID="{C91EB392-DBAA-45EB-823E-C31972ED5303}" ShortID="901011681">
+												<Sound Name="SFX_MC_FOL_Os_Run_6" ID="{2EE6548B-E38B-405D-9844-715FD31C1A63}" ShortID="379029641">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8208,24 +8091,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_06" ID="{C728426A-1605-4098-853D-40E42FB7A72D}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.336986301369863"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.710958904109589"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_6" ID="{2DD2AB38-7467-423C-9CA9-991E849DEEAC}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_06.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_6.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="223642117"/>
+																<MediaID ID="332803218"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_06" ID="{C728426A-1605-4098-853D-40E42FB7A72D}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_6" ID="{2DD2AB38-7467-423C-9CA9-991E849DEEAC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_07" ID="{C640A4CF-86E2-4727-8A2B-838846E9C623}" ShortID="699009230">
+												<Sound Name="SFX_MC_FOL_Os_Run_7" ID="{2A3ED147-87DA-478F-A4F7-78355F24FFA0}" ShortID="51316379">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8235,24 +8113,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_07" ID="{55BAEB0E-DFC4-42C2-B0CC-FEB4DC933CAE}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.175707607243811"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.632185102351443"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_7" ID="{AEEB4878-CFA5-43F0-93AF-702BA8040BC3}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_07.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_7.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="765442832"/>
+																<MediaID ID="510085028"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_07" ID="{55BAEB0E-DFC4-42C2-B0CC-FEB4DC933CAE}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_7" ID="{AEEB4878-CFA5-43F0-93AF-702BA8040BC3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_08" ID="{B29AA17E-1227-4923-834F-53B438118406}" ShortID="927007803">
+												<Sound Name="SFX_MC_FOL_Os_Run_8" ID="{1AEAAF90-A87A-4A99-8C50-FFD37E5A5350}" ShortID="308084459">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8262,24 +8135,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_08" ID="{B34091E3-9BB3-4662-8D25-9AADB62DA4FA}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.328767123287671"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.737671232876712"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_8" ID="{DC75F238-41F2-4E5E-B4AD-C054212F6D73}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_08.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_8.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="82567975"/>
+																<MediaID ID="843873708"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_08" ID="{B34091E3-9BB3-4662-8D25-9AADB62DA4FA}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_8" ID="{DC75F238-41F2-4E5E-B4AD-C054212F6D73}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_09" ID="{26AD3DE2-CA26-45A7-9BCD-A335E11AA789}" ShortID="73706487">
+												<Sound Name="SFX_MC_FOL_Os_Run_9" ID="{5CDA273D-153C-400D-B1F4-984B3AA26E97}" ShortID="398622260">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8289,24 +8157,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_09" ID="{F030D558-3918-4DBF-A6C2-509CA886356B}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.246675364209611"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.589384648836702"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_9" ID="{6B411735-91A8-4886-B103-286F0C1F1653}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_MC_FOL_Os_Run_09.wav</AudioFile>
+															<AudioFile>SFX_MC_FOL_Os_Run_9.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1000415432"/>
+																<MediaID ID="289830791"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_09" ID="{F030D558-3918-4DBF-A6C2-509CA886356B}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_9" ID="{6B411735-91A8-4886-B103-286F0C1F1653}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_MC_FOL_Os_Run_10" ID="{1B0682B4-013A-4D23-AF06-6F0E0B78447B}" ShortID="974029103">
+												<Sound Name="SFX_MC_FOL_Os_Run_10" ID="{28C76745-5344-44AB-A83B-AE2D6546C033}" ShortID="222444541">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8316,12 +8179,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_MC_FOL_Os_Run_10" ID="{9D5A55F7-4F90-4D4A-82EF-FC1EA28BB29A}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.179138865591899"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.558379655515175"/>
-															</PropertyList>
+														<AudioFileSource Name="SFX_MC_FOL_Os_Run_10" ID="{9B36625A-C186-46E5-969F-51A687DE0BF1}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_MC_FOL_Os_Run_10.wav</AudioFile>
 															<MediaIDList>
@@ -8330,7 +8188,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_MC_FOL_Os_Run_10" ID="{9D5A55F7-4F90-4D4A-82EF-FC1EA28BB29A}" Platform="Linked"/>
+														<ActiveSource Name="SFX_MC_FOL_Os_Run_10" ID="{9B36625A-C186-46E5-969F-51A687DE0BF1}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8364,6 +8222,11 @@
 						</BlendContainer>
 						<BlendContainer Name="SFX_MC_FOL_Land" ID="{DBDB5BE2-98F6-45B3-BBC8-D180A2F87CB5}" ShortID="698935994">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -8713,6 +8576,11 @@
 						</BlendContainer>
 						<BlendContainer Name="SFX_MC_FOL_Pivot" ID="{3176F166-EF0D-4AAE-B731-6000727A9C7F}" ShortID="431695567">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -9049,6 +8917,11 @@
 						</BlendContainer>
 						<BlendContainer Name="SFX_MC_FOL_Scuff" ID="{F1C2CDCB-A019-40AE-AC01-6C13D406847A}" ShortID="369953510">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -9361,6 +9234,19 @@
 					<ChildrenList>
 						<SwitchContainer Name="MC_Taps" ID="{75620F22-58B2-430C-B36C-59B54B8B527C}" ShortID="874795150">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{20198E40-0955-4394-B13E-9C053166DCBE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-12</Value>

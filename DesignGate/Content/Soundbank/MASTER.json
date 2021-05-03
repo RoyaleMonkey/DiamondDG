@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "2628270381",
+    "Hash": "1631088790",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -1958,282 +1958,22 @@
      {
       "Id": "3212184235",
       "Name": "Play_MC_FOL_Jump",
-      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Jump",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "139556063",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Jump_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Jump_01_D8C07C79.wem"
-       },
-       {
-        "Id": "270687085",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Jump_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Jump_03_D8C07C79.wem"
-       },
-       {
-        "Id": "364921439",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Jump_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem"
-       },
-       {
-        "Id": "399485532",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Jump_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Jump_02_D8C07C79.wem"
-       },
-       {
-        "Id": "477171880",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Jump_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Jump_01_D8C07C79.wem"
-       },
-       {
-        "Id": "653517107",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Jump_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Jump_05_D8C07C79.wem"
-       },
-       {
-        "Id": "681557843",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Jump_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Jump_04_D8C07C79.wem"
-       },
-       {
-        "Id": "790366730",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Jump_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Jump_03_D8C07C79.wem"
-       },
-       {
-        "Id": "923732032",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Jump_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Jump_05_D8C07C79.wem"
-       },
-       {
-        "Id": "1000663756",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Jump_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Jump_04_D8C07C79.wem"
-       }
-      ]
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Jump"
      },
      {
       "Id": "2037670792",
       "Name": "Play_MC_FOL_Land",
-      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Land",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "72301543",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Land_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Land_02_D8C07C79.wem"
-       },
-       {
-        "Id": "73934293",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Land_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Land_05_D8C07C79.wem"
-       },
-       {
-        "Id": "247705410",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Land_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Land_02_D8C07C79.wem"
-       },
-       {
-        "Id": "371493586",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Land_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Land_01_D8C07C79.wem"
-       },
-       {
-        "Id": "431687919",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Land_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Land_04_D8C07C79.wem"
-       },
-       {
-        "Id": "502379977",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Land_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Land_03_D8C07C79.wem"
-       },
-       {
-        "Id": "514031539",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Land_06.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Land_06_D8C07C79.wem"
-       },
-       {
-        "Id": "566370714",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Land_06.wav",
-        "Path": "SFX\\SFX_MC_FOL_Land_06_D8C07C79.wem"
-       },
-       {
-        "Id": "606226228",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Land_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Land_04_D8C07C79.wem"
-       },
-       {
-        "Id": "674222053",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Land_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Land_05_D8C07C79.wem"
-       },
-       {
-        "Id": "775724364",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Land_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Land_03_D8C07C79.wem"
-       },
-       {
-        "Id": "1056182669",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Land_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Land_01_D8C07C79.wem"
-       }
-      ]
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Land"
      },
      {
       "Id": "1608668697",
       "Name": "Play_MC_FOL_Pivot",
-      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Pivot",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "170015718",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Pivot_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_03_2B7AB334.wem"
-       },
-       {
-        "Id": "179054816",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Pivot_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_01_C0D7F589.wem"
-       },
-       {
-        "Id": "183379352",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Pivot_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Pivot_04_D8C07C79.wem"
-       },
-       {
-        "Id": "194444405",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Pivot_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem"
-       },
-       {
-        "Id": "276436891",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Pivot_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_02_37D6BC44.wem"
-       },
-       {
-        "Id": "278492696",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Pivot_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_05_1A3A1D39.wem"
-       },
-       {
-        "Id": "340288444",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Pivot_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Pivot_04_FF55A03A.wem"
-       },
-       {
-        "Id": "342385799",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Pivot_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Pivot_01_D8C07C79.wem"
-       },
-       {
-        "Id": "858586255",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Pivot_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Pivot_02_D8C07C79.wem"
-       },
-       {
-        "Id": "894578471",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Pivot_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Pivot_03_D8C07C79.wem"
-       }
-      ]
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Pivot"
      },
      {
       "Id": "2017862678",
       "Name": "Play_MC_FOL_Scuff",
-      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Scuff",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "41073016",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Scuff_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Scuff_02_D8C07C79.wem"
-       },
-       {
-        "Id": "136405470",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Scuff_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Scuff_04_D8C07C79.wem"
-       },
-       {
-        "Id": "346298508",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Scuff_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Scuff_01_D8C07C79.wem"
-       },
-       {
-        "Id": "511203523",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Scuff_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Scuff_03_D8C07C79.wem"
-       },
-       {
-        "Id": "683035483",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Scuff_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Scuff_03_D8C07C79.wem"
-       },
-       {
-        "Id": "712163534",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Scuff_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Scuff_02_D8C07C79.wem"
-       },
-       {
-        "Id": "720540275",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Scuff_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Scuff_01_D8C07C79.wem"
-       },
-       {
-        "Id": "776916813",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Scuff_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Scuff_04_D8C07C79.wem"
-       },
-       {
-        "Id": "941706445",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Scuff_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Scuff_05_D8C07C79.wem"
-       },
-       {
-        "Id": "988188749",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Scuff_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Scuff_05_D8C07C79.wem"
-       }
-      ]
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Scuff"
      },
      {
       "Id": "4164330385",
@@ -2241,124 +1981,106 @@
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Step",
       "IncludedMemoryFiles": [
        {
-        "Id": "35904334",
+        "Id": "289830791",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_04_D3802B7B.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_9.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_9_D8C07C79.wem"
        },
        {
-        "Id": "41299416",
+        "Id": "332803218",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_05_A8799F5D.wem"
-       },
-       {
-        "Id": "73631700",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_08.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_08_387A6450.wem"
-       },
-       {
-        "Id": "82567975",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_08.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_08_937D9F6B.wem"
-       },
-       {
-        "Id": "181788599",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_02_3321CFD4.wem"
-       },
-       {
-        "Id": "223642117",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_06.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_06_40278158.wem"
-       },
-       {
-        "Id": "331500768",
-        "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_01_2545A4A9.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_6.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_6_D8C07C79.wem"
        },
        {
         "Id": "337946791",
         "Language": "SFX",
         "ShortName": "SFX_MC_FOL_Os_Run_10.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_10_8B1DA6A3.wem"
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_10_D8C07C79.wem"
        },
        {
-        "Id": "426371853",
+        "Id": "396025044",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_03_0C5E023B.wem"
+        "ShortName": "SFX_MC_FOL_Cloth_Run_1.wav",
+        "Path": "SFX\\SFX_MC_FOL_Cloth_Run_1_5FC20DD2.wem"
        },
        {
-        "Id": "452401271",
+        "Id": "482730767",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_03.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_03_091F3D48.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_4.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_4_D8C07C79.wem"
        },
        {
-        "Id": "524729111",
+        "Id": "510085028",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_01.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_01_D6BB85FD.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_7.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_7_D8C07C79.wem"
        },
        {
-        "Id": "540174215",
+        "Id": "631354978",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_02.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_02_5804FFBD.wem"
+        "ShortName": "SFX_MC_FOL_Cloth_Run_7.wav",
+        "Path": "SFX\\SFX_MC_FOL_Cloth_Run_7_D8C07C79.wem"
        },
        {
-        "Id": "581302225",
+        "Id": "647263499",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_05.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_05_47BF2499.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_5.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_5_D8C07C79.wem"
        },
        {
-        "Id": "663779980",
+        "Id": "672005522",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_07.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_07_F3513DD5.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_2.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_2_D8C07C79.wem"
        },
        {
-        "Id": "703364872",
+        "Id": "755415499",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_06.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_06_84A1F6C9.wem"
+        "ShortName": "SFX_MC_FOL_Cloth_Run_4.wav",
+        "Path": "SFX\\SFX_MC_FOL_Cloth_Run_4_D8C07C79.wem"
        },
        {
-        "Id": "765442832",
+        "Id": "794552977",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_07.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_07_D88E8373.wem"
+        "ShortName": "SFX_MC_FOL_Cloth_Run_2.wav",
+        "Path": "SFX\\SFX_MC_FOL_Cloth_Run_2_D8C07C79.wem"
        },
        {
-        "Id": "827739080",
+        "Id": "806457757",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_10.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_10_B9D12E54.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_3.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_3_D8C07C79.wem"
        },
        {
-        "Id": "916734846",
+        "Id": "819087988",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Run_09.wav",
-        "Path": "SFX\\SFX_MC_FOL_Run_09_8A3F1370.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_1.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_1_D8C07C79.wem"
        },
        {
-        "Id": "974139481",
+        "Id": "843873708",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_04.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_04_6E92E6AA.wem"
+        "ShortName": "SFX_MC_FOL_Os_Run_8.wav",
+        "Path": "SFX\\SFX_MC_FOL_Os_Run_8_D8C07C79.wem"
        },
        {
-        "Id": "1000415432",
+        "Id": "906549633",
         "Language": "SFX",
-        "ShortName": "SFX_MC_FOL_Os_Run_09.wav",
-        "Path": "SFX\\SFX_MC_FOL_Os_Run_09_A1EC5BDB.wem"
+        "ShortName": "SFX_MC_FOL_Cloth_Run_3.wav",
+        "Path": "SFX\\SFX_MC_FOL_Cloth_Run_3_D8C07C79.wem"
+       },
+       {
+        "Id": "1035831620",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FOL_Cloth_Run_5.wav",
+        "Path": "SFX\\SFX_MC_FOL_Cloth_Run_5_D8C07C79.wem"
+       },
+       {
+        "Id": "1050381949",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_FOL_Cloth_Run_6.wav",
+        "Path": "SFX\\SFX_MC_FOL_Cloth_Run_6_D8C07C79.wem"
        }
       ]
      },
@@ -6209,12 +5931,6 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_04_D8C07C79.wem"
      },
      {
-      "Id": "35904334",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_04_D3802B7B.wem"
-     },
-     {
       "Id": "38663786",
       "Language": "SFX",
       "ShortName": "Flt_G_Main_End.wav",
@@ -6225,18 +5941,6 @@
       "Language": "SFX",
       "ShortName": "Flt_C_Reverb_End.wav",
       "Path": "SFX\\Flt_C_Reverb_End_D8C07C79.wem"
-     },
-     {
-      "Id": "41073016",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Scuff_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Scuff_02_D8C07C79.wem"
-     },
-     {
-      "Id": "41299416",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_05_A8799F5D.wem"
      },
      {
       "Id": "41995396",
@@ -6341,28 +6045,10 @@
       "Path": "SFX\\Amb_RFX_Bird_Black_Redstart_01_D8C07C79.wem"
      },
      {
-      "Id": "72301543",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Land_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Land_02_D8C07C79.wem"
-     },
-     {
       "Id": "72473308",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Stone_Scuff_03.wav",
       "Path": "SFX\\SFX_MC_FT_Stone_Scuff_03_D8C07C79.wem"
-     },
-     {
-      "Id": "73631700",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_08.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_08_387A6450.wem"
-     },
-     {
-      "Id": "73934293",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Land_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Land_05_D8C07C79.wem"
      },
      {
       "Id": "78235626",
@@ -6381,12 +6067,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Run_01.wav",
       "Path": "SFX\\SFX_MC_FT_Wood_Run_01_D8C07C79.wem"
-     },
-     {
-      "Id": "82567975",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_08.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_08_937D9F6B.wem"
      },
      {
       "Id": "84069073",
@@ -6533,18 +6213,6 @@
       "Path": "SFX\\Amb_RFX_Bird_Demoiselle_Crane_03_D8C07C79.wem"
      },
      {
-      "Id": "136405470",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Scuff_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Scuff_04_D8C07C79.wem"
-     },
-     {
-      "Id": "139556063",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Jump_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Jump_01_D8C07C79.wem"
-     },
-     {
       "Id": "141152429",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Eurasian_Wren_03.wav",
@@ -6635,22 +6303,10 @@
       "Path": "SFX\\SFX_MC_FT_Dirt_Jump_03_D8C07C79.wem"
      },
      {
-      "Id": "170015718",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Pivot_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_03_2B7AB334.wem"
-     },
-     {
       "Id": "170827374",
       "Language": "SFX",
       "ShortName": "Amb_Branch_Rustle_Apple_Tree_RFX-005.wav",
       "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-005_D8C07C79.wem"
-     },
-     {
-      "Id": "179054816",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Pivot_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_01_C0D7F589.wem"
      },
      {
       "Id": "181470793",
@@ -6663,18 +6319,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Jump_04.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Jump_04_D8C07C79.wem"
-     },
-     {
-      "Id": "181788599",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_02_3321CFD4.wem"
-     },
-     {
-      "Id": "183379352",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Pivot_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Pivot_04_D8C07C79.wem"
      },
      {
       "Id": "183999045",
@@ -6723,12 +6367,6 @@
       "Language": "SFX",
       "ShortName": "Amb_Wind_Tree_Lush_Med_RFX-015.wav",
       "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-015_D8C07C79.wem"
-     },
-     {
-      "Id": "194444405",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Pivot_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem"
      },
      {
       "Id": "197976420",
@@ -6815,12 +6453,6 @@
       "Path": "SFX\\Amb_RFX_Bird_Eurasian_Scops_Owl_C_01_D8C07C79.wem"
      },
      {
-      "Id": "223642117",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_06.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_06_40278158.wem"
-     },
-     {
       "Id": "225893759",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Walk_09.wav",
@@ -6855,12 +6487,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Run_06.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Run_06_D8C07C79.wem"
-     },
-     {
-      "Id": "247705410",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Land_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Land_02_D8C07C79.wem"
      },
      {
       "Id": "248118853",
@@ -6917,12 +6543,6 @@
       "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-008_D8C07C79.wem"
      },
      {
-      "Id": "270687085",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Jump_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Jump_03_D8C07C79.wem"
-     },
-     {
       "Id": "271201983",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Grey_Heron_A_01.wav",
@@ -6941,22 +6561,10 @@
       "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-002_D8C07C79.wem"
      },
      {
-      "Id": "276436891",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Pivot_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_02_37D6BC44.wem"
-     },
-     {
       "Id": "278060721",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Run_02.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Run_02_D8C07C79.wem"
-     },
-     {
-      "Id": "278492696",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Pivot_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_05_1A3A1D39.wem"
      },
      {
       "Id": "279224178",
@@ -6999,6 +6607,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Run_09.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Run_09_D8C07C79.wem"
+     },
+     {
+      "Id": "289830791",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Os_Run_9.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_9_D8C07C79.wem"
      },
      {
       "Id": "291850454",
@@ -7145,16 +6759,16 @@
       "Path": "SFX\\Flt_G_Layer_Start_D8C07C79.wem"
      },
      {
-      "Id": "331500768",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_01_2545A4A9.wem"
-     },
-     {
       "Id": "331513841",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Scuff_03.wav",
       "Path": "SFX\\SFX_MC_FT_Wood_Scuff_03_D8C07C79.wem"
+     },
+     {
+      "Id": "332803218",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Os_Run_6.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_6_D8C07C79.wem"
      },
      {
       "Id": "333291232",
@@ -7172,7 +6786,7 @@
       "Id": "337946791",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Os_Run_10.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_10_8B1DA6A3.wem"
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_10_D8C07C79.wem"
      },
      {
       "Id": "338066242",
@@ -7199,18 +6813,6 @@
       "Path": "SFX\\Amb_RFX_Bird_Eurasian_Golden_Oriole_B_13_D8C07C79.wem"
      },
      {
-      "Id": "340288444",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Pivot_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Pivot_04_FF55A03A.wem"
-     },
-     {
-      "Id": "342385799",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Pivot_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Pivot_01_D8C07C79.wem"
-     },
-     {
       "Id": "343843921",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Eurasian_Scops_Owl_A_01.wav",
@@ -7227,12 +6829,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Jump_02.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Jump_02_D8C07C79.wem"
-     },
-     {
-      "Id": "346298508",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Scuff_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Scuff_01_D8C07C79.wem"
      },
      {
       "Id": "348201401",
@@ -7265,12 +6861,6 @@
       "Path": "SFX\\Flt_F_Main_Start_D8C07C79.wem"
      },
      {
-      "Id": "364921439",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Jump_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem"
-     },
-     {
       "Id": "366708434",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Great_Spotted_Cuckoo_B_13.wav",
@@ -7287,12 +6877,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Land_03.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Land_03_D8C07C79.wem"
-     },
-     {
-      "Id": "371493586",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Land_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Land_01_D8C07C79.wem"
      },
      {
       "Id": "372538396",
@@ -7397,10 +6981,10 @@
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Jump_05_D8C07C79.wem"
      },
      {
-      "Id": "399485532",
+      "Id": "396025044",
       "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Jump_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Jump_02_D8C07C79.wem"
+      "ShortName": "SFX_MC_FOL_Cloth_Run_1.wav",
+      "Path": "SFX\\SFX_MC_FOL_Cloth_Run_1_5FC20DD2.wem"
      },
      {
       "Id": "399769599",
@@ -7445,18 +7029,6 @@
       "Path": "SFX\\SFX_MC_Tap_Wood_2_D8C07C79.wem"
      },
      {
-      "Id": "426371853",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_03_0C5E023B.wem"
-     },
-     {
-      "Id": "431687919",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Land_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Land_04_D8C07C79.wem"
-     },
-     {
       "Id": "432822140",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Insect_Bee_11.wav",
@@ -7497,12 +7069,6 @@
       "Language": "SFX",
       "ShortName": "Flt_F_Layer_Loop.wav",
       "Path": "SFX\\Flt_F_Layer_Loop_D8C07C79.wem"
-     },
-     {
-      "Id": "452401271",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_03_091F3D48.wem"
      },
      {
       "Id": "452574099",
@@ -7631,16 +7197,16 @@
       "Path": "SFX\\Flt_D_Main_Start_D8C07C79.wem"
      },
      {
-      "Id": "477171880",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Jump_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Jump_01_D8C07C79.wem"
-     },
-     {
       "Id": "478415247",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_04.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_04_D8C07C79.wem"
+     },
+     {
+      "Id": "482730767",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Os_Run_4.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_4_D8C07C79.wem"
      },
      {
       "Id": "482796387",
@@ -7691,12 +7257,6 @@
       "Path": "SFX\\SFX_MC_FT_Stone_Run_10_D8C07C79.wem"
      },
      {
-      "Id": "502379977",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Land_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Land_03_D8C07C79.wem"
-     },
-     {
       "Id": "502696424",
       "Language": "SFX",
       "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-005.wav",
@@ -7721,22 +7281,16 @@
       "Path": "SFX\\SFX_MC_FT_Dirt_Walk_06_D8C07C79.wem"
      },
      {
-      "Id": "511203523",
+      "Id": "510085028",
       "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Scuff_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Scuff_03_D8C07C79.wem"
+      "ShortName": "SFX_MC_FOL_Os_Run_7.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_7_D8C07C79.wem"
      },
      {
       "Id": "512758086",
       "Language": "SFX",
       "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-001.wav",
       "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-001_D8C07C79.wem"
-     },
-     {
-      "Id": "514031539",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Land_06.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Land_06_D8C07C79.wem"
      },
      {
       "Id": "516637972",
@@ -7773,12 +7327,6 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Common_Whitethroat_12.wav",
       "Path": "SFX\\Amb_RFX_Bird_Common_Whitethroat_12_D8C07C79.wem"
-     },
-     {
-      "Id": "524729111",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_01_D6BB85FD.wem"
      },
      {
       "Id": "528652241",
@@ -7833,12 +7381,6 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Lanner_Falcon_02.wav",
       "Path": "SFX\\Amb_RFX_Bird_Lanner_Falcon_02_D8C07C79.wem"
-     },
-     {
-      "Id": "540174215",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_02_5804FFBD.wem"
      },
      {
       "Id": "541046737",
@@ -7907,12 +7449,6 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Jump_04_D8C07C79.wem"
      },
      {
-      "Id": "566370714",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Land_06.wav",
-      "Path": "SFX\\SFX_MC_FOL_Land_06_D8C07C79.wem"
-     },
-     {
       "Id": "569166908",
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Wood_3.wav",
@@ -7959,12 +7495,6 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Great_Cormorant_05.wav",
       "Path": "SFX\\Amb_RFX_Bird_Great_Cormorant_05_D8C07C79.wem"
-     },
-     {
-      "Id": "581302225",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_05_47BF2499.wem"
      },
      {
       "Id": "583360945",
@@ -8025,12 +7555,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Grass_5.wav",
       "Path": "SFX\\SFX_MC_Tap_Grass_5_D8C07C79.wem"
-     },
-     {
-      "Id": "606226228",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Land_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Land_04_D8C07C79.wem"
      },
      {
       "Id": "606873974",
@@ -8109,6 +7633,12 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Animal_Squirrel_B_Main_01.wav",
       "Path": "SFX\\Amb_RFX_Animal_Squirrel_B_Main_01_D8C07C79.wem"
+     },
+     {
+      "Id": "631354978",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Cloth_Run_7.wav",
+      "Path": "SFX\\SFX_MC_FOL_Cloth_Run_7_D8C07C79.wem"
      },
      {
       "Id": "631884824",
@@ -8195,6 +7725,12 @@
       "Path": "SFX\\Amb_RFX_Bird_Rock_Sparrow_B_07_D8C07C79.wem"
      },
      {
+      "Id": "647263499",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Os_Run_5.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_5_D8C07C79.wem"
+     },
+     {
       "Id": "649657306",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Alpine_Chough_D_03.wav",
@@ -8211,12 +7747,6 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Common_Greenshank_03 1.wav",
       "Path": "SFX\\Amb_RFX_Bird_Common_Greenshank_03 1_D8C07C79.wem"
-     },
-     {
-      "Id": "653517107",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Jump_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Jump_05_D8C07C79.wem"
      },
      {
       "Id": "654645774",
@@ -8241,12 +7771,6 @@
       "Language": "SFX",
       "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-002.wav",
       "Path": "SFX\\Amb_Branch_Rustle_Maple_Green_Tree_RFX-002_D8C07C79.wem"
-     },
-     {
-      "Id": "663779980",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_07.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_07_F3513DD5.wem"
      },
      {
       "Id": "664030189",
@@ -8285,10 +7809,10 @@
       "Path": "SFX\\Amb_RFX_Bird_Little_Owl_C_01_D8C07C79.wem"
      },
      {
-      "Id": "674222053",
+      "Id": "672005522",
       "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Land_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Land_05_D8C07C79.wem"
+      "ShortName": "SFX_MC_FOL_Os_Run_2.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_2_D8C07C79.wem"
      },
      {
       "Id": "675947360",
@@ -8327,12 +7851,6 @@
       "Path": "SFX\\SFX_MC_FT_Stone_Jump_05_D8C07C79.wem"
      },
      {
-      "Id": "681557843",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Jump_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Jump_04_D8C07C79.wem"
-     },
-     {
       "Id": "681671299",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Common_Greenshank_04 1.wav",
@@ -8343,12 +7861,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Dirt_Run_07.wav",
       "Path": "SFX\\SFX_MC_FT_Dirt_Run_07_D8C07C79.wem"
-     },
-     {
-      "Id": "683035483",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Scuff_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Scuff_03_D8C07C79.wem"
      },
      {
       "Id": "684923061",
@@ -8435,12 +7947,6 @@
       "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem"
      },
      {
-      "Id": "703364872",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_06.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_06_84A1F6C9.wem"
-     },
-     {
       "Id": "708222018",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Jump_03.wav",
@@ -8477,12 +7983,6 @@
       "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_02 1_D8C07C79.wem"
      },
      {
-      "Id": "712163534",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Scuff_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Scuff_02_D8C07C79.wem"
-     },
-     {
       "Id": "713439677",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Tree_Pipit_01.wav",
@@ -8511,12 +8011,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Dirt_Land_01.wav",
       "Path": "SFX\\SFX_MC_FT_Dirt_Land_01_D8C07C79.wem"
-     },
-     {
-      "Id": "720540275",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Scuff_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Scuff_01_D8C07C79.wem"
      },
      {
       "Id": "720902656",
@@ -8603,6 +8097,12 @@
       "Path": "SFX\\Amb_Wind_Tree_Lush_Med_RFX-001_D8C07C79.wem"
      },
      {
+      "Id": "755415499",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Cloth_Run_4.wav",
+      "Path": "SFX\\SFX_MC_FOL_Cloth_Run_4_D8C07C79.wem"
+     },
+     {
       "Id": "755490073",
       "Language": "SFX",
       "ShortName": "Flt_C_Main_End.wav",
@@ -8649,12 +8149,6 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Mistle_Thrush_04.wav",
       "Path": "SFX\\Amb_RFX_Bird_Mistle_Thrush_04_D8C07C79.wem"
-     },
-     {
-      "Id": "765442832",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_07.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_07_D88E8373.wem"
      },
      {
       "Id": "767060845",
@@ -8705,18 +8199,6 @@
       "Path": "SFX\\Amb_RFX_Bird_Eurasian_Skylark_01_D8C07C79.wem"
      },
      {
-      "Id": "775724364",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Land_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Land_03_D8C07C79.wem"
-     },
-     {
-      "Id": "776916813",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Scuff_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Scuff_04_D8C07C79.wem"
-     },
-     {
       "Id": "782450985",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Scuff_02.wav",
@@ -8753,12 +8235,6 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Jump_06_D8C07C79.wem"
      },
      {
-      "Id": "790366730",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Jump_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Jump_03_D8C07C79.wem"
-     },
-     {
       "Id": "792133290",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Squacco_Heron_A_01.wav",
@@ -8769,6 +8245,12 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Blackbird_06.wav",
       "Path": "SFX\\Amb_RFX_Bird_Blackbird_06_D8C07C79.wem"
+     },
+     {
+      "Id": "794552977",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Cloth_Run_2.wav",
+      "Path": "SFX\\SFX_MC_FOL_Cloth_Run_2_D8C07C79.wem"
      },
      {
       "Id": "795084438",
@@ -8823,6 +8305,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_08.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_08_D8C07C79.wem"
+     },
+     {
+      "Id": "806457757",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Os_Run_3.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_3_D8C07C79.wem"
      },
      {
       "Id": "809363781",
@@ -8885,16 +8373,16 @@
       "Path": "SFX\\SFX_MC_FT_Wood_Run_06_D8C07C79.wem"
      },
      {
+      "Id": "819087988",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Os_Run_1.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_1_D8C07C79.wem"
+     },
+     {
       "Id": "822382243",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Dirt_Walk_07.wav",
       "Path": "SFX\\SFX_MC_FT_Dirt_Walk_07_D8C07C79.wem"
-     },
-     {
-      "Id": "827739080",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_10.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_10_B9D12E54.wem"
      },
      {
       "Id": "829229526",
@@ -8933,6 +8421,12 @@
       "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-001_D8C07C79.wem"
      },
      {
+      "Id": "843873708",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Os_Run_8.wav",
+      "Path": "SFX\\SFX_MC_FOL_Os_Run_8_D8C07C79.wem"
+     },
+     {
       "Id": "846732178",
       "Language": "SFX",
       "ShortName": "Flt_DS_Reverb_End.wav",
@@ -8961,12 +8455,6 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Insect_Bee_02.wav",
       "Path": "SFX\\Amb_RFX_Insect_Bee_02_D8C07C79.wem"
-     },
-     {
-      "Id": "858586255",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Pivot_02.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Pivot_02_D8C07C79.wem"
      },
      {
       "Id": "860538697",
@@ -9059,12 +8547,6 @@
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Run_03_D8C07C79.wem"
      },
      {
-      "Id": "894578471",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Pivot_03.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Pivot_03_D8C07C79.wem"
-     },
-     {
       "Id": "895175323",
       "Language": "SFX",
       "ShortName": "Amb_Branch_Rustle_Maple_Green_Tree_RFX-003.wav",
@@ -9143,6 +8625,12 @@
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Land_05_D8C07C79.wem"
      },
      {
+      "Id": "906549633",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Cloth_Run_3.wav",
+      "Path": "SFX\\SFX_MC_FOL_Cloth_Run_3_D8C07C79.wem"
+     },
+     {
       "Id": "907209125",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Common_Starling_B_05.wav",
@@ -9173,12 +8661,6 @@
       "Path": "SFX\\Amb_RFX_Insect_Fly_C_05_D8C07C79.wem"
      },
      {
-      "Id": "916734846",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Run_09.wav",
-      "Path": "SFX\\SFX_MC_FOL_Run_09_8A3F1370.wem"
-     },
-     {
       "Id": "918594307",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Land_06.wav",
@@ -9195,12 +8677,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Land_05.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Land_05_D8C07C79.wem"
-     },
-     {
-      "Id": "923732032",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Jump_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Jump_05_D8C07C79.wem"
      },
      {
       "Id": "927101349",
@@ -9243,12 +8719,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_01.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_01_D8C07C79.wem"
-     },
-     {
-      "Id": "941706445",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Scuff_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Scuff_05_D8C07C79.wem"
      },
      {
       "Id": "941793313",
@@ -9323,12 +8793,6 @@
       "Path": "SFX\\Amb_RFX_Animal_Squirrel_D_Main_02_D8C07C79.wem"
      },
      {
-      "Id": "974139481",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_04_6E92E6AA.wem"
-     },
-     {
       "Id": "978713243",
       "Language": "SFX",
       "ShortName": "Flt_D_Layer_Loop.wav",
@@ -9371,12 +8835,6 @@
       "Path": "SFX\\Flt_D#_Main_Loop_D8C07C79.wem"
      },
      {
-      "Id": "988188749",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Scuff_05.wav",
-      "Path": "SFX\\SFX_MC_FOL_Scuff_05_D8C07C79.wem"
-     },
-     {
       "Id": "990386383",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Insect_Bee_01.wav",
@@ -9411,18 +8869,6 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Cinereous_Vulture_03.wav",
       "Path": "SFX\\Amb_RFX_Bird_Cinereous_Vulture_03_D8C07C79.wem"
-     },
-     {
-      "Id": "1000415432",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Run_09.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Run_09_A1EC5BDB.wem"
-     },
-     {
-      "Id": "1000663756",
-      "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Os_Jump_04.wav",
-      "Path": "SFX\\SFX_MC_FOL_Os_Jump_04_D8C07C79.wem"
      },
      {
       "Id": "1003041527",
@@ -9539,6 +8985,12 @@
       "Path": "SFX\\Amb_RFX_Bird_Goldfinch_04 1_D8C07C79.wem"
      },
      {
+      "Id": "1035831620",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_FOL_Cloth_Run_5.wav",
+      "Path": "SFX\\SFX_MC_FOL_Cloth_Run_5_D8C07C79.wem"
+     },
+     {
       "Id": "1035898958",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Jump_02.wav",
@@ -9605,10 +9057,10 @@
       "Path": "SFX\\Amb_Branch_Rustle_Apple_Tree_RFX-004_D8C07C79.wem"
      },
      {
-      "Id": "1056182669",
+      "Id": "1050381949",
       "Language": "SFX",
-      "ShortName": "SFX_MC_FOL_Land_01.wav",
-      "Path": "SFX\\SFX_MC_FOL_Land_01_D8C07C79.wem"
+      "ShortName": "SFX_MC_FOL_Cloth_Run_6.wav",
+      "Path": "SFX\\SFX_MC_FOL_Cloth_Run_6_D8C07C79.wem"
      },
      {
       "Id": "1056558539",

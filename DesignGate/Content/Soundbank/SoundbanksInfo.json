@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -82,7 +82,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "4168110838",
+    "Hash": "246022777",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -90,7 +90,7 @@
      {
       "Id": "2246680465",
       "Name": "Flute_C_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_C_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_C_End",
       "IncludedMemoryFiles": [
        {
         "Id": "38722383",
@@ -115,7 +115,7 @@
      {
       "Id": "984296002",
       "Name": "Flute_C_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_C_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_C_Start",
       "IncludedMemoryFiles": [
        {
         "Id": "27921046",
@@ -164,7 +164,7 @@
      {
       "Id": "2387598574",
       "Name": "Flute_D_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_D_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_End",
       "IncludedMemoryFiles": [
        {
         "Id": "185484287",
@@ -189,7 +189,7 @@
      {
       "Id": "3839819269",
       "Name": "Flute_D_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_D_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_Start",
       "IncludedMemoryFiles": [
        {
         "Id": "476056095",
@@ -238,7 +238,7 @@
      {
       "Id": "2027045613",
       "Name": "Flute_DS_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_DS_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_DS_End",
       "IncludedMemoryFiles": [
        {
         "Id": "50587423",
@@ -263,7 +263,7 @@
      {
       "Id": "3098025574",
       "Name": "Flute_DS_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_DS_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_DS_Start",
       "IncludedMemoryFiles": [
        {
         "Id": "9877435",
@@ -312,7 +312,7 @@
      {
       "Id": "3901381120",
       "Name": "Flute_F_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_F_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_F_End",
       "IncludedMemoryFiles": [
        {
         "Id": "61460550",
@@ -337,7 +337,7 @@
      {
       "Id": "4214291931",
       "Name": "Flute_F_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_F_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_F_Start",
       "IncludedMemoryFiles": [
        {
         "Id": "361188122",
@@ -386,7 +386,7 @@
      {
       "Id": "1634689741",
       "Name": "Flute_G_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_G_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_G_End",
       "IncludedMemoryFiles": [
        {
         "Id": "38663786",
@@ -411,7 +411,7 @@
      {
       "Id": "1149564230",
       "Name": "Flute_G_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_G_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_G_Start",
       "IncludedMemoryFiles": [
        {
         "Id": "9462856",
@@ -454,6 +454,45 @@
         "Language": "SFX",
         "ShortName": "Flt_G_Layer_Loop.wav",
         "Path": "SFX\\Flt_G_Layer_Loop_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1489553392",
+      "Name": "Flute_Melody_DS",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_DS",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "425689024",
+        "Language": "SFX",
+        "ShortName": "Flute_Melodic_DS.wav",
+        "Path": "SFX\\Flute_Melodic_DS_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3378747475",
+      "Name": "Flute_Melody_F",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_F",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "667760232",
+        "Language": "SFX",
+        "ShortName": "Flute_Melodic_F.wav",
+        "Path": "SFX\\Flute_Melodic_F_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3378747474",
+      "Name": "Flute_Melody_G",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_G",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "797019219",
+        "Language": "SFX",
+        "ShortName": "Flute_Melody_G.wav",
+        "Path": "SFX\\Flute_Melody_G_D8C07C79.wem"
        }
       ]
      },
@@ -7617,6 +7656,12 @@
       "Path": "SFX\\SFX_MC_FT_Stone_Run_06_D8C07C79.wem"
      },
      {
+      "Id": "425689024",
+      "Language": "SFX",
+      "ShortName": "Flute_Melodic_DS.wav",
+      "Path": "SFX\\Flute_Melodic_DS_D8C07C79.wem"
+     },
+     {
       "Id": "425975025",
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Wood_2.wav",
@@ -8475,6 +8520,12 @@
       "Path": "SFX\\Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_07_D8C07C79.wem"
      },
      {
+      "Id": "667760232",
+      "Language": "SFX",
+      "ShortName": "Flute_Melodic_F.wav",
+      "Path": "SFX\\Flute_Melodic_F_D8C07C79.wem"
+     },
+     {
       "Id": "667924385",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Dirt_Scuff_01.wav",
@@ -9013,6 +9064,12 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Boreal_Owl_B_03.wav",
       "Path": "SFX\\Amb_RFX_Bird_Boreal_Owl_B_03_D8C07C79.wem"
+     },
+     {
+      "Id": "797019219",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_G.wav",
+      "Path": "SFX\\Flute_Melody_G_D8C07C79.wem"
      },
      {
       "Id": "797292897",

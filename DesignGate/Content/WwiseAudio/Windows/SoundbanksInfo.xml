@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -52,12 +52,12 @@
 				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="4168110838">
+		<SoundBank Id="4056684167" Language="SFX" Hash="246022777">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2246680465" Name="Flute_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_C_End">
+				<Event Id="2246680465" Name="Flute_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_C_End">
 					<IncludedMemoryFiles>
 						<File Id="38722383" Language="SFX">
 							<ShortName>Flt_C_Reverb_End.wav</ShortName>
@@ -73,7 +73,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="984296002" Name="Flute_C_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_C_Start">
+				<Event Id="984296002" Name="Flute_C_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_C_Start">
 					<IncludedMemoryFiles>
 						<File Id="27921046" Language="SFX">
 							<ShortName>Flt_C_Reverb_Start.wav</ShortName>
@@ -105,7 +105,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2387598574" Name="Flute_D_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_D_End">
+				<Event Id="2387598574" Name="Flute_D_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_D_End">
 					<IncludedMemoryFiles>
 						<File Id="185484287" Language="SFX">
 							<ShortName>Flt_D_Main_End.wav</ShortName>
@@ -121,7 +121,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3839819269" Name="Flute_D_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_D_Start">
+				<Event Id="3839819269" Name="Flute_D_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_D_Start">
 					<IncludedMemoryFiles>
 						<File Id="476056095" Language="SFX">
 							<ShortName>Flt_D_Main_Start.wav</ShortName>
@@ -153,7 +153,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2027045613" Name="Flute_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_DS_End">
+				<Event Id="2027045613" Name="Flute_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_DS_End">
 					<IncludedMemoryFiles>
 						<File Id="50587423" Language="SFX">
 							<ShortName>Flt_D#_Main_End.wav</ShortName>
@@ -169,7 +169,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3098025574" Name="Flute_DS_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_DS_Start">
+				<Event Id="3098025574" Name="Flute_DS_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_DS_Start">
 					<IncludedMemoryFiles>
 						<File Id="9877435" Language="SFX">
 							<ShortName>Flt_D#_Layer_Loop.wav</ShortName>
@@ -201,7 +201,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3901381120" Name="Flute_F_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_F_End">
+				<Event Id="3901381120" Name="Flute_F_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_F_End">
 					<IncludedMemoryFiles>
 						<File Id="61460550" Language="SFX">
 							<ShortName>Flt_F_Reverb_End.wav</ShortName>
@@ -217,7 +217,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4214291931" Name="Flute_F_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_F_Start">
+				<Event Id="4214291931" Name="Flute_F_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_F_Start">
 					<IncludedMemoryFiles>
 						<File Id="361188122" Language="SFX">
 							<ShortName>Flt_F_Main_Start.wav</ShortName>
@@ -249,7 +249,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1634689741" Name="Flute_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_G_End">
+				<Event Id="1634689741" Name="Flute_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_G_End">
 					<IncludedMemoryFiles>
 						<File Id="38663786" Language="SFX">
 							<ShortName>Flt_G_Main_End.wav</ShortName>
@@ -265,7 +265,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1149564230" Name="Flute_G_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_G_Start">
+				<Event Id="1149564230" Name="Flute_G_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_G_Start">
 					<IncludedMemoryFiles>
 						<File Id="9462856" Language="SFX">
 							<ShortName>Flt_G_Main_Start.wav</ShortName>
@@ -294,6 +294,30 @@
 						<File Id="901474954" Language="SFX">
 							<ShortName>Flt_G_Layer_Loop.wav</ShortName>
 							<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1489553392" Name="Flute_Melody_DS" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Flute_Melody_DS">
+					<IncludedMemoryFiles>
+						<File Id="425689024" Language="SFX">
+							<ShortName>Flute_Melodic_DS.wav</ShortName>
+							<Path>SFX\Flute_Melodic_DS_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3378747475" Name="Flute_Melody_F" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Flute_Melody_F">
+					<IncludedMemoryFiles>
+						<File Id="667760232" Language="SFX">
+							<ShortName>Flute_Melodic_F.wav</ShortName>
+							<Path>SFX\Flute_Melodic_F_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3378747474" Name="Flute_Melody_G" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Flute_Melody_G">
+					<IncludedMemoryFiles>
+						<File Id="797019219" Language="SFX">
+							<ShortName>Flute_Melody_G.wav</ShortName>
+							<Path>SFX\Flute_Melody_G_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -4828,6 +4852,10 @@
 					<ShortName>SFX_MC_FT_Stone_Run_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_06_D8C07C79.wem</Path>
 				</File>
+				<File Id="425689024" Language="SFX">
+					<ShortName>Flute_Melodic_DS.wav</ShortName>
+					<Path>SFX\Flute_Melodic_DS_D8C07C79.wem</Path>
+				</File>
 				<File Id="425975025" Language="SFX">
 					<ShortName>SFX_MC_Tap_Wood_2.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Wood_2_D8C07C79.wem</Path>
@@ -5400,6 +5428,10 @@
 					<ShortName>Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_07.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_07_D8C07C79.wem</Path>
 				</File>
+				<File Id="667760232" Language="SFX">
+					<ShortName>Flute_Melodic_F.wav</ShortName>
+					<Path>SFX\Flute_Melodic_F_D8C07C79.wem</Path>
+				</File>
 				<File Id="667924385" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Scuff_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Scuff_01_D8C07C79.wem</Path>
@@ -5759,6 +5791,10 @@
 				<File Id="797014514" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Boreal_Owl_B_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Boreal_Owl_B_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="797019219" Language="SFX">
+					<ShortName>Flute_Melody_G.wav</ShortName>
+					<Path>SFX\Flute_Melody_G_D8C07C79.wem</Path>
 				</File>
 				<File Id="797292897" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_06.wav</ShortName>

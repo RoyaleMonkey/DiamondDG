@@ -39,7 +39,10 @@ namespace AK
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_SFX_GPE_BUMPER = 1429665634U;
-        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM = 3485602535U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATFORM_IDLE_OPEN_LP = 682814542U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_CLOSE = 1681387998U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN = 2573704570U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_LAND = 2992937130U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
     } // namespace EVENTS
 

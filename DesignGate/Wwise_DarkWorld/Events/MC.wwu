@@ -69,12 +69,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_GPE_PlantPlatorm" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}">
+				<Event Name="Play_SFX_GPE_PlantPlatorm_Open" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}">
 					<ChildrenList>
 						<Action Name="" ID="{E6FBC02E-421F-4030-89F8-5F3320E7443A}" ShortID="879494714">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_GPE_PlantPlatorm" ID="{AE2AAD33-C0E6-41E2-9A35-004A7D3E81BA}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+									<ObjectRef Name="SFX_GPE_PlantPlatorm_Open" ID="{AE2AAD33-C0E6-41E2-9A35-004A7D3E81BA}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -108,6 +108,39 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MC_Steps" ID="{F7E95507-98D3-480F-972F-EF86BE5DE147}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ID="{A94FEE51-6700-4B36-A102-D81C449A26B9}">
+					<ChildrenList>
+						<Action Name="" ID="{FB88210A-31CA-405C-B9EA-C69DDD1222B2}" ShortID="373644905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_GPE_PlantPlatform_Idle_Open_LP" ID="{5E5365F7-FC23-415D-8A3C-ECC3FB58ADF8}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_GPE_PlantPlatorm_Close" ID="{91EE824C-B3C9-4027-A76B-D2354ADC94D3}">
+					<ChildrenList>
+						<Action Name="" ID="{95D2161A-D807-4B1B-B809-79F2332ACA26}" ShortID="156628177">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_GPE_PlantPlatorm_Close" ID="{E14DAD58-BF2F-468C-A1BD-F134D1AB1E17}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ID="{C402891E-3D44-4210-9279-A792E4A21715}">
+					<ChildrenList>
+						<Action Name="" ID="{82601D94-9A1D-4A7D-B152-09852D3D2B05}" ShortID="192129621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_GPE_PlantPlatorm_Open_Land" ID="{5576AEF1-9291-43B0-BB20-1E1E8A99FB82}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

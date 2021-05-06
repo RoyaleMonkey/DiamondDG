@@ -5,12 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="MASTER" ID="{55368068-78D0-44BC-AD35-2D7D383A7963}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Close" ID="{91EE824C-B3C9-4027-A76B-D2354ADC94D3}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Wind_Forest_LP" ID="{7CE91D68-3753-4072-BB61-6BCBF448A08E}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC" ID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{E5482311-EA18-40DD-A277-B2AA53354992}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Fountain_ST" ID="{3F730622-B92C-4166-917D-CEAF7CE9E142}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Jump_05" ID="{CEF1E324-215E-41B5-983E-82752BDFECCB}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ID="{C402891E-3D44-4210-9279-A792E4A21715}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB_Fountain_Close_M_01" ID="{D35D65E8-CB48-4341-9D1C-60A0FEDA5818}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Jump_04" ID="{C79D604F-3DD7-4349-A762-C3FC07BD379E}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
@@ -29,7 +31,7 @@
 						<ObjectRef Name="SFX_MC_Steps_Grass_Short" ID="{C3BF32D9-130A-469C-B434-DEAAA1F3D1F0}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Land_04" ID="{AF22F5A3-CD13-46C2-A9AB-BE2A2FD7B8D4}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Open" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Grass_Short_Scuff" ID="{9B7ADDBD-6C43-472C-A7A4-34416E60B75F}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB" ID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_FOL_Scuff" ID="{A45F167F-E3D2-476C-8B63-46D279580960}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
@@ -53,6 +55,7 @@
 						<ObjectRef Name="Amb_Wind_Tree_Lush_Med_RFX" ID="{AF4AFBDB-783C-4A42-81F6-73B3B2518038}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Land_02" ID="{4DDFA22E-5E18-4ACB-9D0C-B6CE575D845E}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ID="{A94FEE51-6700-4B36-A102-D81C449A26B9}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Jump_03" ID="{7FBF44B9-6243-4B59-8EC0-52D992B06392}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{300DE984-CA09-4B80-91B1-BD2812E93453}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" Origin="Manual" Filter="7"/>
@@ -70,7 +73,6 @@
 						<ObjectRef Name="Grass_Short_Walk" ID="{8C1788A3-4DAB-4D88-981B-8D880BCCA8EB}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RFX_Squirrel" ID="{A8E528BA-1501-4D93-AB23-CCA21DA02F4D}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Branch_Rustle" ID="{E665AF4F-F4E6-4DC1-97E3-9FBC801EC623}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="FLUTE" ID="{4A78E9A1-4700-4DED-8218-0D463B173437}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Forest_Biome_LP" ID="{D859ECDF-E336-4DEE-8E40-30BC88A77751}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_MC_FT_Grass_Short_Land_05" ID="{D065138E-1167-4E2B-818F-426B66DA38E3}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}" Origin="Manual" Filter="7"/>

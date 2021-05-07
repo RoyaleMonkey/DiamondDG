@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1167860281" Language="SFX" Hash="1871536433">
+		<SoundBank Id="1167860281" Language="SFX" Hash="1501685529">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -40,6 +40,10 @@
 					<ShortName>Flt_C_Reverb_Start.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="30534036" Language="SFX">
+					<ShortName>Flute_Melody_Reverb_F.wav</ShortName>
+					<Path>SFX\Flute_Melody_Reverb_F_D8C07C79.wem</Path>
+				</File>
 				<File Id="38663786" Language="SFX">
 					<ShortName>Flt_G_Main_End.wav</ShortName>
 					<Path>SFX\Flt_G_Main_End_7E5D6FB4.wem</Path>
@@ -48,13 +52,29 @@
 					<ShortName>Flt_C_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="43780261" Language="SFX">
+					<ShortName>Flute_Melody_Main_DS.wav</ShortName>
+					<Path>SFX\Flute_Melody_Main_DS_D8C07C79.wem</Path>
+				</File>
 				<File Id="50587423" Language="SFX">
 					<ShortName>Flt_D#_Main_End.wav</ShortName>
 					<Path>SFX\Flt_D#_Main_End_3C5EAB40.wem</Path>
 				</File>
+				<File Id="53249534" Language="SFX">
+					<ShortName>Flute_Melody_Main_F.wav</ShortName>
+					<Path>SFX\Flute_Melody_Main_F_D8C07C79.wem</Path>
+				</File>
 				<File Id="61460550" Language="SFX">
 					<ShortName>Flt_F_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_F_Reverb_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="67001878" Language="SFX">
+					<ShortName>Flute_Melody_Reverb_DS.wav</ShortName>
+					<Path>SFX\Flute_Melody_Reverb_DS_D8C07C79.wem</Path>
+				</File>
+				<File Id="108630294" Language="SFX">
+					<ShortName>Flute_Melody_Reverb_G.wav</ShortName>
+					<Path>SFX\Flute_Melody_Reverb_G_D8C07C79.wem</Path>
 				</File>
 				<File Id="129311584" Language="SFX">
 					<ShortName>Flt_C_Layer_Start.wav</ShortName>
@@ -108,9 +128,9 @@
 					<ShortName>Flt_C_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_End_D8C07C79.wem</Path>
 				</File>
-				<File Id="425689024" Language="SFX">
-					<ShortName>Flute_Melodic_DS.wav</ShortName>
-					<Path>SFX\Flute_Melodic_DS_D8C07C79.wem</Path>
+				<File Id="431232726" Language="SFX">
+					<ShortName>Flute_Melody_Magical_G.wav</ShortName>
+					<Path>SFX\Flute_Melody_Magical_G_D8C07C79.wem</Path>
 				</File>
 				<File Id="446395729" Language="SFX">
 					<ShortName>Flt_D#_Layer_Start.wav</ShortName>
@@ -119,6 +139,10 @@
 				<File Id="451198114" Language="SFX">
 					<ShortName>Flt_F_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_F_Layer_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="470087089" Language="SFX">
+					<ShortName>Flute_Melody_Magical_DS.wav</ShortName>
+					<Path>SFX\Flute_Melody_Magical_DS_D8C07C79.wem</Path>
 				</File>
 				<File Id="475499326" Language="SFX">
 					<ShortName>Flt_F_Reverb_Start.wav</ShortName>
@@ -131,6 +155,10 @@
 				<File Id="538573930" Language="SFX">
 					<ShortName>Flt_C_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="571855905" Language="SFX">
+					<ShortName>Flute_Melody_Main_G.wav</ShortName>
+					<Path>SFX\Flute_Melody_Main_G_D8C07C79.wem</Path>
 				</File>
 				<File Id="592711064" Language="SFX">
 					<ShortName>Flt_D#_Main_Start.wav</ShortName>
@@ -151,10 +179,6 @@
 				<File Id="664030189" Language="SFX">
 					<ShortName>Flt_C_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_C_Main_Loop_D8C07C79.wem</Path>
-				</File>
-				<File Id="667760232" Language="SFX">
-					<ShortName>Flute_Melodic_F.wav</ShortName>
-					<Path>SFX\Flute_Melodic_F_D8C07C79.wem</Path>
 				</File>
 				<File Id="680197971" Language="SFX">
 					<ShortName>Flt_F_Main_End.wav</ShortName>
@@ -188,10 +212,6 @@
 					<ShortName>Flt_G_Reverb_Start.wav</ShortName>
 					<Path>SFX\Flt_G_Reverb_Start_D8C07C79.wem</Path>
 				</File>
-				<File Id="797019219" Language="SFX">
-					<ShortName>Flute_Melody_G.wav</ShortName>
-					<Path>SFX\Flute_Melody_G_D8C07C79.wem</Path>
-				</File>
 				<File Id="816672819" Language="SFX">
 					<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
@@ -215,6 +235,10 @@
 				<File Id="901474954" Language="SFX">
 					<ShortName>Flt_G_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="945158233" Language="SFX">
+					<ShortName>Flute_Melody_Magical_F.wav</ShortName>
+					<Path>SFX\Flute_Melody_Magical_F_D8C07C79.wem</Path>
 				</File>
 				<File Id="978713243" Language="SFX">
 					<ShortName>Flt_D_Layer_Loop.wav</ShortName>

@@ -665,6 +665,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="GPE_Stele_Butterfly_ATT" ID="{94C683F9-7D53-46D8-B1FA-7AE837DF6C52}" ShortID="506431084">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="11000"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -679,8 +682,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>0</YPos>
+											<XPos>11000</XPos>
+											<YPos>-0</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

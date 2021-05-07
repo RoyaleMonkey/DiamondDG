@@ -15,7 +15,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "956592925",
+    "Hash": "3171472583",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -396,10 +396,22 @@
       "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_DS",
       "IncludedMemoryFiles": [
        {
-        "Id": "425689024",
+        "Id": "43780261",
         "Language": "SFX",
-        "ShortName": "Flute_Melodic_DS.wav",
-        "Path": "SFX\\Flute_Melodic_DS_D8C07C79.wem"
+        "ShortName": "Flute_Melody_Main_DS.wav",
+        "Path": "SFX\\Flute_Melody_Main_DS_D8C07C79.wem"
+       },
+       {
+        "Id": "67001878",
+        "Language": "SFX",
+        "ShortName": "Flute_Melody_Reverb_DS.wav",
+        "Path": "SFX\\Flute_Melody_Reverb_DS_D8C07C79.wem"
+       },
+       {
+        "Id": "470087089",
+        "Language": "SFX",
+        "ShortName": "Flute_Melody_Magical_DS.wav",
+        "Path": "SFX\\Flute_Melody_Magical_DS_D8C07C79.wem"
        }
       ]
      },
@@ -409,10 +421,22 @@
       "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_F",
       "IncludedMemoryFiles": [
        {
-        "Id": "667760232",
+        "Id": "30534036",
         "Language": "SFX",
-        "ShortName": "Flute_Melodic_F.wav",
-        "Path": "SFX\\Flute_Melodic_F_D8C07C79.wem"
+        "ShortName": "Flute_Melody_Reverb_F.wav",
+        "Path": "SFX\\Flute_Melody_Reverb_F_D8C07C79.wem"
+       },
+       {
+        "Id": "53249534",
+        "Language": "SFX",
+        "ShortName": "Flute_Melody_Main_F.wav",
+        "Path": "SFX\\Flute_Melody_Main_F_D8C07C79.wem"
+       },
+       {
+        "Id": "945158233",
+        "Language": "SFX",
+        "ShortName": "Flute_Melody_Magical_F.wav",
+        "Path": "SFX\\Flute_Melody_Magical_F_D8C07C79.wem"
        }
       ]
      },
@@ -422,10 +446,22 @@
       "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_G",
       "IncludedMemoryFiles": [
        {
-        "Id": "797019219",
+        "Id": "108630294",
         "Language": "SFX",
-        "ShortName": "Flute_Melody_G.wav",
-        "Path": "SFX\\Flute_Melody_G_D8C07C79.wem"
+        "ShortName": "Flute_Melody_Reverb_G.wav",
+        "Path": "SFX\\Flute_Melody_Reverb_G_D8C07C79.wem"
+       },
+       {
+        "Id": "431232726",
+        "Language": "SFX",
+        "ShortName": "Flute_Melody_Magical_G.wav",
+        "Path": "SFX\\Flute_Melody_Magical_G_D8C07C79.wem"
+       },
+       {
+        "Id": "571855905",
+        "Language": "SFX",
+        "ShortName": "Flute_Melody_Main_G.wav",
+        "Path": "SFX\\Flute_Melody_Main_G_D8C07C79.wem"
        }
       ]
      }
@@ -450,6 +486,12 @@
       "Path": "SFX\\Flt_C_Reverb_Start_D8C07C79.wem"
      },
      {
+      "Id": "30534036",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Reverb_F.wav",
+      "Path": "SFX\\Flute_Melody_Reverb_F_D8C07C79.wem"
+     },
+     {
       "Id": "38663786",
       "Language": "SFX",
       "ShortName": "Flt_G_Main_End.wav",
@@ -462,16 +504,40 @@
       "Path": "SFX\\Flt_C_Reverb_End_D8C07C79.wem"
      },
      {
+      "Id": "43780261",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Main_DS.wav",
+      "Path": "SFX\\Flute_Melody_Main_DS_D8C07C79.wem"
+     },
+     {
       "Id": "50587423",
       "Language": "SFX",
       "ShortName": "Flt_D#_Main_End.wav",
       "Path": "SFX\\Flt_D#_Main_End_3C5EAB40.wem"
      },
      {
+      "Id": "53249534",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Main_F.wav",
+      "Path": "SFX\\Flute_Melody_Main_F_D8C07C79.wem"
+     },
+     {
       "Id": "61460550",
       "Language": "SFX",
       "ShortName": "Flt_F_Reverb_End.wav",
       "Path": "SFX\\Flt_F_Reverb_End_D8C07C79.wem"
+     },
+     {
+      "Id": "67001878",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Reverb_DS.wav",
+      "Path": "SFX\\Flute_Melody_Reverb_DS_D8C07C79.wem"
+     },
+     {
+      "Id": "108630294",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Reverb_G.wav",
+      "Path": "SFX\\Flute_Melody_Reverb_G_D8C07C79.wem"
      },
      {
       "Id": "129311584",
@@ -552,10 +618,10 @@
       "Path": "SFX\\Flt_C_Layer_End_D8C07C79.wem"
      },
      {
-      "Id": "425689024",
+      "Id": "431232726",
       "Language": "SFX",
-      "ShortName": "Flute_Melodic_DS.wav",
-      "Path": "SFX\\Flute_Melodic_DS_D8C07C79.wem"
+      "ShortName": "Flute_Melody_Magical_G.wav",
+      "Path": "SFX\\Flute_Melody_Magical_G_D8C07C79.wem"
      },
      {
       "Id": "446395729",
@@ -568,6 +634,12 @@
       "Language": "SFX",
       "ShortName": "Flt_F_Layer_Loop.wav",
       "Path": "SFX\\Flt_F_Layer_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "470087089",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Magical_DS.wav",
+      "Path": "SFX\\Flute_Melody_Magical_DS_D8C07C79.wem"
      },
      {
       "Id": "475499326",
@@ -586,6 +658,12 @@
       "Language": "SFX",
       "ShortName": "Flt_C_Reverb_Loop.wav",
       "Path": "SFX\\Flt_C_Reverb_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "571855905",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Main_G.wav",
+      "Path": "SFX\\Flute_Melody_Main_G_D8C07C79.wem"
      },
      {
       "Id": "592711064",
@@ -616,12 +694,6 @@
       "Language": "SFX",
       "ShortName": "Flt_C_Main_Loop.wav",
       "Path": "SFX\\Flt_C_Main_Loop_D8C07C79.wem"
-     },
-     {
-      "Id": "667760232",
-      "Language": "SFX",
-      "ShortName": "Flute_Melodic_F.wav",
-      "Path": "SFX\\Flute_Melodic_F_D8C07C79.wem"
      },
      {
       "Id": "680197971",
@@ -672,12 +744,6 @@
       "Path": "SFX\\Flt_G_Reverb_Start_D8C07C79.wem"
      },
      {
-      "Id": "797019219",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_G.wav",
-      "Path": "SFX\\Flute_Melody_G_D8C07C79.wem"
-     },
-     {
       "Id": "816672819",
       "Language": "SFX",
       "ShortName": "Flt_D_Reverb_Loop.wav",
@@ -712,6 +778,12 @@
       "Language": "SFX",
       "ShortName": "Flt_G_Layer_Loop.wav",
       "Path": "SFX\\Flt_G_Layer_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "945158233",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_Magical_F.wav",
+      "Path": "SFX\\Flute_Melody_Magical_F_D8C07C79.wem"
      },
      {
       "Id": "978713243",

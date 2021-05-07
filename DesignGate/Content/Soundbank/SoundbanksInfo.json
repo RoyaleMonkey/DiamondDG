@@ -67,7 +67,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "146481297",
+    "Hash": "1303778602",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -100,14 +100,104 @@
       "Id": "2992937130",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_Land",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\Play_SFX_GPE_PlantPlatorm_Open_Land"
+     },
+     {
+      "Id": "944437210",
+      "Name": "Play_SFX_GPE_Stele_C3_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_C3_Start",
+      "MaxAttenuation": "100.000000"
+     },
+     {
+      "Id": "4046859122",
+      "Name": "Play_SFX_GPE_Stele_C3_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_C3_Stop",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "1488972579",
+      "Name": "Play_SFX_GPE_Stele_D3_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_D3_Start",
+      "MaxAttenuation": "100.000000"
+     },
+     {
+      "Id": "683320097",
+      "Name": "Play_SFX_GPE_Stele_D3_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_D3_Stop",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "2751041316",
+      "Name": "Play_SFX_GPE_Stele_DS3_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_DS3_Start",
+      "MaxAttenuation": "100.000000"
+     },
+     {
+      "Id": "2028669016",
+      "Name": "Play_SFX_GPE_Stele_DS3_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_DS3_Stop",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "2406314802",
+      "Name": "Play_SFX_GPE_Stele_G3_C4_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_G3_C4_Start",
+      "MaxAttenuation": "100.000000"
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "24149264",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_DS3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_DS3_D8C07C79.wem"
+     },
+     {
+      "Id": "55761035",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_G4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_G4_D8C07C79.wem"
+     },
+     {
+      "Id": "64635819",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_C4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_C4_D8C07C79.wem"
+     },
+     {
+      "Id": "85145748",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_DS4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_DS4_D8C07C79.wem"
+     },
+     {
+      "Id": "109901540",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_D2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_D2_D8C07C79.wem"
+     },
+     {
+      "Id": "120988872",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_G1.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_G1_D8C07C79.wem"
+     },
      {
       "Id": "130967582",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
+     },
+     {
+      "Id": "133630538",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_G2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_G2_D8C07C79.wem"
+     },
+     {
+      "Id": "169888562",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_AS4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS4_D8C07C79.wem"
      },
      {
       "Id": "183332618",
@@ -116,16 +206,136 @@
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_Land_1_D8C07C79.wem"
      },
      {
+      "Id": "183618480",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_A2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_A2_D8C07C79.wem"
+     },
+     {
+      "Id": "194928763",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_A4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_A4_D8C07C79.wem"
+     },
+     {
+      "Id": "197037388",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_AS2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem"
+     },
+     {
+      "Id": "204923600",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_DS2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_DS2_D8C07C79.wem"
+     },
+     {
+      "Id": "212994197",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_DS4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_DS4_D8C07C79.wem"
+     },
+     {
+      "Id": "224544293",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_AS4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_AS4_D8C07C79.wem"
+     },
+     {
       "Id": "239712345",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem"
      },
      {
+      "Id": "261695194",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_D3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_D3_D8C07C79.wem"
+     },
+     {
+      "Id": "279707459",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_G3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_G3_D8C07C79.wem"
+     },
+     {
+      "Id": "279980961",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_G3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_G3_D8C07C79.wem"
+     },
+     {
+      "Id": "314847094",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_DS3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_DS3_D8C07C79.wem"
+     },
+     {
+      "Id": "331774444",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_AS1.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS1_D8C07C79.wem"
+     },
+     {
+      "Id": "332710230",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_DS2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_DS2_D8C07C79.wem"
+     },
+     {
+      "Id": "334241974",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_AS3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS3_D8C07C79.wem"
+     },
+     {
+      "Id": "342215700",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_F4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_F4_D8C07C79.wem"
+     },
+     {
       "Id": "374437879",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_5.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem"
+     },
+     {
+      "Id": "377871452",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_D4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_D4_D8C07C79.wem"
+     },
+     {
+      "Id": "383078185",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_F2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_F2_D8C07C79.wem"
+     },
+     {
+      "Id": "402602504",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_AS2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_AS2_D8C07C79.wem"
+     },
+     {
+      "Id": "409024675",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_D2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem"
+     },
+     {
+      "Id": "443084533",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_F3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_F3_D8C07C79.wem"
+     },
+     {
+      "Id": "467225163",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_C2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_C2_D8C07C79.wem"
      },
      {
       "Id": "486250280",
@@ -152,16 +362,136 @@
       "Path": "SFX\\SFX_GPE_Bumper_1_D8C07C79.wem"
      },
      {
+      "Id": "570530222",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_A1.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_A1_D8C07C79.wem"
+     },
+     {
+      "Id": "610677375",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_G2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem"
+     },
+     {
+      "Id": "659122690",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_C3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_C3_D8C07C79.wem"
+     },
+     {
+      "Id": "687940808",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_D4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_D4_D8C07C79.wem"
+     },
+     {
+      "Id": "689753367",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_G1.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_G1_D8C07C79.wem"
+     },
+     {
+      "Id": "693050746",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_A3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_A3_D8C07C79.wem"
+     },
+     {
       "Id": "724915893",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_2.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem"
      },
      {
+      "Id": "726963180",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_D3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_D3_D8C07C79.wem"
+     },
+     {
+      "Id": "752171227",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_AS1.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_AS1_D8C07C79.wem"
+     },
+     {
+      "Id": "766045658",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_AS3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_AS3_D8C07C79.wem"
+     },
+     {
+      "Id": "768679159",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_A1.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_A1_D8C07C79.wem"
+     },
+     {
       "Id": "808406191",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem"
+     },
+     {
+      "Id": "824316949",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_F4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_F4_D8C07C79.wem"
+     },
+     {
+      "Id": "855343725",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_G4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_G4_D8C07C79.wem"
+     },
+     {
+      "Id": "860454866",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_F3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_F3_D8C07C79.wem"
+     },
+     {
+      "Id": "861623187",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_C4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_C4_D8C07C79.wem"
+     },
+     {
+      "Id": "889358637",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_A2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_A2_D8C07C79.wem"
+     },
+     {
+      "Id": "941605390",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_C2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_C2_D8C07C79.wem"
+     },
+     {
+      "Id": "986239945",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_C3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_C3_D8C07C79.wem"
+     },
+     {
+      "Id": "1014667078",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_A3.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_A3_D8C07C79.wem"
+     },
+     {
+      "Id": "1034101597",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Butterfly_F2.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Butterfly_F2_D8C07C79.wem"
+     },
+     {
+      "Id": "1063009932",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Stele_Stone_A4.wav",
+      "Path": "SFX\\SFX_GPE_Stele_Stone_A4_D8C07C79.wem"
      }
     ]
    },
@@ -563,7 +893,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "1759303035",
+    "Hash": "1936149444",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",

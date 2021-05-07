@@ -62,6 +62,180 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="SFX_GPE_Stele" ID="{FA8008D5-7DE4-42C6-9140-CD0B99DE3362}" ShortID="894082602">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Stele_C3_Start" ID="{C9814CF4-7940-416E-8233-13EADD32DA57}">
+							<ChildrenList>
+								<Action Name="" ID="{CCCD6411-ADC4-48A5-AE2F-BE695F1D48EB}" ShortID="768274327">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_C3" ID="{FFF7E716-2F37-45E7-B180-F878E7A9AC3D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{414A1954-8988-4D72-BB78-73E1E2A6EF5A}" ShortID="990699297">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_C3" ID="{52332400-8DB9-4D5E-86D7-8BBA0CE93F7F}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Stele_C3_Stop" ID="{A95D184E-2243-4969-876B-F43A95AFFE9E}">
+							<ChildrenList>
+								<Action Name="" ID="{9E8EBDA9-8BD0-4F21-9E34-3118D5980C48}" ShortID="1015146573">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_C3" ID="{FFF7E716-2F37-45E7-B180-F878E7A9AC3D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4B27DD86-CDB5-4153-865F-1E65491EB4EE}" ShortID="890208577">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_C3" ID="{52332400-8DB9-4D5E-86D7-8BBA0CE93F7F}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Stele_D3_Start" ID="{181C9108-25A4-4E21-B892-D0C4DC26B6A5}">
+							<ChildrenList>
+								<Action Name="" ID="{9C2D2E3A-3401-4CCC-8125-F27A09E8BD69}" ShortID="376071768">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_D3" ID="{D357E1A4-AE18-4546-A56E-C07C45349A75}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7A49B20E-2A09-4014-A908-E4E6453A5F9A}" ShortID="398663055">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_D3" ID="{4FC5AC29-78E5-4F31-B6AE-C60F57D5CF61}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Stele_D3_Stop" ID="{EDA81BF9-BD90-4BCE-8BEA-A402ACFBE543}">
+							<ChildrenList>
+								<Action Name="" ID="{435890E9-6C08-42FA-A16E-4EA3C7F39DB8}" ShortID="897270277">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_D3" ID="{D357E1A4-AE18-4546-A56E-C07C45349A75}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{20BE1206-C56A-4D32-A3AB-4F7531C2F029}" ShortID="290327305">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_D3" ID="{4FC5AC29-78E5-4F31-B6AE-C60F57D5CF61}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Stele_DS3_Start" ID="{B39F4499-6B50-4060-9676-8A26C1BFFB05}">
+							<ChildrenList>
+								<Action Name="" ID="{03880381-D4B2-453B-8B7C-BA3A8549A5A3}" ShortID="868028934">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_DS3" ID="{B0A29801-6D8B-4C73-850C-F0CBD4B3C04D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C6A8946D-A161-4276-AF6C-75FD916A555C}" ShortID="983217167">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_DS3" ID="{5A397413-8DDC-41F5-A5DD-3E69FA69549E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Stele_DS3_Stop" ID="{C34CE52C-6E41-49D7-974B-94AF00CFEB63}">
+							<ChildrenList>
+								<Action Name="" ID="{1DF8432B-F85A-4691-8361-FA0F24D9DDA4}" ShortID="775432598">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_DS3" ID="{B0A29801-6D8B-4C73-850C-F0CBD4B3C04D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{29013098-8905-4520-96A0-A3566DA133AE}" ShortID="722209251">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_DS3" ID="{5A397413-8DDC-41F5-A5DD-3E69FA69549E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Stele_G3_C4_Start" ID="{E0AE8681-2043-425C-B3AF-24894CA5046A}">
+							<ChildrenList>
+								<Action Name="" ID="{DCA5476A-89BE-46D0-B084-790719DE01E3}" ShortID="38291988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_G3" ID="{E8405062-2429-4027-97F2-D6A74D4CB306}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{296B1EE3-E266-4210-B954-F03ACFB1545A}" ShortID="674845785">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_G3" ID="{C524569A-8B0E-4A13-812A-B364BF240346}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{00DFA8D0-CF52-4F10-8384-4F9426A989E0}" ShortID="294800838">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Butterfly_C4" ID="{36C1D711-6DAC-4EBF-BD87-F59ABB0A6E4C}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{94C34B21-C289-44A8-83AF-42ED16D3CA63}" ShortID="281862706">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Stele_Stone_C4" ID="{BC5262B9-B1A4-4937-87C1-17D083946CD3}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

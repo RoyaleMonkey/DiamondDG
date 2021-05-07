@@ -43,6 +43,13 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_CLOSE = 1681387998U;
         static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN = 2573704570U;
         static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_LAND = 2992937130U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_C3_START = 944437210U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_C3_STOP = 4046859122U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_D3_START = 1488972579U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_D3_STOP = 683320097U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_DS3_START = 2751041316U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_DS3_STOP = 2028669016U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_G3_C4_START = 2406314802U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
     } // namespace EVENTS
 

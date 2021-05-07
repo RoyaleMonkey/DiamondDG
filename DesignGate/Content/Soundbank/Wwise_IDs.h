@@ -88,7 +88,9 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID FLUTE = 1167860281U;
         static const AkUniqueID MASTER = 4056684167U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES

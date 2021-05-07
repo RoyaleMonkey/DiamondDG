@@ -1,0 +1,412 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1167860281",
+    "Language": "SFX",
+    "Hash": "1871536433",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
+    "ShortName": "FLUTE",
+    "Path": "FLUTE.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2246680465",
+      "Name": "Flute_C_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_C_End"
+     },
+     {
+      "Id": "984296002",
+      "Name": "Flute_C_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_C_Start"
+     },
+     {
+      "Id": "2387598574",
+      "Name": "Flute_D_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_End"
+     },
+     {
+      "Id": "3839819269",
+      "Name": "Flute_D_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_Start"
+     },
+     {
+      "Id": "2027045613",
+      "Name": "Flute_DS_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_DS_End"
+     },
+     {
+      "Id": "3098025574",
+      "Name": "Flute_DS_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_DS_Start"
+     },
+     {
+      "Id": "3901381120",
+      "Name": "Flute_F_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_F_End"
+     },
+     {
+      "Id": "4214291931",
+      "Name": "Flute_F_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_F_Start"
+     },
+     {
+      "Id": "1634689741",
+      "Name": "Flute_G_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_G_End"
+     },
+     {
+      "Id": "1149564230",
+      "Name": "Flute_G_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_G_Start"
+     },
+     {
+      "Id": "1489553392",
+      "Name": "Flute_Melody_DS",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_DS"
+     },
+     {
+      "Id": "3378747475",
+      "Name": "Flute_Melody_F",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_F"
+     },
+     {
+      "Id": "3378747474",
+      "Name": "Flute_Melody_G",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Flute_Melody_G"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "9462856",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Main_Start.wav",
+      "Path": "SFX\\Flt_G_Main_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "9877435",
+      "Language": "SFX",
+      "ShortName": "Flt_D#_Layer_Loop.wav",
+      "Path": "SFX\\Flt_D#_Layer_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "27921046",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Reverb_Start.wav",
+      "Path": "SFX\\Flt_C_Reverb_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "38663786",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Main_End.wav",
+      "Path": "SFX\\Flt_G_Main_End_7E5D6FB4.wem"
+     },
+     {
+      "Id": "38722383",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Reverb_End.wav",
+      "Path": "SFX\\Flt_C_Reverb_End_D8C07C79.wem"
+     },
+     {
+      "Id": "50587423",
+      "Language": "SFX",
+      "ShortName": "Flt_D#_Main_End.wav",
+      "Path": "SFX\\Flt_D#_Main_End_3C5EAB40.wem"
+     },
+     {
+      "Id": "61460550",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Reverb_End.wav",
+      "Path": "SFX\\Flt_F_Reverb_End_D8C07C79.wem"
+     },
+     {
+      "Id": "129311584",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Layer_Start.wav",
+      "Path": "SFX\\Flt_C_Layer_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "129789573",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Breath.wav",
+      "Path": "SFX\\Flt_G_Breath_D8C07C79.wem"
+     },
+     {
+      "Id": "185484287",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Main_End.wav",
+      "Path": "SFX\\Flt_D_Main_End_D8C07C79.wem"
+     },
+     {
+      "Id": "197976420",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Reverb_Loop.wav",
+      "Path": "SFX\\Flt_G_Reverb_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "243158655",
+      "Language": "SFX",
+      "ShortName": "Flt_D#_Breath.wav",
+      "Path": "SFX\\Flt_D#_Breath_D8C07C79.wem"
+     },
+     {
+      "Id": "258398410",
+      "Language": "SFX",
+      "ShortName": "Flt_DS_Reverb_Loop.wav",
+      "Path": "SFX\\Flt_DS_Reverb_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "269017053",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Reverb_End.wav",
+      "Path": "SFX\\Flt_G_Reverb_End_D8C07C79.wem"
+     },
+     {
+      "Id": "279224178",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Main_Start.wav",
+      "Path": "SFX\\Flt_C_Main_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "312456375",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Breath.wav",
+      "Path": "SFX\\Flt_C_Breath_D8C07C79.wem"
+     },
+     {
+      "Id": "327874764",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Layer_Start.wav",
+      "Path": "SFX\\Flt_G_Layer_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "361188122",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Main_Start.wav",
+      "Path": "SFX\\Flt_F_Main_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "392890804",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Reverb_Loop.wav",
+      "Path": "SFX\\Flt_F_Reverb_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "400648656",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Layer_End.wav",
+      "Path": "SFX\\Flt_C_Layer_End_D8C07C79.wem"
+     },
+     {
+      "Id": "425689024",
+      "Language": "SFX",
+      "ShortName": "Flute_Melodic_DS.wav",
+      "Path": "SFX\\Flute_Melodic_DS_D8C07C79.wem"
+     },
+     {
+      "Id": "446395729",
+      "Language": "SFX",
+      "ShortName": "Flt_D#_Layer_Start.wav",
+      "Path": "SFX\\Flt_D#_Layer_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "451198114",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Layer_Loop.wav",
+      "Path": "SFX\\Flt_F_Layer_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "475499326",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Reverb_Start.wav",
+      "Path": "SFX\\Flt_F_Reverb_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "476056095",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Main_Start.wav",
+      "Path": "SFX\\Flt_D_Main_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "538573930",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Reverb_Loop.wav",
+      "Path": "SFX\\Flt_C_Reverb_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "592711064",
+      "Language": "SFX",
+      "ShortName": "Flt_D#_Main_Start.wav",
+      "Path": "SFX\\Flt_D#_Main_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "606873974",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Main_Loop.wav",
+      "Path": "SFX\\Flt_F_Main_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "621618583",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Reverb_End.wav",
+      "Path": "SFX\\Flt_D_Reverb_End_D8C07C79.wem"
+     },
+     {
+      "Id": "640525560",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Layer_Loop.wav",
+      "Path": "SFX\\Flt_C_Layer_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "664030189",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Main_Loop.wav",
+      "Path": "SFX\\Flt_C_Main_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "667760232",
+      "Language": "SFX",
+      "ShortName": "Flute_Melodic_F.wav",
+      "Path": "SFX\\Flute_Melodic_F_D8C07C79.wem"
+     },
+     {
+      "Id": "680197971",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Main_End.wav",
+      "Path": "SFX\\Flt_F_Main_End_B40D0640.wem"
+     },
+     {
+      "Id": "695114102",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Layer_End.wav",
+      "Path": "SFX\\Flt_G_Layer_End_D8C07C79.wem"
+     },
+     {
+      "Id": "733805807",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Reverb_Start.wav",
+      "Path": "SFX\\Flt_D_Reverb_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "738348293",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Breath.wav",
+      "Path": "SFX\\Flt_D_Breath_D8C07C79.wem"
+     },
+     {
+      "Id": "755490073",
+      "Language": "SFX",
+      "ShortName": "Flt_C_Main_End.wav",
+      "Path": "SFX\\Flt_C_Main_End_596AF383.wem"
+     },
+     {
+      "Id": "785499893",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Layer_End.wav",
+      "Path": "SFX\\Flt_D_Layer_End_D8C07C79.wem"
+     },
+     {
+      "Id": "785861194",
+      "Language": "SFX",
+      "ShortName": "Flt_DS_Reverb_Start.wav",
+      "Path": "SFX\\Flt_DS_Reverb_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "788750978",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Reverb_Start.wav",
+      "Path": "SFX\\Flt_G_Reverb_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "797019219",
+      "Language": "SFX",
+      "ShortName": "Flute_Melody_G.wav",
+      "Path": "SFX\\Flute_Melody_G_D8C07C79.wem"
+     },
+     {
+      "Id": "816672819",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Reverb_Loop.wav",
+      "Path": "SFX\\Flt_D_Reverb_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "846732178",
+      "Language": "SFX",
+      "ShortName": "Flt_DS_Reverb_End.wav",
+      "Path": "SFX\\Flt_DS_Reverb_End_D8C07C79.wem"
+     },
+     {
+      "Id": "867948560",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Main_Loop.wav",
+      "Path": "SFX\\Flt_D_Main_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "889184004",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Main_Loop.wav",
+      "Path": "SFX\\Flt_G_Main_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "900247833",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Breath.wav",
+      "Path": "SFX\\Flt_F_Breath_D8C07C79.wem"
+     },
+     {
+      "Id": "901474954",
+      "Language": "SFX",
+      "ShortName": "Flt_G_Layer_Loop.wav",
+      "Path": "SFX\\Flt_G_Layer_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "978713243",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Layer_Loop.wav",
+      "Path": "SFX\\Flt_D_Layer_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "983427185",
+      "Language": "SFX",
+      "ShortName": "Flt_D#_Main_Loop.wav",
+      "Path": "SFX\\Flt_D#_Main_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "1021185733",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Layer_Start.wav",
+      "Path": "SFX\\Flt_F_Layer_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "1027134471",
+      "Language": "SFX",
+      "ShortName": "Flt_D_Layer_Start.wav",
+      "Path": "SFX\\Flt_D_Layer_Start_D8C07C79.wem"
+     },
+     {
+      "Id": "1040993073",
+      "Language": "SFX",
+      "ShortName": "Flt_D#_Layer_End.wav",
+      "Path": "SFX\\Flt_D#_Layer_End_D8C07C79.wem"
+     },
+     {
+      "Id": "1057739009",
+      "Language": "SFX",
+      "ShortName": "Flt_F_Layer_End.wav",
+      "Path": "SFX\\Flt_F_Layer_End_D8C07C79.wem"
+     }
+    ]
+   }
+  ]
+ }
+}

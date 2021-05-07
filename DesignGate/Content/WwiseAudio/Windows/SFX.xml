@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="670928327">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_Bumper" MaxAttenuation="800.000000">
+					<IncludedMemoryFiles>
+						<File Id="555465848" Language="SFX">
+							<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="682814542" Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatform_Idle_Open_LP" MaxAttenuation="2500.000000">
+					<IncludedMemoryFiles>
+						<File Id="239712345" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="808406191" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1681387998" Name="Play_SFX_GPE_PlantPlatorm_Close" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatorm_Close" MaxAttenuation="2500.000000">
+					<IncludedMemoryFiles>
+						<File Id="486250280" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2573704570" Name="Play_SFX_GPE_PlantPlatorm_Open" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatorm_Open" MaxAttenuation="2500.000000">
+					<IncludedMemoryFiles>
+						<File Id="130967582" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="374437879" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="500044490" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="507893096" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="724915893" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2992937130" Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatorm_Open_Land">
+					<IncludedMemoryFiles>
+						<File Id="183332618" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_Land_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="130967582" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
+				</File>
+				<File Id="183332618" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_Land_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="239712345" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="374437879" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
+				</File>
+				<File Id="486250280" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="500044490" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="507893096" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
+				</File>
+				<File Id="555465848" Language="SFX">
+					<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="724915893" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="808406191" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

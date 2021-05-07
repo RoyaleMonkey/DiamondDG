@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1167860281" Language="SFX" Hash="1871536433">
+			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
+			<ShortName>FLUTE</ShortName>
+			<Path>FLUTE.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2246680465" Name="Flute_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_C_End">
+					<IncludedMemoryFiles>
+						<File Id="38722383" Language="SFX">
+							<ShortName>Flt_C_Reverb_End.wav</ShortName>
+							<Path>SFX\Flt_C_Reverb_End_D8C07C79.wem</Path>
+						</File>
+						<File Id="400648656" Language="SFX">
+							<ShortName>Flt_C_Layer_End.wav</ShortName>
+							<Path>SFX\Flt_C_Layer_End_D8C07C79.wem</Path>
+						</File>
+						<File Id="755490073" Language="SFX">
+							<ShortName>Flt_C_Main_End.wav</ShortName>
+							<Path>SFX\Flt_C_Main_End_596AF383.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="984296002" Name="Flute_C_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_C_Start">
+					<IncludedMemoryFiles>
+						<File Id="27921046" Language="SFX">
+							<ShortName>Flt_C_Reverb_Start.wav</ShortName>
+							<Path>SFX\Flt_C_Reverb_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="129311584" Language="SFX">
+							<ShortName>Flt_C_Layer_Start.wav</ShortName>
+							<Path>SFX\Flt_C_Layer_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="279224178" Language="SFX">
+							<ShortName>Flt_C_Main_Start.wav</ShortName>
+							<Path>SFX\Flt_C_Main_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="312456375" Language="SFX">
+							<ShortName>Flt_C_Breath.wav</ShortName>
+							<Path>SFX\Flt_C_Breath_D8C07C79.wem</Path>
+						</File>
+						<File Id="538573930" Language="SFX">
+							<ShortName>Flt_C_Reverb_Loop.wav</ShortName>
+							<Path>SFX\Flt_C_Reverb_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="640525560" Language="SFX">
+							<ShortName>Flt_C_Layer_Loop.wav</ShortName>
+							<Path>SFX\Flt_C_Layer_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="664030189" Language="SFX">
+							<ShortName>Flt_C_Main_Loop.wav</ShortName>
+							<Path>SFX\Flt_C_Main_Loop_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2387598574" Name="Flute_D_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_D_End">
+					<IncludedMemoryFiles>
+						<File Id="185484287" Language="SFX">
+							<ShortName>Flt_D_Main_End.wav</ShortName>
+							<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
+						</File>
+						<File Id="621618583" Language="SFX">
+							<ShortName>Flt_D_Reverb_End.wav</ShortName>
+							<Path>SFX\Flt_D_Reverb_End_D8C07C79.wem</Path>
+						</File>
+						<File Id="785499893" Language="SFX">
+							<ShortName>Flt_D_Layer_End.wav</ShortName>
+							<Path>SFX\Flt_D_Layer_End_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3839819269" Name="Flute_D_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_D_Start">
+					<IncludedMemoryFiles>
+						<File Id="476056095" Language="SFX">
+							<ShortName>Flt_D_Main_Start.wav</ShortName>
+							<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="733805807" Language="SFX">
+							<ShortName>Flt_D_Reverb_Start.wav</ShortName>
+							<Path>SFX\Flt_D_Reverb_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="738348293" Language="SFX">
+							<ShortName>Flt_D_Breath.wav</ShortName>
+							<Path>SFX\Flt_D_Breath_D8C07C79.wem</Path>
+						</File>
+						<File Id="816672819" Language="SFX">
+							<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
+							<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="867948560" Language="SFX">
+							<ShortName>Flt_D_Main_Loop.wav</ShortName>
+							<Path>SFX\Flt_D_Main_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="978713243" Language="SFX">
+							<ShortName>Flt_D_Layer_Loop.wav</ShortName>
+							<Path>SFX\Flt_D_Layer_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="1027134471" Language="SFX">
+							<ShortName>Flt_D_Layer_Start.wav</ShortName>
+							<Path>SFX\Flt_D_Layer_Start_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2027045613" Name="Flute_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_DS_End">
+					<IncludedMemoryFiles>
+						<File Id="50587423" Language="SFX">
+							<ShortName>Flt_D#_Main_End.wav</ShortName>
+							<Path>SFX\Flt_D#_Main_End_3C5EAB40.wem</Path>
+						</File>
+						<File Id="846732178" Language="SFX">
+							<ShortName>Flt_DS_Reverb_End.wav</ShortName>
+							<Path>SFX\Flt_DS_Reverb_End_D8C07C79.wem</Path>
+						</File>
+						<File Id="1040993073" Language="SFX">
+							<ShortName>Flt_D#_Layer_End.wav</ShortName>
+							<Path>SFX\Flt_D#_Layer_End_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3098025574" Name="Flute_DS_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_DS_Start">
+					<IncludedMemoryFiles>
+						<File Id="9877435" Language="SFX">
+							<ShortName>Flt_D#_Layer_Loop.wav</ShortName>
+							<Path>SFX\Flt_D#_Layer_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="243158655" Language="SFX">
+							<ShortName>Flt_D#_Breath.wav</ShortName>
+							<Path>SFX\Flt_D#_Breath_D8C07C79.wem</Path>
+						</File>
+						<File Id="258398410" Language="SFX">
+							<ShortName>Flt_DS_Reverb_Loop.wav</ShortName>
+							<Path>SFX\Flt_DS_Reverb_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="446395729" Language="SFX">
+							<ShortName>Flt_D#_Layer_Start.wav</ShortName>
+							<Path>SFX\Flt_D#_Layer_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="592711064" Language="SFX">
+							<ShortName>Flt_D#_Main_Start.wav</ShortName>
+							<Path>SFX\Flt_D#_Main_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="785861194" Language="SFX">
+							<ShortName>Flt_DS_Reverb_Start.wav</ShortName>
+							<Path>SFX\Flt_DS_Reverb_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="983427185" Language="SFX">
+							<ShortName>Flt_D#_Main_Loop.wav</ShortName>
+							<Path>SFX\Flt_D#_Main_Loop_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3901381120" Name="Flute_F_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_F_End">
+					<IncludedMemoryFiles>
+						<File Id="61460550" Language="SFX">
+							<ShortName>Flt_F_Reverb_End.wav</ShortName>
+							<Path>SFX\Flt_F_Reverb_End_D8C07C79.wem</Path>
+						</File>
+						<File Id="680197971" Language="SFX">
+							<ShortName>Flt_F_Main_End.wav</ShortName>
+							<Path>SFX\Flt_F_Main_End_B40D0640.wem</Path>
+						</File>
+						<File Id="1057739009" Language="SFX">
+							<ShortName>Flt_F_Layer_End.wav</ShortName>
+							<Path>SFX\Flt_F_Layer_End_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4214291931" Name="Flute_F_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_F_Start">
+					<IncludedMemoryFiles>
+						<File Id="361188122" Language="SFX">
+							<ShortName>Flt_F_Main_Start.wav</ShortName>
+							<Path>SFX\Flt_F_Main_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="392890804" Language="SFX">
+							<ShortName>Flt_F_Reverb_Loop.wav</ShortName>
+							<Path>SFX\Flt_F_Reverb_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="451198114" Language="SFX">
+							<ShortName>Flt_F_Layer_Loop.wav</ShortName>
+							<Path>SFX\Flt_F_Layer_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="475499326" Language="SFX">
+							<ShortName>Flt_F_Reverb_Start.wav</ShortName>
+							<Path>SFX\Flt_F_Reverb_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="606873974" Language="SFX">
+							<ShortName>Flt_F_Main_Loop.wav</ShortName>
+							<Path>SFX\Flt_F_Main_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="900247833" Language="SFX">
+							<ShortName>Flt_F_Breath.wav</ShortName>
+							<Path>SFX\Flt_F_Breath_D8C07C79.wem</Path>
+						</File>
+						<File Id="1021185733" Language="SFX">
+							<ShortName>Flt_F_Layer_Start.wav</ShortName>
+							<Path>SFX\Flt_F_Layer_Start_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1634689741" Name="Flute_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_G_End">
+					<IncludedMemoryFiles>
+						<File Id="38663786" Language="SFX">
+							<ShortName>Flt_G_Main_End.wav</ShortName>
+							<Path>SFX\Flt_G_Main_End_7E5D6FB4.wem</Path>
+						</File>
+						<File Id="269017053" Language="SFX">
+							<ShortName>Flt_G_Reverb_End.wav</ShortName>
+							<Path>SFX\Flt_G_Reverb_End_D8C07C79.wem</Path>
+						</File>
+						<File Id="695114102" Language="SFX">
+							<ShortName>Flt_G_Layer_End.wav</ShortName>
+							<Path>SFX\Flt_G_Layer_End_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1149564230" Name="Flute_G_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_G_Start">
+					<IncludedMemoryFiles>
+						<File Id="9462856" Language="SFX">
+							<ShortName>Flt_G_Main_Start.wav</ShortName>
+							<Path>SFX\Flt_G_Main_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="129789573" Language="SFX">
+							<ShortName>Flt_G_Breath.wav</ShortName>
+							<Path>SFX\Flt_G_Breath_D8C07C79.wem</Path>
+						</File>
+						<File Id="197976420" Language="SFX">
+							<ShortName>Flt_G_Reverb_Loop.wav</ShortName>
+							<Path>SFX\Flt_G_Reverb_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="327874764" Language="SFX">
+							<ShortName>Flt_G_Layer_Start.wav</ShortName>
+							<Path>SFX\Flt_G_Layer_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="788750978" Language="SFX">
+							<ShortName>Flt_G_Reverb_Start.wav</ShortName>
+							<Path>SFX\Flt_G_Reverb_Start_D8C07C79.wem</Path>
+						</File>
+						<File Id="889184004" Language="SFX">
+							<ShortName>Flt_G_Main_Loop.wav</ShortName>
+							<Path>SFX\Flt_G_Main_Loop_D8C07C79.wem</Path>
+						</File>
+						<File Id="901474954" Language="SFX">
+							<ShortName>Flt_G_Layer_Loop.wav</ShortName>
+							<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1489553392" Name="Flute_Melody_DS" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Flute_Melody_DS">
+					<IncludedMemoryFiles>
+						<File Id="425689024" Language="SFX">
+							<ShortName>Flute_Melodic_DS.wav</ShortName>
+							<Path>SFX\Flute_Melodic_DS_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3378747475" Name="Flute_Melody_F" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Flute_Melody_F">
+					<IncludedMemoryFiles>
+						<File Id="667760232" Language="SFX">
+							<ShortName>Flute_Melodic_F.wav</ShortName>
+							<Path>SFX\Flute_Melodic_F_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3378747474" Name="Flute_Melody_G" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Flute_Melody_G">
+					<IncludedMemoryFiles>
+						<File Id="797019219" Language="SFX">
+							<ShortName>Flute_Melody_G.wav</ShortName>
+							<Path>SFX\Flute_Melody_G_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -44,18 +44,119 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1759303035">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-			<IncludedAuxBusses>
-				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
-			</IncludedAuxBusses>
+		<SoundBank Id="393239870" Language="SFX" Hash="670928327">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_Bumper" MaxAttenuation="800.000000">
+					<IncludedMemoryFiles>
+						<File Id="555465848" Language="SFX">
+							<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="682814542" Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatform_Idle_Open_LP" MaxAttenuation="2500.000000">
+					<IncludedMemoryFiles>
+						<File Id="239712345" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="808406191" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1681387998" Name="Play_SFX_GPE_PlantPlatorm_Close" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatorm_Close" MaxAttenuation="2500.000000">
+					<IncludedMemoryFiles>
+						<File Id="486250280" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2573704570" Name="Play_SFX_GPE_PlantPlatorm_Open" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatorm_Open" MaxAttenuation="2500.000000">
+					<IncludedMemoryFiles>
+						<File Id="130967582" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="374437879" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="500044490" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="507893096" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="724915893" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2992937130" Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_PlantPlatorm_Open_Land">
+					<IncludedMemoryFiles>
+						<File Id="183332618" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_Land_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="130967582" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
+				</File>
+				<File Id="183332618" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_Land_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="239712345" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="374437879" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
+				</File>
+				<File Id="486250280" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="500044490" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="507893096" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
+				</File>
+				<File Id="555465848" Language="SFX">
+					<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="724915893" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="808406191" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1889631297">
-			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
-			<ShortName>MASTER</ShortName>
-			<Path>MASTER.bnk</Path>
+		<SoundBank Id="1167860281" Language="SFX" Hash="1871536433">
+			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
+			<ShortName>FLUTE</ShortName>
+			<Path>FLUTE.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2246680465" Name="Flute_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_C_End">
 					<IncludedMemoryFiles>
@@ -321,6 +422,21 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1759303035">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX" Hash="2462933111">
+			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
+			<ShortName>MASTER</ShortName>
+			<Path>MASTER.bnk</Path>
+			<IncludedEvents>
 				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb">
 					<ReferencedStreamedFiles>
 						<File Id="269732270" Language="SFX">
@@ -1543,967 +1659,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4164330385" Name="Play_MC_FOL_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Step">
-					<IncludedMemoryFiles>
-						<File Id="289830791" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_9.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_9_D8C07C79.wem</Path>
-						</File>
-						<File Id="332803218" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_6.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_6_D8C07C79.wem</Path>
-						</File>
-						<File Id="337946791" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="396025044" Language="SFX">
-							<ShortName>SFX_MC_FOL_Cloth_Run_1.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Cloth_Run_1_E361AFA3.wem</Path>
-						</File>
-						<File Id="482730767" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_4.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_4_D8C07C79.wem</Path>
-						</File>
-						<File Id="510085028" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_7.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_7_D8C07C79.wem</Path>
-						</File>
-						<File Id="631354978" Language="SFX">
-							<ShortName>SFX_MC_FOL_Cloth_Run_7.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Cloth_Run_7_D8C07C79.wem</Path>
-						</File>
-						<File Id="647263499" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_5.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_5_D8C07C79.wem</Path>
-						</File>
-						<File Id="672005522" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_2.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_2_D8C07C79.wem</Path>
-						</File>
-						<File Id="755415499" Language="SFX">
-							<ShortName>SFX_MC_FOL_Cloth_Run_4.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Cloth_Run_4_D8C07C79.wem</Path>
-						</File>
-						<File Id="794552977" Language="SFX">
-							<ShortName>SFX_MC_FOL_Cloth_Run_2.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Cloth_Run_2_D8C07C79.wem</Path>
-						</File>
-						<File Id="806457757" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_3.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_3_D8C07C79.wem</Path>
-						</File>
-						<File Id="819087988" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_1.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_1_D8C07C79.wem</Path>
-						</File>
-						<File Id="843873708" Language="SFX">
-							<ShortName>SFX_MC_FOL_Os_Run_8.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Os_Run_8_D8C07C79.wem</Path>
-						</File>
-						<File Id="906549633" Language="SFX">
-							<ShortName>SFX_MC_FOL_Cloth_Run_3.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Cloth_Run_3_D8C07C79.wem</Path>
-						</File>
-						<File Id="1035831620" Language="SFX">
-							<ShortName>SFX_MC_FOL_Cloth_Run_5.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Cloth_Run_5_D8C07C79.wem</Path>
-						</File>
-						<File Id="1050381949" Language="SFX">
-							<ShortName>SFX_MC_FOL_Cloth_Run_6.wav</ShortName>
-							<Path>SFX\SFX_MC_FOL_Cloth_Run_6_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="4164330385" Name="Play_MC_FOL_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Step"/>
 				<Event Id="3022734957" Name="Play_MC_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Jump">
-					<IncludedMemoryFiles>
-						<File Id="4232739" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="6622124" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="9433970" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="21057580" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="26887683" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="29417547" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="30767836" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Land_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Land_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="44970721" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="50491045" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="60053343" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Land_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="60319193" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Land_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="62385487" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="65935961" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Scuff_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="72473308" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Scuff_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Scuff_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="82524829" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="85988321" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Jump_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Jump_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="86940613" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="100799969" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="107389848" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="116412022" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_4.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_4_D8C07C79.wem</Path>
-						</File>
-						<File Id="120182931" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="122920255" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_1.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_1_D8C07C79.wem</Path>
-						</File>
-						<File Id="124632298" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Scuff_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Scuff_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="132629999" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="133036137" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="134688267" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Jump_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="146144882" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="148057975" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Jump_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="155080795" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Land_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="162960803" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Jump_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Jump_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="163291056" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="168098655" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Jump_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Jump_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="181561369" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Jump_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="183999045" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Land_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Land_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="202829114" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="205140861" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Jump_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Jump_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="209417138" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="214073481" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Land_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Land_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="214961039" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="225893759" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="227650409" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Scuff_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="243830690" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_3.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_3_D8C07C79.wem</Path>
-						</File>
-						<File Id="248118853" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Land_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Land_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="256774431" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_3.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_3_D8C07C79.wem</Path>
-						</File>
-						<File Id="260850528" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Land_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Land_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="265700038" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="266830532" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_9.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_9_D8C07C79.wem</Path>
-						</File>
-						<File Id="275830104" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="278060721" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="282473258" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="288171835" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="291850454" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="293551741" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="295774575" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="296797427" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Scuff_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Scuff_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="298156216" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_8.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_8_D8C07C79.wem</Path>
-						</File>
-						<File Id="310338879" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="310374196" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Land_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Land_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="311878862" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_1.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_1_D8C07C79.wem</Path>
-						</File>
-						<File Id="312306983" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_5.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_5_D8C07C79.wem</Path>
-						</File>
-						<File Id="317856253" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="331513841" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Scuff_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Scuff_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="336430176" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_6.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_6_D8C07C79.wem</Path>
-						</File>
-						<File Id="338066242" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="339152900" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Land_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Land_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="345416826" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Jump_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="348201401" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="350491178" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="356752698" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Jump_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Jump_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="371177517" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Land_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Land_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="372538396" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Jump_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Jump_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="376687924" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Scuff_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Scuff_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="388454681" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Scuff_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="393707099" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="393891006" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Land_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="395133007" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Jump_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="399769599" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="415866662" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_4.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_4_D8C07C79.wem</Path>
-						</File>
-						<File Id="421111582" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="431983236" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_7.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_7_D8C07C79.wem</Path>
-						</File>
-						<File Id="435827983" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Scuff_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Scuff_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="438975099" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="452574099" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="456865852" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="459013275" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="460289509" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Jump_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="475761653" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Land_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Land_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="478415247" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="484469866" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Jump_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Jump_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="487168909" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_7.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_7_D8C07C79.wem</Path>
-						</File>
-						<File Id="497508157" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="498206227" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="500993237" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="508335934" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_5.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_5_D8C07C79.wem</Path>
-						</File>
-						<File Id="509890349" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="521898605" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="522328493" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Jump_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="523760895" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Land_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Land_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="528652241" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Jump_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="529933926" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_9.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_9_D8C07C79.wem</Path>
-						</File>
-						<File Id="532901980" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="533717562" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Jump_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="537835548" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="541046737" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="545597957" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Land_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Land_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="547323873" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_3.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_3_D8C07C79.wem</Path>
-						</File>
-						<File Id="558254514" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Land_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Land_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="562588883" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Jump_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="569590002" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Scuff_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="573486375" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Scuff_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Scuff_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="573697961" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="580448327" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_1.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_1_D8C07C79.wem</Path>
-						</File>
-						<File Id="587445813" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Jump_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Jump_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="588241546" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="589124817" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="599670379" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="613191180" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Land_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Land_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="614695433" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="618065890" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_4.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_4_D8C07C79.wem</Path>
-						</File>
-						<File Id="620194140" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Jump_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Jump_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="622134554" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_2.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_2_D8C07C79.wem</Path>
-						</File>
-						<File Id="633224767" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Land_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Land_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="636727357" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Scuff_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Scuff_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="637880425" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Land_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="637958023" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="643837624" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Scuff_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Scuff_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="645821392" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Jump_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Jump_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="651498673" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Scuff_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Scuff_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="654645774" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Scuff_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="659621284" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="666001798" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="667924385" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Scuff_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Scuff_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="668063569" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Land_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Land_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="676232430" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Scuff_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Scuff_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="677554065" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="678125486" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Scuff_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="680612543" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Jump_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Jump_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="682691683" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="685670331" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_5.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_5_D8C07C79.wem</Path>
-						</File>
-						<File Id="687214176" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="691828620" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="693790248" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_7.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_7_D8C07C79.wem</Path>
-						</File>
-						<File Id="694641951" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Run_2.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Run_2_D8C07C79.wem</Path>
-						</File>
-						<File Id="696159719" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Jump_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="697618590" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="708222018" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Jump_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Jump_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="710288820" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="711750176" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_9.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_9_D8C07C79.wem</Path>
-						</File>
-						<File Id="717473042" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Land_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Land_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="720902656" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Land_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Land_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="733460032" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="737738012" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="740060158" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_2.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_2_D8C07C79.wem</Path>
-						</File>
-						<File Id="742576792" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Jump_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Jump_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="744150187" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Land_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="746436306" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Land_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Land_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="750354601" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="757761301" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Scuff_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Scuff_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="759389863" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="767060845" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="770496534" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Jump_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="782450985" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Scuff_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="785883112" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Jump_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="790321766" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Jump_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="797292897" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="801601728" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="803489396" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Jump_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="805477106" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="811545887" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Land_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Land_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="816118979" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Land_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Land_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="817496918" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_8.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_8_D8C07C79.wem</Path>
-						</File>
-						<File Id="819003530" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="822382243" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="833390287" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Walk_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Walk_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="849326969" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="860538697" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Run_07.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Run_07_D8C07C79.wem</Path>
-						</File>
-						<File Id="869242387" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Land_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="878020844" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="886300096" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Land_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Land_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="889803195" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="900175251" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="901339014" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Scuff_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Scuff_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="901981096" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Land_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Land_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="902162523" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Land_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="904915054" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_6.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_6_D8C07C79.wem</Path>
-						</File>
-						<File Id="918594307" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Land_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Land_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="922390643" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Land_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Land_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="925523541" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_8.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_8_D8C07C79.wem</Path>
-						</File>
-						<File Id="930417253" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Debris_10.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_10_D8C07C79.wem</Path>
-						</File>
-						<File Id="935116845" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Scuff_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="935966644" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Jump_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Jump_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="936502401" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Land_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="936639895" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="942385044" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Walk_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="955406727" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="957288827" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Jump_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="957389418" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="978782256" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Jump_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="982278545" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Jump_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Jump_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="982733425" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="991673199" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Land_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Land_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="993223713" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="996627615" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_06.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_06_D8C07C79.wem</Path>
-						</File>
-						<File Id="1003041527" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="1007348844" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="1013653735" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Scuff_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="1016805699" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Jump_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="1018332804" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Run_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Run_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="1032751115" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Walk_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Walk_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="1035898958" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Jump_02.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="1039250005" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Run_6.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_6_D8C07C79.wem</Path>
-						</File>
-						<File Id="1042503001" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Jump_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="1043673883" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="1043916695" Language="SFX">
-							<ShortName>SFX_MC_FT_Dirt_Run_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Dirt_Run_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="1045241151" Language="SFX">
-							<ShortName>SFX_MC_FT_Wood_Run_08.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Wood_Run_08_D8C07C79.wem</Path>
-						</File>
-						<File Id="1046195815" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Shallow_Run_05.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_05_D8C07C79.wem</Path>
-						</File>
-						<File Id="1056558539" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Long_Jump_03.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="1057365545" Language="SFX">
-							<ShortName>SFX_MC_FT_Stone_Land_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Stone_Land_04_D8C07C79.wem</Path>
-						</File>
-						<File Id="1062305661" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Walk_09.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_09_D8C07C79.wem</Path>
-						</File>
-						<File Id="1067761286" Language="SFX">
-							<ShortName>SFX_MC_FT_Water_Puddle_Land_01.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="1072474744" Language="SFX">
-							<ShortName>SFX_MC_FT_Grass_Short_Scuff_04.wav</ShortName>
-							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_04_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3531921507" Name="Play_MC_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Step">
 					<IncludedMemoryFiles>
 						<File Id="4232739" Language="SFX">
 							<ShortName>SFX_MC_FT_Dirt_Run_02.wav</ShortName>
@@ -3762,6 +2919,894 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3531921507" Name="Play_MC_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Step">
+					<IncludedMemoryFiles>
+						<File Id="4232739" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="6622124" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="9433970" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="21057580" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="26887683" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="29417547" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="30767836" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Land_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Land_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="44970721" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="50491045" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="60053343" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Land_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="60319193" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Land_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="62385487" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="65935961" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="72473308" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="82524829" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="85988321" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Jump_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="86940613" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="100799969" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="107389848" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="116412022" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_4.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="120182931" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="122920255" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_1.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="124632298" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Scuff_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Scuff_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="132629999" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="133036137" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="134688267" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Jump_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="146144882" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="148057975" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Jump_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="155080795" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Land_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="162960803" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Jump_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Jump_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="163291056" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="168098655" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Jump_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="181561369" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="183999045" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Land_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Land_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="202829114" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="205140861" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Jump_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="209417138" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="214073481" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="214961039" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="225893759" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="227650409" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Scuff_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="243830690" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_3.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="248118853" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Land_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Land_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="256774431" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_3.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="260850528" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Land_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Land_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="265700038" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="266830532" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_9.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_9_D8C07C79.wem</Path>
+						</File>
+						<File Id="275830104" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="278060721" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="282473258" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="288171835" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="291850454" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="293551741" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="295774575" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="296797427" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="298156216" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_8.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_8_D8C07C79.wem</Path>
+						</File>
+						<File Id="310338879" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="310374196" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Land_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Land_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="311878862" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_1.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="312306983" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_5.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="317856253" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="331513841" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="336430176" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_6.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_6_D8C07C79.wem</Path>
+						</File>
+						<File Id="338066242" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="339152900" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Land_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Land_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="345416826" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="348201401" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="350491178" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="356752698" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Jump_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Jump_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="371177517" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="372538396" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Jump_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="376687924" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="388454681" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="393707099" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="393891006" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Land_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="395133007" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Jump_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="399769599" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="415866662" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_4.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="421111582" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="431983236" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_7.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_7_D8C07C79.wem</Path>
+						</File>
+						<File Id="435827983" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="438975099" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="452574099" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="456865852" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="459013275" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="460289509" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="475761653" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Land_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Land_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="478415247" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="484469866" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Jump_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="487168909" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_7.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_7_D8C07C79.wem</Path>
+						</File>
+						<File Id="497508157" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="498206227" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="500993237" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="508335934" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_5.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="509890349" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="521898605" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="522328493" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="523760895" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Land_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Land_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="528652241" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="529933926" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_9.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_9_D8C07C79.wem</Path>
+						</File>
+						<File Id="532901980" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="533717562" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Jump_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="537835548" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="541046737" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="545597957" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Land_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Land_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="547323873" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_3.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="558254514" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Land_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Land_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="562588883" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Jump_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="569590002" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="573486375" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="573697961" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="580448327" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_1.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="587445813" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Jump_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Jump_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="588241546" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="589124817" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="599670379" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="613191180" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Land_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Land_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="614695433" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="618065890" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_4.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="620194140" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Jump_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="622134554" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_2.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="633224767" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Land_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Land_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="636727357" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Scuff_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Scuff_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="637880425" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Land_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="637958023" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="643837624" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="645821392" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Jump_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Jump_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="651498673" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="654645774" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="659621284" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="666001798" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="667924385" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="668063569" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Land_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Land_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="676232430" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="677554065" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="678125486" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Scuff_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="680612543" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Jump_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Jump_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="682691683" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="685670331" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_5.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="687214176" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="691828620" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="693790248" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_7.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_7_D8C07C79.wem</Path>
+						</File>
+						<File Id="694641951" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Run_2.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Run_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="696159719" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="697618590" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="708222018" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Jump_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="710288820" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="711750176" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_9.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_9_D8C07C79.wem</Path>
+						</File>
+						<File Id="717473042" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Land_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Land_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="720902656" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Land_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Land_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="733460032" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="737738012" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="740060158" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_2.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="742576792" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Jump_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="744150187" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Land_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="746436306" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="750354601" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="757761301" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="759389863" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="767060845" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="770496534" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="782450985" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="785883112" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="790321766" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="797292897" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="801601728" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="803489396" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="805477106" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="811545887" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Land_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Land_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="816118979" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Land_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Land_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="817496918" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_8.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_8_D8C07C79.wem</Path>
+						</File>
+						<File Id="819003530" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="822382243" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="833390287" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Walk_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Walk_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="849326969" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="860538697" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Run_07.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Run_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="869242387" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Land_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="878020844" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="886300096" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="889803195" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="900175251" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="901339014" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="901981096" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Land_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Land_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="902162523" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Land_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="904915054" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_6.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_6_D8C07C79.wem</Path>
+						</File>
+						<File Id="918594307" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Land_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Land_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="922390643" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Land_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Land_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="925523541" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_8.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_8_D8C07C79.wem</Path>
+						</File>
+						<File Id="930417253" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Debris_10.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Debris_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="935116845" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Scuff_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="935966644" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Jump_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="936502401" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Land_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Land_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="936639895" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="942385044" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Walk_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Walk_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="955406727" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="957288827" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Jump_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="957389418" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="978782256" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Jump_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="982278545" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Jump_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Jump_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="982733425" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Scuff_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="991673199" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Land_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Land_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="993223713" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="996627615" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_06.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="1003041527" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="1007348844" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="1013653735" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Scuff_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1016805699" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Jump_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1018332804" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Run_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Run_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="1032751115" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Walk_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Walk_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="1035898958" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Jump_02.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="1039250005" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Run_6.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Run_6_D8C07C79.wem</Path>
+						</File>
+						<File Id="1042503001" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="1043673883" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="1043916695" Language="SFX">
+							<ShortName>SFX_MC_FT_Dirt_Run_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Dirt_Run_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="1045241151" Language="SFX">
+							<ShortName>SFX_MC_FT_Wood_Run_08.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Wood_Run_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="1046195815" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Shallow_Run_05.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Shallow_Run_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="1056558539" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Long_Jump_03.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Long_Jump_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="1057365545" Language="SFX">
+							<ShortName>SFX_MC_FT_Stone_Land_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Stone_Land_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="1062305661" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Walk_09.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_09_D8C07C79.wem</Path>
+						</File>
+						<File Id="1067761286" Language="SFX">
+							<ShortName>SFX_MC_FT_Water_Puddle_Land_01.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Water_Puddle_Land_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1072474744" Language="SFX">
+							<ShortName>SFX_MC_FT_Grass_Short_Scuff_04.wav</ShortName>
+							<Path>SFX\SFX_MC_FT_Grass_Short_Scuff_04_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3757054751" Name="Play_MC_Taps" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Taps">
 					<IncludedMemoryFiles>
 						<File Id="2805328" Language="SFX">
@@ -3928,71 +3973,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\MC\Play_SFX_GPE_Bumper" MaxAttenuation="800.000000">
-					<IncludedMemoryFiles>
-						<File Id="555465848" Language="SFX">
-							<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
-							<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="682814542" Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ObjectPath="\Events\Default Work Unit\MC\Play_SFX_GPE_PlantPlatform_Idle_Open_LP" MaxAttenuation="2500.000000">
-					<IncludedMemoryFiles>
-						<File Id="239712345" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
-						</File>
-						<File Id="808406191" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1681387998" Name="Play_SFX_GPE_PlantPlatorm_Close" ObjectPath="\Events\Default Work Unit\MC\Play_SFX_GPE_PlantPlatorm_Close" MaxAttenuation="2500.000000">
-					<IncludedMemoryFiles>
-						<File Id="486250280" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2573704570" Name="Play_SFX_GPE_PlantPlatorm_Open" ObjectPath="\Events\Default Work Unit\MC\Play_SFX_GPE_PlantPlatorm_Open" MaxAttenuation="2500.000000">
-					<IncludedMemoryFiles>
-						<File Id="130967582" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
-						</File>
-						<File Id="374437879" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
-						</File>
-						<File Id="500044490" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
-						</File>
-						<File Id="507893096" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
-						</File>
-						<File Id="724915893" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2992937130" Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ObjectPath="\Events\Default Work Unit\MC\Play_SFX_GPE_PlantPlatorm_Open_Land">
-					<IncludedMemoryFiles>
-						<File Id="183332618" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_Land_1_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
-			<IncludedAuxBusses>
-				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
-			</IncludedAuxBusses>
 			<ReferencedStreamedFiles>
 				<File Id="40280027"/>
 				<File Id="41454883"/>
@@ -4028,14 +4010,6 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Scuff_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_03_D8C07C79.wem</Path>
 				</File>
-				<File Id="9462856" Language="SFX">
-					<ShortName>Flt_G_Main_Start.wav</ShortName>
-					<Path>SFX\Flt_G_Main_Start_D8C07C79.wem</Path>
-				</File>
-				<File Id="9877435" Language="SFX">
-					<ShortName>Flt_D#_Layer_Loop.wav</ShortName>
-					<Path>SFX\Flt_D#_Layer_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="11170927" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Rock_Pipit_C_02.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Rock_Pipit_C_02_D8C07C79.wem</Path>
@@ -4056,10 +4030,6 @@
 					<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Walk_04_D8C07C79.wem</Path>
 				</File>
-				<File Id="27921046" Language="SFX">
-					<ShortName>Flt_C_Reverb_Start.wav</ShortName>
-					<Path>SFX\Flt_C_Reverb_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="29417547" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_03_D8C07C79.wem</Path>
@@ -4075,14 +4045,6 @@
 				<File Id="30767836" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Land_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Land_02_D8C07C79.wem</Path>
-				</File>
-				<File Id="38663786" Language="SFX">
-					<ShortName>Flt_G_Main_End.wav</ShortName>
-					<Path>SFX\Flt_G_Main_End_7E5D6FB4.wem</Path>
-				</File>
-				<File Id="38722383" Language="SFX">
-					<ShortName>Flt_C_Reverb_End.wav</ShortName>
-					<Path>SFX\Flt_C_Reverb_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="41073016" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Scuff_02.wav</ShortName>
@@ -4112,10 +4074,6 @@
 					<ShortName>SFX_MC_FT_Dirt_Walk_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_01_D8C07C79.wem</Path>
 				</File>
-				<File Id="50587423" Language="SFX">
-					<ShortName>Flt_D#_Main_End.wav</ShortName>
-					<Path>SFX\Flt_D#_Main_End_3C5EAB40.wem</Path>
-				</File>
 				<File Id="58382440" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Scops_Owl_B_04.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Scops_Owl_B_04_D8C07C79.wem</Path>
@@ -4131,10 +4089,6 @@
 				<File Id="60319193" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Land_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="61460550" Language="SFX">
-					<ShortName>Flt_F_Reverb_End.wav</ShortName>
-					<Path>SFX\Flt_F_Reverb_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="62385487" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_02.wav</ShortName>
@@ -4252,21 +4206,9 @@
 					<ShortName>SFX_MC_Tap_Wood_4.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Wood_4_D8C07C79.wem</Path>
 				</File>
-				<File Id="129311584" Language="SFX">
-					<ShortName>Flt_C_Layer_Start.wav</ShortName>
-					<Path>SFX\Flt_C_Layer_Start_D8C07C79.wem</Path>
-				</File>
-				<File Id="129789573" Language="SFX">
-					<ShortName>Flt_G_Breath.wav</ShortName>
-					<Path>SFX\Flt_G_Breath_D8C07C79.wem</Path>
-				</File>
 				<File Id="130714608" Language="SFX">
 					<ShortName>SFX_MC_Tap_Dirt_4.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Dirt_4_F01D5AE2.wem</Path>
-				</File>
-				<File Id="130967582" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
 				</File>
 				<File Id="132629999" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_04.wav</ShortName>
@@ -4364,10 +4306,6 @@
 					<ShortName>SFX_MC_FT_Grass_Short_Jump_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Jump_04_D8C07C79.wem</Path>
 				</File>
-				<File Id="183332618" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_Land_1_D8C07C79.wem</Path>
-				</File>
 				<File Id="183379352" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Pivot_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Pivot_04_D8C07C79.wem</Path>
@@ -4375,10 +4313,6 @@
 				<File Id="183999045" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="185484287" Language="SFX">
-					<ShortName>Flt_D_Main_End.wav</ShortName>
-					<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="185875362" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Mistle_Thrush_15.wav</ShortName>
@@ -4407,10 +4341,6 @@
 				<File Id="194444405" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Pivot_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem</Path>
-				</File>
-				<File Id="197976420" Language="SFX">
-					<ShortName>Flt_G_Reverb_Loop.wav</ShortName>
-					<Path>SFX\Flt_G_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="198161738" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Great_Tit_01.wav</ShortName>
@@ -4476,14 +4406,6 @@
 					<ShortName>Amb_RFX_Animal_Squirrel_B_Main_02.wav</ShortName>
 					<Path>SFX\Amb_RFX_Animal_Squirrel_B_Main_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="239712345" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
-				</File>
-				<File Id="243158655" Language="SFX">
-					<ShortName>Flt_D#_Breath.wav</ShortName>
-					<Path>SFX\Flt_D#_Breath_D8C07C79.wem</Path>
-				</File>
 				<File Id="243830690" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Run_3.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Run_3_D8C07C79.wem</Path>
@@ -4504,10 +4426,6 @@
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_3.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_3_D8C07C79.wem</Path>
 				</File>
-				<File Id="258398410" Language="SFX">
-					<ShortName>Flt_DS_Reverb_Loop.wav</ShortName>
-					<Path>SFX\Flt_DS_Reverb_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="260850528" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Land_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Land_02_D8C07C79.wem</Path>
@@ -4527,10 +4445,6 @@
 				<File Id="267827001" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-005.wav</ShortName>
 					<Path>SFX\Amb_Wind_Tree_Lush_Med_RFX-005_D8C07C79.wem</Path>
-				</File>
-				<File Id="269017053" Language="SFX">
-					<ShortName>Flt_G_Reverb_End.wav</ShortName>
-					<Path>SFX\Flt_G_Reverb_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="270030572" Language="SFX">
 					<ShortName>Amb_Branch_Rustle_Maple_Green_Tree_RFX-008.wav</ShortName>
@@ -4563,10 +4477,6 @@
 				<File Id="278492696" Language="SFX">
 					<ShortName>SFX_MC_FOL_Pivot_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Pivot_05_1A3A1D39.wem</Path>
-				</File>
-				<File Id="279224178" Language="SFX">
-					<ShortName>Flt_C_Main_Start.wav</ShortName>
-					<Path>SFX\Flt_C_Main_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="280194026" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Tawny_Pipit_C_01.wav</ShortName>
@@ -4668,10 +4578,6 @@
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_5.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_5_D8C07C79.wem</Path>
 				</File>
-				<File Id="312456375" Language="SFX">
-					<ShortName>Flt_C_Breath.wav</ShortName>
-					<Path>SFX\Flt_C_Breath_D8C07C79.wem</Path>
-				</File>
 				<File Id="314134142" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Great_Spotted_Cuckoo_B_05.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Great_Spotted_Cuckoo_B_05_D8C07C79.wem</Path>
@@ -4695,10 +4601,6 @@
 				<File Id="325699247" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Great_Tit_08.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Great_Tit_08_D8C07C79.wem</Path>
-				</File>
-				<File Id="327874764" Language="SFX">
-					<ShortName>Flt_G_Layer_Start.wav</ShortName>
-					<Path>SFX\Flt_G_Layer_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="331513841" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Scuff_03.wav</ShortName>
@@ -4780,10 +4682,6 @@
 					<ShortName>SFX_MC_FT_Dirt_Jump_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Jump_04_D8C07C79.wem</Path>
 				</File>
-				<File Id="361188122" Language="SFX">
-					<ShortName>Flt_F_Main_Start.wav</ShortName>
-					<Path>SFX\Flt_F_Main_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="364921439" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem</Path>
@@ -4807,10 +4705,6 @@
 				<File Id="372538396" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Jump_02_D8C07C79.wem</Path>
-				</File>
-				<File Id="374437879" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
 				</File>
 				<File Id="376687924" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Scuff_02.wav</ShortName>
@@ -4852,10 +4746,6 @@
 					<ShortName>Amb_RFX_Bird_Squacco_Heron_A_10.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Squacco_Heron_A_10_D8C07C79.wem</Path>
 				</File>
-				<File Id="392890804" Language="SFX">
-					<ShortName>Flt_F_Reverb_Loop.wav</ShortName>
-					<Path>SFX\Flt_F_Reverb_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="393009084" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-014.wav</ShortName>
 					<Path>SFX\Amb_Wind_Tree_Lush_Med_RFX-014_D8C07C79.wem</Path>
@@ -4888,10 +4778,6 @@
 					<ShortName>SFX_MC_FT_Wood_Run_09.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_09_D8C07C79.wem</Path>
 				</File>
-				<File Id="400648656" Language="SFX">
-					<ShortName>Flt_C_Layer_End.wav</ShortName>
-					<Path>SFX\Flt_C_Layer_End_D8C07C79.wem</Path>
-				</File>
 				<File Id="413526516" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Common_Whitethroat_13.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Common_Whitethroat_13_D8C07C79.wem</Path>
@@ -4911,10 +4797,6 @@
 				<File Id="421111582" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_06_D8C07C79.wem</Path>
-				</File>
-				<File Id="425689024" Language="SFX">
-					<ShortName>Flute_Melodic_DS.wav</ShortName>
-					<Path>SFX\Flute_Melodic_DS_D8C07C79.wem</Path>
 				</File>
 				<File Id="425975025" Language="SFX">
 					<ShortName>SFX_MC_Tap_Wood_2.wav</ShortName>
@@ -4944,17 +4826,9 @@
 					<ShortName>Amb_RFX_Bird_Dead_Sea_Sparrow_B_11.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Dead_Sea_Sparrow_B_11_D8C07C79.wem</Path>
 				</File>
-				<File Id="446395729" Language="SFX">
-					<ShortName>Flt_D#_Layer_Start.wav</ShortName>
-					<Path>SFX\Flt_D#_Layer_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="450701258" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="451198114" Language="SFX">
-					<ShortName>Flt_F_Layer_Loop.wav</ShortName>
-					<Path>SFX\Flt_F_Layer_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="452574099" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_03.wav</ShortName>
@@ -5024,17 +4898,9 @@
 					<ShortName>Amb_RFX_Bird_Tawny_Owl_A_05.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Tawny_Owl_A_05_D8C07C79.wem</Path>
 				</File>
-				<File Id="475499326" Language="SFX">
-					<ShortName>Flt_F_Reverb_Start.wav</ShortName>
-					<Path>SFX\Flt_F_Reverb_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="475761653" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Land_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="476056095" Language="SFX">
-					<ShortName>Flt_D_Main_Start.wav</ShortName>
-					<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="477171880" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Jump_01.wav</ShortName>
@@ -5064,10 +4930,6 @@
 					<ShortName>SFX_MC_FT_Wood_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Jump_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="486250280" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
-				</File>
 				<File Id="487168909" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_7.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_7_D8C07C79.wem</Path>
@@ -5084,10 +4946,6 @@
 					<ShortName>SFX_MC_FT_Wood_Run_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_04_D8C07C79.wem</Path>
 				</File>
-				<File Id="500044490" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
-				</File>
 				<File Id="500993237" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_10.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_10_D8C07C79.wem</Path>
@@ -5099,10 +4957,6 @@
 				<File Id="502696424" Language="SFX">
 					<ShortName>Amb_Branch_Rustle_Maple_Green_Tree_RFX-005.wav</ShortName>
 					<Path>SFX\Amb_Branch_Rustle_Maple_Green_Tree_RFX-005_D8C07C79.wem</Path>
-				</File>
-				<File Id="507893096" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
 				</File>
 				<File Id="508335934" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Run_5.wav</ShortName>
@@ -5188,10 +5042,6 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Scuff_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="538573930" Language="SFX">
-					<ShortName>Flt_C_Reverb_Loop.wav</ShortName>
-					<Path>SFX\Flt_C_Reverb_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="539720404" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Lanner_Falcon_02.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Lanner_Falcon_02_D8C07C79.wem</Path>
@@ -5227,10 +5077,6 @@
 				<File Id="555170211" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Spanish_Sparrow_B_01.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Spanish_Sparrow_B_01_D8C07C79.wem</Path>
-				</File>
-				<File Id="555465848" Language="SFX">
-					<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
-					<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="558254514" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Land_05.wav</ShortName>
@@ -5312,10 +5158,6 @@
 					<ShortName>Amb_RFX_Bird_Eurasian_Rock_Pipit_A_01.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Rock_Pipit_A_01_D8C07C79.wem</Path>
 				</File>
-				<File Id="592711064" Language="SFX">
-					<ShortName>Flt_D#_Main_Start.wav</ShortName>
-					<Path>SFX\Flt_D#_Main_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="599670379" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_06_D8C07C79.wem</Path>
@@ -5327,10 +5169,6 @@
 				<File Id="606226228" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Land_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Land_04_D8C07C79.wem</Path>
-				</File>
-				<File Id="606873974" Language="SFX">
-					<ShortName>Flt_F_Main_Loop.wav</ShortName>
-					<Path>SFX\Flt_F_Main_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="606915048" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Common_Starling_A_09.wav</ShortName>
@@ -5367,10 +5205,6 @@
 				<File Id="620883306" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Tawny_Pipit_A_01.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Tawny_Pipit_A_01_D8C07C79.wem</Path>
-				</File>
-				<File Id="621618583" Language="SFX">
-					<ShortName>Flt_D_Reverb_End.wav</ShortName>
-					<Path>SFX\Flt_D_Reverb_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="622134554" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_2.wav</ShortName>
@@ -5415,10 +5249,6 @@
 				<File Id="637958023" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Run_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Run_04_D8C07C79.wem</Path>
-				</File>
-				<File Id="640525560" Language="SFX">
-					<ShortName>Flt_C_Layer_Loop.wav</ShortName>
-					<Path>SFX\Flt_C_Layer_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="640867676" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eleonoras_Falcon_01.wav</ShortName>
@@ -5484,10 +5314,6 @@
 					<ShortName>Amb_Branch_Rustle_Maple_Green_Tree_RFX-002.wav</ShortName>
 					<Path>SFX\Amb_Branch_Rustle_Maple_Green_Tree_RFX-002_D8C07C79.wem</Path>
 				</File>
-				<File Id="664030189" Language="SFX">
-					<ShortName>Flt_C_Main_Loop.wav</ShortName>
-					<Path>SFX\Flt_C_Main_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="666001798" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Run_01_D8C07C79.wem</Path>
@@ -5495,10 +5321,6 @@
 				<File Id="667565056" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_07.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Pygmy_Owl_B_07_D8C07C79.wem</Path>
-				</File>
-				<File Id="667760232" Language="SFX">
-					<ShortName>Flute_Melodic_F.wav</ShortName>
-					<Path>SFX\Flute_Melodic_F_D8C07C79.wem</Path>
 				</File>
 				<File Id="667924385" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Scuff_01.wav</ShortName>
@@ -5535,10 +5357,6 @@
 				<File Id="678125486" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Scuff_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="680197971" Language="SFX">
-					<ShortName>Flt_F_Main_End.wav</ShortName>
-					<Path>SFX\Flt_F_Main_End_B40D0640.wem</Path>
 				</File>
 				<File Id="680612543" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Jump_05.wav</ShortName>
@@ -5607,10 +5425,6 @@
 				<File Id="694641951" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Run_2.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Run_2_D8C07C79.wem</Path>
-				</File>
-				<File Id="695114102" Language="SFX">
-					<ShortName>Flt_G_Layer_End.wav</ShortName>
-					<Path>SFX\Flt_G_Layer_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="696078383" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-009.wav</ShortName>
@@ -5688,25 +5502,13 @@
 					<ShortName>Amb_RFX_Bird_Common_Starling_A_04.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Common_Starling_A_04_D8C07C79.wem</Path>
 				</File>
-				<File Id="724915893" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
-				</File>
 				<File Id="733460032" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_06_D8C07C79.wem</Path>
 				</File>
-				<File Id="733805807" Language="SFX">
-					<ShortName>Flt_D_Reverb_Start.wav</ShortName>
-					<Path>SFX\Flt_D_Reverb_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="737738012" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_08.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Run_08_D8C07C79.wem</Path>
-				</File>
-				<File Id="738348293" Language="SFX">
-					<ShortName>Flt_D_Breath.wav</ShortName>
-					<Path>SFX\Flt_D_Breath_D8C07C79.wem</Path>
 				</File>
 				<File Id="740060158" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_2.wav</ShortName>
@@ -5747,10 +5549,6 @@
 				<File Id="755415499" Language="SFX">
 					<ShortName>SFX_MC_FOL_Cloth_Run_4.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Cloth_Run_4_D8C07C79.wem</Path>
-				</File>
-				<File Id="755490073" Language="SFX">
-					<ShortName>Flt_C_Main_End.wav</ShortName>
-					<Path>SFX\Flt_C_Main_End_596AF383.wem</Path>
 				</File>
 				<File Id="757761301" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Scuff_04.wav</ShortName>
@@ -5820,21 +5618,9 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Scuff_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="785499893" Language="SFX">
-					<ShortName>Flt_D_Layer_End.wav</ShortName>
-					<Path>SFX\Flt_D_Layer_End_D8C07C79.wem</Path>
-				</File>
-				<File Id="785861194" Language="SFX">
-					<ShortName>Flt_DS_Reverb_Start.wav</ShortName>
-					<Path>SFX\Flt_DS_Reverb_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="785883112" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Jump_01_D8C07C79.wem</Path>
-				</File>
-				<File Id="788750978" Language="SFX">
-					<ShortName>Flt_G_Reverb_Start.wav</ShortName>
-					<Path>SFX\Flt_G_Reverb_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="790321766" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Jump_06.wav</ShortName>
@@ -5863,10 +5649,6 @@
 				<File Id="797014514" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Boreal_Owl_B_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Boreal_Owl_B_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="797019219" Language="SFX">
-					<ShortName>Flute_Melody_G.wav</ShortName>
-					<Path>SFX\Flute_Melody_G_D8C07C79.wem</Path>
 				</File>
 				<File Id="797292897" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_06.wav</ShortName>
@@ -5900,10 +5682,6 @@
 					<ShortName>SFX_MC_FOL_Os_Run_3.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Run_3_D8C07C79.wem</Path>
 				</File>
-				<File Id="808406191" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
-				</File>
 				<File Id="809363781" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Tawny_Pipit_B_01.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Tawny_Pipit_B_01_D8C07C79.wem</Path>
@@ -5923,10 +5701,6 @@
 				<File Id="816118979" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_02_D8C07C79.wem</Path>
-				</File>
-				<File Id="816672819" Language="SFX">
-					<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
-					<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="816790964" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Wren_01.wav</ShortName>
@@ -5980,10 +5754,6 @@
 					<ShortName>SFX_MC_FOL_Os_Run_8.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Run_8_D8C07C79.wem</Path>
 				</File>
-				<File Id="846732178" Language="SFX">
-					<ShortName>Flt_DS_Reverb_End.wav</ShortName>
-					<Path>SFX\Flt_DS_Reverb_End_D8C07C79.wem</Path>
-				</File>
 				<File Id="847771726" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-004.wav</ShortName>
 					<Path>SFX\Amb_Wind_Tree_Lush_Med_RFX-004_D8C07C79.wem</Path>
@@ -6012,10 +5782,6 @@
 					<ShortName>Amb_RFX_Bird_Ferruginous_Duck_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Ferruginous_Duck_03_D8C07C79.wem</Path>
 				</File>
-				<File Id="867948560" Language="SFX">
-					<ShortName>Flt_D_Main_Loop.wav</ShortName>
-					<Path>SFX\Flt_D_Main_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="868839663" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Rock_Sparrow_A_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Rock_Sparrow_A_03_D8C07C79.wem</Path>
@@ -6043,10 +5809,6 @@
 				<File Id="886300096" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Land_04_D8C07C79.wem</Path>
-				</File>
-				<File Id="889184004" Language="SFX">
-					<ShortName>Flt_G_Main_Loop.wav</ShortName>
-					<Path>SFX\Flt_G_Main_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="889803195" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_02.wav</ShortName>
@@ -6088,17 +5850,9 @@
 					<ShortName>SFX_MC_FT_Wood_Run_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_05_D8C07C79.wem</Path>
 				</File>
-				<File Id="900247833" Language="SFX">
-					<ShortName>Flt_F_Breath.wav</ShortName>
-					<Path>SFX\Flt_F_Breath_D8C07C79.wem</Path>
-				</File>
 				<File Id="901339014" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Scuff_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Scuff_04_D8C07C79.wem</Path>
-				</File>
-				<File Id="901474954" Language="SFX">
-					<ShortName>Flt_G_Layer_Loop.wav</ShortName>
-					<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="901981096" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Land_01.wav</ShortName>
@@ -6236,10 +5990,6 @@
 					<ShortName>Amb_RFX_Animal_Squirrel_D_Main_02.wav</ShortName>
 					<Path>SFX\Amb_RFX_Animal_Squirrel_D_Main_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="978713243" Language="SFX">
-					<ShortName>Flt_D_Layer_Loop.wav</ShortName>
-					<Path>SFX\Flt_D_Layer_Loop_D8C07C79.wem</Path>
-				</File>
 				<File Id="978714519" Language="SFX">
 					<ShortName>Amb_Wind_Tree_Lush_Med_RFX-002.wav</ShortName>
 					<Path>SFX\Amb_Wind_Tree_Lush_Med_RFX-002_D8C07C79.wem</Path>
@@ -6259,10 +6009,6 @@
 				<File Id="982733425" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_05_D8C07C79.wem</Path>
-				</File>
-				<File Id="983427185" Language="SFX">
-					<ShortName>Flt_D#_Main_Loop.wav</ShortName>
-					<Path>SFX\Flt_D#_Main_Loop_D8C07C79.wem</Path>
 				</File>
 				<File Id="988188749" Language="SFX">
 					<ShortName>SFX_MC_FOL_Scuff_05.wav</ShortName>
@@ -6328,10 +6074,6 @@
 					<ShortName>SFX_MC_FT_Stone_Run_08.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_08_D8C07C79.wem</Path>
 				</File>
-				<File Id="1021185733" Language="SFX">
-					<ShortName>Flt_F_Layer_Start.wav</ShortName>
-					<Path>SFX\Flt_F_Layer_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="1021423880" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Cinereous_Vulture_04.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Cinereous_Vulture_04_D8C07C79.wem</Path>
@@ -6343,10 +6085,6 @@
 				<File Id="1023739985" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Cricket_F_07.wav</ShortName>
 					<Path>SFX\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem</Path>
-				</File>
-				<File Id="1027134471" Language="SFX">
-					<ShortName>Flt_D_Layer_Start.wav</ShortName>
-					<Path>SFX\Flt_D_Layer_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="1027557838" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eurasian_Golden_Oriole_B_02.wav</ShortName>
@@ -6384,10 +6122,6 @@
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_6.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_6_D8C07C79.wem</Path>
 				</File>
-				<File Id="1040993073" Language="SFX">
-					<ShortName>Flt_D#_Layer_End.wav</ShortName>
-					<Path>SFX\Flt_D#_Layer_End_D8C07C79.wem</Path>
-				</File>
 				<File Id="1042503001" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Jump_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_03_D8C07C79.wem</Path>
@@ -6407,10 +6141,6 @@
 				<File Id="1046195815" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_05_D8C07C79.wem</Path>
-				</File>
-				<File Id="1047465193" Language="SFX">
-					<ShortName>DarkWorld_Flute_V2.wav</ShortName>
-					<Path>SFX\DarkWorld_Flute_V2_0762CC47.wem</Path>
 				</File>
 				<File Id="1048508806" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Eleonoras_Falcon_03.wav</ShortName>
@@ -6435,10 +6165,6 @@
 				<File Id="1057365545" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Land_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Land_04_D8C07C79.wem</Path>
-				</File>
-				<File Id="1057739009" Language="SFX">
-					<ShortName>Flt_F_Layer_End.wav</ShortName>
-					<Path>SFX\Flt_F_Layer_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="1061828501" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Lanner_Falcon_04.wav</ShortName>

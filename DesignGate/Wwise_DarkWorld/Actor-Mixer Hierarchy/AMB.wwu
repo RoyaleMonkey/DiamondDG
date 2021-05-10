@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" SchemaVersion="97" RootDocumentID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}">
 	<AudioObjects>
 		<WorkUnit Name="AMB" ID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" OwnerID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<BlendContainer Name="Amb_Design_Gate" ID="{61A1729D-453F-4C1B-B67C-2EFAF3D0AB97}" ShortID="364155488">
 					<ReferenceList>
@@ -18492,7 +18496,7 @@
 														</Point>
 														<Point>
 															<XPos>8.86076</XPos>
-															<YPos>-0</YPos>
+															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<Time>5000</Time>
 														</Point>

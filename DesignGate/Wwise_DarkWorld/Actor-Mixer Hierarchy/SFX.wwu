@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}" SchemaVersion="97" RootDocumentID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}" OwnerID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SFX_GPE" ID="{8A5A4865-5808-406E-8D07-3DA9DFCC6F8E}" ShortID="643483108">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" ShortID="532527353">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7B83F9BC-ECD4-4E1F-A72D-A44B4C6EA075}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GPE_Bumper_ATT" ID="{C62BD761-6406-4F3A-BA7A-DC890160BA72}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_GPE_Bumper_1" ID="{A2113A1C-7502-4593-99E8-141BEFA46F4A}" ShortID="362728194">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Bumper_1" ID="{5B01490F-4ACE-4FC6-A790-B26DEEE50461}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Bumper_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="555465848"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Bumper_1" ID="{5B01490F-4ACE-4FC6-A790-B26DEEE50461}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Folder Name="SFX_GPE_Stele" ID="{30DED8E6-9E76-4884-A588-51655AA62859}" ShortID="17022779">
+							<ChildrenList>
+								<ActorMixer Name="SFX_GPE_Stele_Butterfly" ID="{9AF5A353-EA89-4281-8A05-1406579930C5}" ShortID="830483480">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="GPE_Stele_Butterfly_ATT" ID="{94C683F9-7D53-46D8-B1FA-7AE837DF6C52}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Stele_Butterfly_A1" ID="{72B66EC6-489B-4F3B-83AC-9DB3E7F08D06}" ShortID="299637373">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_A1" ID="{75F1EA6D-DCE5-4F6C-9029-84AAEB3166FF}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_A1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="570530222"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_A1" ID="{75F1EA6D-DCE5-4F6C-9029-84AAEB3166FF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_A2" ID="{E5D190B4-BF9B-4B68-9635-C7D4A616C0CF}" ShortID="122273100">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_A2" ID="{33CC9E92-9978-4D49-944E-0564810F62E1}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_A2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="183618480"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_A2" ID="{33CC9E92-9978-4D49-944E-0564810F62E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_A3" ID="{DDBB2ACA-8002-4A52-A879-FB14C664734C}" ShortID="121707254">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_A3" ID="{18DBD77B-70CA-4E71-BFF3-B13E6F2BC332}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_A3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="693050746"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_A3" ID="{18DBD77B-70CA-4E71-BFF3-B13E6F2BC332}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_A4" ID="{51411659-14B9-4514-8BA5-F00AD3742826}" ShortID="61329124">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_A4" ID="{D92BE75E-B452-4839-8A87-79CC6F9A9134}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_A4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="194928763"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_A4" ID="{D92BE75E-B452-4839-8A87-79CC6F9A9134}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_AS1" ID="{904AD497-F8F3-4997-856E-90EB4D07F661}" ShortID="461498158">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_AS1" ID="{A236715D-1BD5-430E-A9EA-C96278E5AB54}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_AS1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331774444"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_AS1" ID="{A236715D-1BD5-430E-A9EA-C96278E5AB54}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_AS2" ID="{EFB89064-6336-454E-9932-0969D17E6E43}" ShortID="958015733">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_AS2" ID="{05FCC912-8A37-433D-B085-4A1DA81CC819}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_AS2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="197037388"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_AS2" ID="{05FCC912-8A37-433D-B085-4A1DA81CC819}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_AS3" ID="{89AD9F2B-FE04-41CE-B3A4-6BF983C7044B}" ShortID="173798604">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_AS3" ID="{774BD6DD-6864-433A-B10F-08A0FAEED272}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_AS3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="334241974"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_AS3" ID="{774BD6DD-6864-433A-B10F-08A0FAEED272}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_AS4" ID="{F952653B-08A6-4790-891C-0FD5CC195C33}" ShortID="146768504">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_AS4" ID="{D576644C-8AB6-4FC3-8441-80338FBF5C82}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_AS4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="169888562"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_AS4" ID="{D576644C-8AB6-4FC3-8441-80338FBF5C82}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_C1" ID="{97681C94-A2BD-4ACC-83DD-106A84EC1849}" ShortID="937734993">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_C1" ID="{2DC13031-C8B2-4A57-A3C9-637900F04431}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_C1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="891740897"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_C1" ID="{2DC13031-C8B2-4A57-A3C9-637900F04431}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_C2" ID="{5AFD0342-F001-49D1-85FD-7DB00B55A4D0}" ShortID="143734177">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_C2" ID="{85EE47B3-8448-4EA6-979D-9BDC7884D830}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_C2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="941605390"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_C2" ID="{85EE47B3-8448-4EA6-979D-9BDC7884D830}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_C3" ID="{62E37820-1130-4713-9353-7ED416CFA1EB}" ShortID="1036350700">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_C3" ID="{7DA186DF-8B90-4109-B7E5-1FFF24890E52}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_C3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="659122690"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_C3" ID="{7DA186DF-8B90-4109-B7E5-1FFF24890E52}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_C4" ID="{19807FF1-E585-4730-91AE-05C5139BBD77}" ShortID="280194012">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_C4" ID="{D2A28EAA-26CA-418F-A7A6-9108B954A1AB}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_C4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="861623187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_C4" ID="{D2A28EAA-26CA-418F-A7A6-9108B954A1AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_D1" ID="{FB91B0B1-F9B2-4738-A45F-173440A8F27E}" ShortID="907891221">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_D1" ID="{BF574014-5D56-45D0-BE1E-1AC2EC8BCD40}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_D1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="619582417"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_D1" ID="{BF574014-5D56-45D0-BE1E-1AC2EC8BCD40}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_D2" ID="{0B959883-BC8B-4105-8FA1-5B6F4E05E193}" ShortID="824061099">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_D2" ID="{19E3FAB9-71E5-44F6-8A78-2394E92E3602}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_D2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="409024675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_D2" ID="{19E3FAB9-71E5-44F6-8A78-2394E92E3602}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_D3" ID="{8514B9B5-684A-4E27-94FF-746BF5F59E74}" ShortID="883628309">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_D3" ID="{D56B3BE5-BB95-400E-BD9D-52A62AF70F7E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_D3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="726963180"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_D3" ID="{D56B3BE5-BB95-400E-BD9D-52A62AF70F7E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_D4" ID="{EE807EC5-6995-457F-8CB2-BBEAD473FFA7}" ShortID="355094621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_D4" ID="{501E1279-44CB-46F1-BFC3-F3681EDAB951}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_D4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="377871452"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_D4" ID="{501E1279-44CB-46F1-BFC3-F3681EDAB951}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_DS1" ID="{A2A7CE07-341D-4A78-BDE1-1E5701FC1F93}" ShortID="1013030641">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_DS1" ID="{691F1ADD-BE2F-44F7-9030-59836635D582}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_DS1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854186318"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_DS1" ID="{691F1ADD-BE2F-44F7-9030-59836635D582}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_DS2" ID="{6A358E08-173B-434A-918F-B1E44E6C2C18}" ShortID="1000901353">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_DS2" ID="{1F62CA73-F2CE-4AC7-B236-BF4952752355}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_DS2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="204923600"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_DS2" ID="{1F62CA73-F2CE-4AC7-B236-BF4952752355}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_DS3" ID="{FB2F018A-9B33-4EA9-969B-F75A17B1EAC8}" ShortID="989084670">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_DS3" ID="{6B429193-36ED-4364-9E83-6747F6F7076E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_DS3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="24149264"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_DS3" ID="{6B429193-36ED-4364-9E83-6747F6F7076E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_DS4" ID="{F6441CC8-AF8A-436E-A578-18871BF60EA9}" ShortID="301415453">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_DS4" ID="{DAEBB7BC-BAEE-4793-AFB2-0FE860FF5974}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_DS4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="85145748"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_DS4" ID="{DAEBB7BC-BAEE-4793-AFB2-0FE860FF5974}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_F1" ID="{8B8D94D9-CD51-429F-9992-1438ACE58D31}" ShortID="917557505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_F1" ID="{68D3CFDF-9517-48E9-9E0C-85273B40E477}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_F1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="990050838"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_F1" ID="{68D3CFDF-9517-48E9-9E0C-85273B40E477}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_F2" ID="{E3D9190E-7046-4DF3-9224-60E63A3F9781}" ShortID="469635065">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_F2" ID="{09D53490-C484-4C58-AB5D-AC93AFE13281}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_F2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1034101597"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_F2" ID="{09D53490-C484-4C58-AB5D-AC93AFE13281}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_F3" ID="{FE528EC6-5DB9-462E-98F4-B7B3E263699F}" ShortID="119520361">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_F3" ID="{5257EA47-061B-4EE6-8CF1-C4A1A825365E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_F3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="860454866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_F3" ID="{5257EA47-061B-4EE6-8CF1-C4A1A825365E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_F4" ID="{AC60F978-B4FE-4779-BE0A-65683D36261D}" ShortID="765500501">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_F4" ID="{7D88D9F6-3325-4532-B8F7-996DC72EFD00}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_F4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="342215700"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_F4" ID="{7D88D9F6-3325-4532-B8F7-996DC72EFD00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_G1" ID="{EA4DA7D1-3BAE-4E44-8476-7A3F843E3490}" ShortID="568505734">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_G1" ID="{606F9465-F54A-4340-8B48-43F5D52A9E72}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_G1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120988872"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_G1" ID="{606F9465-F54A-4340-8B48-43F5D52A9E72}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_G2" ID="{F0887523-A8A5-49CF-B695-9DFD07A1D09D}" ShortID="891336141">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_G2" ID="{5E1839A6-B104-43BF-BC36-12A8CB32EBFC}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_G2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="610677375"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_G2" ID="{5E1839A6-B104-43BF-BC36-12A8CB32EBFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_G3" ID="{4F1D5086-8C14-424D-AD5A-E223BC8B60F0}" ShortID="74738387">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_G3" ID="{FB7FEF99-A339-4FED-9981-DD513CA153C4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_G3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="279707459"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_G3" ID="{FB7FEF99-A339-4FED-9981-DD513CA153C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Butterfly_G4" ID="{5D584787-9CD7-4E71-A142-01EF50882D5E}" ShortID="147487064">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_G4" ID="{823DDA86-B0C7-4C68-A4F8-4FD9D4B7F2ED}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Butterfly_G4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="55761035"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Butterfly_G4" ID="{823DDA86-B0C7-4C68-A4F8-4FD9D4B7F2ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="SFX_GPE_Stele_Stone" ID="{4DAA2CA2-347C-4C37-AC13-D3FDF1FC4235}" ShortID="895325207">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Stele_Stone_A1" ID="{384B9FEA-58B2-4979-9932-A96397ED724B}" ShortID="663437328">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_A1" ID="{1314EC6B-BF34-436D-B9AE-90ACF1CA8896}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_A1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="768679159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_A1" ID="{1314EC6B-BF34-436D-B9AE-90ACF1CA8896}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_A2" ID="{A352D275-3694-4628-BED3-E1CEFDB92A48}" ShortID="228456022">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_A2" ID="{27D6F500-1B19-47DC-AE1A-231771126645}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_A2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="889358637"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_A2" ID="{27D6F500-1B19-47DC-AE1A-231771126645}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_A3" ID="{CD39474F-432D-4A9E-AEA5-84A278F77659}" ShortID="429674800">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_A3" ID="{81CC1971-E0D7-4E8B-B377-C4AE5B6AF5F2}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_A3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1014667078"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_A3" ID="{81CC1971-E0D7-4E8B-B377-C4AE5B6AF5F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_A4" ID="{816797F6-3F12-45E1-9046-B49DFF8C3215}" ShortID="1047802066">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_A4" ID="{5DF5F0A9-E085-4346-A732-23394255E2FD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_A4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1063009932"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_A4" ID="{5DF5F0A9-E085-4346-A732-23394255E2FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_AS1" ID="{0CEDA1DC-952C-41F3-B6C8-93935FB28DD1}" ShortID="319223726">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_AS1" ID="{67BC5850-B373-4DA8-90DF-C0F5E081FCDC}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_AS1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="752171227"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_AS1" ID="{67BC5850-B373-4DA8-90DF-C0F5E081FCDC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_AS2" ID="{9F2540E3-93B3-4FD5-A88F-3D8A0B0C7D15}" ShortID="904070012">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_AS2" ID="{FA3D1D3E-C849-4D8F-AAE5-49AF41042FB4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_AS2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="402602504"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_AS2" ID="{FA3D1D3E-C849-4D8F-AAE5-49AF41042FB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_AS3" ID="{D3C9164B-E6A6-4603-909A-EBB397AD291D}" ShortID="830852924">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_AS3" ID="{B25DB736-25DC-4209-A014-F41CA39275DE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_AS3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="766045658"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_AS3" ID="{B25DB736-25DC-4209-A014-F41CA39275DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_AS4" ID="{88943900-BCC7-4D0E-A0E2-EB52E5B7DEF0}" ShortID="366124085">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_AS4" ID="{221F0EBE-434D-4CEA-9238-106729479B77}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_AS4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="224544293"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_AS4" ID="{221F0EBE-434D-4CEA-9238-106729479B77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_C2" ID="{77FA7571-B0C6-4996-8AD2-FE9B383C5B95}" ShortID="842294360">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_C2" ID="{EAA5D1FC-F31F-4059-9FFD-391A63A120BA}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_C2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="467225163"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_C2" ID="{EAA5D1FC-F31F-4059-9FFD-391A63A120BA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_C3" ID="{C1C51C07-0423-4627-9644-F6D088116153}" ShortID="236377854">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_C3" ID="{F1879222-51AE-4E89-ACEE-90F32D9A93CD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_C3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986239945"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_C3" ID="{F1879222-51AE-4E89-ACEE-90F32D9A93CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_C4" ID="{E1866075-2D96-40E2-BDFF-53195A00E262}" ShortID="193825347">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_C4" ID="{5EEE645F-3DF5-4DFE-A237-7CABD2F3A723}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_C4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="64635819"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_C4" ID="{5EEE645F-3DF5-4DFE-A237-7CABD2F3A723}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_D2" ID="{B7A2571E-284A-4E3D-875A-8FC131D5DB04}" ShortID="594179128">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_D2" ID="{70635023-AD26-4A05-9755-1C86B3783875}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_D2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="109901540"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_D2" ID="{70635023-AD26-4A05-9755-1C86B3783875}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_D3" ID="{6C7FB348-10BC-475A-8C20-3EB8DBA6BB25}" ShortID="939619976">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_D3" ID="{96E64433-C7D3-4B2F-BFEA-F69080012B9B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_D3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="261695194"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_D3" ID="{96E64433-C7D3-4B2F-BFEA-F69080012B9B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_D4" ID="{4B810FC7-729A-463F-A615-597C387CC58E}" ShortID="305771997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_D4" ID="{B700C9EC-E1CD-4529-BF58-9AC7FA6A8192}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_D4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="687940808"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_D4" ID="{B700C9EC-E1CD-4529-BF58-9AC7FA6A8192}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_DS2" ID="{CC561BAD-6DFE-4425-9C89-86EDFAD769F8}" ShortID="597870282">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_DS2" ID="{0030D3C3-9604-44F2-BABE-D0BC1908A2D4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_DS2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="332710230"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_DS2" ID="{0030D3C3-9604-44F2-BABE-D0BC1908A2D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_DS3" ID="{B66B00CB-9E44-400B-BE35-C6813B1966D9}" ShortID="21413081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_DS3" ID="{6CF15DE8-CA22-4E2B-9A69-BB9EAB57BB91}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_DS3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="314847094"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_DS3" ID="{6CF15DE8-CA22-4E2B-9A69-BB9EAB57BB91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_DS4" ID="{2F11212B-A4BB-48FC-B1ED-856DB0E9750C}" ShortID="571227771">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_DS4" ID="{8A923D41-8816-4E2E-A83D-E297DF220C10}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_DS4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="212994197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_DS4" ID="{8A923D41-8816-4E2E-A83D-E297DF220C10}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_F2" ID="{19F6ADEB-77A7-4B47-994A-4236D6914202}" ShortID="265487204">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_F2" ID="{99F480C7-0615-4A92-9910-F758FBB3CB71}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_F2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="383078185"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_F2" ID="{99F480C7-0615-4A92-9910-F758FBB3CB71}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_F3" ID="{83F30384-41FD-4C27-8469-A80899A5613F}" ShortID="819696126">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_F3" ID="{16E00977-5719-48A3-8618-A78A880F80DE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_F3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="443084533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_F3" ID="{16E00977-5719-48A3-8618-A78A880F80DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_F4" ID="{8725ACE2-4F82-4B9C-AD2B-AEC7847BC87F}" ShortID="654118168">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_F4" ID="{FCAFF54C-E756-4F7E-A9FA-22FB93491D68}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_F4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824316949"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_F4" ID="{FCAFF54C-E756-4F7E-A9FA-22FB93491D68}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_G1" ID="{DBE1F59E-AFBD-4070-9EAD-703A3DFA76A2}" ShortID="1042599421">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_G1" ID="{B3A43359-7AA5-48DC-A6CB-5D0A7203D675}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_G1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="689753367"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_G1" ID="{B3A43359-7AA5-48DC-A6CB-5D0A7203D675}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_G2" ID="{5AE854F4-B7B5-450E-B64D-B22B5DBB3002}" ShortID="30778008">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_G2" ID="{B6E07C28-459E-460B-94EB-CC99052BB06F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_G2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="133630538"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_G2" ID="{B6E07C28-459E-460B-94EB-CC99052BB06F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_G3" ID="{B9D64ECD-33C3-4592-ACC5-9A3844E4B3DF}" ShortID="581897727">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_G3" ID="{D05BAB72-D585-4CA6-AC5D-B434BF2605AB}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_G3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="279980961"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_G3" ID="{D05BAB72-D585-4CA6-AC5D-B434BF2605AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Stele_Stone_G4" ID="{EC408DCA-97EB-478F-B8D6-8F6A2268132E}" ShortID="603209235">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Stele_Stone_G4" ID="{F88841ED-030D-4B80-93B7-36E7F1EFBDE2}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Stele_Stone_G4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="855343725"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Stele_Stone_G4" ID="{F88841ED-030D-4B80-93B7-36E7F1EFBDE2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<ActorMixer Name="SFX_GPE_PlantPlatform" ID="{F2D1B652-F32C-450B-A7FA-2A51CB9398A3}" ShortID="803750257">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_GPE_PlantPlatorm_Open" ID="{AE2AAD33-C0E6-41E2-9A35-004A7D3E81BA}" ShortID="356932887">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{54D09B77-6FF9-4AD1-8D1E-CF3C66E4B4C9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8D8F6F02-4B8B-4A23-8E29-CAFB6BB92E02}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_1" ID="{DFF0C61C-D7D6-487B-8B7F-0C8630472A0E}" ShortID="745865562">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8CE5DB3B-7E72-4D83-84D4-5DB502ECA0D4}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_1" ID="{D0FEB677-DD83-4047-B6A3-BBAA5D1F3811}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="500044490"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_1" ID="{D0FEB677-DD83-4047-B6A3-BBAA5D1F3811}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_2" ID="{7B130C43-4B0D-4513-8507-1DEF536CD196}" ShortID="777843116">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_2" ID="{26E7031C-7918-4439-9593-190002CADCF8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="724915893"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_2" ID="{26E7031C-7918-4439-9593-190002CADCF8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_3" ID="{A840C959-2CE1-47E8-9FDC-E1A8AE087DF6}" ShortID="653536733">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AF1B530B-96A3-48C2-9423-DF3C8D21CCC7}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_3" ID="{30C54417-1CC0-4615-816E-906C8E7877CA}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="507893096"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_3" ID="{30C54417-1CC0-4615-816E-906C8E7877CA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_4" ID="{90FF4AE8-0297-4BB2-A207-DCBF9C534391}" ShortID="76232721">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_4" ID="{DAEFC373-2232-4793-A05C-0221D961722E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="130967582"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_4" ID="{DAEFC373-2232-4793-A05C-0221D961722E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_5" ID="{DD7901C3-2D8B-4E7F-8241-AC4D13A744CD}" ShortID="253154735">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_5" ID="{03A01A23-3159-4BCE-869E-F936E14AD148}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="374437879"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_5" ID="{03A01A23-3159-4BCE-869E-F936E14AD148}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_GPE_PlantPlatorm_Open_Land" ID="{5576AEF1-9291-43B0-BB20-1E1E8A99FB82}" ShortID="673648614">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_Land_1" ID="{135F93A2-D6D2-4E3B-B58A-27F7195F714D}" ShortID="476852632">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_Land_1" ID="{AE0F1B59-BCCA-4779-AEF9-04644B0DF944}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_Land_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="183332618"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_Land_1" ID="{AE0F1B59-BCCA-4779-AEF9-04644B0DF944}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_GPE_PlantPlatorm_Close" ID="{E14DAD58-BF2F-468C-A1BD-F134D1AB1E17}" ShortID="541525423">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E3E273BB-62FD-4233-B2CF-92136D4BD0AD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_PlantPlatorm_Close_1" ID="{92247054-D436-4A5D-98C5-8067597725E2}" ShortID="1018125365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Close_1" ID="{E097ADBA-9AC7-4E2F-90F3-7719FF6D4A28}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Close_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="486250280"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Close_1" ID="{E097ADBA-9AC7-4E2F-90F3-7719FF6D4A28}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_GPE_PlantPlatform_Idle_Open_LP" ID="{5E5365F7-FC23-415D-8A3C-ECC3FB58ADF8}" ShortID="942253797">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F19E06EB-0C30-43E6-A000-53DED5EA5359}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6845D5B0-137A-4EF5-9CCF-B277DF1F88EC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_PlantPlatorm_Idle_Open_LP_1" ID="{3B6516EB-C6DC-4C7D-A021-4DB518BFA599}" ShortID="115120702">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Idle_Open_LP_1" ID="{53E70282-2070-46B8-9858-6EA4E2C2D876}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="239712345"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Idle_Open_LP_1" ID="{53E70282-2070-46B8-9858-6EA4E2C2D876}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Idle_Open_LP_2" ID="{6AE87A21-44D5-4D60-817F-C48743EDA6A6}" ShortID="337232252">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Idle_Open_LP_2" ID="{9C4C22D1-19A3-4051-9A89-8FAF98D06625}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="808406191"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Idle_Open_LP_2" ID="{9C4C22D1-19A3-4051-9A89-8FAF98D06625}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Folder Name="SFX_GPE_PlantPlatorm_Open_Tonal" ID="{5C40CFBD-A88F-4045-8374-3F25896CC450}" ShortID="1023699916">
+									<ChildrenList>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_A" ID="{027D2431-8792-403D-A3AD-A712EA303858}" ShortID="191139589">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_A" ID="{62952569-97F2-43C8-B81A-0740A8B79AAB}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037262259"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_A" ID="{62952569-97F2-43C8-B81A-0740A8B79AAB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_C" ID="{D92B9C3A-1F17-441A-B5C3-7A4AB222B3C3}" ShortID="257051381">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_C" ID="{365BB510-6BA2-4EDF-AEEF-E0B0A6127B25}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_C.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="713070006"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_C" ID="{365BB510-6BA2-4EDF-AEEF-E0B0A6127B25}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_D" ID="{ED67B286-B66D-403B-A5F9-3C9279D8ABC9}" ShortID="122704857">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_D" ID="{CC08A378-6C81-4AE8-8E6D-AE12D9B854D3}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="467917846"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_D" ID="{CC08A378-6C81-4AE8-8E6D-AE12D9B854D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{AC67C59A-8696-40EF-8630-83647F02F08A}" ShortID="90548669">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{16AEFD9D-56F6-4F6A-8164-DBF815B47D41}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_DS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="513996057"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{16AEFD9D-56F6-4F6A-8164-DBF815B47D41}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_F" ID="{970A8D52-5F81-4F90-A9BB-BB0667CB07DD}" ShortID="163072630">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_F" ID="{732024ED-19BD-46F4-A75A-6217C462D651}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_F.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="599936942"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_F" ID="{732024ED-19BD-46F4-A75A-6217C462D651}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{F33746BA-592A-4913-9682-8693AB2362D3}" ShortID="119652206">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{EA9E7559-5314-47EB-9729-FC2214A0F07A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_FS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="117693384"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{EA9E7559-5314-47EB-9729-FC2214A0F07A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_G" ID="{946A41B9-8B16-42A9-88C4-7B3DAC25351B}" ShortID="214614479">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_G" ID="{8C50B9E0-D020-450E-A493-D577949841A3}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_G.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="45807246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_G" ID="{8C50B9E0-D020-450E-A493-D577949841A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

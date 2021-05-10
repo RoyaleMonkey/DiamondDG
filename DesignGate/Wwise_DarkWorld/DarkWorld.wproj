@@ -9758,7 +9758,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Auro Headphone" PluginType="3" CompanyID="263" PluginID="1100">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="263" PluginID="1100">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
 							<ValueList>
@@ -9891,7 +9891,7 @@
 				<ObsOccCurves>
 					<Comment></Comment>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{0E4E6B69-10C6-4E1E-9551-D03683422BFB}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
@@ -9912,7 +9912,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="LPF">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{1EA45F90-9EEC-4A5F-B8AC-998F1BF2AEEF}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
@@ -9954,7 +9954,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{D5AF33A9-3E3C-43CF-A05D-270B25BCEA9E}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
@@ -9975,7 +9975,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="LPF">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{F5CBECA1-3396-4506-9404-3467B5C1FF92}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>

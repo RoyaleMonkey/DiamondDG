@@ -2403,7 +2403,14 @@
 						<Folder Name="D" ID="{43D76577-9225-4E6F-A59D-15C88ACE3DAA}" ShortID="205543508"/>
 						<Folder Name="DS" ID="{9E4C9D0A-7403-4273-8925-B7B18CA60F55}" ShortID="721896788">
 							<ChildrenList>
-								<Sound Name="Flute_Melody_DS" ID="{937C3904-E2E5-4BAD-A414-11E0455D412F}" ShortID="122217143">
+								<BlendContainer Name="Flute_Melody_DS_01" ID="{981FC013-8B26-4DC9-A2DA-DCE91D2A159E}" ShortID="839730634">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -2413,23 +2420,103 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Flute_Melodic_DS" ID="{3636ACF8-19AF-430E-BC6B-ABE323508AD7}">
-											<Language>SFX</Language>
-											<AudioFile>Flute_Melodic_DS.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="425689024"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Flute_Melody_Magical_DS" ID="{1644C90B-0161-464A-9684-12470EA252AF}" ShortID="948679718">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Magical_DS" ID="{9BD45D34-FCCA-4AAC-86CB-ACE8FBE07AD5}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Magical_DS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="470087089"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Magical_DS" ID="{9BD45D34-FCCA-4AAC-86CB-ACE8FBE07AD5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Melody_Main_DS" ID="{784C51C5-117E-4ABA-879A-E836DAF5F5D1}" ShortID="672217399">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Main_DS" ID="{EF7C29A9-5FF2-4308-A54C-0E32193EDE6E}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Main_DS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="43780261"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Main_DS" ID="{EF7C29A9-5FF2-4308-A54C-0E32193EDE6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Melody_Reverb_DS" ID="{476319E5-2B78-4F84-A558-8E544DD7DFCA}" ShortID="701322006">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Reverb_DS" ID="{F3A7F9F5-DA3A-40EF-9799-AEB054406D6E}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Reverb_DS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="67001878"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Reverb_DS" ID="{F3A7F9F5-DA3A-40EF-9799-AEB054406D6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Flute_Melodic_DS" ID="{3636ACF8-19AF-430E-BC6B-ABE323508AD7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="F" ID="{C003F53D-77B4-47BD-ADE4-7DE22F3BCB14}" ShortID="916252578">
 							<ChildrenList>
-								<Sound Name="Flute_Melody_F" ID="{299C0965-C806-4B58-984E-57588E550816}" ShortID="3483768">
+								<BlendContainer Name="Flute_Melody_F_01" ID="{E3BC2CDA-FE2A-4F2F-98D0-2E7E16F569DC}" ShortID="443928814">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -2439,23 +2526,100 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Flute_Melodic_F" ID="{6CB38B5D-CDC8-4112-83DC-055585B87C28}">
-											<Language>SFX</Language>
-											<AudioFile>Flute_Melodic_F.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="667760232"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Flute_Melody_Magical_F" ID="{C04DA698-B40B-4EA9-95EF-9E33B465038D}" ShortID="282635156">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Magical_F" ID="{04F34357-A1E1-4F5B-9163-302B1A3D33E4}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Magical_F.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="945158233"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Magical_F" ID="{04F34357-A1E1-4F5B-9163-302B1A3D33E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Melody_Main_F" ID="{9C7E05FD-CC1B-4859-9710-FFCF1B8B3A1B}" ShortID="670903637">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Main_F" ID="{69C9B0D2-FC72-4736-B610-E7ADC6521D49}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Main_F.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53249534"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Main_F" ID="{69C9B0D2-FC72-4736-B610-E7ADC6521D49}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Melody_Reverb_F" ID="{766F9B6C-22DE-4DFE-AFE6-8D62AD237571}" ShortID="725542310">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Reverb_F" ID="{ADE7B23A-47C9-4721-8E36-CF25D4FE1AB3}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Reverb_F.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="30534036"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Reverb_F" ID="{ADE7B23A-47C9-4721-8E36-CF25D4FE1AB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Flute_Melodic_F" ID="{6CB38B5D-CDC8-4112-83DC-055585B87C28}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="G" ID="{ECC63CD4-54F7-4E0B-9322-661A9BAB6B43}" ShortID="1060872772">
 							<ChildrenList>
-								<Sound Name="Flute_Melody_G" ID="{B062D3F6-862C-4B51-91A9-892CD369E32C}" ShortID="498657864">
+								<BlendContainer Name="Flute_Melody_G_01" ID="{184FDA9B-F770-4592-AC88-78FD62D398C3}" ShortID="484990596">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -2465,18 +2629,88 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Flute_Melody_G" ID="{D59BF45A-3CA3-47D1-8267-8C8BBF49EBB7}">
-											<Language>SFX</Language>
-											<AudioFile>Flute_Melody_G.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="797019219"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Flute_Melody_Magical_G" ID="{A4DEBBA7-5202-4C6E-9E2D-1FE73F5AE67E}" ShortID="539190715">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Magical_G" ID="{F5D8DEEA-04CB-4B7B-AAC2-C71E754B11CD}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Magical_G.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="431232726"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Magical_G" ID="{F5D8DEEA-04CB-4B7B-AAC2-C71E754B11CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Melody_Main_G" ID="{15958222-E591-4F81-8CF6-20561CFCE361}" ShortID="365124097">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Main_G" ID="{72E42942-1EBB-4AB1-9E85-D6A6A01481AB}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Main_G.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="571855905"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Main_G" ID="{72E42942-1EBB-4AB1-9E85-D6A6A01481AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Melody_Reverb_G" ID="{5367EB23-F381-4DE3-95E2-0B462F3BA9F1}" ShortID="611313380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Melody_Reverb_G" ID="{43428BA7-51BE-419C-BE2E-340EEE94125D}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Melody_Reverb_G.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="108630294"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Melody_Reverb_G" ID="{43428BA7-51BE-419C-BE2E-340EEE94125D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Flute_Melody_G" ID="{D59BF45A-3CA3-47D1-8267-8C8BBF49EBB7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -15,6 +15,10 @@
 					</ChildrenList>
 				</Event>
 				<Folder Name="AMB" ID="{B339DFFE-AD80-4B80-9413-ABEAE59F7249}" ShortID="249481702">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}">
 							<ChildrenList>
@@ -67,6 +71,7 @@
 				</Folder>
 				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>
 				<WorkUnit Name="FLUTE" ID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX_GPE" ID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

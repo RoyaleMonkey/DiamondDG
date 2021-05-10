@@ -39,7 +39,24 @@ namespace AK
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_SFX_GPE_BUMPER = 1429665634U;
-        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM = 3485602535U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATFORM_IDLE_OPEN_LP = 682814542U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_CLOSE = 1681387998U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN = 2573704570U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_A = 3867157730U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_C = 3867157728U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_D = 3867157735U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_DS = 3266975702U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_F = 3867157733U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_FS = 3233420300U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_G = 3867157732U;
+        static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_OPEN_LAND = 2992937130U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_C3_START = 944437210U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_C3_STOP = 4046859122U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_D3_START = 1488972579U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_D3_STOP = 683320097U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_DS3_START = 2751041316U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_DS3_STOP = 2028669016U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_G3_C4_START = 2406314802U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
     } // namespace EVENTS
 
@@ -85,7 +102,9 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID FLUTE = 1167860281U;
         static const AkUniqueID MASTER = 4056684167U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES

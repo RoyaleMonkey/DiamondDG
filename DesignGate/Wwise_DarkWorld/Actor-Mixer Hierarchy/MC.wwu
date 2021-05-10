@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" SchemaVersion="97" RootDocumentID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}">
 	<AudioObjects>
 		<WorkUnit Name="MC" ID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" OwnerID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<SwitchContainer Name="MC_Steps" ID="{F7E95507-98D3-480F-972F-EF86BE5DE147}" ShortID="473987559">
 					<PropertyList>
@@ -8214,7 +8218,6 @@
 														<ModifierInfo>
 															<Modifier Name="" ID="{DC97FE44-6A5C-4102-A7D2-BEAE48AF4EF7}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="75"/>
 																	<Property Name="Min" Type="Real64" Value="-75"/>
 																</PropertyList>
@@ -8225,13 +8228,12 @@
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-17</Value>
+														<Value>-32</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{08A5561C-8584-4C3A-A9E8-2A890BAF42CB}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="5"/>
 																	<Property Name="Min" Type="Real64" Value="-5"/>
 																</PropertyList>
@@ -9486,6 +9488,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="MC_Taps" ID="{DEDFF5E3-74B0-4F52-B994-4340499B3744}" ShortID="235975332">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -9552,6 +9561,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Water_Puddle_1" ID="{1805D8C3-9500-4A47-85CE-9201FDBE4E91}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00828353310502283"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00828353310502283"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Water_Puddle_1.wav</AudioFile>
 													<MediaIDList>
@@ -10147,6 +10161,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Dirt_1" ID="{F4CBD57C-8A73-46D8-8C13-5BCECD32E3DA}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00498180650684932"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00498180650684932"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Dirt_1.wav</AudioFile>
 													<MediaIDList>
@@ -10169,6 +10188,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Dirt_2" ID="{D205C9AF-3776-464A-98C2-1E31B814F248}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00647117579908676"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00647117579908676"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Dirt_2.wav</AudioFile>
 													<MediaIDList>
@@ -10191,6 +10215,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Dirt_3" ID="{C69BC745-78D9-4210-B7BC-7404A281E1DB}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00512414383561644"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00512414383561644"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Dirt_3.wav</AudioFile>
 													<MediaIDList>
@@ -10213,6 +10242,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Dirt_4" ID="{F8941718-220D-420D-8C5B-C0CB07E334D9}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00616252853881279"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00616252853881279"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Dirt_4.wav</AudioFile>
 													<MediaIDList>
@@ -10235,6 +10269,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Dirt_5" ID="{13882BDF-3848-474F-B781-D538E3A2F172}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00344463470319635"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00344463470319635"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Dirt_5.wav</AudioFile>
 													<MediaIDList>
@@ -10279,6 +10318,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Dirt_7" ID="{6518E8F8-0E3F-4D5B-BC9B-23AAACC8611D}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00645034246575342"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00645034246575342"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Dirt_7.wav</AudioFile>
 													<MediaIDList>
@@ -10343,6 +10387,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Stone_1" ID="{F7A03F04-C78C-425F-AD75-F12344B3D586}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0221004566210045"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0221004566210045"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Stone_1.wav</AudioFile>
 													<MediaIDList>
@@ -10365,6 +10414,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Stone_2" ID="{810C5892-CB51-41A8-A0D9-4F0926BBFF19}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0155821917808219"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0155821917808219"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Stone_2.wav</AudioFile>
 													<MediaIDList>
@@ -10387,6 +10441,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Stone_3" ID="{F94A4236-3ADF-41AD-A6C2-69B075E89AF1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00802654109589041"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00802654109589041"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Stone_3.wav</AudioFile>
 													<MediaIDList>
@@ -10409,6 +10468,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Stone_4" ID="{A7E50DBD-0E44-40C0-9985-809E36B476ED}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0182470034246575"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0182470034246575"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Stone_4.wav</AudioFile>
 													<MediaIDList>
@@ -10431,6 +10495,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Stone_5" ID="{5CDDC768-BC8B-476A-A63B-9069BBDD1899}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0191730878995434"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0191730878995434"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Stone_5.wav</AudioFile>
 													<MediaIDList>
@@ -10453,6 +10522,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_MC_Tap_Stone_6" ID="{A3E69F92-1062-4DF7-B833-432461937E08}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0106164383561644"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0106164383561644"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_MC_Tap_Stone_6.wav</AudioFile>
 													<MediaIDList>
@@ -10516,86 +10590,6 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
-					</ChildrenList>
-				</ActorMixer>
-				<ActorMixer Name="SFX_GPE" ID="{8A5A4865-5808-406E-8D07-3DA9DFCC6F8E}" ShortID="643483108">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<RandomSequenceContainer Name="SFX_GPE_PlantPlatorm" ID="{AE2AAD33-C0E6-41E2-9A35-004A7D3E81BA}" ShortID="356932887">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="SFX_GPE_PlantPlatorm_1" ID="{F80052FA-4431-48A4-B1C4-A517F99D9770}" ShortID="616969671">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_GPE_PlantPlatorm_1" ID="{17AABB27-EF31-4D2D-AB5F-EA24A0DBB2A6}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_GPE_PlantPlatorm_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="519279120"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_GPE_PlantPlatorm_1" ID="{17AABB27-EF31-4D2D-AB5F-EA24A0DBB2A6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" ShortID="532527353">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="SFX_GPE_Bumper_1" ID="{A2113A1C-7502-4593-99E8-141BEFA46F4A}" ShortID="362728194">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_GPE_Bumper_1" ID="{5B01490F-4ACE-4FC6-A790-B26DEEE50461}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_GPE_Bumper_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="555465848"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_GPE_Bumper_1" ID="{5B01490F-4ACE-4FC6-A790-B26DEEE50461}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

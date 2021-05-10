@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" SchemaVersion="97" RootDocumentID="{E5482311-EA18-40DD-A277-B2AA53354992}">
 	<Events>
 		<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" OwnerID="{E5482311-EA18-40DD-A277-B2AA53354992}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="Play_MC_Step" ID="{A3C66970-486B-4C6D-A9E6-F141FBFCCECA}">
 					<ChildrenList>
@@ -64,28 +68,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_MC_FOL_Pivot" ID="{3176F166-EF0D-4AAE-B731-6000727A9C7F}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_GPE_PlantPlatorm" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}">
-					<ChildrenList>
-						<Action Name="" ID="{E6FBC02E-421F-4030-89F8-5F3320E7443A}" ShortID="879494714">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_GPE_PlantPlatorm" ID="{AE2AAD33-C0E6-41E2-9A35-004A7D3E81BA}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_GPE_Bumper" ID="{D2A0E9AD-2691-479B-AAF4-7D3DDA19A861}">
-					<ChildrenList>
-						<Action Name="" ID="{E8E18654-6FC4-43F3-B6E0-FFC49B70E57B}" ShortID="552083193">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

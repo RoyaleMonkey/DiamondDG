@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1227213495",
+    "Hash": "4059789184",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -24,13 +24,37 @@
       "Id": "1429665634",
       "Name": "Play_SFX_GPE_Bumper",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\Play_SFX_GPE_Bumper",
-      "MaxAttenuation": "800.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
+       {
+        "Id": "5846075",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Bumper_2.wav",
+        "Path": "SFX\\SFX_GPE_Bumper_2_D8C07C79.wem"
+       },
+       {
+        "Id": "129156702",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Bumper_5.wav",
+        "Path": "SFX\\SFX_GPE_Bumper_5_D8C07C79.wem"
+       },
+       {
+        "Id": "341736279",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Bumper_4.wav",
+        "Path": "SFX\\SFX_GPE_Bumper_4_D8C07C79.wem"
+       },
        {
         "Id": "555465848",
         "Language": "SFX",
         "ShortName": "SFX_GPE_Bumper_1.wav",
         "Path": "SFX\\SFX_GPE_Bumper_1_D8C07C79.wem"
+       },
+       {
+        "Id": "579272588",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Bumper_3.wav",
+        "Path": "SFX\\SFX_GPE_Bumper_3_D8C07C79.wem"
        }
       ]
      },
@@ -38,7 +62,7 @@
       "Id": "682814542",
       "Name": "Play_SFX_GPE_PlantPlatform_Idle_Open_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\Play_SFX_GPE_PlantPlatform_Idle_Open_LP",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "239712345",
@@ -58,7 +82,7 @@
       "Id": "1681387998",
       "Name": "Play_SFX_GPE_PlantPlatorm_Close",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\Play_SFX_GPE_PlantPlatorm_Close",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "486250280",
@@ -72,7 +96,7 @@
       "Id": "2573704570",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\Play_SFX_GPE_PlantPlatorm_Open",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "130967582",
@@ -110,7 +134,7 @@
       "Id": "3867157730",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_A",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\SFX_GPE_PlantPlatorm_Open_Tonal\\Play_SFX_GPE_PlantPlatorm_Open_A",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "1037262259",
@@ -124,7 +148,7 @@
       "Id": "3867157728",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_C",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\SFX_GPE_PlantPlatorm_Open_Tonal\\Play_SFX_GPE_PlantPlatorm_Open_C",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "713070006",
@@ -138,7 +162,7 @@
       "Id": "3867157735",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_D",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\SFX_GPE_PlantPlatorm_Open_Tonal\\Play_SFX_GPE_PlantPlatorm_Open_D",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "467917846",
@@ -152,7 +176,7 @@
       "Id": "3266975702",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_DS",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\SFX_GPE_PlantPlatorm_Open_Tonal\\Play_SFX_GPE_PlantPlatorm_Open_DS",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "513996057",
@@ -166,7 +190,7 @@
       "Id": "3867157733",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_F",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\SFX_GPE_PlantPlatorm_Open_Tonal\\Play_SFX_GPE_PlantPlatorm_Open_F",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "599936942",
@@ -180,7 +204,7 @@
       "Id": "3233420300",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_FS",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\SFX_GPE_PlantPlatorm_Open_Tonal\\Play_SFX_GPE_PlantPlatorm_Open_FS",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "117693384",
@@ -194,7 +218,7 @@
       "Id": "3867157732",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_G",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\SFX_GPE_PlantPlatorm_Open_Tonal\\Play_SFX_GPE_PlantPlatorm_Open_G",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "45807246",
@@ -208,7 +232,7 @@
       "Id": "2992937130",
       "Name": "Play_SFX_GPE_PlantPlatorm_Open_Land",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_PlantPlatform\\Play_SFX_GPE_PlantPlatorm_Open_Land",
-      "MaxAttenuation": "2500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "183332618",
@@ -331,6 +355,12 @@
     ],
     "IncludedMemoryFiles": [
      {
+      "Id": "5846075",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Bumper_2.wav",
+      "Path": "SFX\\SFX_GPE_Bumper_2_D8C07C79.wem"
+     },
+     {
       "Id": "24149264",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_DS3.wav",
@@ -377,6 +407,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_G1.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_G1_D8C07C79.wem"
+     },
+     {
+      "Id": "129156702",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Bumper_5.wav",
+      "Path": "SFX\\SFX_GPE_Bumper_5_D8C07C79.wem"
      },
      {
       "Id": "130967582",
@@ -487,6 +523,12 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS3_D8C07C79.wem"
      },
      {
+      "Id": "341736279",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Bumper_4.wav",
+      "Path": "SFX\\SFX_GPE_Bumper_4_D8C07C79.wem"
+     },
+     {
       "Id": "342215700",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_F4.wav",
@@ -575,6 +617,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_A1.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_A1_D8C07C79.wem"
+     },
+     {
+      "Id": "579272588",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Bumper_3.wav",
+      "Path": "SFX\\SFX_GPE_Bumper_3_D8C07C79.wem"
      },
      {
       "Id": "599936942",

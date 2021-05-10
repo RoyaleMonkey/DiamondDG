@@ -19,7 +19,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" ShortID="532527353">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
@@ -30,6 +30,19 @@
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="75"/>
 													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{734B48A9-732C-4D2A-B439-98D75558B27C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -48,7 +61,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="SFX_GPE_Bumper_1" ID="{A2113A1C-7502-4593-99E8-141BEFA46F4A}" ShortID="362728194">
+								<Sound Name="SFX_GPE_Bumper_1" ID="{DECF20FD-5076-44BC-BBC3-7BA19179FA8A}" ShortID="257804263">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -58,7 +71,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_GPE_Bumper_1" ID="{5B01490F-4ACE-4FC6-A790-B26DEEE50461}">
+										<AudioFileSource Name="SFX_GPE_Bumper_1" ID="{9A443B06-75B2-4409-9282-C54987E9F4E5}">
 											<Language>SFX</Language>
 											<AudioFile>SFX_GPE_Bumper_1.wav</AudioFile>
 											<MediaIDList>
@@ -67,7 +80,95 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_GPE_Bumper_1" ID="{5B01490F-4ACE-4FC6-A790-B26DEEE50461}" Platform="Linked"/>
+										<ActiveSource Name="SFX_GPE_Bumper_1" ID="{9A443B06-75B2-4409-9282-C54987E9F4E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Bumper_2" ID="{DDA2F668-55AE-4F83-A828-EDF9DA6AA2F3}" ShortID="785992529">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Bumper_2" ID="{94668F12-C7CC-422F-AE7E-0D78F8148964}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Bumper_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5846075"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Bumper_2" ID="{94668F12-C7CC-422F-AE7E-0D78F8148964}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Bumper_3" ID="{22DC950A-2742-4846-BD62-EBB15B375229}" ShortID="914071365">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Bumper_3" ID="{DEA7E360-FC92-4EE9-85C2-DFC938C091BD}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Bumper_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="579272588"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Bumper_3" ID="{DEA7E360-FC92-4EE9-85C2-DFC938C091BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Bumper_4" ID="{1E59777B-6D90-4D17-8215-BAECFDF8F7C9}" ShortID="991025716">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Bumper_4" ID="{D1FA460B-1ED4-4AF0-BD44-4BF9026543D9}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Bumper_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="341736279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Bumper_4" ID="{D1FA460B-1ED4-4AF0-BD44-4BF9026543D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Bumper_5" ID="{0E79EF96-0F82-4B62-A559-C1CDB4A26108}" ShortID="648731250">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Bumper_5" ID="{56D9F2E2-5B87-42E4-BFCA-8639ECB36E23}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Bumper_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="129156702"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Bumper_5" ID="{56D9F2E2-5B87-42E4-BFCA-8639ECB36E23}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1278,6 +1379,7 @@
 								<RandomSequenceContainer Name="SFX_GPE_PlantPlatorm_Open" ID="{AE2AAD33-C0E6-41E2-9A35-004A7D3E81BA}" ShortID="356932887">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -1465,6 +1567,7 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_GPE_PlantPlatorm_Open_Land" ID="{5576AEF1-9291-43B0-BB20-1E1E8A99FB82}" ShortID="673648614">
 									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-7</Value>
@@ -1507,6 +1610,7 @@
 								<RandomSequenceContainer Name="SFX_GPE_PlantPlatorm_Close" ID="{E14DAD58-BF2F-468C-A1BD-F134D1AB1E17}" ShortID="541525423">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1539,7 +1643,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_GPE_PlantPlatorm_Close_1" ID="{92247054-D436-4A5D-98C5-8067597725E2}" ShortID="1018125365">
+										<Sound Name="SFX_GPE_PlantPlatorm_Close_1" ID="{13808861-F4FC-4C70-87BC-272A835C4DC7}" ShortID="126748646">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1549,7 +1653,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Close_1" ID="{E097ADBA-9AC7-4E2F-90F3-7719FF6D4A28}">
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Close_1" ID="{75A5411F-29FC-4C56-9008-79CC86BAA1E7}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_GPE_PlantPlatorm_Close_1.wav</AudioFile>
 													<MediaIDList>
@@ -1558,7 +1662,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Close_1" ID="{E097ADBA-9AC7-4E2F-90F3-7719FF6D4A28}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Close_1" ID="{75A5411F-29FC-4C56-9008-79CC86BAA1E7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1566,6 +1670,7 @@
 								<RandomSequenceContainer Name="SFX_GPE_PlantPlatform_Idle_Open_LP" ID="{5E5365F7-FC23-415D-8A3C-ECC3FB58ADF8}" ShortID="942253797">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1862,6 +1967,16 @@
 								</Folder>
 							</ChildrenList>
 						</ActorMixer>
+						<RandomSequenceContainer Name="SFX_Telekinesie" ID="{545AD209-2B00-4259-BE9D-658EE324A745}" ShortID="661433629">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

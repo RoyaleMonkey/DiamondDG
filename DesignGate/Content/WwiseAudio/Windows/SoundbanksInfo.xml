@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -44,20 +44,36 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1227213495">
+		<SoundBank Id="393239870" Language="SFX" Hash="4059789184">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_Bumper" MaxAttenuation="800.000000">
+				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_Bumper" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
+						<File Id="5846075" Language="SFX">
+							<ShortName>SFX_GPE_Bumper_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Bumper_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="129156702" Language="SFX">
+							<ShortName>SFX_GPE_Bumper_5.wav</ShortName>
+							<Path>SFX\SFX_GPE_Bumper_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="341736279" Language="SFX">
+							<ShortName>SFX_GPE_Bumper_4.wav</ShortName>
+							<Path>SFX\SFX_GPE_Bumper_4_D8C07C79.wem</Path>
+						</File>
 						<File Id="555465848" Language="SFX">
 							<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
 							<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
 						</File>
+						<File Id="579272588" Language="SFX">
+							<ShortName>SFX_GPE_Bumper_3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Bumper_3_D8C07C79.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="682814542" Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatform_Idle_Open_LP" MaxAttenuation="2500.000000">
+				<Event Id="682814542" Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatform_Idle_Open_LP" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="239712345" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
@@ -69,7 +85,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1681387998" Name="Play_SFX_GPE_PlantPlatorm_Close" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Close" MaxAttenuation="2500.000000">
+				<Event Id="1681387998" Name="Play_SFX_GPE_PlantPlatorm_Close" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Close" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="486250280" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
@@ -77,7 +93,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2573704570" Name="Play_SFX_GPE_PlantPlatorm_Open" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Open" MaxAttenuation="2500.000000">
+				<Event Id="2573704570" Name="Play_SFX_GPE_PlantPlatorm_Open" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Open" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="130967582" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
@@ -101,7 +117,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3867157730" Name="Play_SFX_GPE_PlantPlatorm_Open_A" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_A" MaxAttenuation="2500.000000">
+				<Event Id="3867157730" Name="Play_SFX_GPE_PlantPlatorm_Open_A" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_A" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="1037262259" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_A.wav</ShortName>
@@ -109,7 +125,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3867157728" Name="Play_SFX_GPE_PlantPlatorm_Open_C" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_C" MaxAttenuation="2500.000000">
+				<Event Id="3867157728" Name="Play_SFX_GPE_PlantPlatorm_Open_C" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_C" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="713070006" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_C.wav</ShortName>
@@ -117,7 +133,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3867157735" Name="Play_SFX_GPE_PlantPlatorm_Open_D" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_D" MaxAttenuation="2500.000000">
+				<Event Id="3867157735" Name="Play_SFX_GPE_PlantPlatorm_Open_D" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_D" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="467917846" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_D.wav</ShortName>
@@ -125,7 +141,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3266975702" Name="Play_SFX_GPE_PlantPlatorm_Open_DS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_DS" MaxAttenuation="2500.000000">
+				<Event Id="3266975702" Name="Play_SFX_GPE_PlantPlatorm_Open_DS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_DS" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="513996057" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_DS.wav</ShortName>
@@ -133,7 +149,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3867157733" Name="Play_SFX_GPE_PlantPlatorm_Open_F" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_F" MaxAttenuation="2500.000000">
+				<Event Id="3867157733" Name="Play_SFX_GPE_PlantPlatorm_Open_F" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_F" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="599936942" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_F.wav</ShortName>
@@ -141,7 +157,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3233420300" Name="Play_SFX_GPE_PlantPlatorm_Open_FS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_FS" MaxAttenuation="2500.000000">
+				<Event Id="3233420300" Name="Play_SFX_GPE_PlantPlatorm_Open_FS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_FS" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="117693384" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_FS.wav</ShortName>
@@ -149,7 +165,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3867157732" Name="Play_SFX_GPE_PlantPlatorm_Open_G" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_G" MaxAttenuation="2500.000000">
+				<Event Id="3867157732" Name="Play_SFX_GPE_PlantPlatorm_Open_G" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\SFX_GPE_PlantPlatorm_Open_Tonal\Play_SFX_GPE_PlantPlatorm_Open_G" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="45807246" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_G.wav</ShortName>
@@ -157,7 +173,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2992937130" Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Open_Land" MaxAttenuation="2500.000000">
+				<Event Id="2992937130" Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Open_Land" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="183332618" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
@@ -226,6 +242,10 @@
 				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="5846075" Language="SFX">
+					<ShortName>SFX_GPE_Bumper_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_Bumper_2_D8C07C79.wem</Path>
+				</File>
 				<File Id="24149264" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_DS3_D8C07C79.wem</Path>
@@ -257,6 +277,10 @@
 				<File Id="120988872" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_G1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_G1_D8C07C79.wem</Path>
+				</File>
+				<File Id="129156702" Language="SFX">
+					<ShortName>SFX_GPE_Bumper_5.wav</ShortName>
+					<Path>SFX\SFX_GPE_Bumper_5_D8C07C79.wem</Path>
 				</File>
 				<File Id="130967582" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
@@ -330,6 +354,10 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_AS3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS3_D8C07C79.wem</Path>
 				</File>
+				<File Id="341736279" Language="SFX">
+					<ShortName>SFX_GPE_Bumper_4.wav</ShortName>
+					<Path>SFX\SFX_GPE_Bumper_4_D8C07C79.wem</Path>
+				</File>
 				<File Id="342215700" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_F4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_F4_D8C07C79.wem</Path>
@@ -389,6 +417,10 @@
 				<File Id="570530222" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_A1_D8C07C79.wem</Path>
+				</File>
+				<File Id="579272588" Language="SFX">
+					<ShortName>SFX_GPE_Bumper_3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Bumper_3_D8C07C79.wem</Path>
 				</File>
 				<File Id="599936942" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_F.wav</ShortName>
@@ -504,7 +536,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="3171472583">
+		<SoundBank Id="1167860281" Language="SFX" Hash="3936662961">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -1045,7 +1077,7 @@
 				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="2462933111">
+		<SoundBank Id="4056684167" Language="SFX" Hash="4144614660">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

@@ -13,7 +13,14 @@
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{6A51BAC6-1485-4F8B-BA9C-3E7D12CC7658}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Close" ID="{91EE824C-B3C9-4027-A76B-D2354ADC94D3}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_GPE" ID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ID="{C402891E-3D44-4210-9279-A792E4A21715}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Open" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_Bumper" ID="{D2A0E9AD-2691-479B-AAF4-7D3DDA19A861}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX" ID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_GPE_PlantPlatorm_Open_Tonal" ID="{B183A211-230D-4ABA-BECE-E054C6A621B9}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ID="{A94FEE51-6700-4B36-A102-D81C449A26B9}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

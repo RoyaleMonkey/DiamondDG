@@ -572,7 +572,7 @@
 				</Attenuation>
 				<Attenuation Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" ShortID="814825673">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="2500"/>
+						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -589,7 +589,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2500</XPos>
+											<XPos>5000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -619,7 +619,7 @@
 				</Attenuation>
 				<Attenuation Name="GPE_Bumper_ATT" ID="{C62BD761-6406-4F3A-BA7A-DC890160BA72}" ShortID="388796784">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="800"/>
+						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -636,7 +636,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>800</XPos>
+											<XPos>5000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -683,7 +683,7 @@
 										</Point>
 										<Point>
 											<XPos>11000</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

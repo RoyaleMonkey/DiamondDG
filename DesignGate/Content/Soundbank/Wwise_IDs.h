@@ -57,7 +57,10 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_STELE_DS3_START = 2751041316U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_DS3_STOP = 2028669016U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_G3_C4_START = 2406314802U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEKINESIE = 450895549U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEKINESIE_FINISH = 3636920717U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
+        static const AkUniqueID STOP_SFX_GPE_TELEKINESIE = 437964639U;
     } // namespace EVENTS
 
     namespace SWITCHES

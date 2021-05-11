@@ -7,17 +7,6 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_SFX_GPE_Bumper" ID="{D2A0E9AD-2691-479B-AAF4-7D3DDA19A861}">
-					<ChildrenList>
-						<Action Name="" ID="{E8E18654-6FC4-43F3-B6E0-FFC49B70E57B}" ShortID="552083193">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="SFX_GPE_Stele" ID="{FA8008D5-7DE4-42C6-9140-CD0B99DE3362}" ShortID="894082602">
 					<ChildrenList>
 						<Event Name="Play_SFX_GPE_Stele_C3_Start" ID="{C9814CF4-7940-416E-8233-13EADD32DA57}">
@@ -319,6 +308,75 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_GPE_Bumper" ID="{7769DBBB-452A-4FDF-A1DA-8FA54D363A34}" ShortID="358288252">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Bumper" ID="{D2A0E9AD-2691-479B-AAF4-7D3DDA19A861}">
+							<ChildrenList>
+								<Action Name="" ID="{E8E18654-6FC4-43F3-B6E0-FFC49B70E57B}" ShortID="552083193">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_GPE_Telekinesie" ID="{57B4A7A7-0A65-42BF-8725-B82BEAC40A32}" ShortID="1032400103">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Telekinesie" ID="{076DDE08-3346-4C94-8BA9-A7DA8B53D539}">
+							<ChildrenList>
+								<Action Name="" ID="{187ED390-6DD3-46BD-9527-19FFF2A68CE4}" ShortID="357312961">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Telekinesie_Start" ID="{A6122514-33DE-4528-B96D-0E66090F5B90}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F18769AB-6DB7-4443-8624-CEC2D273ADA9}" ShortID="854027570">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_GPE_Telekinesie" ID="{7BC5EEFC-CCDB-4FC0-BD4A-F20D36B626A4}">
+							<ChildrenList>
+								<Action Name="" ID="{BA939A96-E427-45FF-8213-D028CC2002E7}" ShortID="466330535">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{42120E8A-CEEB-44B6-8CB4-36823885B9C1}" ShortID="166538594">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Telekinesie_End" ID="{A478D810-0779-4EBC-85E3-6CF9B13B0DA9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Telekinesie_Finish" ID="{68932580-2A71-4B48-9CFC-9837A46603F0}">
+							<ChildrenList>
+								<Action Name="" ID="{E37BD13D-AE38-4A6A-AFC5-C81516FD7D5F}" ShortID="872397823">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Telekinesie_Complete" ID="{92AF1CD5-6D98-4AC0-AD6A-3BF85C798693}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

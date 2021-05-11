@@ -44,12 +44,12 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="4059789184">
+		<SoundBank Id="393239870" Language="SFX" Hash="3510430480">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_Bumper" MaxAttenuation="5000.000000">
+				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Bumper\Play_SFX_GPE_Bumper" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="5846075" Language="SFX">
 							<ShortName>SFX_GPE_Bumper_2.wav</ShortName>
@@ -240,6 +240,34 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="450895549" Name="Play_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Play_SFX_GPE_Telekinesie">
+					<IncludedMemoryFiles>
+						<File Id="175890529" Language="SFX">
+							<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_Start_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="384310040" Language="SFX">
+							<ShortName>SFX_Telekinesie_lp.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_lp_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3636920717" Name="Play_SFX_GPE_Telekinesie_Finish" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Play_SFX_GPE_Telekinesie_Finish">
+					<IncludedMemoryFiles>
+						<File Id="478743489" Language="SFX">
+							<ShortName>SFX_Telekinesie_End_1.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_End_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Stop_SFX_GPE_Telekinesie">
+					<IncludedMemoryFiles>
+						<File Id="1029296119" Language="SFX">
+							<ShortName>SFX_Telekinesie_End__3.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_End__3_F12917FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="5846075" Language="SFX">
@@ -293,6 +321,10 @@
 				<File Id="169888562" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS4_D8C07C79.wem</Path>
+				</File>
+				<File Id="175890529" Language="SFX">
+					<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_Start_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="183332618" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
@@ -374,6 +406,10 @@
 					<ShortName>SFX_GPE_Stele_Stone_F2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_F2_D8C07C79.wem</Path>
 				</File>
+				<File Id="384310040" Language="SFX">
+					<ShortName>SFX_Telekinesie_lp.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_lp_D8C07C79.wem</Path>
+				</File>
 				<File Id="402602504" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_AS2_D8C07C79.wem</Path>
@@ -393,6 +429,10 @@
 				<File Id="467917846" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_D.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_D_D8C07C79.wem</Path>
+				</File>
+				<File Id="478743489" Language="SFX">
+					<ShortName>SFX_Telekinesie_End_1.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_End_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="486250280" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
@@ -522,6 +562,10 @@
 					<ShortName>SFX_GPE_Stele_Stone_A3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A3_D8C07C79.wem</Path>
 				</File>
+				<File Id="1029296119" Language="SFX">
+					<ShortName>SFX_Telekinesie_End__3.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_End__3_F12917FA.wem</Path>
+				</File>
 				<File Id="1034101597" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_F2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_F2_D8C07C79.wem</Path>
@@ -536,7 +580,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="9244035">
+		<SoundBank Id="1167860281" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>

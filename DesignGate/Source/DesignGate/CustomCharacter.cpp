@@ -58,8 +58,7 @@ void ACustomCharacter::ActorEndOverlap(AActor* OverlappedActor, AActor* OtherAct
 	if (OtherActor->ActorHasTag("Climb")) {
 		FHitResult hit;
 		FVector start = GetActorLocation();
-		if(GetWorld()->LineTraceSingleByChannel(hit,start,start+GetActorUpVector()*-2000,ECC_Visibility))
-			GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
 		DrawDebugLine(GetWorld(), start, start + GetActorUpVector() * -2000, FColor::Red);
 		GetCharacterMovement()->SetJumpAllowed(true);
 		isClimbing = false;

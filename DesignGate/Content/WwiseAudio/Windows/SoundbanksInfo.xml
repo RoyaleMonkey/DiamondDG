@@ -44,7 +44,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3551915376">
+		<SoundBank Id="393239870" Language="SFX" Hash="1895225174">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -187,6 +187,10 @@
 							<ShortName>SFX_GPE_Stele_Butterfly_C3.wav</ShortName>
 							<Path>SFX\SFX_GPE_Stele_Butterfly_C3_D8C07C79.wem</Path>
 						</File>
+						<File Id="946095398" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_C4.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem</Path>
+						</File>
 						<File Id="986239945" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_C3.wav</ShortName>
 							<Path>SFX\SFX_GPE_Stele_Stone_C3_D8C07C79.wem</Path>
@@ -199,6 +203,10 @@
 						<File Id="261695194" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
 							<Path>SFX\SFX_GPE_Stele_Stone_D3_D8C07C79.wem</Path>
+						</File>
+						<File Id="524979824" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_D4.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_D4_D8C07C79.wem</Path>
 						</File>
 						<File Id="726963180" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_D3.wav</ShortName>
@@ -216,6 +224,10 @@
 						<File Id="314847094" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_DS3.wav</ShortName>
 							<Path>SFX\SFX_GPE_Stele_Stone_DS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="647760645" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -237,6 +249,10 @@
 						<File Id="861623187" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_C4.wav</ShortName>
 							<Path>SFX\SFX_GPE_Stele_Butterfly_C4_D8C07C79.wem</Path>
+						</File>
+						<File Id="946095398" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_C4.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -282,13 +298,17 @@
 					<ShortName>SFX_GPE_PlantPlatorm_Open_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_G_D8C07C79.wem</Path>
 				</File>
-				<File Id="55761035" Language="SFX">
-					<ShortName>SFX_GPE_Stele_Butterfly_G4.wav</ShortName>
-					<Path>SFX\SFX_GPE_Stele_Butterfly_G4_D8C07C79.wem</Path>
-				</File>
 				<File Id="64635819" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_C4_D8C07C79.wem</Path>
+				</File>
+				<File Id="66082767" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_DS3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_DS3_D8C07C79.wem</Path>
+				</File>
+				<File Id="75417464" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_C3_D8C07C79.wem</Path>
 				</File>
 				<File Id="85145748" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS4.wav</ShortName>
@@ -302,10 +322,6 @@
 					<ShortName>SFX_GPE_PlantPlatorm_Open_FS.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_FS_D8C07C79.wem</Path>
 				</File>
-				<File Id="120988872" Language="SFX">
-					<ShortName>SFX_GPE_Stele_Butterfly_G1.wav</ShortName>
-					<Path>SFX\SFX_GPE_Stele_Butterfly_G1_D8C07C79.wem</Path>
-				</File>
 				<File Id="129156702" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_5.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_5_D8C07C79.wem</Path>
@@ -318,10 +334,6 @@
 					<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_G2_D8C07C79.wem</Path>
 				</File>
-				<File Id="169888562" Language="SFX">
-					<ShortName>SFX_GPE_Stele_Butterfly_AS4.wav</ShortName>
-					<Path>SFX\SFX_GPE_Stele_Butterfly_AS4_D8C07C79.wem</Path>
-				</File>
 				<File Id="175890529" Language="SFX">
 					<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_Start_1_D8C07C79.wem</Path>
@@ -333,10 +345,6 @@
 				<File Id="183618480" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_A2_D8C07C79.wem</Path>
-				</File>
-				<File Id="194928763" Language="SFX">
-					<ShortName>SFX_GPE_Stele_Butterfly_A4.wav</ShortName>
-					<Path>SFX\SFX_GPE_Stele_Butterfly_A4_D8C07C79.wem</Path>
 				</File>
 				<File Id="197037388" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
@@ -418,9 +426,17 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem</Path>
 				</File>
+				<File Id="429210741" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_AS3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_AS3_D8C07C79.wem</Path>
+				</File>
 				<File Id="443084533" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_F3_D8C07C79.wem</Path>
+				</File>
+				<File Id="460369264" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_A3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_A3_D8C07C79.wem</Path>
 				</File>
 				<File Id="467225163" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C2.wav</ShortName>
@@ -450,6 +466,10 @@
 					<ShortName>SFX_GPE_PlantPlatorm_Open_DS.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_DS_D8C07C79.wem</Path>
 				</File>
+				<File Id="524979824" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_D4.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_D4_D8C07C79.wem</Path>
+				</File>
 				<File Id="555465848" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
@@ -470,9 +490,9 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
 				</File>
-				<File Id="619582417" Language="SFX">
-					<ShortName>SFX_GPE_Stele_Butterfly_D1.wav</ShortName>
-					<Path>SFX\SFX_GPE_Stele_Butterfly_D1_D8C07C79.wem</Path>
+				<File Id="647760645" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem</Path>
 				</File>
 				<File Id="659122690" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C3.wav</ShortName>
@@ -506,6 +526,10 @@
 					<ShortName>SFX_GPE_Stele_Stone_AS1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_AS1_D8C07C79.wem</Path>
 				</File>
+				<File Id="759739255" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem</Path>
+				</File>
 				<File Id="766045658" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_AS3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_AS3_D8C07C79.wem</Path>
@@ -538,25 +562,29 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_C4_D8C07C79.wem</Path>
 				</File>
+				<File Id="863315087" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_D3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem</Path>
+				</File>
+				<File Id="863479261" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_F3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem</Path>
+				</File>
 				<File Id="889358637" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A2_D8C07C79.wem</Path>
-				</File>
-				<File Id="891740897" Language="SFX">
-					<ShortName>SFX_GPE_Stele_Butterfly_C1.wav</ShortName>
-					<Path>SFX\SFX_GPE_Stele_Butterfly_C1_D8C07C79.wem</Path>
 				</File>
 				<File Id="941605390" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_C2_D8C07C79.wem</Path>
 				</File>
+				<File Id="946095398" Language="SFX">
+					<ShortName>SFX_GPE_Butterfly_Layer_C4.wav</ShortName>
+					<Path>SFX\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem</Path>
+				</File>
 				<File Id="986239945" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_C3_D8C07C79.wem</Path>
-				</File>
-				<File Id="990050838" Language="SFX">
-					<ShortName>SFX_GPE_Stele_Butterfly_F1.wav</ShortName>
-					<Path>SFX\SFX_GPE_Stele_Butterfly_F1_D8C07C79.wem</Path>
 				</File>
 				<File Id="1014667078" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A3.wav</ShortName>

@@ -67,7 +67,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3551915376",
+    "Hash": "2241800212",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -298,13 +298,19 @@
       "Id": "944437210",
       "Name": "Play_SFX_GPE_Stele_C3_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_C3_Start",
-      "MaxAttenuation": "11000.000000",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "659122690",
         "Language": "SFX",
         "ShortName": "SFX_GPE_Stele_Butterfly_C3.wav",
         "Path": "SFX\\SFX_GPE_Stele_Butterfly_C3_D8C07C79.wem"
+       },
+       {
+        "Id": "946095398",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Butterfly_Layer_C4.wav",
+        "Path": "SFX\\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem"
        },
        {
         "Id": "986239945",
@@ -324,13 +330,19 @@
       "Id": "1488972579",
       "Name": "Play_SFX_GPE_Stele_D3_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_D3_Start",
-      "MaxAttenuation": "11000.000000",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "261695194",
         "Language": "SFX",
         "ShortName": "SFX_GPE_Stele_Stone_D3.wav",
         "Path": "SFX\\SFX_GPE_Stele_Stone_D3_D8C07C79.wem"
+       },
+       {
+        "Id": "524979824",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Butterfly_Layer_D4.wav",
+        "Path": "SFX\\SFX_GPE_Butterfly_Layer_D4_D8C07C79.wem"
        },
        {
         "Id": "726963180",
@@ -350,7 +362,7 @@
       "Id": "2751041316",
       "Name": "Play_SFX_GPE_Stele_DS3_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_DS3_Start",
-      "MaxAttenuation": "11000.000000",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "24149264",
@@ -363,6 +375,12 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Stele_Stone_DS3.wav",
         "Path": "SFX\\SFX_GPE_Stele_Stone_DS3_D8C07C79.wem"
+       },
+       {
+        "Id": "647760645",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Butterfly_Layer_DS4.wav",
+        "Path": "SFX\\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem"
        }
       ]
      },
@@ -376,7 +394,7 @@
       "Id": "2406314802",
       "Name": "Play_SFX_GPE_Stele_G3_C4_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_G3_C4_Start",
-      "MaxAttenuation": "11000.000000",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "64635819",
@@ -401,6 +419,12 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Stele_Butterfly_C4.wav",
         "Path": "SFX\\SFX_GPE_Stele_Butterfly_C4_D8C07C79.wem"
+       },
+       {
+        "Id": "946095398",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Butterfly_Layer_C4.wav",
+        "Path": "SFX\\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem"
        }
       ]
      },
@@ -437,6 +461,517 @@
       ]
      },
      {
+      "Id": "2012244440",
+      "Name": "Play_SFX_GPE_ToyPlant_A",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_A",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "19968261",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A2_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A2_01_D8C07C79.wem"
+       },
+       {
+        "Id": "93449857",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_02_D8C07C79.wem"
+       },
+       {
+        "Id": "106982745",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem"
+       },
+       {
+        "Id": "233991831",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_03_D8C07C79.wem"
+       },
+       {
+        "Id": "270100597",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_A2.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_A2_D8C07C79.wem"
+       },
+       {
+        "Id": "402286783",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A3_02_D8C07C79.wem"
+       },
+       {
+        "Id": "570281229",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_01_D8C07C79.wem"
+       },
+       {
+        "Id": "584397358",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A2_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A2_03_D8C07C79.wem"
+       },
+       {
+        "Id": "615154265",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_A1.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_A1_D8C07C79.wem"
+       },
+       {
+        "Id": "693458742",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A2_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A2_02_D8C07C79.wem"
+       },
+       {
+        "Id": "947279076",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A3_01_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2809569147",
+      "Name": "Play_SFX_GPE_ToyPlant_AS",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_AS",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "36604641",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS3_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS3_01_D8C07C79.wem"
+       },
+       {
+        "Id": "110874952",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS2_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS2_03_D8C07C79.wem"
+       },
+       {
+        "Id": "192162486",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS2_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem"
+       },
+       {
+        "Id": "470056985",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS1_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_02_D8C07C79.wem"
+       },
+       {
+        "Id": "514383079",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_AS1.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_AS1_D8C07C79.wem"
+       },
+       {
+        "Id": "600199274",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS1_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_03_D8C07C79.wem"
+       },
+       {
+        "Id": "758764640",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS2_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS2_01_D8C07C79.wem"
+       },
+       {
+        "Id": "900318669",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS3_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS3_03_D8C07C79.wem"
+       },
+       {
+        "Id": "985908898",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS3_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS3_02_D8C07C79.wem"
+       },
+       {
+        "Id": "1011144336",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_AS2.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_AS2_D8C07C79.wem"
+       },
+       {
+        "Id": "1070609207",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_AS1_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_01_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2012244442",
+      "Name": "Play_SFX_GPE_ToyPlant_C",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_C",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "309400106",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_C2.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_C2_D8C07C79.wem"
+       },
+       {
+        "Id": "483306855",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C1_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C1_01_D8C07C79.wem"
+       },
+       {
+        "Id": "553186713",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C2_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C2_03_D8C07C79.wem"
+       },
+       {
+        "Id": "655731917",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_C1.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_C1_D8C07C79.wem"
+       },
+       {
+        "Id": "661246042",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem"
+       },
+       {
+        "Id": "691316587",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C1_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C1_02_D8C07C79.wem"
+       },
+       {
+        "Id": "800108783",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_02_D8C07C79.wem"
+       },
+       {
+        "Id": "828882002",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_01_D8C07C79.wem"
+       },
+       {
+        "Id": "850915155",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C1_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C1_03_D8C07C79.wem"
+       },
+       {
+        "Id": "990181979",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C2_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem"
+       },
+       {
+        "Id": "999835100",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_C2_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C2_01_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2012244445",
+      "Name": "Play_SFX_GPE_ToyPlant_D",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_D",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30374229",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D1_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D1_02_D8C07C79.wem"
+       },
+       {
+        "Id": "148533558",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D3_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D3_01_D8C07C79.wem"
+       },
+       {
+        "Id": "259028868",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D1_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D1_03_D8C07C79.wem"
+       },
+       {
+        "Id": "518900440",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D1_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D1_01_D8C07C79.wem"
+       },
+       {
+        "Id": "680490105",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D3_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D3_02_D8C07C79.wem"
+       },
+       {
+        "Id": "798217334",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D2_01_D8C07C79.wem"
+       },
+       {
+        "Id": "955535201",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D2_02_D8C07C79.wem"
+       },
+       {
+        "Id": "957458129",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D3_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D3_03_D8C07C79.wem"
+       },
+       {
+        "Id": "981826346",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D2_03_D8C07C79.wem"
+       },
+       {
+        "Id": "1013658289",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_D2.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_D2_D8C07C79.wem"
+       },
+       {
+        "Id": "1040005805",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_D1.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_D1_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2893457044",
+      "Name": "Play_SFX_GPE_ToyPlant_DS",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_DS",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "79435795",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_01_D8C07C79.wem"
+       },
+       {
+        "Id": "139256099",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_DS1.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_DS1_D8C07C79.wem"
+       },
+       {
+        "Id": "188363552",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_DS2.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem"
+       },
+       {
+        "Id": "239111183",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_03_D8C07C79.wem"
+       },
+       {
+        "Id": "295003249",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_02_D8C07C79.wem"
+       },
+       {
+        "Id": "356452749",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS2_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_02_D8C07C79.wem"
+       },
+       {
+        "Id": "395040096",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem"
+       },
+       {
+        "Id": "535226205",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_03_D8C07C79.wem"
+       },
+       {
+        "Id": "601019325",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS2_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_03_D8C07C79.wem"
+       },
+       {
+        "Id": "949988494",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem"
+       },
+       {
+        "Id": "1014862457",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_DS2_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_01_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2012244447",
+      "Name": "Play_SFX_GPE_ToyPlant_F",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_F",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "4604180",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_01_D8C07C79.wem"
+       },
+       {
+        "Id": "98890993",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_F2.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem"
+       },
+       {
+        "Id": "243623444",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F2_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F2_02_D8C07C79.wem"
+       },
+       {
+        "Id": "244125585",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_03_D8C07C79.wem"
+       },
+       {
+        "Id": "291539374",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F2_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F2_03_D8C07C79.wem"
+       },
+       {
+        "Id": "353254387",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F2_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F2_01_D8C07C79.wem"
+       },
+       {
+        "Id": "678544366",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_F1.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_F1_D8C07C79.wem"
+       },
+       {
+        "Id": "724302095",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem"
+       },
+       {
+        "Id": "749644177",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F1_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_02_D8C07C79.wem"
+       },
+       {
+        "Id": "784161327",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F1_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_03_D8C07C79.wem"
+       },
+       {
+        "Id": "1054465173",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_F1_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2012244446",
+      "Name": "Play_SFX_GPE_ToyPlant_G",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_G",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "50436246",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G1_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G1_03_D8C07C79.wem"
+       },
+       {
+        "Id": "201527366",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G2_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_02_D8C07C79.wem"
+       },
+       {
+        "Id": "213777383",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G3_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G3_01_D8C07C79.wem"
+       },
+       {
+        "Id": "318329739",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G1_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G1_02_D8C07C79.wem"
+       },
+       {
+        "Id": "594698355",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G2_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_01_D8C07C79.wem"
+       },
+       {
+        "Id": "617217899",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_G2.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_G2_D8C07C79.wem"
+       },
+       {
+        "Id": "696749574",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G1_01.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G1_01_D8C07C79.wem"
+       },
+       {
+        "Id": "712658994",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G3_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G3_03_D8C07C79.wem"
+       },
+       {
+        "Id": "884640607",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G3_02.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G3_02_D8C07C79.wem"
+       },
+       {
+        "Id": "902484395",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Chimes_G1.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem"
+       },
+       {
+        "Id": "1016339075",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_ToyPlant_Whisper_G2_03.wav",
+        "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem"
+       }
+      ]
+     },
+     {
       "Id": "437964639",
       "Name": "Stop_SFX_GPE_Telekinesie",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\Stop_SFX_GPE_Telekinesie",
@@ -452,10 +987,22 @@
     ],
     "IncludedMemoryFiles": [
      {
+      "Id": "4604180",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_01_D8C07C79.wem"
+     },
+     {
       "Id": "5846075",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Bumper_2.wav",
       "Path": "SFX\\SFX_GPE_Bumper_2_D8C07C79.wem"
+     },
+     {
+      "Id": "19968261",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A2_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A2_01_D8C07C79.wem"
      },
      {
       "Id": "24149264",
@@ -464,16 +1011,28 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_DS3_D8C07C79.wem"
      },
      {
+      "Id": "30374229",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D1_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D1_02_D8C07C79.wem"
+     },
+     {
+      "Id": "36604641",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS3_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS3_01_D8C07C79.wem"
+     },
+     {
       "Id": "45807246",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_G.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_G_D8C07C79.wem"
      },
      {
-      "Id": "55761035",
+      "Id": "50436246",
       "Language": "SFX",
-      "ShortName": "SFX_GPE_Stele_Butterfly_G4.wav",
-      "Path": "SFX\\SFX_GPE_Stele_Butterfly_G4_D8C07C79.wem"
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G1_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G1_03_D8C07C79.wem"
      },
      {
       "Id": "64635819",
@@ -482,10 +1041,46 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_C4_D8C07C79.wem"
      },
      {
+      "Id": "66082767",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_DS3.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_DS3_D8C07C79.wem"
+     },
+     {
+      "Id": "75417464",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_C3.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_C3_D8C07C79.wem"
+     },
+     {
+      "Id": "79435795",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_01_D8C07C79.wem"
+     },
+     {
       "Id": "85145748",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_DS4.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_DS4_D8C07C79.wem"
+     },
+     {
+      "Id": "93449857",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_02_D8C07C79.wem"
+     },
+     {
+      "Id": "98890993",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_F2.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem"
+     },
+     {
+      "Id": "106982745",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem"
      },
      {
       "Id": "109901540",
@@ -494,16 +1089,16 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_D2_D8C07C79.wem"
      },
      {
+      "Id": "110874952",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS2_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS2_03_D8C07C79.wem"
+     },
+     {
       "Id": "117693384",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_FS.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_FS_D8C07C79.wem"
-     },
-     {
-      "Id": "120988872",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Stele_Butterfly_G1.wav",
-      "Path": "SFX\\SFX_GPE_Stele_Butterfly_G1_D8C07C79.wem"
      },
      {
       "Id": "129156702",
@@ -524,10 +1119,16 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_G2_D8C07C79.wem"
      },
      {
-      "Id": "169888562",
+      "Id": "139256099",
       "Language": "SFX",
-      "ShortName": "SFX_GPE_Stele_Butterfly_AS4.wav",
-      "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS4_D8C07C79.wem"
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_DS1.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_DS1_D8C07C79.wem"
+     },
+     {
+      "Id": "148533558",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D3_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D3_01_D8C07C79.wem"
      },
      {
       "Id": "175890529",
@@ -548,16 +1149,28 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_A2_D8C07C79.wem"
      },
      {
-      "Id": "194928763",
+      "Id": "188363552",
       "Language": "SFX",
-      "ShortName": "SFX_GPE_Stele_Butterfly_A4.wav",
-      "Path": "SFX\\SFX_GPE_Stele_Butterfly_A4_D8C07C79.wem"
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_DS2.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem"
+     },
+     {
+      "Id": "192162486",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS2_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem"
      },
      {
       "Id": "197037388",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_AS2.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem"
+     },
+     {
+      "Id": "201527366",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G2_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_02_D8C07C79.wem"
      },
      {
       "Id": "204923600",
@@ -572,10 +1185,28 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_DS4_D8C07C79.wem"
      },
      {
+      "Id": "213777383",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G3_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G3_01_D8C07C79.wem"
+     },
+     {
       "Id": "224544293",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_AS4.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_AS4_D8C07C79.wem"
+     },
+     {
+      "Id": "233991831",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_03_D8C07C79.wem"
+     },
+     {
+      "Id": "239111183",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_03_D8C07C79.wem"
      },
      {
       "Id": "239712345",
@@ -584,10 +1215,34 @@
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem"
      },
      {
+      "Id": "243623444",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F2_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "244125585",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_03_D8C07C79.wem"
+     },
+     {
+      "Id": "259028868",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D1_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D1_03_D8C07C79.wem"
+     },
+     {
       "Id": "261695194",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_D3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_D3_D8C07C79.wem"
+     },
+     {
+      "Id": "270100597",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_A2.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_A2_D8C07C79.wem"
      },
      {
       "Id": "279707459",
@@ -602,10 +1257,34 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_G3_D8C07C79.wem"
      },
      {
+      "Id": "291539374",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F2_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F2_03_D8C07C79.wem"
+     },
+     {
+      "Id": "295003249",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_02_D8C07C79.wem"
+     },
+     {
+      "Id": "309400106",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_C2.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_C2_D8C07C79.wem"
+     },
+     {
       "Id": "314847094",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_DS3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_DS3_D8C07C79.wem"
+     },
+     {
+      "Id": "318329739",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G1_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G1_02_D8C07C79.wem"
      },
      {
       "Id": "331774444",
@@ -638,6 +1317,18 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_F4_D8C07C79.wem"
      },
      {
+      "Id": "353254387",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F2_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F2_01_D8C07C79.wem"
+     },
+     {
+      "Id": "356452749",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS2_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_02_D8C07C79.wem"
+     },
+     {
       "Id": "374437879",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_5.wav",
@@ -662,6 +1353,18 @@
       "Path": "SFX\\SFX_Telekinesie_lp_D8C07C79.wem"
      },
      {
+      "Id": "395040096",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem"
+     },
+     {
+      "Id": "402286783",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A3_02_D8C07C79.wem"
+     },
+     {
       "Id": "402602504",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_AS2.wav",
@@ -674,10 +1377,22 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem"
      },
      {
+      "Id": "429210741",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_AS3.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_AS3_D8C07C79.wem"
+     },
+     {
       "Id": "443084533",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_F3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_F3_D8C07C79.wem"
+     },
+     {
+      "Id": "460369264",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_A3.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_A3_D8C07C79.wem"
      },
      {
       "Id": "467225163",
@@ -692,10 +1407,22 @@
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_D_D8C07C79.wem"
      },
      {
+      "Id": "470056985",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS1_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_02_D8C07C79.wem"
+     },
+     {
       "Id": "478743489",
       "Language": "SFX",
       "ShortName": "SFX_Telekinesie_End_1.wav",
       "Path": "SFX\\SFX_Telekinesie_End_1_D8C07C79.wem"
+     },
+     {
+      "Id": "483306855",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C1_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C1_01_D8C07C79.wem"
      },
      {
       "Id": "486250280",
@@ -722,10 +1449,46 @@
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_DS_D8C07C79.wem"
      },
      {
+      "Id": "514383079",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_AS1.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_AS1_D8C07C79.wem"
+     },
+     {
+      "Id": "518900440",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D1_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D1_01_D8C07C79.wem"
+     },
+     {
+      "Id": "524979824",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_D4.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_D4_D8C07C79.wem"
+     },
+     {
+      "Id": "535226205",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_03_D8C07C79.wem"
+     },
+     {
+      "Id": "553186713",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C2_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C2_03_D8C07C79.wem"
+     },
+     {
       "Id": "555465848",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Bumper_1.wav",
       "Path": "SFX\\SFX_GPE_Bumper_1_D8C07C79.wem"
+     },
+     {
+      "Id": "570281229",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_01_D8C07C79.wem"
      },
      {
       "Id": "570530222",
@@ -740,10 +1503,34 @@
       "Path": "SFX\\SFX_GPE_Bumper_3_D8C07C79.wem"
      },
      {
+      "Id": "584397358",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A2_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A2_03_D8C07C79.wem"
+     },
+     {
+      "Id": "594698355",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G2_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_01_D8C07C79.wem"
+     },
+     {
       "Id": "599936942",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_F.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_F_D8C07C79.wem"
+     },
+     {
+      "Id": "600199274",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS1_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_03_D8C07C79.wem"
+     },
+     {
+      "Id": "601019325",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS2_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_03_D8C07C79.wem"
      },
      {
       "Id": "610677375",
@@ -752,16 +1539,52 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem"
      },
      {
-      "Id": "619582417",
+      "Id": "615154265",
       "Language": "SFX",
-      "ShortName": "SFX_GPE_Stele_Butterfly_D1.wav",
-      "Path": "SFX\\SFX_GPE_Stele_Butterfly_D1_D8C07C79.wem"
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_A1.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_A1_D8C07C79.wem"
+     },
+     {
+      "Id": "617217899",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_G2.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_G2_D8C07C79.wem"
+     },
+     {
+      "Id": "647760645",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_DS4.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem"
+     },
+     {
+      "Id": "655731917",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_C1.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_C1_D8C07C79.wem"
      },
      {
       "Id": "659122690",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_C3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_C3_D8C07C79.wem"
+     },
+     {
+      "Id": "661246042",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem"
+     },
+     {
+      "Id": "678544366",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_F1.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_F1_D8C07C79.wem"
+     },
+     {
+      "Id": "680490105",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D3_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D3_02_D8C07C79.wem"
      },
      {
       "Id": "687940808",
@@ -776,16 +1599,46 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_G1_D8C07C79.wem"
      },
      {
+      "Id": "691316587",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C1_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C1_02_D8C07C79.wem"
+     },
+     {
       "Id": "693050746",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_A3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_A3_D8C07C79.wem"
      },
      {
+      "Id": "693458742",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A2_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "696749574",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G1_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G1_01_D8C07C79.wem"
+     },
+     {
+      "Id": "712658994",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G3_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G3_03_D8C07C79.wem"
+     },
+     {
       "Id": "713070006",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_C.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_C_D8C07C79.wem"
+     },
+     {
+      "Id": "724302095",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem"
      },
      {
       "Id": "724915893",
@@ -800,10 +1653,28 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_D3_D8C07C79.wem"
      },
      {
+      "Id": "749644177",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F1_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_02_D8C07C79.wem"
+     },
+     {
       "Id": "752171227",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_AS1.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_AS1_D8C07C79.wem"
+     },
+     {
+      "Id": "758764640",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS2_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS2_01_D8C07C79.wem"
+     },
+     {
+      "Id": "759739255",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_G3.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem"
      },
      {
       "Id": "766045658",
@@ -818,6 +1689,24 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_A1_D8C07C79.wem"
      },
      {
+      "Id": "784161327",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F1_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_03_D8C07C79.wem"
+     },
+     {
+      "Id": "798217334",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D2_01_D8C07C79.wem"
+     },
+     {
+      "Id": "800108783",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_02_D8C07C79.wem"
+     },
+     {
       "Id": "808406191",
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav",
@@ -828,6 +1717,18 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_F4.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_F4_D8C07C79.wem"
+     },
+     {
+      "Id": "828882002",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_01_D8C07C79.wem"
+     },
+     {
+      "Id": "850915155",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C1_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C1_03_D8C07C79.wem"
      },
      {
       "Id": "854186318",
@@ -854,16 +1755,40 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_C4_D8C07C79.wem"
      },
      {
+      "Id": "863315087",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_D3.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem"
+     },
+     {
+      "Id": "863479261",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_F3.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem"
+     },
+     {
+      "Id": "884640607",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G3_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G3_02_D8C07C79.wem"
+     },
+     {
       "Id": "889358637",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_A2.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_A2_D8C07C79.wem"
      },
      {
-      "Id": "891740897",
+      "Id": "900318669",
       "Language": "SFX",
-      "ShortName": "SFX_GPE_Stele_Butterfly_C1.wav",
-      "Path": "SFX\\SFX_GPE_Stele_Butterfly_C1_D8C07C79.wem"
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS3_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS3_03_D8C07C79.wem"
+     },
+     {
+      "Id": "902484395",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_G1.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem"
      },
      {
       "Id": "941605390",
@@ -872,22 +1797,94 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_C2_D8C07C79.wem"
      },
      {
+      "Id": "946095398",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Butterfly_Layer_C4.wav",
+      "Path": "SFX\\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem"
+     },
+     {
+      "Id": "947279076",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A3_01_D8C07C79.wem"
+     },
+     {
+      "Id": "949988494",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem"
+     },
+     {
+      "Id": "955535201",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "957458129",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D3_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D3_03_D8C07C79.wem"
+     },
+     {
+      "Id": "981826346",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D2_03_D8C07C79.wem"
+     },
+     {
+      "Id": "985908898",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS3_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS3_02_D8C07C79.wem"
+     },
+     {
       "Id": "986239945",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_C3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_C3_D8C07C79.wem"
      },
      {
-      "Id": "990050838",
+      "Id": "990181979",
       "Language": "SFX",
-      "ShortName": "SFX_GPE_Stele_Butterfly_F1.wav",
-      "Path": "SFX\\SFX_GPE_Stele_Butterfly_F1_D8C07C79.wem"
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C2_02.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "999835100",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_C2_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C2_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1011144336",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_AS2.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_AS2_D8C07C79.wem"
+     },
+     {
+      "Id": "1013658289",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_D2.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_D2_D8C07C79.wem"
      },
      {
       "Id": "1014667078",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_A3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_A3_D8C07C79.wem"
+     },
+     {
+      "Id": "1014862457",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_DS2_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1016339075",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_G2_03.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem"
      },
      {
       "Id": "1029296119",
@@ -908,10 +1905,28 @@
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_A_D8C07C79.wem"
      },
      {
+      "Id": "1040005805",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Chimes_D1.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_D1_D8C07C79.wem"
+     },
+     {
+      "Id": "1054465173",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_F1_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem"
+     },
+     {
       "Id": "1063009932",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_A4.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_A4_D8C07C79.wem"
+     },
+     {
+      "Id": "1070609207",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_ToyPlant_Whisper_AS1_01.wav",
+      "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_01_D8C07C79.wem"
      }
     ]
    },

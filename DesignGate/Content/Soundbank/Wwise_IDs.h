@@ -37,7 +37,6 @@ namespace AK
         static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
-        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_SFX_GPE_BUMPER = 1429665634U;
         static const AkUniqueID PLAY_SFX_GPE_PLANTPLATFORM_IDLE_OPEN_LP = 682814542U;
         static const AkUniqueID PLAY_SFX_GPE_PLANTPLATORM_CLOSE = 1681387998U;
@@ -59,6 +58,13 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_STELE_G3_C4_START = 2406314802U;
         static const AkUniqueID PLAY_SFX_GPE_TELEKINESIE = 450895549U;
         static const AkUniqueID PLAY_SFX_GPE_TELEKINESIE_FINISH = 3636920717U;
+        static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_A = 2012244440U;
+        static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_AS = 2809569147U;
+        static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_C = 2012244442U;
+        static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_D = 2012244445U;
+        static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_DS = 2893457044U;
+        static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_F = 2012244447U;
+        static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_G = 2012244446U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_SFX_GPE_TELEKINESIE = 437964639U;
     } // namespace EVENTS

@@ -177,12 +177,12 @@
 							<ChildrenList>
 								<ActorMixer Name="SFX_GPE_Stele_Butterfly" ID="{9AF5A353-EA89-4281-8A05-1406579930C5}" ShortID="830483480">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="GPE_Stele_Butterfly_ATT" ID="{94C683F9-7D53-46D8-B1FA-7AE837DF6C52}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+											<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -258,28 +258,6 @@
 												<ActiveSource Name="SFX_GPE_Stele_Butterfly_A3" ID="{18DBD77B-70CA-4E71-BFF3-B13E6F2BC332}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_Stele_Butterfly_A4" ID="{51411659-14B9-4514-8BA5-F00AD3742826}" ShortID="61329124">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_A4" ID="{D92BE75E-B452-4839-8A87-79CC6F9A9134}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Stele_Butterfly_A4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="194928763"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Stele_Butterfly_A4" ID="{D92BE75E-B452-4839-8A87-79CC6F9A9134}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="SFX_GPE_Stele_Butterfly_AS1" ID="{904AD497-F8F3-4997-856E-90EB4D07F661}" ShortID="461498158">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -346,50 +324,6 @@
 												<ActiveSource Name="SFX_GPE_Stele_Butterfly_AS3" ID="{774BD6DD-6864-433A-B10F-08A0FAEED272}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_Stele_Butterfly_AS4" ID="{F952653B-08A6-4790-891C-0FD5CC195C33}" ShortID="146768504">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_AS4" ID="{D576644C-8AB6-4FC3-8441-80338FBF5C82}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Stele_Butterfly_AS4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="169888562"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Stele_Butterfly_AS4" ID="{D576644C-8AB6-4FC3-8441-80338FBF5C82}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Stele_Butterfly_C1" ID="{97681C94-A2BD-4ACC-83DD-106A84EC1849}" ShortID="937734993">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_C1" ID="{2DC13031-C8B2-4A57-A3C9-637900F04431}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Stele_Butterfly_C1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="891740897"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Stele_Butterfly_C1" ID="{2DC13031-C8B2-4A57-A3C9-637900F04431}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="SFX_GPE_Stele_Butterfly_C2" ID="{5AFD0342-F001-49D1-85FD-7DB00B55A4D0}" ShortID="143734177">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -454,28 +388,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_GPE_Stele_Butterfly_C4" ID="{D2A28EAA-26CA-418F-A7A6-9108B954A1AB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Stele_Butterfly_D1" ID="{FB91B0B1-F9B2-4738-A45F-173440A8F27E}" ShortID="907891221">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_D1" ID="{BF574014-5D56-45D0-BE1E-1AC2EC8BCD40}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Stele_Butterfly_D1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="619582417"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Stele_Butterfly_D1" ID="{BF574014-5D56-45D0-BE1E-1AC2EC8BCD40}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_GPE_Stele_Butterfly_D2" ID="{0B959883-BC8B-4105-8FA1-5B6F4E05E193}" ShortID="824061099">
@@ -632,28 +544,6 @@
 												<ActiveSource Name="SFX_GPE_Stele_Butterfly_DS4" ID="{DAEBB7BC-BAEE-4793-AFB2-0FE860FF5974}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_Stele_Butterfly_F1" ID="{8B8D94D9-CD51-429F-9992-1438ACE58D31}" ShortID="917557505">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_F1" ID="{68D3CFDF-9517-48E9-9E0C-85273B40E477}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Stele_Butterfly_F1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="990050838"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Stele_Butterfly_F1" ID="{68D3CFDF-9517-48E9-9E0C-85273B40E477}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="SFX_GPE_Stele_Butterfly_F2" ID="{E3D9190E-7046-4DF3-9224-60E63A3F9781}" ShortID="469635065">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -720,28 +610,6 @@
 												<ActiveSource Name="SFX_GPE_Stele_Butterfly_F4" ID="{7D88D9F6-3325-4532-B8F7-996DC72EFD00}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_Stele_Butterfly_G1" ID="{EA4DA7D1-3BAE-4E44-8476-7A3F843E3490}" ShortID="568505734">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_G1" ID="{606F9465-F54A-4340-8B48-43F5D52A9E72}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Stele_Butterfly_G1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="120988872"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Stele_Butterfly_G1" ID="{606F9465-F54A-4340-8B48-43F5D52A9E72}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="SFX_GPE_Stele_Butterfly_G2" ID="{F0887523-A8A5-49CF-B695-9DFD07A1D09D}" ShortID="891336141">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -786,33 +654,305 @@
 												<ActiveSource Name="SFX_GPE_Stele_Butterfly_G3" ID="{FB7FEF99-A339-4FED-9981-DD513CA153C4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_Stele_Butterfly_G4" ID="{5D584787-9CD7-4E71-A142-01EF50882D5E}" ShortID="147487064">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
+										<Folder Name="SFX_GPE_Butterfly_Layer" ID="{41039EBC-E3E1-4045-839C-EE33849C2C20}" ShortID="12305977">
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Stele_Butterfly_G4" ID="{823DDA86-B0C7-4C68-A4F8-4FD9D4B7F2ED}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Stele_Butterfly_G4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="55761035"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_A3" ID="{E8D36F78-FF59-4713-86BB-D1B1E0B2D5D6}" ShortID="275581141">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_A3" ID="{76FA1D38-00CF-4903-8CCB-D9D4851AA6C0}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_A3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="460369264"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_A3" ID="{76FA1D38-00CF-4903-8CCB-D9D4851AA6C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_AS3" ID="{CD10076C-E57F-4062-9F6A-8F7CF5E8F2F4}" ShortID="442146707">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_AS3" ID="{6843229E-450F-42B5-AAD6-09E43F012441}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_AS3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="429210741"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_AS3" ID="{6843229E-450F-42B5-AAD6-09E43F012441}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_C3" ID="{738D2BD2-21CE-4C25-8B6A-257EDEA6935F}" ShortID="14108926">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_C3" ID="{36B65C61-381F-44A9-A5DA-033EC3080D3C}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_C3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="75417464"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_C3" ID="{36B65C61-381F-44A9-A5DA-033EC3080D3C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_C4" ID="{910CB61F-FC60-4B06-B945-FCE9BA5DF771}" ShortID="428200968">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_C4" ID="{4917B9C0-11C6-4EBC-BE6E-F35A75B4BE26}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_C4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="946095398"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_C4" ID="{4917B9C0-11C6-4EBC-BE6E-F35A75B4BE26}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_D3" ID="{C78DD7F9-5891-4925-8E65-8B16CBF6F5F3}" ShortID="40685203">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_D3" ID="{CF359A7B-E3D8-4693-BF25-84CA26D56014}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_D3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="863315087"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_D3" ID="{CF359A7B-E3D8-4693-BF25-84CA26D56014}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_D4" ID="{A063D129-CBF0-4723-9C15-AEFF510A804A}" ShortID="131035030">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_D4" ID="{1186E76B-6D6D-477E-A022-E81C1E7C7846}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_D4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="524979824"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_D4" ID="{1186E76B-6D6D-477E-A022-E81C1E7C7846}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_DS3" ID="{22C4D0BD-0B65-4F56-8AB7-F6083D7AA050}" ShortID="309857798">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_DS3" ID="{77B9583B-BE62-4755-946F-C3C6EA3B595F}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_DS3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="66082767"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_DS3" ID="{77B9583B-BE62-4755-946F-C3C6EA3B595F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_DS4" ID="{244553BD-02FD-48A4-A08D-FF867596D280}" ShortID="455348871">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_DS4" ID="{08F6E219-248C-4878-B178-D4C9884AC7E4}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_DS4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="647760645"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_DS4" ID="{08F6E219-248C-4878-B178-D4C9884AC7E4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_F3" ID="{B6814A63-1C43-41B8-B1C7-D8E68D63FED2}" ShortID="67464713">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_F3" ID="{9DF894AF-B85A-4957-B667-DFB0B6C16776}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_F3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="863479261"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_F3" ID="{9DF894AF-B85A-4957-B667-DFB0B6C16776}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Stele_Butterfly_Layer_G3" ID="{E856B96F-70F0-4DB7-9A9D-9CAA8FB0746A}" ShortID="983188756">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Butterfly_Layer_G3" ID="{6ABCFA6B-F7C2-4519-A434-D2861A38FCD5}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Butterfly_Layer_G3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="759739255"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Butterfly_Layer_G3" ID="{6ABCFA6B-F7C2-4519-A434-D2861A38FCD5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Stele_Butterfly_G4" ID="{823DDA86-B0C7-4C68-A4F8-4FD9D4B7F2ED}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</Folder>
 									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="SFX_GPE_Stele_Stone" ID="{4DAA2CA2-347C-4C37-AC13-D3FDF1FC4235}" ShortID="895325207">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2124,6 +2264,2586 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFX_GPE_ToyPlant" ID="{66D78D1B-19AA-4B12-AA7D-7135F39D2C8B}" ShortID="840138290">
+							<ChildrenList>
+								<BlendContainer Name="SFX_GPE_ToyPlant_A" ID="{F304A75D-524E-47B1-85F3-261E3B51E73D}" ShortID="155228395">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Chimes_A" ID="{997260E1-34C4-42AB-9B93-4EC831F4BD76}" ShortID="309042630">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_A1" ID="{7E6BC931-17E4-43C3-905E-F6F118273CF5}" ShortID="366645392">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_A1" ID="{BF1D2CD6-60B2-4863-95CD-C2C7EA2000A7}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_A1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="615154265"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_A1" ID="{BF1D2CD6-60B2-4863-95CD-C2C7EA2000A7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_A2" ID="{F81D683A-9504-4623-9A24-73316E55260B}" ShortID="890005630">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_A2" ID="{AC62DA8B-710B-49D0-9480-C219D90F971E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_A2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="270100597"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_A2" ID="{AC62DA8B-710B-49D0-9480-C219D90F971E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Whisper" ID="{86A3760D-B686-407D-B072-92EF0115D6E4}" ShortID="555622060">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_A1" ID="{1EEC0393-6260-4BB3-AE19-D66A6950307B}" ShortID="78264809">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{17693A21-2B1A-45B1-A011-BC85AFD2B0A1}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_A1_01" ID="{CED4FD53-A666-420E-BAD9-1800A476D81A}" ShortID="1038069244">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A1_01" ID="{5571342F-86C0-498C-B871-0A440FA5B12E}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_A1_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="570281229"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A1_01" ID="{5571342F-86C0-498C-B871-0A440FA5B12E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_A1_02" ID="{3F3B6F02-8CD8-431D-81A7-0F0AAD202697}" ShortID="565936061">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A1_02" ID="{060D5E86-EDCA-4685-AF4A-575693117026}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_A1_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="93449857"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A1_02" ID="{060D5E86-EDCA-4685-AF4A-575693117026}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_A1_03" ID="{C22A9F27-3F7D-4AD9-811C-E9F992041687}" ShortID="472936695">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A1_03" ID="{2B44D53E-9C80-4B9B-B827-EFBB9887F285}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_A1_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="233991831"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A1_03" ID="{2B44D53E-9C80-4B9B-B827-EFBB9887F285}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_A23" ID="{3D4253E6-98FD-4714-ABAD-515DFC1AC85D}" ShortID="62321568">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_A3" ID="{E6AF6A0C-E1AF-45EE-BDD6-BCA8B8670ED8}" ShortID="220349960">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{27A6FD2B-729C-4CA2-9AE6-97ACF9325503}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_A3_01" ID="{FAFBA015-11C5-495D-97B2-B5AFE2B55D2B}" ShortID="76030189">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A3_01" ID="{608C3DC9-71A5-49D9-96F2-B517CD00B16F}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_A3_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="947279076"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A3_01" ID="{608C3DC9-71A5-49D9-96F2-B517CD00B16F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_A3_02" ID="{79A8941D-1949-4752-93F0-554461FDC240}" ShortID="7139253">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A3_02" ID="{615A8793-8CC5-455D-86CA-75F7324E7115}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_A3_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="402286783"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A3_02" ID="{615A8793-8CC5-455D-86CA-75F7324E7115}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_A3_03" ID="{9F66D450-5CDB-4274-9DCA-D3BC2B0E89C5}" ShortID="329389442">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A3_03" ID="{DA8229B0-F37F-4629-8EFB-DB9614DB486D}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_A3_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="106982745"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A3_03" ID="{DA8229B0-F37F-4629-8EFB-DB9614DB486D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_A2" ID="{A31581DC-C74C-471E-A0FB-F482F25B9267}" ShortID="645507464">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{E7DB93C4-708D-4235-9EF1-E7434A5A67E3}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_A2_01" ID="{E31CAA76-ADD1-4402-A7D5-E2B44B2CF3AC}" ShortID="167268929">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A2_01" ID="{D402D253-499B-4313-A455-D341B7992EA0}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_A2_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="19968261"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A2_01" ID="{D402D253-499B-4313-A455-D341B7992EA0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_A2_02" ID="{926457F2-16B9-43BC-BC6D-9DB8827BD471}" ShortID="205532105">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A2_02" ID="{DBB66142-9248-4F07-8100-EA888CCB4B2A}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_A2_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="693458742"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A2_02" ID="{DBB66142-9248-4F07-8100-EA888CCB4B2A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_A2_03" ID="{A816524C-7865-4010-BE60-66E4E7848A2E}" ShortID="76154115">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_A2_03" ID="{E0E22984-47AE-4C4D-9891-45BD1B82665E}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_A2_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="584397358"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_A2_03" ID="{E0E22984-47AE-4C4D-9891-45BD1B82665E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_GPE_ToyPlant_AS" ID="{6FF7545A-004C-40F4-8059-CB763F5BBC5F}" ShortID="60208249">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Chimes_AS" ID="{F5624919-E0A8-422C-B44D-949425C59FBD}" ShortID="394160034">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_AS2" ID="{D4556294-F830-4D3B-89EA-F8BC058CA206}" ShortID="802664132">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_AS2" ID="{38D49B5B-01CB-4351-BCFD-ACB3020B04E6}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_AS2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1011144336"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_AS2" ID="{38D49B5B-01CB-4351-BCFD-ACB3020B04E6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_AS1" ID="{AB4D1617-6CF3-403F-9259-64C8C257EE40}" ShortID="1030342531">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_AS1" ID="{A320F515-55AE-458D-8D6A-1D607ED6FB41}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_AS1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="514383079"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_AS1" ID="{A320F515-55AE-458D-8D6A-1D607ED6FB41}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Whisper_AS" ID="{0293CFBB-0FE7-4B7D-A106-16D8CBEFF498}" ShortID="274381027">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_AS1" ID="{981A33DC-4807-4A6F-B0B1-016CC62EBC1C}" ShortID="898908823">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{0E86339A-2826-44BF-9471-D0663589F745}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_AS1_01" ID="{5327CBB6-8BAC-4A86-8EDA-3832E4ED020E}" ShortID="935058466">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS1_01" ID="{CB136F33-06D2-41A0-9B7B-128775761AE3}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_AS1_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1070609207"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS1_01" ID="{CB136F33-06D2-41A0-9B7B-128775761AE3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_AS1_02" ID="{9852F1B6-90A6-4C89-B717-0E13CB1529EA}" ShortID="353485143">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS1_02" ID="{9260EA3C-9B20-4C50-BB0A-FE2CB46619BD}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_AS1_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="470056985"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS1_02" ID="{9260EA3C-9B20-4C50-BB0A-FE2CB46619BD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_AS1_03" ID="{F29D4FC5-72CA-4189-A196-90673547BFF5}" ShortID="186712074">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS1_03" ID="{1E47E4BB-F825-4D8F-85C8-926336FE4D86}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_AS1_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="600199274"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS1_03" ID="{1E47E4BB-F825-4D8F-85C8-926336FE4D86}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_AS23" ID="{6D165AED-4E16-4A1A-87D4-65E9BB7B3208}" ShortID="704830490">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_AS3" ID="{0BFC95D0-D9A0-4422-B68A-C9722CAA5D29}" ShortID="491074335">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{25FCD396-5E4F-42F7-9A76-EEDEFD9E495D}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_AS3_01" ID="{53613EE3-CAB5-48D2-A5F3-D58A3D61A6A3}" ShortID="136237168">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS3_01" ID="{8A693C4F-CCDD-4DB7-ACB8-45DB86356DAC}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_AS3_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="36604641"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS3_01" ID="{8A693C4F-CCDD-4DB7-ACB8-45DB86356DAC}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_AS3_02" ID="{5D590B63-8A9F-48C9-95E4-8A40C1D0C66F}" ShortID="657877947">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS3_02" ID="{706ECC8B-CC09-49E9-A29B-FBC463636FDD}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_AS3_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="985908898"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS3_02" ID="{706ECC8B-CC09-49E9-A29B-FBC463636FDD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_AS3_03" ID="{8C32C72E-ED86-4C08-AFA4-AFE3F12CBA30}" ShortID="329301331">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS3_03" ID="{9A9D75D0-973D-4912-B4EE-51DE9E058BDD}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_AS3_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="900318669"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS3_03" ID="{9A9D75D0-973D-4912-B4EE-51DE9E058BDD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_AS2" ID="{FB180178-0611-42E4-8065-E73E236ADD90}" ShortID="155774510">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{8FC72B9B-0A52-412B-A6D2-89616734303A}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_AS2_01" ID="{F1A9C055-5D7F-4E91-B816-84BACAC9D695}" ShortID="130258177">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS2_01" ID="{1466987D-A70D-436B-8848-EE0C954853DF}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_AS2_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="758764640"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS2_01" ID="{1466987D-A70D-436B-8848-EE0C954853DF}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_AS2_02" ID="{79C9B822-0330-459D-B28D-E36F790EA742}" ShortID="1000105039">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS2_02" ID="{C906D5F5-9367-4B80-A231-CD5ED07417AD}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="192162486"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS2_02" ID="{C906D5F5-9367-4B80-A231-CD5ED07417AD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_AS2_03" ID="{8DF318C0-D1A5-45A4-AC63-88464CE6B849}" ShortID="425516482">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_AS2_03" ID="{0F870F21-AF81-46A3-97FF-753B271DC250}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_AS2_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="110874952"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_AS2_03" ID="{0F870F21-AF81-46A3-97FF-753B271DC250}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_GPE_ToyPlant_C" ID="{6B9EABA4-420F-4E1D-9EDC-C6E4E794CB71}" ShortID="438275434">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Chimes_C" ID="{A2E008F6-520A-4292-BA1C-F70EF83161FE}" ShortID="788397882">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_C1" ID="{C7111108-97C9-4592-AD0A-4BD25A9AB2AB}" ShortID="150995902">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_C1" ID="{820070F8-8B3B-44A2-A09E-55A472479B4D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_C1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="655731917"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_C1" ID="{820070F8-8B3B-44A2-A09E-55A472479B4D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_C2" ID="{079B4D20-9695-421A-A753-41487E787F1C}" ShortID="936144340">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_C2" ID="{4EDAAEA9-D3B1-49C2-B154-33AC0B7C4727}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_C2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="309400106"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_C2" ID="{4EDAAEA9-D3B1-49C2-B154-33AC0B7C4727}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Whisper_C" ID="{B7A68E15-A39E-434D-8D40-0B1338604C25}" ShortID="20113455">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_C1" ID="{577DEE74-DF11-43BD-9E3D-DF76774434AE}" ShortID="1029320689">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{0FC0D50D-5F99-4C46-A9B3-01C8686A5A23}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_C1_01" ID="{0E586655-9AEF-4A7E-8D5B-93D7F29CCD1E}" ShortID="627546710">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C1_01" ID="{25216DC7-6C18-4E75-8179-2841C28047D9}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_C1_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="483306855"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C1_01" ID="{25216DC7-6C18-4E75-8179-2841C28047D9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_C1_02" ID="{A94B50D9-7F52-44A7-BF1C-2BD5FD9424FB}" ShortID="1064509603">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C1_02" ID="{9EFB611B-C224-4755-A48C-EDA312A5EA81}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_C1_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="691316587"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C1_02" ID="{9EFB611B-C224-4755-A48C-EDA312A5EA81}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_C1_03" ID="{669414F7-485F-4329-AF4B-C6E4A3FDA7CC}" ShortID="470384929">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C1_03" ID="{D82478B4-DA64-442C-B6F6-34C7E8FA3502}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_C1_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="850915155"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C1_03" ID="{D82478B4-DA64-442C-B6F6-34C7E8FA3502}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_C23" ID="{24AEF47C-D7C9-4E5C-A32E-F7010884D449}" ShortID="316166301">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_C2" ID="{637CBFBC-45AB-4570-8A25-C7E4CFC07602}" ShortID="479512787">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{DC69460A-26AE-4751-BAB7-02C2CDF47FC4}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_C2_01" ID="{5EBE3766-3BEE-4B40-8B1C-EF5EDE9C5401}" ShortID="488417502">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C2_01" ID="{F3CE6274-ACB7-4027-A85F-1918B2402819}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_C2_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="999835100"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C2_01" ID="{F3CE6274-ACB7-4027-A85F-1918B2402819}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_C2_02" ID="{516AE72F-82B2-410D-8EF8-BC885FC1EA7C}" ShortID="615298068">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C2_02" ID="{CB9C837B-E67B-4E07-9345-01A79C292FFB}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_C2_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="990181979"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C2_02" ID="{CB9C837B-E67B-4E07-9345-01A79C292FFB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_C2_03" ID="{FE6F4A67-C882-480A-BF9E-B4D187877B0D}" ShortID="579543803">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C2_03" ID="{B218E7D9-BA87-4E88-816A-10D248B9277B}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_C2_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="553186713"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C2_03" ID="{B218E7D9-BA87-4E88-816A-10D248B9277B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_C3" ID="{BB1C95E5-EBBB-4B19-9929-3AE8A1A23907}" ShortID="620166498">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{176BB1B6-6AAC-4769-9115-CE76F303EBC5}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_C3_01" ID="{8BAFBC18-FB16-48F6-AC32-DCFDA7128958}" ShortID="471954751">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C3_01" ID="{194BFB02-904C-4938-A2A8-F015D89CEF78}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_C3_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="828882002"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C3_01" ID="{194BFB02-904C-4938-A2A8-F015D89CEF78}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_C3_02" ID="{65054FD7-268A-408A-B47C-2399245DA914}" ShortID="838049172">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C3_02" ID="{8F55DECB-5B44-4FAD-96DC-A754EE597C8B}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_C3_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="800108783"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C3_02" ID="{8F55DECB-5B44-4FAD-96DC-A754EE597C8B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_C3_03" ID="{6540058D-1298-42BA-9915-3A801B0354D0}" ShortID="581459382">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_C3_03" ID="{8ACBBC8E-7C5F-498D-BA4B-2BE92788B6D3}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_C3_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="661246042"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_C3_03" ID="{8ACBBC8E-7C5F-498D-BA4B-2BE92788B6D3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_GPE_ToyPlant_D" ID="{DADD6BC5-61FC-49D2-A69D-18EB229FF007}" ShortID="273872434">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Chimes_D" ID="{261DF710-6240-4E33-834C-FEA607E7A57E}" ShortID="181958418">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_D1" ID="{8915681F-3BE6-4055-8F22-1A667F5F3E45}" ShortID="1046892324">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_D1" ID="{FAC0E261-7897-4D87-AEE4-A8E11EB34500}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_D1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1040005805"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_D1" ID="{FAC0E261-7897-4D87-AEE4-A8E11EB34500}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_D2" ID="{7DE2A06F-F36E-45B9-8D24-C50630E498DC}" ShortID="997655517">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_D2" ID="{11BCACF3-D614-43F2-97B6-D19CD81440DD}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_D2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1013658289"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_D2" ID="{11BCACF3-D614-43F2-97B6-D19CD81440DD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Whisper_D" ID="{B5B80C13-13BF-4617-8252-C3CF543B29A6}" ShortID="885662545">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_D1" ID="{39812E0F-5A49-4605-BC8A-11739C822A7E}" ShortID="735137387">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3E4F6A0B-334D-4C2A-8E1D-4BD25B060D3C}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_D1_01" ID="{C5D997C3-9D13-49D7-872C-594A9A79EDE7}" ShortID="543631760">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D1_01" ID="{A3562606-BADA-4E9A-A766-01AB2BC9CBC7}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_D1_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="518900440"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D1_01" ID="{A3562606-BADA-4E9A-A766-01AB2BC9CBC7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_D1_02" ID="{AD511059-5A17-4D1E-A322-2D489B7EEAFA}" ShortID="794537724">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D1_02" ID="{F18D361F-7245-4366-BC78-BF0096B0E9B4}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_D1_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="30374229"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D1_02" ID="{F18D361F-7245-4366-BC78-BF0096B0E9B4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_D1_03" ID="{428A8406-94BE-44AD-9E21-1014AD8D2A8B}" ShortID="440000233">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D1_03" ID="{4F4DDCC8-E0CD-4FF8-91DF-688838B042EE}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_D1_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="259028868"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D1_03" ID="{4F4DDCC8-E0CD-4FF8-91DF-688838B042EE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_D23" ID="{554C1834-238C-4F0F-ABB6-1382E3D535FB}" ShortID="480396508">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_D3" ID="{84FB7572-1DC6-4A11-8CE1-E28AC32F9C8E}" ShortID="447667749">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{33DF5821-D357-4A49-95BB-CF0C0BB10E5E}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_D3_01" ID="{B18B6063-DC01-48F4-AC04-D1AFB7B74135}" ShortID="846177053">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D3_01" ID="{E27442D0-9959-464A-9268-F3EA04F8E92E}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_D3_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="148533558"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D3_01" ID="{E27442D0-9959-464A-9268-F3EA04F8E92E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_D3_02" ID="{39A6190D-DA8C-4B5C-8877-AA7C8ABA3B34}" ShortID="576611100">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D3_02" ID="{779E0B92-A1D7-4A77-B3D3-F8A6847A190D}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_D3_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="680490105"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D3_02" ID="{779E0B92-A1D7-4A77-B3D3-F8A6847A190D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_D3_03" ID="{0EC91E6B-C2A4-499B-AFFD-4E22B61E05CF}" ShortID="199813204">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D3_03" ID="{A61F98BA-1D94-4E5D-BC8A-7774D382AA2F}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_D3_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="957458129"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D3_03" ID="{A61F98BA-1D94-4E5D-BC8A-7774D382AA2F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_D2" ID="{BDA8F86B-4B34-4C8A-99C8-A54F043BCB4D}" ShortID="103074133">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{77F4FE4A-A306-4F72-B1BC-0A7582FD513C}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_D2_01" ID="{DE558383-99AA-40E7-880F-9FC28B18C856}" ShortID="415519805">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D2_01" ID="{F81CA674-7187-4530-9A3A-B5E2E4F54507}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_D2_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="798217334"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D2_01" ID="{F81CA674-7187-4530-9A3A-B5E2E4F54507}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_D2_02" ID="{461BB7AD-8D7B-4393-AD25-3AE66F5DF3D4}" ShortID="1019018398">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D2_02" ID="{89AD32DD-12CF-4C0D-920C-5F07FE51653E}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_D2_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="955535201"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D2_02" ID="{89AD32DD-12CF-4C0D-920C-5F07FE51653E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_D2_03" ID="{CCFD4BCF-878F-4D07-9CA6-285A55C587F7}" ShortID="843192369">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_D2_03" ID="{E5363BFB-D811-4648-8939-4BDC42A55DEE}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_D2_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="981826346"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_D2_03" ID="{E5363BFB-D811-4648-8939-4BDC42A55DEE}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_GPE_ToyPlant_DS" ID="{9B2F191D-5A08-45DE-AD8B-40FEC130C554}" ShortID="657323853">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Chimes_DS" ID="{DFC1B9EE-4780-4AD9-9D41-D5F4F65862A3}" ShortID="769177407">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_DS2" ID="{48777E66-9637-4F99-B94B-8E211101A522}" ShortID="310635834">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_DS2" ID="{FDC32937-0D4C-4DB1-B355-336E761108A3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_DS2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="188363552"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_DS2" ID="{FDC32937-0D4C-4DB1-B355-336E761108A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_DS1" ID="{7688D810-5F3E-4BE0-9602-18BD558B6F70}" ShortID="251388283">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_DS1" ID="{AF92105D-85B7-45AB-9BB2-478830810EC7}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_DS1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="139256099"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_DS1" ID="{AF92105D-85B7-45AB-9BB2-478830810EC7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Whisper_DS" ID="{1D786016-B404-4966-BA4D-2C5BC8DCB40E}" ShortID="709898786">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_DS1" ID="{F20E118C-7975-4A96-AC8E-81AB0B958368}" ShortID="343662105">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{63270651-1D79-4BAD-8179-1C9A22DA84F5}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_DS1_01" ID="{DC279873-4E07-4652-8090-099D03BA3EB6}" ShortID="379342173">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS1_01" ID="{D9DFAFC9-B87F-4483-A5B1-B4C1FA66DEB1}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_DS1_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="949988494"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS1_01" ID="{D9DFAFC9-B87F-4483-A5B1-B4C1FA66DEB1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_DS1_02" ID="{95DF174F-7310-4F86-85F2-FFA1B822901D}" ShortID="361932892">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS1_02" ID="{7151832F-459D-478B-BDAF-33EE875A3067}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="395040096"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS1_02" ID="{7151832F-459D-478B-BDAF-33EE875A3067}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_DS1_03" ID="{5E54DDF7-CB08-4C80-9872-3776498B34C1}" ShortID="358584653">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS1_03" ID="{39F7881A-3D53-4E0E-B865-D8B45F97ABCC}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_DS1_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="535226205"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS1_03" ID="{39F7881A-3D53-4E0E-B865-D8B45F97ABCC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_DS23" ID="{DE32DA19-44B2-4979-A855-979D9C4229A5}" ShortID="324293970">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_DS2" ID="{1263F6D0-9D28-46E6-B446-157E78A672A9}" ShortID="428882459">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{9C8A9E9C-6857-4E4F-B53B-AD6F81FED8AE}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_DS2_01" ID="{D022A3D5-5522-4BF5-8745-FF32592AF23F}" ShortID="398529081">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS2_01" ID="{6050CD3F-A8AA-4508-AF69-A00C77D15D57}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_DS2_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1014862457"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS2_01" ID="{6050CD3F-A8AA-4508-AF69-A00C77D15D57}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_DS2_02" ID="{4301A273-7F73-4D3A-AB7C-530331D52933}" ShortID="214217638">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS2_02" ID="{2BC7E090-0FE4-4756-8E26-E183E20C4239}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_DS2_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="356452749"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS2_02" ID="{2BC7E090-0FE4-4756-8E26-E183E20C4239}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_DS2_03" ID="{545C13CA-3117-4B70-87EB-01552081EE01}" ShortID="975927570">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS2_03" ID="{6F43BD9A-8C27-44CE-8AAA-A7AF7C023CB0}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_DS2_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="601019325"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS2_03" ID="{6F43BD9A-8C27-44CE-8AAA-A7AF7C023CB0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_DS3" ID="{AAEA034D-8D32-4DF1-B813-6A4377F61A23}" ShortID="886684012">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{F2D09989-8F63-4ED9-BC24-F461F079DBB5}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_DS3_01" ID="{8050C4B1-BE21-4A92-BA8D-704198C3A802}" ShortID="482323545">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS3_01" ID="{AB9077A5-AB6C-44B3-95DB-F6F6DCEA0BD3}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_DS3_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="79435795"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS3_01" ID="{AB9077A5-AB6C-44B3-95DB-F6F6DCEA0BD3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_DS3_02" ID="{445A6DD1-BCA8-4466-B9D7-6D90CFCC600E}" ShortID="1045021744">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS3_02" ID="{6C538AD5-880F-4379-9216-242A110B4300}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_DS3_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="295003249"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS3_02" ID="{6C538AD5-880F-4379-9216-242A110B4300}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_DS3_03" ID="{E1F8E7E6-83B9-4E14-B77F-7934735609C5}" ShortID="1067355228">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_DS3_03" ID="{6EC871F7-3D3D-43A7-826B-4CF99640A4F3}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_DS3_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="239111183"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_DS3_03" ID="{6EC871F7-3D3D-43A7-826B-4CF99640A4F3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_GPE_ToyPlant_F" ID="{1A831714-F455-4DAD-90CA-E31118A1C061}" ShortID="381020941">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Chimes_F" ID="{3759C653-C11B-4B66-A853-D469C6EBEFF9}" ShortID="395193784">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_F2" ID="{95A09239-4918-4B41-B222-1325CE48A8C6}" ShortID="732584545">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_F2" ID="{6E09E277-5881-4C42-90D6-D139315F55AF}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_F2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="98890993"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_F2" ID="{6E09E277-5881-4C42-90D6-D139315F55AF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_F1" ID="{CF3F1B3E-0378-4CFE-BA3B-2254B98291AE}" ShortID="582677971">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_F1" ID="{9B1A61F4-F8F3-4077-8652-5D38578C234D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_F1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="678544366"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_F1" ID="{9B1A61F4-F8F3-4077-8652-5D38578C234D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Whisper_F" ID="{2C3897DC-F408-4FD3-9D8E-E0C469D9798E}" ShortID="530670163">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_F23" ID="{13D3C9CB-69F7-4A32-B805-439F196F2F30}" ShortID="755207771">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_F2" ID="{5FE75692-BF64-471B-932C-483E469CB51A}" ShortID="35695462">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{393A0187-7B56-47DE-9EFA-FB06A3A3D417}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_F2_01" ID="{BFBB7550-06C3-48C2-9C2B-80F8F1F9A4E5}" ShortID="146393307">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F2_01" ID="{98BB0E38-9AE9-4649-BF57-E02775DAB808}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_F2_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="353254387"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F2_01" ID="{98BB0E38-9AE9-4649-BF57-E02775DAB808}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_F2_02" ID="{CC7B5D59-B1F6-461D-8D3F-50D1E4DF75F1}" ShortID="699755785">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F2_02" ID="{0431A0E2-E8E3-4CD0-AAF9-4FA86B131982}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_F2_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="243623444"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F2_02" ID="{0431A0E2-E8E3-4CD0-AAF9-4FA86B131982}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_F2_03" ID="{3C362182-F556-4FD4-9919-CD8450F91650}" ShortID="789564417">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F2_03" ID="{A62535D1-FAAA-42E5-AB19-AACD75D3E980}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_F2_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="291539374"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F2_03" ID="{A62535D1-FAAA-42E5-AB19-AACD75D3E980}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_F3" ID="{90650000-A009-416F-8792-196F4784C417}" ShortID="328558013">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{E2E48710-0808-40A5-9491-D8DE6F666330}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_F3_01" ID="{CE7A0182-2DB6-4795-8337-71D863FBA1F8}" ShortID="751019582">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F3_01" ID="{DFE10D37-6C81-418E-96D3-F74EF9EA6F25}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_F3_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="4604180"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F3_01" ID="{DFE10D37-6C81-418E-96D3-F74EF9EA6F25}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_F3_02" ID="{69DBD87F-B2B7-43F6-958D-0E5237197422}" ShortID="354903421">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F3_02" ID="{297BB46E-CA77-409A-A870-BE54C48861FB}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_F3_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="724302095"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F3_02" ID="{297BB46E-CA77-409A-A870-BE54C48861FB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_F3_03" ID="{7D905FFA-5431-4328-826F-6F32F027D6D2}" ShortID="592357122">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F3_03" ID="{62DB749C-F03F-40C0-81CD-823EA82BDD05}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_F3_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="244125585"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F3_03" ID="{62DB749C-F03F-40C0-81CD-823EA82BDD05}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_F1" ID="{8308CB7A-DF0A-40A3-AA1D-CF614188A991}" ShortID="86115559">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D64ECB65-93A8-4B41-8E24-B2815C5050A4}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_F1_01" ID="{A354076C-7285-413F-87CA-7A5557D59693}" ShortID="296388574">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F1_01" ID="{96DFF3B6-3760-4DBD-B478-89C40043F970}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_F1_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1054465173"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F1_01" ID="{96DFF3B6-3760-4DBD-B478-89C40043F970}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_F1_02" ID="{3EC054FD-8E99-4243-B8EB-B3A8B2081813}" ShortID="885424517">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F1_02" ID="{3BCB9CFE-FB67-44B8-94D1-B882CAFD0E59}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_F1_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="749644177"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F1_02" ID="{3BCB9CFE-FB67-44B8-94D1-B882CAFD0E59}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_F1_03" ID="{14D52971-DA22-49DB-915A-2E7BA6652BB6}" ShortID="325487070">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_F1_03" ID="{52E95250-8A61-441C-B81F-672229086DAB}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_F1_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="784161327"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_F1_03" ID="{52E95250-8A61-441C-B81F-672229086DAB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_GPE_ToyPlant_G" ID="{F7D49424-FFFA-4942-882D-E6BD52DE29B0}" ShortID="493548102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Chimes_G" ID="{E28BD5DD-A92E-4697-B947-2D86537A48E7}" ShortID="207742240">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_G1" ID="{CE4BB5D9-6C26-4320-B9EF-FC7D36CA3CC6}" ShortID="674073912">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_G1" ID="{F8B182EE-A29F-4538-92F5-82E729F6C7DA}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_G1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="902484395"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_G1" ID="{F8B182EE-A29F-4538-92F5-82E729F6C7DA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_ToyPlant_Chimes_G2" ID="{726CC3C6-2226-4EE2-B6CC-248EB99EDBEF}" ShortID="1003846401">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_ToyPlant_Chimes_G2" ID="{FF7018DD-6742-4735-AA51-2902A06A3AEF}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_ToyPlant_Chimes_G2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="617217899"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_ToyPlant_Chimes_G2" ID="{FF7018DD-6742-4735-AA51-2902A06A3AEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="SFX_GPE_ToyPlant_Whisper_G" ID="{234375F7-0D5F-4B92-A2DC-576F31C1CF74}" ShortID="907993782">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_G23" ID="{E1E2CDCA-4386-43D5-B03F-66D82A645DD0}" ShortID="613909253">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_G3" ID="{DC01F811-6DE1-48BD-9EC3-B2FEC8049B06}" ShortID="590249457">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{8ED55D7B-04F5-4354-95CA-90BCD23CEE35}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_G3_01" ID="{AEF247B4-8DB2-43D3-A6F1-9A25CA661828}" ShortID="205605701">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G3_01" ID="{DBD08A38-E2BE-4A5A-8F8F-5BEE0D8CF6C0}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_G3_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="213777383"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G3_01" ID="{DBD08A38-E2BE-4A5A-8F8F-5BEE0D8CF6C0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_G3_02" ID="{47207049-E808-4444-8F97-E85F1F095D84}" ShortID="1043667030">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G3_02" ID="{802F6250-AE40-4BE1-84B4-2595480B745A}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_G3_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="884640607"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G3_02" ID="{802F6250-AE40-4BE1-84B4-2595480B745A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_G3_03" ID="{97298B99-5325-4050-AF4C-FDBF6DE663D0}" ShortID="176031800">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G3_03" ID="{2F6D5CD0-B8E0-4968-944D-9D59BE7F8D84}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_G3_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="712658994"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G3_03" ID="{2F6D5CD0-B8E0-4968-944D-9D59BE7F8D84}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_G2" ID="{B56BCD53-76F1-4515-B721-A8ACBAA60555}" ShortID="915046055">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{13499F1D-ECA3-42E1-90EA-D162E306B6BF}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_G2_01" ID="{45D64F47-BDB1-4956-95B0-DA0E02746608}" ShortID="814004963">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G2_01" ID="{550622B3-97F1-4D76-A2A6-D8C52A0DF414}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_G2_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="594698355"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G2_01" ID="{550622B3-97F1-4D76-A2A6-D8C52A0DF414}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_G2_02" ID="{742709EA-DC89-4128-AA03-9C71088F7060}" ShortID="685934638">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G2_02" ID="{C15D38A2-69BA-403E-8C44-5B8BC01DF45D}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_G2_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="201527366"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G2_02" ID="{C15D38A2-69BA-403E-8C44-5B8BC01DF45D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_GPE_ToyPlant_Whisper_G2_03" ID="{2DEAE09E-4875-400F-BD81-56D2F68164B6}" ShortID="1043875587">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G2_03" ID="{0A530F68-2642-4027-A329-26BF0B71748C}">
+																			<Language>SFX</Language>
+																			<AudioFile>SFX_GPE_ToyPlant_Whisper_G2_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1016339075"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G2_03" ID="{0A530F68-2642-4027-A329-26BF0B71748C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_GPE_ToyPlant_Whisper_G1" ID="{B779C1B6-7223-4444-B9D7-3C4FC91908D0}" ShortID="681191352">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E4108E02-3ED6-43BA-A35E-BB7B1B13899C}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_G1_01" ID="{B6A4C84C-FBEF-4137-8D27-7D3641528C22}" ShortID="491244195">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G1_01" ID="{2FF68E12-259B-4C2C-B388-3DFA1077C42B}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_G1_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="696749574"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G1_01" ID="{2FF68E12-259B-4C2C-B388-3DFA1077C42B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_G1_02" ID="{AD8CF2FE-D837-4DB5-86D0-F7D0CD02DD95}" ShortID="252070088">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G1_02" ID="{FC0BCB2A-7312-42F4-A7B7-12E41C59E06F}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_G1_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="318329739"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G1_02" ID="{FC0BCB2A-7312-42F4-A7B7-12E41C59E06F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_GPE_ToyPlant_Whisper_G1_03" ID="{59575E1A-B470-4886-BEAD-D7CF98445631}" ShortID="606312961">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_GPE_ToyPlant_Whisper_G1_03" ID="{2CDE1690-642B-49BA-A63A-9242EFEB9801}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_GPE_ToyPlant_Whisper_G1_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="50436246"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_GPE_ToyPlant_Whisper_G1_03" ID="{2CDE1690-642B-49BA-A63A-9242EFEB9801}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -1575,17 +1575,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_1" ID="{DFF0C61C-D7D6-487B-8B7F-0C8630472A0E}" ShortID="745865562">
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_A" ID="{027D2431-8792-403D-A3AD-A712EA303858}" ShortID="191139589">
 											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{8CE5DB3B-7E72-4D83-84D4-5DB502ECA0D4}"/>
-														</ModifierInfo>
-													</ModifierList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 												</Reference>
@@ -1594,51 +1596,31 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_1" ID="{D0FEB677-DD83-4047-B6A3-BBAA5D1F3811}">
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_A" ID="{62952569-97F2-43C8-B81A-0740A8B79AAB}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_1.wav</AudioFile>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_A.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="500044490"/>
+														<MediaID ID="1037262259"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_1" ID="{D0FEB677-DD83-4047-B6A3-BBAA5D1F3811}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_A" ID="{62952569-97F2-43C8-B81A-0740A8B79AAB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_2" ID="{7B130C43-4B0D-4513-8507-1DEF536CD196}" ShortID="777843116">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_2" ID="{26E7031C-7918-4439-9593-190002CADCF8}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="724915893"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_2" ID="{26E7031C-7918-4439-9593-190002CADCF8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_3" ID="{A840C959-2CE1-47E8-9FDC-E1A8AE087DF6}" ShortID="653536733">
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_G" ID="{946A41B9-8B16-42A9-88C4-7B3DAC25351B}" ShortID="214614479">
 											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{AF1B530B-96A3-48C2-9423-DF3C8D21CCC7}"/>
-														</ModifierInfo>
-													</ModifierList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 												</Reference>
@@ -1647,20 +1629,31 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_3" ID="{30C54417-1CC0-4615-816E-906C8E7877CA}">
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_G" ID="{8C50B9E0-D020-450E-A493-D577949841A3}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_3.wav</AudioFile>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_G.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="507893096"/>
+														<MediaID ID="45807246"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_3" ID="{30C54417-1CC0-4615-816E-906C8E7877CA}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_G" ID="{8C50B9E0-D020-450E-A493-D577949841A3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_4" ID="{90FF4AE8-0297-4BB2-A207-DCBF9C534391}" ShortID="76232721">
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{F33746BA-592A-4913-9682-8693AB2362D3}" ShortID="119652206">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 												</Reference>
@@ -1669,20 +1662,31 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_4" ID="{DAEFC373-2232-4793-A05C-0221D961722E}">
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{EA9E7559-5314-47EB-9729-FC2214A0F07A}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_4.wav</AudioFile>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_FS.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="130967582"/>
+														<MediaID ID="117693384"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_4" ID="{DAEFC373-2232-4793-A05C-0221D961722E}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{EA9E7559-5314-47EB-9729-FC2214A0F07A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_5" ID="{DD7901C3-2D8B-4E7F-8241-AC4D13A744CD}" ShortID="253154735">
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_D" ID="{ED67B286-B66D-403B-A5F9-3C9279D8ABC9}" ShortID="122704857">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 												</Reference>
@@ -1691,16 +1695,115 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_5" ID="{03A01A23-3159-4BCE-869E-F936E14AD148}">
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_D" ID="{CC08A378-6C81-4AE8-8E6D-AE12D9B854D3}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_5.wav</AudioFile>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_D.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="374437879"/>
+														<MediaID ID="467917846"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_5" ID="{03A01A23-3159-4BCE-869E-F936E14AD148}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_D" ID="{CC08A378-6C81-4AE8-8E6D-AE12D9B854D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{AC67C59A-8696-40EF-8630-83647F02F08A}" ShortID="90548669">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{16AEFD9D-56F6-4F6A-8164-DBF815B47D41}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_DS.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="513996057"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{16AEFD9D-56F6-4F6A-8164-DBF815B47D41}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_C" ID="{D92B9C3A-1F17-441A-B5C3-7A4AB222B3C3}" ShortID="257051381">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_C" ID="{365BB510-6BA2-4EDF-AEEF-E0B0A6127B25}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_C.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="713070006"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_C" ID="{365BB510-6BA2-4EDF-AEEF-E0B0A6127B25}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_PlantPlatorm_Open_F" ID="{970A8D52-5F81-4F90-A9BB-BB0667CB07DD}" ShortID="163072630">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_PlantPlatForm_ATT" ID="{7386D434-FC1A-46F6-BF49-94132E856F00}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_F" ID="{732024ED-19BD-46F4-A75A-6217C462D651}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_PlantPlatorm_Open_F.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="599936942"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_F" ID="{732024ED-19BD-46F4-A75A-6217C462D651}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1898,213 +2001,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Folder Name="SFX_GPE_PlantPlatorm_Open_Tonal" ID="{5C40CFBD-A88F-4045-8374-3F25896CC450}" ShortID="1023699916">
-									<ChildrenList>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_A" ID="{027D2431-8792-403D-A3AD-A712EA303858}" ShortID="191139589">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_A" ID="{62952569-97F2-43C8-B81A-0740A8B79AAB}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_A.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1037262259"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_A" ID="{62952569-97F2-43C8-B81A-0740A8B79AAB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_C" ID="{D92B9C3A-1F17-441A-B5C3-7A4AB222B3C3}" ShortID="257051381">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_C" ID="{365BB510-6BA2-4EDF-AEEF-E0B0A6127B25}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_C.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="713070006"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_C" ID="{365BB510-6BA2-4EDF-AEEF-E0B0A6127B25}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_D" ID="{ED67B286-B66D-403B-A5F9-3C9279D8ABC9}" ShortID="122704857">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_D" ID="{CC08A378-6C81-4AE8-8E6D-AE12D9B854D3}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_D.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="467917846"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_D" ID="{CC08A378-6C81-4AE8-8E6D-AE12D9B854D3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{AC67C59A-8696-40EF-8630-83647F02F08A}" ShortID="90548669">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{16AEFD9D-56F6-4F6A-8164-DBF815B47D41}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_DS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="513996057"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_DS" ID="{16AEFD9D-56F6-4F6A-8164-DBF815B47D41}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_F" ID="{970A8D52-5F81-4F90-A9BB-BB0667CB07DD}" ShortID="163072630">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_F" ID="{732024ED-19BD-46F4-A75A-6217C462D651}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_F.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="599936942"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_F" ID="{732024ED-19BD-46F4-A75A-6217C462D651}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{F33746BA-592A-4913-9682-8693AB2362D3}" ShortID="119652206">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{EA9E7559-5314-47EB-9729-FC2214A0F07A}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_FS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="117693384"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_FS" ID="{EA9E7559-5314-47EB-9729-FC2214A0F07A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_PlantPlatorm_Open_G" ID="{946A41B9-8B16-42A9-88C4-7B3DAC25351B}" ShortID="214614479">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_PlantPlatorm_Open_G" ID="{8C50B9E0-D020-450E-A493-D577949841A3}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_PlantPlatorm_Open_G.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="45807246"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_PlantPlatorm_Open_G" ID="{8C50B9E0-D020-450E-A493-D577949841A3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 						<Folder Name="SFX_GPE_Telekinesie" ID="{FCA3DCDF-6A29-4ADE-AAC3-A1059B3F0A70}" ShortID="403461234">

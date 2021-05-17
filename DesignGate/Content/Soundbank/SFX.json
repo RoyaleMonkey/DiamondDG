@@ -15,7 +15,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2241800212",
+    "Hash": "3688963094",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -99,34 +99,46 @@
       "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
-        "Id": "130967582",
+        "Id": "45807246",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
-        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_G.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_G_D8C07C79.wem"
        },
        {
-        "Id": "374437879",
+        "Id": "117693384",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_PlantPlatorm_Open_5.wav",
-        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem"
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_FS.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_FS_D8C07C79.wem"
        },
        {
-        "Id": "500044490",
+        "Id": "467917846",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_PlantPlatorm_Open_1.wav",
-        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem"
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_D.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_D_D8C07C79.wem"
        },
        {
-        "Id": "507893096",
+        "Id": "513996057",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_PlantPlatorm_Open_3.wav",
-        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem"
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_DS.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_DS_D8C07C79.wem"
        },
        {
-        "Id": "724915893",
+        "Id": "599936942",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_PlantPlatorm_Open_2.wav",
-        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem"
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_F.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_F_D8C07C79.wem"
+       },
+       {
+        "Id": "713070006",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_C.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_C_D8C07C79.wem"
+       },
+       {
+        "Id": "1037262259",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_A.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_A_D8C07C79.wem"
        }
       ]
      },
@@ -1055,12 +1067,6 @@
       "Path": "SFX\\SFX_GPE_Bumper_5_D8C07C79.wem"
      },
      {
-      "Id": "130967582",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
-     },
-     {
       "Id": "133630538",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_G2.wav",
@@ -1277,12 +1283,6 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_02_D8C07C79.wem"
      },
      {
-      "Id": "374437879",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_5.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem"
-     },
-     {
       "Id": "377871452",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_D4.wav",
@@ -1377,18 +1377,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Close_1.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem"
-     },
-     {
-      "Id": "500044490",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_1.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem"
-     },
-     {
-      "Id": "507893096",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_3.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem"
      },
      {
       "Id": "513996057",
@@ -1587,12 +1575,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem"
-     },
-     {
-      "Id": "724915893",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_2.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem"
      },
      {
       "Id": "726963180",

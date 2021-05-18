@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1167860281" Language="SFX" Hash="3760007725">
+		<SoundBank Id="1167860281" Language="SFX" Hash="3411138220">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -301,130 +301,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="864949234" Name="Play_SFX_GPE_Melody_Oct3_Int1" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int1">
-					<IncludedMemoryFiles>
-						<File Id="181185373" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int1_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int1_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="554353361" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int1_03.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int1_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="852197027" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int1_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int1_01_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="864949233" Name="Play_SFX_GPE_Melody_Oct3_Int2" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int2">
-					<IncludedMemoryFiles>
-						<File Id="441879519" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int2_03.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int2_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="513649411" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int2_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int2_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="1041570747" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int2_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int2_02_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="864949232" Name="Play_SFX_GPE_Melody_Oct3_Int3" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int3">
-					<IncludedMemoryFiles>
-						<File Id="221862088" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int3_03.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int3_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="241919516" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int3_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int3_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="382096380" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int3_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int3_01_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="864949239" Name="Play_SFX_GPE_Melody_Oct3_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int4">
-					<IncludedMemoryFiles>
-						<File Id="41441560" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int4_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int4_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="706389181" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int4_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int4_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="817628089" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct3_Int4_03.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct3_Int4_03_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1922382179" Name="Play_SFX_GPE_Melody_Oct4_Int1" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int1">
-					<IncludedMemoryFiles>
-						<File Id="337878518" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int1_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int1_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="401515653" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int1_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int1_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="982207212" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int1_03.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int1_03_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1922382176" Name="Play_SFX_GPE_Melody_Oct4_Int2" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int2">
-					<IncludedMemoryFiles>
-						<File Id="305844964" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int2_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int2_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="1012426382" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int2_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int2_02_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1922382177" Name="Play_SFX_GPE_Melody_Oct4_Int3" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int3">
-					<IncludedMemoryFiles>
-						<File Id="156052499" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int3_03.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int3_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="329413092" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int3_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int3_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="456020773" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int3_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int3_01_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1922382182" Name="Play_SFX_GPE_Melody_Oct4_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int4">
-					<IncludedMemoryFiles>
-						<File Id="62943608" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int4_02.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int4_02_D8C07C79.wem</Path>
-						</File>
-						<File Id="197723392" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int4_01.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int4_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="911621877" Language="SFX">
-							<ShortName>SFX_GPE_Melody_Oct4_Int4_03.wav</ShortName>
-							<Path>SFX\SFX_GPE_Melody_Oct4_Int4_03_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="448114921" Name="Play_SFX_GPE_Melody_Note1_Oct34_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct34_Int4"/>
+				<Event Id="293585246" Name="Play_SFX_GPE_Melody_Note1_Oct3_Int1" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct3_Int1"/>
+				<Event Id="293585245" Name="Play_SFX_GPE_Melody_Note1_Oct3_Int2" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct3_Int2"/>
+				<Event Id="293585244" Name="Play_SFX_GPE_Melody_Note1_Oct3_Int3" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct3_Int3"/>
+				<Event Id="3082851027" Name="Play_SFX_GPE_Melody_Note1_Oct4_Int5" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct4_Int5"/>
+				<Event Id="3082851024" Name="Play_SFX_GPE_Melody_Note1_Oct4_Int6" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct4_Int6"/>
+				<Event Id="3082851025" Name="Play_SFX_GPE_Melody_Note1_Oct4_Int7" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct4_Int7"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="9462856" Language="SFX">
@@ -443,6 +326,14 @@
 					<ShortName>Flute_Melody_Reverb_F.wav</ShortName>
 					<Path>SFX\Flute_Melody_Reverb_F_D8C07C79.wem</Path>
 				</File>
+				<File Id="31284809" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct3_G.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_G_D8C07C79.wem</Path>
+				</File>
+				<File Id="37866787" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct3_F.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_F_D8C07C79.wem</Path>
+				</File>
 				<File Id="38663786" Language="SFX">
 					<ShortName>Flt_G_Main_End.wav</ShortName>
 					<Path>SFX\Flt_G_Main_End_7E5D6FB4.wem</Path>
@@ -451,9 +342,9 @@
 					<ShortName>Flt_C_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_End_D8C07C79.wem</Path>
 				</File>
-				<File Id="41441560" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int4_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int4_01_D8C07C79.wem</Path>
+				<File Id="40935585" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct3_AS.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_AS_D8C07C79.wem</Path>
 				</File>
 				<File Id="43780261" Language="SFX">
 					<ShortName>Flute_Melody_Main_DS.wav</ShortName>
@@ -467,21 +358,33 @@
 					<ShortName>Flute_Melody_Main_F.wav</ShortName>
 					<Path>SFX\Flute_Melody_Main_F_D8C07C79.wem</Path>
 				</File>
+				<File Id="60463401" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int3_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="61460550" Language="SFX">
 					<ShortName>Flt_F_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_F_Reverb_End_D8C07C79.wem</Path>
-				</File>
-				<File Id="62943608" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int4_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int4_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="67001878" Language="SFX">
 					<ShortName>Flute_Melody_Reverb_DS.wav</ShortName>
 					<Path>SFX\Flute_Melody_Reverb_DS_D8C07C79.wem</Path>
 				</File>
+				<File Id="77292527" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct4_Int5_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct4_Int5_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="82245004" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct3_DS.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_DS_D8C07C79.wem</Path>
+				</File>
 				<File Id="108630294" Language="SFX">
 					<ShortName>Flute_Melody_Reverb_G.wav</ShortName>
 					<Path>SFX\Flute_Melody_Reverb_G_D8C07C79.wem</Path>
+				</File>
+				<File Id="122548726" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int2_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="129311584" Language="SFX">
 					<ShortName>Flt_C_Layer_Start.wav</ShortName>
@@ -491,33 +394,29 @@
 					<ShortName>Flt_G_Breath.wav</ShortName>
 					<Path>SFX\Flt_G_Breath_D8C07C79.wem</Path>
 				</File>
-				<File Id="156052499" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int3_03.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int3_03_D8C07C79.wem</Path>
+				<File Id="133351863" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int4_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int4_01_D8C07C79.wem</Path>
 				</File>
-				<File Id="181185373" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int1_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int1_02_D8C07C79.wem</Path>
+				<File Id="144552565" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int4_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int4_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="185484287" Language="SFX">
 					<ShortName>Flt_D_Main_End.wav</ShortName>
 					<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
 				</File>
-				<File Id="197723392" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int4_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int4_01_D8C07C79.wem</Path>
-				</File>
 				<File Id="197976420" Language="SFX">
 					<ShortName>Flt_G_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
-				<File Id="221862088" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int3_03.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int3_03_D8C07C79.wem</Path>
+				<File Id="217244713" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct4_DS.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_DS_D8C07C79.wem</Path>
 				</File>
-				<File Id="241919516" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int3_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int3_02_D8C07C79.wem</Path>
+				<File Id="223449320" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int1_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="243158655" Language="SFX">
 					<ShortName>Flt_D#_Breath.wav</ShortName>
@@ -531,37 +430,53 @@
 					<ShortName>Flt_G_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_G_Reverb_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="269122075" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int5_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int5_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="279224178" Language="SFX">
 					<ShortName>Flt_C_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_C_Main_Start_D8C07C79.wem</Path>
 				</File>
-				<File Id="305844964" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int2_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int2_01_D8C07C79.wem</Path>
+				<File Id="304054563" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct4_F.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_F_D8C07C79.wem</Path>
+				</File>
+				<File Id="305882229" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int2_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="312456375" Language="SFX">
 					<ShortName>Flt_C_Breath.wav</ShortName>
 					<Path>SFX\Flt_C_Breath_D8C07C79.wem</Path>
 				</File>
+				<File Id="324016866" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int5_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int5_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="327874764" Language="SFX">
 					<ShortName>Flt_G_Layer_Start.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_Start_D8C07C79.wem</Path>
 				</File>
-				<File Id="329413092" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int3_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int3_02_D8C07C79.wem</Path>
+				<File Id="329196150" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct4_Int5_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct4_Int5_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="337878518" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int1_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int1_01_D8C07C79.wem</Path>
+				<File Id="329930729" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int2_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="350209967" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct4_G.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_G_D8C07C79.wem</Path>
 				</File>
 				<File Id="361188122" Language="SFX">
 					<ShortName>Flt_F_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_F_Main_Start_D8C07C79.wem</Path>
 				</File>
-				<File Id="382096380" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int3_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int3_01_D8C07C79.wem</Path>
+				<File Id="377343345" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct4_C.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_C_D8C07C79.wem</Path>
 				</File>
 				<File Id="392890804" Language="SFX">
 					<ShortName>Flt_F_Reverb_Loop.wav</ShortName>
@@ -571,17 +486,17 @@
 					<ShortName>Flt_C_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_End_D8C07C79.wem</Path>
 				</File>
-				<File Id="401515653" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int1_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int1_02_D8C07C79.wem</Path>
+				<File Id="425749807" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int3_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="429556374" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct4_Int6_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct4_Int6_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="431232726" Language="SFX">
 					<ShortName>Flute_Melody_Magical_G.wav</ShortName>
 					<Path>SFX\Flute_Melody_Magical_G_D8C07C79.wem</Path>
-				</File>
-				<File Id="441879519" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int2_03.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int2_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="446395729" Language="SFX">
 					<ShortName>Flt_D#_Layer_Start.wav</ShortName>
@@ -591,13 +506,13 @@
 					<ShortName>Flt_F_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_F_Layer_Loop_D8C07C79.wem</Path>
 				</File>
-				<File Id="456020773" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int3_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int3_01_D8C07C79.wem</Path>
-				</File>
 				<File Id="470087089" Language="SFX">
 					<ShortName>Flute_Melody_Magical_DS.wav</ShortName>
 					<Path>SFX\Flute_Melody_Magical_DS_D8C07C79.wem</Path>
+				</File>
+				<File Id="473983661" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int3_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="475499326" Language="SFX">
 					<ShortName>Flt_F_Reverb_Start.wav</ShortName>
@@ -607,21 +522,25 @@
 					<ShortName>Flt_D_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
 				</File>
-				<File Id="513649411" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int2_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int2_01_D8C07C79.wem</Path>
+				<File Id="508914507" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int3_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="514868887" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int1_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="538573930" Language="SFX">
 					<ShortName>Flt_C_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
-				<File Id="554353361" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int1_03.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int1_03_D8C07C79.wem</Path>
-				</File>
 				<File Id="571855905" Language="SFX">
 					<ShortName>Flute_Melody_Main_G.wav</ShortName>
 					<Path>SFX\Flute_Melody_Main_G_D8C07C79.wem</Path>
+				</File>
+				<File Id="583435392" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct4_Int7_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct4_Int7_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="592711064" Language="SFX">
 					<ShortName>Flt_D#_Main_Start.wav</ShortName>
@@ -635,9 +554,21 @@
 					<ShortName>Flt_D_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_D_Reverb_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="621787626" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct3_Int1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct3_Int1_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="640525560" Language="SFX">
 					<ShortName>Flt_C_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="658718064" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct3_D.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_D_D8C07C79.wem</Path>
+				</File>
+				<File Id="659377146" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct4_AS.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_AS_D8C07C79.wem</Path>
 				</File>
 				<File Id="664030189" Language="SFX">
 					<ShortName>Flt_C_Main_Loop.wav</ShortName>
@@ -651,9 +582,9 @@
 					<ShortName>Flt_G_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_End_D8C07C79.wem</Path>
 				</File>
-				<File Id="706389181" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int4_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int4_02_D8C07C79.wem</Path>
+				<File Id="703153064" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct4_D.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_D_D8C07C79.wem</Path>
 				</File>
 				<File Id="733805807" Language="SFX">
 					<ShortName>Flt_D_Reverb_Start.wav</ShortName>
@@ -666,6 +597,10 @@
 				<File Id="755490073" Language="SFX">
 					<ShortName>Flt_C_Main_End.wav</ShortName>
 					<Path>SFX\Flt_C_Main_End_596AF383.wem</Path>
+				</File>
+				<File Id="781076796" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct4_Int7_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct4_Int7_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="785499893" Language="SFX">
 					<ShortName>Flt_D_Layer_End.wav</ShortName>
@@ -683,21 +618,17 @@
 					<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
-				<File Id="817628089" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int4_03.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int4_03_D8C07C79.wem</Path>
-				</File>
 				<File Id="846732178" Language="SFX">
 					<ShortName>Flt_DS_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_DS_Reverb_End_D8C07C79.wem</Path>
 				</File>
-				<File Id="852197027" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int1_01.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int1_01_D8C07C79.wem</Path>
-				</File>
 				<File Id="867948560" Language="SFX">
 					<ShortName>Flt_D_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_D_Main_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="877168473" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct4_A.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_A_D8C07C79.wem</Path>
 				</File>
 				<File Id="889184004" Language="SFX">
 					<ShortName>Flt_G_Main_Loop.wav</ShortName>
@@ -711,45 +642,57 @@
 					<ShortName>Flt_G_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
 				</File>
-				<File Id="911621877" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int4_03.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int4_03_D8C07C79.wem</Path>
+				<File Id="926489955" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct3_C.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_C_D8C07C79.wem</Path>
 				</File>
 				<File Id="945158233" Language="SFX">
 					<ShortName>Flute_Melody_Magical_F.wav</ShortName>
 					<Path>SFX\Flute_Melody_Magical_F_D8C07C79.wem</Path>
 				</File>
+				<File Id="965290922" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note1_Oct3_A.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_A_D8C07C79.wem</Path>
+				</File>
 				<File Id="978713243" Language="SFX">
 					<ShortName>Flt_D_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_D_Layer_Loop_D8C07C79.wem</Path>
-				</File>
-				<File Id="982207212" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int1_03.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int1_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="983427185" Language="SFX">
 					<ShortName>Flt_D#_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_D#_Main_Loop_D8C07C79.wem</Path>
 				</File>
-				<File Id="1012426382" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct4_Int2_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct4_Int2_02_D8C07C79.wem</Path>
+				<File Id="997477843" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct3_Int2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct3_Int2_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="999292210" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct4_Int6_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct4_Int6_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="1021185733" Language="SFX">
 					<ShortName>Flt_F_Layer_Start.wav</ShortName>
 					<Path>SFX\Flt_F_Layer_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="1022396336" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int4_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int4_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="1027134471" Language="SFX">
 					<ShortName>Flt_D_Layer_Start.wav</ShortName>
 					<Path>SFX\Flt_D_Layer_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="1031684187" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int4_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int4_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="1032413868" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Note3_Oct3_Int1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Note3_Oct3_Int1_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="1040993073" Language="SFX">
 					<ShortName>Flt_D#_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_D#_Layer_End_D8C07C79.wem</Path>
-				</File>
-				<File Id="1041570747" Language="SFX">
-					<ShortName>SFX_GPE_Melody_Oct3_Int2_02.wav</ShortName>
-					<Path>SFX\SFX_GPE_Melody_Oct3_Int2_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="1057739009" Language="SFX">
 					<ShortName>Flt_F_Layer_End.wav</ShortName>

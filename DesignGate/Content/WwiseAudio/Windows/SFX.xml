@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="4085929428">
+		<SoundBank Id="393239870" Language="SFX" Hash="1135289044">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -25,7 +25,7 @@
 						</File>
 						<File Id="341736279" Language="SFX">
 							<ShortName>SFX_GPE_Bumper_4.wav</ShortName>
-							<Path>SFX\SFX_GPE_Bumper_4_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Bumper_4_EBD22531.wem</Path>
 						</File>
 						<File Id="555465848" Language="SFX">
 							<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
@@ -59,13 +59,29 @@
 				</Event>
 				<Event Id="2573704570" Name="Play_SFX_GPE_PlantPlatorm_Open" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Open" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
+						<File Id="43107221" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
+						</File>
 						<File Id="45807246" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_G.wav</ShortName>
 							<Path>SFX\SFX_GPE_PlantPlatorm_Open_G_D8C07C79.wem</Path>
 						</File>
+						<File Id="101514648" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
+						</File>
 						<File Id="117693384" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_FS.wav</ShortName>
 							<Path>SFX\SFX_GPE_PlantPlatorm_Open_FS_D8C07C79.wem</Path>
+						</File>
+						<File Id="148496668" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="236031477" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
 						</File>
 						<File Id="467917846" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_D.wav</ShortName>
@@ -82,6 +98,10 @@
 						<File Id="713070006" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_C.wav</ShortName>
 							<Path>SFX\SFX_GPE_PlantPlatorm_Open_C_D8C07C79.wem</Path>
+						</File>
+						<File Id="867625013" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
 						</File>
 						<File Id="1037262259" Language="SFX">
 							<ShortName>SFX_GPE_PlantPlatorm_Open_A.wav</ShortName>
@@ -234,17 +254,29 @@
 							<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
 							<Path>SFX\SFX_Telekinesie_Start_1_D8C07C79.wem</Path>
 						</File>
+						<File Id="207786451" Language="SFX">
+							<ShortName>SFX_Telekinesie_Start_3.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_Start_3_D8C07C79.wem</Path>
+						</File>
 						<File Id="384310040" Language="SFX">
 							<ShortName>SFX_Telekinesie_lp.wav</ShortName>
 							<Path>SFX\SFX_Telekinesie_lp_D8C07C79.wem</Path>
+						</File>
+						<File Id="999522006" Language="SFX">
+							<ShortName>SFX_Telekinesie_Start_2.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_Start_2_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3636920717" Name="Play_SFX_GPE_Telekinesie_Finish" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Play_SFX_GPE_Telekinesie_Finish">
 					<IncludedMemoryFiles>
-						<File Id="478743489" Language="SFX">
-							<ShortName>SFX_Telekinesie_End_1.wav</ShortName>
-							<Path>SFX\SFX_Telekinesie_End_1_D8C07C79.wem</Path>
+						<File Id="355805810" Language="SFX">
+							<ShortName>SFX_Telekinesie_Complete_2.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_Complete_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="571519212" Language="SFX">
+							<ShortName>SFX_Telekinesie_Complete_1.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_Complete_1_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -586,6 +618,14 @@
 				</Event>
 				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Stop_SFX_GPE_Telekinesie">
 					<IncludedMemoryFiles>
+						<File Id="622243301" Language="SFX">
+							<ShortName>SFX_Telekinesie_End__1.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_End__1_D8C07C79.wem</Path>
+						</File>
+						<File Id="866644198" Language="SFX">
+							<ShortName>SFX_Telekinesie_End__2.wav</ShortName>
+							<Path>SFX\SFX_Telekinesie_End__2_D8C07C79.wem</Path>
+						</File>
 						<File Id="1029296119" Language="SFX">
 							<ShortName>SFX_Telekinesie_End__3.wav</ShortName>
 							<Path>SFX\SFX_Telekinesie_End__3_D4A84AA5.wem</Path>
@@ -617,6 +657,10 @@
 				<File Id="36604641" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="43107221" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
 				</File>
 				<File Id="45807246" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_G.wav</ShortName>
@@ -654,6 +698,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Chimes_F2.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem</Path>
 				</File>
+				<File Id="101514648" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
+				</File>
 				<File Id="106982745" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem</Path>
@@ -681,6 +729,10 @@
 				<File Id="139256099" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_DS1.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS1_D8C07C79.wem</Path>
+				</File>
+				<File Id="148496668" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="148533558" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D3_01.wav</ShortName>
@@ -718,6 +770,10 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_DS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_DS2_D8C07C79.wem</Path>
 				</File>
+				<File Id="207786451" Language="SFX">
+					<ShortName>SFX_Telekinesie_Start_3.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_Start_3_D8C07C79.wem</Path>
+				</File>
 				<File Id="212994197" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_DS4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_DS4_D8C07C79.wem</Path>
@@ -733,6 +789,10 @@
 				<File Id="233991831" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A1_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="236031477" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
 				</File>
 				<File Id="239111183" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_03.wav</ShortName>
@@ -804,7 +864,7 @@
 				</File>
 				<File Id="341736279" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_4.wav</ShortName>
-					<Path>SFX\SFX_GPE_Bumper_4_D8C07C79.wem</Path>
+					<Path>SFX\SFX_GPE_Bumper_4_EBD22531.wem</Path>
 				</File>
 				<File Id="342215700" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_F4.wav</ShortName>
@@ -813,6 +873,10 @@
 				<File Id="353254387" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F2_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="355805810" Language="SFX">
+					<ShortName>SFX_Telekinesie_Complete_2.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_Complete_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="356452749" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_02.wav</ShortName>
@@ -870,10 +934,6 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="478743489" Language="SFX">
-					<ShortName>SFX_Telekinesie_End_1.wav</ShortName>
-					<Path>SFX\SFX_Telekinesie_End_1_D8C07C79.wem</Path>
-				</File>
 				<File Id="483306855" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_01_D8C07C79.wem</Path>
@@ -918,6 +978,10 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_A1_D8C07C79.wem</Path>
 				</File>
+				<File Id="571519212" Language="SFX">
+					<ShortName>SFX_Telekinesie_Complete_1.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_Complete_1_D8C07C79.wem</Path>
+				</File>
 				<File Id="579272588" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_3_D8C07C79.wem</Path>
@@ -953,6 +1017,10 @@
 				<File Id="617217899" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_G2_D8C07C79.wem</Path>
+				</File>
+				<File Id="622243301" Language="SFX">
+					<ShortName>SFX_Telekinesie_End__1.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_End__1_D8C07C79.wem</Path>
 				</File>
 				<File Id="647760645" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>
@@ -1094,6 +1162,14 @@
 					<ShortName>SFX_GPE_Butterfly_Layer_F3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem</Path>
 				</File>
+				<File Id="866644198" Language="SFX">
+					<ShortName>SFX_Telekinesie_End__2.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_End__2_D8C07C79.wem</Path>
+				</File>
+				<File Id="867625013" Language="SFX">
+					<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
+					<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
+				</File>
 				<File Id="884640607" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G3_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_02_D8C07C79.wem</Path>
@@ -1149,6 +1225,10 @@
 				<File Id="990181979" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="999522006" Language="SFX">
+					<ShortName>SFX_Telekinesie_Start_2.wav</ShortName>
+					<Path>SFX\SFX_Telekinesie_Start_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="999835100" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C2_01.wav</ShortName>

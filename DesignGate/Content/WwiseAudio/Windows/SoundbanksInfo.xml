@@ -44,7 +44,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1895225174">
+		<SoundBank Id="393239870" Language="SFX" Hash="4085929428">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -95,25 +95,33 @@
 				</Event>
 				<Event Id="2573704570" Name="Play_SFX_GPE_PlantPlatorm_Open" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_PlantPlatform\Play_SFX_GPE_PlantPlatorm_Open" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
-						<File Id="130967582" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
+						<File Id="45807246" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_G.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_G_D8C07C79.wem</Path>
 						</File>
-						<File Id="374437879" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
+						<File Id="117693384" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_FS.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_FS_D8C07C79.wem</Path>
 						</File>
-						<File Id="500044490" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
+						<File Id="467917846" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_D.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_D_D8C07C79.wem</Path>
 						</File>
-						<File Id="507893096" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
+						<File Id="513996057" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_DS.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_DS_D8C07C79.wem</Path>
 						</File>
-						<File Id="724915893" Language="SFX">
-							<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
-							<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
+						<File Id="599936942" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_F.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_F_D8C07C79.wem</Path>
+						</File>
+						<File Id="713070006" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_C.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_C_D8C07C79.wem</Path>
+						</File>
+						<File Id="1037262259" Language="SFX">
+							<ShortName>SFX_GPE_PlantPlatorm_Open_A.wav</ShortName>
+							<Path>SFX\SFX_GPE_PlantPlatorm_Open_A_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -181,7 +189,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="944437210" Name="Play_SFX_GPE_Stele_C3_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_C3_Start" MaxAttenuation="11000.000000">
+				<Event Id="944437210" Name="Play_SFX_GPE_Stele_C3_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_C3_Start" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="659122690" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_C3.wav</ShortName>
@@ -198,7 +206,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4046859122" Name="Play_SFX_GPE_Stele_C3_Stop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_C3_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="1488972579" Name="Play_SFX_GPE_Stele_D3_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_D3_Start" MaxAttenuation="11000.000000">
+				<Event Id="1488972579" Name="Play_SFX_GPE_Stele_D3_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_D3_Start" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="261695194" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
@@ -215,7 +223,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="683320097" Name="Play_SFX_GPE_Stele_D3_Stop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_D3_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="2751041316" Name="Play_SFX_GPE_Stele_DS3_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_DS3_Start" MaxAttenuation="11000.000000">
+				<Event Id="2751041316" Name="Play_SFX_GPE_Stele_DS3_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_DS3_Start" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="24149264" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -232,7 +240,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2028669016" Name="Play_SFX_GPE_Stele_DS3_Stop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_DS3_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="2406314802" Name="Play_SFX_GPE_Stele_G3_C4_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_G3_C4_Start" MaxAttenuation="11000.000000">
+				<Event Id="2406314802" Name="Play_SFX_GPE_Stele_G3_C4_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_G3_C4_Start" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="64635819" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_C4.wav</ShortName>
@@ -276,6 +284,342 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2012244440" Name="Play_SFX_GPE_ToyPlant_A" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_A" MaxAttenuation="5000.000000">
+					<IncludedMemoryFiles>
+						<File Id="19968261" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="93449857" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="106982745" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="233991831" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="270100597" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_A2.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_A2_D8C07C79.wem</Path>
+						</File>
+						<File Id="402286783" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="570281229" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="584397358" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="615154265" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_A1.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_A1_D8C07C79.wem</Path>
+						</File>
+						<File Id="693458742" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="947279076" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_A3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2809569147" Name="Play_SFX_GPE_ToyPlant_AS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_AS" MaxAttenuation="5000.000000">
+					<IncludedMemoryFiles>
+						<File Id="36604641" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="110874952" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="192162486" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="470056985" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="514383079" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_AS1.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_AS1_D8C07C79.wem</Path>
+						</File>
+						<File Id="600199274" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="758764640" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="900318669" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="985908898" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="1011144336" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_AS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_AS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="1070609207" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2012244442" Name="Play_SFX_GPE_ToyPlant_C" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_C" MaxAttenuation="5000.000000">
+					<IncludedMemoryFiles>
+						<File Id="309400106" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_C2.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_C2_D8C07C79.wem</Path>
+						</File>
+						<File Id="483306855" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="553186713" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="655731917" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_C1.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_C1_D8C07C79.wem</Path>
+						</File>
+						<File Id="661246042" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="691316587" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="800108783" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="828882002" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="850915155" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="990181979" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="999835100" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_C2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2012244445" Name="Play_SFX_GPE_ToyPlant_D" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_D" MaxAttenuation="5000.000000">
+					<IncludedMemoryFiles>
+						<File Id="30374229" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="148533558" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="259028868" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="518900440" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="680490105" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="798217334" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="955535201" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="957458129" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="981826346" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_D2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="1013658289" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_D2.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_D2_D8C07C79.wem</Path>
+						</File>
+						<File Id="1040005805" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_D1.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_D1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2893457044" Name="Play_SFX_GPE_ToyPlant_DS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_DS" MaxAttenuation="5000.000000">
+					<IncludedMemoryFiles>
+						<File Id="79435795" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="139256099" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_DS1.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS1_D8C07C79.wem</Path>
+						</File>
+						<File Id="188363552" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_DS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="239111183" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="295003249" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="356452749" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="395040096" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="535226205" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="601019325" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="949988494" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1014862457" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2012244447" Name="Play_SFX_GPE_ToyPlant_F" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_F" MaxAttenuation="5000.000000">
+					<IncludedMemoryFiles>
+						<File Id="4604180" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="98890993" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_F2.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem</Path>
+						</File>
+						<File Id="243623444" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="244125585" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="291539374" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="353254387" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="678544366" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_F1.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_F1_D8C07C79.wem</Path>
+						</File>
+						<File Id="724302095" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="749644177" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="784161327" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="1054465173" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_F1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2012244446" Name="Play_SFX_GPE_ToyPlant_G" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_G" MaxAttenuation="5000.000000">
+					<IncludedMemoryFiles>
+						<File Id="50436246" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="201527366" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="213777383" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="318329739" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="594698355" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="617217899" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_G2.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_G2_D8C07C79.wem</Path>
+						</File>
+						<File Id="696749574" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="712658994" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="884640607" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="902484395" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Chimes_G1.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem</Path>
+						</File>
+						<File Id="1016339075" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Whisper_G2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Stop_SFX_GPE_Telekinesie">
 					<IncludedMemoryFiles>
 						<File Id="1029296119" Language="SFX">
@@ -286,17 +630,37 @@
 				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="4604180" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="5846075" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="19968261" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="24149264" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_DS3_D8C07C79.wem</Path>
 				</File>
+				<File Id="30374229" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="36604641" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="45807246" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_G_D8C07C79.wem</Path>
+				</File>
+				<File Id="50436246" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="64635819" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C4.wav</ShortName>
@@ -310,13 +674,33 @@
 					<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_C3_D8C07C79.wem</Path>
 				</File>
+				<File Id="79435795" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="85145748" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_DS4_D8C07C79.wem</Path>
 				</File>
+				<File Id="93449857" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="98890993" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_F2.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem</Path>
+				</File>
+				<File Id="106982745" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="109901540" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_D2_D8C07C79.wem</Path>
+				</File>
+				<File Id="110874952" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="117693384" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_FS.wav</ShortName>
@@ -326,13 +710,17 @@
 					<ShortName>SFX_GPE_Bumper_5.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_5_D8C07C79.wem</Path>
 				</File>
-				<File Id="130967582" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
-				</File>
 				<File Id="133630538" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_G2_D8C07C79.wem</Path>
+				</File>
+				<File Id="139256099" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_DS1.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS1_D8C07C79.wem</Path>
+				</File>
+				<File Id="148533558" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="175890529" Language="SFX">
 					<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
@@ -346,9 +734,21 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_A2_D8C07C79.wem</Path>
 				</File>
+				<File Id="188363552" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_DS2.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem</Path>
+				</File>
+				<File Id="192162486" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="197037388" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
+				</File>
+				<File Id="201527366" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="204923600" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS2.wav</ShortName>
@@ -358,17 +758,45 @@
 					<ShortName>SFX_GPE_Stele_Stone_DS4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_DS4_D8C07C79.wem</Path>
 				</File>
+				<File Id="213777383" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="224544293" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_AS4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_AS4_D8C07C79.wem</Path>
+				</File>
+				<File Id="233991831" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="239111183" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="239712345" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
 				</File>
+				<File Id="243623444" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="244125585" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="259028868" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="261695194" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_D3_D8C07C79.wem</Path>
+				</File>
+				<File Id="270100597" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_A2.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_A2_D8C07C79.wem</Path>
 				</File>
 				<File Id="279707459" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_G3.wav</ShortName>
@@ -378,9 +806,25 @@
 					<ShortName>SFX_GPE_Stele_Stone_G3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_G3_D8C07C79.wem</Path>
 				</File>
+				<File Id="291539374" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="295003249" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="309400106" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_C2.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_C2_D8C07C79.wem</Path>
+				</File>
 				<File Id="314847094" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_DS3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_DS3_D8C07C79.wem</Path>
+				</File>
+				<File Id="318329739" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="331774444" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS1.wav</ShortName>
@@ -402,9 +846,13 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_F4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_F4_D8C07C79.wem</Path>
 				</File>
-				<File Id="374437879" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_5.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem</Path>
+				<File Id="353254387" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="356452749" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="377871452" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D4.wav</ShortName>
@@ -417,6 +865,14 @@
 				<File Id="384310040" Language="SFX">
 					<ShortName>SFX_Telekinesie_lp.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_lp_D8C07C79.wem</Path>
+				</File>
+				<File Id="395040096" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="402286783" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="402602504" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_AS2.wav</ShortName>
@@ -446,33 +902,53 @@
 					<ShortName>SFX_GPE_PlantPlatorm_Open_D.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_D_D8C07C79.wem</Path>
 				</File>
+				<File Id="470056985" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="478743489" Language="SFX">
 					<ShortName>SFX_Telekinesie_End_1.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_End_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="483306855" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="486250280" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
 				</File>
-				<File Id="500044490" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
-				</File>
-				<File Id="507893096" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
-				</File>
 				<File Id="513996057" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_DS.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_DS_D8C07C79.wem</Path>
+				</File>
+				<File Id="514383079" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_AS1.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_AS1_D8C07C79.wem</Path>
+				</File>
+				<File Id="518900440" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="524979824" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_D4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_D4_D8C07C79.wem</Path>
 				</File>
+				<File Id="535226205" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="553186713" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="555465848" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="570281229" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="570530222" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_A1.wav</ShortName>
@@ -482,21 +958,61 @@
 					<ShortName>SFX_GPE_Bumper_3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_3_D8C07C79.wem</Path>
 				</File>
+				<File Id="584397358" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="594698355" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="599936942" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_F.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_F_D8C07C79.wem</Path>
+				</File>
+				<File Id="600199274" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="601019325" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="610677375" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
 				</File>
+				<File Id="615154265" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_A1.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_A1_D8C07C79.wem</Path>
+				</File>
+				<File Id="617217899" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_G2.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_G2_D8C07C79.wem</Path>
+				</File>
 				<File Id="647760645" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem</Path>
 				</File>
+				<File Id="655731917" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_C1.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_C1_D8C07C79.wem</Path>
+				</File>
 				<File Id="659122690" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_C3_D8C07C79.wem</Path>
+				</File>
+				<File Id="661246042" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="678544366" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_F1.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_F1_D8C07C79.wem</Path>
+				</File>
+				<File Id="680490105" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="687940808" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_D4.wav</ShortName>
@@ -506,25 +1022,49 @@
 					<ShortName>SFX_GPE_Stele_Stone_G1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_G1_D8C07C79.wem</Path>
 				</File>
+				<File Id="691316587" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="693050746" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_A3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_A3_D8C07C79.wem</Path>
+				</File>
+				<File Id="693458742" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="696749574" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="712658994" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="713070006" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_C.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_C_D8C07C79.wem</Path>
 				</File>
-				<File Id="724915893" Language="SFX">
-					<ShortName>SFX_GPE_PlantPlatorm_Open_2.wav</ShortName>
-					<Path>SFX\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem</Path>
+				<File Id="724302095" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="726963180" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D3_D8C07C79.wem</Path>
 				</File>
+				<File Id="749644177" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="752171227" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_AS1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_AS1_D8C07C79.wem</Path>
+				</File>
+				<File Id="758764640" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="759739255" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>
@@ -538,6 +1078,18 @@
 					<ShortName>SFX_GPE_Stele_Stone_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A1_D8C07C79.wem</Path>
 				</File>
+				<File Id="784161327" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="798217334" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="800108783" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="808406191" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
@@ -545,6 +1097,14 @@
 				<File Id="824316949" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_F4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_F4_D8C07C79.wem</Path>
+				</File>
+				<File Id="828882002" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="850915155" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="854186318" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS1.wav</ShortName>
@@ -570,9 +1130,21 @@
 					<ShortName>SFX_GPE_Butterfly_Layer_F3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem</Path>
 				</File>
+				<File Id="884640607" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="889358637" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A2_D8C07C79.wem</Path>
+				</File>
+				<File Id="900318669" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="902484395" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_G1.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem</Path>
 				</File>
 				<File Id="941605390" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C2.wav</ShortName>
@@ -582,13 +1154,61 @@
 					<ShortName>SFX_GPE_Butterfly_Layer_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem</Path>
 				</File>
+				<File Id="947279076" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="949988494" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="955535201" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="957458129" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="981826346" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="985908898" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="986239945" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_C3_D8C07C79.wem</Path>
 				</File>
+				<File Id="990181979" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="999835100" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_C2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="1011144336" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_AS2.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_AS2_D8C07C79.wem</Path>
+				</File>
+				<File Id="1013658289" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_D2.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_D2_D8C07C79.wem</Path>
+				</File>
 				<File Id="1014667078" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A3_D8C07C79.wem</Path>
+				</File>
+				<File Id="1014862457" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="1016339075" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_G2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="1029296119" Language="SFX">
 					<ShortName>SFX_Telekinesie_End__3.wav</ShortName>
@@ -602,13 +1222,25 @@
 					<ShortName>SFX_GPE_PlantPlatorm_Open_A.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_A_D8C07C79.wem</Path>
 				</File>
+				<File Id="1040005805" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Chimes_D1.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Chimes_D1_D8C07C79.wem</Path>
+				</File>
+				<File Id="1054465173" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="1063009932" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A4_D8C07C79.wem</Path>
 				</File>
+				<File Id="1070609207" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_01_D8C07C79.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="1944925729">
+		<SoundBank Id="1167860281" Language="SFX" Hash="3760007725">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -901,6 +1533,130 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="864949234" Name="Play_SFX_GPE_Melody_Oct3_Int1" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int1">
+					<IncludedMemoryFiles>
+						<File Id="181185373" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="554353361" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="852197027" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int1_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="864949233" Name="Play_SFX_GPE_Melody_Oct3_Int2" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int2">
+					<IncludedMemoryFiles>
+						<File Id="441879519" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int2_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="513649411" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1041570747" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int2_02_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="864949232" Name="Play_SFX_GPE_Melody_Oct3_Int3" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int3">
+					<IncludedMemoryFiles>
+						<File Id="221862088" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="241919516" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="382096380" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int3_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="864949239" Name="Play_SFX_GPE_Melody_Oct3_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct3_Int4">
+					<IncludedMemoryFiles>
+						<File Id="41441560" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int4_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int4_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="706389181" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int4_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int4_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="817628089" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct3_Int4_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct3_Int4_03_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1922382179" Name="Play_SFX_GPE_Melody_Oct4_Int1" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int1">
+					<IncludedMemoryFiles>
+						<File Id="337878518" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int1_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int1_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="401515653" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int1_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="982207212" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int1_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int1_03_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1922382176" Name="Play_SFX_GPE_Melody_Oct4_Int2" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int2">
+					<IncludedMemoryFiles>
+						<File Id="305844964" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int2_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1012426382" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int2_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int2_02_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1922382177" Name="Play_SFX_GPE_Melody_Oct4_Int3" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int3">
+					<IncludedMemoryFiles>
+						<File Id="156052499" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int3_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="329413092" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int3_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="456020773" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int3_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int3_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1922382182" Name="Play_SFX_GPE_Melody_Oct4_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\Play_SFX_GPE_Melody_Oct4_Int4">
+					<IncludedMemoryFiles>
+						<File Id="62943608" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int4_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int4_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="197723392" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int4_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int4_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="911621877" Language="SFX">
+							<ShortName>SFX_GPE_Melody_Oct4_Int4_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_Melody_Oct4_Int4_03_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="9462856" Language="SFX">
@@ -927,6 +1683,10 @@
 					<ShortName>Flt_C_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="41441560" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int4_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int4_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="43780261" Language="SFX">
 					<ShortName>Flute_Melody_Main_DS.wav</ShortName>
 					<Path>SFX\Flute_Melody_Main_DS_D8C07C79.wem</Path>
@@ -942,6 +1702,10 @@
 				<File Id="61460550" Language="SFX">
 					<ShortName>Flt_F_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_F_Reverb_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="62943608" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int4_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int4_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="67001878" Language="SFX">
 					<ShortName>Flute_Melody_Reverb_DS.wav</ShortName>
@@ -959,13 +1723,33 @@
 					<ShortName>Flt_G_Breath.wav</ShortName>
 					<Path>SFX\Flt_G_Breath_D8C07C79.wem</Path>
 				</File>
+				<File Id="156052499" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="181185373" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int1_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="185484287" Language="SFX">
 					<ShortName>Flt_D_Main_End.wav</ShortName>
 					<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="197723392" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int4_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int4_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="197976420" Language="SFX">
 					<ShortName>Flt_G_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Reverb_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="221862088" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int3_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="241919516" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int3_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="243158655" Language="SFX">
 					<ShortName>Flt_D#_Breath.wav</ShortName>
@@ -983,6 +1767,10 @@
 					<ShortName>Flt_C_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_C_Main_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="305844964" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int2_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="312456375" Language="SFX">
 					<ShortName>Flt_C_Breath.wav</ShortName>
 					<Path>SFX\Flt_C_Breath_D8C07C79.wem</Path>
@@ -991,9 +1779,21 @@
 					<ShortName>Flt_G_Layer_Start.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="329413092" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int3_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int3_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="337878518" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int1_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="361188122" Language="SFX">
 					<ShortName>Flt_F_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_F_Main_Start_D8C07C79.wem</Path>
+				</File>
+				<File Id="382096380" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int3_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="392890804" Language="SFX">
 					<ShortName>Flt_F_Reverb_Loop.wav</ShortName>
@@ -1003,9 +1803,17 @@
 					<ShortName>Flt_C_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="401515653" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int1_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int1_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="431232726" Language="SFX">
 					<ShortName>Flute_Melody_Magical_G.wav</ShortName>
 					<Path>SFX\Flute_Melody_Magical_G_D8C07C79.wem</Path>
+				</File>
+				<File Id="441879519" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int2_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int2_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="446395729" Language="SFX">
 					<ShortName>Flt_D#_Layer_Start.wav</ShortName>
@@ -1014,6 +1822,10 @@
 				<File Id="451198114" Language="SFX">
 					<ShortName>Flt_F_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_F_Layer_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="456020773" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int3_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int3_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="470087089" Language="SFX">
 					<ShortName>Flute_Melody_Magical_DS.wav</ShortName>
@@ -1027,9 +1839,17 @@
 					<ShortName>Flt_D_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="513649411" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int2_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int2_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="538573930" Language="SFX">
 					<ShortName>Flt_C_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="554353361" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int1_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="571855905" Language="SFX">
 					<ShortName>Flute_Melody_Main_G.wav</ShortName>
@@ -1063,6 +1883,10 @@
 					<ShortName>Flt_G_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="706389181" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int4_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int4_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="733805807" Language="SFX">
 					<ShortName>Flt_D_Reverb_Start.wav</ShortName>
 					<Path>SFX\Flt_D_Reverb_Start_D8C07C79.wem</Path>
@@ -1091,9 +1915,17 @@
 					<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
 				</File>
+				<File Id="817628089" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int4_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int4_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="846732178" Language="SFX">
 					<ShortName>Flt_DS_Reverb_End.wav</ShortName>
 					<Path>SFX\Flt_DS_Reverb_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="852197027" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int1_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int1_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="867948560" Language="SFX">
 					<ShortName>Flt_D_Main_Loop.wav</ShortName>
@@ -1111,6 +1943,10 @@
 					<ShortName>Flt_G_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
 				</File>
+				<File Id="911621877" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int4_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int4_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="945158233" Language="SFX">
 					<ShortName>Flute_Melody_Magical_F.wav</ShortName>
 					<Path>SFX\Flute_Melody_Magical_F_D8C07C79.wem</Path>
@@ -1119,9 +1955,17 @@
 					<ShortName>Flt_D_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_D_Layer_Loop_D8C07C79.wem</Path>
 				</File>
+				<File Id="982207212" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int1_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int1_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="983427185" Language="SFX">
 					<ShortName>Flt_D#_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_D#_Main_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="1012426382" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct4_Int2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct4_Int2_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="1021185733" Language="SFX">
 					<ShortName>Flt_F_Layer_Start.wav</ShortName>
@@ -1134,6 +1978,10 @@
 				<File Id="1040993073" Language="SFX">
 					<ShortName>Flt_D#_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_D#_Layer_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="1041570747" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Oct3_Int2_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Oct3_Int2_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="1057739009" Language="SFX">
 					<ShortName>Flt_F_Layer_End.wav</ShortName>
@@ -1149,7 +1997,7 @@
 				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="2462933111">
+		<SoundBank Id="4056684167" Language="SFX" Hash="4276630822">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

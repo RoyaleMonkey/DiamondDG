@@ -1131,6 +1131,92 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SFX_GPE_Melody" ID="{A8CE7638-69CE-4AE3-9147-7A813A157830}" ShortID="888934716">
+					<ChildrenList>
+						<Folder Name="SFX_GPE_Melody_Note1" ID="{B7B9C3E7-7781-4D9B-AA8F-D0AC959491AB}" ShortID="1005849227">
+							<ChildrenList>
+								<Event Name="Play_SFX_GPE_Melody_Note1_Oct3_Int1" ID="{87B15629-97B5-46DB-8DA7-2C779ED1E191}">
+									<ChildrenList>
+										<Action Name="" ID="{835CE539-6558-4940-880B-5D55F8845FF5}" ShortID="243391211">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Melody_Note1_Oct3_Int1" ID="{FC646EF4-D7DF-445B-B23F-68E14EF608F9}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Melody_Note1_Oct3_Int2" ID="{1DEA7EC4-1C2E-4317-9A0E-78BDB97F5A91}">
+									<ChildrenList>
+										<Action Name="" ID="{2901AE0D-E4A2-4EB5-B00E-FA7E2CB39B36}" ShortID="471526770">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Melody_Note1_Oct3_Int2" ID="{73922468-A48A-4EBA-B77A-D189866638D2}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Melody_Note1_Oct3_Int3" ID="{EABE566C-B5B5-4A9A-89FC-42C91F66FE88}">
+									<ChildrenList>
+										<Action Name="" ID="{29D51185-06D0-48A3-9929-4EDF86E5C7C9}" ShortID="1019483034">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Melody_Note1_Oct3_Int3" ID="{D23AEDC7-01E9-48B3-8190-3EA7F1A8AB22}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Melody_Note1_Oct4_Int5" ID="{67E19BE7-4569-42FE-9503-5D4D46224EF0}">
+									<ChildrenList>
+										<Action Name="" ID="{A789418D-146C-4141-A9A5-DCFF6AAD733E}" ShortID="1023289499">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Melody_Note1_Oct4_Int5" ID="{28D7567B-693B-4C44-AE88-059D517D711E}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Melody_Note1_Oct34_Int4" ID="{4459C05C-3F0B-4ADC-A096-443887C83602}">
+									<ChildrenList>
+										<Action Name="" ID="{42F2014E-D533-49C0-B06E-0B830FDF8060}" ShortID="47169230">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Melody_Note1_Oct34_Int4" ID="{9667FA96-DC1E-42AB-B87F-5D906AD2C128}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Melody_Note1_Oct4_Int6" ID="{1BF90D3B-C274-471B-9B23-D2E312BE112A}">
+									<ChildrenList>
+										<Action Name="" ID="{CFDE6415-ABA5-440D-BCAF-B83634E415B9}" ShortID="796495124">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Melody_Note1_Oct4_Int6" ID="{429EC950-5C32-4AE2-AA53-FCD67C97A6D3}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Melody_Note1_Oct4_Int7" ID="{E2FF0098-FC7C-4435-93A0-A3D98130B2BD}">
+									<ChildrenList>
+										<Action Name="" ID="{25EF600F-E6BA-4034-9CA8-91DF65596FDC}" ShortID="31457436">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Melody_Note1_Oct4_Int7" ID="{31478073-FACE-4A77-B8C0-34F3BC2FA992}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFX_GPE_Melody_Note2" ID="{DD7BC09D-4A9E-400E-A485-AC4C848FD917}" ShortID="1061073133"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

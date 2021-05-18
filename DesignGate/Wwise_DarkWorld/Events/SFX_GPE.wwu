@@ -448,9 +448,36 @@
 						<Event Name="Play_SFX_GPE_ToyPlant_G" ID="{A349D9EC-DD38-4EAB-B3E2-57128B5CA598}">
 							<ChildrenList>
 								<Action Name="" ID="{FE127954-591B-4BEF-9202-958B550E2DBB}" ShortID="700074091">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_G" ID="{F7D49424-FFFA-4942-882D-E6BD52DE29B0}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{21BECDEE-AE24-4AE0-BFD9-310E06EAC00E}" ShortID="919597063">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_G" ID="{E28BD5DD-A92E-4697-B947-2D86537A48E7}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A2EAA642-9E30-4705-85E3-AC2D6A392349}" ShortID="240661980">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_G" ID="{234375F7-0D5F-4B92-A2DC-576F31C1CF74}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -459,9 +486,36 @@
 						<Event Name="Play_SFX_GPE_ToyPlant_F" ID="{D6ED2472-EB4D-4E83-AC2B-78F19E534F2D}">
 							<ChildrenList>
 								<Action Name="" ID="{E8EFB0F1-068E-4E66-9470-3996321B6AAC}" ShortID="610948218">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_F" ID="{1A831714-F455-4DAD-90CA-E31118A1C061}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{85422AB8-0D33-4595-886A-F1AD204E5CD0}" ShortID="954268770">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_F" ID="{3759C653-C11B-4B66-A853-D469C6EBEFF9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1C5ADA35-146B-4271-90E7-99E56CAEA689}" ShortID="392643511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_F" ID="{2C3897DC-F408-4FD3-9D8E-E0C469D9798E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -470,9 +524,36 @@
 						<Event Name="Play_SFX_GPE_ToyPlant_A" ID="{5827433F-B34D-4A53-9CF9-70A69A14B7B7}">
 							<ChildrenList>
 								<Action Name="" ID="{53B76191-F6CA-4FE4-8B53-C4F4E2D9C98A}" ShortID="782851430">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_A" ID="{F304A75D-524E-47B1-85F3-261E3B51E73D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D644CB23-AC57-4572-A96C-0793FBAA1376}" ShortID="980714398">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper" ID="{86A3760D-B686-407D-B072-92EF0115D6E4}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D54B63F2-ED49-4A5E-90DF-5B59908F7EE1}" ShortID="90077863">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_A" ID="{997260E1-34C4-42AB-9B93-4EC831F4BD76}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -481,9 +562,36 @@
 						<Event Name="Play_SFX_GPE_ToyPlant_AS" ID="{0B9BDA53-2FE6-48C8-BA0D-F5281DD28403}">
 							<ChildrenList>
 								<Action Name="" ID="{0FAFD025-D340-473A-AD8B-47BBEE6A38F6}" ShortID="670951354">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_AS" ID="{6FF7545A-004C-40F4-8059-CB763F5BBC5F}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FEC51C1D-DECC-4DCD-8551-A9EDDE0200B6}" ShortID="563892372">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_AS" ID="{F5624919-E0A8-422C-B44D-949425C59FBD}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C2EEB5D5-7065-4B6E-9B63-8981B961FD51}" ShortID="102269522">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_AS" ID="{0293CFBB-0FE7-4B7D-A106-16D8CBEFF498}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -492,9 +600,36 @@
 						<Event Name="Play_SFX_GPE_ToyPlant_C" ID="{71BBF87B-B681-4960-9028-9EB473FA027E}">
 							<ChildrenList>
 								<Action Name="" ID="{64C4ECD8-52AF-4435-B6B7-D2DF963EBE68}" ShortID="857538724">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_C" ID="{6B9EABA4-420F-4E1D-9EDC-C6E4E794CB71}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7C2B9235-D3CC-4040-A6F2-B127C0AC643E}" ShortID="494768842">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_C" ID="{A2E008F6-520A-4292-BA1C-F70EF83161FE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C42F68AE-8E6B-44D0-882B-6F12A6E75EBA}" ShortID="515181147">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_C" ID="{B7A68E15-A39E-434D-8D40-0B1338604C25}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -503,9 +638,36 @@
 						<Event Name="Play_SFX_GPE_ToyPlant_D" ID="{9CD8A561-7B08-4173-87D4-47A2D677CF9E}">
 							<ChildrenList>
 								<Action Name="" ID="{208F2435-9D9F-4E24-9A1D-E8D5FA3E165A}" ShortID="214993630">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_D" ID="{DADD6BC5-61FC-49D2-A69D-18EB229FF007}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B5A5BD2D-7883-4E3D-BD76-7D822EAF1989}" ShortID="736234123">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_D" ID="{B5B80C13-13BF-4617-8252-C3CF543B29A6}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2B191299-74B5-4139-A3A4-62F466750FF9}" ShortID="673103959">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_D" ID="{261DF710-6240-4E33-834C-FEA607E7A57E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -514,9 +676,36 @@
 						<Event Name="Play_SFX_GPE_ToyPlant_DS" ID="{989F16D1-0EE7-4E7D-BCC3-35972C327489}">
 							<ChildrenList>
 								<Action Name="" ID="{0EBE18DC-2564-4696-9C8F-E647D921A430}" ShortID="822291478">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_DS" ID="{9B2F191D-5A08-45DE-AD8B-40FEC130C554}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{121F53DE-D6AF-4A09-A0EB-2AB0F057E50D}" ShortID="694254200">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_DS" ID="{DFC1B9EE-4780-4AD9-9D41-D5F4F65862A3}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{02DA5906-0C82-4322-B1B4-F8DD434F08A1}" ShortID="147723261">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_DS" ID="{1D786016-B404-4966-BA4D-2C5BC8DCB40E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -67,7 +67,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2831646287",
+    "Hash": "1168935276",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -94,7 +94,7 @@
         "Id": "341736279",
         "Language": "SFX",
         "ShortName": "SFX_GPE_Bumper_4.wav",
-        "Path": "SFX\\SFX_GPE_Bumper_4_4BF16ABF.wem"
+        "Path": "SFX\\SFX_GPE_Bumper_4_EBD22531.wem"
        },
        {
         "Id": "555465848",
@@ -1411,7 +1411,7 @@
       "Id": "341736279",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Bumper_4.wav",
-      "Path": "SFX\\SFX_GPE_Bumper_4_4BF16ABF.wem"
+      "Path": "SFX\\SFX_GPE_Bumper_4_EBD22531.wem"
      },
      {
       "Id": "342215700",
@@ -2042,6 +2042,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
+    "Hash": "255658877",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -2735,7 +2736,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "1936149444",
+    "Hash": "1363058167",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2750,7 +2751,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "3292074452",
+    "Hash": "102682511",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",

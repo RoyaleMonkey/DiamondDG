@@ -113,6 +113,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID MC_FALLING = 33954365U;
         static const AkUniqueID MC_SPEED = 1227053913U;
     } // namespace GAME_PARAMETERS
 

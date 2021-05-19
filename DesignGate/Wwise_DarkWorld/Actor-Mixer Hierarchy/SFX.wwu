@@ -1743,7 +1743,7 @@
 														<Property Name="FadeInDuration" Type="Real64" Value="0.101183754280822"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.120218321917808"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.313569456335617"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.467849636130138"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Telekinesie_End__3.wav</AudioFile>
@@ -1767,6 +1767,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Telekinesie_End__1" ID="{E7A025EF-4871-4D7C-AE94-108F091427D3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0530964255136987"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0901637414383562"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.487886023116438"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Telekinesie_End__1.wav</AudioFile>
 													<MediaIDList>
@@ -1789,6 +1795,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Telekinesie_End__2" ID="{41B15724-0449-414E-B6B8-85395C2F1F27}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0483159960045662"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.152018621575342"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.490230593607306"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Telekinesie_End__2.wav</AudioFile>
 													<MediaIDList>

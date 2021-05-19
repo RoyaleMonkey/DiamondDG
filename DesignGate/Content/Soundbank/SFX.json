@@ -15,7 +15,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2241800212",
+    "Hash": "1168935276",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -42,7 +42,7 @@
         "Id": "341736279",
         "Language": "SFX",
         "ShortName": "SFX_GPE_Bumper_4.wav",
-        "Path": "SFX\\SFX_GPE_Bumper_4_D8C07C79.wem"
+        "Path": "SFX\\SFX_GPE_Bumper_4_EBD22531.wem"
        },
        {
         "Id": "555465848",
@@ -99,34 +99,76 @@
       "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
-        "Id": "130967582",
-        "Language": "SFX",
-        "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
-        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
-       },
-       {
-        "Id": "374437879",
+        "Id": "43107221",
         "Language": "SFX",
         "ShortName": "SFX_GPE_PlantPlatorm_Open_5.wav",
         "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem"
        },
        {
-        "Id": "500044490",
+        "Id": "45807246",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_G.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_G_D8C07C79.wem"
+       },
+       {
+        "Id": "101514648",
         "Language": "SFX",
         "ShortName": "SFX_GPE_PlantPlatorm_Open_1.wav",
         "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem"
        },
        {
-        "Id": "507893096",
+        "Id": "117693384",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_FS.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_FS_D8C07C79.wem"
+       },
+       {
+        "Id": "148496668",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_2.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem"
+       },
+       {
+        "Id": "236031477",
         "Language": "SFX",
         "ShortName": "SFX_GPE_PlantPlatorm_Open_3.wav",
         "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem"
        },
        {
-        "Id": "724915893",
+        "Id": "467917846",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_PlantPlatorm_Open_2.wav",
-        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem"
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_D.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_D_D8C07C79.wem"
+       },
+       {
+        "Id": "513996057",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_DS.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_DS_D8C07C79.wem"
+       },
+       {
+        "Id": "599936942",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_F.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_F_D8C07C79.wem"
+       },
+       {
+        "Id": "713070006",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_C.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_C_D8C07C79.wem"
+       },
+       {
+        "Id": "867625013",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
+       },
+       {
+        "Id": "1037262259",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_PlantPlatorm_Open_A.wav",
+        "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_A_D8C07C79.wem"
        }
       ]
      },
@@ -388,10 +430,22 @@
         "Path": "SFX\\SFX_Telekinesie_Start_1_D8C07C79.wem"
        },
        {
+        "Id": "207786451",
+        "Language": "SFX",
+        "ShortName": "SFX_Telekinesie_Start_3.wav",
+        "Path": "SFX\\SFX_Telekinesie_Start_3_D8C07C79.wem"
+       },
+       {
         "Id": "384310040",
         "Language": "SFX",
         "ShortName": "SFX_Telekinesie_lp.wav",
         "Path": "SFX\\SFX_Telekinesie_lp_D8C07C79.wem"
+       },
+       {
+        "Id": "999522006",
+        "Language": "SFX",
+        "ShortName": "SFX_Telekinesie_Start_2.wav",
+        "Path": "SFX\\SFX_Telekinesie_Start_2_D8C07C79.wem"
        }
       ]
      },
@@ -401,10 +455,16 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\Play_SFX_GPE_Telekinesie_Finish",
       "IncludedMemoryFiles": [
        {
-        "Id": "478743489",
+        "Id": "355805810",
         "Language": "SFX",
-        "ShortName": "SFX_Telekinesie_End_1.wav",
-        "Path": "SFX\\SFX_Telekinesie_End_1_D8C07C79.wem"
+        "ShortName": "SFX_Telekinesie_Complete_2.wav",
+        "Path": "SFX\\SFX_Telekinesie_Complete_2_D8C07C79.wem"
+       },
+       {
+        "Id": "571519212",
+        "Language": "SFX",
+        "ShortName": "SFX_Telekinesie_Complete_1.wav",
+        "Path": "SFX\\SFX_Telekinesie_Complete_1_D8C07C79.wem"
        }
       ]
      },
@@ -412,6 +472,7 @@
       "Id": "2012244440",
       "Name": "Play_SFX_GPE_ToyPlant_A",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_A",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "19968261",
@@ -485,6 +546,7 @@
       "Id": "2809569147",
       "Name": "Play_SFX_GPE_ToyPlant_AS",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_AS",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "36604641",
@@ -558,6 +620,7 @@
       "Id": "2012244442",
       "Name": "Play_SFX_GPE_ToyPlant_C",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_C",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "309400106",
@@ -631,6 +694,7 @@
       "Id": "2012244445",
       "Name": "Play_SFX_GPE_ToyPlant_D",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_D",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "30374229",
@@ -704,6 +768,7 @@
       "Id": "2893457044",
       "Name": "Play_SFX_GPE_ToyPlant_DS",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_DS",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "79435795",
@@ -777,6 +842,7 @@
       "Id": "2012244447",
       "Name": "Play_SFX_GPE_ToyPlant_F",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_F",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "4604180",
@@ -850,6 +916,7 @@
       "Id": "2012244446",
       "Name": "Play_SFX_GPE_ToyPlant_G",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_ToyPlant\\Play_SFX_GPE_ToyPlant_G",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "50436246",
@@ -925,6 +992,18 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\Stop_SFX_GPE_Telekinesie",
       "IncludedMemoryFiles": [
        {
+        "Id": "622243301",
+        "Language": "SFX",
+        "ShortName": "SFX_Telekinesie_End__1.wav",
+        "Path": "SFX\\SFX_Telekinesie_End__1_D8C07C79.wem"
+       },
+       {
+        "Id": "866644198",
+        "Language": "SFX",
+        "ShortName": "SFX_Telekinesie_End__2.wav",
+        "Path": "SFX\\SFX_Telekinesie_End__2_D8C07C79.wem"
+       },
+       {
         "Id": "1029296119",
         "Language": "SFX",
         "ShortName": "SFX_Telekinesie_End__3.wav",
@@ -969,6 +1048,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_AS3_01.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS3_01_D8C07C79.wem"
+     },
+     {
+      "Id": "43107221",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_PlantPlatorm_Open_5.wav",
+      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem"
      },
      {
       "Id": "45807246",
@@ -1025,6 +1110,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem"
      },
      {
+      "Id": "101514648",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_PlantPlatorm_Open_1.wav",
+      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem"
+     },
+     {
       "Id": "106982745",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_03.wav",
@@ -1055,12 +1146,6 @@
       "Path": "SFX\\SFX_GPE_Bumper_5_D8C07C79.wem"
      },
      {
-      "Id": "130967582",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
-     },
-     {
       "Id": "133630538",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_G2.wav",
@@ -1071,6 +1156,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Chimes_DS1.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_DS1_D8C07C79.wem"
+     },
+     {
+      "Id": "148496668",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_PlantPlatorm_Open_2.wav",
+      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem"
      },
      {
       "Id": "148533558",
@@ -1127,6 +1218,12 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_DS2_D8C07C79.wem"
      },
      {
+      "Id": "207786451",
+      "Language": "SFX",
+      "ShortName": "SFX_Telekinesie_Start_3.wav",
+      "Path": "SFX\\SFX_Telekinesie_Start_3_D8C07C79.wem"
+     },
+     {
       "Id": "212994197",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_DS4.wav",
@@ -1149,6 +1246,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_03.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_03_D8C07C79.wem"
+     },
+     {
+      "Id": "236031477",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_PlantPlatorm_Open_3.wav",
+      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem"
      },
      {
       "Id": "239111183",
@@ -1256,7 +1359,7 @@
       "Id": "341736279",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Bumper_4.wav",
-      "Path": "SFX\\SFX_GPE_Bumper_4_D8C07C79.wem"
+      "Path": "SFX\\SFX_GPE_Bumper_4_EBD22531.wem"
      },
      {
       "Id": "342215700",
@@ -1271,16 +1374,16 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F2_01_D8C07C79.wem"
      },
      {
+      "Id": "355805810",
+      "Language": "SFX",
+      "ShortName": "SFX_Telekinesie_Complete_2.wav",
+      "Path": "SFX\\SFX_Telekinesie_Complete_2_D8C07C79.wem"
+     },
+     {
       "Id": "356452749",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_DS2_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS2_02_D8C07C79.wem"
-     },
-     {
-      "Id": "374437879",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_5.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_5_D8C07C79.wem"
      },
      {
       "Id": "377871452",
@@ -1361,12 +1464,6 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_02_D8C07C79.wem"
      },
      {
-      "Id": "478743489",
-      "Language": "SFX",
-      "ShortName": "SFX_Telekinesie_End_1.wav",
-      "Path": "SFX\\SFX_Telekinesie_End_1_D8C07C79.wem"
-     },
-     {
       "Id": "483306855",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_C1_01.wav",
@@ -1377,18 +1474,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Close_1.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem"
-     },
-     {
-      "Id": "500044490",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_1.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem"
-     },
-     {
-      "Id": "507893096",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_3.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem"
      },
      {
       "Id": "513996057",
@@ -1445,6 +1530,12 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_A1_D8C07C79.wem"
      },
      {
+      "Id": "571519212",
+      "Language": "SFX",
+      "ShortName": "SFX_Telekinesie_Complete_1.wav",
+      "Path": "SFX\\SFX_Telekinesie_Complete_1_D8C07C79.wem"
+     },
+     {
       "Id": "579272588",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Bumper_3.wav",
@@ -1497,6 +1588,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Chimes_G2.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_G2_D8C07C79.wem"
+     },
+     {
+      "Id": "622243301",
+      "Language": "SFX",
+      "ShortName": "SFX_Telekinesie_End__1.wav",
+      "Path": "SFX\\SFX_Telekinesie_End__1_D8C07C79.wem"
      },
      {
       "Id": "647760645",
@@ -1587,12 +1684,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem"
-     },
-     {
-      "Id": "724915893",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_PlantPlatorm_Open_2.wav",
-      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_2_D8C07C79.wem"
      },
      {
       "Id": "726963180",
@@ -1715,6 +1806,18 @@
       "Path": "SFX\\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem"
      },
      {
+      "Id": "866644198",
+      "Language": "SFX",
+      "ShortName": "SFX_Telekinesie_End__2.wav",
+      "Path": "SFX\\SFX_Telekinesie_End__2_D8C07C79.wem"
+     },
+     {
+      "Id": "867625013",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
+      "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
+     },
+     {
       "Id": "884640607",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_G3_02.wav",
@@ -1797,6 +1900,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_C2_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "999522006",
+      "Language": "SFX",
+      "ShortName": "SFX_Telekinesie_Start_2.wav",
+      "Path": "SFX\\SFX_Telekinesie_Start_2_D8C07C79.wem"
      },
      {
       "Id": "999835100",

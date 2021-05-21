@@ -403,7 +403,7 @@
 				</Attenuation>
 				<Attenuation Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" ShortID="71410850">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="500"/>
+						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -419,7 +419,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>500</XPos>
+											<XPos>5000</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -448,12 +448,12 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>6</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>500</XPos>
-											<YPos>6</YPos>
+											<XPos>5000</XPos>
+											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -469,12 +469,12 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>10</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>500</XPos>
-											<YPos>10</YPos>
+											<XPos>5000</XPos>
+											<YPos>-0</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -485,7 +485,7 @@
 				</Attenuation>
 				<Attenuation Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" ShortID="318201802">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="500"/>
+						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -501,13 +501,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>499.999</XPos>
+											<XPos>5000</XPos>
 											<YPos>0</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>500</XPos>
-											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -539,7 +534,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>500</XPos>
+											<XPos>5000</XPos>
 											<YPos>10</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -560,7 +555,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>500</XPos>
+											<XPos>5000</XPos>
 											<YPos>25</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -764,7 +759,7 @@
 										</Point>
 										<Point>
 											<XPos>2747.25275</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>

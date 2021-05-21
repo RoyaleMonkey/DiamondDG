@@ -22,6 +22,20 @@
 							<ChildrenList>
 								<Bus Name="Foleys" ID="{642C48DF-189F-40BB-B65B-E25E0F90F717}"/>
 								<Bus Name="Footsteps" ID="{F3F56342-3CD1-445D-9EC1-AE30BF17318A}"/>
+								<Bus Name="MC_Flute" ID="{94F26118-C2A8-435D-9ADD-CBC2A0B2F057}"/>
+								<Bus Name="Flute_Melody" ID="{307DC510-FDFA-49CC-9015-2C8C87DABE6C}">
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="MC_Flute" ID="{94F26118-C2A8-435D-9ADD-CBC2A0B2F057}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>0.5</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

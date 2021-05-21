@@ -720,6 +720,35 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SFX_GPE_Zipline" ID="{807CDC4E-2165-49A3-893F-31E9EF3C32AB}" ShortID="98712656">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Zipline_Bld" ID="{C9FCA90C-640E-436A-B16B-E99CD56AB97D}">
+							<ChildrenList>
+								<Action Name="" ID="{43D8E832-D17D-41E3-BD74-AC951CE4DB9A}" ShortID="880086043">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Zipline_Bld" ID="{452EBD09-F785-45E3-989B-2199F69C2B69}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_GPE_Zipline_Bld" ID="{966C18F3-2069-491A-A5B9-C7AC0355245A}">
+							<ChildrenList>
+								<Action Name="" ID="{C1C13796-55BC-4598-BBBB-09B4AB15F37B}" ShortID="108110471">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Zipline_Bld" ID="{452EBD09-F785-45E3-989B-2199F69C2B69}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

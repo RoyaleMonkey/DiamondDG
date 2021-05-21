@@ -73,8 +73,10 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_DS = 2893457044U;
         static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_F = 2012244447U;
         static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_G = 2012244446U;
+        static const AkUniqueID PLAY_SFX_GPE_ZIPLINE_BLD = 513126929U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_SFX_GPE_TELEKINESIE = 437964639U;
+        static const AkUniqueID STOP_SFX_GPE_ZIPLINE_BLD = 3367732063U;
     } // namespace EVENTS
 
     namespace SWITCHES

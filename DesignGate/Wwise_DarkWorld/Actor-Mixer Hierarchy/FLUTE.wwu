@@ -7,1404 +7,6 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Folder Name="Flute_Melody_Catapult" ID="{B69CA9FD-DB3F-40BE-B62F-C915D6BB70CE}" ShortID="722364557">
-					<ChildrenList>
-						<Folder Name="C" ID="{988E12A0-B0A7-4F80-BF59-8C1D1814778F}" ShortID="512036994"/>
-						<Folder Name="D" ID="{43D76577-9225-4E6F-A59D-15C88ACE3DAA}" ShortID="205543508"/>
-						<Folder Name="DS" ID="{9E4C9D0A-7403-4273-8925-B7B18CA60F55}" ShortID="721896788">
-							<ChildrenList>
-								<BlendContainer Name="Flute_Melody_DS_01" ID="{981FC013-8B26-4DC9-A2DA-DCE91D2A159E}" ShortID="839730634">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Flute_Melody_Magical_DS" ID="{1644C90B-0161-464A-9684-12470EA252AF}" ShortID="948679718">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Magical_DS" ID="{9BD45D34-FCCA-4AAC-86CB-ACE8FBE07AD5}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Magical_DS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="470087089"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Magical_DS" ID="{9BD45D34-FCCA-4AAC-86CB-ACE8FBE07AD5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Flute_Melody_Main_DS" ID="{784C51C5-117E-4ABA-879A-E836DAF5F5D1}" ShortID="672217399">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Main_DS" ID="{EF7C29A9-5FF2-4308-A54C-0E32193EDE6E}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Main_DS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="43780261"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Main_DS" ID="{EF7C29A9-5FF2-4308-A54C-0E32193EDE6E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Flute_Melody_Reverb_DS" ID="{476319E5-2B78-4F84-A558-8E544DD7DFCA}" ShortID="701322006">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Reverb_DS" ID="{F3A7F9F5-DA3A-40EF-9799-AEB054406D6E}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Reverb_DS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="67001878"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Reverb_DS" ID="{F3A7F9F5-DA3A-40EF-9799-AEB054406D6E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="F" ID="{C003F53D-77B4-47BD-ADE4-7DE22F3BCB14}" ShortID="916252578">
-							<ChildrenList>
-								<BlendContainer Name="Flute_Melody_F_01" ID="{E3BC2CDA-FE2A-4F2F-98D0-2E7E16F569DC}" ShortID="443928814">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Flute_Melody_Magical_F" ID="{C04DA698-B40B-4EA9-95EF-9E33B465038D}" ShortID="282635156">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Magical_F" ID="{04F34357-A1E1-4F5B-9163-302B1A3D33E4}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Magical_F.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="945158233"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Magical_F" ID="{04F34357-A1E1-4F5B-9163-302B1A3D33E4}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Flute_Melody_Main_F" ID="{9C7E05FD-CC1B-4859-9710-FFCF1B8B3A1B}" ShortID="670903637">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Main_F" ID="{69C9B0D2-FC72-4736-B610-E7ADC6521D49}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Main_F.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="53249534"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Main_F" ID="{69C9B0D2-FC72-4736-B610-E7ADC6521D49}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Flute_Melody_Reverb_F" ID="{766F9B6C-22DE-4DFE-AFE6-8D62AD237571}" ShortID="725542310">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Reverb_F" ID="{ADE7B23A-47C9-4721-8E36-CF25D4FE1AB3}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Reverb_F.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="30534036"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Reverb_F" ID="{ADE7B23A-47C9-4721-8E36-CF25D4FE1AB3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="G" ID="{ECC63CD4-54F7-4E0B-9322-661A9BAB6B43}" ShortID="1060872772">
-							<ChildrenList>
-								<BlendContainer Name="Flute_Melody_G_01" ID="{184FDA9B-F770-4592-AC88-78FD62D398C3}" ShortID="484990596">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Flute_Melody_Magical_G" ID="{A4DEBBA7-5202-4C6E-9E2D-1FE73F5AE67E}" ShortID="539190715">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Magical_G" ID="{F5D8DEEA-04CB-4B7B-AAC2-C71E754B11CD}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Magical_G.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="431232726"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Magical_G" ID="{F5D8DEEA-04CB-4B7B-AAC2-C71E754B11CD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Flute_Melody_Main_G" ID="{15958222-E591-4F81-8CF6-20561CFCE361}" ShortID="365124097">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Main_G" ID="{72E42942-1EBB-4AB1-9E85-D6A6A01481AB}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Main_G.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="571855905"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Main_G" ID="{72E42942-1EBB-4AB1-9E85-D6A6A01481AB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Flute_Melody_Reverb_G" ID="{5367EB23-F381-4DE3-95E2-0B462F3BA9F1}" ShortID="611313380">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Flute_Melody_Reverb_G" ID="{43428BA7-51BE-419C-BE2E-340EEE94125D}">
-													<Language>SFX</Language>
-													<AudioFile>Flute_Melody_Reverb_G.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="108630294"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Flute_Melody_Reverb_G" ID="{43428BA7-51BE-419C-BE2E-340EEE94125D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="SFX_GPE_Melody" ID="{8746A85C-01F2-4E3D-BB67-C01CA24701F9}" ShortID="511964629">
-					<ChildrenList>
-						<Folder Name="SFX_GPE_Melody_Note1" ID="{AF26B6CD-A64C-432B-9A2F-F4525575FB26}" ShortID="358569354">
-							<ChildrenList>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct3_Int1" ID="{FC646EF4-D7DF-445B-B23F-68E14EF608F9}" ShortID="8977810">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct3_D" ID="{50654D31-0DE5-42EE-B9F0-4B860531A492}" ShortID="838264542">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_D" ID="{CACFDC22-DCD3-4C8A-BC0F-7513718208AD}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct3_D.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="658718064"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_D" ID="{CACFDC22-DCD3-4C8A-BC0F-7513718208AD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct3_C" ID="{D5BA44A8-6BF2-4C3C-971A-7EDE2328CFF8}" ShortID="757441306">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_C" ID="{D8F919F9-58A1-44FF-8EEF-1CA28E03E78C}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct3_C.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="926489955"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_C" ID="{D8F919F9-58A1-44FF-8EEF-1CA28E03E78C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct3_Int2" ID="{73922468-A48A-4EBA-B77A-D189866638D2}" ShortID="1036478637">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct3_F" ID="{4718F49E-8595-431F-8DE9-8F2FF26A33D4}" ShortID="265271105">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_F" ID="{72E72233-C3A0-426E-95B6-4B0C9BA33835}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct3_F.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="37866787"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_F" ID="{72E72233-C3A0-426E-95B6-4B0C9BA33835}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct3_DS" ID="{6CD755D5-EB05-4AB9-BA90-28FCECD7BD94}" ShortID="583525785">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_DS" ID="{64B88144-26E2-4CAE-B958-A49DD97ABFEE}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct3_DS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="82245004"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_DS" ID="{64B88144-26E2-4CAE-B958-A49DD97ABFEE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct3_Int3" ID="{D23AEDC7-01E9-48B3-8190-3EA7F1A8AB22}" ShortID="304007341">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct3_A" ID="{B102A9DE-F791-466B-A642-82CEE394B535}" ShortID="259660073">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_A" ID="{9A17EFE1-BF46-4701-BF03-B3459D64A803}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct3_A.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="965290922"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_A" ID="{9A17EFE1-BF46-4701-BF03-B3459D64A803}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct3_G" ID="{519132F3-CD56-4AC4-A1C8-1D8DDD509292}" ShortID="195028468">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_G" ID="{0A8D5D3D-8311-462C-8EF8-1DEC994DE0CF}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct3_G.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="31284809"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_G" ID="{0A8D5D3D-8311-462C-8EF8-1DEC994DE0CF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct34_Int4" ID="{9667FA96-DC1E-42AB-B87F-5D906AD2C128}" ShortID="416690430">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct3_AS" ID="{4A9564B2-62CC-42E9-AA24-5CD8611C9FDB}" ShortID="243794161">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_AS" ID="{D50F8874-D897-4C30-B81E-9A890928972F}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct3_AS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="40935585"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_AS" ID="{D50F8874-D897-4C30-B81E-9A890928972F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct4_C" ID="{67CE402C-2A75-473D-AEE4-1F896B515B3F}" ShortID="320500487">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_C" ID="{7A83E332-F59E-4AFE-8542-6D08EFD16EA2}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct4_C.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="377343345"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_C" ID="{7A83E332-F59E-4AFE-8542-6D08EFD16EA2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct4_Int5" ID="{28D7567B-693B-4C44-AE88-059D517D711E}" ShortID="634669560">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct4_DS" ID="{FE2772CF-2C0C-4563-B984-D2A8D4870C92}" ShortID="676587776">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_DS" ID="{567261A6-9EC0-434B-8A12-D40D3302DBAD}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct4_DS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="217244713"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_DS" ID="{567261A6-9EC0-434B-8A12-D40D3302DBAD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct4_D" ID="{43606A9C-FFB0-4A25-A934-C312B018D358}" ShortID="659496990">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_D" ID="{3298AEDF-EBBE-4E7B-B57C-0EDC3058FF46}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct4_D.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="703153064"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_D" ID="{3298AEDF-EBBE-4E7B-B57C-0EDC3058FF46}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct4_Int6" ID="{429EC950-5C32-4AE2-AA53-FCD67C97A6D3}" ShortID="890016327">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct4_G" ID="{0CEA80A5-F18D-46FE-B19B-DCAD916B6DDF}" ShortID="919083811">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_G" ID="{5815191E-8C64-4835-9D8F-EE575A6551E1}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct4_G.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="350209967"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_G" ID="{5815191E-8C64-4835-9D8F-EE575A6551E1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct4_F" ID="{669282DC-F019-4B77-99FF-362FC4160BA2}" ShortID="363407525">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_F" ID="{F0273BC0-B575-4408-AC35-CCD65CF55D74}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct4_F.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="304054563"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_F" ID="{F0273BC0-B575-4408-AC35-CCD65CF55D74}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct4_Int7" ID="{31478073-FACE-4A77-B8C0-34F3BC2FA992}" ShortID="536353923">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct4_A" ID="{35493755-B027-4963-AD9C-804BF8FD30CF}" ShortID="16029161">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_A" ID="{0208A3AE-14EF-4EFA-94B9-C4541B782213}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct4_A.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="877168473"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_A" ID="{0208A3AE-14EF-4EFA-94B9-C4541B782213}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note1_Oct4_AS" ID="{BED4FEBE-4E0A-4D0C-9BBF-FE29A7A14F74}" ShortID="89565349">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_AS" ID="{D8535BE8-EE74-4D8E-A0EB-464EFEC9C338}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note1_Oct4_AS.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="659377146"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_AS" ID="{D8535BE8-EE74-4D8E-A0EB-464EFEC9C338}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="SFX_GPE_Melody_Note2" ID="{92D87CBE-90D1-49D8-BF8E-E85FFA82B6B3}" ShortID="625768783">
-							<ChildrenList>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int1" ID="{212BF428-FAD0-4848-AB5A-D5E6FFC2B244}" ShortID="291903579">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int1_01" ID="{D7DFE8E2-2023-4CFD-97D9-08477EEB04A7}" ShortID="608854902">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_01" ID="{2A9293D8-15E5-4FC9-BBC6-D463755A0B4A}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int1_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="514868887"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_01" ID="{2A9293D8-15E5-4FC9-BBC6-D463755A0B4A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int1_02" ID="{C24261CF-3E9D-4708-9FD5-4E963E983400}" ShortID="52552260">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_02" ID="{3A7E32B4-C3AD-420B-A837-126744F2B998}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int1_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="223449320"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_02" ID="{3A7E32B4-C3AD-420B-A837-126744F2B998}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int2" ID="{A8745902-6411-48F4-A25B-9CA247C10A9C}" ShortID="719223481">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int2_01" ID="{2CCA009B-857F-42A8-9797-A1093F567AE4}" ShortID="587420992">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_01" ID="{DFED49DD-1F79-4F08-ADDB-EF77C1FFFA6E}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int2_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="329930729"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_01" ID="{DFED49DD-1F79-4F08-ADDB-EF77C1FFFA6E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int2_02" ID="{01F3677B-36F3-49DE-971F-B4E164ABA7D5}" ShortID="496088604">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_02" ID="{22AF245D-BAD5-4BE6-92D8-96DB05AE86A0}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int2_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="122548726"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_02" ID="{22AF245D-BAD5-4BE6-92D8-96DB05AE86A0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int3" ID="{944B9353-D31A-407F-9038-AEF70E1093C0}" ShortID="71808802">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int3_01" ID="{C77EF14E-88EC-4424-B95C-F40FD993C256}" ShortID="565583075">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_01" ID="{ACCEE830-4194-44D7-8C95-B224550902B7}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int3_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="60463401"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_01" ID="{ACCEE830-4194-44D7-8C95-B224550902B7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int3_02" ID="{A4C33C15-E1E9-4CC0-9D4F-F7877802FDBD}" ShortID="829466061">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_02" ID="{425C5B4C-86EA-4B01-86BD-E7689E9C804B}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int3_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="473983661"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_02" ID="{425C5B4C-86EA-4B01-86BD-E7689E9C804B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int4" ID="{B0415922-90A3-4BC1-B4E0-2A3679AEB6D1}" ShortID="1047313773">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int4_01" ID="{E7027A6D-45B6-4E9B-B5BF-7538537BF9B7}" ShortID="444260458">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_01" ID="{6C3261B6-86E0-4A5D-BB5B-81689F8EF910}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int4_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="133351863"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_01" ID="{6C3261B6-86E0-4A5D-BB5B-81689F8EF910}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int4_02" ID="{114958CD-2E5E-44FB-B8E9-388F943A56AD}" ShortID="419228808">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_02" ID="{C74B573B-8071-4351-9A3F-BB7D7A692BEB}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int4_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1031684187"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_02" ID="{C74B573B-8071-4351-9A3F-BB7D7A692BEB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct4_Int5" ID="{8CA3B702-283B-496E-B49D-3835AB265F55}" ShortID="666480290">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int5_01" ID="{2E5CC84B-2A3C-4AD1-8184-B12898FE9CF1}" ShortID="109481326">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_01" ID="{22CD78DC-8E55-4552-A997-346A84680244}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int5_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="77292527"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_01" ID="{22CD78DC-8E55-4552-A997-346A84680244}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int5_02" ID="{DFA3DA80-817D-4E62-87CD-4AB75BF6EDB5}" ShortID="1058429589">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_02" ID="{43CEBFA3-75A8-47B8-A105-ECD5CBA6FB5C}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int5_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="329196150"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_02" ID="{43CEBFA3-75A8-47B8-A105-ECD5CBA6FB5C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct4_Int6" ID="{79D9547B-76AE-445E-9FB5-694AEA1AAE70}" ShortID="1064687247">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int6_01" ID="{14338E62-2684-42AC-B503-8820C5529FF6}" ShortID="855006659">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_01" ID="{3B4666AE-D574-4D43-A44C-F56EA519159A}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int6_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="429556374"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_01" ID="{3B4666AE-D574-4D43-A44C-F56EA519159A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int6_02" ID="{A536CF92-4069-4D74-94AD-212CF5EE587F}" ShortID="434406933">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_02" ID="{C8D07692-8499-4FD7-B48C-F311DC83B5AE}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int6_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="999292210"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_02" ID="{C8D07692-8499-4FD7-B48C-F311DC83B5AE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct4_Int7" ID="{16EEB115-981C-4906-BC01-4BC3AABAC83C}" ShortID="559790190">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int7_01" ID="{CC19D0D5-A815-4CF9-9698-F29679B87B82}" ShortID="848711014">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_01" ID="{F058F6A9-EE4E-4634-90DA-E90287ACECE1}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int7_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="781076796"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_01" ID="{F058F6A9-EE4E-4634-90DA-E90287ACECE1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int7_02" ID="{C0E00F46-786A-4DE6-8F33-7F26DF521DEF}" ShortID="699591800">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_02" ID="{A8781E7C-2295-4A2F-AD29-6CA52F69B783}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int7_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="583435392"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_02" ID="{A8781E7C-2295-4A2F-AD29-6CA52F69B783}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="SFX_GPE_Melody_Note3" ID="{97584B82-3BB5-4599-B1A8-F64EAA2CDCEF}" ShortID="905807474">
-							<ChildrenList>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct3_Int1" ID="{3F540D21-7019-4E41-B0E7-B3969605D916}" ShortID="957079190">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct3_Int1_01" ID="{2617EAD6-4C51-49DB-8B39-A3328967BE5E}" ShortID="440845343">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_01" ID="{563D575A-0E43-4D04-89B2-ECA41AC564D6}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct3_Int1_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1032413868"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_01" ID="{563D575A-0E43-4D04-89B2-ECA41AC564D6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct3_Int1_02" ID="{AA3F7E87-C806-405F-B86B-488EAB380360}" ShortID="984758669">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_02" ID="{11C761A4-311C-4E78-B991-5D7C1124DCF7}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct3_Int1_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="621787626"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_02" ID="{11C761A4-311C-4E78-B991-5D7C1124DCF7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct3_Int2" ID="{D98A0620-B8A1-49AE-B376-B6A15911589F}" ShortID="381385411">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct3_Int2_01" ID="{B5173978-A3DB-4B31-B005-CC5870A59CF5}" ShortID="26100862">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct3_Int2_01" ID="{434113CB-3FA9-44EA-B459-E578C942F349}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct3_Int2_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="997477843"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct3_Int2_01" ID="{434113CB-3FA9-44EA-B459-E578C942F349}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int2_02" ID="{63098486-D113-472B-B905-CDD62207928C}" ShortID="79318414">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int2_02" ID="{45ECAFC9-73CA-4666-A5E8-7D9E90C11678}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int2_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="305882229"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int2_02" ID="{45ECAFC9-73CA-4666-A5E8-7D9E90C11678}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct4_Int3" ID="{0AAE183F-1F15-46C7-B8FA-62B73FE78914}" ShortID="303421212">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int3_01" ID="{82F76BF7-882A-4F0C-9606-810D326AC82C}" ShortID="998428419">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_01" ID="{B18DF9EC-F781-46F2-81AE-BD98BEED2276}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int3_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="508914507"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_01" ID="{B18DF9EC-F781-46F2-81AE-BD98BEED2276}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int3_02" ID="{5D05AA50-374C-44E0-B36A-810C7F29F4B4}" ShortID="246024428">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_02" ID="{9DB53A0E-442E-45F9-97A3-2DBEEC79AA40}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int3_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="425749807"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_02" ID="{9DB53A0E-442E-45F9-97A3-2DBEEC79AA40}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct4_Int4" ID="{38F48566-718B-4D04-8C8B-7F7E5B1306EF}" ShortID="457665677">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int4_01" ID="{2B8739CF-C742-457A-A8DA-0458C5324FF4}" ShortID="13092278">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_01" ID="{96F86556-2570-4F7C-BC93-08B0CC475F7A}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int4_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1022396336"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_01" ID="{96F86556-2570-4F7C-BC93-08B0CC475F7A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int4_02" ID="{9388F798-66D6-497E-B519-09E137E2457F}" ShortID="247401153">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_02" ID="{A809C969-0BCF-4EC8-8488-A3594C03BFB4}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int4_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="144552565"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_02" ID="{A809C969-0BCF-4EC8-8488-A3594C03BFB4}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct4_Int5" ID="{AF45CA84-220B-4F2F-8B08-51EC20EFB1C2}" ShortID="942892432">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int5_01" ID="{8E9A089A-2A7F-490A-8318-552CBD9ACEAA}" ShortID="471896245">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_01" ID="{6DBD497D-5ACC-47E0-BF3B-6CB1DCB66016}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int5_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="269122075"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_01" ID="{6DBD497D-5ACC-47E0-BF3B-6CB1DCB66016}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int5_02" ID="{D8177FA8-CB4E-4354-BE0B-529DCAA65F5D}" ShortID="1031525303">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_02" ID="{3A9D05EF-418E-4907-B73C-DE888078A7E7}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int5_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="324016866"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_02" ID="{3A9D05EF-418E-4907-B73C-DE888078A7E7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
 				<ActorMixer Name="MC_Flute_Note" ID="{675217F4-684D-4E62-A9C4-6CD297DF0895}" ShortID="325888847">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
@@ -1418,7 +20,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+							<ObjectRef Name="MC_Flute" ID="{94F26118-C2A8-435D-9ADD-CBC2A0B2F057}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -3804,6 +2406,1811 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Flute_Melody" ID="{BF48FDCA-9319-4A63-927B-98370B408156}" ShortID="222656136">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Flute_Melody" ID="{307DC510-FDFA-49CC-9015-2C8C87DABE6C}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="SFX_GPE_Melody" ID="{8746A85C-01F2-4E3D-BB67-C01CA24701F9}" ShortID="511964629">
+							<ChildrenList>
+								<Folder Name="SFX_GPE_Melody_Note1" ID="{AF26B6CD-A64C-432B-9A2F-F4525575FB26}" ShortID="358569354">
+									<ChildrenList>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct3_Int1" ID="{FC646EF4-D7DF-445B-B23F-68E14EF608F9}" ShortID="8977810">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct3_D" ID="{50654D31-0DE5-42EE-B9F0-4B860531A492}" ShortID="838264542">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_D" ID="{CACFDC22-DCD3-4C8A-BC0F-7513718208AD}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct3_D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="658718064"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_D" ID="{CACFDC22-DCD3-4C8A-BC0F-7513718208AD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct3_C" ID="{D5BA44A8-6BF2-4C3C-971A-7EDE2328CFF8}" ShortID="757441306">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_C" ID="{D8F919F9-58A1-44FF-8EEF-1CA28E03E78C}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct3_C.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="926489955"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_C" ID="{D8F919F9-58A1-44FF-8EEF-1CA28E03E78C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct3_Int2" ID="{73922468-A48A-4EBA-B77A-D189866638D2}" ShortID="1036478637">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct3_F" ID="{4718F49E-8595-431F-8DE9-8F2FF26A33D4}" ShortID="265271105">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_F" ID="{72E72233-C3A0-426E-95B6-4B0C9BA33835}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct3_F.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37866787"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_F" ID="{72E72233-C3A0-426E-95B6-4B0C9BA33835}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct3_DS" ID="{6CD755D5-EB05-4AB9-BA90-28FCECD7BD94}" ShortID="583525785">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_DS" ID="{64B88144-26E2-4CAE-B958-A49DD97ABFEE}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct3_DS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="82245004"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_DS" ID="{64B88144-26E2-4CAE-B958-A49DD97ABFEE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct3_Int3" ID="{D23AEDC7-01E9-48B3-8190-3EA7F1A8AB22}" ShortID="304007341">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct3_A" ID="{B102A9DE-F791-466B-A642-82CEE394B535}" ShortID="259660073">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_A" ID="{9A17EFE1-BF46-4701-BF03-B3459D64A803}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct3_A.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="965290922"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_A" ID="{9A17EFE1-BF46-4701-BF03-B3459D64A803}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct3_G" ID="{519132F3-CD56-4AC4-A1C8-1D8DDD509292}" ShortID="195028468">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_G" ID="{0A8D5D3D-8311-462C-8EF8-1DEC994DE0CF}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct3_G.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="31284809"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_G" ID="{0A8D5D3D-8311-462C-8EF8-1DEC994DE0CF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct34_Int4" ID="{9667FA96-DC1E-42AB-B87F-5D906AD2C128}" ShortID="416690430">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct3_AS" ID="{4A9564B2-62CC-42E9-AA24-5CD8611C9FDB}" ShortID="243794161">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct3_AS" ID="{D50F8874-D897-4C30-B81E-9A890928972F}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct3_AS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="40935585"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct3_AS" ID="{D50F8874-D897-4C30-B81E-9A890928972F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct4_C" ID="{67CE402C-2A75-473D-AEE4-1F896B515B3F}" ShortID="320500487">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_C" ID="{7A83E332-F59E-4AFE-8542-6D08EFD16EA2}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct4_C.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="377343345"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_C" ID="{7A83E332-F59E-4AFE-8542-6D08EFD16EA2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct4_Int5" ID="{28D7567B-693B-4C44-AE88-059D517D711E}" ShortID="634669560">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct4_DS" ID="{FE2772CF-2C0C-4563-B984-D2A8D4870C92}" ShortID="676587776">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_DS" ID="{567261A6-9EC0-434B-8A12-D40D3302DBAD}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct4_DS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="217244713"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_DS" ID="{567261A6-9EC0-434B-8A12-D40D3302DBAD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct4_D" ID="{43606A9C-FFB0-4A25-A934-C312B018D358}" ShortID="659496990">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_D" ID="{3298AEDF-EBBE-4E7B-B57C-0EDC3058FF46}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct4_D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="703153064"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_D" ID="{3298AEDF-EBBE-4E7B-B57C-0EDC3058FF46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct4_Int6" ID="{429EC950-5C32-4AE2-AA53-FCD67C97A6D3}" ShortID="890016327">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct4_G" ID="{0CEA80A5-F18D-46FE-B19B-DCAD916B6DDF}" ShortID="919083811">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_G" ID="{5815191E-8C64-4835-9D8F-EE575A6551E1}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct4_G.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="350209967"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_G" ID="{5815191E-8C64-4835-9D8F-EE575A6551E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct4_F" ID="{669282DC-F019-4B77-99FF-362FC4160BA2}" ShortID="363407525">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_F" ID="{F0273BC0-B575-4408-AC35-CCD65CF55D74}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct4_F.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="304054563"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_F" ID="{F0273BC0-B575-4408-AC35-CCD65CF55D74}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note1_Oct4_Int7" ID="{31478073-FACE-4A77-B8C0-34F3BC2FA992}" ShortID="536353923">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct4_A" ID="{35493755-B027-4963-AD9C-804BF8FD30CF}" ShortID="16029161">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_A" ID="{0208A3AE-14EF-4EFA-94B9-C4541B782213}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct4_A.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="877168473"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_A" ID="{0208A3AE-14EF-4EFA-94B9-C4541B782213}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note1_Oct4_AS" ID="{BED4FEBE-4E0A-4D0C-9BBF-FE29A7A14F74}" ShortID="89565349">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note1_Oct4_AS" ID="{D8535BE8-EE74-4D8E-A0EB-464EFEC9C338}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note1_Oct4_AS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="659377146"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note1_Oct4_AS" ID="{D8535BE8-EE74-4D8E-A0EB-464EFEC9C338}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="SFX_GPE_Melody_Note2" ID="{92D87CBE-90D1-49D8-BF8E-E85FFA82B6B3}" ShortID="625768783">
+									<ChildrenList>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int1" ID="{212BF428-FAD0-4848-AB5A-D5E6FFC2B244}" ShortID="291903579">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int1_01" ID="{D7DFE8E2-2023-4CFD-97D9-08477EEB04A7}" ShortID="608854902">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_01" ID="{2A9293D8-15E5-4FC9-BBC6-D463755A0B4A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int1_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="514868887"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_01" ID="{2A9293D8-15E5-4FC9-BBC6-D463755A0B4A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int1_02" ID="{C24261CF-3E9D-4708-9FD5-4E963E983400}" ShortID="52552260">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_02" ID="{3A7E32B4-C3AD-420B-A837-126744F2B998}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int1_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="223449320"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int1_02" ID="{3A7E32B4-C3AD-420B-A837-126744F2B998}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int2" ID="{A8745902-6411-48F4-A25B-9CA247C10A9C}" ShortID="719223481">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int2_01" ID="{2CCA009B-857F-42A8-9797-A1093F567AE4}" ShortID="587420992">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_01" ID="{DFED49DD-1F79-4F08-ADDB-EF77C1FFFA6E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int2_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="329930729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_01" ID="{DFED49DD-1F79-4F08-ADDB-EF77C1FFFA6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int2_02" ID="{01F3677B-36F3-49DE-971F-B4E164ABA7D5}" ShortID="496088604">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_02" ID="{22AF245D-BAD5-4BE6-92D8-96DB05AE86A0}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int2_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="122548726"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int2_02" ID="{22AF245D-BAD5-4BE6-92D8-96DB05AE86A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int3" ID="{944B9353-D31A-407F-9038-AEF70E1093C0}" ShortID="71808802">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int3_01" ID="{C77EF14E-88EC-4424-B95C-F40FD993C256}" ShortID="565583075">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_01" ID="{ACCEE830-4194-44D7-8C95-B224550902B7}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int3_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="60463401"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_01" ID="{ACCEE830-4194-44D7-8C95-B224550902B7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int3_02" ID="{A4C33C15-E1E9-4CC0-9D4F-F7877802FDBD}" ShortID="829466061">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_02" ID="{425C5B4C-86EA-4B01-86BD-E7689E9C804B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int3_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="473983661"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int3_02" ID="{425C5B4C-86EA-4B01-86BD-E7689E9C804B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct3_Int4" ID="{B0415922-90A3-4BC1-B4E0-2A3679AEB6D1}" ShortID="1047313773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int4_01" ID="{E7027A6D-45B6-4E9B-B5BF-7538537BF9B7}" ShortID="444260458">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_01" ID="{6C3261B6-86E0-4A5D-BB5B-81689F8EF910}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int4_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="133351863"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_01" ID="{6C3261B6-86E0-4A5D-BB5B-81689F8EF910}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct3_Int4_02" ID="{114958CD-2E5E-44FB-B8E9-388F943A56AD}" ShortID="419228808">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_02" ID="{C74B573B-8071-4351-9A3F-BB7D7A692BEB}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct3_Int4_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1031684187"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct3_Int4_02" ID="{C74B573B-8071-4351-9A3F-BB7D7A692BEB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct4_Int5" ID="{8CA3B702-283B-496E-B49D-3835AB265F55}" ShortID="666480290">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int5_01" ID="{2E5CC84B-2A3C-4AD1-8184-B12898FE9CF1}" ShortID="109481326">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_01" ID="{22CD78DC-8E55-4552-A997-346A84680244}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int5_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="77292527"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_01" ID="{22CD78DC-8E55-4552-A997-346A84680244}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int5_02" ID="{DFA3DA80-817D-4E62-87CD-4AB75BF6EDB5}" ShortID="1058429589">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_02" ID="{43CEBFA3-75A8-47B8-A105-ECD5CBA6FB5C}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int5_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="329196150"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int5_02" ID="{43CEBFA3-75A8-47B8-A105-ECD5CBA6FB5C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct4_Int6" ID="{79D9547B-76AE-445E-9FB5-694AEA1AAE70}" ShortID="1064687247">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int6_01" ID="{14338E62-2684-42AC-B503-8820C5529FF6}" ShortID="855006659">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_01" ID="{3B4666AE-D574-4D43-A44C-F56EA519159A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int6_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="429556374"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_01" ID="{3B4666AE-D574-4D43-A44C-F56EA519159A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int6_02" ID="{A536CF92-4069-4D74-94AD-212CF5EE587F}" ShortID="434406933">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_02" ID="{C8D07692-8499-4FD7-B48C-F311DC83B5AE}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int6_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="999292210"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int6_02" ID="{C8D07692-8499-4FD7-B48C-F311DC83B5AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note2_Oct4_Int7" ID="{16EEB115-981C-4906-BC01-4BC3AABAC83C}" ShortID="559790190">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int7_01" ID="{CC19D0D5-A815-4CF9-9698-F29679B87B82}" ShortID="848711014">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_01" ID="{F058F6A9-EE4E-4634-90DA-E90287ACECE1}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int7_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="781076796"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_01" ID="{F058F6A9-EE4E-4634-90DA-E90287ACECE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note2_Oct4_Int7_02" ID="{C0E00F46-786A-4DE6-8F33-7F26DF521DEF}" ShortID="699591800">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_02" ID="{A8781E7C-2295-4A2F-AD29-6CA52F69B783}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note2_Oct4_Int7_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="583435392"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note2_Oct4_Int7_02" ID="{A8781E7C-2295-4A2F-AD29-6CA52F69B783}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="SFX_GPE_Melody_Note2_Int1_End" ID="{17625358-B65C-45B5-BE91-303A95CA86A5}" ShortID="310001823">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note2_Int1_End" ID="{7E0AF2BC-49F8-469B-AAE5-325286B24725}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note2_Int1_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="618168026"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note2_Int1_End" ID="{7E0AF2BC-49F8-469B-AAE5-325286B24725}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Melody_Note2_Int2_End" ID="{24E4423B-F2C8-49D9-A722-F74D56297750}" ShortID="448772408">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note2_Int2_End" ID="{238F86F8-3253-418B-AD6D-F4D2D6237307}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note2_Int2_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757102773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note2_Int2_End" ID="{238F86F8-3253-418B-AD6D-F4D2D6237307}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Melody_Note2_Int3_End" ID="{9EC047B3-D0FF-4C25-8077-82479C59F69F}" ShortID="528745358">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note2_Int3_End" ID="{4503F799-2EE1-4BF9-B510-627498E79DB4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note2_Int3_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="881724666"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note2_Int3_End" ID="{4503F799-2EE1-4BF9-B510-627498E79DB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Melody_Note2_Int4_End" ID="{F7754B79-0845-4F46-81CD-A13BCDF03631}" ShortID="594819873">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note2_Int4_End" ID="{FD957A9F-A90A-4809-8034-EF9F702C9062}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note2_Int4_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="841644754"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note2_Int4_End" ID="{FD957A9F-A90A-4809-8034-EF9F702C9062}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Melody_Note2_Int5_End" ID="{F0ABF807-F55E-4460-8106-6B435C6905E5}" ShortID="975729023">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note2_Int5_End" ID="{D0157B68-54BF-4B8C-A9FB-8DC522B7E7DF}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note2_Int5_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="218530764"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note2_Int5_End" ID="{D0157B68-54BF-4B8C-A9FB-8DC522B7E7DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="SFX_GPE_Melody_Note3" ID="{97584B82-3BB5-4599-B1A8-F64EAA2CDCEF}" ShortID="905807474">
+									<ChildrenList>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct3_Int1" ID="{3F540D21-7019-4E41-B0E7-B3969605D916}" ShortID="957079190">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct3_Int1_01" ID="{2617EAD6-4C51-49DB-8B39-A3328967BE5E}" ShortID="440845343">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_01" ID="{563D575A-0E43-4D04-89B2-ECA41AC564D6}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct3_Int1_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1032413868"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_01" ID="{563D575A-0E43-4D04-89B2-ECA41AC564D6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct3_Int1_02" ID="{AA3F7E87-C806-405F-B86B-488EAB380360}" ShortID="984758669">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_02" ID="{11C761A4-311C-4E78-B991-5D7C1124DCF7}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct3_Int1_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="621787626"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct3_Int1_02" ID="{11C761A4-311C-4E78-B991-5D7C1124DCF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct3_Int2" ID="{D98A0620-B8A1-49AE-B376-B6A15911589F}" ShortID="381385411">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct3_Int2_01" ID="{B5173978-A3DB-4B31-B005-CC5870A59CF5}" ShortID="26100862">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct3_Int2_01" ID="{434113CB-3FA9-44EA-B459-E578C942F349}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct3_Int2_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="997477843"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct3_Int2_01" ID="{434113CB-3FA9-44EA-B459-E578C942F349}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int2_02" ID="{63098486-D113-472B-B905-CDD62207928C}" ShortID="79318414">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int2_02" ID="{45ECAFC9-73CA-4666-A5E8-7D9E90C11678}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int2_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="305882229"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int2_02" ID="{45ECAFC9-73CA-4666-A5E8-7D9E90C11678}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct4_Int3" ID="{0AAE183F-1F15-46C7-B8FA-62B73FE78914}" ShortID="303421212">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int3_01" ID="{82F76BF7-882A-4F0C-9606-810D326AC82C}" ShortID="998428419">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_01" ID="{B18DF9EC-F781-46F2-81AE-BD98BEED2276}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int3_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="508914507"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_01" ID="{B18DF9EC-F781-46F2-81AE-BD98BEED2276}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int3_02" ID="{5D05AA50-374C-44E0-B36A-810C7F29F4B4}" ShortID="246024428">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_02" ID="{9DB53A0E-442E-45F9-97A3-2DBEEC79AA40}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int3_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="425749807"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int3_02" ID="{9DB53A0E-442E-45F9-97A3-2DBEEC79AA40}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct4_Int4" ID="{38F48566-718B-4D04-8C8B-7F7E5B1306EF}" ShortID="457665677">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int4_01" ID="{2B8739CF-C742-457A-A8DA-0458C5324FF4}" ShortID="13092278">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_01" ID="{96F86556-2570-4F7C-BC93-08B0CC475F7A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int4_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1022396336"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_01" ID="{96F86556-2570-4F7C-BC93-08B0CC475F7A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int4_02" ID="{9388F798-66D6-497E-B519-09E137E2457F}" ShortID="247401153">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_02" ID="{A809C969-0BCF-4EC8-8488-A3594C03BFB4}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int4_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="144552565"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int4_02" ID="{A809C969-0BCF-4EC8-8488-A3594C03BFB4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Melody_Note3_Oct4_Int5" ID="{AF45CA84-220B-4F2F-8B08-51EC20EFB1C2}" ShortID="942892432">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int5_01" ID="{8E9A089A-2A7F-490A-8318-552CBD9ACEAA}" ShortID="471896245">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_01" ID="{6DBD497D-5ACC-47E0-BF3B-6CB1DCB66016}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int5_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="269122075"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_01" ID="{6DBD497D-5ACC-47E0-BF3B-6CB1DCB66016}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Melody_Note3_Oct4_Int5_02" ID="{D8177FA8-CB4E-4354-BE0B-529DCAA65F5D}" ShortID="1031525303">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_02" ID="{3A9D05EF-418E-4907-B73C-DE888078A7E7}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Melody_Note3_Oct4_Int5_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="324016866"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Melody_Note3_Oct4_Int5_02" ID="{3A9D05EF-418E-4907-B73C-DE888078A7E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="SFX_GPE_Melody_Note3_Int1_End" ID="{B73293B0-366E-48AD-B6B9-A3DA814BF432}" ShortID="962708482">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note3_Int1_End" ID="{BC6F6834-F8E0-4995-A33D-2CAB6E510180}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note3_Int1_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="501784795"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note3_Int1_End" ID="{BC6F6834-F8E0-4995-A33D-2CAB6E510180}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Melody_Note3_Int2_End" ID="{3A408DE2-4538-447D-8412-389F49BFAB05}" ShortID="700802749">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note3_Int2_End" ID="{0D8C9959-B6A5-49D8-8032-3C8E2EBA8EC9}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note3_Int2_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="279382837"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note3_Int2_End" ID="{0D8C9959-B6A5-49D8-8032-3C8E2EBA8EC9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Melody_Note3_Int3_End" ID="{A776A67A-1F01-4F02-BB5C-EE9285DEC581}" ShortID="201254626">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note3_Int3_End" ID="{B29DA4BA-8B0B-40FC-B915-8B777F66A7DD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note3_Int3_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="236007781"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note3_Int3_End" ID="{B29DA4BA-8B0B-40FC-B915-8B777F66A7DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Melody_Note3_Int4_End" ID="{8624C6DB-D0FF-4DF2-A3A6-637079940129}" ShortID="519739964">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Melody_Note3_Int4_End" ID="{FCC85FED-399B-43EE-9D76-D5B70353E0FD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Melody_Note3_Int4_End.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="221309473"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Melody_Note3_Int4_End" ID="{FCC85FED-399B-43EE-9D76-D5B70353E0FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Flute_Melody_Catapult" ID="{B69CA9FD-DB3F-40BE-B62F-C915D6BB70CE}" ShortID="722364557">
+							<ChildrenList>
+								<Folder Name="DS" ID="{9E4C9D0A-7403-4273-8925-B7B18CA60F55}" ShortID="721896788">
+									<ChildrenList>
+										<BlendContainer Name="Flute_Melody_DS_01" ID="{981FC013-8B26-4DC9-A2DA-DCE91D2A159E}" ShortID="839730634">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Flute_Melody_Magical_DS" ID="{1644C90B-0161-464A-9684-12470EA252AF}" ShortID="948679718">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Magical_DS" ID="{9BD45D34-FCCA-4AAC-86CB-ACE8FBE07AD5}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Magical_DS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="470087089"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Magical_DS" ID="{9BD45D34-FCCA-4AAC-86CB-ACE8FBE07AD5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Flute_Melody_Main_DS" ID="{784C51C5-117E-4ABA-879A-E836DAF5F5D1}" ShortID="672217399">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Main_DS" ID="{EF7C29A9-5FF2-4308-A54C-0E32193EDE6E}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Main_DS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="43780261"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Main_DS" ID="{EF7C29A9-5FF2-4308-A54C-0E32193EDE6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Flute_Melody_Reverb_DS" ID="{476319E5-2B78-4F84-A558-8E544DD7DFCA}" ShortID="701322006">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Reverb_DS" ID="{F3A7F9F5-DA3A-40EF-9799-AEB054406D6E}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Reverb_DS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="67001878"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Reverb_DS" ID="{F3A7F9F5-DA3A-40EF-9799-AEB054406D6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="F" ID="{C003F53D-77B4-47BD-ADE4-7DE22F3BCB14}" ShortID="916252578">
+									<ChildrenList>
+										<BlendContainer Name="Flute_Melody_F_01" ID="{E3BC2CDA-FE2A-4F2F-98D0-2E7E16F569DC}" ShortID="443928814">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Flute_Melody_Magical_F" ID="{C04DA698-B40B-4EA9-95EF-9E33B465038D}" ShortID="282635156">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Magical_F" ID="{04F34357-A1E1-4F5B-9163-302B1A3D33E4}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Magical_F.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="945158233"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Magical_F" ID="{04F34357-A1E1-4F5B-9163-302B1A3D33E4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Flute_Melody_Main_F" ID="{9C7E05FD-CC1B-4859-9710-FFCF1B8B3A1B}" ShortID="670903637">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Main_F" ID="{69C9B0D2-FC72-4736-B610-E7ADC6521D49}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Main_F.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="53249534"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Main_F" ID="{69C9B0D2-FC72-4736-B610-E7ADC6521D49}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Flute_Melody_Reverb_F" ID="{766F9B6C-22DE-4DFE-AFE6-8D62AD237571}" ShortID="725542310">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Reverb_F" ID="{ADE7B23A-47C9-4721-8E36-CF25D4FE1AB3}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Reverb_F.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="30534036"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Reverb_F" ID="{ADE7B23A-47C9-4721-8E36-CF25D4FE1AB3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="G" ID="{ECC63CD4-54F7-4E0B-9322-661A9BAB6B43}" ShortID="1060872772">
+									<ChildrenList>
+										<BlendContainer Name="Flute_Melody_G_01" ID="{184FDA9B-F770-4592-AC88-78FD62D398C3}" ShortID="484990596">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Flute_Melody_Magical_G" ID="{A4DEBBA7-5202-4C6E-9E2D-1FE73F5AE67E}" ShortID="539190715">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Magical_G" ID="{F5D8DEEA-04CB-4B7B-AAC2-C71E754B11CD}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Magical_G.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="431232726"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Magical_G" ID="{F5D8DEEA-04CB-4B7B-AAC2-C71E754B11CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Flute_Melody_Main_G" ID="{15958222-E591-4F81-8CF6-20561CFCE361}" ShortID="365124097">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Main_G" ID="{72E42942-1EBB-4AB1-9E85-D6A6A01481AB}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Main_G.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="571855905"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Main_G" ID="{72E42942-1EBB-4AB1-9E85-D6A6A01481AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Flute_Melody_Reverb_G" ID="{5367EB23-F381-4DE3-95E2-0B462F3BA9F1}" ShortID="611313380">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Flute_Melody_Reverb_G" ID="{43428BA7-51BE-419C-BE2E-340EEE94125D}">
+															<Language>SFX</Language>
+															<AudioFile>Flute_Melody_Reverb_G.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="108630294"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Flute_Melody_Reverb_G" ID="{43428BA7-51BE-419C-BE2E-340EEE94125D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
+								<BlendContainer Name="SFX_GPE_Catapult_Melody_01" ID="{5ACE3EAF-C620-43FE-B460-9F3A945B338D}" ShortID="262644624">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Catapult_Melody_Magical_01" ID="{DB859C27-4762-4E1D-83F2-C05F16227D95}" ShortID="900361594">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Melody_Magical_01" ID="{C96807BC-6849-43D8-8EDC-C935E929CC76}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.85982028945428"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.37616067477876"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Melody_Magical_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="18721990"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Melody_Magical_01" ID="{C96807BC-6849-43D8-8EDC-C935E929CC76}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Catapult_Melody_Mono_01" ID="{D38C07F3-8C20-4B15-B148-26408637B469}" ShortID="590858381">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Melody_Mono_01" ID="{11DBA1A7-D7F7-43EB-9A8A-6A172B5BE923}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.85240707964602"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.43120353982301"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Melody_Mono_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="460294500"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Melody_Mono_01" ID="{11DBA1A7-D7F7-43EB-9A8A-6A172B5BE923}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Catapult_Melody_Stereo_01" ID="{6C41DFB8-C680-4265-B8E1-2DEB1A453FED}" ShortID="484465657">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Melody_Stereo_01" ID="{8C08D2E1-C9A3-4D4B-BD88-4F5ECC5045E4}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.47149557522124"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.46663716814159"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Melody_Stereo_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="27177814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Melody_Stereo_01" ID="{8C08D2E1-C9A3-4D4B-BD88-4F5ECC5045E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_GPE_Catapult_Melody_02" ID="{5CA488DC-A926-4F83-A80F-C8331EA47C66}" ShortID="66564676">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Catapult_Melody_Magical_02" ID="{679202F7-179F-497E-9D4E-EC298CF2D813}" ShortID="526997972">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Magical_ATT" ID="{3B7E8EC2-05CD-42DF-A83A-FC301A403F55}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Melody_Magical_02" ID="{C564872C-6551-4732-838B-41D1A17696D0}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Melody_Magical_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1013251824"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Melody_Magical_02" ID="{C564872C-6551-4732-838B-41D1A17696D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Catapult_Melody_Mono_02" ID="{0E4F6B17-0045-4FB4-AB86-854329B1415A}" ShortID="450062982">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Flt_Realistic_ATT" ID="{E0C901FC-D8D9-40F4-AB7D-22602AE63F84}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Melody_Mono_02" ID="{E53D7057-117C-47F9-B7AE-B7941E05DCAD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Melody_Mono_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="927789172"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Melody_Mono_02" ID="{E53D7057-117C-47F9-B7AE-B7941E05DCAD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Catapult_Melody_Stereo_02" ID="{F8C630E2-2AA0-424E-8DC2-1D854B50DC9C}" ShortID="836599950">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Melody_Stereo_02" ID="{E35109AB-666E-4683-B51C-821C97C95C8C}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Melody_Stereo_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="691000022"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Melody_Stereo_02" ID="{E35109AB-666E-4683-B51C-821C97C95C8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>

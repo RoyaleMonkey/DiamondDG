@@ -1354,6 +1354,65 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SFX_GPE_Catapulte" ID="{5BDCE5C8-7EF0-4C32-BBA5-68E9402D76CB}" ShortID="315159566">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Catapulte_Woosh" ID="{2B1E683E-6CF1-4859-B9E8-4AF2312000B2}">
+							<ChildrenList>
+								<Action Name="" ID="{5144DCF0-500D-4A82-86E0-8A33158C0D5A}" ShortID="195305672">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Catapulte_Woosh" ID="{92D60BCD-3DFC-4F75-8D2D-F3D36EB6CF40}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Catapulte_Grab" ID="{EF0DB4F9-DA54-4ADD-B117-0A852A49A062}">
+							<ChildrenList>
+								<Action Name="" ID="{2B734FF9-D896-41A2-8A0B-A2CBF72CA7B3}" ShortID="311522840">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Catapulte_Grab" ID="{22514803-894F-45A8-BCD3-034A90EA6E2D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_GPE_Geyser" ID="{ECC68510-1A47-42DC-8AC5-B30E8CAF9883}" ShortID="968820041">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Geyser_Start" ID="{F7962E1F-408E-4C97-BBB6-11D5AA6D4A9A}">
+							<ChildrenList>
+								<Action Name="" ID="{945C1EE0-3EFF-4F6A-AA24-67C5044427A5}" ShortID="76437786">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Geyser_Start" ID="{1C880F11-FA01-41D3-A4A0-960E5A2A018F}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F25697C4-B9F2-4D84-9B26-26FABD846386}" ShortID="291776254">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Geyser_Lp" ID="{860E3C8F-0F01-4A1F-9026-484A24C198E9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_GPE_Geyser_end" ID="{7E48629B-9C82-4CB2-8046-53AB135B88F5}">
+							<ChildrenList>
+								<Action Name="" ID="{41A2634C-6CEC-44ED-8E97-69BCF5E59C2C}" ShortID="967513352">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Geyser_End" ID="{749BEB84-27C9-433A-B52F-D2CDB9548871}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

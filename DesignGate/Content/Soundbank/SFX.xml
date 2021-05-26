@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="765572146">
+		<SoundBank Id="393239870" Language="SFX" Hash="1335847526">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="598048154" Name="Play_SFX_Door" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Door" MaxAttenuation="7000.000000">
+					<IncludedMemoryFiles>
+						<File Id="433880524" Language="SFX">
+							<ShortName>SFX_Door_Opening.wav</ShortName>
+							<Path>SFX\SFX_Door_Opening_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1429665634" Name="Play_SFX_GPE_Bumper" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Bumper\Play_SFX_GPE_Bumper" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="5846075" Language="SFX">
@@ -34,6 +42,34 @@
 						<File Id="579272588" Language="SFX">
 							<ShortName>SFX_GPE_Bumper_3.wav</ShortName>
 							<Path>SFX\SFX_GPE_Bumper_3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="676264313" Name="Play_SFX_GPE_Catapulte_Grab" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_Grab">
+					<IncludedMemoryFiles>
+						<File Id="190460748" Language="SFX">
+							<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
+							<Path>SFX\SFX_GPE_Catapult_Grab_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="58267825" Name="Play_SFX_GPE_Catapulte_Woosh" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_Woosh">
+					<IncludedMemoryFiles>
+						<File Id="101554022" Language="SFX">
+							<ShortName>SFX_GPE_Catapult_Woosh.wav</ShortName>
+							<Path>SFX\SFX_GPE_Catapult_Woosh_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2168219807" Name="Play_SFX_GPE_Geyser_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Play_SFX_GPE_Geyser_Start" MaxAttenuation="9000.000000">
+					<IncludedMemoryFiles>
+						<File Id="8221998" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Lp.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Lp_D8C07C79.wem</Path>
+						</File>
+						<File Id="21560878" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Start_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Start_1_F8E0F160.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -345,7 +381,7 @@
 					<IncludedMemoryFiles>
 						<File Id="175890529" Language="SFX">
 							<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
-							<Path>SFX\SFX_Telekinesie_Start_1_D8C07C79.wem</Path>
+							<Path>SFX\SFX_Telekinesie_Start_1_5B367D21.wem</Path>
 						</File>
 						<File Id="207786451" Language="SFX">
 							<ShortName>SFX_Telekinesie_Start_3.wav</ShortName>
@@ -753,15 +789,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="9000.000000">
+					<IncludedMemoryFiles>
+						<File Id="669892981" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_End_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1164948654" Name="Stop_SFX_GPE_Stele_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_A2" MaxAttenuation="0.000000"/>
 				<Event Id="1164948655" Name="Stop_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_A3" MaxAttenuation="0.000000"/>
-				<Event Id="1037685772" Name="Stop_SFX_GPE_Stele_AS1" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_AS1" MaxAttenuation="0.000000"/>
+				<Event Id="1037685775" Name="Stop_SFX_GPE_Stele_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_AS2" MaxAttenuation="0.000000"/>
 				<Event Id="1037685774" Name="Stop_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_AS3" MaxAttenuation="0.000000"/>
 				<Event Id="1198503920" Name="Stop_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_C2" MaxAttenuation="0.000000"/>
 				<Event Id="1198503921" Name="Stop_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_C3" MaxAttenuation="0.000000"/>
 				<Event Id="1114615761" Name="Stop_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_D2" MaxAttenuation="0.000000"/>
 				<Event Id="1114615760" Name="Stop_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_D3" MaxAttenuation="0.000000"/>
-				<Event Id="634478465" Name="Stop_SFX_GPE_Stele_DS1" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_DS1" MaxAttenuation="0.000000"/>
+				<Event Id="634478466" Name="Stop_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_DS2" MaxAttenuation="0.000000"/>
 				<Event Id="634478467" Name="Stop_SFX_GPE_Stele_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_DS3" MaxAttenuation="0.000000"/>
 				<Event Id="1148171067" Name="Stop_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_F2" MaxAttenuation="0.000000"/>
 				<Event Id="1148171066" Name="Stop_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_F3" MaxAttenuation="10000.000000">
@@ -819,7 +863,7 @@
 				</File>
 				<File Id="21560878" Language="SFX">
 					<ShortName>SFX_GPE_Geyser_Start_1.wav</ShortName>
-					<Path>SFX\SFX_GPE_Geyser_Start_1_D8C07C79.wem</Path>
+					<Path>SFX\SFX_GPE_Geyser_Start_1_F8E0F160.wem</Path>
 				</File>
 				<File Id="24149264" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -881,6 +925,10 @@
 					<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
 				</File>
+				<File Id="101554022" Language="SFX">
+					<ShortName>SFX_GPE_Catapult_Woosh.wav</ShortName>
+					<Path>SFX\SFX_GPE_Catapult_Woosh_D8C07C79.wem</Path>
+				</File>
 				<File Id="106982745" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem</Path>
@@ -927,7 +975,7 @@
 				</File>
 				<File Id="175890529" Language="SFX">
 					<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
-					<Path>SFX\SFX_Telekinesie_Start_1_D8C07C79.wem</Path>
+					<Path>SFX\SFX_Telekinesie_Start_1_5B367D21.wem</Path>
 				</File>
 				<File Id="183332618" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_Land_1.wav</ShortName>
@@ -940,6 +988,10 @@
 				<File Id="188363552" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_DS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem</Path>
+				</File>
+				<File Id="190460748" Language="SFX">
+					<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
+					<Path>SFX\SFX_GPE_Catapult_Grab_D8C07C79.wem</Path>
 				</File>
 				<File Id="192162486" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
@@ -1112,6 +1164,10 @@
 				<File Id="431094593" Language="SFX">
 					<ShortName>RFX_GPE_Zipline_Flap_Cloth_2.wav</ShortName>
 					<Path>SFX\RFX_GPE_Zipline_Flap_Cloth_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="433880524" Language="SFX">
+					<ShortName>SFX_Door_Opening.wav</ShortName>
+					<Path>SFX\SFX_Door_Opening_D8C07C79.wem</Path>
 				</File>
 				<File Id="443084533" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>

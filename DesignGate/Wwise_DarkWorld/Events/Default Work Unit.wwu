@@ -72,6 +72,21 @@
 				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>
 				<WorkUnit Name="FLUTE" ID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}" PersistMode="Reference"/>
 				<WorkUnit Name="SFX_GPE" ID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" PersistMode="Reference"/>
+				<Folder Name="SFX_LE" ID="{311994D0-F7F7-4FD5-81C2-98335E818CD5}" ShortID="207866815">
+					<ChildrenList>
+						<Event Name="Play_SFX_Door" ID="{DF44E23E-B8DF-463D-BDE4-0D34AA5C562E}">
+							<ChildrenList>
+								<Action Name="" ID="{5185F469-477A-4E55-B8A3-6EEB0B96B856}" ShortID="692370089">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Door" ID="{E5F51B0E-6D7A-4420-A63F-AE7515CCAA43}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

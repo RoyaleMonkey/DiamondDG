@@ -156,6 +156,7 @@ namespace AK
         static const AkUniqueID DISTANCE = 1240670792U;
         static const AkUniqueID MC_FALLING = 33954365U;
         static const AkUniqueID MC_SPEED = 1227053913U;
+        static const AkUniqueID VELOCITYZIPLINE = 1147290023U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

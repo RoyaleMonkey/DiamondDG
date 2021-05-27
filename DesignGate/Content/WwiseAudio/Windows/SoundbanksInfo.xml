@@ -44,7 +44,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1485731865">
+		<SoundBank Id="393239870" Language="SFX" Hash="1525631380">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -85,7 +85,15 @@
 					<IncludedMemoryFiles>
 						<File Id="190460748" Language="SFX">
 							<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
-							<Path>SFX\SFX_GPE_Catapult_Grab_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Catapult_Grab_CDB37AA1.wem</Path>
+						</File>
+						<File Id="239012987" Language="SFX">
+							<ShortName>SFX_GPE_Catapult_Grab_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Catapult_Grab_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="907229202" Language="SFX">
+							<ShortName>SFX_GPE_Catapult_Grab_3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Catapult_Grab_3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -94,6 +102,10 @@
 						<File Id="101554022" Language="SFX">
 							<ShortName>SFX_GPE_Catapult_Woosh.wav</ShortName>
 							<Path>SFX\SFX_GPE_Catapult_Woosh_D8C07C79.wem</Path>
+						</File>
+						<File Id="401599658" Language="SFX">
+							<ShortName>SFX_GPE_Catapult_Woosh_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -106,6 +118,14 @@
 						<File Id="21560878" Language="SFX">
 							<ShortName>SFX_GPE_Geyser_Start_1.wav</ShortName>
 							<Path>SFX\SFX_GPE_Geyser_Start_1_D52EF361.wem</Path>
+						</File>
+						<File Id="396762754" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Lp_3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Lp_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="613370864" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Lp_2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Lp_2_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1027,7 +1047,7 @@
 				</File>
 				<File Id="190460748" Language="SFX">
 					<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
-					<Path>SFX\SFX_GPE_Catapult_Grab_D8C07C79.wem</Path>
+					<Path>SFX\SFX_GPE_Catapult_Grab_CDB37AA1.wem</Path>
 				</File>
 				<File Id="192162486" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
@@ -1068,6 +1088,10 @@
 				<File Id="236031477" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
+				</File>
+				<File Id="239012987" Language="SFX">
+					<ShortName>SFX_GPE_Catapult_Grab_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_Catapult_Grab_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="239111183" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_03.wav</ShortName>
@@ -1180,6 +1204,14 @@
 				<File Id="395040096" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="396762754" Language="SFX">
+					<ShortName>SFX_GPE_Geyser_Lp_3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Geyser_Lp_3_D8C07C79.wem</Path>
+				</File>
+				<File Id="401599658" Language="SFX">
+					<ShortName>SFX_GPE_Catapult_Woosh_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="402286783" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_02.wav</ShortName>
@@ -1304,6 +1336,10 @@
 				<File Id="610677375" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
+				</File>
+				<File Id="613370864" Language="SFX">
+					<ShortName>SFX_GPE_Geyser_Lp_2.wav</ShortName>
+					<Path>SFX\SFX_GPE_Geyser_Lp_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="615154265" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_A1.wav</ShortName>
@@ -1489,6 +1525,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Chimes_G1.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem</Path>
 				</File>
+				<File Id="907229202" Language="SFX">
+					<ShortName>SFX_GPE_Catapult_Grab_3.wav</ShortName>
+					<Path>SFX\SFX_GPE_Catapult_Grab_3_D8C07C79.wem</Path>
+				</File>
 				<File Id="941605390" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_C2_D8C07C79.wem</Path>
@@ -1594,6 +1634,9 @@
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_01_D8C07C79.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1167860281" Language="SFX" Hash="4259865319">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
@@ -2550,7 +2593,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3957762932">
+		<SoundBank Id="1355168291" Language="SFX" Hash="855822711">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

@@ -5272,7 +5272,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_GPE_Geyser_Lp" ID="{32985575-0A06-4C76-9F74-107D9913AAF4}" ShortID="847333153">
+										<Sound Name="SFX_GPE_Geyser_Lp_1" ID="{32985575-0A06-4C76-9F74-107D9913AAF4}" ShortID="847333153">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5294,76 +5294,7 @@
 												<ActiveSource Name="SFX_GPE_Geyser_Lp" ID="{1C3052EE-7FC6-400C-B04D-9E88B4B72F71}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-						</ActorMixer>
-						<ActorMixer Name="SFX_GPE_Bumper" ID="{2EDD4467-0E04-447C-BD23-6472C6FAEBDD}" ShortID="326027167">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" ShortID="532527353">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{7B83F9BC-ECD4-4E1F-A72D-A44B4C6EA075}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="75"/>
-															<Property Name="Min" Type="Real64" Value="-75"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{734B48A9-732C-4D2A-B439-98D75558B27C}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="3"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="GPE_Bumper_ATT" ID="{C62BD761-6406-4F3A-BA7A-DC890160BA72}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_GPE_Bumper_1" ID="{273483C6-BB98-4695-90B3-ACDB07E54320}" ShortID="509478469">
+										<Sound Name="SFX_GPE_Geyser_Lp_2" ID="{AFC33146-C41C-4BF2-A853-061C796B1227}" ShortID="273006707">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5373,19 +5304,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Bumper_1" ID="{4EA043BB-917E-4954-8086-715EF188D26A}">
+												<AudioFileSource Name="SFX_GPE_Geyser_Lp_2" ID="{0CE7F0DC-2331-4F6F-A7BE-5981AF52A747}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Bumper_1.wav</AudioFile>
+													<AudioFile>SFX_GPE_Geyser_Lp_2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="555465848"/>
+														<MediaID ID="613370864"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Bumper_1" ID="{4EA043BB-917E-4954-8086-715EF188D26A}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_Geyser_Lp_2" ID="{0CE7F0DC-2331-4F6F-A7BE-5981AF52A747}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_GPE_Bumper_2" ID="{B3FFEF91-3B4B-4E22-952B-ACBD6FFD7A98}" ShortID="167204814">
+										<Sound Name="SFX_GPE_Geyser_Lp_3" ID="{166080BA-CF7B-4BB0-821B-E05A402CB285}" ShortID="846806960">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5395,88 +5326,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Bumper_2" ID="{AA9F76D4-5D67-4267-B45A-32F4C840817E}">
+												<AudioFileSource Name="SFX_GPE_Geyser_Lp_3" ID="{5393F911-CEAA-49C4-91BA-456A33297739}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Bumper_2.wav</AudioFile>
+													<AudioFile>SFX_GPE_Geyser_Lp_3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="5846075"/>
+														<MediaID ID="396762754"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Bumper_2" ID="{AA9F76D4-5D67-4267-B45A-32F4C840817E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Bumper_3" ID="{3CA76D78-7566-45F1-B2A3-329DCB2F5160}" ShortID="175377275">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Bumper_3" ID="{B0246631-5EC0-46F7-987A-CC7D0A4B42FA}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Bumper_3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="579272588"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Bumper_3" ID="{B0246631-5EC0-46F7-987A-CC7D0A4B42FA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Bumper_4" ID="{EAD140C7-6B68-4082-93BD-D98A325D138B}" ShortID="558985795">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Bumper_4" ID="{21FBEC04-EC29-4B47-A284-B84092A18FF7}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.125697417237443"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.422343321917808"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.18909756706621"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Bumper_4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="341736279"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Bumper_4" ID="{21FBEC04-EC29-4B47-A284-B84092A18FF7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Bumper_5" ID="{DC4D7F4B-54BD-4D6C-8F6A-91C455649196}" ShortID="477543029">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Bumper_5" ID="{69F9FF9A-59F3-4991-8415-67F322B319ED}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Bumper_5.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="129156702"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Bumper_5" ID="{69F9FF9A-59F3-4991-8415-67F322B319ED}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_Geyser_Lp_3" ID="{5393F911-CEAA-49C4-91BA-456A33297739}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -5818,25 +5677,32 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{B7A40DE6-7D85-4AA0-BD15-9D53DE2BE90C}" ShortID="796931798">
+												<RTPC Name="" ID="{4FB66245-EF3B-48D3-941F-34DAFB24BD02}" ShortID="899869332">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+															<ObjectRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{06D7D3ED-1AC2-43B4-9364-D0A9DC349156}">
+													<Curve Name="" ID="{E0A17FFB-AB57-46B5-A99E-C92E1AF5F79F}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
 														<PointList>
 															<Point>
-																<XPos>-3800</XPos>
-																<YPos>0</YPos>
+																<XPos>0</XPos>
+																<YPos>-0.1079</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<XPos>721.822563636364</XPos>
+																<YPos>0.69121</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>7000</XPos>
+																<YPos>3.36245</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -5868,6 +5734,33 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+													<RTPCList>
+														<RTPC Name="" ID="{3AED6B9C-A5FE-4FDE-9558-63CF8B4DFC93}" ShortID="965339005">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4D5A64B1-5601-444A-A527-828ADC927620}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>InvertedSCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>7000</XPos>
+																		<YPos>-76</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
@@ -5891,6 +5784,33 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+													<RTPCList>
+														<RTPC Name="" ID="{C026A2A7-6E07-4DE7-83D8-29B37C1A04E7}" ShortID="830729833">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FE188E76-D680-4E9C-893E-B53F5D1EA0D3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-59</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>7000</XPos>
+																		<YPos>59</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -5908,6 +5828,39 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+													<RTPCList>
+														<RTPC Name="" ID="{12C5ADE6-9D76-4396-AB76-CC864AE8317C}" ShortID="817928094">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FEA21BAE-E61D-48EA-942D-945BA16998A0}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.32781</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1737.41008</XPos>
+																		<YPos>0.58845</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>7000</XPos>
+																		<YPos>2.4631</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -6234,6 +6187,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="SFX_GPE_Catapulte_Grab" ID="{22514803-894F-45A8-BCD3-034A90EA6E2D}" ShortID="662725057">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6A5660C8-52E0-4749-B1A4-551041D4C363}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="35"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6243,7 +6211,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_GPE_Catapult_Grab" ID="{50055EF3-A9B3-4AE7-B2DE-B5F70A872060}" ShortID="700176729">
+										<Sound Name="SFX_GPE_Catapult_Grab_1" ID="{50055EF3-A9B3-4AE7-B2DE-B5F70A872060}" ShortID="700176729">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6254,6 +6229,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_GPE_Catapult_Grab" ID="{74D2C1AC-7126-44AE-A340-BBBB0185DF4B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.103814319349315"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0249680008561644"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_GPE_Catapult_Grab.wav</AudioFile>
 													<MediaIDList>
@@ -6265,9 +6245,68 @@
 												<ActiveSource Name="SFX_GPE_Catapult_Grab" ID="{74D2C1AC-7126-44AE-A340-BBBB0185DF4B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="SFX_GPE_Catapult_Grab_2" ID="{E3CEF859-E23C-4D88-8D4C-2F02C427D6C3}" ShortID="550180268">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Grab_2" ID="{8E95DA1C-83CB-41D3-8843-BFF985B8D458}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Grab_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="239012987"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Grab_2" ID="{8E95DA1C-83CB-41D3-8843-BFF985B8D458}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Catapult_Grab_3" ID="{49C1317E-C3CA-433D-BC38-6820C0C8E555}" ShortID="841574728">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Grab_3" ID="{3D761901-3DD7-40FF-B4A2-8CF6D128AF12}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Grab_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="907229202"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Grab_3" ID="{3D761901-3DD7-40FF-B4A2-8CF6D128AF12}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_GPE_Catapulte_Woosh" ID="{92D60BCD-3DFC-4F75-8D2D-F3D36EB6CF40}" ShortID="704508782">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D0C9BD31-F788-48B7-8F40-18AA1E812F75}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="35"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6277,7 +6316,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_GPE_Catapult_Woosh" ID="{E7F944A1-5AF3-4900-9F14-6A6145783B90}" ShortID="953037048">
+										<Sound Name="SFX_GPE_Catapult_Woosh_1" ID="{E7F944A1-5AF3-4900-9F14-6A6145783B90}" ShortID="953037048">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6299,8 +6338,215 @@
 												<ActiveSource Name="SFX_GPE_Catapult_Woosh" ID="{5A732A90-ED45-44D5-B6EC-D22D2DB4783E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="SFX_GPE_Catapult_Woosh_2" ID="{22D2D405-96C0-4DEC-9A80-5D0D7B7C38F8}" ShortID="260273365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Catapult_Woosh_2" ID="{B1D7C3EB-06F2-4EB0-BC57-2D06CC364667}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Catapult_Woosh_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="401599658"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Catapult_Woosh_2" ID="{B1D7C3EB-06F2-4EB0-BC57-2D06CC364667}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<ActorMixer Name="SFX_GPE_Bumper" ID="{2EDD4467-0E04-447C-BD23-6472C6FAEBDD}" ShortID="326027167">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="SFX_GPE_Bumper" ID="{DEA73026-CE59-47A1-A1E7-2C36F71954BE}" ShortID="532527353">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7B83F9BC-ECD4-4E1F-A72D-A44B4C6EA075}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="75"/>
+																	<Property Name="Min" Type="Real64" Value="-75"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{734B48A9-732C-4D2A-B439-98D75558B27C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Bumper_ATT" ID="{C62BD761-6406-4F3A-BA7A-DC890160BA72}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_GPE_Bumper_1" ID="{273483C6-BB98-4695-90B3-ACDB07E54320}" ShortID="509478469">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Bumper_1" ID="{4EA043BB-917E-4954-8086-715EF188D26A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Bumper_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="555465848"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Bumper_1" ID="{4EA043BB-917E-4954-8086-715EF188D26A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Bumper_2" ID="{B3FFEF91-3B4B-4E22-952B-ACBD6FFD7A98}" ShortID="167204814">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Bumper_2" ID="{AA9F76D4-5D67-4267-B45A-32F4C840817E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Bumper_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5846075"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Bumper_2" ID="{AA9F76D4-5D67-4267-B45A-32F4C840817E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Bumper_3" ID="{3CA76D78-7566-45F1-B2A3-329DCB2F5160}" ShortID="175377275">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Bumper_3" ID="{B0246631-5EC0-46F7-987A-CC7D0A4B42FA}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Bumper_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="579272588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Bumper_3" ID="{B0246631-5EC0-46F7-987A-CC7D0A4B42FA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Bumper_4" ID="{EAD140C7-6B68-4082-93BD-D98A325D138B}" ShortID="558985795">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Bumper_4" ID="{21FBEC04-EC29-4B47-A284-B84092A18FF7}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.125697417237443"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.422343321917808"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.18909756706621"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Bumper_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="341736279"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Bumper_4" ID="{21FBEC04-EC29-4B47-A284-B84092A18FF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_GPE_Bumper_5" ID="{DC4D7F4B-54BD-4D6C-8F6A-91C455649196}" ShortID="477543029">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_GPE_Bumper_5" ID="{69F9FF9A-59F3-4991-8415-67F322B319ED}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_GPE_Bumper_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="129156702"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_GPE_Bumper_5" ID="{69F9FF9A-59F3-4991-8415-67F322B319ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

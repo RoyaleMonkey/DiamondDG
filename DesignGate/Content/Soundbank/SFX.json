@@ -15,7 +15,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "593063304",
+    "Hash": "1091360639",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -81,7 +81,7 @@
         "Id": "190460748",
         "Language": "SFX",
         "ShortName": "SFX_GPE_Catapult_Grab.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Grab_0AA874FA.wem"
+        "Path": "SFX\\SFX_GPE_Catapult_Grab_CDB37AA1.wem"
        },
        {
         "Id": "239012987",
@@ -1276,6 +1276,20 @@
       ]
      },
      {
+      "Id": "967636871",
+      "Name": "Play_Waterfall_blnd",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Waterfall_blnd",
+      "MaxAttenuation": "13000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "95843208",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Waterfall_Away.wav",
+        "Path": "SFX\\SFX_LE_Waterfall_Away_D8C07C79.wem"
+       }
+      ]
+     },
+     {
       "Id": "1587068986",
       "Name": "Stop_SFX_GPE_Geyser_end",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Geyser\\Stop_SFX_GPE_Geyser_end",
@@ -1535,6 +1549,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_A1_02_D8C07C79.wem"
      },
      {
+      "Id": "95843208",
+      "Language": "SFX",
+      "ShortName": "SFX_LE_Waterfall_Away.wav",
+      "Path": "SFX\\SFX_LE_Waterfall_Away_D8C07C79.wem"
+     },
+     {
       "Id": "98890993",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Chimes_F2.wav",
@@ -1646,7 +1666,7 @@
       "Id": "190460748",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Catapult_Grab.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Grab_0AA874FA.wem"
+      "Path": "SFX\\SFX_GPE_Catapult_Grab_CDB37AA1.wem"
      },
      {
       "Id": "192162486",

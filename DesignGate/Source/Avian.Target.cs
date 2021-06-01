@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class DesignGateTarget : TargetRules
+public class AvianTarget : TargetRules
 {
-	public DesignGateTarget(TargetInfo Target) : base(Target)
+	public AvianTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("DesignGate");
+		ExtraModuleNames.Add("Avian");
 	}
 }

@@ -67,7 +67,7 @@ enum class LosePowerOptions : uint8
 };
 
 UCLASS()
-class DESIGNGATE_API UParametersSave : public USaveGame
+class AVIAN_API UParametersSave : public USaveGame
 {
 	GENERATED_BODY()
 

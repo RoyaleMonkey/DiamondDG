@@ -7,7 +7,7 @@
 #include "CustomCharacter.generated.h"
 
 UCLASS()
-class DESIGNGATE_API ACustomCharacter : public ACharacter
+class AVIAN_API ACustomCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

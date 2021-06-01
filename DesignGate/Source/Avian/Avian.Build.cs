@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class DesignGate : ModuleRules
+public class Avian : ModuleRules
 {
-	public DesignGate(ReadOnlyTargetRules Target) : base(Target)
+	public Avian(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

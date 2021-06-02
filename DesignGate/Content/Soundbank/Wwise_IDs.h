@@ -34,6 +34,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_SFX_DOOR = 598048154U;
         static const AkUniqueID PLAY_SFX_GPE_BUMPER = 1429665634U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULT_MELODY_01 = 3274171620U;

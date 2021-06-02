@@ -85,6 +85,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Waterfall_blnd" ID="{65E25AE8-FC38-49B7-9C26-D490D224FB5D}">
+							<ChildrenList>
+								<Action Name="" ID="{60244BBE-554B-4A79-94FD-FE371F208CD8}" ShortID="1046639118">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterfall_blnd" ID="{147ED68F-C0F2-45C7-AB14-5CE54DBBD16D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

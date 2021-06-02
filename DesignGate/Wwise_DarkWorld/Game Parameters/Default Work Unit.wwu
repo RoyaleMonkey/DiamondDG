@@ -25,7 +25,10 @@
 				<GameParameter Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="7000"/>
+						<Property Name="Max" Type="Real64" Value="4500"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="4"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

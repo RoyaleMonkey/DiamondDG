@@ -44,7 +44,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="593063304">
+		<SoundBank Id="393239870" Language="SFX" Hash="1091360639">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -85,7 +85,7 @@
 					<IncludedMemoryFiles>
 						<File Id="190460748" Language="SFX">
 							<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
-							<Path>SFX\SFX_GPE_Catapult_Grab_0AA874FA.wem</Path>
+							<Path>SFX\SFX_GPE_Catapult_Grab_CDB37AA1.wem</Path>
 						</File>
 						<File Id="239012987" Language="SFX">
 							<ShortName>SFX_GPE_Catapult_Grab_2.wav</ShortName>
@@ -845,6 +845,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
+					<IncludedMemoryFiles>
+						<File Id="95843208" Language="SFX">
+							<ShortName>SFX_LE_Waterfall_Away.wav</ShortName>
+							<Path>SFX\SFX_LE_Waterfall_Away_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="9000.000000">
 					<IncludedMemoryFiles>
 						<File Id="669892981" Language="SFX">
@@ -973,6 +981,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A1_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="95843208" Language="SFX">
+					<ShortName>SFX_LE_Waterfall_Away.wav</ShortName>
+					<Path>SFX\SFX_LE_Waterfall_Away_D8C07C79.wem</Path>
+				</File>
 				<File Id="98890993" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_F2.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem</Path>
@@ -1047,7 +1059,7 @@
 				</File>
 				<File Id="190460748" Language="SFX">
 					<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
-					<Path>SFX\SFX_GPE_Catapult_Grab_0AA874FA.wem</Path>
+					<Path>SFX\SFX_GPE_Catapult_Grab_CDB37AA1.wem</Path>
 				</File>
 				<File Id="192162486" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
@@ -2135,7 +2147,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="855822711">
+		<SoundBank Id="1355168291" Language="SFX" Hash="160630223">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

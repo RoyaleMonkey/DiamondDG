@@ -957,9 +957,9 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Attenuation WaterFall" ID="{E69360FD-DB71-43AF-A234-D8B670FE9D8B}" ShortID="973886610">
+				<Attenuation Name="Attenuation WaterFall Close" ID="{E69360FD-DB71-43AF-A234-D8B670FE9D8B}" ShortID="973886610">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="8000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="12000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -976,25 +976,19 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2319.74921</XPos>
-											<YPos>-0.16701</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>InvertedSCurve</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>4401.25392</XPos>
-											<YPos>-4.2934</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>InvertedSCurve</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>6257.05329333333</XPos>
-											<YPos>-15.20364</YPos>
+											<XPos>5228.84013</XPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>8000</XPos>
+											<XPos>10683.38558</XPos>
+											<YPos>-24.82261</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>12000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1025,10 +1019,17 @@
 											<XPos>0</XPos>
 											<YPos>100</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>8000</XPos>
-											<YPos>0</YPos>
+											<XPos>5266.45768</XPos>
+											<YPos>99.90528</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>12000</XPos>
+											<YPos>15.5</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -1040,7 +1041,7 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Attenuation Away" ID="{59A44A8A-2768-4E9A-A3F2-2B857E895579}" ShortID="18654085">
+				<Attenuation Name="Attenuation WaterFall Away" ID="{59A44A8A-2768-4E9A-A3F2-2B857E895579}" ShortID="18654085">
 					<PropertyList>
 						<Property Name="ConeAttenuation" Type="Real64">
 							<ValueList>
@@ -1065,7 +1066,7 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
@@ -1116,8 +1117,14 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>11003.1347941667</XPos>
-											<YPos>38.5</YPos>
+											<XPos>6887.14734</XPos>
+											<YPos>100</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>9984.32601</XPos>
+											<YPos>33</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp3</SegmentShape>
 										</Point>

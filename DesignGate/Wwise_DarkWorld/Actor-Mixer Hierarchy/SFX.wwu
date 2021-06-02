@@ -6702,18 +6702,13 @@
 								<RandomSequenceContainer Name="Waterfall_close" ID="{0D1908BD-4072-4EA7-9A88-4CDE029D18D8}" ShortID="765794008">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation WaterFall" ID="{E69360FD-DB71-43AF-A234-D8B670FE9D8B}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+											<ObjectRef Name="Attenuation WaterFall Close" ID="{E69360FD-DB71-43AF-A234-D8B670FE9D8B}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6756,7 +6751,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation Away" ID="{59A44A8A-2768-4E9A-A3F2-2B857E895579}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+											<ObjectRef Name="Attenuation WaterFall Away" ID="{59A44A8A-2768-4E9A-A3F2-2B857E895579}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6766,7 +6761,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_LE_Waterfall_Away" ID="{33ACD45C-6264-42F5-ACDA-B85421ED440D}" ShortID="665339142">
+										<Sound Name="SFX_LE_Waterfall_Away" ID="{BFCBEC8D-3E6E-4463-A1E2-B4E9FAB280C0}" ShortID="761223227">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6776,7 +6771,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_LE_Waterfall_Away" ID="{6EFC6DFD-4302-46DA-B3B0-347650DA477F}">
+												<AudioFileSource Name="SFX_LE_Waterfall_Away" ID="{869ED3BA-9D43-4617-9A73-F5991C5890B9}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_LE_Waterfall_Away.wav</AudioFile>
 													<MediaIDList>
@@ -6785,7 +6780,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_LE_Waterfall_Away" ID="{6EFC6DFD-4302-46DA-B3B0-347650DA477F}" Platform="Linked"/>
+												<ActiveSource Name="SFX_LE_Waterfall_Away" ID="{869ED3BA-9D43-4617-9A73-F5991C5890B9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

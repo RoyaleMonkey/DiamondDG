@@ -20,17 +20,6 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_Amb" ID="{45316855-8F85-45FC-A57F-88172073E4D9}">
-							<ChildrenList>
-								<Action Name="" ID="{10FA47F7-8DBE-477F-8E59-BBA8E5056AA4}" ShortID="1065209017">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Design_Gate" ID="{61A1729D-453F-4C1B-B67C-2EFAF3D0AB97}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Amb_Lake_LP" ID="{628066DA-8FF2-4CF9-9CB9-41A91D0AA442}">
 							<ChildrenList>
 								<Action Name="" ID="{8A65B739-1153-4946-85A1-627F7F0D9C92}" ShortID="795415394">
@@ -89,12 +78,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Birds_RFX" ID="{937CA3CC-0C83-47A7-8E1A-714FBE6C1ADA}">
+						<Event Name="Play_Amb_Birds_RFX" ID="{1B08CCB5-E01B-4C6A-B576-8610AFCAEAA1}">
 							<ChildrenList>
-								<Action Name="" ID="{A2D24B3B-CDD0-49F1-98D0-2823F741604D}" ShortID="323293402">
+								<Action Name="" ID="{22B6F2D3-3932-41D9-9ACE-7B73E81C13BC}" ShortID="455859774">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Birds_RFX" ID="{88A3782B-06CB-4D53-ADC1-672AC93E1421}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+											<ObjectRef Name="Amb_Birds_RFX" ID="{8DD8B6DC-88F5-46AB-AC59-51140DEDB837}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

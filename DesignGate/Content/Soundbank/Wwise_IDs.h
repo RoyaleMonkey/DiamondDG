@@ -23,12 +23,11 @@ namespace AK
         static const AkUniqueID FLUTE_F_START = 4214291931U;
         static const AkUniqueID FLUTE_G_END = 1634689741U;
         static const AkUniqueID FLUTE_G_START = 1149564230U;
-        static const AkUniqueID PLAY_AMB = 2959533290U;
+        static const AkUniqueID PLAY_AMB_BIRDS_RFX = 1413324378U;
         static const AkUniqueID PLAY_AMB_CAVERN = 3686445418U;
         static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
         static const AkUniqueID PLAY_AMB_FOUNTAIN = 570117905U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
-        static const AkUniqueID PLAY_BIRDS_RFX = 99617975U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
         static const AkUniqueID PLAY_MC_FOL_LAND = 2037670792U;
         static const AkUniqueID PLAY_MC_FOL_PIVOT = 1608668697U;

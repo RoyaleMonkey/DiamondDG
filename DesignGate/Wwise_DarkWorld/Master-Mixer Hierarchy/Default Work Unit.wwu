@@ -12,11 +12,7 @@
 					<ChildrenList>
 						<Bus Name="AMB" ID="{5A33D80D-2DCB-4A14-85DE-75D4E8E080B4}"/>
 						<AuxBus Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</AuxBus>
 						<Bus Name="MC" ID="{A6DFCCB4-8F4C-40F9-A387-7A1923B1E27B}">
 							<ChildrenList>

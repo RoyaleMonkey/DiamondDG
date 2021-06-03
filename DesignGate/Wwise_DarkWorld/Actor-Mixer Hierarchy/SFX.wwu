@@ -1345,7 +1345,6 @@
 						</Folder>
 						<ActorMixer Name="SFX_GPE_PlantPlatform" ID="{F2D1B652-F32C-450B-A7FA-2A51CB9398A3}" ShortID="803750257">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -6702,6 +6701,11 @@
 								<RandomSequenceContainer Name="Waterfall_close" ID="{0D1908BD-4072-4EA7-9A88-4CDE029D18D8}" ShortID="765794008">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -6745,6 +6749,11 @@
 								<RandomSequenceContainer Name="Waterfall_away" ID="{B0CD813C-D410-426A-A120-F5D2F03F1BF2}" ShortID="302617277">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>35</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -6787,6 +6796,96 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="SFX_LE_Basero_LP" ID="{853C32F7-66F7-4135-B7E9-A79D3D1236A6}" ShortID="3266742">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation Brasero" ID="{F6334AE1-27CB-49BA-8744-7A769CF7A937}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_LE_Brasero_LP_1" ID="{C0840536-74E7-4187-BBA7-0B9B334F516A}" ShortID="137247722">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_LE_Brasero_LP_1" ID="{6D659824-C924-4C10-8517-60929014A828}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_LE_Brasero_LP_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="70124005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_LE_Brasero_LP_1" ID="{6D659824-C924-4C10-8517-60929014A828}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_LE_Brasero_LP_2" ID="{1BCDECC7-1B15-414A-8B53-110F104DF74F}" ShortID="754017233">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_LE_Brasero_LP_2" ID="{130BCE1E-1FAC-4FB7-8A58-4A24A9CBE376}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_LE_Brasero_LP_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="357413444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_LE_Brasero_LP_2" ID="{130BCE1E-1FAC-4FB7-8A58-4A24A9CBE376}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_LE_Brasero_LP_3" ID="{EEFE8250-1F71-4791-AB59-F18063D7170C}" ShortID="972391369">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_LE_Brasero_LP_3" ID="{A5E84966-CEB9-4855-A02B-630325AC18CD}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_LE_Brasero_LP_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442493699"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_LE_Brasero_LP_3" ID="{A5E84966-CEB9-4855-A02B-630325AC18CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

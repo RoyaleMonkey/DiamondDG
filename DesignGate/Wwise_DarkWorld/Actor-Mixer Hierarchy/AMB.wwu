@@ -8,6 +8,13 @@
 			</PropertyList>
 			<ChildrenList>
 				<BlendContainer Name="Amb_Design_Gate" ID="{61A1729D-453F-4C1B-B67C-2EFAF3D0AB97}" ShortID="364155488">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -7585,6 +7592,11 @@
 				<Sound Name="Amb_Lake_LP" ID="{DA4747E9-090E-4875-8D92-D7D40F65446F}" ShortID="178136875">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -7614,6 +7626,11 @@
 				<BlendContainer Name="Amb_Fountain" ID="{FBFB3339-4A21-4903-923D-7CF86D30B243}" ShortID="509574335">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -8142,16 +8159,60 @@
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Amb_Birds_RFX" ID="{8DD8B6DC-88F5-46AB-AC59-51140DEDB837}" ShortID="475168145">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C8DA5779-138C-48CD-BF57-74097D2277A5}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="14"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Attenuation Bird RFX" ID="{04AE22BF-3CC5-4B6A-8D98-6DB27BDC0A1A}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Amb_Bird_RFX_BlackBird" ID="{163619C1-DC04-4B50-99A7-18F0D7C1B1B7}" ShortID="895858038">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D2704815-6635-4399-A13E-A9CF54FF1268}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8250,8 +8311,33 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{B710101B-A770-4E1B-9941-85759E075A4E}"/>
+							</PositioningInfo>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Amb_Bird_RFX_Linnet" ID="{73570CA3-83C5-404B-9EB4-F9C0A1624E90}" ShortID="620239332">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{961FE013-61B9-4BE9-816D-CACD50A62388}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="12"/>
+													<Property Name="Min" Type="Real64" Value="-6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8329,7 +8415,14 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="New Random Container_02" ID="{04D1BF5B-0AD2-4FE0-B6DA-085EF4F817C5}" ShortID="384199496">
+						<RandomSequenceContainer Name="Amb_Bird_RFX_Eurasian_Wren" ID="{04D1BF5B-0AD2-4FE0-B6DA-085EF4F817C5}" ShortID="384199496">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8338,8 +8431,98 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_RFX_Bird_Eurasian_Wren_1" ID="{2B1F8914-62E9-4663-B277-2588178583C5}" ShortID="768400637">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Eurasian_Wren_1" ID="{0971DEFA-C6C4-496A-8A80-89E3CFCB2B95}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Eurasian_Wren_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="768359527"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Eurasian_Wren_1" ID="{0971DEFA-C6C4-496A-8A80-89E3CFCB2B95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Eurasian_Wren_2" ID="{FB13654F-4CE4-484A-8F31-781D6B514995}" ShortID="451972994">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Eurasian_Wren_2" ID="{A15FA045-4A90-401B-82DD-518D6F57D7B3}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Eurasian_Wren_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="154782633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Eurasian_Wren_2" ID="{A15FA045-4A90-401B-82DD-518D6F57D7B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Eurasian_Wren_3" ID="{EF1FA153-B1A4-47FC-8EBC-B885B0608774}" ShortID="661735954">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Eurasian_Wren_3" ID="{DD3430B2-90D3-44BE-9321-8C7DE35F90C9}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Eurasian_Wren_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="996016742"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Eurasian_Wren_3" ID="{DD3430B2-90D3-44BE-9321-8C7DE35F90C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="New Random Container_03" ID="{87B401C1-9438-46BB-ACB7-B2E65061A863}" ShortID="690111208">
+						<RandomSequenceContainer Name="Amb_RFX_Bird_Dead_Sea_Sparrow" ID="{87B401C1-9438-46BB-ACB7-B2E65061A863}" ShortID="690111208">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7508665D-05DD-47CC-899F-606B2B46FB1A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-8"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8348,8 +8531,120 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_RFX_Bird_Dead_Sea_Sparrow_01" ID="{D2141926-09CA-4746-84FE-F6194A78F645}" ShortID="71190603">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_01" ID="{733BFF2D-C672-4CAA-9A26-A3F124061D70}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Dead_Sea_Sparrow_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700779729"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_01" ID="{733BFF2D-C672-4CAA-9A26-A3F124061D70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Dead_Sea_Sparrow_2" ID="{8CD48BB0-CD69-45D6-881B-A7CD53A5D7C9}" ShortID="125595979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_2" ID="{C4B62044-EDFB-4CFB-ACE3-BBE79618550A}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Dead_Sea_Sparrow_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="4589486"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_2" ID="{C4B62044-EDFB-4CFB-ACE3-BBE79618550A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Dead_Sea_Sparrow_3" ID="{D4AE88A8-FBB6-4893-8808-9A714E42AE99}" ShortID="920335495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_3" ID="{DE787371-60B8-445B-A28A-6A502DCDD904}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Dead_Sea_Sparrow_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="163611727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_3" ID="{DE787371-60B8-445B-A28A-6A502DCDD904}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Dead_Sea_Sparrow_4" ID="{8EF51E15-3FBF-451A-B160-BFEA871B0C77}" ShortID="744617185">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_4" ID="{54664F40-66A7-4C38-9F6F-E8A605C25CF9}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Dead_Sea_Sparrow_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162430193"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Dead_Sea_Sparrow_4" ID="{54664F40-66A7-4C38-9F6F-E8A605C25CF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="New Random Container_04" ID="{BCB6491D-E4A6-40D7-9EBC-1DAD8CCBC8DE}" ShortID="325372138">
+						<RandomSequenceContainer Name="Amb_RFX_Bird_Whitethroat" ID="{BCB6491D-E4A6-40D7-9EBC-1DAD8CCBC8DE}" ShortID="325372138">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D1323B09-BD18-4E46-975D-7F07D55EFB1A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="31"/>
+													<Property Name="Min" Type="Real64" Value="-9"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8358,8 +8653,234 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_RFX_Bird_Whitethroat_01" ID="{42D6D7F4-2C34-4393-99ED-0EEFEB09DEBB}" ShortID="890392123">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Whitethroat_01" ID="{F069A401-9967-46B9-8E40-242CCCEC035B}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Whitethroat_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="882603162"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Whitethroat_01" ID="{F069A401-9967-46B9-8E40-242CCCEC035B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Whitethroat_2" ID="{AD36894F-7DE6-4921-8DE6-B49686165D2D}" ShortID="962621495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Whitethroat_2" ID="{0294E102-0D50-43C4-86C7-07B33A170E76}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Whitethroat_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="867267790"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Whitethroat_2" ID="{0294E102-0D50-43C4-86C7-07B33A170E76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Whitethroat_3" ID="{40EDDC2B-13C6-4D25-9502-D136BD253E6F}" ShortID="1013624615">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Whitethroat_3" ID="{20B5410C-2396-4E40-AD38-0695D11A6BAF}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Whitethroat_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="934041566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Whitethroat_3" ID="{20B5410C-2396-4E40-AD38-0695D11A6BAF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_RFX_Bird_Whitethroat_4" ID="{4504750B-FD4E-4116-8586-02262E0CB2F0}" ShortID="794401558">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_RFX_Bird_Whitethroat_4" ID="{FE5EEB6B-3134-4C02-A389-D40A48531A80}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_RFX_Bird_Whitethroat_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="613797165"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_RFX_Bird_Whitethroat_4" ID="{FE5EEB6B-3134-4C02-A389-D40A48531A80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{C2BA2B61-0CE3-4D82-90D2-1A909BEDC192}">
+							<ChildrenList>
+								<Path2D Name="Amb_Birds_RFX_Path" ID="{BF515B75-7D84-486D-B25D-FFEFC292618E}">
+									<PointList>
+										<Point>
+											<XPos>-81.64556</XPos>
+											<YPos>43.63058</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>75.31646</XPos>
+											<YPos>59.23567</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>77.8481</XPos>
+											<YPos>33.12102</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Amb_Birds_RFX_Path_01" ID="{86076099-4F45-4D94-B9E9-607AB8B80475}">
+									<PointList>
+										<Point>
+											<XPos>-86.70886</XPos>
+											<YPos>13.69427</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>5.6962</XPos>
+											<YPos>62.42038</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>76.58228</XPos>
+											<YPos>16.56051</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Amb_Birds_RFX_Path_02" ID="{B8415097-ADDC-4171-B49B-0E5348D4B364}">
+									<PointList>
+										<Point>
+											<XPos>44.3038</XPos>
+											<YPos>69.10828</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-62.65823</XPos>
+											<YPos>32.48408</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Amb_Birds_RFX_Path_03" ID="{1F07AE4A-0D88-4642-BE08-3B9C99FF6E62}">
+									<PointList>
+										<Point>
+											<XPos>86.70885</XPos>
+											<YPos>32.1656</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-78.48101</XPos>
+											<YPos>14.64968</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Amb_Birds_RFX_Path_04" ID="{9356F6C2-D575-4603-9D45-D38B99101D7E}">
+									<PointList>
+										<Point>
+											<XPos>77.21519</XPos>
+											<YPos>71.01911</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>75.94937</XPos>
+											<YPos>28.02548</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>-70.25316</XPos>
+											<YPos>14.01274</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Amb_Birds_RFX_Path_05" ID="{515BBEDC-F2C9-4921-9D1C-28EFE40B5BD4}">
+									<PointList>
+										<Point>
+											<XPos>68.35443</XPos>
+											<YPos>72.92994</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-8.22785</XPos>
+											<YPos>71.97452</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Amb_Birds_RFX_Path_06" ID="{59A64B06-804A-41AB-9A22-B8D19043CAB7}">
+									<PointList>
+										<Point>
+											<XPos>-13.29114</XPos>
+											<YPos>84.3949</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>22.78481</XPos>
+											<YPos>24.84076</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
 				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>

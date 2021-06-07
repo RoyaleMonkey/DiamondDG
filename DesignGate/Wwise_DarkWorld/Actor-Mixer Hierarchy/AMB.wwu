@@ -8031,6 +8031,13 @@
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Amb_Forest" ID="{29C82455-8A28-46CC-931D-502AE5FF796D}" ShortID="733585775">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -8173,6 +8180,11 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -8624,6 +8636,11 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Amb_RFX_Bird_Whitethroat" ID="{BCB6491D-E4A6-40D7-9EBC-1DAD8CCBC8DE}" ShortID="325372138">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="InitialDelay" Type="Real64">
 									<ModifierList>
 										<ModifierInfo>
@@ -8882,6 +8899,113 @@
 						</Position>
 					</PositioningInfo>
 				</BlendContainer>
+				<RandomSequenceContainer Name="Amb_Fall_Dirt_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" ShortID="812476859">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Rock_Fall_01" ID="{C77635A4-C542-477F-8134-5DD16DFEA142}" ShortID="927177012">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Rock_Fall_01" ID="{D37FE22A-5871-4032-8A18-4F48CED7DFED}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Rock_Fall_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="833547020"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Rock_Fall_01" ID="{D37FE22A-5871-4032-8A18-4F48CED7DFED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Rock_Fall_02" ID="{D480283D-ED49-4A5F-B562-BF70ECBBADCE}" ShortID="899422221">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Rock_Fall_02" ID="{D6A10FF4-A353-452D-84C9-82E3908F492F}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Rock_Fall_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="529464495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Rock_Fall_02" ID="{D6A10FF4-A353-452D-84C9-82E3908F492F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Rock_Fall_03" ID="{988E4750-AEC9-4A58-9ECB-FB4AE0D0872B}" ShortID="714610810">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Rock_Fall_03" ID="{208B6BD2-F4EC-4474-A372-63D0AC91E243}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Rock_Fall_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="370379099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Rock_Fall_03" ID="{208B6BD2-F4EC-4474-A372-63D0AC91E243}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Rock_Fall_04" ID="{BBADED43-C10A-49CE-9A4F-ACB3C55C6932}" ShortID="711081681">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Rock_Fall_04" ID="{D6670333-D632-4EA5-BB9D-C1D5398889A7}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Rock_Fall_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="624963130"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Rock_Fall_04" ID="{D6670333-D632-4EA5-BB9D-C1D5398889A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

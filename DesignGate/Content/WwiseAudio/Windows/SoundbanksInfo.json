@@ -25,11 +25,31 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "855853113",
+    "Hash": "2209080313",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2110018169",
+      "Name": "Play_Little_WaterFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Little_WaterFall",
+      "MaxAttenuation": "15000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "408096571",
+        "Language": "SFX",
+        "ShortName": "AMB_LittleWaterFall_Away_lp.wav",
+        "Path": "SFX\\AMB_LittleWaterFall_Away_lp_D8C07C79.wem"
+       },
+       {
+        "Id": "638325598",
+        "Language": "SFX",
+        "ShortName": "AMB_LittleWaterFall_Close_Lp.wav",
+        "Path": "SFX\\AMB_LittleWaterFall_Close_Lp_D8C07C79.wem"
+       }
+      ]
+     },
      {
       "Id": "598048154",
       "Name": "Play_SFX_Door",
@@ -1967,6 +1987,12 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_AS2_D8C07C79.wem"
      },
      {
+      "Id": "408096571",
+      "Language": "SFX",
+      "ShortName": "AMB_LittleWaterFall_Away_lp.wav",
+      "Path": "SFX\\AMB_LittleWaterFall_Away_lp_D8C07C79.wem"
+     },
+     {
       "Id": "409024675",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_D2.wav",
@@ -2169,6 +2195,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Telekinesie_End__1.wav",
       "Path": "SFX\\SFX_Telekinesie_End__1_7C6D776D.wem"
+     },
+     {
+      "Id": "638325598",
+      "Language": "SFX",
+      "ShortName": "AMB_LittleWaterFall_Close_Lp.wav",
+      "Path": "SFX\\AMB_LittleWaterFall_Close_Lp_D8C07C79.wem"
      },
      {
       "Id": "647760645",
@@ -4098,7 +4130,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "160630223",
+    "Hash": "4078549471",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -4108,12 +4140,24 @@
       "Name": "RVB_FOREST",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1985131783",
+      "Name": "SoundEffectVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SoundEffectVolume"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume"
+     }
     ]
    },
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "587458969",
+    "Hash": "586656016",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -4167,12 +4211,6 @@
         "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_3_D8C07C79.wem"
        },
        {
-        "Id": "613797165",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_4.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_4_D8C07C79.wem"
-       },
-       {
         "Id": "700779729",
         "Language": "SFX",
         "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_01.wav",
@@ -4197,28 +4235,10 @@
         "Path": "SFX\\Amb_Bird_RFX_Blackbird_4_D8C07C79.wem"
        },
        {
-        "Id": "867267790",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_2.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_2_D8C07C79.wem"
-       },
-       {
         "Id": "875510383",
         "Language": "SFX",
         "ShortName": "Amb_RFX_Bird_Common_Linnet_2.wav",
         "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_2_D8C07C79.wem"
-       },
-       {
-        "Id": "882603162",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_01.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_01_D8C07C79.wem"
-       },
-       {
-        "Id": "934041566",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_3.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_3_D8C07C79.wem"
        },
        {
         "Id": "996016742",
@@ -4254,6 +4274,11 @@
         "Path": "SFX\\Amb_Int_Cavern_LP_0762CC47.wem"
        }
       ]
+     },
+     {
+      "Id": "172812343",
+      "Name": "Play_Amb_Fall_Dirt_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Amb_Fall_Dirt_RFX"
      },
      {
       "Id": "994146778",
@@ -9021,6 +9046,12 @@
       "Path": "SFX\\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem"
      },
      {
+      "Id": "370379099",
+      "Language": "SFX",
+      "ShortName": "SFX_Rock_Fall_03.wav",
+      "Path": "SFX\\SFX_Rock_Fall_03_D8C07C79.wem"
+     },
+     {
       "Id": "371177517",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Land_03.wav",
@@ -9279,6 +9310,12 @@
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem"
      },
      {
+      "Id": "529464495",
+      "Language": "SFX",
+      "ShortName": "SFX_Rock_Fall_02.wav",
+      "Path": "SFX\\SFX_Rock_Fall_02_D8C07C79.wem"
+     },
+     {
       "Id": "529933926",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Debris_9.wav",
@@ -9417,12 +9454,6 @@
       "Path": "SFX\\SFX_MC_FT_Wood_Land_04_D8C07C79.wem"
      },
      {
-      "Id": "613797165",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_4.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_4_D8C07C79.wem"
-     },
-     {
       "Id": "614695433",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Run_03.wav",
@@ -9451,6 +9482,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Dirt_3.wav",
       "Path": "SFX\\SFX_MC_Tap_Dirt_3_1D31E3C6.wem"
+     },
+     {
+      "Id": "624963130",
+      "Language": "SFX",
+      "ShortName": "SFX_Rock_Fall_04.wav",
+      "Path": "SFX\\SFX_Rock_Fall_04_D8C07C79.wem"
      },
      {
       "Id": "631354978",
@@ -9915,6 +9952,12 @@
       "Path": "SFX\\SFX_MC_FT_Dirt_Walk_02_D8C07C79.wem"
      },
      {
+      "Id": "833547020",
+      "Language": "SFX",
+      "ShortName": "SFX_Rock_Fall_01.wav",
+      "Path": "SFX\\SFX_Rock_Fall_01_D8C07C79.wem"
+     },
+     {
       "Id": "833813031",
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Wood_6.wav",
@@ -9945,12 +9988,6 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Run_07_D8C07C79.wem"
      },
      {
-      "Id": "867267790",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_2.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_2_D8C07C79.wem"
-     },
-     {
       "Id": "869242387",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Land_01.wav",
@@ -9967,12 +10004,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_09.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem"
-     },
-     {
-      "Id": "882603162",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_01.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_01_D8C07C79.wem"
      },
      {
       "Id": "886300096",
@@ -10069,12 +10100,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Debris_10.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Debris_10_D8C07C79.wem"
-     },
-     {
-      "Id": "934041566",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_3.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_3_D8C07C79.wem"
      },
      {
       "Id": "935116845",

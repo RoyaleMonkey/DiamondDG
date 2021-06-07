@@ -15,11 +15,31 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "855853113",
+    "Hash": "2209080313",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2110018169",
+      "Name": "Play_Little_WaterFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Little_WaterFall",
+      "MaxAttenuation": "15000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "408096571",
+        "Language": "SFX",
+        "ShortName": "AMB_LittleWaterFall_Away_lp.wav",
+        "Path": "SFX\\AMB_LittleWaterFall_Away_lp_D8C07C79.wem"
+       },
+       {
+        "Id": "638325598",
+        "Language": "SFX",
+        "ShortName": "AMB_LittleWaterFall_Close_Lp.wav",
+        "Path": "SFX\\AMB_LittleWaterFall_Close_Lp_D8C07C79.wem"
+       }
+      ]
+     },
      {
       "Id": "598048154",
       "Name": "Play_SFX_Door",
@@ -1957,6 +1977,12 @@
       "Path": "SFX\\SFX_GPE_Stele_Stone_AS2_D8C07C79.wem"
      },
      {
+      "Id": "408096571",
+      "Language": "SFX",
+      "ShortName": "AMB_LittleWaterFall_Away_lp.wav",
+      "Path": "SFX\\AMB_LittleWaterFall_Away_lp_D8C07C79.wem"
+     },
+     {
       "Id": "409024675",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_D2.wav",
@@ -2159,6 +2185,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Telekinesie_End__1.wav",
       "Path": "SFX\\SFX_Telekinesie_End__1_7C6D776D.wem"
+     },
+     {
+      "Id": "638325598",
+      "Language": "SFX",
+      "ShortName": "AMB_LittleWaterFall_Close_Lp.wav",
+      "Path": "SFX\\AMB_LittleWaterFall_Close_Lp_D8C07C79.wem"
      },
      {
       "Id": "647760645",

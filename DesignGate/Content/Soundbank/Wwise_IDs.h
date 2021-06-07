@@ -25,9 +25,11 @@ namespace AK
         static const AkUniqueID FLUTE_G_START = 1149564230U;
         static const AkUniqueID PLAY_AMB_BIRDS_RFX = 1413324378U;
         static const AkUniqueID PLAY_AMB_CAVERN = 3686445418U;
+        static const AkUniqueID PLAY_AMB_FALL_DIRT_RFX = 172812343U;
         static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
         static const AkUniqueID PLAY_AMB_FOUNTAIN = 570117905U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
+        static const AkUniqueID PLAY_LITTLE_WATERFALL = 2110018169U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
         static const AkUniqueID PLAY_MC_FOL_LAND = 2037670792U;
         static const AkUniqueID PLAY_MC_FOL_PIVOT = 1608668697U;
@@ -158,8 +160,11 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID MASTERVOLUME = 2918011349U;
         static const AkUniqueID MC_FALLING = 33954365U;
         static const AkUniqueID MC_SPEED = 1227053913U;
+        static const AkUniqueID MUSICVOLUME = 2346531308U;
+        static const AkUniqueID SOUNDEFFECTVOLUME = 1985131783U;
         static const AkUniqueID VELOCITYZIPLINE = 1147290023U;
     } // namespace GAME_PARAMETERS
 
@@ -180,6 +185,8 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID MC_FLUTE = 292717054U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

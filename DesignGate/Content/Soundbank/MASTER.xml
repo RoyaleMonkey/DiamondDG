@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="907478980">
+		<SoundBank Id="4056684167" Language="SFX" Hash="3005206469">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -43,10 +43,6 @@
 							<ShortName>Amb_RFX_Bird_Dead_Sea_Sparrow_3.wav</ShortName>
 							<Path>SFX\Amb_RFX_Bird_Dead_Sea_Sparrow_3_D8C07C79.wem</Path>
 						</File>
-						<File Id="613797165" Language="SFX">
-							<ShortName>Amb_RFX_Bird_Whitethroat_4.wav</ShortName>
-							<Path>SFX\Amb_RFX_Bird_Whitethroat_4_D8C07C79.wem</Path>
-						</File>
 						<File Id="700779729" Language="SFX">
 							<ShortName>Amb_RFX_Bird_Dead_Sea_Sparrow_01.wav</ShortName>
 							<Path>SFX\Amb_RFX_Bird_Dead_Sea_Sparrow_01_D8C07C79.wem</Path>
@@ -63,21 +59,9 @@
 							<ShortName>Amb_Bird_RFX_Blackbird_4.wav</ShortName>
 							<Path>SFX\Amb_Bird_RFX_Blackbird_4_D8C07C79.wem</Path>
 						</File>
-						<File Id="867267790" Language="SFX">
-							<ShortName>Amb_RFX_Bird_Whitethroat_2.wav</ShortName>
-							<Path>SFX\Amb_RFX_Bird_Whitethroat_2_D8C07C79.wem</Path>
-						</File>
 						<File Id="875510383" Language="SFX">
 							<ShortName>Amb_RFX_Bird_Common_Linnet_2.wav</ShortName>
 							<Path>SFX\Amb_RFX_Bird_Common_Linnet_2_D8C07C79.wem</Path>
-						</File>
-						<File Id="882603162" Language="SFX">
-							<ShortName>Amb_RFX_Bird_Whitethroat_01.wav</ShortName>
-							<Path>SFX\Amb_RFX_Bird_Whitethroat_01_D8C07C79.wem</Path>
-						</File>
-						<File Id="934041566" Language="SFX">
-							<ShortName>Amb_RFX_Bird_Whitethroat_3.wav</ShortName>
-							<Path>SFX\Amb_RFX_Bird_Whitethroat_3_D8C07C79.wem</Path>
 						</File>
 						<File Id="996016742" Language="SFX">
 							<ShortName>Amb_RFX_Bird_Eurasian_Wren_3.wav</ShortName>
@@ -100,6 +84,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\Play_Amb_Fall_Dirt_RFX"/>
 				<Event Id="994146778" Name="Play_Amb_Forest" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Forest"/>
 				<Event Id="3212184235" Name="Play_MC_FOL_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Jump"/>
 				<Event Id="2037670792" Name="Play_MC_FOL_Land" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Land"/>
@@ -545,6 +530,10 @@
 					<ShortName>SFX_MC_FOL_Os_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="370379099" Language="SFX">
+					<ShortName>SFX_Rock_Fall_03.wav</ShortName>
+					<Path>SFX\SFX_Rock_Fall_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="371177517" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Land_03_D8C07C79.wem</Path>
@@ -717,6 +706,10 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="529464495" Language="SFX">
+					<ShortName>SFX_Rock_Fall_02.wav</ShortName>
+					<Path>SFX\SFX_Rock_Fall_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="529933926" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_9.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Debris_9_D8C07C79.wem</Path>
@@ -809,10 +802,6 @@
 					<ShortName>SFX_MC_FT_Wood_Land_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Land_04_D8C07C79.wem</Path>
 				</File>
-				<File Id="613797165" Language="SFX">
-					<ShortName>Amb_RFX_Bird_Whitethroat_4.wav</ShortName>
-					<Path>SFX\Amb_RFX_Bird_Whitethroat_4_D8C07C79.wem</Path>
-				</File>
 				<File Id="614695433" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Run_03_D8C07C79.wem</Path>
@@ -832,6 +821,10 @@
 				<File Id="622253550" Language="SFX">
 					<ShortName>SFX_MC_Tap_Dirt_3.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Dirt_3_1D31E3C6.wem</Path>
+				</File>
+				<File Id="624963130" Language="SFX">
+					<ShortName>SFX_Rock_Fall_04.wav</ShortName>
+					<Path>SFX\SFX_Rock_Fall_04_D8C07C79.wem</Path>
 				</File>
 				<File Id="631354978" Language="SFX">
 					<ShortName>SFX_MC_FOL_Cloth_Run_7.wav</ShortName>
@@ -1141,6 +1134,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Walk_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="833547020" Language="SFX">
+					<ShortName>SFX_Rock_Fall_01.wav</ShortName>
+					<Path>SFX\SFX_Rock_Fall_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="833813031" Language="SFX">
 					<ShortName>SFX_MC_Tap_Wood_6.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Wood_6_D8C07C79.wem</Path>
@@ -1161,10 +1158,6 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Run_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Run_07_D8C07C79.wem</Path>
 				</File>
-				<File Id="867267790" Language="SFX">
-					<ShortName>Amb_RFX_Bird_Whitethroat_2.wav</ShortName>
-					<Path>SFX\Amb_RFX_Bird_Whitethroat_2_D8C07C79.wem</Path>
-				</File>
 				<File Id="869242387" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Land_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Land_01_D8C07C79.wem</Path>
@@ -1176,10 +1169,6 @@
 				<File Id="878020844" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_09.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem</Path>
-				</File>
-				<File Id="882603162" Language="SFX">
-					<ShortName>Amb_RFX_Bird_Whitethroat_01.wav</ShortName>
-					<Path>SFX\Amb_RFX_Bird_Whitethroat_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="886300096" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_04.wav</ShortName>
@@ -1244,10 +1233,6 @@
 				<File Id="930417253" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_10.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Debris_10_D8C07C79.wem</Path>
-				</File>
-				<File Id="934041566" Language="SFX">
-					<ShortName>Amb_RFX_Bird_Whitethroat_3.wav</ShortName>
-					<Path>SFX\Amb_RFX_Bird_Whitethroat_3_D8C07C79.wem</Path>
 				</File>
 				<File Id="935116845" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Scuff_05.wav</ShortName>

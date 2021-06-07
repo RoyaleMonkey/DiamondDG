@@ -8,11 +8,12 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="855853113">
+		<SoundBank Id="393239870" Language="SFX" Hash="2438224211">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2110018169" Name="Play_Little_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Little_WaterFall" MaxAttenuation="15000.000000"/>
 				<Event Id="598048154" Name="Play_SFX_Door" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Door" MaxAttenuation="7000.000000">
 					<IncludedMemoryFiles>
 						<File Id="433880524" Language="SFX">
@@ -1214,6 +1215,10 @@
 					<ShortName>SFX_GPE_Stele_Stone_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_AS2_D8C07C79.wem</Path>
 				</File>
+				<File Id="408096571" Language="SFX">
+					<ShortName>AMB_LittleWaterFall_Away_lp.wav</ShortName>
+					<Path>SFX\AMB_LittleWaterFall_Away_lp_D8C07C79.wem</Path>
+				</File>
 				<File Id="409024675" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem</Path>
@@ -1349,6 +1354,10 @@
 				<File Id="622243301" Language="SFX">
 					<ShortName>SFX_Telekinesie_End__1.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_End__1_7C6D776D.wem</Path>
+				</File>
+				<File Id="638325598" Language="SFX">
+					<ShortName>AMB_LittleWaterFall_Close_Lp.wav</ShortName>
+					<Path>SFX\AMB_LittleWaterFall_Close_Lp_D8C07C79.wem</Path>
 				</File>
 				<File Id="647760645" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>

@@ -129,8 +129,30 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Little_WaterFall" ID="{B7CB1524-DC8E-48F3-912E-2A5072D470F1}">
+							<ChildrenList>
+								<Action Name="" ID="{0A151447-A2D2-4E51-94A6-222840757D11}" ShortID="394025728">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Little_WaterFall" ID="{7FF307A1-6B3A-47D9-8CEB-396C62258BB4}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Amb_Fall_Dirt_RFX" ID="{34665573-36CB-49FB-92FD-0009A7AADA4F}">
+					<ChildrenList>
+						<Action Name="" ID="{58B033D5-6FB7-45A0-A1E2-B48D750D51CB}" ShortID="694605976">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Fall_Dirt_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5309,29 +5309,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="SFX_GPE_Telekinesie_Start" ID="{A6122514-33DE-4528-B96D-0E66090F5B90}" ShortID="234259484">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
+								<Folder Name="SFX_GPE_Telekinesie_Rock" ID="{1224C0AB-A61C-481B-B974-892A7B84238D}" ShortID="860235132">
 									<ChildrenList>
-										<Sound Name="SFX_Telekinesie_Start_1" ID="{198C76E3-AB2D-4B96-BFA2-E035B2CE3135}" ShortID="207201479">
+										<RandomSequenceContainer Name="SFX_GPE_Telekinesie_Start" ID="{A6122514-33DE-4528-B96D-0E66090F5B90}" ShortID="234259484">
 											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -5344,25 +5329,95 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_Start_1" ID="{8273B017-6274-4C0B-9B9C-EE7CE744E91C}">
+												<Sound Name="SFX_Telekinesie_Start_1" ID="{198C76E3-AB2D-4B96-BFA2-E035B2CE3135}" ShortID="207201479">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.279961900684931"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.673729452054798"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.814848458904112"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_Start_1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="175890529"/>
-													</MediaIDList>
-												</AudioFileSource>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_Start_1" ID="{8273B017-6274-4C0B-9B9C-EE7CE744E91C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.279961900684931"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.673729452054798"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.814848458904112"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_Start_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="175890529"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_Start_1" ID="{8273B017-6274-4C0B-9B9C-EE7CE744E91C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Telekinesie_Start_2" ID="{15BFC0B7-6AF8-4A76-9502-B60D9FDC45DD}" ShortID="672191551">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_Start_2" ID="{A6D9F6FF-B1C2-413C-BF91-B545348E19BB}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_Start_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="999522006"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_Start_2" ID="{A6D9F6FF-B1C2-413C-BF91-B545348E19BB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Telekinesie_Start_3" ID="{DA262C8A-CE7B-44A3-8892-624C90879B24}" ShortID="394775098">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_Start_3" ID="{9F4760A3-D70E-4809-999F-460F357D09FF}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_Start_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="207786451"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_Start_3" ID="{9F4760A3-D70E-4809-999F-460F357D09FF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_Start_1" ID="{8273B017-6274-4C0B-9B9C-EE7CE744E91C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Telekinesie_Start_2" ID="{15BFC0B7-6AF8-4A76-9502-B60D9FDC45DD}" ShortID="672191551">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Telekinesie_End" ID="{A478D810-0779-4EBC-85E3-6CF9B13B0DA9}" ShortID="1055204742">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5372,19 +5427,103 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_Start_2" ID="{A6D9F6FF-B1C2-413C-BF91-B545348E19BB}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_Start_2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="999522006"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="SFX_Telekinesie_End_3" ID="{9F83E331-A3C9-4646-A958-4FFB5389E4F4}" ShortID="397465028">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_End__3" ID="{BCD2B070-3CFE-4E9F-BCDE-2A0EBEB3FF4B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.101183754280822"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.120218321917808"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.467849636130138"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_End__3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1029296119"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_End__3" ID="{BCD2B070-3CFE-4E9F-BCDE-2A0EBEB3FF4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Telekinesie_End_1" ID="{FB82465A-51B3-45BE-8F13-F06320E17153}" ShortID="845584605">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_End__1" ID="{E7A025EF-4871-4D7C-AE94-108F091427D3}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0530964255136987"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0901637414383562"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.487886023116438"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_End__1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="622243301"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_End__1" ID="{E7A025EF-4871-4D7C-AE94-108F091427D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Telekinesie_End_2" ID="{83522847-1B41-40BC-BF8C-9AB8ABAE23C7}" ShortID="211383447">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_End__2" ID="{41B15724-0449-414E-B6B8-85395C2F1F27}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0483159960045662"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.152018621575342"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.490230593607306"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_End__2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="866644198"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_End__2" ID="{41B15724-0449-414E-B6B8-85395C2F1F27}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_Start_2" ID="{A6D9F6FF-B1C2-413C-BF91-B545348E19BB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Telekinesie_Start_3" ID="{DA262C8A-CE7B-44A3-8892-624C90879B24}" ShortID="394775098">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" ShortID="373812202">
+											<PropertyList>
+												<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -5394,39 +5533,106 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_Start_3" ID="{9F4760A3-D70E-4809-999F-460F357D09FF}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_Start_3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="207786451"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="SFX_Telekinesie_lp" ID="{D4DD6FAA-FB35-4936-82E5-4BEB25D42AC6}" ShortID="558043416">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_lp" ID="{B1323DDE-74A0-4235-944E-89218130D31C}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="384310040"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_lp" ID="{B1323DDE-74A0-4235-944E-89218130D31C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_Start_3" ID="{9F4760A3-D70E-4809-999F-460F357D09FF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_GPE_Telekinesie_Complete" ID="{92AF1CD5-6D98-4AC0-AD6A-3BF85C798693}" ShortID="241452050">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Telekinesie_Complete_1" ID="{1611A24B-FCFB-400E-A520-E33EF66CFBD6}" ShortID="656174031">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_Complete_1" ID="{E5D62438-B5CC-4C11-BCAA-9F8BBF211623}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_Complete_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="571519212"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_Complete_1" ID="{E5D62438-B5CC-4C11-BCAA-9F8BBF211623}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Telekinesie_Complete_2" ID="{EE976B86-7B09-4F05-930A-E5793FB7DA25}" ShortID="500760039">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Telekinesie_Complete_2" ID="{4D54315B-0625-484C-B19D-399295B76192}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Telekinesie_Complete_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="355805810"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Telekinesie_Complete_2" ID="{4D54315B-0625-484C-B19D-399295B76192}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Telekinesie_Complete" ID="{92AF1CD5-6D98-4AC0-AD6A-3BF85C798693}" ShortID="241452050">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
+								</Folder>
+								<Folder Name="SFX_GPE_Telekinesie_Tonal" ID="{31EAC476-8308-4473-BCB9-9600D4D525F4}" ShortID="34487471">
 									<ChildrenList>
-										<Sound Name="SFX_Telekinesie_Complete_1" ID="{1611A24B-FCFB-400E-A520-E33EF66CFBD6}" ShortID="656174031">
+										<Sound Name="SFX_GPE_Telek_C_In" ID="{2A776C24-AED5-4402-8653-22A5317420BA}" ShortID="1056424984">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 												</Reference>
@@ -5435,20 +5641,33 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_Complete_1" ID="{E5D62438-B5CC-4C11-BCAA-9F8BBF211623}">
+												<AudioFileSource Name="SFX_GPE_Telek_C_In" ID="{F53C56CD-2019-479C-8CD4-06E87AD8D708}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_Complete_1.wav</AudioFile>
+													<AudioFile>SFX_GPE_Telek_C_In.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="571519212"/>
+														<MediaID ID="1068855612"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_Complete_1" ID="{E5D62438-B5CC-4C11-BCAA-9F8BBF211623}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_Telek_C_In" ID="{F53C56CD-2019-479C-8CD4-06E87AD8D708}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Telekinesie_Complete_2" ID="{EE976B86-7B09-4F05-930A-E5793FB7DA25}" ShortID="500760039">
+										<Sound Name="SFX_GPE_Telek_C_LP" ID="{089EC23E-C7D7-412D-94C3-1FBC7745D53A}" ShortID="629698221">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 												</Reference>
@@ -5457,167 +5676,328 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_Complete_2" ID="{4D54315B-0625-484C-B19D-399295B76192}">
+												<AudioFileSource Name="SFX_GPE_Telek_C_LP" ID="{A5BC3195-67BB-402E-A6A8-E128D5A6951A}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_Complete_2.wav</AudioFile>
+													<AudioFile>SFX_GPE_Telek_C_LP.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="355805810"/>
+														<MediaID ID="384809180"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_Complete_2" ID="{4D54315B-0625-484C-B19D-399295B76192}" Platform="Linked"/>
+												<ActiveSource Name="SFX_GPE_Telek_C_LP" ID="{A5BC3195-67BB-402E-A6A8-E128D5A6951A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_C_Out" ID="{A54B3A57-EAF8-4DCA-A47E-9BEC771244C0}" ShortID="885711309">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_C_Out" ID="{AD1307DD-7B92-4F25-B2D6-F984EAC5DFE2}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_C_Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1055177857"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_C_Out" ID="{AD1307DD-7B92-4F25-B2D6-F984EAC5DFE2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_DS_In" ID="{EB4F4585-ABF9-4CB1-A845-E28E3EBC03A5}" ShortID="330880393">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_DS_In" ID="{AA7A2C20-1EA5-4737-9FFD-772B2395B9FE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_DS_In.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="72119939"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_DS_In" ID="{AA7A2C20-1EA5-4737-9FFD-772B2395B9FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_DS_LP" ID="{65742284-FF50-4775-96A7-23116B3C56D4}" ShortID="734216997">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_DS_LP" ID="{D1494A61-561F-4F5F-A8E1-803F24976CF4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_DS_LP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="567258248"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_DS_LP" ID="{D1494A61-561F-4F5F-A8E1-803F24976CF4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_DS_Out" ID="{CB6C9311-FDD0-4808-A50C-F6F5151EDBC1}" ShortID="716854496">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_DS_Out" ID="{81C451C4-4D85-4A00-ABF5-BD295D8803A1}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_DS_Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1025266737"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_DS_Out" ID="{81C451C4-4D85-4A00-ABF5-BD295D8803A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_F_In" ID="{432576BA-8A79-4E26-8BB9-2119840D360B}" ShortID="160082517">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_F_In" ID="{09BB0273-45D7-4FBB-8612-AF62C18D6C17}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_F_In.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="189226895"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_F_In" ID="{09BB0273-45D7-4FBB-8612-AF62C18D6C17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_F_LP" ID="{58BEA3B0-0A0B-4B5A-B8F6-6E105CD58378}" ShortID="8783461">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_F_LP" ID="{0BE51EF4-CC74-4BDF-B49F-21800607FAE7}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_F_LP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="908900293"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_F_LP" ID="{0BE51EF4-CC74-4BDF-B49F-21800607FAE7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_F_Out" ID="{0DBF973C-C57C-44A3-A6D1-65C36A9A8E55}" ShortID="109540659">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_F_Out" ID="{FA038FBE-DEAE-43B3-B329-D84883C503EE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_F_Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="436996472"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_F_Out" ID="{FA038FBE-DEAE-43B3-B329-D84883C503EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_G_In" ID="{45745A8B-0C98-4D31-AEB0-92D05402B135}" ShortID="92989345">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_G_In" ID="{C3427234-2537-405A-85C7-E3737953C493}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_G_In.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="920077616"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_G_In" ID="{C3427234-2537-405A-85C7-E3737953C493}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_G_LP" ID="{0E679573-B53B-44D0-99EE-BEA3C38C4FF9}" ShortID="285824274">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_G_LP" ID="{1227F776-77ED-4041-A305-72F8C1D5E99C}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_G_LP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247827927"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_G_LP" ID="{1227F776-77ED-4041-A305-72F8C1D5E99C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_GPE_Telek_G_Out" ID="{50066D43-24CA-4F29-AE79-04314C3B7B5A}" ShortID="983131439">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GPE_Stele_Stone_ATT" ID="{33E54812-4F9A-43AB-AF5D-90732EC654FC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Telek_G_Out" ID="{C46E3120-277B-44DB-94A2-E53F8D4A125A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Telek_G_Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="762878522"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Telek_G_Out" ID="{C46E3120-277B-44DB-94A2-E53F8D4A125A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" ShortID="373812202">
-									<PropertyList>
-										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_Telekinesie_lp" ID="{D4DD6FAA-FB35-4936-82E5-4BEB25D42AC6}" ShortID="558043416">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_lp" ID="{B1323DDE-74A0-4235-944E-89218130D31C}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_lp.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="384310040"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_lp" ID="{B1323DDE-74A0-4235-944E-89218130D31C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Telekinesie_End" ID="{A478D810-0779-4EBC-85E3-6CF9B13B0DA9}" ShortID="1055204742">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_Telekinesie_End_3" ID="{9F83E331-A3C9-4646-A958-4FFB5389E4F4}" ShortID="397465028">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_End__3" ID="{BCD2B070-3CFE-4E9F-BCDE-2A0EBEB3FF4B}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.101183754280822"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.120218321917808"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.467849636130138"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_End__3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1029296119"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_End__3" ID="{BCD2B070-3CFE-4E9F-BCDE-2A0EBEB3FF4B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Telekinesie_End_1" ID="{FB82465A-51B3-45BE-8F13-F06320E17153}" ShortID="845584605">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_End__1" ID="{E7A025EF-4871-4D7C-AE94-108F091427D3}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0530964255136987"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0901637414383562"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.487886023116438"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_End__1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="622243301"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_End__1" ID="{E7A025EF-4871-4D7C-AE94-108F091427D3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Telekinesie_End_2" ID="{83522847-1B41-40BC-BF8C-9AB8ABAE23C7}" ShortID="211383447">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Telekinesie_End__2" ID="{41B15724-0449-414E-B6B8-85395C2F1F27}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0483159960045662"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.152018621575342"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.490230593607306"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>SFX_Telekinesie_End__2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="866644198"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Telekinesie_End__2" ID="{41B15724-0449-414E-B6B8-85395C2F1F27}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="SFX_GPE_Zipline" ID="{2B834901-B40B-437C-B22D-0F2D2BADDB07}" ShortID="873302922">

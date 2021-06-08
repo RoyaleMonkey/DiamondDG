@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3005206469">
+		<SoundBank Id="4056684167" Language="SFX" Hash="930262077">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -84,8 +84,31 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\Play_Amb_Fall_Dirt_RFX"/>
+				<Event Id="1521220657" Name="Play_Amb_Cavern_Level" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cavern_Level"/>
+				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX">
+					<IncludedMemoryFiles>
+						<File Id="370379099" Language="SFX">
+							<ShortName>SFX_Rock_Fall_03.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="529464495" Language="SFX">
+							<ShortName>SFX_Rock_Fall_02.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="624963130" Language="SFX">
+							<ShortName>SFX_Rock_Fall_04.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="833547020" Language="SFX">
+							<ShortName>SFX_Rock_Fall_01.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="994146778" Name="Play_Amb_Forest" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Forest"/>
+				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping"/>
+				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP" MaxAttenuation="8000.000000"/>
+				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX"/>
 				<Event Id="3212184235" Name="Play_MC_FOL_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Jump"/>
 				<Event Id="2037670792" Name="Play_MC_FOL_Land" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Land"/>
 				<Event Id="1608668697" Name="Play_MC_FOL_Pivot" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Pivot"/>
@@ -321,6 +344,10 @@
 				<File Id="183999045" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="193220923" Language="SFX">
+					<ShortName>Amb_Lake_Lapping.wav</ShortName>
+					<Path>SFX\Amb_Lake_Lapping_D8C07C79.wem</Path>
 				</File>
 				<File Id="194444405" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Pivot_05.wav</ShortName>
@@ -969,6 +996,10 @@
 				<File Id="708222018" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Jump_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Jump_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="709545759" Language="SFX">
+					<ShortName>Amb_Cavern_Drip.wav</ShortName>
+					<Path>SFX\Amb_Cavern_Drip_D8C07C79.wem</Path>
 				</File>
 				<File Id="710288820" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_01.wav</ShortName>

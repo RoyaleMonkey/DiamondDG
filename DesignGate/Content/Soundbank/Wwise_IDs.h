@@ -25,10 +25,13 @@ namespace AK
         static const AkUniqueID FLUTE_G_START = 1149564230U;
         static const AkUniqueID PLAY_AMB_BIRDS_RFX = 1413324378U;
         static const AkUniqueID PLAY_AMB_CAVERN = 3686445418U;
+        static const AkUniqueID PLAY_AMB_CAVERN_LEVEL = 1521220657U;
         static const AkUniqueID PLAY_AMB_FALL_DIRT_RFX = 172812343U;
         static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
         static const AkUniqueID PLAY_AMB_FOUNTAIN = 570117905U;
+        static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
+        static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
         static const AkUniqueID PLAY_LITTLE_WATERFALL = 2110018169U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
         static const AkUniqueID PLAY_MC_FOL_LAND = 2037670792U;
@@ -45,6 +48,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_CATAPULT_MELODY_02 = 3274171623U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_GRAB = 676264313U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_WOOSH = 58267825U;
+        static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_END = 1431744796U;
+        static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_START = 1728506047U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_START = 2168219807U;
         static const AkUniqueID PLAY_SFX_GPE_MELODY_NOTE1_OCT3_INT1 = 293585246U;
         static const AkUniqueID PLAY_SFX_GPE_MELODY_NOTE1_OCT3_INT2 = 293585245U;
@@ -103,6 +108,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_G = 2012244446U;
         static const AkUniqueID PLAY_SFX_GPE_ZIPLINE_BLD = 513126929U;
         static const AkUniqueID PLAY_SFX_LE_BASERO_LP = 30825167U;
+        static const AkUniqueID PLAY_SFX_WATERFALL_BIG = 2590190883U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_SFX_GPE_GEYSER_END = 1587068986U;

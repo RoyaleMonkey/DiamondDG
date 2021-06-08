@@ -15,7 +15,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "3005206469",
+    "Hash": "930262077",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -134,14 +134,61 @@
       ]
      },
      {
+      "Id": "1521220657",
+      "Name": "Play_Amb_Cavern_Level",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Cavern_Level"
+     },
+     {
       "Id": "172812343",
       "Name": "Play_Amb_Fall_Dirt_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Amb_Fall_Dirt_RFX"
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Fall_Dirt_RFX",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "370379099",
+        "Language": "SFX",
+        "ShortName": "SFX_Rock_Fall_03.wav",
+        "Path": "SFX\\SFX_Rock_Fall_03_D8C07C79.wem"
+       },
+       {
+        "Id": "529464495",
+        "Language": "SFX",
+        "ShortName": "SFX_Rock_Fall_02.wav",
+        "Path": "SFX\\SFX_Rock_Fall_02_D8C07C79.wem"
+       },
+       {
+        "Id": "624963130",
+        "Language": "SFX",
+        "ShortName": "SFX_Rock_Fall_04.wav",
+        "Path": "SFX\\SFX_Rock_Fall_04_D8C07C79.wem"
+       },
+       {
+        "Id": "833547020",
+        "Language": "SFX",
+        "ShortName": "SFX_Rock_Fall_01.wav",
+        "Path": "SFX\\SFX_Rock_Fall_01_D8C07C79.wem"
+       }
+      ]
      },
      {
       "Id": "994146778",
       "Name": "Play_Amb_Forest",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Forest"
+     },
+     {
+      "Id": "4124567974",
+      "Name": "Play_Amb_Lake_Lapping",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping"
+     },
+     {
+      "Id": "832042763",
+      "Name": "Play_Amb_Lake_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_LP",
+      "MaxAttenuation": "8000.000000"
+     },
+     {
+      "Id": "3619535171",
+      "Name": "Play_Amb_Water_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Water_RFX"
      },
      {
       "Id": "3212184235",
@@ -522,6 +569,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Land_03.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Land_03_D8C07C79.wem"
+     },
+     {
+      "Id": "193220923",
+      "Language": "SFX",
+      "ShortName": "Amb_Lake_Lapping.wav",
+      "Path": "SFX\\Amb_Lake_Lapping_D8C07C79.wem"
      },
      {
       "Id": "194444405",
@@ -1494,6 +1547,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Jump_03.wav",
       "Path": "SFX\\SFX_MC_FT_Wood_Jump_03_D8C07C79.wem"
+     },
+     {
+      "Id": "709545759",
+      "Language": "SFX",
+      "ShortName": "Amb_Cavern_Drip.wav",
+      "Path": "SFX\\Amb_Cavern_Drip_D8C07C79.wem"
      },
      {
       "Id": "710288820",

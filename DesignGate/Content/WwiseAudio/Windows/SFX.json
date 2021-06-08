@@ -15,7 +15,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2209080313",
+    "Hash": "1561304282",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -137,10 +137,24 @@
       ]
      },
      {
-      "Id": "2168219807",
-      "Name": "Play_SFX_GPE_Geyser_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Geyser\\Play_SFX_GPE_Geyser_Start",
-      "MaxAttenuation": "9000.000000",
+      "Id": "1431744796",
+      "Name": "Play_SFX_GPE_Geyser_Large_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Geyser\\SFX_GPE_Geyser_Large\\Play_SFX_GPE_Geyser_Large_End",
+      "MaxAttenuation": "8000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "669892981",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Geyser_End_1.wav",
+        "Path": "SFX\\SFX_GPE_Geyser_End_1_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1728506047",
+      "Name": "Play_SFX_GPE_Geyser_Large_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Geyser\\SFX_GPE_Geyser_Large\\Play_SFX_GPE_Geyser_Large_Start",
+      "MaxAttenuation": "8000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "8221998",
@@ -153,18 +167,26 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Geyser_Start_1.wav",
         "Path": "SFX\\SFX_GPE_Geyser_Start_1_D52EF361.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2168219807",
+      "Name": "Play_SFX_GPE_Geyser_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Geyser\\Play_SFX_GPE_Geyser_Start",
+      "MaxAttenuation": "8000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "8221998",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Geyser_Lp.wav",
+        "Path": "SFX\\SFX_GPE_Geyser_Lp_D8C07C79.wem"
        },
        {
-        "Id": "396762754",
+        "Id": "21560878",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Geyser_Lp_3.wav",
-        "Path": "SFX\\SFX_GPE_Geyser_Lp_3_D8C07C79.wem"
-       },
-       {
-        "Id": "613370864",
-        "Language": "SFX",
-        "ShortName": "SFX_GPE_Geyser_Lp_2.wav",
-        "Path": "SFX\\SFX_GPE_Geyser_Lp_2_D8C07C79.wem"
+        "ShortName": "SFX_GPE_Geyser_Start_1.wav",
+        "Path": "SFX\\SFX_GPE_Geyser_Start_1_D52EF361.wem"
        }
       ]
      },
@@ -1302,6 +1324,12 @@
       "MaxAttenuation": "800.000000"
      },
      {
+      "Id": "2590190883",
+      "Name": "Play_SFX_WaterFall_BIG",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
+      "MaxAttenuation": "22000.000000"
+     },
+     {
       "Id": "967636871",
       "Name": "Play_Waterfall_blnd",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Waterfall_blnd",
@@ -1325,7 +1353,7 @@
       "Id": "1587068986",
       "Name": "Stop_SFX_GPE_Geyser_end",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Geyser\\Stop_SFX_GPE_Geyser_end",
-      "MaxAttenuation": "9000.000000",
+      "MaxAttenuation": "8000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "669892981",
@@ -1953,12 +1981,6 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem"
      },
      {
-      "Id": "396762754",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Geyser_Lp_3.wav",
-      "Path": "SFX\\SFX_GPE_Geyser_Lp_3_D8C07C79.wem"
-     },
-     {
       "Id": "401599658",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Catapult_Woosh_2.wav",
@@ -2163,12 +2185,6 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem"
      },
      {
-      "Id": "613370864",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Geyser_Lp_2.wav",
-      "Path": "SFX\\SFX_GPE_Geyser_Lp_2_D8C07C79.wem"
-     },
-     {
       "Id": "615154265",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Chimes_A1.wav",
@@ -2215,6 +2231,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_03.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem"
+     },
+     {
+      "Id": "668422005",
+      "Language": "SFX",
+      "ShortName": "SFX_WaterFall_BIG.wav",
+      "Path": "SFX\\SFX_WaterFall_BIG_D8C07C79.wem"
      },
      {
       "Id": "669892981",
@@ -2329,6 +2351,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_A1.wav",
       "Path": "SFX\\SFX_GPE_Stele_Stone_A1_D8C07C79.wem"
+     },
+     {
+      "Id": "771746067",
+      "Language": "SFX",
+      "ShortName": "SFX_Collectible_Wing_End.wav",
+      "Path": "SFX\\SFX_Collectible_Wing_End_D8C07C79.wem"
      },
      {
       "Id": "784161327",
@@ -2479,6 +2507,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_01.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem"
+     },
+     {
+      "Id": "953424105",
+      "Language": "SFX",
+      "ShortName": "SFX_Collectible_Wing_Start.wav",
+      "Path": "SFX\\SFX_Collectible_Wing_Start_D8C07C79.wem"
      },
      {
       "Id": "955535201",

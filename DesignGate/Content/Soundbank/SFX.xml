@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2438224211">
+		<SoundBank Id="393239870" Language="SFX" Hash="2508797500">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -74,7 +74,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2168219807" Name="Play_SFX_GPE_Geyser_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Play_SFX_GPE_Geyser_Start" MaxAttenuation="9000.000000">
+				<Event Id="1431744796" Name="Play_SFX_GPE_Geyser_Large_End" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\SFX_GPE_Geyser_Large\Play_SFX_GPE_Geyser_Large_End" MaxAttenuation="8000.000000">
+					<IncludedMemoryFiles>
+						<File Id="669892981" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_End_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1728506047" Name="Play_SFX_GPE_Geyser_Large_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\SFX_GPE_Geyser_Large\Play_SFX_GPE_Geyser_Large_Start" MaxAttenuation="8000.000000">
 					<IncludedMemoryFiles>
 						<File Id="8221998" Language="SFX">
 							<ShortName>SFX_GPE_Geyser_Lp.wav</ShortName>
@@ -84,13 +92,17 @@
 							<ShortName>SFX_GPE_Geyser_Start_1.wav</ShortName>
 							<Path>SFX\SFX_GPE_Geyser_Start_1_D52EF361.wem</Path>
 						</File>
-						<File Id="396762754" Language="SFX">
-							<ShortName>SFX_GPE_Geyser_Lp_3.wav</ShortName>
-							<Path>SFX\SFX_GPE_Geyser_Lp_3_D8C07C79.wem</Path>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2168219807" Name="Play_SFX_GPE_Geyser_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Play_SFX_GPE_Geyser_Start" MaxAttenuation="8000.000000">
+					<IncludedMemoryFiles>
+						<File Id="8221998" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Lp.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Lp_D8C07C79.wem</Path>
 						</File>
-						<File Id="613370864" Language="SFX">
-							<ShortName>SFX_GPE_Geyser_Lp_2.wav</ShortName>
-							<Path>SFX\SFX_GPE_Geyser_Lp_2_D8C07C79.wem</Path>
+						<File Id="21560878" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Start_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Start_1_D52EF361.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -811,6 +823,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="30825167" Name="Play_SFX_LE_Basero_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Basero_LP" MaxAttenuation="800.000000"/>
+				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000"/>
 				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
 						<File Id="95843208" Language="SFX">
@@ -823,7 +836,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="9000.000000">
+				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="8000.000000">
 					<IncludedMemoryFiles>
 						<File Id="669892981" Language="SFX">
 							<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
@@ -1199,10 +1212,6 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="396762754" Language="SFX">
-					<ShortName>SFX_GPE_Geyser_Lp_3.wav</ShortName>
-					<Path>SFX\SFX_GPE_Geyser_Lp_3_D8C07C79.wem</Path>
-				</File>
 				<File Id="401599658" Language="SFX">
 					<ShortName>SFX_GPE_Catapult_Woosh_2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem</Path>
@@ -1339,10 +1348,6 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
 				</File>
-				<File Id="613370864" Language="SFX">
-					<ShortName>SFX_GPE_Geyser_Lp_2.wav</ShortName>
-					<Path>SFX\SFX_GPE_Geyser_Lp_2_D8C07C79.wem</Path>
-				</File>
 				<File Id="615154265" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_A1_D8C07C79.wem</Path>
@@ -1374,6 +1379,10 @@
 				<File Id="661246042" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="668422005" Language="SFX">
+					<ShortName>SFX_WaterFall_BIG.wav</ShortName>
+					<Path>SFX\SFX_WaterFall_BIG_D8C07C79.wem</Path>
 				</File>
 				<File Id="669892981" Language="SFX">
 					<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
@@ -1450,6 +1459,10 @@
 				<File Id="768679159" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A1_D8C07C79.wem</Path>
+				</File>
+				<File Id="771746067" Language="SFX">
+					<ShortName>SFX_Collectible_Wing_End.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Wing_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="784161327" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_03.wav</ShortName>
@@ -1550,6 +1563,10 @@
 				<File Id="949988494" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="953424105" Language="SFX">
+					<ShortName>SFX_Collectible_Wing_Start.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Wing_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="955535201" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_02.wav</ShortName>

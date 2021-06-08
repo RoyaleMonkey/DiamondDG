@@ -7,7 +7,9 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="MC" ID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB" ID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb_Fall_Dirt_RFX" ID="{34665573-36CB-49FB-92FD-0009A7AADA4F}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Birds_RFX" ID="{1B08CCB5-E01B-4C6A-B576-8610AFCAEAA1}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb_Lake_LP" ID="{628066DA-8FF2-4CF9-9CB9-41A91D0AA442}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Cavern" ID="{FD79E5DF-AFD6-4DF5-A3EB-DC2347FE2C46}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -18,9 +20,11 @@
 						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Close" ID="{91EE824C-B3C9-4027-A76B-D2354ADC94D3}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_GPE" ID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_GPE_Geyser_Start" ID="{1C880F11-FA01-41D3-A4A0-960E5A2A018F}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_Geyser_Large_Start" ID="{3AD188C8-B57D-41EF-8607-CEAC957AE950}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Open_Land" ID="{C402891E-3D44-4210-9279-A792E4A21715}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_GPE_Geyser_End" ID="{749BEB84-27C9-433A-B52F-D2CDB9548871}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_Zipline_Bld" ID="{C9FCA90C-640E-436A-B16B-E99CD56AB97D}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_Geyser_Large_End" ID="{6A01B024-F200-4423-9CF4-E88DAFDA48FB}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Door" ID="{DF44E23E-B8DF-463D-BDE4-0D34AA5C562E}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_PlantPlatorm_Open" ID="{C288E579-5571-471C-AEA6-ED7EA99957C6}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_Bumper" ID="{D2A0E9AD-2691-479B-AAF4-7D3DDA19A861}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>

@@ -16,7 +16,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2438224211">
+		<SoundBank Id="393239870" Language="SFX" Hash="2508797500">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -82,7 +82,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2168219807" Name="Play_SFX_GPE_Geyser_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Play_SFX_GPE_Geyser_Start" MaxAttenuation="9000.000000">
+				<Event Id="1431744796" Name="Play_SFX_GPE_Geyser_Large_End" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\SFX_GPE_Geyser_Large\Play_SFX_GPE_Geyser_Large_End" MaxAttenuation="8000.000000">
+					<IncludedMemoryFiles>
+						<File Id="669892981" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_End_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1728506047" Name="Play_SFX_GPE_Geyser_Large_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\SFX_GPE_Geyser_Large\Play_SFX_GPE_Geyser_Large_Start" MaxAttenuation="8000.000000">
 					<IncludedMemoryFiles>
 						<File Id="8221998" Language="SFX">
 							<ShortName>SFX_GPE_Geyser_Lp.wav</ShortName>
@@ -92,13 +100,17 @@
 							<ShortName>SFX_GPE_Geyser_Start_1.wav</ShortName>
 							<Path>SFX\SFX_GPE_Geyser_Start_1_D52EF361.wem</Path>
 						</File>
-						<File Id="396762754" Language="SFX">
-							<ShortName>SFX_GPE_Geyser_Lp_3.wav</ShortName>
-							<Path>SFX\SFX_GPE_Geyser_Lp_3_D8C07C79.wem</Path>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2168219807" Name="Play_SFX_GPE_Geyser_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Play_SFX_GPE_Geyser_Start" MaxAttenuation="8000.000000">
+					<IncludedMemoryFiles>
+						<File Id="8221998" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Lp.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Lp_D8C07C79.wem</Path>
 						</File>
-						<File Id="613370864" Language="SFX">
-							<ShortName>SFX_GPE_Geyser_Lp_2.wav</ShortName>
-							<Path>SFX\SFX_GPE_Geyser_Lp_2_D8C07C79.wem</Path>
+						<File Id="21560878" Language="SFX">
+							<ShortName>SFX_GPE_Geyser_Start_1.wav</ShortName>
+							<Path>SFX\SFX_GPE_Geyser_Start_1_D52EF361.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -819,6 +831,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="30825167" Name="Play_SFX_LE_Basero_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Basero_LP" MaxAttenuation="800.000000"/>
+				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000"/>
 				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
 						<File Id="95843208" Language="SFX">
@@ -831,7 +844,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="9000.000000">
+				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="8000.000000">
 					<IncludedMemoryFiles>
 						<File Id="669892981" Language="SFX">
 							<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
@@ -1207,10 +1220,6 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="396762754" Language="SFX">
-					<ShortName>SFX_GPE_Geyser_Lp_3.wav</ShortName>
-					<Path>SFX\SFX_GPE_Geyser_Lp_3_D8C07C79.wem</Path>
-				</File>
 				<File Id="401599658" Language="SFX">
 					<ShortName>SFX_GPE_Catapult_Woosh_2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem</Path>
@@ -1347,10 +1356,6 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
 				</File>
-				<File Id="613370864" Language="SFX">
-					<ShortName>SFX_GPE_Geyser_Lp_2.wav</ShortName>
-					<Path>SFX\SFX_GPE_Geyser_Lp_2_D8C07C79.wem</Path>
-				</File>
 				<File Id="615154265" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_A1_D8C07C79.wem</Path>
@@ -1382,6 +1387,10 @@
 				<File Id="661246042" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="668422005" Language="SFX">
+					<ShortName>SFX_WaterFall_BIG.wav</ShortName>
+					<Path>SFX\SFX_WaterFall_BIG_D8C07C79.wem</Path>
 				</File>
 				<File Id="669892981" Language="SFX">
 					<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
@@ -1458,6 +1467,10 @@
 				<File Id="768679159" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A1_D8C07C79.wem</Path>
+				</File>
+				<File Id="771746067" Language="SFX">
+					<ShortName>SFX_Collectible_Wing_End.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Wing_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="784161327" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_03.wav</ShortName>
@@ -1558,6 +1571,10 @@
 				<File Id="949988494" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="953424105" Language="SFX">
+					<ShortName>SFX_Collectible_Wing_Start.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Wing_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="955535201" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_02.wav</ShortName>
@@ -2161,7 +2178,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3005206469">
+		<SoundBank Id="4056684167" Language="SFX" Hash="930262077">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -2237,8 +2254,31 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\Play_Amb_Fall_Dirt_RFX"/>
+				<Event Id="1521220657" Name="Play_Amb_Cavern_Level" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cavern_Level"/>
+				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX">
+					<IncludedMemoryFiles>
+						<File Id="370379099" Language="SFX">
+							<ShortName>SFX_Rock_Fall_03.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="529464495" Language="SFX">
+							<ShortName>SFX_Rock_Fall_02.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="624963130" Language="SFX">
+							<ShortName>SFX_Rock_Fall_04.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="833547020" Language="SFX">
+							<ShortName>SFX_Rock_Fall_01.wav</ShortName>
+							<Path>SFX\SFX_Rock_Fall_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="994146778" Name="Play_Amb_Forest" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Forest"/>
+				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping"/>
+				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP" MaxAttenuation="8000.000000"/>
+				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX"/>
 				<Event Id="3212184235" Name="Play_MC_FOL_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Jump"/>
 				<Event Id="2037670792" Name="Play_MC_FOL_Land" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Land"/>
 				<Event Id="1608668697" Name="Play_MC_FOL_Pivot" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Pivot"/>
@@ -2471,6 +2511,10 @@
 				<File Id="183999045" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="193220923" Language="SFX">
+					<ShortName>Amb_Lake_Lapping.wav</ShortName>
+					<Path>SFX\Amb_Lake_Lapping_D8C07C79.wem</Path>
 				</File>
 				<File Id="194444405" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Pivot_05.wav</ShortName>
@@ -3119,6 +3163,10 @@
 				<File Id="708222018" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Jump_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Jump_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="709545759" Language="SFX">
+					<ShortName>Amb_Cavern_Drip.wav</ShortName>
+					<Path>SFX\Amb_Cavern_Drip_D8C07C79.wem</Path>
 				</File>
 				<File Id="710288820" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_01.wav</ShortName>

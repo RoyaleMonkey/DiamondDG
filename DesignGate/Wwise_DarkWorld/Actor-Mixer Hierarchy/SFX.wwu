@@ -5256,6 +5256,8 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_GPE_Geyser_Lp" ID="{860E3C8F-0F01-4A1F-9026-484A24C198E9}" ShortID="90878977">
 									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>3</Value>
@@ -5291,50 +5293,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_GPE_Geyser_Lp" ID="{1C3052EE-7FC6-400C-B04D-9E88B4B72F71}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Geyser_Lp_2" ID="{AFC33146-C41C-4BF2-A853-061C796B1227}" ShortID="273006707">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Geyser_Lp_2" ID="{0CE7F0DC-2331-4F6F-A7BE-5981AF52A747}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Geyser_Lp_2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="613370864"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Geyser_Lp_2" ID="{0CE7F0DC-2331-4F6F-A7BE-5981AF52A747}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_GPE_Geyser_Lp_3" ID="{166080BA-CF7B-4BB0-821B-E05A402CB285}" ShortID="846806960">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_GPE_Geyser_Lp_3" ID="{5393F911-CEAA-49C4-91BA-456A33297739}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_GPE_Geyser_Lp_3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="396762754"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_GPE_Geyser_Lp_3" ID="{5393F911-CEAA-49C4-91BA-456A33297739}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -6625,6 +6583,148 @@
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="SFX_GPE_Geyser_Large" ID="{634C07B1-E96E-4254-887A-D5C5B2778EDE}" ShortID="122505752">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation Geyser" ID="{459FDC71-EAB6-4D3D-87C4-337F9D459CCD}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_GPE_Geyser_Large_Start" ID="{D2189E29-C60B-429A-BAE5-26348920F54B}" ShortID="802711321">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Geyser_Start_1" ID="{57D6897F-37B4-4289-87A7-4B535E6F8320}" ShortID="33929084">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Geyser_Start_1" ID="{61006E6D-835E-42F6-823D-3BD1E6CD405D}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.170719677511416"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Geyser_Start_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="21560878"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Geyser_Start_1" ID="{61006E6D-835E-42F6-823D-3BD1E6CD405D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_GPE_Geyser_Large_End" ID="{5306FEC0-715E-4988-B849-341F741F29C1}" ShortID="516420114">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Geyser_End_1" ID="{41274CAB-28AD-40FB-951D-11AD805BC62F}" ShortID="495598549">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Geyser_End_1" ID="{5C00319E-4F54-449B-A5A8-59C4730D003E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Geyser_End_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="669892981"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Geyser_End_1" ID="{5C00319E-4F54-449B-A5A8-59C4730D003E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_GPE_Geyser_Large_Lp" ID="{BD452311-2063-4406-9861-0AAFD088D606}" ShortID="544357895">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_GPE_Geyser_Lp_1" ID="{B49B5212-CC4C-4861-94CD-88210E946238}" ShortID="871935008">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_GPE_Geyser_Lp" ID="{9AC61EAB-E692-4B2A-9FF7-982C9DE0F70C}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_GPE_Geyser_Lp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8221998"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_GPE_Geyser_Lp" ID="{9AC61EAB-E692-4B2A-9FF7-982C9DE0F70C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="SFX_LE" ID="{FC2CFB04-C07D-475E-9028-8501E8496117}" ShortID="847968385">
@@ -6664,7 +6764,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="SFX_Door_Opening" ID="{8934B9B2-6B40-4AE5-AE21-C8065DF5431B}" ShortID="1059513121">
+								<Sound Name="SFX_Door_Opening" ID="{E9FAC257-D2F6-40E7-B2CC-FD0E5F058F85}" ShortID="204009867">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6674,7 +6774,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Door_Opening" ID="{7C53848D-5608-42EC-9EE6-027717A88A43}">
+										<AudioFileSource Name="SFX_Door_Opening" ID="{7B6D0FB4-BBFA-49D3-BCDA-731BAE78CADD}">
 											<Language>SFX</Language>
 											<AudioFile>SFX_Door_Opening.wav</AudioFile>
 											<MediaIDList>
@@ -6683,7 +6783,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_Door_Opening" ID="{7C53848D-5608-42EC-9EE6-027717A88A43}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Door_Opening" ID="{7B6D0FB4-BBFA-49D3-BCDA-731BAE78CADD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -6996,6 +7096,115 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="SFX_Collectible_Wing_Start" ID="{D8B63AFA-0A5E-40F8-A949-91D590D47201}" ShortID="124852850">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Collectible_Wing_Start" ID="{5FE71505-90F3-4A57-8D70-032659DECEA8}" ShortID="807199719">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Collectible_Wing_Start" ID="{39280862-84CA-45FF-85CA-D13C4186D232}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Collectible_Wing_Start.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="953424105"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Collectible_Wing_Start" ID="{39280862-84CA-45FF-85CA-D13C4186D232}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_Collectible_Wing_End" ID="{F6E15C95-A7DE-4447-A791-1D77B741E341}" ShortID="1010626697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Collectible_Wing_End" ID="{EC3CCB4D-9ADA-4346-A100-2B237BD3E88E}" ShortID="280651441">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Collectible_Wing_End" ID="{3CC35027-1214-4BA7-A3DE-468C5B5D18FE}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Collectible_Wing_End.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="771746067"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Collectible_Wing_End" ID="{3CC35027-1214-4BA7-A3DE-468C5B5D18FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_WaterFall_BIG" ID="{947465FC-CF28-4816-BA75-B3609B651A8E}" ShortID="609126795">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WaterFall BIG ATT" ID="{A5D44BA5-6ABD-4A4C-9A19-A9C9D2B549F2}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_WaterFall_BIG_Place_Holder" ID="{2AC11C61-A1D4-4D1F-9E47-BB5158CECB49}" ShortID="851013237">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_WaterFall_BIG" ID="{EFDFC0FF-EAF5-4BD4-B73B-D9326DC5C14E}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_WaterFall_BIG.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="668422005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_WaterFall_BIG" ID="{EFDFC0FF-EAF5-4BD4-B73B-D9326DC5C14E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

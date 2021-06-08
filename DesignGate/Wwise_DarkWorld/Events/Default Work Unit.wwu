@@ -61,7 +61,7 @@
 								<Action Name="" ID="{21426762-43DF-4C2F-B218-5D4C12FD4B61}" ShortID="769433301">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Amb_Cavern" ID="{5459CBC1-1FC4-4E10-98E2-500330BAE550}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+											<ObjectRef Name="Amb_Cavern_Entry" ID="{5459CBC1-1FC4-4E10-98E2-500330BAE550}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -84,6 +84,61 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_Birds_RFX" ID="{8DD8B6DC-88F5-46AB-AC59-51140DEDB837}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Fall_Dirt_RFX" ID="{34665573-36CB-49FB-92FD-0009A7AADA4F}">
+							<ChildrenList>
+								<Action Name="" ID="{58B033D5-6FB7-45A0-A1E2-B48D750D51CB}" ShortID="694605976">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Fall_Dirt_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Cavern_Level" ID="{CDC3DC18-0A1A-4B30-A36C-0E9D5B038102}">
+							<ChildrenList>
+								<Action Name="" ID="{11AFA05F-045C-43B2-AE4A-0BEE2269DC9A}" ShortID="727740264">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Cavern_Level" ID="{9DE9C700-EC10-443D-B9E3-03B618F016B8}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_WaterFall_BIG" ID="{C670D86F-BF23-461F-8A2D-78100CFE738B}">
+							<ChildrenList>
+								<Action Name="" ID="{CA06230A-6D14-4B3B-919C-B9372593A48D}" ShortID="965001096">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_WaterFall_BIG" ID="{947465FC-CF28-4816-BA75-B3609B651A8E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Lake_Lapping" ID="{BE08043F-3469-45F8-ACE9-1BC3B0066C65}">
+							<ChildrenList>
+								<Action Name="" ID="{94EB3AC9-DCEE-49DF-96DF-E95C511A3113}" ShortID="1007484762">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lake_Lapping" ID="{5FD2968B-CBC9-44B6-BDC8-15A44749E2C0}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Water_RFX" ID="{346FEBBD-DC8F-4DE1-BFB7-C621C9DEA9D9}">
+							<ChildrenList>
+								<Action Name="" ID="{489BA518-70BF-4AB8-83F5-845CB99A41A9}" ShortID="1059926088">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Water_RFX" ID="{400FC6CD-FECB-450E-9FA4-D247C80B7CDD}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -142,17 +197,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Amb_Fall_Dirt_RFX" ID="{34665573-36CB-49FB-92FD-0009A7AADA4F}">
-					<ChildrenList>
-						<Action Name="" ID="{58B033D5-6FB7-45A0-A1E2-B48D750D51CB}" ShortID="694605976">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Fall_Dirt_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

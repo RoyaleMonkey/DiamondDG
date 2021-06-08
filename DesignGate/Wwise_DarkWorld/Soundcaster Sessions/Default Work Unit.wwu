@@ -22,6 +22,14 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_C_In" ID="{B9B66489-662E-42E0-B0C3-924D9E69A041}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_C_End" ID="{BBEECB8F-CAFD-4DEB-8D9C-84951611C23C}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Flute_D_Start" ID="{62077525-81D4-47EC-8C3E-E63AA8CECCC0}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="1" Y="1"/>
 						</Module>
@@ -36,6 +44,14 @@
 						<Module>
 							<ObjectRef Name="Play_SFX_GPE_Telek_DS_Out" ID="{5006302F-EF25-4284-8978-6B60B43570D7}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
 							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_DS_In" ID="{4BC0F1C9-C073-463B-900A-CF757E1CD8FE}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_DS_End" ID="{9E6A2DA9-7A4D-4D0E-91E5-A473FC752DEB}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="1" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Flute_DS_Start" ID="{296CDA01-719A-4878-AF4C-F1C329880DB9}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
@@ -54,6 +70,14 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_F_In" ID="{20B5B0F1-3E40-43F7-B95C-FD5855F4E487}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_F_End" ID="{AA3BF895-B2B0-4A44-BFF8-32D92D73CDA3}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Flute_F_Start" ID="{228B0FB6-CD65-4234-8C44-3BB56E2FF6EC}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="3" Y="1"/>
 						</Module>
@@ -70,12 +94,36 @@
 							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_FC_In" ID="{2D65BB5B-B21B-42EB-A17B-5811612186DA}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_FC_End" ID="{EEDDB6C3-154D-4063-978E-DD51A439835C}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Flute_G_Start" ID="{A585FB3F-4D4D-4A50-8913-692013886DD9}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="4" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Flute_G_End" ID="{FEA618BE-D150-46BE-B2CA-127AFB2F5632}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_G_In" ID="{8C3CE031-F4B1-4191-BF32-AFA51E1AAF8E}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="4" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_G_End" ID="{D3A49B8D-06A5-4DE2-9088-5A8BBBD07828}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_GDS_In" ID="{F4876AFC-1569-4080-B251-B95C686EDC3E}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="5" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_GDS_End" ID="{A225BDB1-3763-4D11-9F6E-596829D51865}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="5" Y="6"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

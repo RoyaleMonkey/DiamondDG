@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3516448719">
+		<SoundBank Id="393239870" Language="SFX" Hash="3353283649">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -1803,7 +1803,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="4259865319">
+		<SoundBank Id="1167860281" Language="SFX" Hash="1531191284">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -2048,6 +2048,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1910747961" Name="Play_Flute_Zelda_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_C_End"/>
+				<Event Id="4197336763" Name="Play_Flute_Zelda_C_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_C_In"/>
+				<Event Id="1464240645" Name="Play_Flute_Zelda_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_DS_End"/>
+				<Event Id="9671503" Name="Play_Flute_Zelda_DS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_DS_In"/>
+				<Event Id="1690700680" Name="Play_Flute_Zelda_F_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_F_End"/>
+				<Event Id="3001275592" Name="Play_Flute_Zelda_F_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_F_In"/>
+				<Event Id="1553966327" Name="Play_Flute_Zelda_FC_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_FC_End"/>
+				<Event Id="955496405" Name="Play_Flute_Zelda_FC_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_FC_In"/>
+				<Event Id="822277173" Name="Play_Flute_Zelda_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_G_End"/>
+				<Event Id="537622495" Name="Play_Flute_Zelda_G_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_G_In"/>
+				<Event Id="2396251546" Name="Play_Flute_Zelda_GDS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_GDS_End"/>
+				<Event Id="1949017518" Name="Play_Flute_Zelda_GDS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_GDS_In"/>
 				<Event Id="3274171620" Name="Play_SFX_GPE_Catapult_Melody_01" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Play_SFX_GPE_Catapult_Melody_01">
 					<IncludedMemoryFiles>
 						<File Id="18721990" Language="SFX">
@@ -2396,6 +2408,10 @@
 					<ShortName>Flt_C_Layer_Start.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="129762258" Language="SFX">
+					<ShortName>Flute_Zelda_F_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_F_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="129789573" Language="SFX">
 					<ShortName>Flt_G_Breath.wav</ShortName>
 					<Path>SFX\Flt_G_Breath_D8C07C79.wem</Path>
@@ -2408,9 +2424,17 @@
 					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int4_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int4_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="182421039" Language="SFX">
+					<ShortName>Flute_Zelda_C_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_C_LP_0762CC47.wem</Path>
+				</File>
 				<File Id="185484287" Language="SFX">
 					<ShortName>Flt_D_Main_End.wav</ShortName>
 					<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="191566402" Language="SFX">
+					<ShortName>Flute_Zelda_FC_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_FC_In_D8C07C79.wem</Path>
 				</File>
 				<File Id="197976420" Language="SFX">
 					<ShortName>Flt_G_Reverb_Loop.wav</ShortName>
@@ -2492,6 +2516,10 @@
 					<ShortName>SFX_GPE_Melody_Note1_Oct4_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_G_D8C07C79.wem</Path>
 				</File>
+				<File Id="352809164" Language="SFX">
+					<ShortName>Flute_Zelda_F_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_F_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="361188122" Language="SFX">
 					<ShortName>Flt_F_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_F_Main_Start_D8C07C79.wem</Path>
@@ -2548,6 +2576,10 @@
 					<ShortName>Flt_D_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="482024221" Language="SFX">
+					<ShortName>Flute_Zelda_DS_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_DS_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="501784795" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note3_Int1_End.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note3_Int1_End_D8C07C79.wem</Path>
@@ -2556,13 +2588,29 @@
 					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int3_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int3_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="514455167" Language="SFX">
+					<ShortName>Flute_Zelda_C_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_C_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="514868887" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int1_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="518557617" Language="SFX">
+					<ShortName>Flute_Zelda_GDS_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_GDS_LP_0762CC47.wem</Path>
+				</File>
 				<File Id="538573930" Language="SFX">
 					<ShortName>Flt_C_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="539894319" Language="SFX">
+					<ShortName>Flute_Zelda_FC_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_FC_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="566778711" Language="SFX">
+					<ShortName>Flute_Zelda_G_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_G_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="571855905" Language="SFX">
 					<ShortName>Flute_Melody_Main_G.wav</ShortName>
@@ -2632,9 +2680,17 @@
 					<ShortName>Flt_D_Breath.wav</ShortName>
 					<Path>SFX\Flt_D_Breath_D8C07C79.wem</Path>
 				</File>
+				<File Id="746332259" Language="SFX">
+					<ShortName>Flute_Zelda_C_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_C_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="755490073" Language="SFX">
 					<ShortName>Flt_C_Main_End.wav</ShortName>
 					<Path>SFX\Flt_C_Main_End_596AF383.wem</Path>
+				</File>
+				<File Id="757070256" Language="SFX">
+					<ShortName>Flute_Zelda_F_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_F_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="757102773" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note2_Int2_End.wav</ShortName>
@@ -2684,6 +2740,10 @@
 					<ShortName>Flt_G_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Main_Loop_D8C07C79.wem</Path>
 				</File>
+				<File Id="897731013" Language="SFX">
+					<ShortName>Flute_Zelda_DS_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_DS_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="900247833" Language="SFX">
 					<ShortName>Flt_F_Breath.wav</ShortName>
 					<Path>SFX\Flt_F_Breath_D8C07C79.wem</Path>
@@ -2692,6 +2752,14 @@
 					<ShortName>Flt_G_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
 				</File>
+				<File Id="918316623" Language="SFX">
+					<ShortName>Flute_Zelda_G_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_G_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="921625206" Language="SFX">
+					<ShortName>Flute_Zelda_GDS_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_GDS_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="926489955" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note1_Oct3_C.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_C_D8C07C79.wem</Path>
@@ -2699,6 +2767,10 @@
 				<File Id="927789172" Language="SFX">
 					<ShortName>SFX_GPE_Catapult_Melody_Mono_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_Catapult_Melody_Mono_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="938111213" Language="SFX">
+					<ShortName>Flute_Zelda_DS_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_DS_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="945158233" Language="SFX">
 					<ShortName>Flute_Melody_Magical_F.wav</ShortName>
@@ -2715,6 +2787,14 @@
 				<File Id="983427185" Language="SFX">
 					<ShortName>Flt_D#_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_D#_Main_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="984647928" Language="SFX">
+					<ShortName>Flute_Zelda_G_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_G_In_D8C07C79.wem</Path>
+				</File>
+				<File Id="994616587" Language="SFX">
+					<ShortName>Flute_Zelda_FC_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_FC_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="997477843" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note3_Oct3_Int2_01.wav</ShortName>
@@ -2752,6 +2832,10 @@
 					<ShortName>Flt_D#_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_D#_Layer_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="1045838975" Language="SFX">
+					<ShortName>Flute_Zelda_GDS_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_GDS_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="1057739009" Language="SFX">
 					<ShortName>Flt_F_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_F_Layer_End_D8C07C79.wem</Path>
@@ -2770,7 +2854,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3967110285">
+		<SoundBank Id="4056684167" Language="SFX" Hash="3133558398">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

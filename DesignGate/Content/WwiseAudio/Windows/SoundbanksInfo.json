@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -18,7 +18,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3516448719",
+    "Hash": "3353283649",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -2869,7 +2869,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "4259865319",
+    "Hash": "1531191284",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -3243,6 +3243,66 @@
         "Path": "SFX\\Flt_G_Layer_Loop_D8C07C79.wem"
        }
       ]
+     },
+     {
+      "Id": "1910747961",
+      "Name": "Play_Flute_Zelda_C_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_C_End"
+     },
+     {
+      "Id": "4197336763",
+      "Name": "Play_Flute_Zelda_C_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_C_In"
+     },
+     {
+      "Id": "1464240645",
+      "Name": "Play_Flute_Zelda_DS_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_DS_End"
+     },
+     {
+      "Id": "9671503",
+      "Name": "Play_Flute_Zelda_DS_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_DS_In"
+     },
+     {
+      "Id": "1690700680",
+      "Name": "Play_Flute_Zelda_F_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_F_End"
+     },
+     {
+      "Id": "3001275592",
+      "Name": "Play_Flute_Zelda_F_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_F_In"
+     },
+     {
+      "Id": "1553966327",
+      "Name": "Play_Flute_Zelda_FC_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_FC_End"
+     },
+     {
+      "Id": "955496405",
+      "Name": "Play_Flute_Zelda_FC_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_FC_In"
+     },
+     {
+      "Id": "822277173",
+      "Name": "Play_Flute_Zelda_G_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_G_End"
+     },
+     {
+      "Id": "537622495",
+      "Name": "Play_Flute_Zelda_G_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_G_In"
+     },
+     {
+      "Id": "2396251546",
+      "Name": "Play_Flute_Zelda_GDS_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_GDS_End"
+     },
+     {
+      "Id": "1949017518",
+      "Name": "Play_Flute_Zelda_GDS_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_GDS_In"
      },
      {
       "Id": "3274171620",
@@ -3821,6 +3881,12 @@
       "Path": "SFX\\Flt_C_Layer_Start_D8C07C79.wem"
      },
      {
+      "Id": "129762258",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_F_End.wav",
+      "Path": "SFX\\Flute_Zelda_F_End_D8C07C79.wem"
+     },
+     {
       "Id": "129789573",
       "Language": "SFX",
       "ShortName": "Flt_G_Breath.wav",
@@ -3839,10 +3905,22 @@
       "Path": "SFX\\SFX_GPE_Melody_Note3_Oct4_Int4_02_D8C07C79.wem"
      },
      {
+      "Id": "182421039",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_C_LP.wav",
+      "Path": "SFX\\Flute_Zelda_C_LP_0762CC47.wem"
+     },
+     {
       "Id": "185484287",
       "Language": "SFX",
       "ShortName": "Flt_D_Main_End.wav",
       "Path": "SFX\\Flt_D_Main_End_D8C07C79.wem"
+     },
+     {
+      "Id": "191566402",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_FC_In.wav",
+      "Path": "SFX\\Flute_Zelda_FC_In_D8C07C79.wem"
      },
      {
       "Id": "197976420",
@@ -3965,6 +4043,12 @@
       "Path": "SFX\\SFX_GPE_Melody_Note1_Oct4_G_D8C07C79.wem"
      },
      {
+      "Id": "352809164",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_F_In.wav",
+      "Path": "SFX\\Flute_Zelda_F_In_D8C07C79.wem"
+     },
+     {
       "Id": "361188122",
       "Language": "SFX",
       "ShortName": "Flt_F_Main_Start.wav",
@@ -4049,6 +4133,12 @@
       "Path": "SFX\\Flt_D_Main_Start_D8C07C79.wem"
      },
      {
+      "Id": "482024221",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_DS_In.wav",
+      "Path": "SFX\\Flute_Zelda_DS_In_D8C07C79.wem"
+     },
+     {
       "Id": "501784795",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note3_Int1_End.wav",
@@ -4061,16 +4151,40 @@
       "Path": "SFX\\SFX_GPE_Melody_Note3_Oct4_Int3_01_D8C07C79.wem"
      },
      {
+      "Id": "514455167",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_C_In.wav",
+      "Path": "SFX\\Flute_Zelda_C_In_D8C07C79.wem"
+     },
+     {
       "Id": "514868887",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note2_Oct3_Int1_01.wav",
       "Path": "SFX\\SFX_GPE_Melody_Note2_Oct3_Int1_01_D8C07C79.wem"
      },
      {
+      "Id": "518557617",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_GDS_LP.wav",
+      "Path": "SFX\\Flute_Zelda_GDS_LP_0762CC47.wem"
+     },
+     {
       "Id": "538573930",
       "Language": "SFX",
       "ShortName": "Flt_C_Reverb_Loop.wav",
       "Path": "SFX\\Flt_C_Reverb_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "539894319",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_FC_End.wav",
+      "Path": "SFX\\Flute_Zelda_FC_End_D8C07C79.wem"
+     },
+     {
+      "Id": "566778711",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_G_LP.wav",
+      "Path": "SFX\\Flute_Zelda_G_LP_0762CC47.wem"
      },
      {
       "Id": "571855905",
@@ -4175,10 +4289,22 @@
       "Path": "SFX\\Flt_D_Breath_D8C07C79.wem"
      },
      {
+      "Id": "746332259",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_C_End.wav",
+      "Path": "SFX\\Flute_Zelda_C_End_D8C07C79.wem"
+     },
+     {
       "Id": "755490073",
       "Language": "SFX",
       "ShortName": "Flt_C_Main_End.wav",
       "Path": "SFX\\Flt_C_Main_End_596AF383.wem"
+     },
+     {
+      "Id": "757070256",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_F_LP.wav",
+      "Path": "SFX\\Flute_Zelda_F_LP_0762CC47.wem"
      },
      {
       "Id": "757102773",
@@ -4253,6 +4379,12 @@
       "Path": "SFX\\Flt_G_Main_Loop_D8C07C79.wem"
      },
      {
+      "Id": "897731013",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_DS_End.wav",
+      "Path": "SFX\\Flute_Zelda_DS_End_D8C07C79.wem"
+     },
+     {
       "Id": "900247833",
       "Language": "SFX",
       "ShortName": "Flt_F_Breath.wav",
@@ -4265,6 +4397,18 @@
       "Path": "SFX\\Flt_G_Layer_Loop_D8C07C79.wem"
      },
      {
+      "Id": "918316623",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_G_End.wav",
+      "Path": "SFX\\Flute_Zelda_G_End_D8C07C79.wem"
+     },
+     {
+      "Id": "921625206",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_GDS_In.wav",
+      "Path": "SFX\\Flute_Zelda_GDS_In_D8C07C79.wem"
+     },
+     {
       "Id": "926489955",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note1_Oct3_C.wav",
@@ -4275,6 +4419,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Catapult_Melody_Mono_02.wav",
       "Path": "SFX\\SFX_GPE_Catapult_Melody_Mono_02_D8C07C79.wem"
+     },
+     {
+      "Id": "938111213",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_DS_LP.wav",
+      "Path": "SFX\\Flute_Zelda_DS_LP_0762CC47.wem"
      },
      {
       "Id": "945158233",
@@ -4299,6 +4449,18 @@
       "Language": "SFX",
       "ShortName": "Flt_D#_Main_Loop.wav",
       "Path": "SFX\\Flt_D#_Main_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "984647928",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_G_In.wav",
+      "Path": "SFX\\Flute_Zelda_G_In_D8C07C79.wem"
+     },
+     {
+      "Id": "994616587",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_FC_LP.wav",
+      "Path": "SFX\\Flute_Zelda_FC_LP_0762CC47.wem"
      },
      {
       "Id": "997477843",
@@ -4355,6 +4517,12 @@
       "Path": "SFX\\Flt_D#_Layer_End_D8C07C79.wem"
      },
      {
+      "Id": "1045838975",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_GDS_End.wav",
+      "Path": "SFX\\Flute_Zelda_GDS_End_D8C07C79.wem"
+     },
+     {
       "Id": "1057739009",
       "Language": "SFX",
       "ShortName": "Flt_F_Layer_End.wav",
@@ -4392,7 +4560,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "3967110285",
+    "Hash": "3133558398",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",

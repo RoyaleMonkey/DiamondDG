@@ -1003,56 +1003,264 @@
 				</Folder>
 				<Folder Name="SFX_GPE_Telekinesie" ID="{57B4A7A7-0A65-42BF-8725-B82BEAC40A32}" ShortID="1032400103">
 					<ChildrenList>
-						<Event Name="Play_SFX_GPE_Telekinesie" ID="{076DDE08-3346-4C94-8BA9-A7DA8B53D539}">
+						<Folder Name="SFX_GPE_Telekinesie_Rock" ID="{6C6DACF0-0FB0-483C-B355-EB0836BC12D8}" ShortID="531595816">
 							<ChildrenList>
-								<Action Name="" ID="{187ED390-6DD3-46BD-9527-19FFF2A68CE4}" ShortID="357312961">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Telekinesie_Start" ID="{A6122514-33DE-4528-B96D-0E66090F5B90}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{F18769AB-6DB7-4443-8624-CEC2D273ADA9}" ShortID="854027570">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Stop_SFX_GPE_Telekinesie" ID="{7BC5EEFC-CCDB-4FC0-BD4A-F20D36B626A4}">
+									<ChildrenList>
+										<Action Name="" ID="{BA939A96-E427-45FF-8213-D028CC2002E7}" ShortID="466330535">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{42120E8A-CEEB-44B6-8CB4-36823885B9C1}" ShortID="166538594">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telekinesie_End" ID="{A478D810-0779-4EBC-85E3-6CF9B13B0DA9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telekinesie_Finish" ID="{68932580-2A71-4B48-9CFC-9837A46603F0}">
+									<ChildrenList>
+										<Action Name="" ID="{E37BD13D-AE38-4A6A-AFC5-C81516FD7D5F}" ShortID="872397823">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telekinesie_Complete" ID="{92AF1CD5-6D98-4AC0-AD6A-3BF85C798693}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telekinesie" ID="{076DDE08-3346-4C94-8BA9-A7DA8B53D539}">
+									<ChildrenList>
+										<Action Name="" ID="{187ED390-6DD3-46BD-9527-19FFF2A68CE4}" ShortID="357312961">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telekinesie_Start" ID="{A6122514-33DE-4528-B96D-0E66090F5B90}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F18769AB-6DB7-4443-8624-CEC2D273ADA9}" ShortID="854027570">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Stop_SFX_GPE_Telekinesie" ID="{7BC5EEFC-CCDB-4FC0-BD4A-F20D36B626A4}">
+						</Folder>
+						<Folder Name="SFX_GPE_Telekinesie_Tonal" ID="{294DB28D-F6E9-4C76-9A2E-5D5AB14C3FDE}" ShortID="1069513311">
 							<ChildrenList>
-								<Action Name="" ID="{BA939A96-E427-45FF-8213-D028CC2002E7}" ShortID="466330535">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Telekinesie_LP" ID="{3CA43B54-D28A-44C1-83A0-E2DE6675C324}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{42120E8A-CEEB-44B6-8CB4-36823885B9C1}" ShortID="166538594">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Telekinesie_End" ID="{A478D810-0779-4EBC-85E3-6CF9B13B0DA9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_SFX_GPE_Telek_C_In" ID="{177111E4-6D0A-4DC7-A67A-D8CFF8A3A0D8}">
+									<ChildrenList>
+										<Action Name="" ID="{836C0975-63D2-4AAA-B625-010C843D4609}" ShortID="30816046">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_C_In" ID="{2A776C24-AED5-4402-8653-22A5317420BA}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6A752C78-2441-4FFA-851D-60EE50A669CF}" ShortID="180663738">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_C_LP" ID="{089EC23E-C7D7-412D-94C3-1FBC7745D53A}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telek_C_Out" ID="{90E1E55B-F988-477E-A4E9-1F4CC1EFFDAD}">
+									<ChildrenList>
+										<Action Name="" ID="{B569E345-EABE-4DBC-9736-DD6B3732C00D}" ShortID="748280157">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_C_Out" ID="{A54B3A57-EAF8-4DCA-A47E-9BEC771244C0}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{87308B0C-3F54-4CEB-8A38-049FE6B665D3}" ShortID="190902832">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_C_LP" ID="{089EC23E-C7D7-412D-94C3-1FBC7745D53A}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telek_F_In" ID="{089F67BB-59C4-43B9-8BA3-B5617F22B486}">
+									<ChildrenList>
+										<Action Name="" ID="{49BE0613-433A-4D88-B0B9-67358C56EB59}" ShortID="687400713">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_F_In" ID="{432576BA-8A79-4E26-8BB9-2119840D360B}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{97C9E68D-32B8-4D4B-897A-2080638DFCA8}" ShortID="191709684">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_F_LP" ID="{58BEA3B0-0A0B-4B5A-B8F6-6E105CD58378}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telek_F_Out" ID="{CF1A3CDD-A110-41D3-9161-44B6913A92CD}">
+									<ChildrenList>
+										<Action Name="" ID="{B79EF179-727C-4793-BB96-A26F2FC7138E}" ShortID="210135276">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_F_Out" ID="{0DBF973C-C57C-44A3-A6D1-65C36A9A8E55}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{26DFFDDB-0AEE-4FAA-80CF-0365816AB85F}" ShortID="203341413">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_F_LP" ID="{58BEA3B0-0A0B-4B5A-B8F6-6E105CD58378}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telek_G_Out" ID="{0DF6E05E-3F78-42AF-B712-408BB057DA21}">
+									<ChildrenList>
+										<Action Name="" ID="{5FEEF1C4-777A-48BF-B10B-8EFEC5F4D289}" ShortID="783466504">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_G_Out" ID="{50066D43-24CA-4F29-AE79-04314C3B7B5A}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{28F294B0-7D35-47F2-A4B3-16B11490E09E}" ShortID="254418942">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_G_LP" ID="{0E679573-B53B-44D0-99EE-BEA3C38C4FF9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telek_DS_Out" ID="{5006302F-EF25-4284-8978-6B60B43570D7}">
+									<ChildrenList>
+										<Action Name="" ID="{C7D9DC56-A717-42B0-B462-27527D992E5B}" ShortID="696905732">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_DS_Out" ID="{CB6C9311-FDD0-4808-A50C-F6F5151EDBC1}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5BCC2176-F7A4-41C8-8CF9-ADD1BCB1A96A}" ShortID="658509448">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_DS_LP" ID="{65742284-FF50-4775-96A7-23116B3C56D4}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telek_DS_In" ID="{E7754CD1-9C64-49E6-AD09-CEAEC900C45E}">
+									<ChildrenList>
+										<Action Name="" ID="{FBF095D4-246A-489C-8FBB-2E143857C7BD}" ShortID="312091721">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_DS_In" ID="{EB4F4585-ABF9-4CB1-A845-E28E3EBC03A5}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{73DA8ACF-09B4-4A41-AA55-4BE2F523E3C2}" ShortID="229287235">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_DS_LP" ID="{65742284-FF50-4775-96A7-23116B3C56D4}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Telek_G_In" ID="{DD2BBB5A-6A05-49B0-9A47-0F7FCB403D7F}">
+									<ChildrenList>
+										<Action Name="" ID="{C0183E4D-D610-4D1F-A87E-4CCF44041DD3}" ShortID="247130">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_G_In" ID="{45745A8B-0C98-4D31-AEB0-92D05402B135}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B3D3DD5B-D6CA-4043-B787-BA0A0BBE1F61}" ShortID="538838325">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Telek_G_LP" ID="{0E679573-B53B-44D0-99EE-BEA3C38C4FF9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_SFX_GPE_Telekinesie_Finish" ID="{68932580-2A71-4B48-9CFC-9837A46603F0}">
-							<ChildrenList>
-								<Action Name="" ID="{E37BD13D-AE38-4A6A-AFC5-C81516FD7D5F}" ShortID="872397823">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Telekinesie_Complete" ID="{92AF1CD5-6D98-4AC0-AD6A-3BF85C798693}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX_GPE_ToyPlant" ID="{BFD48635-8D35-4103-9FD2-85370C651ABF}" ShortID="863782813">

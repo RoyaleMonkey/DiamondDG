@@ -92,6 +92,14 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_STELE_F3 = 1602461720U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_G2 = 1585684138U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_G3 = 1585684139U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_C_IN = 3201623454U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_C_OUT = 4063519041U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_DS_IN = 2782477296U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_DS_OUT = 3959271639U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_F_IN = 2178549001U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_F_OUT = 2016507816U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_G_IN = 347234866U;
+        static const AkUniqueID PLAY_SFX_GPE_TELEK_G_OUT = 2982934029U;
         static const AkUniqueID PLAY_SFX_GPE_TELEKINESIE = 450895549U;
         static const AkUniqueID PLAY_SFX_GPE_TELEKINESIE_FINISH = 3636920717U;
         static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_A = 2012244440U;

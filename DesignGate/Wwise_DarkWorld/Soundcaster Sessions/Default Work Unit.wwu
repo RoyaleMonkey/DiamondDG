@@ -14,12 +14,28 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_C_In" ID="{177111E4-6D0A-4DC7-A67A-D8CFF8A3A0D8}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_C_Out" ID="{90E1E55B-F988-477E-A4E9-1F4CC1EFFDAD}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Flute_D_Start" ID="{62077525-81D4-47EC-8C3E-E63AA8CECCC0}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Flute_D_End" ID="{F19D10B8-4AAD-4192-98FE-6FB57EE58FB5}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_DS_In" ID="{E7754CD1-9C64-49E6-AD09-CEAEC900C45E}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_DS_Out" ID="{5006302F-EF25-4284-8978-6B60B43570D7}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Flute_DS_Start" ID="{296CDA01-719A-4878-AF4C-F1C329880DB9}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
@@ -30,12 +46,28 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_F_In" ID="{089F67BB-59C4-43B9-8BA3-B5617F22B486}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_F_Out" ID="{CF1A3CDD-A110-41D3-9161-44B6913A92CD}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Flute_F_Start" ID="{228B0FB6-CD65-4234-8C44-3BB56E2FF6EC}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Flute_F_End" ID="{E2581310-BD8A-491A-8E94-96A09CFBEF55}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_G_In" ID="{DD2BBB5A-6A05-49B0-9A47-0F7FCB403D7F}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_GPE_Telek_G_Out" ID="{0DF6E05E-3F78-42AF-B712-408BB057DA21}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Flute_G_Start" ID="{A585FB3F-4D4D-4A50-8913-692013886DD9}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>

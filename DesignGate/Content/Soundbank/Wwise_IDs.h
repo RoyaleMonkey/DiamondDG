@@ -32,6 +32,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
         static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
+        static const AkUniqueID PLAY_INSECT_RFX = 1075472767U;
         static const AkUniqueID PLAY_LITTLE_WATERFALL = 2110018169U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
         static const AkUniqueID PLAY_MC_FOL_LAND = 2037670792U;

@@ -12,20 +12,13 @@
    "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
-  "StreamedFiles": [
-   {
-    "Id": "269732270",
-    "Language": "SFX",
-    "ShortName": "Amb_Wind_Forest_LP.wav",
-    "Path": "SFX\\Amb_Wind_Forest_LP_0762CC47.wem"
-   }
-  ],
+  "StreamedFiles": [],
   "MediaFilesNotInAnyBank": [],
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2508797500",
+    "Hash": "113977071",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -679,9 +672,145 @@
       ]
      },
      {
+      "Id": "3201623454",
+      "Name": "Play_SFX_GPE_Telek_C_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_C_In",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "384809180",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_C_LP.wav",
+        "Path": "SFX\\SFX_GPE_Telek_C_LP_0762CC47.wem"
+       },
+       {
+        "Id": "1068855612",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_C_In.wav",
+        "Path": "SFX\\SFX_GPE_Telek_C_In_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4063519041",
+      "Name": "Play_SFX_GPE_Telek_C_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_C_Out",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1055177857",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_C_Out.wav",
+        "Path": "SFX\\SFX_GPE_Telek_C_Out_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2782477296",
+      "Name": "Play_SFX_GPE_Telek_DS_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_DS_In",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72119939",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_DS_In.wav",
+        "Path": "SFX\\SFX_GPE_Telek_DS_In_D8C07C79.wem"
+       },
+       {
+        "Id": "567258248",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_DS_LP.wav",
+        "Path": "SFX\\SFX_GPE_Telek_DS_LP_0762CC47.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3959271639",
+      "Name": "Play_SFX_GPE_Telek_DS_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_DS_Out",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1025266737",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_DS_Out.wav",
+        "Path": "SFX\\SFX_GPE_Telek_DS_Out_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2178549001",
+      "Name": "Play_SFX_GPE_Telek_F_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_F_In",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "189226895",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_F_In.wav",
+        "Path": "SFX\\SFX_GPE_Telek_F_In_D8C07C79.wem"
+       },
+       {
+        "Id": "908900293",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_F_LP.wav",
+        "Path": "SFX\\SFX_GPE_Telek_F_LP_0762CC47.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2016507816",
+      "Name": "Play_SFX_GPE_Telek_F_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_F_Out",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "436996472",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_F_Out.wav",
+        "Path": "SFX\\SFX_GPE_Telek_F_Out_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "347234866",
+      "Name": "Play_SFX_GPE_Telek_G_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_G_In",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "247827927",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_G_LP.wav",
+        "Path": "SFX\\SFX_GPE_Telek_G_LP_0762CC47.wem"
+       },
+       {
+        "Id": "920077616",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_G_In.wav",
+        "Path": "SFX\\SFX_GPE_Telek_G_In_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2982934029",
+      "Name": "Play_SFX_GPE_Telek_G_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_G_Out",
+      "MaxAttenuation": "10000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "762878522",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Telek_G_Out.wav",
+        "Path": "SFX\\SFX_GPE_Telek_G_Out_D8C07C79.wem"
+       }
+      ]
+     },
+     {
       "Id": "450895549",
       "Name": "Play_SFX_GPE_Telekinesie",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\Play_SFX_GPE_Telekinesie",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Rock\\Play_SFX_GPE_Telekinesie",
       "IncludedMemoryFiles": [
        {
         "Id": "175890529",
@@ -712,7 +841,7 @@
      {
       "Id": "3636920717",
       "Name": "Play_SFX_GPE_Telekinesie_Finish",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\Play_SFX_GPE_Telekinesie_Finish",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Rock\\Play_SFX_GPE_Telekinesie_Finish",
       "IncludedMemoryFiles": [
        {
         "Id": "355805810",
@@ -1466,7 +1595,7 @@
      {
       "Id": "437964639",
       "Name": "Stop_SFX_GPE_Telekinesie",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\Stop_SFX_GPE_Telekinesie",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Rock\\Stop_SFX_GPE_Telekinesie",
       "IncludedMemoryFiles": [
        {
         "Id": "622243301",
@@ -1585,6 +1714,12 @@
       "Language": "SFX",
       "ShortName": "SFX_LE_Brasero_LP_1.wav",
       "Path": "SFX\\SFX_LE_Brasero_LP_1_D8C07C79.wem"
+     },
+     {
+      "Id": "72119939",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_DS_In.wav",
+      "Path": "SFX\\SFX_GPE_Telek_DS_In_D8C07C79.wem"
      },
      {
       "Id": "75417464",
@@ -1725,6 +1860,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem"
      },
      {
+      "Id": "189226895",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_F_In.wav",
+      "Path": "SFX\\SFX_GPE_Telek_F_In_D8C07C79.wem"
+     },
+     {
       "Id": "190460748",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Catapult_Grab.wav",
@@ -1819,6 +1960,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_03.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_03_D8C07C79.wem"
+     },
+     {
+      "Id": "247827927",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_G_LP.wav",
+      "Path": "SFX\\SFX_GPE_Telek_G_LP_0762CC47.wem"
      },
      {
       "Id": "259028868",
@@ -1965,6 +2112,12 @@
       "Path": "SFX\\SFX_Telekinesie_lp_D8C07C79.wem"
      },
      {
+      "Id": "384809180",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_C_LP.wav",
+      "Path": "SFX\\SFX_GPE_Telek_C_LP_0762CC47.wem"
+     },
+     {
       "Id": "392421036",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Zipline_LP.wav",
@@ -2023,6 +2176,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Door_Opening.wav",
       "Path": "SFX\\SFX_Door_Opening_D8C07C79.wem"
+     },
+     {
+      "Id": "436996472",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_F_Out.wav",
+      "Path": "SFX\\SFX_GPE_Telek_F_Out_D8C07C79.wem"
      },
      {
       "Id": "442493699",
@@ -2113,6 +2272,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Bumper_1.wav",
       "Path": "SFX\\SFX_GPE_Bumper_1_D8C07C79.wem"
+     },
+     {
+      "Id": "567258248",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_DS_LP.wav",
+      "Path": "SFX\\SFX_GPE_Telek_DS_LP_0762CC47.wem"
      },
      {
       "Id": "570281229",
@@ -2337,6 +2502,12 @@
       "Path": "SFX\\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem"
      },
      {
+      "Id": "762878522",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_G_Out.wav",
+      "Path": "SFX\\SFX_GPE_Telek_G_Out_D8C07C79.wem"
+     },
+     {
       "Id": "766045658",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_AS3.wav",
@@ -2481,6 +2652,18 @@
       "Path": "SFX\\SFX_GPE_Catapult_Grab_3_D8C07C79.wem"
      },
      {
+      "Id": "908900293",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_F_LP.wav",
+      "Path": "SFX\\SFX_GPE_Telek_F_LP_0762CC47.wem"
+     },
+     {
+      "Id": "920077616",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_G_In.wav",
+      "Path": "SFX\\SFX_GPE_Telek_G_In_D8C07C79.wem"
+     },
+     {
       "Id": "941605390",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_C2.wav",
@@ -2595,6 +2778,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem"
      },
      {
+      "Id": "1025266737",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_DS_Out.wav",
+      "Path": "SFX\\SFX_GPE_Telek_DS_Out_D8C07C79.wem"
+     },
+     {
       "Id": "1029296119",
       "Language": "SFX",
       "ShortName": "SFX_Telekinesie_End__3.wav",
@@ -2625,6 +2814,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem"
      },
      {
+      "Id": "1055177857",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_C_Out.wav",
+      "Path": "SFX\\SFX_GPE_Telek_C_Out_D8C07C79.wem"
+     },
+     {
       "Id": "1063009932",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_A4.wav",
@@ -2635,6 +2830,12 @@
       "Language": "SFX",
       "ShortName": "RFX_GPE_Zipline_3.wav",
       "Path": "SFX\\RFX_GPE_Zipline_3_D8C07C79.wem"
+     },
+     {
+      "Id": "1068855612",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Telek_C_In.wav",
+      "Path": "SFX\\SFX_GPE_Telek_C_In_D8C07C79.wem"
      },
      {
       "Id": "1070609207",
@@ -3564,7 +3765,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "930262077",
+    "Hash": "2426580744",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -3691,18 +3892,13 @@
       "Id": "172812343",
       "Name": "Play_Amb_Fall_Dirt_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Fall_Dirt_RFX",
+      "MaxAttenuation": "1500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "370379099",
         "Language": "SFX",
         "ShortName": "SFX_Rock_Fall_03.wav",
         "Path": "SFX\\SFX_Rock_Fall_03_D8C07C79.wem"
-       },
-       {
-        "Id": "529464495",
-        "Language": "SFX",
-        "ShortName": "SFX_Rock_Fall_02.wav",
-        "Path": "SFX\\SFX_Rock_Fall_02_D8C07C79.wem"
        },
        {
         "Id": "624963130",
@@ -3716,17 +3912,20 @@
         "ShortName": "SFX_Rock_Fall_01.wav",
         "Path": "SFX\\SFX_Rock_Fall_01_D8C07C79.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1566008239",
+        "Name": "RVB_FOREST",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+       }
       ]
-     },
-     {
-      "Id": "994146778",
-      "Name": "Play_Amb_Forest",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Forest"
      },
      {
       "Id": "4124567974",
       "Name": "Play_Amb_Lake_Lapping",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping"
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping",
+      "MaxAttenuation": "8000.000000"
      },
      {
       "Id": "832042763",
@@ -3738,6 +3937,141 @@
       "Id": "3619535171",
       "Name": "Play_Amb_Water_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Water_RFX"
+     },
+     {
+      "Id": "1075472767",
+      "Name": "Play_Insect_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Insect_RFX",
+      "MaxAttenuation": "3500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "79269412",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem"
+       },
+       {
+        "Id": "101981967",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem"
+       },
+       {
+        "Id": "201495576",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem"
+       },
+       {
+        "Id": "209477513",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem"
+       },
+       {
+        "Id": "210186342",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_03.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem"
+       },
+       {
+        "Id": "367785812",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_04.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem"
+       },
+       {
+        "Id": "450701258",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_03.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem"
+       },
+       {
+        "Id": "456137261",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_06.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem"
+       },
+       {
+        "Id": "483271574",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem"
+       },
+       {
+        "Id": "532737880",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem"
+       },
+       {
+        "Id": "689684698",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_10.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem"
+       },
+       {
+        "Id": "697869690",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_06.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem"
+       },
+       {
+        "Id": "768527910",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem"
+       },
+       {
+        "Id": "771849626",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_B_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem"
+       },
+       {
+        "Id": "815945173",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_04.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem"
+       },
+       {
+        "Id": "884753223",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_14.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem"
+       },
+       {
+        "Id": "919915685",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem"
+       },
+       {
+        "Id": "929734054",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem"
+       },
+       {
+        "Id": "1008890909",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem"
+       },
+       {
+        "Id": "1023739985",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_07.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1566008239",
+        "Name": "RVB_FOREST",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+       }
+      ]
      },
      {
       "Id": "3212184235",
@@ -3778,11 +4112,6 @@
       "Id": "3757054751",
       "Name": "Play_MC_Taps",
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Taps"
-     }
-    ],
-    "ReferencedStreamedFiles": [
-     {
-      "Id": "269732270"
      }
     ],
     "IncludedMemoryFiles": [
@@ -3925,6 +4254,12 @@
       "Path": "SFX\\SFX_MC_FOL_Land_05_D8C07C79.wem"
      },
      {
+      "Id": "79269412",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_G_05.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem"
+     },
+     {
       "Id": "82524829",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Run_01.wav",
@@ -3947,6 +4282,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Stone_Run_01.wav",
       "Path": "SFX\\SFX_MC_FT_Stone_Run_01_D8C07C79.wem"
+     },
+     {
+      "Id": "101981967",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_F_02.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem"
      },
      {
       "Id": "107389848",
@@ -4120,13 +4461,19 @@
       "Id": "193220923",
       "Language": "SFX",
       "ShortName": "Amb_Lake_Lapping.wav",
-      "Path": "SFX\\Amb_Lake_Lapping_D8C07C79.wem"
+      "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
      },
      {
       "Id": "194444405",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Os_Pivot_05.wav",
       "Path": "SFX\\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem"
+     },
+     {
+      "Id": "201495576",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Grasshopper_A_01.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem"
      },
      {
       "Id": "202829114",
@@ -4145,6 +4492,18 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_03.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_03_D8C07C79.wem"
+     },
+     {
+      "Id": "209477513",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_H_02.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem"
+     },
+     {
+      "Id": "210186342",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_G_03.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem"
      },
      {
       "Id": "214073481",
@@ -4435,6 +4794,12 @@
       "Path": "SFX\\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem"
      },
      {
+      "Id": "367785812",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_H_04.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem"
+     },
+     {
       "Id": "370379099",
       "Language": "SFX",
       "ShortName": "SFX_Rock_Fall_03.wav",
@@ -4555,10 +4920,22 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem"
      },
      {
+      "Id": "450701258",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_H_03.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem"
+     },
+     {
       "Id": "452574099",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Scuff_03.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Scuff_03_D8C07C79.wem"
+     },
+     {
+      "Id": "456137261",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_F_06.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem"
      },
      {
       "Id": "456865852",
@@ -4607,6 +4984,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Os_Run_4.wav",
       "Path": "SFX\\SFX_MC_FOL_Os_Run_4_D8C07C79.wem"
+     },
+     {
+      "Id": "483271574",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Grasshopper_B_01.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem"
      },
      {
       "Id": "484469866",
@@ -4699,16 +5082,16 @@
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem"
      },
      {
-      "Id": "529464495",
-      "Language": "SFX",
-      "ShortName": "SFX_Rock_Fall_02.wav",
-      "Path": "SFX\\SFX_Rock_Fall_02_D8C07C79.wem"
-     },
-     {
       "Id": "529933926",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Debris_9.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Debris_9_D8C07C79.wem"
+     },
+     {
+      "Id": "532737880",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Grasshopper_A_05.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem"
      },
      {
       "Id": "532901980",
@@ -5041,6 +5424,12 @@
       "Path": "SFX\\SFX_MC_FT_Dirt_Walk_05_D8C07C79.wem"
      },
      {
+      "Id": "689684698",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_F_10.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem"
+     },
+     {
       "Id": "691828620",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Run_07.wav",
@@ -5081,6 +5470,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Walk_05.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Walk_05_D8C07C79.wem"
+     },
+     {
+      "Id": "697869690",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Grasshopper_A_06.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem"
      },
      {
       "Id": "700779729",
@@ -5221,10 +5616,22 @@
       "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_1_D8C07C79.wem"
      },
      {
+      "Id": "768527910",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_H_01.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem"
+     },
+     {
       "Id": "770496534",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Jump_01.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Jump_01_D8C07C79.wem"
+     },
+     {
+      "Id": "771849626",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Grasshopper_B_02.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem"
      },
      {
       "Id": "775724364",
@@ -5309,6 +5716,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Land_01.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Land_01_D8C07C79.wem"
+     },
+     {
+      "Id": "815945173",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_G_04.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem"
      },
      {
       "Id": "816118979",
@@ -5401,6 +5814,12 @@
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem"
      },
      {
+      "Id": "884753223",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_F_14.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem"
+     },
+     {
       "Id": "886300096",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Land_04.wav",
@@ -5473,6 +5892,12 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Land_06_D8C07C79.wem"
      },
      {
+      "Id": "919915685",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_H_05.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem"
+     },
+     {
       "Id": "922390643",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Land_05.wav",
@@ -5489,6 +5914,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Run_8.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Run_8_D8C07C79.wem"
+     },
+     {
+      "Id": "929734054",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_G_01.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem"
      },
      {
       "Id": "930417253",
@@ -5635,6 +6066,12 @@
       "Path": "SFX\\SFX_MC_FT_Wood_Run_02_D8C07C79.wem"
      },
      {
+      "Id": "1008890909",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_G_02.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem"
+     },
+     {
       "Id": "1013653735",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Scuff_01.wav",
@@ -5651,6 +6088,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Stone_Run_08.wav",
       "Path": "SFX\\SFX_MC_FT_Stone_Run_08_D8C07C79.wem"
+     },
+     {
+      "Id": "1023739985",
+      "Language": "SFX",
+      "ShortName": "Amb_RFX_Insect_Cricket_F_07.wav",
+      "Path": "SFX\\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem"
      },
      {
       "Id": "1032751115",
@@ -5760,6 +6203,11 @@
       "Id": "1227053913",
       "Name": "MC_Speed",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Speed"
+     },
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance"
      }
     ],
     "SwitchGroups": [

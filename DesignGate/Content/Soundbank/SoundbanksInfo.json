@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -25,7 +25,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1846020136",
+    "Hash": "599996183",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -2851,6 +2851,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
+    "Hash": "1457537951",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -3929,6 +3930,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
+    "Hash": "1989944038",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk"
@@ -3936,7 +3938,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1012908664",
+    "Hash": "1185296996",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -4113,7 +4115,7 @@
       "Id": "305604352",
       "Name": "Play_Amb_Wind_Void",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Void",
-      "MaxAttenuation": "3500.000000",
+      "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "735267049",
@@ -4122,6 +4124,11 @@
         "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
        }
       ]
+     },
+     {
+      "Id": "2904809513",
+      "Name": "Play_DarkWorld_Zelda_Pad",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Play_DarkWorld_Zelda_Pad"
      },
      {
       "Id": "1075472767",
@@ -4297,6 +4304,12 @@
       "Id": "3757054751",
       "Name": "Play_MC_Taps",
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Taps"
+     },
+     {
+      "Id": "3181251971",
+      "Name": "Stop_DarkWorld_Zelda_Pad",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Stop_DarkWorld_Zelda_Pad",
+      "MaxAttenuation": "0.000000"
      }
     ],
     "ReferencedStreamedFiles": [

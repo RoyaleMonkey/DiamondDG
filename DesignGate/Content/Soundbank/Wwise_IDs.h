@@ -135,6 +135,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_WATERFALL_BIG = 2590190883U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
+        static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
         static const AkUniqueID STOP_SFX_GPE_CATAPULTE_LOOP = 3102446207U;
         static const AkUniqueID STOP_SFX_GPE_GEYSER_END = 1587068986U;
         static const AkUniqueID STOP_SFX_GPE_STELE_A2 = 1164948654U;

@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "3714354650",
+    "Hash": "785865971",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -241,7 +241,14 @@
       "Id": "2904809513",
       "Name": "Play_DarkWorld_Zelda_Pad",
       "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Play_DarkWorld_Zelda_Pad",
-      "MaxAttenuation": "0.000000"
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "292638806",
+        "Language": "SFX",
+        "ShortName": "AmbT_Pad_Zelda.wav",
+        "Path": "SFX\\AmbT_Pad_Zelda_0762CC47.wem"
+       }
+      ]
      },
      {
       "Id": "1075472767",
@@ -4473,6 +4480,12 @@
       "Id": "3516178482",
       "Name": "Stop_Amb_Lake",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Stop_Amb_Lake",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "3181251971",
+      "Name": "Stop_DarkWorld_Zelda_Pad",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Stop_DarkWorld_Zelda_Pad",
       "MaxAttenuation": "0.000000"
      }
     ],

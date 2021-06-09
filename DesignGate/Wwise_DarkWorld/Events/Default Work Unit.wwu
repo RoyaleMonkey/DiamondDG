@@ -94,7 +94,7 @@
 								<Action Name="" ID="{58B033D5-6FB7-45A0-A1E2-B48D750D51CB}" ShortID="694605976">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Amb_Fall_Dirt_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+											<ObjectRef Name="Amb_Fall_Rocks_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -139,6 +139,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_Water_RFX" ID="{400FC6CD-FECB-450E-9FA4-D247C80B7CDD}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Insect_RFX" ID="{176371C8-18DE-4946-89D0-4EF8882D14D2}">
+							<ChildrenList>
+								<Action Name="" ID="{77390630-B81F-4631-B27A-13FDDA18CEFE}" ShortID="945498940">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Insect_RFX" ID="{20B19351-A569-498A-AE31-95F4682A8DDB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -197,6 +208,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<WorkUnit Name="Amb_Tonal" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

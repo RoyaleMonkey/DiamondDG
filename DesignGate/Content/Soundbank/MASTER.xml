@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="930262077">
+		<SoundBank Id="4056684167" Language="SFX" Hash="4066355332">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -85,15 +85,11 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1521220657" Name="Play_Amb_Cavern_Level" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cavern_Level"/>
-				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX">
+				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX" MaxAttenuation="1500.000000">
 					<IncludedMemoryFiles>
 						<File Id="370379099" Language="SFX">
 							<ShortName>SFX_Rock_Fall_03.wav</ShortName>
 							<Path>SFX\SFX_Rock_Fall_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="529464495" Language="SFX">
-							<ShortName>SFX_Rock_Fall_02.wav</ShortName>
-							<Path>SFX\SFX_Rock_Fall_02_D8C07C79.wem</Path>
 						</File>
 						<File Id="624963130" Language="SFX">
 							<ShortName>SFX_Rock_Fall_04.wav</ShortName>
@@ -104,11 +100,100 @@
 							<Path>SFX\SFX_Rock_Fall_01_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="994146778" Name="Play_Amb_Forest" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Forest"/>
-				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping"/>
+				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping" MaxAttenuation="8000.000000"/>
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP" MaxAttenuation="8000.000000"/>
 				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX"/>
+				<Event Id="1075472767" Name="Play_Insect_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Insect_RFX" MaxAttenuation="3500.000000">
+					<IncludedMemoryFiles>
+						<File Id="79269412" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_05.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="101981967" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="201495576" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_A_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="209477513" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="210186342" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_03.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="367785812" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_04.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="450701258" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="456137261" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_06.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="483271574" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_B_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="532737880" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_A_05.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="689684698" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_10.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="697869690" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_A_06.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="768527910" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="771849626" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_B_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="815945173" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_04.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="884753223" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_14.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem</Path>
+						</File>
+						<File Id="919915685" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_05.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="929734054" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1008890909" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="1023739985" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_07.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="3212184235" Name="Play_MC_FOL_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Jump"/>
 				<Event Id="2037670792" Name="Play_MC_FOL_Land" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Land"/>
 				<Event Id="1608668697" Name="Play_MC_FOL_Pivot" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Pivot"/>
@@ -119,9 +204,9 @@
 				<Event Id="3757054751" Name="Play_MC_Taps" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Taps"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
-				<File Id="269732270" Language="SFX">
-					<ShortName>Amb_Wind_Forest_LP.wav</ShortName>
-					<Path>SFX\Amb_Wind_Forest_LP_0762CC47.wem</Path>
+				<File Id="292638806" Language="SFX">
+					<ShortName>AmbT_Pad_Zelda.wav</ShortName>
+					<Path>SFX\AmbT_Pad_Zelda_0762CC47.wem</Path>
 				</File>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
@@ -217,6 +302,10 @@
 					<ShortName>SFX_MC_FOL_Land_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Land_05_D8C07C79.wem</Path>
 				</File>
+				<File Id="79269412" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_05.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem</Path>
+				</File>
 				<File Id="82524829" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_01_D8C07C79.wem</Path>
@@ -232,6 +321,10 @@
 				<File Id="100799969" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="101981967" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="107389848" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_01.wav</ShortName>
@@ -347,11 +440,15 @@
 				</File>
 				<File Id="193220923" Language="SFX">
 					<ShortName>Amb_Lake_Lapping.wav</ShortName>
-					<Path>SFX\Amb_Lake_Lapping_D8C07C79.wem</Path>
+					<Path>SFX\Amb_Lake_Lapping_0762CC47.wem</Path>
 				</File>
 				<File Id="194444405" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Pivot_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem</Path>
+				</File>
+				<File Id="201495576" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_A_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="202829114" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_03.wav</ShortName>
@@ -364,6 +461,14 @@
 				<File Id="209417138" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="209477513" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="210186342" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_03.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="214073481" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_05.wav</ShortName>
@@ -557,6 +662,10 @@
 					<ShortName>SFX_MC_FOL_Os_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="367785812" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_04.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem</Path>
+				</File>
 				<File Id="370379099" Language="SFX">
 					<ShortName>SFX_Rock_Fall_03.wav</ShortName>
 					<Path>SFX\SFX_Rock_Fall_03_D8C07C79.wem</Path>
@@ -637,9 +746,17 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem</Path>
 				</File>
+				<File Id="450701258" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="452574099" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="456137261" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_06.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem</Path>
 				</File>
 				<File Id="456865852" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Run_10.wav</ShortName>
@@ -672,6 +789,10 @@
 				<File Id="482730767" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_4.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Run_4_D8C07C79.wem</Path>
+				</File>
+				<File Id="483271574" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_B_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="484469866" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Jump_02.wav</ShortName>
@@ -733,13 +854,13 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem</Path>
 				</File>
-				<File Id="529464495" Language="SFX">
-					<ShortName>SFX_Rock_Fall_02.wav</ShortName>
-					<Path>SFX\SFX_Rock_Fall_02_D8C07C79.wem</Path>
-				</File>
 				<File Id="529933926" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_9.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Debris_9_D8C07C79.wem</Path>
+				</File>
+				<File Id="532737880" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_A_05.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem</Path>
 				</File>
 				<File Id="532901980" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_02.wav</ShortName>
@@ -961,6 +1082,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Walk_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_05_D8C07C79.wem</Path>
 				</File>
+				<File Id="689684698" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_10.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem</Path>
+				</File>
 				<File Id="691828620" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Run_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_07_D8C07C79.wem</Path>
@@ -988,6 +1113,10 @@
 				<File Id="697618590" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_05_D8C07C79.wem</Path>
+				</File>
+				<File Id="697869690" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_A_06.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem</Path>
 				</File>
 				<File Id="700779729" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Dead_Sea_Sparrow_01.wav</ShortName>
@@ -1081,9 +1210,17 @@
 					<ShortName>Amb_RFX_Bird_Eurasian_Wren_1.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Wren_1_D8C07C79.wem</Path>
 				</File>
+				<File Id="768527910" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="770496534" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Jump_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="771849626" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_B_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="775724364" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Land_03.wav</ShortName>
@@ -1140,6 +1277,10 @@
 				<File Id="811545887" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="815945173" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_04.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem</Path>
 				</File>
 				<File Id="816118979" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_02.wav</ShortName>
@@ -1201,6 +1342,10 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_09.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem</Path>
 				</File>
+				<File Id="884753223" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_14.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem</Path>
+				</File>
 				<File Id="886300096" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Land_04_D8C07C79.wem</Path>
@@ -1249,6 +1394,10 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Land_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_06_D8C07C79.wem</Path>
 				</File>
+				<File Id="919915685" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_05.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem</Path>
+				</File>
 				<File Id="922390643" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_05_D8C07C79.wem</Path>
@@ -1260,6 +1409,10 @@
 				<File Id="925523541" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_8.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_8_D8C07C79.wem</Path>
+				</File>
+				<File Id="929734054" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="930417253" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_10.wav</ShortName>
@@ -1357,6 +1510,10 @@
 					<ShortName>SFX_MC_FT_Wood_Run_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="1008890909" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="1013653735" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Scuff_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_01_D8C07C79.wem</Path>
@@ -1368,6 +1525,10 @@
 				<File Id="1018332804" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_08.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_08_D8C07C79.wem</Path>
+				</File>
+				<File Id="1023739985" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_07.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem</Path>
 				</File>
 				<File Id="1032751115" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_09.wav</ShortName>
@@ -1440,6 +1601,7 @@
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1227053913" Name="MC_Speed" ObjectPath="\Game Parameters\Default Work Unit\MC_Speed"/>
+				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">

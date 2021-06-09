@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" SchemaVersion="97" RootDocumentID="{E5482311-EA18-40DD-A277-B2AA53354992}">
+	<Events>
+		<WorkUnit Name="Amb_Tonal" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" OwnerID="{E5482311-EA18-40DD-A277-B2AA53354992}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_DarkWorld_Zelda_Pad" ID="{07A99D0E-AB00-4076-8C36-DD0E3C00C64D}">
+					<ChildrenList>
+						<Action Name="" ID="{F900026D-65BB-4F6D-9412-F60130B737A6}" ShortID="354410007">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Zelda_Pad" ID="{D1546972-2C03-4C18-A0DF-4CC978961B8E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

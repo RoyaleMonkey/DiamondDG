@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles>
-		<File Id="269732270" Language="SFX">
-			<ShortName>Amb_Wind_Forest_LP.wav</ShortName>
-			<Path>SFX\Amb_Wind_Forest_LP_0762CC47.wem</Path>
-		</File>
-	</StreamedFiles>
+	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1561304282">
+		<SoundBank Id="393239870" Language="SFX" Hash="3353283649">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -429,7 +424,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="450895549" Name="Play_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Play_SFX_GPE_Telekinesie">
+				<Event Id="3201623454" Name="Play_SFX_GPE_Telek_C_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_C_In" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="384809180" Language="SFX">
+							<ShortName>SFX_GPE_Telek_C_LP.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_C_LP_0762CC47.wem</Path>
+						</File>
+						<File Id="1068855612" Language="SFX">
+							<ShortName>SFX_GPE_Telek_C_In.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_C_In_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4063519041" Name="Play_SFX_GPE_Telek_C_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_C_Out" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="1055177857" Language="SFX">
+							<ShortName>SFX_GPE_Telek_C_Out.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_C_Out_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2782477296" Name="Play_SFX_GPE_Telek_DS_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_DS_In" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="72119939" Language="SFX">
+							<ShortName>SFX_GPE_Telek_DS_In.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_DS_In_D8C07C79.wem</Path>
+						</File>
+						<File Id="567258248" Language="SFX">
+							<ShortName>SFX_GPE_Telek_DS_LP.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_DS_LP_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3959271639" Name="Play_SFX_GPE_Telek_DS_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_DS_Out" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="1025266737" Language="SFX">
+							<ShortName>SFX_GPE_Telek_DS_Out.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_DS_Out_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2178549001" Name="Play_SFX_GPE_Telek_F_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_F_In" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="189226895" Language="SFX">
+							<ShortName>SFX_GPE_Telek_F_In.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_F_In_D8C07C79.wem</Path>
+						</File>
+						<File Id="908900293" Language="SFX">
+							<ShortName>SFX_GPE_Telek_F_LP.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_F_LP_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2016507816" Name="Play_SFX_GPE_Telek_F_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_F_Out" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="436996472" Language="SFX">
+							<ShortName>SFX_GPE_Telek_F_Out.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_F_Out_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="347234866" Name="Play_SFX_GPE_Telek_G_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_G_In" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="247827927" Language="SFX">
+							<ShortName>SFX_GPE_Telek_G_LP.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_G_LP_0762CC47.wem</Path>
+						</File>
+						<File Id="920077616" Language="SFX">
+							<ShortName>SFX_GPE_Telek_G_In.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_G_In_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2982934029" Name="Play_SFX_GPE_Telek_G_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_G_Out" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="762878522" Language="SFX">
+							<ShortName>SFX_GPE_Telek_G_Out.wav</ShortName>
+							<Path>SFX\SFX_GPE_Telek_G_Out_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="450895549" Name="Play_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Play_SFX_GPE_Telekinesie">
 					<IncludedMemoryFiles>
 						<File Id="175890529" Language="SFX">
 							<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
@@ -449,7 +524,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3636920717" Name="Play_SFX_GPE_Telekinesie_Finish" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Play_SFX_GPE_Telekinesie_Finish">
+				<Event Id="3636920717" Name="Play_SFX_GPE_Telekinesie_Finish" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Play_SFX_GPE_Telekinesie_Finish">
 					<IncludedMemoryFiles>
 						<File Id="355805810" Language="SFX">
 							<ShortName>SFX_Telekinesie_Complete_2.wav</ShortName>
@@ -892,7 +967,7 @@
 				</Event>
 				<Event Id="1131393348" Name="Stop_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_G2" MaxAttenuation="0.000000"/>
 				<Event Id="1131393349" Name="Stop_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_G3" MaxAttenuation="0.000000"/>
-				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\Stop_SFX_GPE_Telekinesie">
+				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Stop_SFX_GPE_Telekinesie">
 					<IncludedMemoryFiles>
 						<File Id="622243301" Language="SFX">
 							<ShortName>SFX_Telekinesie_End__1.wav</ShortName>
@@ -970,6 +1045,10 @@
 				<File Id="70124005" Language="SFX">
 					<ShortName>SFX_LE_Brasero_LP_1.wav</ShortName>
 					<Path>SFX\SFX_LE_Brasero_LP_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="72119939" Language="SFX">
+					<ShortName>SFX_GPE_Telek_DS_In.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_DS_In_D8C07C79.wem</Path>
 				</File>
 				<File Id="75417464" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -1063,6 +1142,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Chimes_DS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem</Path>
 				</File>
+				<File Id="189226895" Language="SFX">
+					<ShortName>SFX_GPE_Telek_F_In.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_F_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="190460748" Language="SFX">
 					<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
 					<Path>SFX\SFX_GPE_Catapult_Grab_CDB37AA1.wem</Path>
@@ -1126,6 +1209,10 @@
 				<File Id="244125585" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="247827927" Language="SFX">
+					<ShortName>SFX_GPE_Telek_G_LP.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_G_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="259028868" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D1_03.wav</ShortName>
@@ -1223,6 +1310,10 @@
 					<ShortName>SFX_Telekinesie_lp.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_lp_D8C07C79.wem</Path>
 				</File>
+				<File Id="384809180" Language="SFX">
+					<ShortName>SFX_GPE_Telek_C_LP.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_C_LP_0762CC47.wem</Path>
+				</File>
 				<File Id="392421036" Language="SFX">
 					<ShortName>SFX_GPE_Zipline_LP.wav</ShortName>
 					<Path>SFX\SFX_GPE_Zipline_LP_D8C07C79.wem</Path>
@@ -1262,6 +1353,10 @@
 				<File Id="433880524" Language="SFX">
 					<ShortName>SFX_Door_Opening.wav</ShortName>
 					<Path>SFX\SFX_Door_Opening_D8C07C79.wem</Path>
+				</File>
+				<File Id="436996472" Language="SFX">
+					<ShortName>SFX_GPE_Telek_F_Out.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_F_Out_D8C07C79.wem</Path>
 				</File>
 				<File Id="442493699" Language="SFX">
 					<ShortName>SFX_LE_Brasero_LP_3.wav</ShortName>
@@ -1322,6 +1417,10 @@
 				<File Id="555465848" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="567258248" Language="SFX">
+					<ShortName>SFX_GPE_Telek_DS_LP.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_DS_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="570281229" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A1_01.wav</ShortName>
@@ -1471,6 +1570,10 @@
 					<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem</Path>
 				</File>
+				<File Id="762878522" Language="SFX">
+					<ShortName>SFX_GPE_Telek_G_Out.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_G_Out_D8C07C79.wem</Path>
+				</File>
 				<File Id="766045658" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_AS3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_AS3_D8C07C79.wem</Path>
@@ -1567,6 +1670,14 @@
 					<ShortName>SFX_GPE_Catapult_Grab_3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Catapult_Grab_3_D8C07C79.wem</Path>
 				</File>
+				<File Id="908900293" Language="SFX">
+					<ShortName>SFX_GPE_Telek_F_LP.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_F_LP_0762CC47.wem</Path>
+				</File>
+				<File Id="920077616" Language="SFX">
+					<ShortName>SFX_GPE_Telek_G_In.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_G_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="941605390" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_C2_D8C07C79.wem</Path>
@@ -1643,6 +1754,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G2_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="1025266737" Language="SFX">
+					<ShortName>SFX_GPE_Telek_DS_Out.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_DS_Out_D8C07C79.wem</Path>
+				</File>
 				<File Id="1029296119" Language="SFX">
 					<ShortName>SFX_Telekinesie_End__3.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_End__3_A5AE5356.wem</Path>
@@ -1663,6 +1778,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="1055177857" Language="SFX">
+					<ShortName>SFX_GPE_Telek_C_Out.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_C_Out_D8C07C79.wem</Path>
+				</File>
 				<File Id="1063009932" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A4_D8C07C79.wem</Path>
@@ -1670,6 +1789,10 @@
 				<File Id="1064125958" Language="SFX">
 					<ShortName>RFX_GPE_Zipline_3.wav</ShortName>
 					<Path>SFX\RFX_GPE_Zipline_3_D8C07C79.wem</Path>
+				</File>
+				<File Id="1068855612" Language="SFX">
+					<ShortName>SFX_GPE_Telek_C_In.wav</ShortName>
+					<Path>SFX\SFX_GPE_Telek_C_In_D8C07C79.wem</Path>
 				</File>
 				<File Id="1070609207" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_01.wav</ShortName>
@@ -1680,7 +1803,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="4259865319">
+		<SoundBank Id="1167860281" Language="SFX" Hash="1531191284">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -1925,6 +2048,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1910747961" Name="Play_Flute_Zelda_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_C_End"/>
+				<Event Id="4197336763" Name="Play_Flute_Zelda_C_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_C_In"/>
+				<Event Id="1464240645" Name="Play_Flute_Zelda_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_DS_End"/>
+				<Event Id="9671503" Name="Play_Flute_Zelda_DS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_DS_In"/>
+				<Event Id="1690700680" Name="Play_Flute_Zelda_F_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_F_End"/>
+				<Event Id="3001275592" Name="Play_Flute_Zelda_F_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_F_In"/>
+				<Event Id="1553966327" Name="Play_Flute_Zelda_FC_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_FC_End"/>
+				<Event Id="955496405" Name="Play_Flute_Zelda_FC_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_FC_In"/>
+				<Event Id="822277173" Name="Play_Flute_Zelda_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_G_End"/>
+				<Event Id="537622495" Name="Play_Flute_Zelda_G_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_G_In"/>
+				<Event Id="2396251546" Name="Play_Flute_Zelda_GDS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_GDS_End"/>
+				<Event Id="1949017518" Name="Play_Flute_Zelda_GDS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_GDS_In"/>
 				<Event Id="3274171620" Name="Play_SFX_GPE_Catapult_Melody_01" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Play_SFX_GPE_Catapult_Melody_01">
 					<IncludedMemoryFiles>
 						<File Id="18721990" Language="SFX">
@@ -2273,6 +2408,10 @@
 					<ShortName>Flt_C_Layer_Start.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="129762258" Language="SFX">
+					<ShortName>Flute_Zelda_F_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_F_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="129789573" Language="SFX">
 					<ShortName>Flt_G_Breath.wav</ShortName>
 					<Path>SFX\Flt_G_Breath_D8C07C79.wem</Path>
@@ -2285,9 +2424,17 @@
 					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int4_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int4_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="182421039" Language="SFX">
+					<ShortName>Flute_Zelda_C_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_C_LP_0762CC47.wem</Path>
+				</File>
 				<File Id="185484287" Language="SFX">
 					<ShortName>Flt_D_Main_End.wav</ShortName>
 					<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="191566402" Language="SFX">
+					<ShortName>Flute_Zelda_FC_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_FC_In_D8C07C79.wem</Path>
 				</File>
 				<File Id="197976420" Language="SFX">
 					<ShortName>Flt_G_Reverb_Loop.wav</ShortName>
@@ -2369,6 +2516,10 @@
 					<ShortName>SFX_GPE_Melody_Note1_Oct4_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note1_Oct4_G_D8C07C79.wem</Path>
 				</File>
+				<File Id="352809164" Language="SFX">
+					<ShortName>Flute_Zelda_F_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_F_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="361188122" Language="SFX">
 					<ShortName>Flt_F_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_F_Main_Start_D8C07C79.wem</Path>
@@ -2425,6 +2576,10 @@
 					<ShortName>Flt_D_Main_Start.wav</ShortName>
 					<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
 				</File>
+				<File Id="482024221" Language="SFX">
+					<ShortName>Flute_Zelda_DS_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_DS_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="501784795" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note3_Int1_End.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note3_Int1_End_D8C07C79.wem</Path>
@@ -2433,13 +2588,29 @@
 					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int3_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int3_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="514455167" Language="SFX">
+					<ShortName>Flute_Zelda_C_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_C_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="514868887" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note2_Oct3_Int1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note2_Oct3_Int1_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="518557617" Language="SFX">
+					<ShortName>Flute_Zelda_GDS_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_GDS_LP_0762CC47.wem</Path>
+				</File>
 				<File Id="538573930" Language="SFX">
 					<ShortName>Flt_C_Reverb_Loop.wav</ShortName>
 					<Path>SFX\Flt_C_Reverb_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="539894319" Language="SFX">
+					<ShortName>Flute_Zelda_FC_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_FC_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="566778711" Language="SFX">
+					<ShortName>Flute_Zelda_G_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_G_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="571855905" Language="SFX">
 					<ShortName>Flute_Melody_Main_G.wav</ShortName>
@@ -2509,9 +2680,17 @@
 					<ShortName>Flt_D_Breath.wav</ShortName>
 					<Path>SFX\Flt_D_Breath_D8C07C79.wem</Path>
 				</File>
+				<File Id="746332259" Language="SFX">
+					<ShortName>Flute_Zelda_C_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_C_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="755490073" Language="SFX">
 					<ShortName>Flt_C_Main_End.wav</ShortName>
 					<Path>SFX\Flt_C_Main_End_596AF383.wem</Path>
+				</File>
+				<File Id="757070256" Language="SFX">
+					<ShortName>Flute_Zelda_F_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_F_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="757102773" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note2_Int2_End.wav</ShortName>
@@ -2561,6 +2740,10 @@
 					<ShortName>Flt_G_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Main_Loop_D8C07C79.wem</Path>
 				</File>
+				<File Id="897731013" Language="SFX">
+					<ShortName>Flute_Zelda_DS_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_DS_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="900247833" Language="SFX">
 					<ShortName>Flt_F_Breath.wav</ShortName>
 					<Path>SFX\Flt_F_Breath_D8C07C79.wem</Path>
@@ -2569,6 +2752,14 @@
 					<ShortName>Flt_G_Layer_Loop.wav</ShortName>
 					<Path>SFX\Flt_G_Layer_Loop_D8C07C79.wem</Path>
 				</File>
+				<File Id="918316623" Language="SFX">
+					<ShortName>Flute_Zelda_G_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_G_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="921625206" Language="SFX">
+					<ShortName>Flute_Zelda_GDS_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_GDS_In_D8C07C79.wem</Path>
+				</File>
 				<File Id="926489955" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note1_Oct3_C.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note1_Oct3_C_D8C07C79.wem</Path>
@@ -2576,6 +2767,10 @@
 				<File Id="927789172" Language="SFX">
 					<ShortName>SFX_GPE_Catapult_Melody_Mono_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_Catapult_Melody_Mono_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="938111213" Language="SFX">
+					<ShortName>Flute_Zelda_DS_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_DS_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="945158233" Language="SFX">
 					<ShortName>Flute_Melody_Magical_F.wav</ShortName>
@@ -2592,6 +2787,14 @@
 				<File Id="983427185" Language="SFX">
 					<ShortName>Flt_D#_Main_Loop.wav</ShortName>
 					<Path>SFX\Flt_D#_Main_Loop_D8C07C79.wem</Path>
+				</File>
+				<File Id="984647928" Language="SFX">
+					<ShortName>Flute_Zelda_G_In.wav</ShortName>
+					<Path>SFX\Flute_Zelda_G_In_D8C07C79.wem</Path>
+				</File>
+				<File Id="994616587" Language="SFX">
+					<ShortName>Flute_Zelda_FC_LP.wav</ShortName>
+					<Path>SFX\Flute_Zelda_FC_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="997477843" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note3_Oct3_Int2_01.wav</ShortName>
@@ -2629,6 +2832,10 @@
 					<ShortName>Flt_D#_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_D#_Layer_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="1045838975" Language="SFX">
+					<ShortName>Flute_Zelda_GDS_End.wav</ShortName>
+					<Path>SFX\Flute_Zelda_GDS_End_D8C07C79.wem</Path>
+				</File>
 				<File Id="1057739009" Language="SFX">
 					<ShortName>Flt_F_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_F_Layer_End_D8C07C79.wem</Path>
@@ -2647,7 +2854,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3552735030">
+		<SoundBank Id="4056684167" Language="SFX" Hash="3133558398">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -2731,15 +2938,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX">
+				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX" MaxAttenuation="1500.000000">
 					<IncludedMemoryFiles>
 						<File Id="370379099" Language="SFX">
 							<ShortName>SFX_Rock_Fall_03.wav</ShortName>
 							<Path>SFX\SFX_Rock_Fall_03_D8C07C79.wem</Path>
-						</File>
-						<File Id="529464495" Language="SFX">
-							<ShortName>SFX_Rock_Fall_02.wav</ShortName>
-							<Path>SFX\SFX_Rock_Fall_02_D8C07C79.wem</Path>
 						</File>
 						<File Id="624963130" Language="SFX">
 							<ShortName>SFX_Rock_Fall_04.wav</ShortName>
@@ -2750,17 +2953,13 @@
 							<Path>SFX\SFX_Rock_Fall_01_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="994146778" Name="Play_Amb_Forest" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Forest">
-					<ReferencedStreamedFiles>
-						<File Id="269732270" Language="SFX">
-							<ShortName>Amb_Wind_Forest_LP.wav</ShortName>
-							<Path>SFX\Amb_Wind_Forest_LP_0762CC47.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-				</Event>
+				<Event Id="994146778" Name="Play_Amb_Forest" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Forest"/>
 				<Event Id="570117905" Name="Play_Amb_Fountain" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fountain" MaxAttenuation="4500.000000"/>
-				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping">
+				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping" MaxAttenuation="8000.000000">
 					<IncludedMemoryFiles>
 						<File Id="193220923" Language="SFX">
 							<ShortName>Amb_Lake_Lapping.wav</ShortName>
@@ -2776,6 +2975,93 @@
 							<Path>SFX\Amb_Cavern_Drip_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1075472767" Name="Play_Insect_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Insect_RFX" MaxAttenuation="3500.000000">
+					<IncludedMemoryFiles>
+						<File Id="79269412" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_05.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="101981967" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="201495576" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_A_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="209477513" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="210186342" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_03.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="367785812" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_04.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="450701258" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="456137261" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_06.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="483271574" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_B_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="532737880" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_A_05.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="689684698" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_10.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="697869690" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_A_06.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem</Path>
+						</File>
+						<File Id="768527910" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="771849626" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Grasshopper_B_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="815945173" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_04.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="884753223" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_14.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem</Path>
+						</File>
+						<File Id="919915685" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_H_05.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="929734054" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_01.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1008890909" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_G_02.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="1023739985" Language="SFX">
+							<ShortName>Amb_RFX_Insect_Cricket_F_07.wav</ShortName>
+							<Path>SFX\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3212184235" Name="Play_MC_FOL_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Jump">
 					<IncludedMemoryFiles>
@@ -5285,9 +5571,6 @@
 				</Event>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
-			<ReferencedStreamedFiles>
-				<File Id="269732270"/>
-			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="2805328" Language="SFX">
 					<ShortName>SFX_MC_Tap_Stone_5.wav</ShortName>
@@ -5381,6 +5664,10 @@
 					<ShortName>SFX_MC_FOL_Land_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Land_05_D8C07C79.wem</Path>
 				</File>
+				<File Id="79269412" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_05.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem</Path>
+				</File>
 				<File Id="82524829" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_01_D8C07C79.wem</Path>
@@ -5396,6 +5683,10 @@
 				<File Id="100799969" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="101981967" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="107389848" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_01.wav</ShortName>
@@ -5517,6 +5808,10 @@
 					<ShortName>SFX_MC_FOL_Os_Pivot_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem</Path>
 				</File>
+				<File Id="201495576" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_A_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="202829114" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_03_D8C07C79.wem</Path>
@@ -5528,6 +5823,14 @@
 				<File Id="209417138" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="209477513" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="210186342" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_03.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="214073481" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_05.wav</ShortName>
@@ -5721,6 +6024,10 @@
 					<ShortName>SFX_MC_FOL_Os_Jump_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="367785812" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_04.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem</Path>
+				</File>
 				<File Id="370379099" Language="SFX">
 					<ShortName>SFX_Rock_Fall_03.wav</ShortName>
 					<Path>SFX\SFX_Rock_Fall_03_D8C07C79.wem</Path>
@@ -5801,9 +6108,17 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem</Path>
 				</File>
+				<File Id="450701258" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="452574099" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="456137261" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_06.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem</Path>
 				</File>
 				<File Id="456865852" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Run_10.wav</ShortName>
@@ -5836,6 +6151,10 @@
 				<File Id="482730767" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_4.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Run_4_D8C07C79.wem</Path>
+				</File>
+				<File Id="483271574" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_B_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="484469866" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Jump_02.wav</ShortName>
@@ -5897,13 +6216,13 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem</Path>
 				</File>
-				<File Id="529464495" Language="SFX">
-					<ShortName>SFX_Rock_Fall_02.wav</ShortName>
-					<Path>SFX\SFX_Rock_Fall_02_D8C07C79.wem</Path>
-				</File>
 				<File Id="529933926" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_9.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Debris_9_D8C07C79.wem</Path>
+				</File>
+				<File Id="532737880" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_A_05.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem</Path>
 				</File>
 				<File Id="532901980" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_02.wav</ShortName>
@@ -6125,6 +6444,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Walk_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_05_D8C07C79.wem</Path>
 				</File>
+				<File Id="689684698" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_10.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem</Path>
+				</File>
 				<File Id="691828620" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Run_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_07_D8C07C79.wem</Path>
@@ -6152,6 +6475,10 @@
 				<File Id="697618590" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Walk_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Walk_05_D8C07C79.wem</Path>
+				</File>
+				<File Id="697869690" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_A_06.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem</Path>
 				</File>
 				<File Id="700779729" Language="SFX">
 					<ShortName>Amb_RFX_Bird_Dead_Sea_Sparrow_01.wav</ShortName>
@@ -6245,9 +6572,17 @@
 					<ShortName>Amb_RFX_Bird_Eurasian_Wren_1.wav</ShortName>
 					<Path>SFX\Amb_RFX_Bird_Eurasian_Wren_1_D8C07C79.wem</Path>
 				</File>
+				<File Id="768527910" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="770496534" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Jump_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="771849626" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Grasshopper_B_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="775724364" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Land_03.wav</ShortName>
@@ -6304,6 +6639,10 @@
 				<File Id="811545887" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="815945173" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_04.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem</Path>
 				</File>
 				<File Id="816118979" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_02.wav</ShortName>
@@ -6365,6 +6704,10 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_09.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem</Path>
 				</File>
+				<File Id="884753223" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_14.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem</Path>
+				</File>
 				<File Id="886300096" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Land_04_D8C07C79.wem</Path>
@@ -6413,6 +6756,10 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Land_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_06_D8C07C79.wem</Path>
 				</File>
+				<File Id="919915685" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_H_05.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem</Path>
+				</File>
 				<File Id="922390643" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Land_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_05_D8C07C79.wem</Path>
@@ -6424,6 +6771,10 @@
 				<File Id="925523541" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_8.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_8_D8C07C79.wem</Path>
+				</File>
+				<File Id="929734054" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_01.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="930417253" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_10.wav</ShortName>
@@ -6521,6 +6872,10 @@
 					<ShortName>SFX_MC_FT_Wood_Run_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="1008890909" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_G_02.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="1013653735" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Scuff_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Scuff_01_D8C07C79.wem</Path>
@@ -6532,6 +6887,10 @@
 				<File Id="1018332804" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_08.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_08_D8C07C79.wem</Path>
+				</File>
+				<File Id="1023739985" Language="SFX">
+					<ShortName>Amb_RFX_Insect_Cricket_F_07.wav</ShortName>
+					<Path>SFX\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem</Path>
 				</File>
 				<File Id="1032751115" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_09.wav</ShortName>
@@ -6604,6 +6963,7 @@
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1227053913" Name="MC_Speed" ObjectPath="\Game Parameters\Default Work Unit\MC_Speed"/>
+				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1167860281" Language="SFX" Hash="1457537951">
+		<SoundBank Id="1167860281" Language="SFX" Hash="1711957949">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -23,18 +23,19 @@
 				<Event Id="4214291931" Name="Flute_F_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_F_Start"/>
 				<Event Id="1634689741" Name="Flute_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_G_End"/>
 				<Event Id="1149564230" Name="Flute_G_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_G_Start"/>
-				<Event Id="1910747961" Name="Play_Flute_Zelda_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_C_End"/>
-				<Event Id="4197336763" Name="Play_Flute_Zelda_C_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_C_In"/>
-				<Event Id="1464240645" Name="Play_Flute_Zelda_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_DS_End"/>
-				<Event Id="9671503" Name="Play_Flute_Zelda_DS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_DS_In"/>
-				<Event Id="1690700680" Name="Play_Flute_Zelda_F_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_F_End"/>
-				<Event Id="3001275592" Name="Play_Flute_Zelda_F_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_F_In"/>
-				<Event Id="1553966327" Name="Play_Flute_Zelda_FC_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_FC_End"/>
-				<Event Id="955496405" Name="Play_Flute_Zelda_FC_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_FC_In"/>
-				<Event Id="822277173" Name="Play_Flute_Zelda_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_G_End"/>
-				<Event Id="537622495" Name="Play_Flute_Zelda_G_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_G_In"/>
-				<Event Id="2396251546" Name="Play_Flute_Zelda_GDS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_GDS_End"/>
-				<Event Id="1949017518" Name="Play_Flute_Zelda_GDS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Play_Flute_Zelda_GDS_In"/>
+				<Event Id="780945643" Name="Play_Flute_Zelda_14" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Event\Play_Flute_Zelda_14"/>
+				<Event Id="1910747961" Name="Play_Flute_Zelda_C_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_C_End"/>
+				<Event Id="4197336763" Name="Play_Flute_Zelda_C_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_C_In"/>
+				<Event Id="1464240645" Name="Play_Flute_Zelda_DS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_DS_End"/>
+				<Event Id="9671503" Name="Play_Flute_Zelda_DS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_DS_In"/>
+				<Event Id="1690700680" Name="Play_Flute_Zelda_F_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_F_End"/>
+				<Event Id="3001275592" Name="Play_Flute_Zelda_F_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_F_In"/>
+				<Event Id="1553966327" Name="Play_Flute_Zelda_FC_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_FC_End"/>
+				<Event Id="955496405" Name="Play_Flute_Zelda_FC_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_FC_In"/>
+				<Event Id="822277173" Name="Play_Flute_Zelda_G_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_G_End"/>
+				<Event Id="537622495" Name="Play_Flute_Zelda_G_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_G_In"/>
+				<Event Id="2396251546" Name="Play_Flute_Zelda_GDS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_End"/>
+				<Event Id="1949017518" Name="Play_Flute_Zelda_GDS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_In"/>
 				<Event Id="3274171620" Name="Play_SFX_GPE_Catapult_Melody_01" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Play_SFX_GPE_Catapult_Melody_01"/>
 				<Event Id="3274171623" Name="Play_SFX_GPE_Catapult_Melody_02" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Melody\Play_SFX_GPE_Catapult_Melody_02"/>
 				<Event Id="448114921" Name="Play_SFX_GPE_Melody_Note1_Oct34_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct34_Int4"/>

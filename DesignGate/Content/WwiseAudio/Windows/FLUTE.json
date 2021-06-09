@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "3340660506",
+    "Hash": "2610087617",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -391,9 +391,251 @@
       ]
      },
      {
+      "Id": "764168061",
+      "Name": "Play_Flute_Zelda_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_01",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "4197336763",
+        "Name": "Play_Flute_Zelda_C_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_In"
+       }
+      ]
+     },
+     {
+      "Id": "764168062",
+      "Name": "Play_Flute_Zelda_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_02",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1910747961",
+        "Name": "Play_Flute_Zelda_C_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_End"
+       },
+       {
+        "Id": "3001275592",
+        "Name": "Play_Flute_Zelda_F_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_F_In"
+       }
+      ]
+     },
+     {
+      "Id": "764168063",
+      "Name": "Play_Flute_Zelda_03",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_03",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "9671503",
+        "Name": "Play_Flute_Zelda_DS_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_In"
+       },
+       {
+        "Id": "1690700680",
+        "Name": "Play_Flute_Zelda_F_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_F_End"
+       }
+      ]
+     },
+     {
+      "Id": "764168056",
+      "Name": "Play_Flute_Zelda_04",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_04",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1464240645",
+        "Name": "Play_Flute_Zelda_DS_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_End"
+       },
+       {
+        "Id": "4197336763",
+        "Name": "Play_Flute_Zelda_C_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_In"
+       }
+      ]
+     },
+     {
+      "Id": "764168057",
+      "Name": "Play_Flute_Zelda_05",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_05",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "537622495",
+        "Name": "Play_Flute_Zelda_G_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_G_In"
+       },
+       {
+        "Id": "1910747961",
+        "Name": "Play_Flute_Zelda_C_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_End"
+       }
+      ]
+     },
+     {
+      "Id": "764168058",
+      "Name": "Play_Flute_Zelda_06",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_06",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "822277173",
+        "Name": "Play_Flute_Zelda_G_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_G_End"
+       },
+       {
+        "Id": "4197336763",
+        "Name": "Play_Flute_Zelda_C_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_In"
+       }
+      ]
+     },
+     {
+      "Id": "764168059",
+      "Name": "Play_Flute_Zelda_07",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_07",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "9671503",
+        "Name": "Play_Flute_Zelda_DS_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_In"
+       },
+       {
+        "Id": "1910747961",
+        "Name": "Play_Flute_Zelda_C_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_End"
+       }
+      ]
+     },
+     {
+      "Id": "764168052",
+      "Name": "Play_Flute_Zelda_08",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_08",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "537622495",
+        "Name": "Play_Flute_Zelda_G_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_G_In"
+       },
+       {
+        "Id": "1464240645",
+        "Name": "Play_Flute_Zelda_DS_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_End"
+       }
+      ]
+     },
+     {
+      "Id": "764168053",
+      "Name": "Play_Flute_Zelda_09",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_09",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "822277173",
+        "Name": "Play_Flute_Zelda_G_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_G_End"
+       },
+       {
+        "Id": "955496405",
+        "Name": "Play_Flute_Zelda_FC_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_FC_In"
+       }
+      ]
+     },
+     {
+      "Id": "780945647",
+      "Name": "Play_Flute_Zelda_10",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_10",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "9671503",
+        "Name": "Play_Flute_Zelda_DS_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_In"
+       },
+       {
+        "Id": "1553966327",
+        "Name": "Play_Flute_Zelda_FC_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_FC_End"
+       }
+      ]
+     },
+     {
+      "Id": "780945646",
+      "Name": "Play_Flute_Zelda_11",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_11",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1464240645",
+        "Name": "Play_Flute_Zelda_DS_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_End"
+       },
+       {
+        "Id": "4197336763",
+        "Name": "Play_Flute_Zelda_C_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_In"
+       }
+      ]
+     },
+     {
+      "Id": "780945645",
+      "Name": "Play_Flute_Zelda_12",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_12",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1910747961",
+        "Name": "Play_Flute_Zelda_C_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_End"
+       },
+       {
+        "Id": "3001275592",
+        "Name": "Play_Flute_Zelda_F_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_F_In"
+       }
+      ]
+     },
+     {
+      "Id": "780945644",
+      "Name": "Play_Flute_Zelda_13",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_13",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1690700680",
+        "Name": "Play_Flute_Zelda_F_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_F_End"
+       },
+       {
+        "Id": "1949017518",
+        "Name": "Play_Flute_Zelda_GDS_In",
+        "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_GDS_In"
+       }
+      ]
+     },
+     {
+      "Id": "780945643",
+      "Name": "Play_Flute_Zelda_14",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_14",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1047992909",
+        "Language": "SFX",
+        "ShortName": "Mus_Zelda_Win.wav",
+        "Path": "SFX\\Mus_Zelda_Win_0762CC47.wem"
+       }
+      ]
+     },
+     {
       "Id": "1910747961",
       "Name": "Play_Flute_Zelda_C_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_C_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_End",
       "IncludedMemoryFiles": [
        {
         "Id": "746332259",
@@ -406,7 +648,7 @@
      {
       "Id": "4197336763",
       "Name": "Play_Flute_Zelda_C_In",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_C_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_C_In",
       "IncludedMemoryFiles": [
        {
         "Id": "182421039",
@@ -425,7 +667,7 @@
      {
       "Id": "1464240645",
       "Name": "Play_Flute_Zelda_DS_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_DS_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_End",
       "IncludedMemoryFiles": [
        {
         "Id": "897731013",
@@ -438,7 +680,7 @@
      {
       "Id": "9671503",
       "Name": "Play_Flute_Zelda_DS_In",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_DS_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_DS_In",
       "IncludedMemoryFiles": [
        {
         "Id": "482024221",
@@ -457,7 +699,7 @@
      {
       "Id": "1690700680",
       "Name": "Play_Flute_Zelda_F_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_F_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_F_End",
       "IncludedMemoryFiles": [
        {
         "Id": "129762258",
@@ -470,7 +712,7 @@
      {
       "Id": "3001275592",
       "Name": "Play_Flute_Zelda_F_In",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_F_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_F_In",
       "IncludedMemoryFiles": [
        {
         "Id": "352809164",
@@ -489,7 +731,7 @@
      {
       "Id": "1553966327",
       "Name": "Play_Flute_Zelda_FC_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_FC_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_FC_End",
       "IncludedMemoryFiles": [
        {
         "Id": "539894319",
@@ -502,7 +744,7 @@
      {
       "Id": "955496405",
       "Name": "Play_Flute_Zelda_FC_In",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_FC_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_FC_In",
       "IncludedMemoryFiles": [
        {
         "Id": "191566402",
@@ -521,7 +763,7 @@
      {
       "Id": "822277173",
       "Name": "Play_Flute_Zelda_G_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_G_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_G_End",
       "IncludedMemoryFiles": [
        {
         "Id": "918316623",
@@ -534,7 +776,7 @@
      {
       "Id": "537622495",
       "Name": "Play_Flute_Zelda_G_In",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_G_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_G_In",
       "IncludedMemoryFiles": [
        {
         "Id": "566778711",
@@ -553,7 +795,7 @@
      {
       "Id": "2396251546",
       "Name": "Play_Flute_Zelda_GDS_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_GDS_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_GDS_End",
       "IncludedMemoryFiles": [
        {
         "Id": "1045838975",
@@ -566,7 +808,7 @@
      {
       "Id": "1949017518",
       "Name": "Play_Flute_Zelda_GDS_In",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Play_Flute_Zelda_GDS_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_GDS_In",
       "IncludedMemoryFiles": [
        {
         "Id": "518557617",

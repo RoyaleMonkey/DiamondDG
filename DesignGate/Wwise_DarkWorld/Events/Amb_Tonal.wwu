@@ -9,14 +9,30 @@
 			<ChildrenList>
 				<Event Name="Play_DarkWorld_Zelda_Pad" ID="{07A99D0E-AB00-4076-8C36-DD0E3C00C64D}">
 					<ChildrenList>
-						<Action Name="" ID="{F900026D-65BB-4F6D-9412-F60130B737A6}" ShortID="354410007">
+						<Action Name="" ID="{5F861457-C2D9-40F1-A510-06570EA19825}" ShortID="693829452">
 							<PropertyList>
 								<Property Name="FadeInCurve" Type="int16" Value="7"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Zelda_Pad" ID="{D1546972-2C03-4C18-A0DF-4CC978961B8E}"/>
+									<ObjectRef Name="AmbT_Pad_Zelda" ID="{2A627A65-9416-4D8B-A2D3-EB235378765F}" WorkUnitID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_DarkWorld_Zelda_Pad" ID="{A9A477EE-C06D-4343-8EBF-658BF4740D62}">
+					<ChildrenList>
+						<Action Name="" ID="{DA12A1F8-51E0-4F96-8A6B-AE7127911679}" ShortID="113193834">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbT_Pad_Zelda" ID="{2A627A65-9416-4D8B-A2D3-EB235378765F}" WorkUnitID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

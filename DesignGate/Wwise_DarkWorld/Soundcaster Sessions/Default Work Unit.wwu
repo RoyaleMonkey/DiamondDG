@@ -142,6 +142,51 @@
 						<CurrentSwitchRef Name="Jump" ID="{1CE1BF98-2832-419E-847E-B6EFA0044C62}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="SC_Mus" ID="{5C38D50F-7D76-4B33-A0A6-71C16A105BD0}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Mus_Waterfall" ID="{662981B5-155D-4EC3-B657-150998E4796D}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{CF86ACDA-065D-4621-9788-1BE866EF64CF}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{AC7B4B71-4F90-47FC-B913-4654D108F56F}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MC_Speed" ID="{D0915ADA-C332-48B2-B976-B0F0003A8577}"/>
+							<Value>8.33438055082695E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{31A69514-E96D-4A71-9706-330088372C3E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SoundEffectVolume" ID="{476CA907-FF94-4D5B-93AF-5F996827F6EF}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Waterfall_In_2nd" ID="{F060D49C-19A6-462B-AA7D-715B751C3474}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{2F403FEB-15CE-442C-A6BA-006C2BDECC7E}"/>
+						<CurrentSwitchRef Name="Jump" ID="{1CE1BF98-2832-419E-847E-B6EFA0044C62}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

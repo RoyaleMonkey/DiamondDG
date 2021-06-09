@@ -1797,7 +1797,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="3009241356">
+		<SoundBank Id="1167860281" Language="SFX" Hash="1457537951">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -2378,7 +2378,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4078549471">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2863566115">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -2389,6 +2389,11 @@
 				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="1989944038">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="4056684167" Language="SFX" Hash="4066355332">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>

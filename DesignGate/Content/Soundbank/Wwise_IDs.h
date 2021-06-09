@@ -147,6 +147,25 @@ namespace AK
         static const AkUniqueID STOP_SFX_GPE_ZIPLINE_BLD = 3367732063U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace MUS_WATERFALL
+        {
+            static const AkUniqueID GROUP = 1584273341U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WATERFALL_2ND_3RD = 2164018916U;
+                static const AkUniqueID WATERFALL_3RD_OUT = 3736453184U;
+                static const AkUniqueID WATERFALL_IN = 2536640561U;
+                static const AkUniqueID WATERFALL_IN_2ND = 679276912U;
+                static const AkUniqueID WATERFALL_OUT = 701165264U;
+            } // namespace STATE
+        } // namespace MUS_WATERFALL
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace MATERIAL
@@ -196,6 +215,7 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID FLUTE = 1167860281U;
         static const AkUniqueID MASTER = 4056684167U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 

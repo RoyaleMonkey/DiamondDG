@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{E5482311-EA18-40DD-A277-B2AA53354992}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Music" ID="{87CE6147-FC28-4A11-8838-1E9E26EE2DC1}">
-					<ChildrenList>
-						<Action Name="" ID="{92A55B46-1BAB-45D5-9B40-5B76797A67BE}" ShortID="257093476">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="AMB" ID="{B339DFFE-AD80-4B80-9413-ABEAE59F7249}" ShortID="249481702">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
@@ -220,6 +209,18 @@
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="Amb_Tonal" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{220FA83D-3B11-472C-9A3F-759F19B9DDB0}" PersistMode="Reference"/>
+				<Event Name="Play_Music" ID="{87CE6147-FC28-4A11-8838-1E9E26EE2DC1}">
+					<ChildrenList>
+						<Action Name="" ID="{92A55B46-1BAB-45D5-9B40-5B76797A67BE}" ShortID="257093476">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -801,6 +801,74 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<MusicSegment Name="Mus_Zelda_Win" ID="{E772CD89-66B3-4E7A-89C5-C82DF27EAB15}" ShortID="714536633">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="57857.1458333333"/>
+						<Property Name="Tempo" Type="Real64" Value="112"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Mus_Zelda_Win" ID="{4A89A9CC-625A-4BE7-BDA4-7CA4577BBE32}" ShortID="511489745">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mus_Zelda_Win" ID="{E3F6FF3F-79DC-496C-A3B9-ED7D03F076E9}">
+									<Language>SFX</Language>
+									<AudioFile>Mus_Zelda_Win.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1047992909"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DE5AF9EE-296B-4C5E-970F-84A2D682CCD3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{D1760EC1-4A87-4319-BB1A-B35C12B2CCC1}">
+									<ClipList>
+										<MusicClip Name="Mus_Zelda_Win" ID="{89EE7F2D-86C7-4798-84AD-C183F30B25C0}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="57857.1458333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Mus_Zelda_Win" ID="{E3F6FF3F-79DC-496C-A3B9-ED7D03F076E9}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{61956DE9-5589-475A-9219-6663001CB801}"/>
+						<MusicCue Name="Exit Cue" ID="{93BAC7D2-CCB9-4C0D-A9D9-B8B152037F7A}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="57857.1458333333"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

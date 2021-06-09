@@ -821,6 +821,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Mus_Zelda_Win" ID="{4A89A9CC-625A-4BE7-BDA4-7CA4577BBE32}" ShortID="511489745">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>

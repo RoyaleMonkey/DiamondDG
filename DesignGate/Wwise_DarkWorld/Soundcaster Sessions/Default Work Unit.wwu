@@ -132,8 +132,28 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{AC7B4B71-4F90-47FC-B913-4654D108F56F}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="MC_Speed" ID="{D0915ADA-C332-48B2-B976-B0F0003A8577}"/>
 							<Value>8.33438055082695E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{31A69514-E96D-4A71-9706-330088372C3E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SoundEffectVolume" ID="{476CA907-FF94-4D5B-93AF-5F996827F6EF}"/>
+							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
@@ -157,6 +177,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_DarkWorld_Zelda_Pad" ID="{07A99D0E-AB00-4076-8C36-DD0E3C00C64D}" WorkUnitID="{7F4CAAA8-255D-499C-8817-85C87460AED2}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Flute_Zelda_02" ID="{85648A92-09F4-48AC-B962-CCD3E181CBAD}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="1" Y="1"/>
 						</Module>
@@ -165,12 +189,20 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Volume_AmbT_Pad_Zelda" ID="{86C763AE-5831-4F64-8B7A-BCBE4EF32566}" WorkUnitID="{7F4CAAA8-255D-499C-8817-85C87460AED2}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Flute_Zelda_03" ID="{ABB0A0FF-4065-4976-965D-3BA1262E2C48}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Flute_Zelda_10" ID="{7E20A42F-75F5-428E-807F-2BF0A8C27AAD}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_DarkWorld_Zelda_Pad" ID="{A9A477EE-C06D-4343-8EBF-658BF4740D62}" WorkUnitID="{7F4CAAA8-255D-499C-8817-85C87460AED2}"/>
+							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Flute_Zelda_04" ID="{3CC43CAF-B03B-4237-A6C5-DFF7A3BB80C4}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
@@ -201,8 +233,12 @@
 							<Position X="6" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Flute_Zelda_14" ID="{78C8AF37-4536-4F69-9C69-94C97379EED4}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<ObjectRef Name="Play_Flute_Zelda_14" ID="{14553F74-ABC7-4480-BAFA-252017C34160}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="6" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flute_Zelda_End" ID="{78C8AF37-4536-4F69-9C69-94C97379EED4}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+							<Position X="6" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

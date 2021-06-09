@@ -15,7 +15,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1185296996",
+    "Hash": "3848807636",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -386,6 +386,12 @@
       "Id": "3181251971",
       "Name": "Stop_DarkWorld_Zelda_Pad",
       "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Stop_DarkWorld_Zelda_Pad",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "1977485633",
+      "Name": "Volume_AmbT_Pad_Zelda",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Volume_AmbT_Pad_Zelda",
       "MaxAttenuation": "0.000000"
      }
     ],

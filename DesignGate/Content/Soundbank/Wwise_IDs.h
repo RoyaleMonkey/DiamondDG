@@ -27,9 +27,13 @@ namespace AK
         static const AkUniqueID PLAY_AMB_CAVERN = 3686445418U;
         static const AkUniqueID PLAY_AMB_CAVERN_LEVEL = 1521220657U;
         static const AkUniqueID PLAY_AMB_FALL_DIRT_RFX = 172812343U;
+        static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
+        static const AkUniqueID PLAY_AMB_FOUNTAIN = 570117905U;
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
         static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
+        static const AkUniqueID PLAY_AMB_WIND_VOID = 305604352U;
+        static const AkUniqueID PLAY_DARKWORLD_ZELDA_PAD = 2904809513U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_C_END = 1910747961U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_C_IN = 4197336763U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_DS_END = 1464240645U;
@@ -52,12 +56,14 @@ namespace AK
         static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_SFX_DOOR = 598048154U;
         static const AkUniqueID PLAY_SFX_GPE_BUMPER = 1429665634U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULT_MELODY_01 = 3274171620U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULT_MELODY_02 = 3274171623U;
-        static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_GRAB = 676264313U;
-        static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_WOOSH = 58267825U;
+        static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_END = 3513385354U;
+        static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_LOOP = 811517645U;
+        static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_START = 2138146425U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_END = 1431744796U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_START = 1728506047U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_START = 2168219807U;
@@ -128,6 +134,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_LE_BASERO_LP = 30825167U;
         static const AkUniqueID PLAY_SFX_WATERFALL_BIG = 2590190883U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
+        static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
+        static const AkUniqueID STOP_SFX_GPE_CATAPULTE_LOOP = 3102446207U;
         static const AkUniqueID STOP_SFX_GPE_GEYSER_END = 1587068986U;
         static const AkUniqueID STOP_SFX_GPE_STELE_A2 = 1164948654U;
         static const AkUniqueID STOP_SFX_GPE_STELE_A3 = 1164948655U;
@@ -146,6 +154,25 @@ namespace AK
         static const AkUniqueID STOP_SFX_GPE_TELEKINESIE = 437964639U;
         static const AkUniqueID STOP_SFX_GPE_ZIPLINE_BLD = 3367732063U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUS_WATERFALL
+        {
+            static const AkUniqueID GROUP = 1584273341U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WATERFALL_2ND_3RD = 2164018916U;
+                static const AkUniqueID WATERFALL_3RD_OUT = 3736453184U;
+                static const AkUniqueID WATERFALL_IN = 2536640561U;
+                static const AkUniqueID WATERFALL_IN_2ND = 679276912U;
+                static const AkUniqueID WATERFALL_OUT = 701165264U;
+            } // namespace STATE
+        } // namespace MUS_WATERFALL
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -196,6 +223,7 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID FLUTE = 1167860281U;
         static const AkUniqueID MASTER = 4056684167U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 

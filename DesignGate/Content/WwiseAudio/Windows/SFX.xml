@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3353283649">
+		<SoundBank Id="393239870" Language="SFX" Hash="3825942215">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -57,31 +57,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="676264313" Name="Play_SFX_GPE_Catapulte_Grab" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_Grab">
+				<Event Id="3513385354" Name="Play_SFX_GPE_Catapulte_End" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_End">
 					<IncludedMemoryFiles>
-						<File Id="190460748" Language="SFX">
-							<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
-							<Path>SFX\SFX_GPE_Catapult_Grab_CDB37AA1.wem</Path>
-						</File>
-						<File Id="239012987" Language="SFX">
-							<ShortName>SFX_GPE_Catapult_Grab_2.wav</ShortName>
-							<Path>SFX\SFX_GPE_Catapult_Grab_2_D8C07C79.wem</Path>
-						</File>
-						<File Id="907229202" Language="SFX">
-							<ShortName>SFX_GPE_Catapult_Grab_3.wav</ShortName>
-							<Path>SFX\SFX_GPE_Catapult_Grab_3_D8C07C79.wem</Path>
+						<File Id="1021947564" Language="SFX">
+							<ShortName>SFX_Catapulte_End.wav</ShortName>
+							<Path>SFX\SFX_Catapulte_End_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="58267825" Name="Play_SFX_GPE_Catapulte_Woosh" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_Woosh">
+				<Event Id="811517645" Name="Play_SFX_GPE_Catapulte_Loop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_Loop">
 					<IncludedMemoryFiles>
-						<File Id="101554022" Language="SFX">
-							<ShortName>SFX_GPE_Catapult_Woosh.wav</ShortName>
-							<Path>SFX\SFX_GPE_Catapult_Woosh_D8C07C79.wem</Path>
+						<File Id="197235975" Language="SFX">
+							<ShortName>SFX_Catapulte_LP.wav</ShortName>
+							<Path>SFX\SFX_Catapulte_LP_D8C07C79.wem</Path>
 						</File>
-						<File Id="401599658" Language="SFX">
-							<ShortName>SFX_GPE_Catapult_Woosh_2.wav</ShortName>
-							<Path>SFX\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem</Path>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2138146425" Name="Play_SFX_GPE_Catapulte_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_Start">
+					<IncludedMemoryFiles>
+						<File Id="957060995" Language="SFX">
+							<ShortName>SFX_Catapulte_Start.wav</ShortName>
+							<Path>SFX\SFX_Catapulte_Start_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -927,6 +923,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3102446207" Name="Stop_SFX_GPE_Catapulte_Loop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Stop_SFX_GPE_Catapulte_Loop" MaxAttenuation="0.000000"/>
 				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="8000.000000">
 					<IncludedMemoryFiles>
 						<File Id="669892981" Language="SFX">
@@ -1075,10 +1072,6 @@
 					<ShortName>SFX_GPE_PlantPlatorm_Open_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem</Path>
 				</File>
-				<File Id="101554022" Language="SFX">
-					<ShortName>SFX_GPE_Catapult_Woosh.wav</ShortName>
-					<Path>SFX\SFX_GPE_Catapult_Woosh_D8C07C79.wem</Path>
-				</File>
 				<File Id="106982745" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem</Path>
@@ -1143,10 +1136,6 @@
 					<ShortName>SFX_GPE_Telek_F_In.wav</ShortName>
 					<Path>SFX\SFX_GPE_Telek_F_In_D8C07C79.wem</Path>
 				</File>
-				<File Id="190460748" Language="SFX">
-					<ShortName>SFX_GPE_Catapult_Grab.wav</ShortName>
-					<Path>SFX\SFX_GPE_Catapult_Grab_CDB37AA1.wem</Path>
-				</File>
 				<File Id="192162486" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
@@ -1154,6 +1143,10 @@
 				<File Id="197037388" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
+				</File>
+				<File Id="197235975" Language="SFX">
+					<ShortName>SFX_Catapulte_LP.wav</ShortName>
+					<Path>SFX\SFX_Catapulte_LP_D8C07C79.wem</Path>
 				</File>
 				<File Id="201527366" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G2_02.wav</ShortName>
@@ -1186,10 +1179,6 @@
 				<File Id="236031477" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_3.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem</Path>
-				</File>
-				<File Id="239012987" Language="SFX">
-					<ShortName>SFX_GPE_Catapult_Grab_2.wav</ShortName>
-					<Path>SFX\SFX_GPE_Catapult_Grab_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="239111183" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_03.wav</ShortName>
@@ -1318,10 +1307,6 @@
 				<File Id="395040096" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem</Path>
-				</File>
-				<File Id="401599658" Language="SFX">
-					<ShortName>SFX_GPE_Catapult_Woosh_2.wav</ShortName>
-					<Path>SFX\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="402286783" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_02.wav</ShortName>
@@ -1663,10 +1648,6 @@
 					<ShortName>SFX_GPE_ToyPlant_Chimes_G1.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem</Path>
 				</File>
-				<File Id="907229202" Language="SFX">
-					<ShortName>SFX_GPE_Catapult_Grab_3.wav</ShortName>
-					<Path>SFX\SFX_GPE_Catapult_Grab_3_D8C07C79.wem</Path>
-				</File>
 				<File Id="908900293" Language="SFX">
 					<ShortName>SFX_GPE_Telek_F_LP.wav</ShortName>
 					<Path>SFX\SFX_GPE_Telek_F_LP_0762CC47.wem</Path>
@@ -1698,6 +1679,10 @@
 				<File Id="955535201" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="957060995" Language="SFX">
+					<ShortName>SFX_Catapulte_Start.wav</ShortName>
+					<Path>SFX\SFX_Catapulte_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="957458129" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D3_03.wav</ShortName>
@@ -1750,6 +1735,10 @@
 				<File Id="1016339075" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G2_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="1021947564" Language="SFX">
+					<ShortName>SFX_Catapulte_End.wav</ShortName>
+					<Path>SFX\SFX_Catapulte_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="1025266737" Language="SFX">
 					<ShortName>SFX_GPE_Telek_DS_Out.wav</ShortName>

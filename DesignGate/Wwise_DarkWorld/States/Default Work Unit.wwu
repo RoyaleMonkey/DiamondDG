@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}" SchemaVersion="97">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Mus_Waterfall" ID="{78FE6DF4-4F9C-4515-AF2A-656EC6905ED4}">
+					<ChildrenList>
+						<State Name="None" ID="{033338F8-2BFB-4B59-B2AF-2E8EB85C6AE4}"/>
+						<State Name="Waterfall_In" ID="{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}"/>
+						<State Name="Waterfall_In_2nd" ID="{F060D49C-19A6-462B-AA7D-715B751C3474}"/>
+						<State Name="Waterfall_2nd_3rd" ID="{0CF251E6-DAD5-4769-9AB3-105921E02D3F}"/>
+						<State Name="Waterfall_3rd_Out" ID="{F5BC686A-1E83-4052-8CE3-1C4525C1A72A}"/>
+						<State Name="Waterfall_Out" ID="{0DD4E9D1-1BCF-4C57-97EA-529C39F39623}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

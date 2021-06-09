@@ -20,6 +20,33 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4531057B-AA6D-4DC9-954A-6C642F4E377A}" ShortID="468947338">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbT_Pad_Zelda" ID="{2A627A65-9416-4D8B-A2D3-EB235378765F}" WorkUnitID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CAFFF2B7-7781-429F-B0F6-488B66955362}" ShortID="243875048">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbT_Pad_Zelda" ID="{2A627A65-9416-4D8B-A2D3-EB235378765F}" WorkUnitID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Stop_DarkWorld_Zelda_Pad" ID="{A9A477EE-C06D-4343-8EBF-658BF4740D62}">
@@ -29,6 +56,40 @@
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbT_Pad_Zelda" ID="{2A627A65-9416-4D8B-A2D3-EB235378765F}" WorkUnitID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Volume_AmbT_Pad_Zelda" ID="{86C763AE-5831-4F64-8B7A-BCBE4EF32566}">
+					<ChildrenList>
+						<Action Name="" ID="{30D4F401-F427-4003-889E-93D8A48F7541}" ShortID="65060005">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbT_Pad_Zelda" ID="{2A627A65-9416-4D8B-A2D3-EB235378765F}" WorkUnitID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{117F8A96-C67C-450E-845E-914BE4CCC928}" ShortID="635507527">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Lowpass" Type="int16" Value="41"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-10"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}" SchemaVersion="97" RootDocumentID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}">
+	<AudioObjects>
+		<WorkUnit Name="Zelda" ID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}" OwnerID="{E775DBB7-491A-4EB3-9C55-9996316A50E2}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Flute_Zelda" ID="{A5A21D19-AA34-4082-B814-82A98B637155}" ShortID="100071788">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Flute_Zelda_C_End" ID="{04969668-4D86-4221-BC6B-325820FF57B8}" ShortID="766625180">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_C_End" ID="{F58A32DF-0391-4B72-B015-6B8626DF77D8}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_C_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="746332259"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_C_End" ID="{F58A32DF-0391-4B72-B015-6B8626DF77D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_C_In" ID="{72503377-3C0F-480D-BE33-705C90E791D5}" ShortID="176259418">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_C_In" ID="{AA4672AA-FFDD-424C-B166-DF9FAFE235F4}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_C_In.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="514455167"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_C_In" ID="{AA4672AA-FFDD-424C-B166-DF9FAFE235F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_C_LP" ID="{82AD00F4-4C78-4B40-A283-616EF3041F9E}" ShortID="432874474">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_C_LP" ID="{9AA84EB2-2929-42C3-A9F3-BC825D0CEDD2}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_C_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="182421039"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_C_LP" ID="{9AA84EB2-2929-42C3-A9F3-BC825D0CEDD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_DS_End" ID="{10C63FD3-3079-4150-865E-603E32ABCEEC}" ShortID="996856674">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_DS_End" ID="{4D11AECF-0696-4685-BF35-902EF8ED2DF6}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_DS_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="897731013"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_DS_End" ID="{4D11AECF-0696-4685-BF35-902EF8ED2DF6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_DS_In" ID="{0DBC0B6B-3A65-497C-9021-C35B8F4241B5}" ShortID="247699945">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_DS_In" ID="{5AE6DBD1-2E23-426D-9C28-F45038343A78}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_DS_In.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="482024221"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_DS_In" ID="{5AE6DBD1-2E23-426D-9C28-F45038343A78}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_DS_LP" ID="{2D7AAD0C-9393-4A53-A981-EBE40E19D9CC}" ShortID="664341967">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_DS_LP" ID="{42AA5F02-F814-48BE-BD34-A709B3005400}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_DS_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="938111213"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_DS_LP" ID="{42AA5F02-F814-48BE-BD34-A709B3005400}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_F_End" ID="{A0F1F92A-E5A7-4958-8FA3-96D7CF91655B}" ShortID="144141877">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_F_End" ID="{DDC9751D-1B13-4E20-B163-1ED816D29D38}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_F_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="129762258"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_F_End" ID="{DDC9751D-1B13-4E20-B163-1ED816D29D38}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_F_In" ID="{97623690-17F7-4DAC-903A-A743A7D30669}" ShortID="205058585">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_F_In" ID="{8A5E96D1-6D1D-463F-B32C-63EE29B12F38}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_F_In.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="352809164"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_F_In" ID="{8A5E96D1-6D1D-463F-B32C-63EE29B12F38}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_F_LP" ID="{F1FB097B-F790-4BE3-8AB5-04B3A780E52A}" ShortID="159498230">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_F_LP" ID="{B59A450F-BB53-4C5B-A72D-CE2D1865A500}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_F_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="757070256"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_F_LP" ID="{B59A450F-BB53-4C5B-A72D-CE2D1865A500}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_FC_End" ID="{1E52A829-9C80-42D8-A2D9-AD03349ECBF0}" ShortID="583594694">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_FC_End" ID="{962EC24B-A3C4-4498-B49D-36BD947C540D}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_FC_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="539894319"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_FC_End" ID="{962EC24B-A3C4-4498-B49D-36BD947C540D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_FC_In" ID="{A29AEEE4-BDD8-4993-A56C-BD00EEC6F5CE}" ShortID="619015657">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_FC_In" ID="{C9063906-91B1-45FE-AAF4-3C3214F4E24C}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_FC_In.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191566402"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_FC_In" ID="{C9063906-91B1-45FE-AAF4-3C3214F4E24C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_FC_LP" ID="{447FA6F0-B701-45FC-BBBA-CF9D5BE406F0}" ShortID="1063769426">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_FC_LP" ID="{B856A7A8-7B7C-4516-BFAB-DDE314BC65A2}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_FC_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994616587"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_FC_LP" ID="{B856A7A8-7B7C-4516-BFAB-DDE314BC65A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_G_End" ID="{A84810AD-C3D6-46B2-B841-4B96808CDF7E}" ShortID="977056246">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_G_End" ID="{4D509B97-9C68-40F4-A6D0-F0C256FC57C3}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_G_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="918316623"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_G_End" ID="{4D509B97-9C68-40F4-A6D0-F0C256FC57C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_G_In" ID="{2CFB7633-3E09-4B2B-899F-47F6081A1BE4}" ShortID="1015390880">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_G_In" ID="{B8D06D6F-8B2E-43E5-A9FB-B56D2F9B43A6}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_G_In.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="984647928"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_G_In" ID="{B8D06D6F-8B2E-43E5-A9FB-B56D2F9B43A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_G_LP" ID="{45382655-1172-4943-B081-0F61CDC692C5}" ShortID="446273259">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_G_LP" ID="{56983347-C2F2-4022-A75D-2F85B49FD610}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_G_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="566778711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_G_LP" ID="{56983347-C2F2-4022-A75D-2F85B49FD610}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_GDS_End" ID="{96A4CFAB-4FBF-46CB-B42B-C5CA6EDEE449}" ShortID="790637323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_GDS_End" ID="{E346FEFA-3595-4323-A31B-43A5C25B467C}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_GDS_End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1045838975"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_GDS_End" ID="{E346FEFA-3595-4323-A31B-43A5C25B467C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_GDS_In" ID="{C60D13F4-9BCD-4AE2-8EF4-76CDEDC436C6}" ShortID="142873174">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_GDS_In" ID="{401FD326-E558-46BB-ADF8-9BD4B826B9C5}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_GDS_In.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="921625206"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_GDS_In" ID="{401FD326-E558-46BB-ADF8-9BD4B826B9C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flute_Zelda_GDS_LP" ID="{98641474-53FC-4C99-8117-7E21FB0D0F87}" ShortID="587067078">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flute_Zelda_GDS_LP" ID="{5482ED59-FE57-4668-93BE-893AFBE44731}">
+									<Language>SFX</Language>
+									<AudioFile>Flute_Zelda_GDS_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="518557617"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flute_Zelda_GDS_LP" ID="{5482ED59-FE57-4668-93BE-893AFBE44731}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

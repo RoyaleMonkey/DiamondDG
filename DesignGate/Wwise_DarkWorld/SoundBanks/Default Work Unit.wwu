@@ -59,6 +59,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="ZELDA" ID="{1B0D253E-B7B1-4EF7-A739-9CDF2F3759F0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Zelda" ID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mus_Zelda_Win" ID="{E772CD89-66B3-4E7A-89C5-C82DF27EAB15}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

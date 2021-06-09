@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -25,7 +25,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1186364837",
+    "Hash": "1846020136",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -89,46 +89,41 @@
       ]
      },
      {
-      "Id": "676264313",
-      "Name": "Play_SFX_GPE_Catapulte_Grab",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Play_SFX_GPE_Catapulte_Grab",
+      "Id": "3513385354",
+      "Name": "Play_SFX_GPE_Catapulte_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Play_SFX_GPE_Catapulte_End",
       "IncludedMemoryFiles": [
        {
-        "Id": "190460748",
+        "Id": "1021947564",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Grab.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Grab_CDB37AA1.wem"
-       },
-       {
-        "Id": "239012987",
-        "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Grab_2.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Grab_2_D8C07C79.wem"
-       },
-       {
-        "Id": "907229202",
-        "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Grab_3.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Grab_3_D8C07C79.wem"
+        "ShortName": "SFX_Catapulte_End.wav",
+        "Path": "SFX\\SFX_Catapulte_End_D8C07C79.wem"
        }
       ]
      },
      {
-      "Id": "58267825",
-      "Name": "Play_SFX_GPE_Catapulte_Woosh",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Play_SFX_GPE_Catapulte_Woosh",
+      "Id": "811517645",
+      "Name": "Play_SFX_GPE_Catapulte_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Play_SFX_GPE_Catapulte_Loop",
       "IncludedMemoryFiles": [
        {
-        "Id": "101554022",
+        "Id": "197235975",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Woosh.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Woosh_D8C07C79.wem"
-       },
+        "ShortName": "SFX_Catapulte_LP.wav",
+        "Path": "SFX\\SFX_Catapulte_LP_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2138146425",
+      "Name": "Play_SFX_GPE_Catapulte_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Play_SFX_GPE_Catapulte_Start",
+      "IncludedMemoryFiles": [
        {
-        "Id": "401599658",
+        "Id": "957060995",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Woosh_2.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem"
+        "ShortName": "SFX_Catapulte_Start.wav",
+        "Path": "SFX\\SFX_Catapulte_Start_D8C07C79.wem"
        }
       ]
      },
@@ -1482,6 +1477,12 @@
       ]
      },
      {
+      "Id": "3102446207",
+      "Name": "Stop_SFX_GPE_Catapulte_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Stop_SFX_GPE_Catapulte_Loop",
+      "MaxAttenuation": "0.000000"
+     },
+     {
       "Id": "1587068986",
       "Name": "Stop_SFX_GPE_Geyser_end",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Geyser\\Stop_SFX_GPE_Geyser_end",
@@ -1771,12 +1772,6 @@
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_1_D8C07C79.wem"
      },
      {
-      "Id": "101554022",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Woosh.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Woosh_D8C07C79.wem"
-     },
-     {
       "Id": "106982745",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_A3_03.wav",
@@ -1873,12 +1868,6 @@
       "Path": "SFX\\SFX_GPE_Telek_F_In_D8C07C79.wem"
      },
      {
-      "Id": "190460748",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Grab.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Grab_CDB37AA1.wem"
-     },
-     {
       "Id": "192162486",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_AS2_02.wav",
@@ -1889,6 +1878,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_AS2.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem"
+     },
+     {
+      "Id": "197235975",
+      "Language": "SFX",
+      "ShortName": "SFX_Catapulte_LP.wav",
+      "Path": "SFX\\SFX_Catapulte_LP_D8C07C79.wem"
      },
      {
       "Id": "201527366",
@@ -1937,12 +1932,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_3.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_3_D8C07C79.wem"
-     },
-     {
-      "Id": "239012987",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Grab_2.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Grab_2_D8C07C79.wem"
      },
      {
       "Id": "239111183",
@@ -2135,12 +2124,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_DS1_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem"
-     },
-     {
-      "Id": "401599658",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Woosh_2.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Woosh_2_D8C07C79.wem"
      },
      {
       "Id": "402286783",
@@ -2653,12 +2636,6 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem"
      },
      {
-      "Id": "907229202",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Grab_3.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Grab_3_D8C07C79.wem"
-     },
-     {
       "Id": "908900293",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Telek_F_LP.wav",
@@ -2705,6 +2682,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D2_02_D8C07C79.wem"
+     },
+     {
+      "Id": "957060995",
+      "Language": "SFX",
+      "ShortName": "SFX_Catapulte_Start.wav",
+      "Path": "SFX\\SFX_Catapulte_Start_D8C07C79.wem"
      },
      {
       "Id": "957458129",
@@ -2785,6 +2768,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem"
      },
      {
+      "Id": "1021947564",
+      "Language": "SFX",
+      "ShortName": "SFX_Catapulte_End.wav",
+      "Path": "SFX\\SFX_Catapulte_End_D8C07C79.wem"
+     },
+     {
       "Id": "1025266737",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Telek_DS_Out.wav",
@@ -2862,7 +2851,6 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "3009241356",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -3914,7 +3902,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "4078549471",
+    "Hash": "2863566115",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -3939,9 +3927,16 @@
     ]
    },
    {
+    "Id": "3991942870",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
+    "ShortName": "MUSIC",
+    "Path": "MUSIC.bnk"
+   },
+   {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "4066355332",
+    "Hash": "1012908664",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -4113,6 +4108,20 @@
       "Id": "3619535171",
       "Name": "Play_Amb_Water_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Water_RFX"
+     },
+     {
+      "Id": "305604352",
+      "Name": "Play_Amb_Wind_Void",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Void",
+      "MaxAttenuation": "3500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "735267049",
+        "Language": "SFX",
+        "ShortName": "AMB_Cavern_void_LP.wav",
+        "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
+       }
+      ]
      },
      {
       "Id": "1075472767",
@@ -5723,6 +5732,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_06.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_06_D8C07C79.wem"
+     },
+     {
+      "Id": "735267049",
+      "Language": "SFX",
+      "ShortName": "AMB_Cavern_void_LP.wav",
+      "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
      },
      {
       "Id": "737738012",

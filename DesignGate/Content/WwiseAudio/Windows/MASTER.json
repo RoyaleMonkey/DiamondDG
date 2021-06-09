@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "3133558398",
+    "Hash": "3714354650",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -222,6 +222,26 @@
         "Path": "SFX\\Amb_Cavern_Drip_D8C07C79.wem"
        }
       ]
+     },
+     {
+      "Id": "305604352",
+      "Name": "Play_Amb_Wind_Void",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Void",
+      "MaxAttenuation": "6500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "735267049",
+        "Language": "SFX",
+        "ShortName": "AMB_Cavern_void_LP.wav",
+        "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2904809513",
+      "Name": "Play_DarkWorld_Zelda_Pad",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Play_DarkWorld_Zelda_Pad",
+      "MaxAttenuation": "0.000000"
      },
      {
       "Id": "1075472767",
@@ -4433,15 +4453,7 @@
      {
       "Id": "2932040671",
       "Name": "Play_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "1047465193",
-        "Language": "SFX",
-        "ShortName": "DarkWorld_Flute_V2.wav",
-        "Path": "SFX\\DarkWorld_Flute_V2_0762CC47.wem"
-       }
-      ]
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music"
      },
      {
       "Id": "2590190883",
@@ -4462,6 +4474,14 @@
       "Name": "Stop_Amb_Lake",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Stop_Amb_Lake",
       "MaxAttenuation": "0.000000"
+     }
+    ],
+    "ReferencedStreamedFiles": [
+     {
+      "Id": "292638806",
+      "Language": "SFX",
+      "ShortName": "AmbT_Pad_Zelda.wav",
+      "Path": "SFX\\AmbT_Pad_Zelda_0762CC47.wem"
      }
     ],
     "IncludedMemoryFiles": [
@@ -5892,6 +5912,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_06.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_06_D8C07C79.wem"
+     },
+     {
+      "Id": "735267049",
+      "Language": "SFX",
+      "ShortName": "AMB_Cavern_void_LP.wav",
+      "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
      },
      {
       "Id": "737738012",

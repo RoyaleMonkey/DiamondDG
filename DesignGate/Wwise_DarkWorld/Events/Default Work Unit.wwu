@@ -155,6 +155,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Wind_Void" ID="{38BD07D1-3FA9-49B7-8CA3-D4FCEF953B4B}">
+							<ChildrenList>
+								<Action Name="" ID="{05461A29-EC39-40B9-8D16-38C3C805FEE3}" ShortID="180123741">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Wind_Void" ID="{205626D5-9B22-4C52-A08D-094CBCC92A47}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>

@@ -1564,23 +1564,48 @@
 				</Folder>
 				<Folder Name="SFX_GPE_Catapulte" ID="{5BDCE5C8-7EF0-4C32-BBA5-68E9402D76CB}" ShortID="315159566">
 					<ChildrenList>
-						<Event Name="Play_SFX_GPE_Catapulte_Woosh" ID="{2B1E683E-6CF1-4859-B9E8-4AF2312000B2}">
+						<Event Name="Play_SFX_GPE_Catapulte_End" ID="{9C84F3C2-1427-41D8-BCF6-B9FD7BF8260E}">
 							<ChildrenList>
-								<Action Name="" ID="{5144DCF0-500D-4A82-86E0-8A33158C0D5A}" ShortID="195305672">
+								<Action Name="" ID="{43E5E768-0D94-4AD1-94B3-2186DA77B709}" ShortID="607676186">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Catapulte_Woosh" ID="{92D60BCD-3DFC-4F75-8D2D-F3D36EB6CF40}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+											<ObjectRef Name="SFX_GPE_Catapulte_End" ID="{52CFD425-9DBA-4830-96CB-E982105BC8EB}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_SFX_GPE_Catapulte_Grab" ID="{EF0DB4F9-DA54-4ADD-B117-0A852A49A062}">
+						<Event Name="Play_SFX_GPE_Catapulte_Loop" ID="{FD940B00-C113-4194-983B-F81B630D35A9}">
 							<ChildrenList>
-								<Action Name="" ID="{2B734FF9-D896-41A2-8A0B-A2CBF72CA7B3}" ShortID="311522840">
+								<Action Name="" ID="{DF48FC10-8927-4576-AE85-4EFCAA7C31ED}" ShortID="499638782">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Catapulte_Grab" ID="{22514803-894F-45A8-BCD3-034A90EA6E2D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+											<ObjectRef Name="SFX_GPE_Catapulte_Loop" ID="{1EBA3D56-359E-474E-A1D3-4B4595970ABE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Catapulte_Start" ID="{E1BEEE66-959F-4E79-B58E-EE56A400D551}">
+							<ChildrenList>
+								<Action Name="" ID="{109CB411-5D5C-4E1C-8DF3-5C23DABB1C43}" ShortID="884030477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Catapulte_Start" ID="{22514803-894F-45A8-BCD3-034A90EA6E2D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_GPE_Catapulte_Loop" ID="{3E1ACEEF-053F-4D5B-92C0-7E880EF41469}">
+							<ChildrenList>
+								<Action Name="" ID="{27AF882E-CE6F-4F9B-ABA6-6A8836C71F74}" ShortID="504403729">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Catapulte_Loop" ID="{1EBA3D56-359E-474E-A1D3-4B4595970ABE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

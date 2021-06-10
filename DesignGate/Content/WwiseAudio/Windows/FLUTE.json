@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "4259865319",
+    "Hash": "4114530276",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -91,80 +91,6 @@
         "Language": "SFX",
         "ShortName": "Flt_C_Main_Loop.wav",
         "Path": "SFX\\Flt_C_Main_Loop_D8C07C79.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2387598574",
-      "Name": "Flute_D_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_End",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "185484287",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Main_End.wav",
-        "Path": "SFX\\Flt_D_Main_End_D8C07C79.wem"
-       },
-       {
-        "Id": "621618583",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Reverb_End.wav",
-        "Path": "SFX\\Flt_D_Reverb_End_D8C07C79.wem"
-       },
-       {
-        "Id": "785499893",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Layer_End.wav",
-        "Path": "SFX\\Flt_D_Layer_End_D8C07C79.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3839819269",
-      "Name": "Flute_D_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_Start",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "476056095",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Main_Start.wav",
-        "Path": "SFX\\Flt_D_Main_Start_D8C07C79.wem"
-       },
-       {
-        "Id": "733805807",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Reverb_Start.wav",
-        "Path": "SFX\\Flt_D_Reverb_Start_D8C07C79.wem"
-       },
-       {
-        "Id": "738348293",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Breath.wav",
-        "Path": "SFX\\Flt_D_Breath_D8C07C79.wem"
-       },
-       {
-        "Id": "816672819",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Reverb_Loop.wav",
-        "Path": "SFX\\Flt_D_Reverb_Loop_D8C07C79.wem"
-       },
-       {
-        "Id": "867948560",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Main_Loop.wav",
-        "Path": "SFX\\Flt_D_Main_Loop_D8C07C79.wem"
-       },
-       {
-        "Id": "978713243",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Layer_Loop.wav",
-        "Path": "SFX\\Flt_D_Layer_Loop_D8C07C79.wem"
-       },
-       {
-        "Id": "1027134471",
-        "Language": "SFX",
-        "ShortName": "Flt_D_Layer_Start.wav",
-        "Path": "SFX\\Flt_D_Layer_Start_D8C07C79.wem"
        }
       ]
      },

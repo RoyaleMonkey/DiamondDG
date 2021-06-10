@@ -15,8 +15,6 @@ namespace AK
     {
         static const AkUniqueID FLUTE_C_END = 2246680465U;
         static const AkUniqueID FLUTE_C_START = 984296002U;
-        static const AkUniqueID FLUTE_D_END = 2387598574U;
-        static const AkUniqueID FLUTE_D_START = 3839819269U;
         static const AkUniqueID FLUTE_DS_END = 2027045613U;
         static const AkUniqueID FLUTE_DS_START = 3098025574U;
         static const AkUniqueID FLUTE_F_END = 3901381120U;
@@ -63,6 +61,7 @@ namespace AK
         static const AkUniqueID PLAY_FLUTE_ZELDA_G_IN = 537622495U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_GDS_END = 2396251546U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_GDS_IN = 1949017518U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_WRONG = 533658235U;
         static const AkUniqueID PLAY_INSECT_RFX = 1075472767U;
         static const AkUniqueID PLAY_LITTLE_WATERFALL = 2110018169U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
@@ -121,14 +120,19 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_STELE_A3 = 1686349881U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_AS2 = 3024238153U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_AS3 = 3024238152U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_ASC3 = 3694864379U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_C2 = 1652794582U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_C3 = 1652794583U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_CCG3 = 3564463093U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_D2 = 1636016995U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_D3 = 1636016994U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_DA3 = 2990138531U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_DDG3 = 2016317611U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_DS2 = 2755251892U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_DS3 = 2755251893U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_F2 = 1602461721U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_F3 = 1602461720U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_FFG3 = 2935724227U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_G2 = 1585684138U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_G3 = 1585684139U;
         static const AkUniqueID PLAY_SFX_GPE_TELEK_C_IN = 3201623454U;

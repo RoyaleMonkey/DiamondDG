@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3825942215",
+    "Hash": "63840353",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -418,6 +418,29 @@
       ]
      },
      {
+      "Id": "3694864379",
+      "Name": "Play_SFX_GPE_Stele_ASC3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_ASC3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1652794582",
+        "Name": "Play_SFX_GPE_Stele_C2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2"
+       },
+       {
+        "Id": "1652794583",
+        "Name": "Play_SFX_GPE_Stele_C3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_C3"
+       },
+       {
+        "Id": "3024238152",
+        "Name": "Play_SFX_GPE_Stele_AS3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_AS3"
+       }
+      ]
+     },
+     {
       "Id": "1652794582",
       "Name": "Play_SFX_GPE_Stele_C2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2",
@@ -470,6 +493,29 @@
       ]
      },
      {
+      "Id": "3564463093",
+      "Name": "Play_SFX_GPE_Stele_CCG3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_CCG3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1585684138",
+        "Name": "Play_SFX_GPE_Stele_G2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_G2"
+       },
+       {
+        "Id": "1652794582",
+        "Name": "Play_SFX_GPE_Stele_C2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2"
+       },
+       {
+        "Id": "1652794583",
+        "Name": "Play_SFX_GPE_Stele_C3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_C3"
+       }
+      ]
+     },
+     {
       "Id": "1636016995",
       "Name": "Play_SFX_GPE_Stele_D2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_D2",
@@ -518,6 +564,52 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Butterfly_Layer_D3.wav",
         "Path": "SFX\\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2990138531",
+      "Name": "Play_SFX_GPE_Stele_DA3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_DA3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1636016994",
+        "Name": "Play_SFX_GPE_Stele_D3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_D3"
+       },
+       {
+        "Id": "1636016995",
+        "Name": "Play_SFX_GPE_Stele_D2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_D2"
+       },
+       {
+        "Id": "1686349881",
+        "Name": "Play_SFX_GPE_Stele_A3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_A3"
+       }
+      ]
+     },
+     {
+      "Id": "2016317611",
+      "Name": "Play_SFX_GPE_Stele_DDG3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_DDG3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1585684139",
+        "Name": "Play_SFX_GPE_Stele_G3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_G3"
+       },
+       {
+        "Id": "1636016994",
+        "Name": "Play_SFX_GPE_Stele_D3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_D3"
+       },
+       {
+        "Id": "1636016995",
+        "Name": "Play_SFX_GPE_Stele_D2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_D2"
        }
       ]
      },
@@ -622,6 +714,29 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Butterfly_Layer_F3.wav",
         "Path": "SFX\\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2935724227",
+      "Name": "Play_SFX_GPE_Stele_FFG3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_FFG3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1585684139",
+        "Name": "Play_SFX_GPE_Stele_G3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_G3"
+       },
+       {
+        "Id": "1602461720",
+        "Name": "Play_SFX_GPE_Stele_F3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_F3"
+       },
+       {
+        "Id": "1602461721",
+        "Name": "Play_SFX_GPE_Stele_F2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_F2"
        }
       ]
      },

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -20,7 +20,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3825942215">
+		<SoundBank Id="393239870" Language="SFX" Hash="63840353">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -269,6 +269,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3694864379" Name="Play_SFX_GPE_Stele_ASC3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASC3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2"/>
+						<ActionPostEventEntry Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3"/>
+						<ActionPostEventEntry Id="3024238152" Name="Play_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_AS3"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
@@ -301,6 +308,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3564463093" Name="Play_SFX_GPE_Stele_CCG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCG3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2"/>
+						<ActionPostEventEntry Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2"/>
+						<ActionPostEventEntry Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
@@ -332,6 +346,20 @@
 							<Path>SFX\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2990138531" Name="Play_SFX_GPE_Stele_DA3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DA3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3"/>
+						<ActionPostEventEntry Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2"/>
+						<ActionPostEventEntry Id="1686349881" Name="Play_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_A3"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="2016317611" Name="Play_SFX_GPE_Stele_DDG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DDG3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3"/>
+						<ActionPostEventEntry Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3"/>
+						<ActionPostEventEntry Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="2755251892" Name="Play_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_DS2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
@@ -396,6 +424,13 @@
 							<Path>SFX\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2935724227" Name="Play_SFX_GPE_Stele_FFG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_FFG3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3"/>
+						<ActionPostEventEntry Id="1602461720" Name="Play_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_F3"/>
+						<ActionPostEventEntry Id="1602461721" Name="Play_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_F2"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
@@ -1801,7 +1836,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX" Hash="2329551450">
+		<SoundBank Id="1075435911" Language="SFX" Hash="2819391019">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -2016,6 +2051,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="533658235" Name="Play_Flute_Zelda_Wrong" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Event\Play_Flute_Zelda_Wrong"/>
 				<Event Id="179754113" Name="Play_Mus_Zelda_Win" ObjectPath="\Events\Default Work Unit\Music\Play_Mus_Zelda_Win"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -2026,6 +2062,10 @@
 					<ShortName>Flute_Zelda_F_End.wav</ShortName>
 					<Path>SFX\Flute_Zelda_F_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="141248729" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_05.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_05_D8C07C79.wem</Path>
+				</File>
 				<File Id="182421039" Language="SFX">
 					<ShortName>Flute_Zelda_C_LP.wav</ShortName>
 					<Path>SFX\Flute_Zelda_C_LP_0762CC47.wem</Path>
@@ -2034,6 +2074,10 @@
 					<ShortName>Flute_Zelda_FC_In.wav</ShortName>
 					<Path>SFX\Flute_Zelda_FC_In_D8C07C79.wem</Path>
 				</File>
+				<File Id="297143967" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_01.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="352809164" Language="SFX">
 					<ShortName>Flute_Zelda_F_In.wav</ShortName>
 					<Path>SFX\Flute_Zelda_F_In_D8C07C79.wem</Path>
@@ -2041,6 +2085,10 @@
 				<File Id="482024221" Language="SFX">
 					<ShortName>Flute_Zelda_DS_In.wav</ShortName>
 					<Path>SFX\Flute_Zelda_DS_In_D8C07C79.wem</Path>
+				</File>
+				<File Id="507745804" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_04.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_04_D8C07C79.wem</Path>
 				</File>
 				<File Id="514455167" Language="SFX">
 					<ShortName>Flute_Zelda_C_In.wav</ShortName>
@@ -2066,6 +2114,10 @@
 					<ShortName>Flute_Zelda_F_LP.wav</ShortName>
 					<Path>SFX\Flute_Zelda_F_LP_0762CC47.wem</Path>
 				</File>
+				<File Id="840554749" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_03.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="897731013" Language="SFX">
 					<ShortName>Flute_Zelda_DS_End.wav</ShortName>
 					<Path>SFX\Flute_Zelda_DS_End_D8C07C79.wem</Path>
@@ -2082,6 +2134,10 @@
 					<ShortName>Flute_Zelda_DS_LP.wav</ShortName>
 					<Path>SFX\Flute_Zelda_DS_LP_0762CC47.wem</Path>
 				</File>
+				<File Id="981214593" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_02.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="984647928" Language="SFX">
 					<ShortName>Flute_Zelda_G_In.wav</ShortName>
 					<Path>SFX\Flute_Zelda_G_In_D8C07C79.wem</Path>
@@ -2096,7 +2152,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="4259865319">
+		<SoundBank Id="1167860281" Language="SFX" Hash="4114530276">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -2146,54 +2202,6 @@
 						<File Id="664030189" Language="SFX">
 							<ShortName>Flt_C_Main_Loop.wav</ShortName>
 							<Path>SFX\Flt_C_Main_Loop_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2387598574" Name="Flute_D_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_D_End">
-					<IncludedMemoryFiles>
-						<File Id="185484287" Language="SFX">
-							<ShortName>Flt_D_Main_End.wav</ShortName>
-							<Path>SFX\Flt_D_Main_End_D8C07C79.wem</Path>
-						</File>
-						<File Id="621618583" Language="SFX">
-							<ShortName>Flt_D_Reverb_End.wav</ShortName>
-							<Path>SFX\Flt_D_Reverb_End_D8C07C79.wem</Path>
-						</File>
-						<File Id="785499893" Language="SFX">
-							<ShortName>Flt_D_Layer_End.wav</ShortName>
-							<Path>SFX\Flt_D_Layer_End_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3839819269" Name="Flute_D_Start" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Note\Flute_D_Start">
-					<IncludedMemoryFiles>
-						<File Id="476056095" Language="SFX">
-							<ShortName>Flt_D_Main_Start.wav</ShortName>
-							<Path>SFX\Flt_D_Main_Start_D8C07C79.wem</Path>
-						</File>
-						<File Id="733805807" Language="SFX">
-							<ShortName>Flt_D_Reverb_Start.wav</ShortName>
-							<Path>SFX\Flt_D_Reverb_Start_D8C07C79.wem</Path>
-						</File>
-						<File Id="738348293" Language="SFX">
-							<ShortName>Flt_D_Breath.wav</ShortName>
-							<Path>SFX\Flt_D_Breath_D8C07C79.wem</Path>
-						</File>
-						<File Id="816672819" Language="SFX">
-							<ShortName>Flt_D_Reverb_Loop.wav</ShortName>
-							<Path>SFX\Flt_D_Reverb_Loop_D8C07C79.wem</Path>
-						</File>
-						<File Id="867948560" Language="SFX">
-							<ShortName>Flt_D_Main_Loop.wav</ShortName>
-							<Path>SFX\Flt_D_Main_Loop_D8C07C79.wem</Path>
-						</File>
-						<File Id="978713243" Language="SFX">
-							<ShortName>Flt_D_Layer_Loop.wav</ShortName>
-							<Path>SFX\Flt_D_Layer_Loop_D8C07C79.wem</Path>
-						</File>
-						<File Id="1027134471" Language="SFX">
-							<ShortName>Flt_D_Layer_Start.wav</ShortName>
-							<Path>SFX\Flt_D_Layer_Start_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3068,7 +3076,7 @@
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1615715060">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1414243006">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

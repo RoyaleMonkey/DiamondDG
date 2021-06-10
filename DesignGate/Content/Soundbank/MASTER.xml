@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3848807636">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1137518476">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -85,6 +85,8 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1521220657" Name="Play_Amb_Cavern_Level" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cavern_Level"/>
+				<Event Id="3623306286" Name="Play_Amb_CavernLore" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_CavernLore" MaxAttenuation="3500.000000"/>
+				<Event Id="2982907204" Name="Play_Amb_Drip_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Drip_Cavern" MaxAttenuation="5500.000000"/>
 				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX" MaxAttenuation="1500.000000">
 					<IncludedMemoryFiles>
 						<File Id="370379099" Language="SFX">
@@ -107,7 +109,7 @@
 				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping" MaxAttenuation="8000.000000"/>
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP" MaxAttenuation="8000.000000"/>
 				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX"/>
-				<Event Id="305604352" Name="Play_Amb_Wind_Void" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Void" MaxAttenuation="6500.000000">
+				<Event Id="305604352" Name="Play_Amb_Wind_Void" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Void" MaxAttenuation="5500.000000">
 					<IncludedMemoryFiles>
 						<File Id="735267049" Language="SFX">
 							<ShortName>AMB_Cavern_void_LP.wav</ShortName>
@@ -756,6 +758,10 @@
 				<File Id="438975099" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem</Path>
+				</File>
+				<File Id="447874868" Language="SFX">
+					<ShortName>AMB_LoreCavern_LP.wav</ShortName>
+					<Path>SFX\AMB_LoreCavern_LP_D8C07C79.wem</Path>
 				</File>
 				<File Id="450701258" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
@@ -1448,6 +1454,10 @@
 				<File Id="936639895" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Run_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="938665294" Language="SFX">
+					<ShortName>AMB_Drip_Cavern_LP.wav</ShortName>
+					<Path>SFX\AMB_Drip_Cavern_LP_D8C07C79.wem</Path>
 				</File>
 				<File Id="941706445" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Scuff_05.wav</ShortName>

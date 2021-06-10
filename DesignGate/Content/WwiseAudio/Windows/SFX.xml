@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="279856688">
+		<SoundBank Id="393239870" Language="SFX" Hash="63840353">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -257,6 +257,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3694864379" Name="Play_SFX_GPE_Stele_ASC3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASC3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2"/>
+						<ActionPostEventEntry Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3"/>
+						<ActionPostEventEntry Id="3024238152" Name="Play_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_AS3"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
@@ -289,6 +296,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3564463093" Name="Play_SFX_GPE_Stele_CCG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCG3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2"/>
+						<ActionPostEventEntry Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2"/>
+						<ActionPostEventEntry Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
@@ -320,6 +334,20 @@
 							<Path>SFX\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2990138531" Name="Play_SFX_GPE_Stele_DA3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DA3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3"/>
+						<ActionPostEventEntry Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2"/>
+						<ActionPostEventEntry Id="1686349881" Name="Play_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_A3"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="2016317611" Name="Play_SFX_GPE_Stele_DDG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DDG3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3"/>
+						<ActionPostEventEntry Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3"/>
+						<ActionPostEventEntry Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="2755251892" Name="Play_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_DS2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
@@ -384,6 +412,13 @@
 							<Path>SFX\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2935724227" Name="Play_SFX_GPE_Stele_FFG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_FFG3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3"/>
+						<ActionPostEventEntry Id="1602461720" Name="Play_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_F3"/>
+						<ActionPostEventEntry Id="1602461721" Name="Play_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_F2"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>

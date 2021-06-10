@@ -155,6 +155,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_CavernLore" ID="{3BCDB512-9E1C-42F5-91B7-EC92D4CB75B8}">
+							<ChildrenList>
+								<Action Name="" ID="{6BD252AF-B5B6-47C0-8F9A-C807E11B62CA}" ShortID="193149589">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Drip_Cavern" ID="{26279C14-C470-4442-B563-D478224104FF}">
+							<ChildrenList>
+								<Action Name="" ID="{14D493BE-E480-44E8-B527-8716ECA6E97A}" ShortID="973447175">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Drip_Cavern" ID="{7255231C-7825-4B07-B1CD-F620D1705040}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>

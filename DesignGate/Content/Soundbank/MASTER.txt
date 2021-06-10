@@ -10,11 +10,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	2017862678	Play_MC_FOL_Scuff			\Default Work Unit\MC\Play_MC_FOL_Scuff	
 	2037670792	Play_MC_FOL_Land			\Default Work Unit\MC\Play_MC_FOL_Land	
 	2904809513	Play_DarkWorld_Zelda_Pad			\Default Work Unit\Amb_Tonal\Play_DarkWorld_Zelda_Pad	
+	2982907204	Play_Amb_Drip_Cavern			\Default Work Unit\AMB\Play_Amb_Drip_Cavern	
 	3022734957	Play_MC_Jump			\Default Work Unit\MC\Play_MC_Jump	
 	3181251971	Stop_DarkWorld_Zelda_Pad			\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad	
 	3212184235	Play_MC_FOL_Jump			\Default Work Unit\MC\Play_MC_FOL_Jump	
 	3531921507	Play_MC_Step			\Default Work Unit\MC\Play_MC_Step	
 	3619535171	Play_Amb_Water_RFX			\Default Work Unit\AMB\Play_Amb_Water_RFX	
+	3623306286	Play_Amb_CavernLore			\Default Work Unit\AMB\Play_Amb_CavernLore	
 	3686445418	Play_Amb_Cavern			\Default Work Unit\AMB\Play_Amb_Cavern	
 	3757054751	Play_MC_Taps			\Default Work Unit\MC\Play_MC_Taps	
 	4124567974	Play_Amb_Lake_Lapping			\Default Work Unit\AMB\Play_Amb_Lake_Lapping	
@@ -176,6 +178,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	431983236	SFX_MC_FT_Grass_Short_Debris_7	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Grass_Short_Debris_7_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Grass_Short\Grass_Short_Steps\Grass_Short_Debris\SFX_MC_FT_Grass_Short_Debris_7		7019
 	435827983	SFX_MC_FT_Wood_Scuff_01	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Wood_Scuff_01_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Wood\Wood_Scuff\SFX_MC_FT_Wood_Scuff_01		2001
 	438975099	SFX_MC_FT_Grass_Long_Walk_07	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Grass_Long\Grass_Long_Steps\Grass_Long_Walk\SFX_MC_FT_Grass_Long_Walk_07		17576
+	447874868	Amb_CavernLore	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\AMB_LoreCavern_LP_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb_CavernLore		292970
 	450701258	Amb_RFX_Insect_Cricket_H_03	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Insect_RFX\RFX_Insect_Cricket_H\Amb_RFX_Insect_Cricket_H_03		51483
 	452574099	SFX_MC_FT_Water_Puddle_Scuff_03	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Water_Puddle_Scuff_03_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Water_Puddle\Water_Puddle_Scuff\SFX_MC_FT_Water_Puddle_Scuff_03		16706
 	456137261	Amb_RFX_Insect_Cricket_F_06	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Insect_RFX\RFX_Insect_Cricket_F\Amb_RFX_Insect_Cricket_F_06		47878
@@ -349,6 +352,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	935966644	SFX_MC_FT_Stone_Jump_01	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Stone_Jump_01_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Stone\Stone_Jump\SFX_MC_FT_Stone_Jump_01		4796
 	936502401	SFX_MC_FT_Water_Shallow_Land_04	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Water_Shallow_Land_04_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Water_Shallow\Water_Shallow_Land\SFX_MC_FT_Water_Shallow_Land_04		26806
 	936639895	SFX_MC_FT_Water_Shallow_Run_01	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Water_Shallow_Run_01_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Water_Shallow\Water_Shallow_Steps\Water_Shallow_Walk\SFX_MC_FT_Water_Shallow_Run_01		12983
+	938665294	Amb_Drip_Cavern	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\AMB_Drip_Cavern_LP_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb_Drip_Cavern		361248
 	941706445	SFX_MC_FOL_Os_Scuff_05	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FOL_Os_Scuff_05_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foleys\SFX_MC_FOL_Scuff\SFX_MC_FOL_Os_Scuff\SFX_MC_FOL_Os_Scuff_05		14260
 	942385044	SFX_MC_FT_Grass_Long_Walk_05	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Grass_Long_Walk_05_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Grass_Long\Grass_Long_Steps\Grass_Long_Walk\SFX_MC_FT_Grass_Long_Walk_05		16135
 	955406727	SFX_MC_FT_Water_Puddle_Scuff_04	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_MC_FT_Water_Puddle_Scuff_04_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Steps\SFX_MC_Steps_Water_Puddle\Water_Puddle_Scuff\SFX_MC_FT_Water_Puddle_Scuff_04		12365

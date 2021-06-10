@@ -35,222 +35,6 @@
 				</Folder>
 				<Folder Name="Flute_Note" ID="{45CA1EF4-2519-41FA-97CD-3276A2846033}" ShortID="173275034">
 					<ChildrenList>
-						<Event Name="Flute_D_Start" ID="{62077525-81D4-47EC-8C3E-E63AA8CECCC0}">
-							<ChildrenList>
-								<Action Name="" ID="{C42045B6-0295-4525-836B-39B578F84BC9}" ShortID="718897431">
-									<PropertyList>
-										<Property Name="FadeInCurve" Type="int16" Value="7"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_D_Start" ID="{3B5687F0-4D90-4F3F-A3F9-F4AC74A6652D}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{07F4171B-1783-4191-B4C2-330D42F2E092}" ShortID="366000953">
-									<PropertyList>
-										<Property Name="FadeInCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="3"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_D_Loop" ID="{286C6C76-CB06-4BD7-8BC6-A1922C226A7E}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{483326D0-99E6-4F9D-9452-6E946A9AED72}" ShortID="395797908">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_D_End" ID="{1AB73CD5-489E-4A3B-B20C-96C481B917C4}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{23DDA76F-AADE-4195-BAF8-69121CC6D3FC}" ShortID="489498990">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_C_Main_End" ID="{B6319561-D8D7-4AED-B033-1C245A3BF296}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{E9622B67-A03E-4050-A892-E1066E6A21F8}" ShortID="184837327">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_F_Main_End" ID="{E89AD9E1-52A7-4D0B-AFE3-03D33DD389FC}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{944B940B-A435-4D16-8C92-640AA93865EA}" ShortID="285853857">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_G_Main_End" ID="{9DD75FF9-B864-43FE-A909-D2B85D6AE6C3}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{80B36485-2FF2-4D8B-9E90-21B842D2563A}" ShortID="548675141">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_F_End" ID="{B0B1B9C3-CD3F-453A-B26F-12436EE01DCD}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{50CE7EA3-F647-45E4-B7B9-3414026A803C}" ShortID="206362385">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_C_End" ID="{624B70B4-7138-4A7A-8ADF-0DF74FFCFBF1}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{E21E6304-9DE5-4778-9498-BC90CC639462}" ShortID="580943794">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_G_End" ID="{E177E264-15B3-4CF9-9A25-0ABE286C43D6}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Flute_D_End" ID="{F19D10B8-4AAD-4192-98FE-6FB57EE58FB5}">
-							<ChildrenList>
-								<Action Name="" ID="{6FE0AEB8-2B00-4C66-A983-925C04D7BF5C}" ShortID="248736780">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_D_Start" ID="{3B5687F0-4D90-4F3F-A3F9-F4AC74A6652D}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{D1B5BBA0-9222-45F3-A3A7-39B02E70AA68}" ShortID="17937075">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_D_Loop" ID="{286C6C76-CB06-4BD7-8BC6-A1922C226A7E}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{62029337-1776-4F02-BEB6-084621C9CEBF}" ShortID="672121050">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_D_End" ID="{1AB73CD5-489E-4A3B-B20C-96C481B917C4}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{D3E5DE0A-08EE-4EA7-A932-A960A1B83444}" ShortID="344042499">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_F_End" ID="{B0B1B9C3-CD3F-453A-B26F-12436EE01DCD}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{EBEBBCAE-5C64-40B3-A132-84E7B4D3CEDC}" ShortID="251013661">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_F_Main_End" ID="{E89AD9E1-52A7-4D0B-AFE3-03D33DD389FC}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{8B67EBFD-4918-4B1C-B647-6F35BBC4A3F3}" ShortID="54733731">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_C_Main_End" ID="{B6319561-D8D7-4AED-B033-1C245A3BF296}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{9A948D87-40DB-45B1-A616-49E55EA46CC8}" ShortID="1019219645">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_C_End" ID="{624B70B4-7138-4A7A-8ADF-0DF74FFCFBF1}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{5485EC4F-6BC2-46E8-9D1E-039FBF68F252}" ShortID="650138994">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_G_End" ID="{E177E264-15B3-4CF9-9A25-0ABE286C43D6}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{9790A967-0714-48FF-A126-01AD93CEFDF9}" ShortID="460226338">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Flute_G_Main_End" ID="{9DD75FF9-B864-43FE-A909-D2B85D6AE6C3}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Flute_G_Start" ID="{A585FB3F-4D4D-4A50-8913-692013886DD9}">
 							<ChildrenList>
 								<Action Name="" ID="{3F7FA468-DA1B-4018-B0E1-B40233CDCDAA}" ShortID="299946796">
@@ -3017,6 +2801,169 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Play_Flute_Zelda_GDS_End" ID="{A225BDB1-3763-4D11-9F6E-596829D51865}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Flute_Zelda_Wrong" ID="{7F0174E7-41DD-4CC4-B9B4-688125B7883A}">
+									<ChildrenList>
+										<Action Name="" ID="{4D1D4443-6878-4A0A-A454-F7D3DF969238}" ShortID="428283484">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_G_End" ID="{A84810AD-C3D6-46B2-B841-4B96808CDF7E}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F787F87C-BDCE-400B-8335-70E05C4C03EA}" ShortID="598419253">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_F_End" ID="{A0F1F92A-E5A7-4958-8FA3-96D7CF91655B}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{3F45A82D-4E83-41DF-9E08-E7342E36C937}" ShortID="276913577">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_DS_End" ID="{10C63FD3-3079-4150-865E-603E32ABCEEC}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0B288A52-29E3-4982-8246-F9C91E60EAA0}" ShortID="944161233">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_GDS_End" ID="{96A4CFAB-4FBF-46CB-B42B-C5CA6EDEE449}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DDFF0955-F0F7-4E59-822E-E69C89979ED2}" ShortID="700181282">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_FC_End" ID="{1E52A829-9C80-42D8-A2D9-AD03349ECBF0}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5792C0A0-75BE-442E-A726-59B9CC62F762}" ShortID="641709725">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_C_LP" ID="{82AD00F4-4C78-4B40-A283-616EF3041F9E}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5991D4AC-B5B7-4610-9402-DD12A033B8CB}" ShortID="807403034">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_DS_LP" ID="{2D7AAD0C-9393-4A53-A981-EBE40E19D9CC}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C305F190-7850-4D68-9799-2C4550406D2A}" ShortID="282075869">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_F_LP" ID="{F1FB097B-F790-4BE3-8AB5-04B3A780E52A}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DC1BEEA1-C351-462B-8AEB-6B5BC32C4F70}" ShortID="1063912011">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_FC_LP" ID="{447FA6F0-B701-45FC-BBBA-CF9D5BE406F0}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E5642E73-C6E7-4204-AF5F-328A09D909EB}" ShortID="865374861">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_FC_LP" ID="{447FA6F0-B701-45FC-BBBA-CF9D5BE406F0}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B7B21327-EE17-4785-B70B-E24112782DDF}" ShortID="919056802">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_G_LP" ID="{45382655-1172-4943-B081-0F61CDC692C5}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{26EBBD5D-8E75-4972-95EF-2F964345DACE}" ShortID="827237474">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="6"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_GDS_LP" ID="{98641474-53FC-4C99-8117-7E21FB0D0F87}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{27FC776D-B43A-4123-A9DC-7F8EDD05E780}" ShortID="276110307">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flute_Zelda_Wrong" ID="{1DDB73FA-4BB7-4BED-907E-6143625A64AC}" WorkUnitID="{FB3E8940-761A-459C-B9E5-B1BF5F6BE740}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

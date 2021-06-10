@@ -7817,6 +7817,62 @@
 						<ActiveSource Name="AMB_Cavern_void_LP" ID="{6923BC0E-6B90-46B1-84E9-294CDDB996DD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" ShortID="242160193">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AMB CavernLore ATT" ID="{588B0D28-E545-4EBE-B263-E0340A66BEC1}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_LoreCavern_LP" ID="{29CB23EC-772B-45CB-B667-91CEA0D0FEEB}">
+							<Language>SFX</Language>
+							<AudioFile>AMB_LoreCavern_LP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="447874868"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_LoreCavern_LP" ID="{29CB23EC-772B-45CB-B667-91CEA0D0FEEB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Amb_Drip_Cavern" ID="{7255231C-7825-4B07-B1CD-F620D1705040}" ShortID="50989239">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AMB Drip Cavern ATT" ID="{7B4DA0AD-5C31-4064-86AA-0576961A4B8C}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_Drip_Cavern_LP" ID="{4E2563BA-0E25-46B0-A416-9443A872152D}">
+							<Language>SFX</Language>
+							<AudioFile>AMB_Drip_Cavern_LP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="938665294"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_Drip_Cavern_LP" ID="{4E2563BA-0E25-46B0-A416-9443A872152D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

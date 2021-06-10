@@ -15,7 +15,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "785865971",
+    "Hash": "1414243006",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -147,6 +147,34 @@
       ]
      },
      {
+      "Id": "3623306286",
+      "Name": "Play_Amb_CavernLore",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_CavernLore",
+      "MaxAttenuation": "3500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "447874868",
+        "Language": "SFX",
+        "ShortName": "AMB_LoreCavern_LP.wav",
+        "Path": "SFX\\AMB_LoreCavern_LP_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2982907204",
+      "Name": "Play_Amb_Drip_Cavern",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Drip_Cavern",
+      "MaxAttenuation": "5500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "938665294",
+        "Language": "SFX",
+        "ShortName": "AMB_Drip_Cavern_LP.wav",
+        "Path": "SFX\\AMB_Drip_Cavern_LP_D8C07C79.wem"
+       }
+      ]
+     },
+     {
       "Id": "172812343",
       "Name": "Play_Amb_Fall_Dirt_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Fall_Dirt_RFX",
@@ -227,7 +255,7 @@
       "Id": "305604352",
       "Name": "Play_Amb_Wind_Void",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Void",
-      "MaxAttenuation": "6500.000000",
+      "MaxAttenuation": "5500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "735267049",
@@ -4487,6 +4515,12 @@
       "Name": "Stop_DarkWorld_Zelda_Pad",
       "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Stop_DarkWorld_Zelda_Pad",
       "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "1977485633",
+      "Name": "Volume_AmbT_Pad_Zelda",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Volume_AmbT_Pad_Zelda",
+      "MaxAttenuation": "0.000000"
      }
     ],
     "ReferencedStreamedFiles": [
@@ -5301,6 +5335,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Walk_07.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem"
+     },
+     {
+      "Id": "447874868",
+      "Language": "SFX",
+      "ShortName": "AMB_LoreCavern_LP.wav",
+      "Path": "SFX\\AMB_LoreCavern_LP_D8C07C79.wem"
      },
      {
       "Id": "450701258",
@@ -6339,6 +6379,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_01.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_01_D8C07C79.wem"
+     },
+     {
+      "Id": "938665294",
+      "Language": "SFX",
+      "ShortName": "AMB_Drip_Cavern_LP.wav",
+      "Path": "SFX\\AMB_Drip_Cavern_LP_D8C07C79.wem"
      },
      {
       "Id": "941706445",

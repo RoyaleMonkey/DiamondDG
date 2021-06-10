@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1075435911" Language="SFX" Hash="2232321213">
+		<SoundBank Id="1075435911" Language="SFX" Hash="2109060942">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -26,6 +26,7 @@
 				<Event Id="537622495" Name="Play_Flute_Zelda_G_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_G_In"/>
 				<Event Id="2396251546" Name="Play_Flute_Zelda_GDS_End" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_End"/>
 				<Event Id="1949017518" Name="Play_Flute_Zelda_GDS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_In"/>
+				<Event Id="533658235" Name="Play_Flute_Zelda_Wrong" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Event\Play_Flute_Zelda_Wrong"/>
 				<Event Id="179754113" Name="Play_Mus_Zelda_Win" ObjectPath="\Events\Default Work Unit\Music\Play_Mus_Zelda_Win"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -39,6 +40,10 @@
 					<ShortName>Flute_Zelda_F_End.wav</ShortName>
 					<Path>SFX\Flute_Zelda_F_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="141248729" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_05.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_05_D8C07C79.wem</Path>
+				</File>
 				<File Id="182421039" Language="SFX">
 					<ShortName>Flute_Zelda_C_LP.wav</ShortName>
 					<Path>SFX\Flute_Zelda_C_LP_0762CC47.wem</Path>
@@ -47,6 +52,10 @@
 					<ShortName>Flute_Zelda_FC_In.wav</ShortName>
 					<Path>SFX\Flute_Zelda_FC_In_D8C07C79.wem</Path>
 				</File>
+				<File Id="297143967" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_01.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_01_D8C07C79.wem</Path>
+				</File>
 				<File Id="352809164" Language="SFX">
 					<ShortName>Flute_Zelda_F_In.wav</ShortName>
 					<Path>SFX\Flute_Zelda_F_In_D8C07C79.wem</Path>
@@ -54,6 +63,10 @@
 				<File Id="482024221" Language="SFX">
 					<ShortName>Flute_Zelda_DS_In.wav</ShortName>
 					<Path>SFX\Flute_Zelda_DS_In_D8C07C79.wem</Path>
+				</File>
+				<File Id="507745804" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_04.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_04_D8C07C79.wem</Path>
 				</File>
 				<File Id="514455167" Language="SFX">
 					<ShortName>Flute_Zelda_C_In.wav</ShortName>
@@ -79,6 +92,10 @@
 					<ShortName>Flute_Zelda_F_LP.wav</ShortName>
 					<Path>SFX\Flute_Zelda_F_LP_0762CC47.wem</Path>
 				</File>
+				<File Id="840554749" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_03.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_03_D8C07C79.wem</Path>
+				</File>
 				<File Id="897731013" Language="SFX">
 					<ShortName>Flute_Zelda_DS_End.wav</ShortName>
 					<Path>SFX\Flute_Zelda_DS_End_D8C07C79.wem</Path>
@@ -94,6 +111,10 @@
 				<File Id="938111213" Language="SFX">
 					<ShortName>Flute_Zelda_DS_LP.wav</ShortName>
 					<Path>SFX\Flute_Zelda_DS_LP_0762CC47.wem</Path>
+				</File>
+				<File Id="981214593" Language="SFX">
+					<ShortName>Flute_Zelda_Wrong_02.wav</ShortName>
+					<Path>SFX\Flute_Zelda_Wrong_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="984647928" Language="SFX">
 					<ShortName>Flute_Zelda_G_In.wav</ShortName>

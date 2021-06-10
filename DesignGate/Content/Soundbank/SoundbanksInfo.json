@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -31,7 +31,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1846020136",
+    "Hash": "1844741024",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -420,6 +420,29 @@
       ]
      },
      {
+      "Id": "3694864379",
+      "Name": "Play_SFX_GPE_Stele_ASC3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_ASC3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1652794582",
+        "Name": "Play_SFX_GPE_Stele_C2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2"
+       },
+       {
+        "Id": "1652794583",
+        "Name": "Play_SFX_GPE_Stele_C3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_C3"
+       },
+       {
+        "Id": "3024238152",
+        "Name": "Play_SFX_GPE_Stele_AS3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_AS3"
+       }
+      ]
+     },
+     {
       "Id": "1652794582",
       "Name": "Play_SFX_GPE_Stele_C2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2",
@@ -472,6 +495,29 @@
       ]
      },
      {
+      "Id": "3564463093",
+      "Name": "Play_SFX_GPE_Stele_CCG3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_CCG3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1585684138",
+        "Name": "Play_SFX_GPE_Stele_G2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_G2"
+       },
+       {
+        "Id": "1652794582",
+        "Name": "Play_SFX_GPE_Stele_C2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2"
+       },
+       {
+        "Id": "1652794583",
+        "Name": "Play_SFX_GPE_Stele_C3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_C3"
+       }
+      ]
+     },
+     {
       "Id": "1636016995",
       "Name": "Play_SFX_GPE_Stele_D2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_D2",
@@ -520,6 +566,52 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Butterfly_Layer_D3.wav",
         "Path": "SFX\\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2990138531",
+      "Name": "Play_SFX_GPE_Stele_DA3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_DA3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1636016994",
+        "Name": "Play_SFX_GPE_Stele_D3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_D3"
+       },
+       {
+        "Id": "1636016995",
+        "Name": "Play_SFX_GPE_Stele_D2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_D2"
+       },
+       {
+        "Id": "1686349881",
+        "Name": "Play_SFX_GPE_Stele_A3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_A3"
+       }
+      ]
+     },
+     {
+      "Id": "2016317611",
+      "Name": "Play_SFX_GPE_Stele_DDG3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_DDG3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1585684139",
+        "Name": "Play_SFX_GPE_Stele_G3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_G3"
+       },
+       {
+        "Id": "1636016994",
+        "Name": "Play_SFX_GPE_Stele_D3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_D3"
+       },
+       {
+        "Id": "1636016995",
+        "Name": "Play_SFX_GPE_Stele_D2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_D2"
        }
       ]
      },
@@ -624,6 +716,29 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Butterfly_Layer_F3.wav",
         "Path": "SFX\\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2935724227",
+      "Name": "Play_SFX_GPE_Stele_FFG3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_FFG3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1585684139",
+        "Name": "Play_SFX_GPE_Stele_G3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_G3"
+       },
+       {
+        "Id": "1602461720",
+        "Name": "Play_SFX_GPE_Stele_F3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_F3"
+       },
+       {
+        "Id": "1602461721",
+        "Name": "Play_SFX_GPE_Stele_F2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_F2"
        }
       ]
      },
@@ -2857,6 +2972,7 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
+    "Hash": "2109060942",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -2927,6 +3043,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Note\\Play_Flute_Zelda_GDS_In"
      },
      {
+      "Id": "533658235",
+      "Name": "Play_Flute_Zelda_Wrong",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Zelda\\Flute_Zelda_Event\\Play_Flute_Zelda_Wrong"
+     },
+     {
       "Id": "179754113",
       "Name": "Play_Mus_Zelda_Win",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Zelda_Win"
@@ -2945,6 +3066,12 @@
       "Path": "SFX\\Flute_Zelda_F_End_D8C07C79.wem"
      },
      {
+      "Id": "141248729",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_Wrong_05.wav",
+      "Path": "SFX\\Flute_Zelda_Wrong_05_D8C07C79.wem"
+     },
+     {
       "Id": "182421039",
       "Language": "SFX",
       "ShortName": "Flute_Zelda_C_LP.wav",
@@ -2957,6 +3084,12 @@
       "Path": "SFX\\Flute_Zelda_FC_In_D8C07C79.wem"
      },
      {
+      "Id": "297143967",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_Wrong_01.wav",
+      "Path": "SFX\\Flute_Zelda_Wrong_01_D8C07C79.wem"
+     },
+     {
       "Id": "352809164",
       "Language": "SFX",
       "ShortName": "Flute_Zelda_F_In.wav",
@@ -2967,6 +3100,12 @@
       "Language": "SFX",
       "ShortName": "Flute_Zelda_DS_In.wav",
       "Path": "SFX\\Flute_Zelda_DS_In_D8C07C79.wem"
+     },
+     {
+      "Id": "507745804",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_Wrong_04.wav",
+      "Path": "SFX\\Flute_Zelda_Wrong_04_D8C07C79.wem"
      },
      {
       "Id": "514455167",
@@ -3005,6 +3144,12 @@
       "Path": "SFX\\Flute_Zelda_F_LP_0762CC47.wem"
      },
      {
+      "Id": "840554749",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_Wrong_03.wav",
+      "Path": "SFX\\Flute_Zelda_Wrong_03_D8C07C79.wem"
+     },
+     {
       "Id": "897731013",
       "Language": "SFX",
       "ShortName": "Flute_Zelda_DS_End.wav",
@@ -3029,6 +3174,12 @@
       "Path": "SFX\\Flute_Zelda_DS_LP_0762CC47.wem"
      },
      {
+      "Id": "981214593",
+      "Language": "SFX",
+      "ShortName": "Flute_Zelda_Wrong_02.wav",
+      "Path": "SFX\\Flute_Zelda_Wrong_02_D8C07C79.wem"
+     },
+     {
       "Id": "984647928",
       "Language": "SFX",
       "ShortName": "Flute_Zelda_G_In.wav",
@@ -3051,6 +3202,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
+    "Hash": "2692188132",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -3064,16 +3216,6 @@
       "Id": "984296002",
       "Name": "Flute_C_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_C_Start"
-     },
-     {
-      "Id": "2387598574",
-      "Name": "Flute_D_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_End"
-     },
-     {
-      "Id": "3839819269",
-      "Name": "Flute_D_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Note\\Flute_D_Start"
      },
      {
       "Id": "2027045613",
@@ -3961,6 +4103,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
+    "Hash": "1989944038",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk"
@@ -3968,7 +4111,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1137518476",
+    "Hash": "1494517081",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",

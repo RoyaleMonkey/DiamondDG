@@ -7,10 +7,16 @@
 					<ChildrenList>
 						<State Name="None" ID="{033338F8-2BFB-4B59-B2AF-2E8EB85C6AE4}"/>
 						<State Name="Waterfall_In" ID="{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}"/>
-						<State Name="Waterfall_In_2nd" ID="{F060D49C-19A6-462B-AA7D-715B751C3474}"/>
-						<State Name="Waterfall_2nd_3rd" ID="{0CF251E6-DAD5-4769-9AB3-105921E02D3F}"/>
-						<State Name="Waterfall_3rd_Out" ID="{F5BC686A-1E83-4052-8CE3-1C4525C1A72A}"/>
+						<State Name="Waterfall_2nd" ID="{0CF251E6-DAD5-4769-9AB3-105921E02D3F}"/>
+						<State Name="Waterfall_3rd" ID="{F5BC686A-1E83-4052-8CE3-1C4525C1A72A}"/>
 						<State Name="Waterfall_Out" ID="{0DD4E9D1-1BCF-4C57-97EA-529C39F39623}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Mus_Discovery" ID="{A1C187CF-2033-4B2A-A562-40FEB84C4041}">
+					<ChildrenList>
+						<State Name="None" ID="{33A9D3B9-8554-449E-845B-34B256B62066}"/>
+						<State Name="Discovery_In" ID="{0DA84E63-99AD-4D0E-ACC7-5FEC761B974C}"/>
+						<State Name="Discovery_In_Out" ID="{5DBDC50E-4EDC-4B65-9524-31FD83C9106D}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1494517081">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1122093426">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -86,7 +86,7 @@
 				</Event>
 				<Event Id="1521220657" Name="Play_Amb_Cavern_Level" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cavern_Level"/>
 				<Event Id="3623306286" Name="Play_Amb_CavernLore" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_CavernLore" MaxAttenuation="3500.000000"/>
-				<Event Id="2982907204" Name="Play_Amb_Drip_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Drip_Cavern" MaxAttenuation="5500.000000"/>
+				<Event Id="2982907204" Name="Play_Amb_Drip_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Drip_Cavern" MaxAttenuation="6500.000000"/>
 				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX" MaxAttenuation="1500.000000">
 					<IncludedMemoryFiles>
 						<File Id="370379099" Language="SFX">
@@ -109,11 +109,79 @@
 				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping" MaxAttenuation="8000.000000"/>
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP" MaxAttenuation="8000.000000"/>
 				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX"/>
+				<Event Id="4244289267" Name="Play_Amb_Wind_Valley" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Valley" MaxAttenuation="7500.000000">
+					<IncludedMemoryFiles>
+						<File Id="45234010" Language="SFX">
+							<ShortName>AMB_Wind_Valley_LP.wav</ShortName>
+							<Path>SFX\AMB_Wind_Valley_LP_0762CC47.wem</Path>
+						</File>
+						<File Id="84461640" Language="SFX">
+							<ShortName>AMB_Wind_Woosh_1.wav</ShortName>
+							<Path>SFX\AMB_Wind_Woosh_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="262062722" Language="SFX">
+							<ShortName>AMB_Wind_Woosh_6.wav</ShortName>
+							<Path>SFX\AMB_Wind_Woosh_6_D8C07C79.wem</Path>
+						</File>
+						<File Id="306243768" Language="SFX">
+							<ShortName>AMB_Wind_Howling_RFX_5.wav</ShortName>
+							<Path>SFX\AMB_Wind_Howling_RFX_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="425133638" Language="SFX">
+							<ShortName>AMB_Wind_Howling_RFX_1.wav</ShortName>
+							<Path>SFX\AMB_Wind_Howling_RFX_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="440308598" Language="SFX">
+							<ShortName>AMB_Wind_Howling_RFX_4.wav</ShortName>
+							<Path>SFX\AMB_Wind_Howling_RFX_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="464762509" Language="SFX">
+							<ShortName>AMB_Wind_Woosh_3.wav</ShortName>
+							<Path>SFX\AMB_Wind_Woosh_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="500368980" Language="SFX">
+							<ShortName>AMB_Wind_Woosh_4.wav</ShortName>
+							<Path>SFX\AMB_Wind_Woosh_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="529781311" Language="SFX">
+							<ShortName>AMB_Wind_Howling_RFX_6.wav</ShortName>
+							<Path>SFX\AMB_Wind_Howling_RFX_6_D8C07C79.wem</Path>
+						</File>
+						<File Id="843512823" Language="SFX">
+							<ShortName>AMB_Wind_Howling_RFX_3.wav</ShortName>
+							<Path>SFX\AMB_Wind_Howling_RFX_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="848827159" Language="SFX">
+							<ShortName>AMB_Wind_Woosh_5.wav</ShortName>
+							<Path>SFX\AMB_Wind_Woosh_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="861360394" Language="SFX">
+							<ShortName>AMB_Wind_Howling_RFX_2.wav</ShortName>
+							<Path>SFX\AMB_Wind_Howling_RFX_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="919202679" Language="SFX">
+							<ShortName>AMB_Wind_Woosh_2.wav</ShortName>
+							<Path>SFX\AMB_Wind_Woosh_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="990263423" Language="SFX">
+							<ShortName>AMB_Wind_Woosh_7.wav</ShortName>
+							<Path>SFX\AMB_Wind_Woosh_7_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="305604352" Name="Play_Amb_Wind_Void" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Void" MaxAttenuation="5500.000000">
 					<IncludedMemoryFiles>
 						<File Id="735267049" Language="SFX">
 							<ShortName>AMB_Cavern_void_LP.wav</ShortName>
 							<Path>SFX\AMB_Cavern_void_LP_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2279321334" Name="Play_ChuimesTEST" ObjectPath="\Events\Default Work Unit\MC\Play_ChuimesTEST">
+					<IncludedMemoryFiles>
+						<File Id="25502751" Language="SFX">
+							<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
+							<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -205,6 +273,14 @@
 						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1369325311" Name="Play_MC_Falling_Air" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Falling_Air">
+					<IncludedMemoryFiles>
+						<File Id="25445270" Language="SFX">
+							<ShortName>SFX_MC_Falling_PH.wav</ShortName>
+							<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3212184235" Name="Play_MC_FOL_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Jump"/>
 				<Event Id="2037670792" Name="Play_MC_FOL_Land" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Land"/>
 				<Event Id="1608668697" Name="Play_MC_FOL_Pivot" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Pivot"/>
@@ -213,6 +289,7 @@
 				<Event Id="3022734957" Name="Play_MC_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Jump"/>
 				<Event Id="3531921507" Name="Play_MC_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Step"/>
 				<Event Id="3757054751" Name="Play_MC_Taps" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Taps"/>
+				<Event Id="2048695412" Name="Stop_ChuimesTEST" ObjectPath="\Events\Default Work Unit\Stop_ChuimesTEST" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
@@ -247,6 +324,14 @@
 					<ShortName>SFX_MC_FT_Wood_Walk_08.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Walk_08_D8C07C79.wem</Path>
 				</File>
+				<File Id="25445270" Language="SFX">
+					<ShortName>SFX_MC_Falling_PH.wav</ShortName>
+					<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
+				</File>
+				<File Id="25502751" Language="SFX">
+					<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
+					<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
+				</File>
 				<File Id="26887683" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Walk_04_D8C07C79.wem</Path>
@@ -270,6 +355,10 @@
 				<File Id="44970721" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_10.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_10_D8C07C79.wem</Path>
+				</File>
+				<File Id="45234010" Language="SFX">
+					<ShortName>AMB_Wind_Valley_LP.wav</ShortName>
+					<Path>SFX\AMB_Wind_Valley_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="50491045" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Walk_01.wav</ShortName>
@@ -322,6 +411,10 @@
 				<File Id="82524829" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Run_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="84461640" Language="SFX">
+					<ShortName>AMB_Wind_Woosh_1.wav</ShortName>
+					<Path>SFX\AMB_Wind_Woosh_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="85988321" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Jump_03.wav</ShortName>
@@ -523,6 +616,10 @@
 					<ShortName>SFX_MC_FT_Wood_Land_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Land_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="262062722" Language="SFX">
+					<ShortName>AMB_Wind_Woosh_6.wav</ShortName>
+					<Path>SFX\AMB_Wind_Woosh_6_D8C07C79.wem</Path>
+				</File>
 				<File Id="263405576" Language="SFX">
 					<ShortName>SFX_MC_Tap_Stone_6.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Stone_6_EAEF5596.wem</Path>
@@ -586,6 +683,10 @@
 				<File Id="298156216" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Run_8.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Run_8_D8C07C79.wem</Path>
+				</File>
+				<File Id="306243768" Language="SFX">
+					<ShortName>AMB_Wind_Howling_RFX_5.wav</ShortName>
+					<Path>SFX\AMB_Wind_Howling_RFX_5_D8C07C79.wem</Path>
 				</File>
 				<File Id="309651398" Language="SFX">
 					<ShortName>SFX_MC_Tap_Wood_8.wav</ShortName>
@@ -739,6 +840,10 @@
 					<ShortName>SFX_MC_FT_Stone_Run_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Stone_Run_06_D8C07C79.wem</Path>
 				</File>
+				<File Id="425133638" Language="SFX">
+					<ShortName>AMB_Wind_Howling_RFX_1.wav</ShortName>
+					<Path>SFX\AMB_Wind_Howling_RFX_1_D8C07C79.wem</Path>
+				</File>
 				<File Id="425975025" Language="SFX">
 					<ShortName>SFX_MC_Tap_Wood_2.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Wood_2_D8C07C79.wem</Path>
@@ -759,9 +864,13 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem</Path>
 				</File>
+				<File Id="440308598" Language="SFX">
+					<ShortName>AMB_Wind_Howling_RFX_4.wav</ShortName>
+					<Path>SFX\AMB_Wind_Howling_RFX_4_D8C07C79.wem</Path>
+				</File>
 				<File Id="447874868" Language="SFX">
 					<ShortName>AMB_LoreCavern_LP.wav</ShortName>
-					<Path>SFX\AMB_LoreCavern_LP_D8C07C79.wem</Path>
+					<Path>SFX\AMB_LoreCavern_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="450701258" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
@@ -786,6 +895,10 @@
 				<File Id="460289509" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Jump_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Jump_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="464762509" Language="SFX">
+					<ShortName>AMB_Wind_Woosh_3.wav</ShortName>
+					<Path>SFX\AMB_Wind_Woosh_3_D8C07C79.wem</Path>
 				</File>
 				<File Id="467883165" Language="SFX">
 					<ShortName>SFX_MC_Tap_Stone_2.wav</ShortName>
@@ -826,6 +939,10 @@
 				<File Id="498206227" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Run_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_04_D8C07C79.wem</Path>
+				</File>
+				<File Id="500368980" Language="SFX">
+					<ShortName>AMB_Wind_Woosh_4.wav</ShortName>
+					<Path>SFX\AMB_Wind_Woosh_4_D8C07C79.wem</Path>
 				</File>
 				<File Id="500993237" Language="SFX">
 					<ShortName>SFX_MC_FT_Stone_Run_10.wav</ShortName>
@@ -870,6 +987,10 @@
 				<File Id="528652241" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Jump_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="529781311" Language="SFX">
+					<ShortName>AMB_Wind_Howling_RFX_6.wav</ShortName>
+					<Path>SFX\AMB_Wind_Howling_RFX_6_D8C07C79.wem</Path>
 				</File>
 				<File Id="529933926" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Debris_9.wav</ShortName>
@@ -1335,9 +1456,17 @@
 					<ShortName>SFX_MC_Tap_Wood_6.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Wood_6_D8C07C79.wem</Path>
 				</File>
+				<File Id="843512823" Language="SFX">
+					<ShortName>AMB_Wind_Howling_RFX_3.wav</ShortName>
+					<Path>SFX\AMB_Wind_Howling_RFX_3_D8C07C79.wem</Path>
+				</File>
 				<File Id="843873708" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Run_8.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Run_8_D8C07C79.wem</Path>
+				</File>
+				<File Id="848827159" Language="SFX">
+					<ShortName>AMB_Wind_Woosh_5.wav</ShortName>
+					<Path>SFX\AMB_Wind_Woosh_5_D8C07C79.wem</Path>
 				</File>
 				<File Id="849326969" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_02.wav</ShortName>
@@ -1350,6 +1479,10 @@
 				<File Id="860538697" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Run_07_D8C07C79.wem</Path>
+				</File>
+				<File Id="861360394" Language="SFX">
+					<ShortName>AMB_Wind_Howling_RFX_2.wav</ShortName>
+					<Path>SFX\AMB_Wind_Howling_RFX_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="869242387" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Land_01.wav</ShortName>
@@ -1415,6 +1548,10 @@
 					<ShortName>SFX_MC_FT_Grass_Long_Land_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Land_06_D8C07C79.wem</Path>
 				</File>
+				<File Id="919202679" Language="SFX">
+					<ShortName>AMB_Wind_Woosh_2.wav</ShortName>
+					<Path>SFX\AMB_Wind_Woosh_2_D8C07C79.wem</Path>
+				</File>
 				<File Id="919915685" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Cricket_H_05.wav</ShortName>
 					<Path>SFX\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem</Path>
@@ -1457,7 +1594,7 @@
 				</File>
 				<File Id="938665294" Language="SFX">
 					<ShortName>AMB_Drip_Cavern_LP.wav</ShortName>
-					<Path>SFX\AMB_Drip_Cavern_LP_D8C07C79.wem</Path>
+					<Path>SFX\AMB_Drip_Cavern_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="941706445" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Scuff_05.wav</ShortName>
@@ -1502,6 +1639,10 @@
 				<File Id="988188749" Language="SFX">
 					<ShortName>SFX_MC_FOL_Scuff_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Scuff_05_D8C07C79.wem</Path>
+				</File>
+				<File Id="990263423" Language="SFX">
+					<ShortName>AMB_Wind_Woosh_7.wav</ShortName>
+					<Path>SFX\AMB_Wind_Woosh_7_D8C07C79.wem</Path>
 				</File>
 				<File Id="991673199" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Land_02.wav</ShortName>
@@ -1625,6 +1766,7 @@
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="33954365" Name="MC_Falling" ObjectPath="\Game Parameters\Default Work Unit\MC_Falling"/>
 				<GameParameter Id="1227053913" Name="MC_Speed" ObjectPath="\Game Parameters\Default Work Unit\MC_Speed"/>
 				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
 			</GameParameters>

@@ -5,26 +5,59 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1844741024",
+    "Hash": "606174849",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
      {
+      "Id": "2488731060",
+      "Name": "Play_Ending_WaterFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Ending_WaterFall",
+      "MaxAttenuation": "13000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "360954238",
+        "Language": "SFX",
+        "ShortName": "AMB_Ending_WaterFall_Away.wav",
+        "Path": "SFX\\AMB_Ending_WaterFall_Away_0762CC47.wem"
+       },
+       {
+        "Id": "1060485522",
+        "Language": "SFX",
+        "ShortName": "AMB_Ending_WaterFall_Close.wav",
+        "Path": "SFX\\AMB_Ending_WaterFall_Close_0762CC47.wem"
+       }
+      ]
+     },
+     {
       "Id": "2110018169",
       "Name": "Play_Little_WaterFall",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Little_WaterFall",
       "MaxAttenuation": "15000.000000"
+     },
+     {
+      "Id": "1369325311",
+      "Name": "Play_MC_Falling_Air",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Falling_Air",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "25445270",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_Falling_PH.wav",
+        "Path": "SFX\\SFX_MC_Falling_PH_0762CC47.wem"
+       }
+      ]
      },
      {
       "Id": "598048154",
@@ -84,6 +117,12 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Play_SFX_GPE_Catapulte_End",
       "IncludedMemoryFiles": [
        {
+        "Id": "77603674",
+        "Language": "SFX",
+        "ShortName": "SFX_Catapulte_End_02.wav",
+        "Path": "SFX\\SFX_Catapulte_End_02_D8C07C79.wem"
+       },
+       {
         "Id": "1021947564",
         "Language": "SFX",
         "ShortName": "SFX_Catapulte_End.wav",
@@ -109,6 +148,12 @@
       "Name": "Play_SFX_GPE_Catapulte_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Play_SFX_GPE_Catapulte_Start",
       "IncludedMemoryFiles": [
+       {
+        "Id": "50828059",
+        "Language": "SFX",
+        "ShortName": "SFX_Catapulte_Start_02.wav",
+        "Path": "SFX\\SFX_Catapulte_Start_02_D8C07C79.wem"
+       },
        {
         "Id": "957060995",
         "Language": "SFX",
@@ -1553,7 +1598,27 @@
       "Id": "30825167",
       "Name": "Play_SFX_LE_Basero_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_SFX_LE_Basero_LP",
-      "MaxAttenuation": "800.000000"
+      "MaxAttenuation": "950.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "70124005",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Brasero_LP_1.wav",
+        "Path": "SFX\\SFX_LE_Brasero_LP_1_0762CC47.wem"
+       },
+       {
+        "Id": "357413444",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Brasero_LP_2.wav",
+        "Path": "SFX\\SFX_LE_Brasero_LP_2_0762CC47.wem"
+       },
+       {
+        "Id": "442493699",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Brasero_LP_3.wav",
+        "Path": "SFX\\SFX_LE_Brasero_LP_3_0762CC47.wem"
+       }
+      ]
      },
      {
       "Id": "2590190883",
@@ -1805,6 +1870,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G1_03_D8C07C79.wem"
      },
      {
+      "Id": "50828059",
+      "Language": "SFX",
+      "ShortName": "SFX_Catapulte_Start_02.wav",
+      "Path": "SFX\\SFX_Catapulte_Start_02_D8C07C79.wem"
+     },
+     {
       "Id": "64635819",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_C4.wav",
@@ -1826,7 +1897,7 @@
       "Id": "70124005",
       "Language": "SFX",
       "ShortName": "SFX_LE_Brasero_LP_1.wav",
-      "Path": "SFX\\SFX_LE_Brasero_LP_1_D8C07C79.wem"
+      "Path": "SFX\\SFX_LE_Brasero_LP_1_0762CC47.wem"
      },
      {
       "Id": "72119939",
@@ -1839,6 +1910,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Butterfly_Layer_C3.wav",
       "Path": "SFX\\SFX_GPE_Butterfly_Layer_C3_D8C07C79.wem"
+     },
+     {
+      "Id": "77603674",
+      "Language": "SFX",
+      "ShortName": "SFX_Catapulte_End_02.wav",
+      "Path": "SFX\\SFX_Catapulte_End_02_D8C07C79.wem"
      },
      {
       "Id": "79435795",
@@ -2192,7 +2269,13 @@
       "Id": "357413444",
       "Language": "SFX",
       "ShortName": "SFX_LE_Brasero_LP_2.wav",
-      "Path": "SFX\\SFX_LE_Brasero_LP_2_D8C07C79.wem"
+      "Path": "SFX\\SFX_LE_Brasero_LP_2_0762CC47.wem"
+     },
+     {
+      "Id": "360954238",
+      "Language": "SFX",
+      "ShortName": "AMB_Ending_WaterFall_Away.wav",
+      "Path": "SFX\\AMB_Ending_WaterFall_Away_0762CC47.wem"
      },
      {
       "Id": "377871452",
@@ -2282,7 +2365,7 @@
       "Id": "442493699",
       "Language": "SFX",
       "ShortName": "SFX_LE_Brasero_LP_3.wav",
-      "Path": "SFX\\SFX_LE_Brasero_LP_3_D8C07C79.wem"
+      "Path": "SFX\\SFX_LE_Brasero_LP_3_0762CC47.wem"
      },
      {
       "Id": "443084533",
@@ -2492,7 +2575,7 @@
       "Id": "668422005",
       "Language": "SFX",
       "ShortName": "SFX_WaterFall_BIG.wav",
-      "Path": "SFX\\SFX_WaterFall_BIG_D8C07C79.wem"
+      "Path": "SFX\\SFX_WaterFall_BIG_0762CC47.wem"
      },
      {
       "Id": "669892981",
@@ -2921,6 +3004,12 @@
       "Path": "SFX\\SFX_GPE_Telek_C_Out_D8C07C79.wem"
      },
      {
+      "Id": "1060485522",
+      "Language": "SFX",
+      "ShortName": "AMB_Ending_WaterFall_Close.wav",
+      "Path": "SFX\\AMB_Ending_WaterFall_Close_0762CC47.wem"
+     },
+     {
       "Id": "1063009932",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_A4.wav",
@@ -2946,6 +3035,11 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "33954365",
+      "Name": "MC_Falling",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Falling"
+     },
      {
       "Id": "1147290023",
       "Name": "VelocityZipline",

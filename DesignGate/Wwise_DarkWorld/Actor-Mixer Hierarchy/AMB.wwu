@@ -3483,8 +3483,14 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
-				<BlendContainer Name="Amb_Wind_RFX" ID="{089F2094-223E-47AB-8058-841CD1561614}" ShortID="93982560">
+				<BlendContainer Name="Amb_Wind_Valley" ID="{089F2094-223E-47AB-8058-841CD1561614}" ShortID="93982560">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AMB Valley ATT" ID="{06F6E7AD-7FCF-4695-BA58-16BE9CC160EE}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 						</Reference>
@@ -3493,7 +3499,55 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Amb_Wind_Bed_Layer" ID="{738F3B9F-399B-4262-96A6-A03A0153A22E}" ShortID="95383863">
+						<RandomSequenceContainer Name="Amb_Wind_Howling_RFX" ID="{BB286868-536F-45FD-8E2B-C4ADAF09B0E7}" ShortID="289522650">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1DECCDF8-58BF-4333-8B11-820622BA482C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8B0D9351-4439-41F3-834E-D89BC507180B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{47B869D4-1BEC-44FD-A285-481E18974044}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -3502,8 +3556,240 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Wind_Howling_RFX_1" ID="{8714AF4C-B38A-454A-9B89-562F9B9B80DD}" ShortID="670472808">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_1" ID="{C83E807F-CBFD-4330-AD79-A18E5E4BB414}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="425133638"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_1" ID="{C83E807F-CBFD-4330-AD79-A18E5E4BB414}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_2" ID="{678937B2-E253-47AD-907F-FDA015A4C65B}" ShortID="271859903">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_2" ID="{43438D32-632A-4039-8DB1-7EF6079A2D4A}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861360394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_2" ID="{43438D32-632A-4039-8DB1-7EF6079A2D4A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_3" ID="{2D8CE6DF-09F5-4C0E-B15E-15C49E60150C}" ShortID="232844318">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EB859AEE-B8FA-4881-A083-6A02EBA057A8}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_3" ID="{BA637D88-15B4-4D99-BF5B-B02E7173D105}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="843512823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_3" ID="{BA637D88-15B4-4D99-BF5B-B02E7173D105}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_4" ID="{B8BA9B46-5562-4023-966B-271725B52501}" ShortID="1006545558">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C773E18C-FDAC-4403-A072-C535BDE23784}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_4" ID="{DE4ECC31-F1CE-4DAE-93BE-388C846D2371}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="440308598"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_4" ID="{DE4ECC31-F1CE-4DAE-93BE-388C846D2371}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_5" ID="{083F6C39-06B4-42BF-B2DC-F97536D3EAF8}" ShortID="642669013">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{08B28CCE-7E4C-4754-8811-B308F0773462}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_5" ID="{ADDF7E7E-1139-49D8-8EEF-ADB085046973}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="306243768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_5" ID="{ADDF7E7E-1139-49D8-8EEF-ADB085046973}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_6" ID="{CA0126F7-2785-432F-990E-E972B8571C7F}" ShortID="945287383">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{42D61072-53D0-467B-805D-0F6177FA980C}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_6" ID="{7AC4725E-7D05-4165-A2E0-836072EC22C5}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="529781311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_6" ID="{7AC4725E-7D05-4165-A2E0-836072EC22C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Amb_Wind_Howling" ID="{BB286868-536F-45FD-8E2B-C4ADAF09B0E7}" ShortID="289522650">
+						<RandomSequenceContainer Name="Amb_Wind_Woosh_RFX" ID="{8F1CAA0F-A73F-4076-91F3-EA4BF7057FB3}" ShortID="803443334">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F679A3C6-9417-447E-9B1F-6114112CDAFA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="7"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{79DFD80C-3014-45D7-B602-B5B9D6D630C9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="7"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8BED0B06-AE30-4A13-802F-1FB6B4823851}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -3512,9 +3798,270 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Wind_Woosh_1" ID="{4B0F1DE4-CF09-485B-B87A-69928694CF27}" ShortID="273059499">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2169DBDB-056A-47D9-9DF5-4B91191B99C4}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Woosh_1" ID="{9C55DEED-1FF1-4D3E-B609-59AFEBAB7E49}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Woosh_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="84461640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Woosh_1" ID="{9C55DEED-1FF1-4D3E-B609-59AFEBAB7E49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Woosh_2" ID="{717A9F9B-CCD3-42A2-B2F9-C8C00CCB46D8}" ShortID="999007614">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Woosh_2" ID="{B0375853-A5B4-469C-859E-0C080A7ABD11}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Woosh_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="919202679"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Woosh_2" ID="{B0375853-A5B4-469C-859E-0C080A7ABD11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Woosh_3" ID="{0D70488B-F0B2-4AFB-B972-BF149E6023AF}" ShortID="788306948">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1F0428BE-E694-4CC8-8010-C40D220352A8}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Woosh_3" ID="{4C8499A0-86B7-4A9F-82EC-790071F11EEC}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Woosh_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464762509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Woosh_3" ID="{4C8499A0-86B7-4A9F-82EC-790071F11EEC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Woosh_4" ID="{822C20AA-C79B-4C62-A009-E678534C6854}" ShortID="356229228">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Woosh_4" ID="{26690007-E89A-4A6F-9F8C-17A26D5D980B}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Woosh_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="500368980"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Woosh_4" ID="{26690007-E89A-4A6F-9F8C-17A26D5D980B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Woosh_5" ID="{E0B6246D-F7EE-4DD2-BCB3-3339CC902799}" ShortID="902969774">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Woosh_5" ID="{8ACE4403-8D5E-4604-86D6-FD8486B2C271}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Woosh_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848827159"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Woosh_5" ID="{8ACE4403-8D5E-4604-86D6-FD8486B2C271}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Woosh_6" ID="{FB1B87F9-56CB-429A-A767-21DCA1D05B61}" ShortID="1041367323">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6644CE85-908D-4CFD-9717-761D57E44DD4}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Woosh_6" ID="{58BC98FD-E0CD-4302-B610-917366446C34}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Woosh_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="262062722"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Woosh_6" ID="{58BC98FD-E0CD-4302-B610-917366446C34}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Woosh_7" ID="{375E077A-79CC-4AD7-B7C5-BE1227AC5290}" ShortID="45299406">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2BAE5EAF-6859-4B77-B245-EAD6B208B096}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="8"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Woosh_7" ID="{DF10E32B-3C3D-4B40-9A83-0DD0908307FE}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Woosh_7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="990263423"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Woosh_7" ID="{DF10E32B-3C3D-4B40-9A83-0DD0908307FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Amb_Wind_Woosh" ID="{8F1CAA0F-A73F-4076-91F3-EA4BF7057FB3}" ShortID="803443334">
+						<Sound Name="Amb_Wind_Base_layer" ID="{71BC9FB4-FAA0-45C2-BA08-02BDA42D8611}" ShortID="433222241">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AMB Valley ATT" ID="{06F6E7AD-7FCF-4695-BA58-16BE9CC160EE}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 								</Reference>
@@ -3522,7 +4069,19 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 							</ReferenceList>
-						</RandomSequenceContainer>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Wind_Valley_LP" ID="{47C510A8-C85E-4C7C-9563-1A94961A37CC}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Wind_Valley_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="45234010"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Wind_Valley_LP" ID="{47C510A8-C85E-4C7C-9563-1A94961A37CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Amb_Lake_Lapping" ID="{5FD2968B-CBC9-44B6-BDC8-15A44749E2C0}" ShortID="707118577">
@@ -7792,6 +8351,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -7820,6 +8384,7 @@
 				<Sound Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" ShortID="242160193">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -7848,6 +8413,12 @@
 				<Sound Name="Amb_Drip_Cavern" ID="{7255231C-7825-4B07-B1CD-F620D1705040}" ShortID="50989239">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

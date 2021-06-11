@@ -32,8 +32,10 @@ namespace AK
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
         static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
+        static const AkUniqueID PLAY_AMB_WIND_VALLEY = 4244289267U;
         static const AkUniqueID PLAY_AMB_WIND_VOID = 305604352U;
         static const AkUniqueID PLAY_DARKWORLD_ZELDA_PAD = 2904809513U;
+        static const AkUniqueID PLAY_ENDING_WATERFALL = 2488731060U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_01 = 764168061U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_02 = 764168062U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_03 = 764168063U;
@@ -64,6 +66,7 @@ namespace AK
         static const AkUniqueID PLAY_FLUTE_ZELDA_WRONG = 533658235U;
         static const AkUniqueID PLAY_INSECT_RFX = 1075472767U;
         static const AkUniqueID PLAY_LITTLE_WATERFALL = 2110018169U;
+        static const AkUniqueID PLAY_MC_FALLING_WOOSH = 4231511915U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
         static const AkUniqueID PLAY_MC_FOL_LAND = 2037670792U;
         static const AkUniqueID PLAY_MC_FOL_PIVOT = 1608668697U;

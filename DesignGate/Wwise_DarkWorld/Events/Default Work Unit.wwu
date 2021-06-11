@@ -177,6 +177,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Wind_Valley" ID="{B89D65E3-F71C-4151-A319-FEC0120640BF}">
+							<ChildrenList>
+								<Action Name="" ID="{14C44FF8-3362-4B13-8E9C-6A5D9FFA4043}" ShortID="134796426">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Wind_Valley" ID="{089F2094-223E-47AB-8058-841CD1561614}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>
@@ -228,6 +239,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Ending_WaterFall" ID="{A0EC6475-C82A-479B-A6C2-18633836EE31}">
+							<ChildrenList>
+								<Action Name="" ID="{DC65D7D2-1CE8-4E25-A226-3FB50FBD65B8}" ShortID="820250717">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ending_WaterFall" ID="{1099E65E-09B1-45F2-96F2-3479AFC7A886}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="Amb_Tonal" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" PersistMode="Reference"/>
@@ -238,6 +260,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Falling_woosh" ID="{90220EBB-0D05-44B9-B418-49250057FF54}">
+					<ChildrenList>
+						<Action Name="" ID="{C64A1576-DF13-4392-A430-5456F2917D06}" ShortID="109795991">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Falling_woosh" ID="{BAB636EE-C1EB-437C-A323-9B1F091B9663}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

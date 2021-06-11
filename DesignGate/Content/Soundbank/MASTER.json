@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1494517081",
+    "Hash": "774759804",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -148,7 +148,7 @@
       "Id": "2982907204",
       "Name": "Play_Amb_Drip_Cavern",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Drip_Cavern",
-      "MaxAttenuation": "5500.000000"
+      "MaxAttenuation": "6500.000000"
      },
      {
       "Id": "172812343",
@@ -199,6 +199,98 @@
       "Id": "3619535171",
       "Name": "Play_Amb_Water_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Water_RFX"
+     },
+     {
+      "Id": "4244289267",
+      "Name": "Play_Amb_Wind_Valley",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Valley",
+      "MaxAttenuation": "7500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "45234010",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Valley_LP.wav",
+        "Path": "SFX\\AMB_Wind_Valley_LP_0762CC47.wem"
+       },
+       {
+        "Id": "84461640",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Woosh_1.wav",
+        "Path": "SFX\\AMB_Wind_Woosh_1_D8C07C79.wem"
+       },
+       {
+        "Id": "262062722",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Woosh_6.wav",
+        "Path": "SFX\\AMB_Wind_Woosh_6_D8C07C79.wem"
+       },
+       {
+        "Id": "306243768",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Howling_RFX_5.wav",
+        "Path": "SFX\\AMB_Wind_Howling_RFX_5_D8C07C79.wem"
+       },
+       {
+        "Id": "425133638",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Howling_RFX_1.wav",
+        "Path": "SFX\\AMB_Wind_Howling_RFX_1_D8C07C79.wem"
+       },
+       {
+        "Id": "440308598",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Howling_RFX_4.wav",
+        "Path": "SFX\\AMB_Wind_Howling_RFX_4_D8C07C79.wem"
+       },
+       {
+        "Id": "464762509",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Woosh_3.wav",
+        "Path": "SFX\\AMB_Wind_Woosh_3_D8C07C79.wem"
+       },
+       {
+        "Id": "500368980",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Woosh_4.wav",
+        "Path": "SFX\\AMB_Wind_Woosh_4_D8C07C79.wem"
+       },
+       {
+        "Id": "529781311",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Howling_RFX_6.wav",
+        "Path": "SFX\\AMB_Wind_Howling_RFX_6_D8C07C79.wem"
+       },
+       {
+        "Id": "843512823",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Howling_RFX_3.wav",
+        "Path": "SFX\\AMB_Wind_Howling_RFX_3_D8C07C79.wem"
+       },
+       {
+        "Id": "848827159",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Woosh_5.wav",
+        "Path": "SFX\\AMB_Wind_Woosh_5_D8C07C79.wem"
+       },
+       {
+        "Id": "861360394",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Howling_RFX_2.wav",
+        "Path": "SFX\\AMB_Wind_Howling_RFX_2_D8C07C79.wem"
+       },
+       {
+        "Id": "919202679",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Woosh_2.wav",
+        "Path": "SFX\\AMB_Wind_Woosh_2_D8C07C79.wem"
+       },
+       {
+        "Id": "990263423",
+        "Language": "SFX",
+        "ShortName": "AMB_Wind_Woosh_7.wav",
+        "Path": "SFX\\AMB_Wind_Woosh_7_D8C07C79.wem"
+       }
+      ]
      },
      {
       "Id": "305604352",
@@ -355,6 +447,19 @@
       ]
      },
      {
+      "Id": "4231511915",
+      "Name": "Play_MC_Falling_woosh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MC_Falling_woosh",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "25445270",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_Falling_PH.wav",
+        "Path": "SFX\\SFX_MC_Falling_PH_0762CC47.wem"
+       }
+      ]
+     },
+     {
       "Id": "3212184235",
       "Name": "Play_MC_FOL_Jump",
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_FOL_Jump"
@@ -453,6 +558,12 @@
       "Path": "SFX\\SFX_MC_FT_Wood_Walk_08_D8C07C79.wem"
      },
      {
+      "Id": "25445270",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_Falling_PH.wav",
+      "Path": "SFX\\SFX_MC_Falling_PH_0762CC47.wem"
+     },
+     {
       "Id": "26887683",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Walk_04.wav",
@@ -487,6 +598,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Run_10.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Run_10_D8C07C79.wem"
+     },
+     {
+      "Id": "45234010",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Valley_LP.wav",
+      "Path": "SFX\\AMB_Wind_Valley_LP_0762CC47.wem"
      },
      {
       "Id": "50491045",
@@ -565,6 +682,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Run_01.wav",
       "Path": "SFX\\SFX_MC_FT_Wood_Run_01_D8C07C79.wem"
+     },
+     {
+      "Id": "84461640",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Woosh_1.wav",
+      "Path": "SFX\\AMB_Wind_Woosh_1_D8C07C79.wem"
      },
      {
       "Id": "85988321",
@@ -867,6 +990,12 @@
       "Path": "SFX\\SFX_MC_FT_Wood_Land_02_D8C07C79.wem"
      },
      {
+      "Id": "262062722",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Woosh_6.wav",
+      "Path": "SFX\\AMB_Wind_Woosh_6_D8C07C79.wem"
+     },
+     {
       "Id": "263405576",
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Stone_6.wav",
@@ -961,6 +1090,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Run_8.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Run_8_D8C07C79.wem"
+     },
+     {
+      "Id": "306243768",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Howling_RFX_5.wav",
+      "Path": "SFX\\AMB_Wind_Howling_RFX_5_D8C07C79.wem"
      },
      {
       "Id": "309651398",
@@ -1191,6 +1326,12 @@
       "Path": "SFX\\SFX_MC_FT_Stone_Run_06_D8C07C79.wem"
      },
      {
+      "Id": "425133638",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Howling_RFX_1.wav",
+      "Path": "SFX\\AMB_Wind_Howling_RFX_1_D8C07C79.wem"
+     },
+     {
       "Id": "425975025",
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Wood_2.wav",
@@ -1221,10 +1362,16 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Walk_07_D8C07C79.wem"
      },
      {
+      "Id": "440308598",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Howling_RFX_4.wav",
+      "Path": "SFX\\AMB_Wind_Howling_RFX_4_D8C07C79.wem"
+     },
+     {
       "Id": "447874868",
       "Language": "SFX",
       "ShortName": "AMB_LoreCavern_LP.wav",
-      "Path": "SFX\\AMB_LoreCavern_LP_D8C07C79.wem"
+      "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
      },
      {
       "Id": "450701258",
@@ -1261,6 +1408,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Jump_03.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Jump_03_D8C07C79.wem"
+     },
+     {
+      "Id": "464762509",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Woosh_3.wav",
+      "Path": "SFX\\AMB_Wind_Woosh_3_D8C07C79.wem"
      },
      {
       "Id": "467883165",
@@ -1321,6 +1474,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Run_04.wav",
       "Path": "SFX\\SFX_MC_FT_Wood_Run_04_D8C07C79.wem"
+     },
+     {
+      "Id": "500368980",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Woosh_4.wav",
+      "Path": "SFX\\AMB_Wind_Woosh_4_D8C07C79.wem"
      },
      {
       "Id": "500993237",
@@ -1387,6 +1546,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Jump_01.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Jump_01_D8C07C79.wem"
+     },
+     {
+      "Id": "529781311",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Howling_RFX_6.wav",
+      "Path": "SFX\\AMB_Wind_Howling_RFX_6_D8C07C79.wem"
      },
      {
       "Id": "529933926",
@@ -2085,10 +2250,22 @@
       "Path": "SFX\\SFX_MC_Tap_Wood_6_D8C07C79.wem"
      },
      {
+      "Id": "843512823",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Howling_RFX_3.wav",
+      "Path": "SFX\\AMB_Wind_Howling_RFX_3_D8C07C79.wem"
+     },
+     {
       "Id": "843873708",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Os_Run_8.wav",
       "Path": "SFX\\SFX_MC_FOL_Os_Run_8_D8C07C79.wem"
+     },
+     {
+      "Id": "848827159",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Woosh_5.wav",
+      "Path": "SFX\\AMB_Wind_Woosh_5_D8C07C79.wem"
      },
      {
       "Id": "849326969",
@@ -2107,6 +2284,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Run_07.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Run_07_D8C07C79.wem"
+     },
+     {
+      "Id": "861360394",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Howling_RFX_2.wav",
+      "Path": "SFX\\AMB_Wind_Howling_RFX_2_D8C07C79.wem"
      },
      {
       "Id": "869242387",
@@ -2205,6 +2388,12 @@
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Land_06_D8C07C79.wem"
      },
      {
+      "Id": "919202679",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Woosh_2.wav",
+      "Path": "SFX\\AMB_Wind_Woosh_2_D8C07C79.wem"
+     },
+     {
       "Id": "919915685",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Insect_Cricket_H_05.wav",
@@ -2268,7 +2457,7 @@
       "Id": "938665294",
       "Language": "SFX",
       "ShortName": "AMB_Drip_Cavern_LP.wav",
-      "Path": "SFX\\AMB_Drip_Cavern_LP_D8C07C79.wem"
+      "Path": "SFX\\AMB_Drip_Cavern_LP_0762CC47.wem"
      },
      {
       "Id": "941706445",
@@ -2335,6 +2524,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Scuff_05.wav",
       "Path": "SFX\\SFX_MC_FOL_Scuff_05_D8C07C79.wem"
+     },
+     {
+      "Id": "990263423",
+      "Language": "SFX",
+      "ShortName": "AMB_Wind_Woosh_7.wav",
+      "Path": "SFX\\AMB_Wind_Woosh_7_D8C07C79.wem"
      },
      {
       "Id": "991673199",
@@ -2518,6 +2713,11 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "33954365",
+      "Name": "MC_Falling",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Falling"
+     },
      {
       "Id": "1227053913",
       "Name": "MC_Speed",

@@ -265,12 +265,15 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_MC_Falling_woosh" ID="{90220EBB-0D05-44B9-B418-49250057FF54}">
+				<Event Name="Stop_ChuimesTEST" ID="{7C148D49-57E6-40BC-B4FB-8F40C3843785}">
 					<ChildrenList>
-						<Action Name="" ID="{C64A1576-DF13-4392-A430-5456F2917D06}" ShortID="109795991">
+						<Action Name="" ID="{BDCC289D-17B9-489F-9B55-4BAE19DCD470}" ShortID="733737180">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MC_Falling_woosh" ID="{BAB636EE-C1EB-437C-A323-9B1F091B9663}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+									<ObjectRef Name="MC_Soft_Falling_PH" ID="{54418CB5-E0B2-4DCE-A7DB-652A50DDAB68}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -15,7 +15,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3880727191",
+    "Hash": "606174849",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -45,6 +45,19 @@
       "Name": "Play_Little_WaterFall",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Little_WaterFall",
       "MaxAttenuation": "15000.000000"
+     },
+     {
+      "Id": "1369325311",
+      "Name": "Play_MC_Falling_Air",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Falling_Air",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "25445270",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_Falling_PH.wav",
+        "Path": "SFX\\SFX_MC_Falling_PH_0762CC47.wem"
+       }
+      ]
      },
      {
       "Id": "598048154",
@@ -3022,6 +3035,11 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "33954365",
+      "Name": "MC_Falling",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Falling"
+     },
      {
       "Id": "1147290023",
       "Name": "VelocityZipline",

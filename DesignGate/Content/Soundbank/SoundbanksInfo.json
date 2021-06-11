@@ -31,7 +31,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3880727191",
+    "Hash": "606174849",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -61,6 +61,19 @@
       "Name": "Play_Little_WaterFall",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Little_WaterFall",
       "MaxAttenuation": "15000.000000"
+     },
+     {
+      "Id": "1369325311",
+      "Name": "Play_MC_Falling_Air",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Falling_Air",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "25445270",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_Falling_PH.wav",
+        "Path": "SFX\\SFX_MC_Falling_PH_0762CC47.wem"
+       }
+      ]
      },
      {
       "Id": "598048154",
@@ -3039,6 +3052,11 @@
     ],
     "GameParameters": [
      {
+      "Id": "33954365",
+      "Name": "MC_Falling",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Falling"
+     },
+     {
       "Id": "1147290023",
       "Name": "VelocityZipline",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\VelocityZipline"
@@ -4184,7 +4202,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "774759804",
+    "Hash": "1122093426",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -4476,6 +4494,19 @@
       ]
      },
      {
+      "Id": "2279321334",
+      "Name": "Play_ChuimesTEST",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_ChuimesTEST",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "25502751",
+        "Language": "SFX",
+        "ShortName": "SFX_Green_Feather_Collectible_LP.wav",
+        "Path": "SFX\\SFX_Green_Feather_Collectible_LP_D8C07C79.wem"
+       }
+      ]
+     },
+     {
       "Id": "2904809513",
       "Name": "Play_DarkWorld_Zelda_Pad",
       "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Play_DarkWorld_Zelda_Pad"
@@ -4616,9 +4647,9 @@
       ]
      },
      {
-      "Id": "4231511915",
-      "Name": "Play_MC_Falling_woosh",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_MC_Falling_woosh",
+      "Id": "1369325311",
+      "Name": "Play_MC_Falling_Air",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Falling_Air",
       "IncludedMemoryFiles": [
        {
         "Id": "25445270",
@@ -4667,6 +4698,12 @@
       "Id": "3757054751",
       "Name": "Play_MC_Taps",
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Taps"
+     },
+     {
+      "Id": "2048695412",
+      "Name": "Stop_ChuimesTEST",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_ChuimesTEST",
+      "MaxAttenuation": "0.000000"
      },
      {
       "Id": "3181251971",
@@ -4728,6 +4765,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_Falling_PH.wav",
       "Path": "SFX\\SFX_MC_Falling_PH_0762CC47.wem"
+     },
+     {
+      "Id": "25502751",
+      "Language": "SFX",
+      "ShortName": "SFX_Green_Feather_Collectible_LP.wav",
+      "Path": "SFX\\SFX_Green_Feather_Collectible_LP_D8C07C79.wem"
      },
      {
       "Id": "26887683",

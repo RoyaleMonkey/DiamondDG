@@ -95,6 +95,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MC_Falling_Air" ID="{F6E4AF7D-C428-4FC5-9E50-05939AE0DE22}">
+					<ChildrenList>
+						<Action Name="" ID="{5C2870B6-D544-427B-80CF-3D1871FF8DEB}" ShortID="1025602726">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Falling_Air" ID="{BAB636EE-C1EB-437C-A323-9B1F091B9663}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ChuimesTEST" ID="{1B061188-8868-45D8-91D7-3D3421B332A6}">
+					<ChildrenList>
+						<Action Name="" ID="{EE40187C-13EC-4CBC-8745-5BCE546A1032}" ShortID="159149659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Soft_Falling_PH" ID="{54418CB5-E0B2-4DCE-A7DB-652A50DDAB68}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

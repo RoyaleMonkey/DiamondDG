@@ -37,7 +37,8 @@
 								</Action>
 								<Action Name="" ID="{23FE306B-9056-4552-A070-168D3D1B7A95}" ShortID="969893803">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -123,6 +124,22 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Waterfall_Out" ID="{0DD4E9D1-1BCF-4C57-97EA-529C39F39623}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Mus_Waterfall" ID="{A8C6E1FF-B926-48C3-8384-A9CB28B1AA22}">
+							<ChildrenList>
+								<Action Name="" ID="{D5DE5395-2A1C-4A6C-9732-017208861B13}" ShortID="777735793">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1208900695">
+		<SoundBank Id="3991942870" Language="SFX" Hash="2529354358">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -23,6 +23,7 @@
 						<ActionSetStateEntry Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3867830866" Name="Stop_Mus_Waterfall" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Stop_Mus_Waterfall" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="170212341" Language="SFX">

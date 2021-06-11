@@ -61,7 +61,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3986396417",
+    "Hash": "4043903410",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -4250,7 +4250,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "1208900695",
+    "Hash": "2529354358",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -4278,6 +4278,12 @@
         "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In"
        }
       ]
+     },
+     {
+      "Id": "3867830866",
+      "Name": "Stop_Mus_Waterfall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Stop_Mus_Waterfall",
+      "MaxAttenuation": "0.000000"
      }
     ],
     "ReferencedStreamedFiles": [
@@ -4383,7 +4389,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1042463204",
+    "Hash": "2987206719",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",

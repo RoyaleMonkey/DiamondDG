@@ -9,6 +9,11 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" ShortID="149500145">
 					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-9</Value>
@@ -247,6 +252,11 @@
 						<MusicPlaylistContainer Name="Mus_Discovery_LP" ID="{80E0D84B-CCFA-4603-9EAF-6F1C772CCF53}" ShortID="392714936">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="96"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -354,6 +364,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Mus_Discovery_Out" ID="{0CA7498F-B846-487D-9766-526539715816}" ShortID="724924353">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -470,9 +487,6 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{B667FB3F-023E-437F-810C-80C92A15FF0C}" ShortID="146573398">
-									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
-									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{EAD0644D-B5BD-41C1-84F3-5F09F27C6837}" ShortID="177224307">
 											<PropertyList>
@@ -553,6 +567,11 @@
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="153"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -627,7 +646,7 @@
 															<PropertyList>
 																<Property Name="BeginTrimOffset" Type="Real64" Value="2.8421709430404E-13"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="56470.5833333333"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6075.19571354751"/>
 															</PropertyList>
 															<AudioSourceRef Name="Mus_Waterfall_In" ID="{A351F8EE-DAF4-4D80-A9DC-22038AD6A4B9}"/>
 															<PropertyCurveList>
@@ -915,8 +934,8 @@
 														<MusicClip Name="Mus_Waterfall_3rd" ID="{43CA3E7F-5F94-42B9-9C12-B545FD66F9B1}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="59607.8333333333"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="1863.46966806631"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="5881.57613983429"/>
 															</PropertyList>
 															<AudioSourceRef Name="Mus_Waterfall_3rd" ID="{BBDCAE1A-88C0-4E9F-930E-CEFAED315663}"/>
 														</MusicClip>
@@ -1029,7 +1048,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Mus_Waterfall_Out" ID="{C53EC5E5-C3FA-43FF-A1AE-CC702692FEAD}" ShortID="517381772">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="59607.8357843137"/>
+										<Property Name="EndPosition" Type="Real64" Value="60623.4526803036"/>
 										<Property Name="Tempo" Type="Real64" Value="153"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1076,11 +1095,71 @@
 													<ClipList>
 														<MusicClip Name="Mus_Waterfall_Out" ID="{AA15546B-B3B3-498B-9022-B31CB896B95C}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="58039.2083333333"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="59607.8431372549"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="3092.04911849466"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6069.57789926729"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
 															</PropertyList>
 															<AudioSourceRef Name="Mus_Waterfall_Out" ID="{C59DC3C7-E46D-479F-ABD8-FEB5B593DAE0}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{A3981192-811C-43C6-97CF-46E2C0CCD6C9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.60784</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{98BC2137-0526-43A6-A70B-7EAC2789CDC6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.60784</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{99AD7C7D-D955-43F2-853A-FC37C03F2B5A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.60784</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1124,11 +1203,71 @@
 													<ClipList>
 														<MusicClip Name="Mus_Waterfall_ Fx" ID="{330CBD1E-782A-4D96-9DA0-F697EB609723}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="59607.8333333333"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="59607.8333333334"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="3034.78894963365"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4924.37452204706"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
 															</PropertyList>
 															<AudioSourceRef Name="Mus_Waterfall_ Fx" ID="{0F66A9E0-5A23-4B28-B8BD-725F3A5B605A}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{2F73BA01-D95A-4F3C-A9AE-51521C8E93C8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.60783</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{1AFB3860-417A-4A9F-9C00-7808AB8917FF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.60783</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{631C8C82-1F3B-4CDE-92DF-148D4B5BFF8F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.60783</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1144,7 +1283,7 @@
 										<MusicCue Name="Exit Cue" ID="{F19FD7D5-6449-4621-BA01-13031D4BF5A6}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="47058.8235294117"/>
+												<Property Name="TimeMs" Type="Real64" Value="54901.9607843137"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -1165,9 +1304,6 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{15FCE5A9-1CE1-4843-92FE-AED4D4CB7B5D}" ShortID="720041483">
-									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
-									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{75267921-E5E2-46B2-945A-FC96ED552E83}" ShortID="351335028">
 											<PropertyList>
@@ -1204,6 +1340,8 @@
 								<MusicTransition Name="Transition" ID="{34BF9FED-FB1A-4EFF-B738-2CA7E2675167}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1214,11 +1352,24 @@
 											<ObjectRef Name="Mus_Waterfall_In" ID="{56187D2C-9725-41CB-86A2-CA26F84C8CFA}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{95FEFEAA-CCD8-4D83-BCAA-527326348146}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="5"/>
+													<Property Name="FadeTime" Type="Real64" Value="5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{3CC0F214-BAD9-4B90-97E8-523432308F3D}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1229,11 +1380,24 @@
 											<ObjectRef Name="Mus_Waterfall_2nd" ID="{36613FBE-CF82-44AE-8A4A-980A51D00A0E}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{9F6886B7-EAC4-4CE5-93CF-B6CD6965BFE4}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{132A8BC6-A8E5-4BD1-9EA8-6F51B1879FD8}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1244,11 +1408,23 @@
 											<ObjectRef Name="Mus_Waterfall_3rd" ID="{51D6986A-32EB-4320-9C4F-DC5A488837D2}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{9C222824-09F2-4570-9F7B-FBCE185A937D}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="5"/>
+													<Property Name="FadeTime" Type="Real64" Value="5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{66893EAA-CFC8-4E60-AD7C-00421E1BD318}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>

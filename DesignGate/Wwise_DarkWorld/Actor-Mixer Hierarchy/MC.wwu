@@ -23,9 +23,6 @@
 							</ModifierList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-10</Value>
-							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{0FD41160-A998-4ECE-82C2-F2A1EBCF785B}">
@@ -77,7 +74,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>3</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -112,7 +109,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -265,7 +262,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -394,6 +391,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -530,6 +532,11 @@
 											<PropertyList>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -764,6 +771,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Grass_Short_Run" ID="{12AE7DEA-20C8-4388-BF58-829FE363622C}" ShortID="269802459">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
 											</PropertyList>
@@ -1214,6 +1226,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_MC_FT_Grass_Short_Debris_10" ID="{54D2252A-AA03-4DE2-8609-FD245F095C43}" ShortID="191010774">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -1339,7 +1358,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>3</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1505,7 +1524,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1735,6 +1754,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Stone_Steps" ID="{9A74C7C0-5AE1-42EE-B00F-919AD13E1C16}" ShortID="572799364">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -2317,6 +2343,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{998E495B-4887-4503-8FF8-6A48CAACB84C}">
@@ -3239,9 +3268,6 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
-									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{D51DF73E-EF10-4AC5-A77C-848133D1C708}">
@@ -3273,6 +3299,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3399,6 +3430,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4245,6 +4281,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{BD2862BD-D78F-4560-9013-A8186FC2361A}">
@@ -6192,7 +6231,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>3</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -7214,7 +7253,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-13</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -7518,9 +7557,6 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{5A5FA95F-7CE3-42C6-96C5-3B86080991F4}">
@@ -8517,7 +8553,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -8866,7 +8902,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-5</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -9201,9 +9237,6 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-15</Value>
-									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{9ACFCA8E-80E2-4356-957B-354C64B06B35}">
@@ -10592,6 +10625,115 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="MC_Falling_woosh" ID="{BAB636EE-C1EB-437C-A323-9B1F091B9663}" ShortID="674111696">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{DCAC9835-2777-4FEE-89BC-21BB67D6924C}" ShortID="122919098">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8592C087-6E29-430F-A446-FE876603ABE8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-3800</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-2364.7482</XPos>
+												<YPos>602</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-1808.87289</XPos>
+												<YPos>257</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-1248.44125</XPos>
+												<YPos>-237</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-4800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-19</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{BD77944A-977B-4CFF-9D75-F0C2CE58AA71}" ShortID="642677835">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{07C409EB-BC40-4CD8-AD97-BD0CFC138373}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-3800</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-2000.23981</XPos>
+												<YPos>0.21716</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-1120.86331</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_MC_Falling_PH" ID="{F6040101-0036-4311-8310-18EC3175760A}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_MC_Falling_PH.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="25445270"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_MC_Falling_PH" ID="{F6040101-0036-4311-8310-18EC3175760A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

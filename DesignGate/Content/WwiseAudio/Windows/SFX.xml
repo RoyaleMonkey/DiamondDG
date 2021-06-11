@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="63840353">
+		<SoundBank Id="393239870" Language="SFX" Hash="3193506624">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2488731060" Name="Play_Ending_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Ending_WaterFall" MaxAttenuation="13000.000000">
+					<IncludedMemoryFiles>
+						<File Id="360954238" Language="SFX">
+							<ShortName>AMB_Ending_WaterFall_Away.wav</ShortName>
+							<Path>SFX\AMB_Ending_WaterFall_Away_0762CC47.wem</Path>
+						</File>
+						<File Id="1060485522" Language="SFX">
+							<ShortName>AMB_Ending_WaterFall_Close.wav</ShortName>
+							<Path>SFX\AMB_Ending_WaterFall_Close_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2110018169" Name="Play_Little_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Little_WaterFall" MaxAttenuation="15000.000000">
 					<IncludedMemoryFiles>
 						<File Id="408096571" Language="SFX">
@@ -59,6 +71,10 @@
 				</Event>
 				<Event Id="3513385354" Name="Play_SFX_GPE_Catapulte_End" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_End">
 					<IncludedMemoryFiles>
+						<File Id="77603674" Language="SFX">
+							<ShortName>SFX_Catapulte_End_02.wav</ShortName>
+							<Path>SFX\SFX_Catapulte_End_02_D8C07C79.wem</Path>
+						</File>
 						<File Id="1021947564" Language="SFX">
 							<ShortName>SFX_Catapulte_End.wav</ShortName>
 							<Path>SFX\SFX_Catapulte_End_D8C07C79.wem</Path>
@@ -75,6 +91,10 @@
 				</Event>
 				<Event Id="2138146425" Name="Play_SFX_GPE_Catapulte_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Play_SFX_GPE_Catapulte_Start">
 					<IncludedMemoryFiles>
+						<File Id="50828059" Language="SFX">
+							<ShortName>SFX_Catapulte_Start_02.wav</ShortName>
+							<Path>SFX\SFX_Catapulte_Start_02_D8C07C79.wem</Path>
+						</File>
 						<File Id="957060995" Language="SFX">
 							<ShortName>SFX_Catapulte_Start.wav</ShortName>
 							<Path>SFX\SFX_Catapulte_Start_D8C07C79.wem</Path>
@@ -944,7 +964,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="30825167" Name="Play_SFX_LE_Basero_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Basero_LP" MaxAttenuation="800.000000"/>
+				<Event Id="30825167" Name="Play_SFX_LE_Basero_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Basero_LP" MaxAttenuation="950.000000">
+					<IncludedMemoryFiles>
+						<File Id="70124005" Language="SFX">
+							<ShortName>SFX_LE_Brasero_LP_1.wav</ShortName>
+							<Path>SFX\SFX_LE_Brasero_LP_1_0762CC47.wem</Path>
+						</File>
+						<File Id="357413444" Language="SFX">
+							<ShortName>SFX_LE_Brasero_LP_2.wav</ShortName>
+							<Path>SFX\SFX_LE_Brasero_LP_2_0762CC47.wem</Path>
+						</File>
+						<File Id="442493699" Language="SFX">
+							<ShortName>SFX_LE_Brasero_LP_3.wav</ShortName>
+							<Path>SFX\SFX_LE_Brasero_LP_3_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000"/>
 				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
@@ -1059,6 +1094,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G1_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="50828059" Language="SFX">
+					<ShortName>SFX_Catapulte_Start_02.wav</ShortName>
+					<Path>SFX\SFX_Catapulte_Start_02_D8C07C79.wem</Path>
+				</File>
 				<File Id="64635819" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_C4_D8C07C79.wem</Path>
@@ -1073,7 +1112,7 @@
 				</File>
 				<File Id="70124005" Language="SFX">
 					<ShortName>SFX_LE_Brasero_LP_1.wav</ShortName>
-					<Path>SFX\SFX_LE_Brasero_LP_1_D8C07C79.wem</Path>
+					<Path>SFX\SFX_LE_Brasero_LP_1_0762CC47.wem</Path>
 				</File>
 				<File Id="72119939" Language="SFX">
 					<ShortName>SFX_GPE_Telek_DS_In.wav</ShortName>
@@ -1082,6 +1121,10 @@
 				<File Id="75417464" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_C3_D8C07C79.wem</Path>
+				</File>
+				<File Id="77603674" Language="SFX">
+					<ShortName>SFX_Catapulte_End_02.wav</ShortName>
+					<Path>SFX\SFX_Catapulte_End_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="79435795" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_01.wav</ShortName>
@@ -1317,7 +1360,11 @@
 				</File>
 				<File Id="357413444" Language="SFX">
 					<ShortName>SFX_LE_Brasero_LP_2.wav</ShortName>
-					<Path>SFX\SFX_LE_Brasero_LP_2_D8C07C79.wem</Path>
+					<Path>SFX\SFX_LE_Brasero_LP_2_0762CC47.wem</Path>
+				</File>
+				<File Id="360954238" Language="SFX">
+					<ShortName>AMB_Ending_WaterFall_Away.wav</ShortName>
+					<Path>SFX\AMB_Ending_WaterFall_Away_0762CC47.wem</Path>
 				</File>
 				<File Id="377871452" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D4.wav</ShortName>
@@ -1377,7 +1424,7 @@
 				</File>
 				<File Id="442493699" Language="SFX">
 					<ShortName>SFX_LE_Brasero_LP_3.wav</ShortName>
-					<Path>SFX\SFX_LE_Brasero_LP_3_D8C07C79.wem</Path>
+					<Path>SFX\SFX_LE_Brasero_LP_3_0762CC47.wem</Path>
 				</File>
 				<File Id="443084533" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>
@@ -1517,7 +1564,7 @@
 				</File>
 				<File Id="668422005" Language="SFX">
 					<ShortName>SFX_WaterFall_BIG.wav</ShortName>
-					<Path>SFX\SFX_WaterFall_BIG_D8C07C79.wem</Path>
+					<Path>SFX\SFX_WaterFall_BIG_0762CC47.wem</Path>
 				</File>
 				<File Id="669892981" Language="SFX">
 					<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
@@ -1802,6 +1849,10 @@
 				<File Id="1055177857" Language="SFX">
 					<ShortName>SFX_GPE_Telek_C_Out.wav</ShortName>
 					<Path>SFX\SFX_GPE_Telek_C_Out_D8C07C79.wem</Path>
+				</File>
+				<File Id="1060485522" Language="SFX">
+					<ShortName>AMB_Ending_WaterFall_Close.wav</ShortName>
+					<Path>SFX\AMB_Ending_WaterFall_Close_0762CC47.wem</Path>
 				</File>
 				<File Id="1063009932" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A4.wav</ShortName>

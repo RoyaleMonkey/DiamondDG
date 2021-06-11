@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="2843483429">
+		<SoundBank Id="4056684167" Language="SFX" Hash="537432679">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -214,6 +214,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2279321334" Name="Play_ChuimesTEST" ObjectPath="\Events\Default Work Unit\MC\Play_ChuimesTEST"/>
 				<Event Id="2904809513" Name="Play_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Play_DarkWorld_Zelda_Pad">
 					<ReferencedStreamedFiles>
 						<File Id="292638806" Language="SFX">
@@ -309,7 +310,7 @@
 						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4231511915" Name="Play_MC_Falling_woosh" ObjectPath="\Events\Default Work Unit\Play_MC_Falling_woosh">
+				<Event Id="1369325311" Name="Play_MC_Falling_Air" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Falling_Air">
 					<IncludedMemoryFiles>
 						<File Id="25445270" Language="SFX">
 							<ShortName>SFX_MC_Falling_PH.wav</ShortName>
@@ -2854,6 +2855,10 @@
 				<File Id="25445270" Language="SFX">
 					<ShortName>SFX_MC_Falling_PH.wav</ShortName>
 					<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
+				</File>
+				<File Id="25502751" Language="SFX">
+					<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
+					<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
 				</File>
 				<File Id="26887683" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>

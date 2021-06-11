@@ -2344,7 +2344,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>2</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -2377,6 +2377,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2503,6 +2508,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2629,6 +2639,11 @@
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2733,7 +2748,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5282,7 +5297,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5413,7 +5428,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5673,7 +5688,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -10625,7 +10640,7 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
-				<Sound Name="MC_Falling_woosh" ID="{BAB636EE-C1EB-437C-A323-9B1F091B9663}" ShortID="674111696">
+				<Sound Name="MC_Falling_Air" ID="{BAB636EE-C1EB-437C-A323-9B1F091B9663}" ShortID="674111696">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
@@ -10672,9 +10687,6 @@
 							</RTPCList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-19</Value>
-							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{BD77944A-977B-4CFF-9D75-F0C2CE58AA71}" ShortID="642677835">
 									<ReferenceList>
@@ -10732,6 +10744,28 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_MC_Falling_PH" ID="{F6040101-0036-4311-8310-18EC3175760A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MC_Soft_Falling_PH" ID="{54418CB5-E0B2-4DCE-A7DB-652A50DDAB68}" ShortID="860169222">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Green_Feather_Collectible_LP" ID="{7B120667-1F01-43F0-8FDF-35BE84DE493A}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Green_Feather_Collectible_LP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="25502751"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Green_Feather_Collectible_LP" ID="{7B120667-1F01-43F0-8FDF-35BE84DE493A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

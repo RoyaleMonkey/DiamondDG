@@ -21,6 +21,112 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Mus_Discovery" ID="{8AC6D5E3-B994-41B7-95C6-6824E4211DB0}" ShortID="101996355">
+					<ChildrenList>
+						<Event Name="Play_Mus_Discovery" ID="{0D1438D8-171C-4F62-BCD3-74A633E4B9EE}">
+							<ChildrenList>
+								<Action Name="" ID="{F376CC34-4CF1-4F83-BAC6-85031710DA10}" ShortID="981186849">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Discovery_In" ID="{0DA84E63-99AD-4D0E-ACC7-5FEC761B974C}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{23FE306B-9056-4552-A070-168D3D1B7A95}" ShortID="969893803">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Discovery" ID="{79222EEA-35A6-4667-88C2-B581383383A5}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Discovery_In_Out" ID="{54E0EE32-8DC8-4B5B-8CF0-1318AA8C993F}">
+							<ChildrenList>
+								<Action Name="" ID="{A6662A35-C5E5-41BF-97BB-46BE50165750}" ShortID="156465147">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Discovery_In_Out" ID="{5DBDC50E-4EDC-4B65-9524-31FD83C9106D}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Mus_Waterfall" ID="{CC9528A1-E9C2-4875-A44E-FCFAF435A94C}" ShortID="232654734">
+					<ChildrenList>
+						<Event Name="Play_Mus_Waterfall" ID="{F7915240-719A-4914-AA9C-6FA965F0B067}">
+							<ChildrenList>
+								<Action Name="" ID="{20794B10-2085-4971-98F3-06C0010033F0}" ShortID="1072889240">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1750E152-D0D4-42A3-8444-4C652D001CAB}" ShortID="906276125">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterfall_In" ID="{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Waterfall_3rd" ID="{9F320F4E-4FEA-4A83-83B6-9FEDB24B6945}">
+							<ChildrenList>
+								<Action Name="" ID="{51CDAFBA-CEC0-4F4E-B69A-D45279E575FA}" ShortID="450520817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterfall_3rd" ID="{F5BC686A-1E83-4052-8CE3-1C4525C1A72A}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Waterfall_2nd" ID="{910407C9-3291-4398-A3A1-C00D1761D8FE}">
+							<ChildrenList>
+								<Action Name="" ID="{5EA11BF2-2040-4B30-9368-028040CA8302}" ShortID="319010424">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterfall_2nd" ID="{0CF251E6-DAD5-4769-9AB3-105921E02D3F}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Waterfall_Out" ID="{0B62BBB8-6B66-466A-96F0-94548EC2C3C9}">
+							<ChildrenList>
+								<Action Name="" ID="{9C1294AA-794E-4B3B-B160-0D5D24F2F69A}" ShortID="874406342">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterfall_Out" ID="{0DD4E9D1-1BCF-4C57-97EA-529C39F39623}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

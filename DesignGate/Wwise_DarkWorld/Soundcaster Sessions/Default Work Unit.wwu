@@ -157,10 +157,6 @@
 				<SoundcasterSession Name="SC_Mus" ID="{5C38D50F-7D76-4B33-A0A6-71C16A105BD0}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Mus_Waterfall" ID="{662981B5-155D-4EC3-B657-150998E4796D}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Flute_Zelda_01" ID="{0EE38F82-886F-479F-A302-FF2D5E3AC511}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="0" Y="1"/>
 						</Module>
@@ -264,7 +260,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Waterfall_In_2nd" ID="{F060D49C-19A6-462B-AA7D-715B751C3474}"/>
+						<CurrentStateRef Name="Waterfall_In" ID="{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}"/>
+						<CurrentStateRef Name="Discovery_In_Out" ID="{5DBDC50E-4EDC-4B65-9524-31FD83C9106D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{2F403FEB-15CE-442C-A6BA-006C2BDECC7E}"/>

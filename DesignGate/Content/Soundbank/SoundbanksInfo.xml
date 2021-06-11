@@ -20,7 +20,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3880727191">
+		<SoundBank Id="393239870" Language="SFX" Hash="606174849">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -38,6 +38,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2110018169" Name="Play_Little_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Little_WaterFall" MaxAttenuation="15000.000000"/>
+				<Event Id="1369325311" Name="Play_MC_Falling_Air" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Falling_Air">
+					<IncludedMemoryFiles>
+						<File Id="25445270" Language="SFX">
+							<ShortName>SFX_MC_Falling_PH.wav</ShortName>
+							<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="598048154" Name="Play_SFX_Door" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Door" MaxAttenuation="7000.000000">
 					<IncludedMemoryFiles>
 						<File Id="433880524" Language="SFX">
@@ -1873,6 +1881,7 @@
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="33954365" Name="MC_Falling" ObjectPath="\Game Parameters\Default Work Unit\MC_Falling"/>
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
@@ -2507,7 +2516,7 @@
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="774759804">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1122093426">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -2676,6 +2685,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2279321334" Name="Play_ChuimesTEST" ObjectPath="\Events\Default Work Unit\MC\Play_ChuimesTEST">
+					<IncludedMemoryFiles>
+						<File Id="25502751" Language="SFX">
+							<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
+							<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2904809513" Name="Play_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Play_DarkWorld_Zelda_Pad"/>
 				<Event Id="1075472767" Name="Play_Insect_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Insect_RFX" MaxAttenuation="3500.000000">
 					<IncludedMemoryFiles>
@@ -2764,7 +2781,7 @@
 						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4231511915" Name="Play_MC_Falling_woosh" ObjectPath="\Events\Default Work Unit\Play_MC_Falling_woosh">
+				<Event Id="1369325311" Name="Play_MC_Falling_Air" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Falling_Air">
 					<IncludedMemoryFiles>
 						<File Id="25445270" Language="SFX">
 							<ShortName>SFX_MC_Falling_PH.wav</ShortName>
@@ -2780,6 +2797,7 @@
 				<Event Id="3022734957" Name="Play_MC_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Jump"/>
 				<Event Id="3531921507" Name="Play_MC_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Step"/>
 				<Event Id="3757054751" Name="Play_MC_Taps" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Taps"/>
+				<Event Id="2048695412" Name="Stop_ChuimesTEST" ObjectPath="\Events\Default Work Unit\Stop_ChuimesTEST" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
@@ -2814,6 +2832,10 @@
 				<File Id="25445270" Language="SFX">
 					<ShortName>SFX_MC_Falling_PH.wav</ShortName>
 					<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
+				</File>
+				<File Id="25502751" Language="SFX">
+					<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
+					<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
 				</File>
 				<File Id="26887683" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>

@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "537432679",
+    "Hash": "1327702937",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -360,7 +360,15 @@
      {
       "Id": "2279321334",
       "Name": "Play_ChuimesTEST",
-      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_ChuimesTEST"
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_ChuimesTEST",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "25502751",
+        "Language": "SFX",
+        "ShortName": "SFX_Green_Feather_Collectible_LP.wav",
+        "Path": "SFX\\SFX_Green_Feather_Collectible_LP_D8C07C79.wem"
+       }
+      ]
      },
      {
       "Id": "2904809513",
@@ -4618,6 +4626,12 @@
       "Id": "3516178482",
       "Name": "Stop_Amb_Lake",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Stop_Amb_Lake",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "2048695412",
+      "Name": "Stop_ChuimesTEST",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_ChuimesTEST",
       "MaxAttenuation": "0.000000"
      },
      {

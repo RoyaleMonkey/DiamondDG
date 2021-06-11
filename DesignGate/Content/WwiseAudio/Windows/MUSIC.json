@@ -1,0 +1,345 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Language": "SFX",
+    "Hash": "1158803598",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
+    "ShortName": "MUSIC",
+    "Path": "MUSIC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3311863392",
+      "Name": "Play_Mus_Discovery",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Discovery\\Play_Mus_Discovery",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "261559977",
+        "Language": "SFX",
+        "ShortName": "Mus_Discovery_Main.wav",
+        "Path": "SFX\\Mus_Discovery_Main_0762CC47.wem"
+       },
+       {
+        "Id": "1066197615",
+        "Language": "SFX",
+        "ShortName": "Mus_Discovery_Loop.wav",
+        "Path": "SFX\\Mus_Discovery_Loop_0762CC47.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{0DA84E63-99AD-4D0E-ACC7-5FEC761B974C}",
+        "Media": [
+         {
+          "Id": "1066197615"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{5DBDC50E-4EDC-4B65-9524-31FD83C9106D}",
+        "Media": [
+         {
+          "Id": "261559977"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2668247669",
+        "Name": "Discovery_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In"
+       }
+      ]
+     },
+     {
+      "Id": "1494399980",
+      "Name": "Play_Mus_Waterfall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Play_Mus_Waterfall",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "170212341",
+        "Language": "SFX",
+        "ShortName": "Mus_Waterfall_ Fx.wav",
+        "Path": "SFX\\Mus_Waterfall_ Fx_0762CC47.wem"
+       },
+       {
+        "Id": "409174316",
+        "Language": "SFX",
+        "ShortName": "Mus_Waterfall_Out.wav",
+        "Path": "SFX\\Mus_Waterfall_Out_0762CC47.wem"
+       },
+       {
+        "Id": "711199377",
+        "Language": "SFX",
+        "ShortName": "Mus_Waterfall_3rd.wav",
+        "Path": "SFX\\Mus_Waterfall_3rd_0762CC47.wem"
+       },
+       {
+        "Id": "874064522",
+        "Language": "SFX",
+        "ShortName": "Mus_Waterfall_In.wav",
+        "Path": "SFX\\Mus_Waterfall_In_0762CC47.wem"
+       },
+       {
+        "Id": "1014553215",
+        "Language": "SFX",
+        "ShortName": "Mus_Waterfall_2nd.wav",
+        "Path": "SFX\\Mus_Waterfall_2nd_0762CC47.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}",
+        "Media": [
+         {
+          "Id": "874064522"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0DD4E9D1-1BCF-4C57-97EA-529C39F39623}",
+        "Media": [
+         {
+          "Id": "170212341"
+         },
+         {
+          "Id": "409174316"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F5BC686A-1E83-4052-8CE3-1C4525C1A72A}",
+        "Media": [
+         {
+          "Id": "170212341"
+         },
+         {
+          "Id": "711199377"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0CF251E6-DAD5-4769-9AB3-105921E02D3F}",
+        "Media": [
+         {
+          "Id": "1014553215"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2536640561",
+        "Name": "Waterfall_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In"
+       }
+      ]
+     },
+     {
+      "Id": "2359598589",
+      "Name": "Set_State_Discovery_In_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Discovery\\Set_State_Discovery_In_Out",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "1301698044",
+        "Name": "Discovery_In_Out",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In_Out"
+       }
+      ]
+     },
+     {
+      "Id": "1540999039",
+      "Name": "Set_State_Waterfall_2nd",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Set_State_Waterfall_2nd",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "866890520",
+        "Name": "Waterfall_2nd",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_2nd"
+       }
+      ]
+     },
+     {
+      "Id": "1171744134",
+      "Name": "Set_State_Waterfall_3rd",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Set_State_Waterfall_3rd",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "833585545",
+        "Name": "Waterfall_3rd",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_3rd"
+       }
+      ]
+     },
+     {
+      "Id": "1078101995",
+      "Name": "Set_State_Waterfall_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Set_State_Waterfall_Out",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "701165264",
+        "Name": "Waterfall_Out",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_Out"
+       }
+      ]
+     }
+    ],
+    "ReferencedStreamedFiles": [
+     {
+      "Id": "170212341",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_ Fx.wav",
+      "Path": "SFX\\Mus_Waterfall_ Fx_0762CC47.wem"
+     },
+     {
+      "Id": "409174316",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_Out.wav",
+      "Path": "SFX\\Mus_Waterfall_Out_0762CC47.wem"
+     },
+     {
+      "Id": "711199377",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_3rd.wav",
+      "Path": "SFX\\Mus_Waterfall_3rd_0762CC47.wem"
+     },
+     {
+      "Id": "874064522",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_In.wav",
+      "Path": "SFX\\Mus_Waterfall_In_0762CC47.wem"
+     },
+     {
+      "Id": "1014553215",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_2nd.wav",
+      "Path": "SFX\\Mus_Waterfall_2nd_0762CC47.wem"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "261559977",
+      "Language": "SFX",
+      "ShortName": "Mus_Discovery_Main.wav",
+      "Path": "SFX\\Mus_Discovery_Main_0762CC47.wem"
+     },
+     {
+      "Id": "1066197615",
+      "Language": "SFX",
+      "ShortName": "Mus_Discovery_Loop.wav",
+      "Path": "SFX\\Mus_Discovery_Loop_0762CC47.wem"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "597806937",
+      "Name": "Mus_Discovery",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\None"
+       },
+       {
+        "Id": "2668247669",
+        "Name": "Discovery_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In"
+       },
+       {
+        "Id": "1301698044",
+        "Name": "Discovery_In_Out",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In_Out"
+       }
+      ]
+     },
+     {
+      "Id": "701165264",
+      "Name": "Waterfall_Out",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_Out",
+      "States": []
+     },
+     {
+      "Id": "833585545",
+      "Name": "Waterfall_3rd",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_3rd",
+      "States": []
+     },
+     {
+      "Id": "866890520",
+      "Name": "Waterfall_2nd",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_2nd",
+      "States": []
+     },
+     {
+      "Id": "1301698044",
+      "Name": "Discovery_In_Out",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In_Out",
+      "States": []
+     },
+     {
+      "Id": "1584273341",
+      "Name": "Mus_Waterfall",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\None"
+       },
+       {
+        "Id": "2536640561",
+        "Name": "Waterfall_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In"
+       },
+       {
+        "Id": "866890520",
+        "Name": "Waterfall_2nd",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_2nd"
+       },
+       {
+        "Id": "833585545",
+        "Name": "Waterfall_3rd",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_3rd"
+       },
+       {
+        "Id": "701165264",
+        "Name": "Waterfall_Out",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_Out"
+       }
+      ]
+     },
+     {
+      "Id": "2536640561",
+      "Name": "Waterfall_In",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In",
+      "States": []
+     },
+     {
+      "Id": "2668247669",
+      "Name": "Discovery_In",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

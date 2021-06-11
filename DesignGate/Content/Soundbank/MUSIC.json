@@ -15,10 +15,150 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "1989944038",
+    "Hash": "1208900695",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
-    "Path": "MUSIC.bnk"
+    "Path": "MUSIC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3311863392",
+      "Name": "Play_Mus_Discovery",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Discovery\\Play_Mus_Discovery",
+      "ActionSetState": [
+       {
+        "Id": "2668247669",
+        "Name": "Discovery_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In"
+       }
+      ]
+     },
+     {
+      "Id": "1494399980",
+      "Name": "Play_Mus_Waterfall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Play_Mus_Waterfall",
+      "ActionSetState": [
+       {
+        "Id": "2536640561",
+        "Name": "Waterfall_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In"
+       }
+      ]
+     }
+    ],
+    "ReferencedStreamedFiles": [
+     {
+      "Id": "170212341",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_ Fx.wav",
+      "Path": "SFX\\Mus_Waterfall_ Fx_0762CC47.wem"
+     },
+     {
+      "Id": "409174316",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_Out.wav",
+      "Path": "SFX\\Mus_Waterfall_Out_0762CC47.wem"
+     },
+     {
+      "Id": "711199377",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_3rd.wav",
+      "Path": "SFX\\Mus_Waterfall_3rd_0762CC47.wem"
+     },
+     {
+      "Id": "874064522",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_In.wav",
+      "Path": "SFX\\Mus_Waterfall_In_0762CC47.wem"
+     },
+     {
+      "Id": "1014553215",
+      "Language": "SFX",
+      "ShortName": "Mus_Waterfall_2nd.wav",
+      "Path": "SFX\\Mus_Waterfall_2nd_0762CC47.wem"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "261559977",
+      "Language": "SFX",
+      "ShortName": "Mus_Discovery_Main.wav",
+      "Path": "SFX\\Mus_Discovery_Main_0762CC47.wem"
+     },
+     {
+      "Id": "1066197615",
+      "Language": "SFX",
+      "ShortName": "Mus_Discovery_Loop.wav",
+      "Path": "SFX\\Mus_Discovery_Loop_0762CC47.wem"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "597806937",
+      "Name": "Mus_Discovery",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\None"
+       },
+       {
+        "Id": "2668247669",
+        "Name": "Discovery_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In"
+       },
+       {
+        "Id": "1301698044",
+        "Name": "Discovery_In_Out",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In_Out"
+       }
+      ]
+     },
+     {
+      "Id": "1584273341",
+      "Name": "Mus_Waterfall",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\None"
+       },
+       {
+        "Id": "2536640561",
+        "Name": "Waterfall_In",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In"
+       },
+       {
+        "Id": "866890520",
+        "Name": "Waterfall_2nd",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_2nd"
+       },
+       {
+        "Id": "833585545",
+        "Name": "Waterfall_3rd",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_3rd"
+       },
+       {
+        "Id": "701165264",
+        "Name": "Waterfall_Out",
+        "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_Out"
+       }
+      ]
+     },
+     {
+      "Id": "2536640561",
+      "Name": "Waterfall_In",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In",
+      "States": []
+     },
+     {
+      "Id": "2668247669",
+      "Name": "Discovery_In",
+      "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In",
+      "States": []
+     }
+    ]
    }
   ]
  }

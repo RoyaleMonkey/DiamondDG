@@ -1,13 +1,16 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	597806937	Mus_Discovery			\Default Work Unit\Mus_Discovery	
 	1584273341	Mus_Waterfall			\Default Work Unit\Mus_Waterfall	
 
 State	ID	Name	State Group			Notes
-	679276912	Waterfall_In_2nd	Mus_Waterfall			
+	748895195	None	Mus_Discovery			
+	1301698044	Discovery_In_Out	Mus_Discovery			
+	2668247669	Discovery_In	Mus_Discovery			
 	701165264	Waterfall_Out	Mus_Waterfall			
 	748895195	None	Mus_Waterfall			
-	2164018916	Waterfall_2nd_3rd	Mus_Waterfall			
+	833585545	Waterfall_3rd	Mus_Waterfall			
+	866890520	Waterfall_2nd	Mus_Waterfall			
 	2536640561	Waterfall_In	Mus_Waterfall			
-	3736453184	Waterfall_3rd_Out	Mus_Waterfall			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1985131783	SoundEffectVolume			\Default Work Unit\SoundEffectVolume	

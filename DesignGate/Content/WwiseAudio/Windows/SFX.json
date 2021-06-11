@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "804277231",
+    "Hash": "708055560",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -534,6 +534,29 @@
         "Language": "SFX",
         "ShortName": "SFX_GPE_Stele_Stone_C3.wav",
         "Path": "SFX\\SFX_GPE_Stele_Stone_C3_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3581240682",
+      "Name": "Play_SFX_GPE_Stele_CCF3",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_CCF3",
+      "MaxAttenuation": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "1602461720",
+        "Name": "Play_SFX_GPE_Stele_F3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_F3"
+       },
+       {
+        "Id": "1652794582",
+        "Name": "Play_SFX_GPE_Stele_C2",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2"
+       },
+       {
+        "Id": "1652794583",
+        "Name": "Play_SFX_GPE_Stele_C3",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\Play_SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_C3"
        }
       ]
      },

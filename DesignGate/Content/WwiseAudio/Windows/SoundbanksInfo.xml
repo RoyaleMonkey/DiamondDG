@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
+		<File Id="170212341" Language="SFX">
+			<ShortName>Mus_Waterfall_ Fx.wav</ShortName>
+			<Path>SFX\Mus_Waterfall_ Fx_0762CC47.wem</Path>
+		</File>
 		<File Id="292638806" Language="SFX">
 			<ShortName>AmbT_Pad_Zelda.wav</ShortName>
 			<Path>SFX\AmbT_Pad_Zelda_0762CC47.wem</Path>
+		</File>
+		<File Id="409174316" Language="SFX">
+			<ShortName>Mus_Waterfall_Out.wav</ShortName>
+			<Path>SFX\Mus_Waterfall_Out_0762CC47.wem</Path>
+		</File>
+		<File Id="711199377" Language="SFX">
+			<ShortName>Mus_Waterfall_3rd.wav</ShortName>
+			<Path>SFX\Mus_Waterfall_3rd_0762CC47.wem</Path>
+		</File>
+		<File Id="874064522" Language="SFX">
+			<ShortName>Mus_Waterfall_In.wav</ShortName>
+			<Path>SFX\Mus_Waterfall_In_0762CC47.wem</Path>
+		</File>
+		<File Id="1014553215" Language="SFX">
+			<ShortName>Mus_Waterfall_2nd.wav</ShortName>
+			<Path>SFX\Mus_Waterfall_2nd_0762CC47.wem</Path>
 		</File>
 		<File Id="1047992909" Language="SFX">
 			<ShortName>Mus_Zelda_Win.wav</ShortName>
@@ -20,7 +40,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="804277231">
+		<SoundBank Id="393239870" Language="SFX" Hash="708055560">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -335,6 +355,13 @@
 							<Path>SFX\SFX_GPE_Stele_Stone_C3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3581240682" Name="Play_SFX_GPE_Stele_CCF3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCF3" MaxAttenuation="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1602461720" Name="Play_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_F3"/>
+						<ActionPostEventEntry Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2"/>
+						<ActionPostEventEntry Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="3564463093" Name="Play_SFX_GPE_Stele_CCG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCG3" MaxAttenuation="0.000000">
 					<ActionPostEvent>
@@ -1896,7 +1923,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX" Hash="3965012961">
+		<SoundBank Id="1075435911" Language="SFX" Hash="3452126601">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -2235,7 +2262,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="1148761296">
+		<SoundBank Id="1167860281" Language="SFX" Hash="4114530276">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -3142,7 +3169,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2863566115">
+		<SoundBank Id="1355168291" Language="SFX" Hash="682543784">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -3154,12 +3181,165 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1158803598">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3311863392" Name="Play_Mus_Discovery" ObjectPath="\Events\Default Work Unit\Music\Mus_Discovery\Play_Mus_Discovery">
+					<IncludedMemoryFiles>
+						<File Id="261559977" Language="SFX">
+							<ShortName>Mus_Discovery_Main.wav</ShortName>
+							<Path>SFX\Mus_Discovery_Main_0762CC47.wem</Path>
+						</File>
+						<File Id="1066197615" Language="SFX">
+							<ShortName>Mus_Discovery_Loop.wav</ShortName>
+							<Path>SFX\Mus_Discovery_Loop_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0DA84E63-99AD-4D0E-ACC7-5FEC761B974C}">
+							<Media>
+								<File Id="1066197615"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5DBDC50E-4EDC-4B65-9524-31FD83C9106D}">
+							<Media>
+								<File Id="261559977"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2668247669" Name="Discovery_In" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1494399980" Name="Play_Mus_Waterfall" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Play_Mus_Waterfall">
+					<ReferencedStreamedFiles>
+						<File Id="170212341" Language="SFX">
+							<ShortName>Mus_Waterfall_ Fx.wav</ShortName>
+							<Path>SFX\Mus_Waterfall_ Fx_0762CC47.wem</Path>
+						</File>
+						<File Id="409174316" Language="SFX">
+							<ShortName>Mus_Waterfall_Out.wav</ShortName>
+							<Path>SFX\Mus_Waterfall_Out_0762CC47.wem</Path>
+						</File>
+						<File Id="711199377" Language="SFX">
+							<ShortName>Mus_Waterfall_3rd.wav</ShortName>
+							<Path>SFX\Mus_Waterfall_3rd_0762CC47.wem</Path>
+						</File>
+						<File Id="874064522" Language="SFX">
+							<ShortName>Mus_Waterfall_In.wav</ShortName>
+							<Path>SFX\Mus_Waterfall_In_0762CC47.wem</Path>
+						</File>
+						<File Id="1014553215" Language="SFX">
+							<ShortName>Mus_Waterfall_2nd.wav</ShortName>
+							<Path>SFX\Mus_Waterfall_2nd_0762CC47.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}">
+							<Media>
+								<File Id="874064522"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0DD4E9D1-1BCF-4C57-97EA-529C39F39623}">
+							<Media>
+								<File Id="170212341"/>
+								<File Id="409174316"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F5BC686A-1E83-4052-8CE3-1C4525C1A72A}">
+							<Media>
+								<File Id="170212341"/>
+								<File Id="711199377"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0CF251E6-DAD5-4769-9AB3-105921E02D3F}">
+							<Media>
+								<File Id="1014553215"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2359598589" Name="Set_State_Discovery_In_Out" ObjectPath="\Events\Default Work Unit\Music\Mus_Discovery\Set_State_Discovery_In_Out" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1301698044" Name="Discovery_In_Out" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In_Out"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1540999039" Name="Set_State_Waterfall_2nd" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Set_State_Waterfall_2nd" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="866890520" Name="Waterfall_2nd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_2nd"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1171744134" Name="Set_State_Waterfall_3rd" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Set_State_Waterfall_3rd" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="833585545" Name="Waterfall_3rd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_3rd"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1078101995" Name="Set_State_Waterfall_Out" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Set_State_Waterfall_Out" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="701165264" Name="Waterfall_Out" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_Out"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="170212341"/>
+				<File Id="409174316"/>
+				<File Id="711199377"/>
+				<File Id="874064522"/>
+				<File Id="1014553215"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="261559977" Language="SFX">
+					<ShortName>Mus_Discovery_Main.wav</ShortName>
+					<Path>SFX\Mus_Discovery_Main_0762CC47.wem</Path>
+				</File>
+				<File Id="1066197615" Language="SFX">
+					<ShortName>Mus_Discovery_Loop.wav</ShortName>
+					<Path>SFX\Mus_Discovery_Loop_0762CC47.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="597806937" Name="Mus_Discovery" ObjectPath="\States\Default Work Unit\Mus_Discovery">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Mus_Discovery\None"/>
+						<State Id="2668247669" Name="Discovery_In" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In"/>
+						<State Id="1301698044" Name="Discovery_In_Out" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In_Out"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="701165264" Name="Waterfall_Out" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_Out">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="833585545" Name="Waterfall_3rd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_3rd">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="866890520" Name="Waterfall_2nd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_2nd">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1301698044" Name="Discovery_In_Out" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In_Out">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1584273341" Name="Mus_Waterfall" ObjectPath="\States\Default Work Unit\Mus_Waterfall">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Mus_Waterfall\None"/>
+						<State Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In"/>
+						<State Id="866890520" Name="Waterfall_2nd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_2nd"/>
+						<State Id="833585545" Name="Waterfall_3rd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_3rd"/>
+						<State Id="701165264" Name="Waterfall_Out" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_Out"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2668247669" Name="Discovery_In" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="537432679">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1327702937">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -3365,7 +3545,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2279321334" Name="Play_ChuimesTEST" ObjectPath="\Events\Default Work Unit\MC\Play_ChuimesTEST"/>
+				<Event Id="2279321334" Name="Play_ChuimesTEST" ObjectPath="\Events\Default Work Unit\MC\Play_ChuimesTEST">
+					<IncludedMemoryFiles>
+						<File Id="25502751" Language="SFX">
+							<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
+							<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2904809513" Name="Play_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Play_DarkWorld_Zelda_Pad">
 					<ReferencedStreamedFiles>
 						<File Id="292638806" Language="SFX">
@@ -5969,6 +6156,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
+				<Event Id="2048695412" Name="Stop_ChuimesTEST" ObjectPath="\Events\Default Work Unit\Stop_ChuimesTEST" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>

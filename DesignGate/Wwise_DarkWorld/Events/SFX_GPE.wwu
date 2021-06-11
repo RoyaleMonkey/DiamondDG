@@ -1098,6 +1098,40 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_SFX_GPE_Stele_CCF3" ID="{5A01A0D9-B402-44A3-96F5-AD079EEF1DA4}">
+									<ChildrenList>
+										<Action Name="" ID="{29F7C4C3-574E-45C4-ABEB-21D61012419E}" ShortID="927274833">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_SFX_GPE_Stele_C3" ID="{C9814CF4-7940-416E-8233-13EADD32DA57}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{9F09025E-9791-4876-AED5-B17D1F9E1A5A}" ShortID="884729950">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_SFX_GPE_Stele_C2" ID="{70989917-9494-47D8-868A-D4CD004173A1}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0C61C6A9-B603-4E39-BBF1-290B1C1F6AAB}" ShortID="303132591">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_SFX_GPE_Stele_F3" ID="{87502380-4EE4-404F-877A-E5A16DF97C1D}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

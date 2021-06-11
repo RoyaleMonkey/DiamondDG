@@ -8,10 +8,78 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1989944038">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1208900695">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3311863392" Name="Play_Mus_Discovery" ObjectPath="\Events\Default Work Unit\Music\Mus_Discovery\Play_Mus_Discovery">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2668247669" Name="Discovery_In" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1494399980" Name="Play_Mus_Waterfall" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Play_Mus_Waterfall">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="170212341" Language="SFX">
+					<ShortName>Mus_Waterfall_ Fx.wav</ShortName>
+					<Path>SFX\Mus_Waterfall_ Fx_0762CC47.wem</Path>
+				</File>
+				<File Id="409174316" Language="SFX">
+					<ShortName>Mus_Waterfall_Out.wav</ShortName>
+					<Path>SFX\Mus_Waterfall_Out_0762CC47.wem</Path>
+				</File>
+				<File Id="711199377" Language="SFX">
+					<ShortName>Mus_Waterfall_3rd.wav</ShortName>
+					<Path>SFX\Mus_Waterfall_3rd_0762CC47.wem</Path>
+				</File>
+				<File Id="874064522" Language="SFX">
+					<ShortName>Mus_Waterfall_In.wav</ShortName>
+					<Path>SFX\Mus_Waterfall_In_0762CC47.wem</Path>
+				</File>
+				<File Id="1014553215" Language="SFX">
+					<ShortName>Mus_Waterfall_2nd.wav</ShortName>
+					<Path>SFX\Mus_Waterfall_2nd_0762CC47.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="261559977" Language="SFX">
+					<ShortName>Mus_Discovery_Main.wav</ShortName>
+					<Path>SFX\Mus_Discovery_Main_0762CC47.wem</Path>
+				</File>
+				<File Id="1066197615" Language="SFX">
+					<ShortName>Mus_Discovery_Loop.wav</ShortName>
+					<Path>SFX\Mus_Discovery_Loop_0762CC47.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="597806937" Name="Mus_Discovery" ObjectPath="\States\Default Work Unit\Mus_Discovery">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Mus_Discovery\None"/>
+						<State Id="2668247669" Name="Discovery_In" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In"/>
+						<State Id="1301698044" Name="Discovery_In_Out" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In_Out"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1584273341" Name="Mus_Waterfall" ObjectPath="\States\Default Work Unit\Mus_Waterfall">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Mus_Waterfall\None"/>
+						<State Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In"/>
+						<State Id="866890520" Name="Waterfall_2nd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_2nd"/>
+						<State Id="833585545" Name="Waterfall_3rd" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_3rd"/>
+						<State Id="701165264" Name="Waterfall_Out" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_Out"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2668247669" Name="Discovery_In" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

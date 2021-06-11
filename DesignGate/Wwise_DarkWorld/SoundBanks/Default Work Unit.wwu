@@ -61,7 +61,10 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="MUSIC" ID="{B2B38E16-EED1-42CD-BEB0-D20B299075B1}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mus_Discovery" ID="{79222EEA-35A6-4667-88C2-B581383383A5}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

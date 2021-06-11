@@ -27,6 +27,8 @@ namespace AK
         static const AkUniqueID PLAY_AMB_CAVERNLORE = 3623306286U;
         static const AkUniqueID PLAY_AMB_DRIP_CAVERN = 2982907204U;
         static const AkUniqueID PLAY_AMB_FALL_DIRT_RFX = 172812343U;
+        static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
+        static const AkUniqueID PLAY_AMB_FOUNTAIN = 570117905U;
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
         static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
@@ -35,6 +37,20 @@ namespace AK
         static const AkUniqueID PLAY_CHUIMESTEST = 2279321334U;
         static const AkUniqueID PLAY_DARKWORLD_ZELDA_PAD = 2904809513U;
         static const AkUniqueID PLAY_ENDING_WATERFALL = 2488731060U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_01 = 764168061U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_02 = 764168062U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_03 = 764168063U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_04 = 764168056U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_05 = 764168057U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_06 = 764168058U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_07 = 764168059U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_08 = 764168052U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_09 = 764168053U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_10 = 780945647U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_11 = 780945646U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_12 = 780945645U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_13 = 780945644U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_14 = 780945643U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_C_END = 1910747961U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_C_IN = 4197336763U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_DS_END = 1464240645U;
@@ -60,7 +76,10 @@ namespace AK
         static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
+        static const AkUniqueID PLAY_MUS_DISCOVERY = 3311863392U;
+        static const AkUniqueID PLAY_MUS_WATERFALL = 1494399980U;
         static const AkUniqueID PLAY_MUS_ZELDA_WIN = 179754113U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_SFX_DOOR = 598048154U;
         static const AkUniqueID PLAY_SFX_GPE_BUMPER = 1429665634U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULT_MELODY_01 = 3274171620U;
@@ -110,6 +129,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_STELE_ASC3 = 3694864379U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_C2 = 1652794582U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_C3 = 1652794583U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_CCF3 = 3581240682U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_CCG3 = 3564463093U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_D2 = 1636016995U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_D3 = 1636016994U;
@@ -143,6 +163,11 @@ namespace AK
         static const AkUniqueID PLAY_SFX_LE_BASERO_LP = 30825167U;
         static const AkUniqueID PLAY_SFX_WATERFALL_BIG = 2590190883U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
+        static const AkUniqueID SET_STATE_DISCOVERY_IN_OUT = 2359598589U;
+        static const AkUniqueID SET_STATE_WATERFALL_2ND = 1540999039U;
+        static const AkUniqueID SET_STATE_WATERFALL_3RD = 1171744134U;
+        static const AkUniqueID SET_STATE_WATERFALL_OUT = 1078101995U;
+        static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_CHUIMESTEST = 2048695412U;
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
         static const AkUniqueID STOP_SFX_GPE_CATAPULTE_LOOP = 3102446207U;
@@ -168,6 +193,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace MUS_DISCOVERY
+        {
+            static const AkUniqueID GROUP = 597806937U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DISCOVERY_IN = 2668247669U;
+                static const AkUniqueID DISCOVERY_IN_OUT = 1301698044U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUS_DISCOVERY
+
         namespace MUS_WATERFALL
         {
             static const AkUniqueID GROUP = 1584273341U;
@@ -175,10 +212,9 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID WATERFALL_2ND_3RD = 2164018916U;
-                static const AkUniqueID WATERFALL_3RD_OUT = 3736453184U;
+                static const AkUniqueID WATERFALL_2ND = 866890520U;
+                static const AkUniqueID WATERFALL_3RD = 833585545U;
                 static const AkUniqueID WATERFALL_IN = 2536640561U;
-                static const AkUniqueID WATERFALL_IN_2ND = 679276912U;
                 static const AkUniqueID WATERFALL_OUT = 701165264U;
             } // namespace STATE
         } // namespace MUS_WATERFALL

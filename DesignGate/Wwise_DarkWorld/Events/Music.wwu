@@ -147,6 +147,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Mus_Menu" ID="{360D2933-B63B-4EB5-8BAC-EA91511C0DCE}">
+					<ChildrenList>
+						<Action Name="" ID="{76A6FFF4-4E92-478E-9513-FA35FE571343}" ShortID="292256401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mus_Menu" ID="{DA8C90DD-4C29-4434-8B85-CFD6F2C3A637}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

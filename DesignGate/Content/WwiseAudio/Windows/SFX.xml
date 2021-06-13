@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3904444992">
+		<SoundBank Id="393239870" Language="SFX" Hash="4275577657">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -298,6 +298,30 @@
 						<File Id="334241974" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS3.wav</ShortName>
 							<Path>SFX\SFX_GPE_Stele_Butterfly_AS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="429210741" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_AS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_AS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="766045658" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_AS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_AS3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1948521748" Name="Play_SFX_GPE_Stele_ASAS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASAS3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="197037388" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="334241974" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_AS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_AS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="402602504" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_AS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_AS2_D8C07C79.wem</Path>
 						</File>
 						<File Id="429210741" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_AS3.wav</ShortName>
@@ -661,6 +685,230 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="713787098" Name="Play_SFX_GPE_Stele_End_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_A2" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="183618480" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_A2_D8C07C79.wem</Path>
+						</File>
+						<File Id="460369264" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_A3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_A3_D8C07C79.wem</Path>
+						</File>
+						<File Id="889358637" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_A2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_A2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="713787099" Name="Play_SFX_GPE_Stele_End_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_A3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="460369264" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_A3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_A3_D8C07C79.wem</Path>
+						</File>
+						<File Id="693050746" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_A3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_A3_D8C07C79.wem</Path>
+						</File>
+						<File Id="1014667078" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_A3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_A3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2493834803" Name="Play_SFX_GPE_Stele_End_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_AS2" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="197037388" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="402602504" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_AS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_AS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="429210741" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_AS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_AS3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2493834802" Name="Play_SFX_GPE_Stele_End_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_AS3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="334241974" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_AS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_AS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="429210741" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_AS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_AS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="766045658" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_AS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_AS3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="747342396" Name="Play_SFX_GPE_Stele_End_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_C2" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="75417464" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_C3_D8C07C79.wem</Path>
+						</File>
+						<File Id="467225163" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_C2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_C2_D8C07C79.wem</Path>
+						</File>
+						<File Id="941605390" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_C2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_C2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="747342397" Name="Play_SFX_GPE_Stele_End_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_C3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="659122690" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_C3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_C3_D8C07C79.wem</Path>
+						</File>
+						<File Id="946095398" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_C4.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_C4_D8C07C79.wem</Path>
+						</File>
+						<File Id="986239945" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_C3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_C3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="797675253" Name="Play_SFX_GPE_Stele_End_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_D2" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="109901540" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_D2_D8C07C79.wem</Path>
+						</File>
+						<File Id="409024675" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_D2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem</Path>
+						</File>
+						<File Id="863315087" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_D3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="797675252" Name="Play_SFX_GPE_Stele_End_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_D3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="261695194" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_D3_D8C07C79.wem</Path>
+						</File>
+						<File Id="726963180" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_D3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_D3_D8C07C79.wem</Path>
+						</File>
+						<File Id="863315087" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_D3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_D3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2360452462" Name="Play_SFX_GPE_Stele_End_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_DS2" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="66082767" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_DS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_DS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="204923600" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_DS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_DS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="332710230" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_DS2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_DS2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2360452463" Name="Play_SFX_GPE_Stele_End_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_DS3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="24149264" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_DS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="314847094" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_DS3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_DS3_D8C07C79.wem</Path>
+						</File>
+						<File Id="647760645" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="831230431" Name="Play_SFX_GPE_Stele_End_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_F2" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="383078185" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_F2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_F2_D8C07C79.wem</Path>
+						</File>
+						<File Id="863479261" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_F3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem</Path>
+						</File>
+						<File Id="1034101597" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_F2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_F2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="831230430" Name="Play_SFX_GPE_Stele_End_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_F3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="443084533" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_F3_D8C07C79.wem</Path>
+						</File>
+						<File Id="860454866" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_F3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_F3_D8C07C79.wem</Path>
+						</File>
+						<File Id="863479261" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_F3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_F3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="814452840" Name="Play_SFX_GPE_Stele_End_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_G2" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="133630538" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_G2_D8C07C79.wem</Path>
+						</File>
+						<File Id="610677375" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
+						</File>
+						<File Id="759739255" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="814452841" Name="Play_SFX_GPE_Stele_End_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_G3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="279707459" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_G3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_G3_D8C07C79.wem</Path>
+						</File>
+						<File Id="279980961" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_G3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_G3_D8C07C79.wem</Path>
+						</File>
+						<File Id="759739255" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1602461721" Name="Play_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_F2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="11866814" Language="SFX">
@@ -778,6 +1026,30 @@
 						<File Id="467883666" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_G4.wav</ShortName>
 							<Path>SFX\SFX_GPE_Butterfly_LP_G4_0762CC47.wem</Path>
+						</File>
+						<File Id="759739255" Language="SFX">
+							<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3358804830" Name="Play_SFX_GPE_Stele_GG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_GG3" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="133630538" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_G2_D8C07C79.wem</Path>
+						</File>
+						<File Id="279707459" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_G3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_G3_D8C07C79.wem</Path>
+						</File>
+						<File Id="279980961" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Stone_G3.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Stone_G3_D8C07C79.wem</Path>
+						</File>
+						<File Id="610677375" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
 						</File>
 						<File Id="759739255" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>

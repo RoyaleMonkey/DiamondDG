@@ -15,7 +15,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "3421035670",
+    "Hash": "1292807837",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -61,6 +61,19 @@
         "Id": "2668247669",
         "Name": "Discovery_In",
         "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In"
+       }
+      ]
+     },
+     {
+      "Id": "4249884003",
+      "Name": "Play_Mus_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Menu",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "653775956",
+        "Language": "SFX",
+        "ShortName": "Mus_Menu.wav",
+        "Path": "SFX\\Mus_Menu_0762CC47.wem"
        }
       ]
      },

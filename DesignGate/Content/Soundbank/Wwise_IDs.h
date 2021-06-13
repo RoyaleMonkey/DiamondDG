@@ -77,6 +77,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
         static const AkUniqueID PLAY_MUS_DISCOVERY = 3311863392U;
+        static const AkUniqueID PLAY_MUS_MENU = 4249884003U;
         static const AkUniqueID PLAY_MUS_WATERFALL = 1494399980U;
         static const AkUniqueID PLAY_MUS_ZELDA_WIN = 179754113U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
@@ -137,6 +138,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_STELE_DDG3 = 2016317611U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_DS2 = 2755251892U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_DS3 = 2755251893U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_DSG3 = 1744874496U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_F2 = 1602461721U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_F3 = 1602461720U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_FFG3 = 2935724227U;

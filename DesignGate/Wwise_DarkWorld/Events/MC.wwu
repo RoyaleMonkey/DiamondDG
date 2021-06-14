@@ -98,6 +98,9 @@
 				<Event Name="Play_MC_Falling_Air" ID="{F6E4AF7D-C428-4FC5-9E50-05939AE0DE22}">
 					<ChildrenList>
 						<Action Name="" ID="{5C2870B6-D544-427B-80CF-3D1871FF8DEB}" ShortID="1025602726">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MC_Falling_Air" ID="{BAB636EE-C1EB-437C-A323-9B1F091B9663}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>

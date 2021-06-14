@@ -10687,6 +10687,9 @@
 							</RTPCList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-29</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{BD77944A-977B-4CFF-9D75-F0C2CE58AA71}" ShortID="642677835">
 									<ReferenceList>
@@ -10701,18 +10704,14 @@
 										<PointList>
 											<Point>
 												<XPos>-3800</XPos>
-												<YPos>0</YPos>
+												<YPos>-2.18289</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>-2000.23981</XPos>
-												<YPos>0.21716</YPos>
+												<XPos>-3002.63789</XPos>
+												<YPos>-0.21716</YPos>
 												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>-1120.86331</XPos>
-												<YPos>-200</YPos>
-												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>0</XPos>

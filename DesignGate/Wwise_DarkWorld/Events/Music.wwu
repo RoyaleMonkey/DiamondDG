@@ -69,6 +69,10 @@
 						<Event Name="Play_Mus_Waterfall" ID="{F7915240-719A-4914-AA9C-6FA965F0B067}">
 							<ChildrenList>
 								<Action Name="" ID="{20794B10-2085-4971-98F3-06C0010033F0}" ShortID="1072889240">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="6"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>

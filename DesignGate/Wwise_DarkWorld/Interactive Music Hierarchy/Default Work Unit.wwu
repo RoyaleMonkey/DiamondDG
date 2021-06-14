@@ -746,6 +746,7 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{738D8979-9F56-44FF-AA62-EC8275FB1BE9}" ShortID="719621781">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Mus_Waterfall_In" ID="{22A739B6-93B7-4EBB-9A48-89B6F7B8A7D3}"/>
@@ -863,6 +864,7 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{32A9DA4E-38A2-486E-A8FE-D75CE115EE3A}" ShortID="348779538">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Mus_Waterfall_2nd" ID="{216EBA15-6A70-4DDF-8E09-7D8539EDFB44}"/>
@@ -1025,6 +1027,7 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{473F2B39-2550-48D6-9054-77D01DA5DFED}" ShortID="521729583">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Mus_Waterfall_3rd" ID="{B0D0A9AE-47BC-46D3-977A-6EF5178D421C}"/>
@@ -1357,7 +1360,7 @@
 											<MusicFade Name="Source Fade-out" ID="{95FEFEAA-CCD8-4D83-BCAA-527326348146}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="5"/>
+													<Property Name="FadeOffset" Type="Real64" Value="7"/>
 													<Property Name="FadeTime" Type="Real64" Value="5"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
@@ -1385,7 +1388,7 @@
 											<MusicFade Name="Source Fade-out" ID="{9F6886B7-EAC4-4CE5-93CF-B6CD6965BFE4}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="3"/>
+													<Property Name="FadeOffset" Type="Real64" Value="5"/>
 													<Property Name="FadeTime" Type="Real64" Value="3"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>

@@ -13,6 +13,8 @@
 						<ObjectRef Name="Play_Insect_RFX" ID="{176371C8-18DE-4946-89D0-4EF8882D14D2}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Wind_Void" ID="{38BD07D1-3FA9-49B7-8CA3-D4FCEF953B4B}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Fall_Dirt_RFX" ID="{34665573-36CB-49FB-92FD-0009A7AADA4F}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb_Frog_RFX" ID="{8B0AF78F-9151-4A54-8569-F197A3F2C160}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb_Bat_RFX" ID="{E7E49D10-8022-4C63-AFAB-7D63399C8E66}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Birds_RFX" ID="{1B08CCB5-E01B-4C6A-B576-8610AFCAEAA1}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Lake_LP" ID="{628066DA-8FF2-4CF9-9CB9-41A91D0AA442}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Cavern" ID="{FD79E5DF-AFD6-4DF5-A3EB-DC2347FE2C46}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
@@ -48,7 +50,6 @@
 						<ObjectRef Name="Stop_SFX_GPE_Geyser_end" ID="{7E48629B-9C82-4CB2-8046-53AB135B88F5}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_GPE_Catapulte_Loop" ID="{3E1ACEEF-053F-4D5B-92C0-7E880EF41469}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_Catapulte_Start" ID="{E1BEEE66-959F-4E79-B58E-EE56A400D551}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_MC_Falling_Air" ID="{F6E4AF7D-C428-4FC5-9E50-05939AE0DE22}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

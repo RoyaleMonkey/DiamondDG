@@ -5,21 +5,57 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "2987206719",
+    "Hash": "1127039777",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2396100607",
+      "Name": "Play_Amb_Bat_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Bat_RFX",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "14694151",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bat_3.wav",
+        "Path": "SFX\\AMB_RFX_Bat_3_D8C07C79.wem"
+       },
+       {
+        "Id": "54107815",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bat_4.wav",
+        "Path": "SFX\\AMB_RFX_Bat_4_D8C07C79.wem"
+       },
+       {
+        "Id": "862795115",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bat_2.wav",
+        "Path": "SFX\\AMB_RFX_Bat_2_D8C07C79.wem"
+       },
+       {
+        "Id": "987714074",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bat_1.wav",
+        "Path": "SFX\\AMB_RFX_Bat_1_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "372692456",
+      "Name": "Play_Amb_Bat_RFX_OS",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Bat_RFX_OS"
+     },
      {
       "Id": "1413324378",
       "Name": "Play_Amb_Birds_RFX",
@@ -180,6 +216,50 @@
         "Id": "1566008239",
         "Name": "RVB_FOREST",
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+       }
+      ]
+     },
+     {
+      "Id": "2577208230",
+      "Name": "Play_Amb_Frog_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Frog_RFX",
+      "MaxAttenuation": "6500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "409538992",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Frog_6.wav",
+        "Path": "SFX\\AMB_RFX_Frog_6_D8C07C79.wem"
+       },
+       {
+        "Id": "450842700",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Frog_4.wav",
+        "Path": "SFX\\AMB_RFX_Frog_4_D8C07C79.wem"
+       },
+       {
+        "Id": "490814595",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Frgo_1.wav",
+        "Path": "SFX\\AMB_RFX_Frgo_1_D8C07C79.wem"
+       },
+       {
+        "Id": "825207247",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Frog_5.wav",
+        "Path": "SFX\\AMB_RFX_Frog_5_D8C07C79.wem"
+       },
+       {
+        "Id": "843275976",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Frog_2.wav",
+        "Path": "SFX\\AMB_RFX_Frog_2_D8C07C79.wem"
+       },
+       {
+        "Id": "963492842",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Frog_3.wav",
+        "Path": "SFX\\AMB_RFX_Frog_3_D8C07C79.wem"
        }
       ]
      },
@@ -571,6 +651,12 @@
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Scuff_03_D8C07C79.wem"
      },
      {
+      "Id": "14694151",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Bat_3.wav",
+      "Path": "SFX\\AMB_RFX_Bat_3_D8C07C79.wem"
+     },
+     {
       "Id": "21057580",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Walk_08.wav",
@@ -635,6 +721,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Dirt_Walk_01.wav",
       "Path": "SFX\\SFX_MC_FT_Dirt_Walk_01_D8C07C79.wem"
+     },
+     {
+      "Id": "54107815",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Bat_4.wav",
+      "Path": "SFX\\AMB_RFX_Bat_4_D8C07C79.wem"
      },
      {
       "Id": "60053343",
@@ -1339,6 +1431,12 @@
       "Path": "SFX\\SFX_MC_FT_Wood_Run_09_D8C07C79.wem"
      },
      {
+      "Id": "409538992",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Frog_6.wav",
+      "Path": "SFX\\AMB_RFX_Frog_6_D8C07C79.wem"
+     },
+     {
       "Id": "415866662",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Run_4.wav",
@@ -1403,6 +1501,12 @@
       "Language": "SFX",
       "ShortName": "Amb_RFX_Insect_Cricket_H_03.wav",
       "Path": "SFX\\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem"
+     },
+     {
+      "Id": "450842700",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Frog_4.wav",
+      "Path": "SFX\\AMB_RFX_Frog_4_D8C07C79.wem"
      },
      {
       "Id": "452574099",
@@ -1487,6 +1591,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Run_7.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Run_7_D8C07C79.wem"
+     },
+     {
+      "Id": "490814595",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Frgo_1.wav",
+      "Path": "SFX\\AMB_RFX_Frgo_1_D8C07C79.wem"
      },
      {
       "Id": "497508157",
@@ -2257,6 +2367,12 @@
       "Path": "SFX\\SFX_MC_FT_Dirt_Walk_07_D8C07C79.wem"
      },
      {
+      "Id": "825207247",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Frog_5.wav",
+      "Path": "SFX\\AMB_RFX_Frog_5_D8C07C79.wem"
+     },
+     {
       "Id": "833390287",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Dirt_Walk_02.wav",
@@ -2273,6 +2389,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_Tap_Wood_6.wav",
       "Path": "SFX\\SFX_MC_Tap_Wood_6_D8C07C79.wem"
+     },
+     {
+      "Id": "843275976",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Frog_2.wav",
+      "Path": "SFX\\AMB_RFX_Frog_2_D8C07C79.wem"
      },
      {
       "Id": "843512823",
@@ -2315,6 +2437,12 @@
       "Language": "SFX",
       "ShortName": "AMB_Wind_Howling_RFX_2.wav",
       "Path": "SFX\\AMB_Wind_Howling_RFX_2_D8C07C79.wem"
+     },
+     {
+      "Id": "862795115",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Bat_2.wav",
+      "Path": "SFX\\AMB_RFX_Bat_2_D8C07C79.wem"
      },
      {
       "Id": "869242387",
@@ -2521,6 +2649,12 @@
       "Path": "SFX\\SFX_MC_Tap_Grass_1_D8C07C79.wem"
      },
      {
+      "Id": "963492842",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Frog_3.wav",
+      "Path": "SFX\\AMB_RFX_Frog_3_D8C07C79.wem"
+     },
+     {
       "Id": "977388727",
       "Language": "SFX",
       "ShortName": "Amb_Int_Cavern_LP.wav",
@@ -2543,6 +2677,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Puddle_Scuff_05.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Puddle_Scuff_05_D8C07C79.wem"
+     },
+     {
+      "Id": "987714074",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Bat_1.wav",
+      "Path": "SFX\\AMB_RFX_Bat_1_D8C07C79.wem"
      },
      {
       "Id": "988188749",

@@ -6078,6 +6078,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_GPE_Telek_C_In" ID="{F53C56CD-2019-479C-8CD4-06E87AD8D708}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.07129079092921"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_GPE_Telek_C_In.wav</AudioFile>
 													<MediaIDList>
@@ -6108,7 +6113,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>3</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -6202,6 +6207,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_GPE_Telek_DS_In" ID="{AA7A2C20-1EA5-4737-9FFD-772B2395B9FE}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.15417996404869"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_GPE_Telek_DS_In.wav</AudioFile>
 													<MediaIDList>
@@ -6232,7 +6242,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>3</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -6331,6 +6341,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_GPE_Telek_F_In" ID="{09BB0273-45D7-4FBB-8612-AF62C18D6C17}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.17033506176253"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_GPE_Telek_F_In.wav</AudioFile>
 													<MediaIDList>
@@ -6361,7 +6376,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>3</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -6460,6 +6475,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_GPE_Telek_G_In" ID="{C3427234-2537-405A-85C7-E3737953C493}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.0574827387537"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_GPE_Telek_G_In.wav</AudioFile>
 													<MediaIDList>
@@ -6490,7 +6510,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>3</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>

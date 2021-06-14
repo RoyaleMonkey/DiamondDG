@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B490E192-E9F4-4F09-A14B-D0D86D6A90EA}" SchemaVersion="97" RootDocumentID="{E5482311-EA18-40DD-A277-B2AA53354992}">
+	<Events>
+		<WorkUnit Name="UI" ID="{B490E192-E9F4-4F09-A14B-D0D86D6A90EA}" OwnerID="{E5482311-EA18-40DD-A277-B2AA53354992}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_UI_Menu_Selec_Out" ID="{5C3C5E96-1B0E-4BAC-A25C-1D30D0F19F7E}">
+					<ChildrenList>
+						<Action Name="" ID="{FED95E9D-0C30-45ED-86BF-669866FC2FA6}" ShortID="232380590">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Selec_Out" ID="{A06FD90E-89BF-40C5-AD7F-F34ADF9A954B}" WorkUnitID="{22AF223D-58C7-41B3-831A-99760FE6C138}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Exit" ID="{7FD1DB33-3293-4E2A-9491-830225F2DBFD}">
+					<ChildrenList>
+						<Action Name="" ID="{01390F46-68C3-4A68-A222-6FA6BCE90321}" ShortID="656788521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Exit" ID="{29491754-7EAA-4392-8CF9-7461C5B56007}" WorkUnitID="{22AF223D-58C7-41B3-831A-99760FE6C138}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Selec_In" ID="{3D82A7B0-8CCB-4AA0-B640-85955985D617}">
+					<ChildrenList>
+						<Action Name="" ID="{93C1043C-A1B1-4223-9C61-543D89A71B31}" ShortID="749149186">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Selec_In" ID="{514EB42A-21E4-4C15-A5F9-6F9BD59E8B72}" WorkUnitID="{22AF223D-58C7-41B3-831A-99760FE6C138}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Enter" ID="{6B7420A9-761F-4C08-B3D1-95C48EAD908C}">
+					<ChildrenList>
+						<Action Name="" ID="{8BD93DFE-A4C4-47BC-A440-A968DD8E2721}" ShortID="293176398">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Enter" ID="{A91856E2-C415-43B2-9651-4EB4579D1A2B}" WorkUnitID="{22AF223D-58C7-41B3-831A-99760FE6C138}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Selec" ID="{EE89D66F-D16F-4582-915E-7064D2041CC0}">
+					<ChildrenList>
+						<Action Name="" ID="{59C0A902-DDD4-4C7C-A603-0DE326D2F479}" ShortID="908965979">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Selec" ID="{721FB4E6-769D-4B0D-B54D-615675BA48D0}" WorkUnitID="{22AF223D-58C7-41B3-831A-99760FE6C138}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

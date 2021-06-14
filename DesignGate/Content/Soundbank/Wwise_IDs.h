@@ -188,6 +188,11 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_ZIPLINE_BLD = 513126929U;
         static const AkUniqueID PLAY_SFX_LE_BASERO_LP = 30825167U;
         static const AkUniqueID PLAY_SFX_WATERFALL_BIG = 2590190883U;
+        static const AkUniqueID PLAY_UI_MENU_ENTER = 3239645937U;
+        static const AkUniqueID PLAY_UI_MENU_EXIT = 3805496685U;
+        static const AkUniqueID PLAY_UI_MENU_SELEC = 1343567939U;
+        static const AkUniqueID PLAY_UI_MENU_SELEC_IN = 2834464783U;
+        static const AkUniqueID PLAY_UI_MENU_SELEC_OUT = 231060866U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
         static const AkUniqueID SET_STATE_DISCOVERY_IN_OUT = 2359598589U;
         static const AkUniqueID SET_STATE_WATERFALL_2ND = 1540999039U;

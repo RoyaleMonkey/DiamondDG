@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -40,7 +40,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3108894541">
+		<SoundBank Id="393239870" Language="SFX" Hash="1427529044">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -58,14 +58,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2110018169" Name="Play_Little_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Little_WaterFall" MaxAttenuation="15000.000000"/>
-				<Event Id="1369325311" Name="Play_MC_Falling_Air" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Falling_Air">
-					<IncludedMemoryFiles>
-						<File Id="25445270" Language="SFX">
-							<ShortName>SFX_MC_Falling_PH.wav</ShortName>
-							<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="598048154" Name="Play_SFX_Door" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Door" MaxAttenuation="7000.000000">
 					<IncludedMemoryFiles>
 						<File Id="433880524" Language="SFX">
@@ -2519,11 +2511,10 @@
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="33954365" Name="MC_Falling" ObjectPath="\Game Parameters\Default Work Unit\MC_Falling"/>
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX" Hash="2968092039">
+		<SoundBank Id="1075435911" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -2642,7 +2633,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="2692188132">
+		<SoundBank Id="1167860281" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -3149,7 +3140,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3361485324">
+		<SoundBank Id="3991942870" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -3208,11 +3199,32 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="2987206719">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1127039777">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2396100607" Name="Play_Amb_Bat_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Bat_RFX">
+					<IncludedMemoryFiles>
+						<File Id="14694151" Language="SFX">
+							<ShortName>AMB_RFX_Bat_3.wav</ShortName>
+							<Path>SFX\AMB_RFX_Bat_3_D8C07C79.wem</Path>
+						</File>
+						<File Id="54107815" Language="SFX">
+							<ShortName>AMB_RFX_Bat_4.wav</ShortName>
+							<Path>SFX\AMB_RFX_Bat_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="862795115" Language="SFX">
+							<ShortName>AMB_RFX_Bat_2.wav</ShortName>
+							<Path>SFX\AMB_RFX_Bat_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="987714074" Language="SFX">
+							<ShortName>AMB_RFX_Bat_1.wav</ShortName>
+							<Path>SFX\AMB_RFX_Bat_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="372692456" Name="Play_Amb_Bat_RFX_OS" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Bat_RFX_OS"/>
 				<Event Id="1413324378" Name="Play_Amb_Birds_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Birds_RFX" MaxAttenuation="6500.000000">
 					<IncludedMemoryFiles>
 						<File Id="4589486" Language="SFX">
@@ -3305,6 +3317,34 @@
 					<AuxBusSends>
 						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="2577208230" Name="Play_Amb_Frog_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Frog_RFX" MaxAttenuation="6500.000000">
+					<IncludedMemoryFiles>
+						<File Id="409538992" Language="SFX">
+							<ShortName>AMB_RFX_Frog_6.wav</ShortName>
+							<Path>SFX\AMB_RFX_Frog_6_D8C07C79.wem</Path>
+						</File>
+						<File Id="450842700" Language="SFX">
+							<ShortName>AMB_RFX_Frog_4.wav</ShortName>
+							<Path>SFX\AMB_RFX_Frog_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="490814595" Language="SFX">
+							<ShortName>AMB_RFX_Frgo_1.wav</ShortName>
+							<Path>SFX\AMB_RFX_Frgo_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="825207247" Language="SFX">
+							<ShortName>AMB_RFX_Frog_5.wav</ShortName>
+							<Path>SFX\AMB_RFX_Frog_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="843275976" Language="SFX">
+							<ShortName>AMB_RFX_Frog_2.wav</ShortName>
+							<Path>SFX\AMB_RFX_Frog_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="963492842" Language="SFX">
+							<ShortName>AMB_RFX_Frog_3.wav</ShortName>
+							<Path>SFX\AMB_RFX_Frog_3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping" MaxAttenuation="8000.000000"/>
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP" MaxAttenuation="8000.000000"/>
@@ -3517,6 +3557,10 @@
 					<ShortName>SFX_MC_FT_Water_Shallow_Scuff_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Shallow_Scuff_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="14694151" Language="SFX">
+					<ShortName>AMB_RFX_Bat_3.wav</ShortName>
+					<Path>SFX\AMB_RFX_Bat_3_D8C07C79.wem</Path>
+				</File>
 				<File Id="21057580" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_08.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Walk_08_D8C07C79.wem</Path>
@@ -3560,6 +3604,10 @@
 				<File Id="50491045" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Walk_01.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="54107815" Language="SFX">
+					<ShortName>AMB_RFX_Bat_4.wav</ShortName>
+					<Path>SFX\AMB_RFX_Bat_4_D8C07C79.wem</Path>
 				</File>
 				<File Id="60053343" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Land_02.wav</ShortName>
@@ -4029,6 +4077,10 @@
 					<ShortName>SFX_MC_FT_Wood_Run_09.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Wood_Run_09_D8C07C79.wem</Path>
 				</File>
+				<File Id="409538992" Language="SFX">
+					<ShortName>AMB_RFX_Frog_6.wav</ShortName>
+					<Path>SFX\AMB_RFX_Frog_6_D8C07C79.wem</Path>
+				</File>
 				<File Id="415866662" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Short_Run_4.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Short_Run_4_D8C07C79.wem</Path>
@@ -4072,6 +4124,10 @@
 				<File Id="450701258" Language="SFX">
 					<ShortName>Amb_RFX_Insect_Cricket_H_03.wav</ShortName>
 					<Path>SFX\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="450842700" Language="SFX">
+					<ShortName>AMB_RFX_Frog_4.wav</ShortName>
+					<Path>SFX\AMB_RFX_Frog_4_D8C07C79.wem</Path>
 				</File>
 				<File Id="452574099" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_03.wav</ShortName>
@@ -4128,6 +4184,10 @@
 				<File Id="487168909" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Run_7.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Run_7_D8C07C79.wem</Path>
+				</File>
+				<File Id="490814595" Language="SFX">
+					<ShortName>AMB_RFX_Frgo_1.wav</ShortName>
+					<Path>SFX\AMB_RFX_Frgo_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="497508157" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Run_05.wav</ShortName>
@@ -4641,6 +4701,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Walk_07.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_07_D8C07C79.wem</Path>
 				</File>
+				<File Id="825207247" Language="SFX">
+					<ShortName>AMB_RFX_Frog_5.wav</ShortName>
+					<Path>SFX\AMB_RFX_Frog_5_D8C07C79.wem</Path>
+				</File>
 				<File Id="833390287" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Walk_02.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Walk_02_D8C07C79.wem</Path>
@@ -4652,6 +4716,10 @@
 				<File Id="833813031" Language="SFX">
 					<ShortName>SFX_MC_Tap_Wood_6.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Wood_6_D8C07C79.wem</Path>
+				</File>
+				<File Id="843275976" Language="SFX">
+					<ShortName>AMB_RFX_Frog_2.wav</ShortName>
+					<Path>SFX\AMB_RFX_Frog_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="843512823" Language="SFX">
 					<ShortName>AMB_Wind_Howling_RFX_3.wav</ShortName>
@@ -4680,6 +4748,10 @@
 				<File Id="861360394" Language="SFX">
 					<ShortName>AMB_Wind_Howling_RFX_2.wav</ShortName>
 					<Path>SFX\AMB_Wind_Howling_RFX_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="862795115" Language="SFX">
+					<ShortName>AMB_RFX_Bat_2.wav</ShortName>
+					<Path>SFX\AMB_RFX_Bat_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="869242387" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Land_01.wav</ShortName>
@@ -4817,6 +4889,10 @@
 					<ShortName>SFX_MC_Tap_Grass_1.wav</ShortName>
 					<Path>SFX\SFX_MC_Tap_Grass_1_D8C07C79.wem</Path>
 				</File>
+				<File Id="963492842" Language="SFX">
+					<ShortName>AMB_RFX_Frog_3.wav</ShortName>
+					<Path>SFX\AMB_RFX_Frog_3_D8C07C79.wem</Path>
+				</File>
 				<File Id="977388727" Language="SFX">
 					<ShortName>Amb_Int_Cavern_LP.wav</ShortName>
 					<Path>SFX\Amb_Int_Cavern_LP_0762CC47.wem</Path>
@@ -4832,6 +4908,10 @@
 				<File Id="982733425" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Water_Puddle_Scuff_05_D8C07C79.wem</Path>
+				</File>
+				<File Id="987714074" Language="SFX">
+					<ShortName>AMB_RFX_Bat_1.wav</ShortName>
+					<Path>SFX\AMB_RFX_Bat_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="988188749" Language="SFX">
 					<ShortName>SFX_MC_FOL_Scuff_05.wav</ShortName>

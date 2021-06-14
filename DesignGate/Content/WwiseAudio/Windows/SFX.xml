@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="4275577657">
+		<SoundBank Id="393239870" Language="SFX" Hash="3551813609">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -1065,7 +1065,7 @@
 						</File>
 						<File Id="1068855612" Language="SFX">
 							<ShortName>SFX_GPE_Telek_C_In.wav</ShortName>
-							<Path>SFX\SFX_GPE_Telek_C_In_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Telek_C_In_CB1012D4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1081,7 +1081,7 @@
 					<IncludedMemoryFiles>
 						<File Id="72119939" Language="SFX">
 							<ShortName>SFX_GPE_Telek_DS_In.wav</ShortName>
-							<Path>SFX\SFX_GPE_Telek_DS_In_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Telek_DS_In_B2BCC3F4.wem</Path>
 						</File>
 						<File Id="567258248" Language="SFX">
 							<ShortName>SFX_GPE_Telek_DS_LP.wav</ShortName>
@@ -1101,7 +1101,7 @@
 					<IncludedMemoryFiles>
 						<File Id="189226895" Language="SFX">
 							<ShortName>SFX_GPE_Telek_F_In.wav</ShortName>
-							<Path>SFX\SFX_GPE_Telek_F_In_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Telek_F_In_386C73DE.wem</Path>
 						</File>
 						<File Id="908900293" Language="SFX">
 							<ShortName>SFX_GPE_Telek_F_LP.wav</ShortName>
@@ -1125,7 +1125,7 @@
 						</File>
 						<File Id="920077616" Language="SFX">
 							<ShortName>SFX_GPE_Telek_G_In.wav</ShortName>
-							<Path>SFX\SFX_GPE_Telek_G_In_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Telek_G_In_FCEB4873.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1694,7 +1694,7 @@
 				</File>
 				<File Id="72119939" Language="SFX">
 					<ShortName>SFX_GPE_Telek_DS_In.wav</ShortName>
-					<Path>SFX\SFX_GPE_Telek_DS_In_D8C07C79.wem</Path>
+					<Path>SFX\SFX_GPE_Telek_DS_In_B2BCC3F4.wem</Path>
 				</File>
 				<File Id="75417464" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -1790,7 +1790,7 @@
 				</File>
 				<File Id="189226895" Language="SFX">
 					<ShortName>SFX_GPE_Telek_F_In.wav</ShortName>
-					<Path>SFX\SFX_GPE_Telek_F_In_D8C07C79.wem</Path>
+					<Path>SFX\SFX_GPE_Telek_F_In_386C73DE.wem</Path>
 				</File>
 				<File Id="192162486" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
@@ -2362,7 +2362,7 @@
 				</File>
 				<File Id="920077616" Language="SFX">
 					<ShortName>SFX_GPE_Telek_G_In.wav</ShortName>
-					<Path>SFX\SFX_GPE_Telek_G_In_D8C07C79.wem</Path>
+					<Path>SFX\SFX_GPE_Telek_G_In_FCEB4873.wem</Path>
 				</File>
 				<File Id="941605390" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C2.wav</ShortName>
@@ -2490,7 +2490,7 @@
 				</File>
 				<File Id="1068855612" Language="SFX">
 					<ShortName>SFX_GPE_Telek_C_In.wav</ShortName>
-					<Path>SFX\SFX_GPE_Telek_C_In_D8C07C79.wem</Path>
+					<Path>SFX\SFX_GPE_Telek_C_In_CB1012D4.wem</Path>
 				</File>
 				<File Id="1070609207" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_01.wav</ShortName>

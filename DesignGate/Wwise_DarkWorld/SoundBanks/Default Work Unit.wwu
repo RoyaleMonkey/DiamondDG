@@ -44,12 +44,15 @@
 						<ObjectRef Name="Stop_SFX_GPE_Zipline_Bld" ID="{966C18F3-2069-491A-A5B9-C7AC0355245A}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Waterfall_blnd" ID="{65E25AE8-FC38-49B7-9C26-D490D224FB5D}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_GPE_Geyser_Lp" ID="{860E3C8F-0F01-4A1F-9026-484A24C198E9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Collectible_Spawn_Buterflie" ID="{8383BD27-C67B-4A2F-ACF6-8E934FD77814}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_PlantPlatform_Idle_Open_LP" ID="{A94FEE51-6700-4B36-A102-D81C449A26B9}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Collectible_Buterflie_Activated_LP" ID="{DAE30122-9A9D-4C1C-842F-40DC008D6A75}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_Telekinesie" ID="{076DDE08-3346-4C94-8BA9-A7DA8B53D539}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_Geyser_Start" ID="{F7962E1F-408E-4C97-BBB6-11D5AA6D4A9A}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_GPE_Geyser_end" ID="{7E48629B-9C82-4CB2-8046-53AB135B88F5}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_GPE_Catapulte_Loop" ID="{3E1ACEEF-053F-4D5B-92C0-7E880EF41469}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_Catapulte_Start" ID="{E1BEEE66-959F-4E79-B58E-EE56A400D551}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ID="{A3EFC800-379F-4EAB-AC40-23352685312F}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

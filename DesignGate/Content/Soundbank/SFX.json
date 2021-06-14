@@ -15,7 +15,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1427529044",
+    "Hash": "3980185240",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -45,6 +45,53 @@
       "Name": "Play_Little_WaterFall",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Little_WaterFall",
       "MaxAttenuation": "15000.000000"
+     },
+     {
+      "Id": "1914609227",
+      "Name": "Play_SFX_Collectible_Blue_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_SFX_Collectible_Blue_Spawn"
+     },
+     {
+      "Id": "3012505424",
+      "Name": "Play_SFX_Collectible_Buterflie_Activated_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Purple\\Play_SFX_Collectible_Buterflie_Activated_LP",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "172934826",
+        "Language": "SFX",
+        "ShortName": "SFX_Feather_Collectible_Purple_LP_Activated.wav",
+        "Path": "SFX\\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2199690867",
+      "Name": "Play_SFX_Collectible_Green_Feather_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Green\\Play_SFX_Collectible_Green_Feather_LP"
+     },
+     {
+      "Id": "3114310048",
+      "Name": "Play_SFX_Collectible_Green_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Green\\Play_SFX_Collectible_Green_Spawn"
+     },
+     {
+      "Id": "1082087329",
+      "Name": "Play_SFX_Collectible_Spawn_Buterflie",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Purple\\Play_SFX_Collectible_Spawn_Buterflie",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "172934826",
+        "Language": "SFX",
+        "ShortName": "SFX_Feather_Collectible_Purple_LP_Activated.wav",
+        "Path": "SFX\\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem"
+       },
+       {
+        "Id": "926928792",
+        "Language": "SFX",
+        "ShortName": "SFX_Feather_Collectible_Purple_Spawn_Buterflie.wav",
+        "Path": "SFX\\SFX_Feather_Collectible_Purple_Spawn_Buterflie_D8C07C79.wem"
+       }
+      ]
      },
      {
       "Id": "598048154",
@@ -2483,6 +2530,24 @@
       ]
      },
      {
+      "Id": "1229862554",
+      "Name": "Stop_SFX_Collectible_Buterflie_Activated_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Purple\\Stop_SFX_Collectible_Buterflie_Activated_LP",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "3111845101",
+      "Name": "Stop_SFX_Collectible_Buterflie_Activated_LP_Blue",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Stop_SFX_Collectible_Buterflie_Activated_LP_Blue",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "3416508261",
+      "Name": "Stop_SFX_Collectible_Green_Feather_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Green\\Stop_SFX_Collectible_Green_Feather_LP",
+      "MaxAttenuation": "0.000000"
+     },
+     {
       "Id": "3102446207",
       "Name": "Stop_SFX_GPE_Catapulte_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Catapulte\\Stop_SFX_GPE_Catapulte_Loop",
@@ -2848,6 +2913,12 @@
       "Path": "SFX\\RFX_GPE_Zipline_6_D8C07C79.wem"
      },
      {
+      "Id": "172934826",
+      "Language": "SFX",
+      "ShortName": "SFX_Feather_Collectible_Purple_LP_Activated.wav",
+      "Path": "SFX\\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem"
+     },
+     {
       "Id": "175890529",
       "Language": "SFX",
       "ShortName": "SFX_Telekinesie_Start_1.wav",
@@ -2864,6 +2935,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_A2.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_A2_D8C07C79.wem"
+     },
+     {
+      "Id": "187603833",
+      "Language": "SFX",
+      "ShortName": "SFX_Feather_Collectible_Blue_Spawn_3.wav",
+      "Path": "SFX\\SFX_Feather_Collectible_Blue_Spawn_3_D8C07C79.wem"
      },
      {
       "Id": "188363552",
@@ -3298,6 +3375,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_D1_01_D8C07C79.wem"
      },
      {
+      "Id": "519491556",
+      "Language": "SFX",
+      "ShortName": "SFX_Collectible_Green_Spawn_1.wav",
+      "Path": "SFX\\SFX_Collectible_Green_Spawn_1_D8C07C79.wem"
+     },
+     {
       "Id": "524979824",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Butterfly_Layer_D4.wav",
@@ -3428,6 +3511,12 @@
       "Language": "SFX",
       "ShortName": "AMB_LittleWaterFall_Close_Lp.wav",
       "Path": "SFX\\AMB_LittleWaterFall_Close_Lp_D8C07C79.wem"
+     },
+     {
+      "Id": "643378280",
+      "Language": "SFX",
+      "ShortName": "SFX_Collectible_Green_Spawn_2.wav",
+      "Path": "SFX\\SFX_Collectible_Green_Spawn_2_D8C07C79.wem"
      },
      {
       "Id": "647760645",
@@ -3598,6 +3687,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_03_D8C07C79.wem"
      },
      {
+      "Id": "793614577",
+      "Language": "SFX",
+      "ShortName": "SFX_Collectible_Green_Spawn_3.wav",
+      "Path": "SFX\\SFX_Collectible_Green_Spawn_3_D8C07C79.wem"
+     },
+     {
       "Id": "798217334",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_D2_01.wav",
@@ -3614,6 +3709,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem"
+     },
+     {
+      "Id": "823105042",
+      "Language": "SFX",
+      "ShortName": "SFX_Feather_Collectible_Blue_Spawn_2.wav",
+      "Path": "SFX\\SFX_Feather_Collectible_Blue_Spawn_2_D8C07C79.wem"
      },
      {
       "Id": "824316949",
@@ -3736,6 +3837,12 @@
       "Path": "SFX\\SFX_GPE_Telek_G_In_FCEB4873.wem"
      },
      {
+      "Id": "926928792",
+      "Language": "SFX",
+      "ShortName": "SFX_Feather_Collectible_Purple_Spawn_Buterflie.wav",
+      "Path": "SFX\\SFX_Feather_Collectible_Purple_Spawn_Buterflie_D8C07C79.wem"
+     },
+     {
       "Id": "941605390",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_C2.wav",
@@ -3856,6 +3963,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem"
      },
      {
+      "Id": "1019347384",
+      "Language": "SFX",
+      "ShortName": "SFX_Collectible_Green_Spawn_4.wav",
+      "Path": "SFX\\SFX_Collectible_Green_Spawn_4_D8C07C79.wem"
+     },
+     {
       "Id": "1021947564",
       "Language": "SFX",
       "ShortName": "SFX_Catapulte_End.wav",
@@ -3896,6 +4009,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_F1_01.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1054747618",
+      "Language": "SFX",
+      "ShortName": "SFX_Feather_Collectible_Blue_Spawn_1.wav",
+      "Path": "SFX\\SFX_Feather_Collectible_Blue_Spawn_1_D8C07C79.wem"
      },
      {
       "Id": "1055177857",

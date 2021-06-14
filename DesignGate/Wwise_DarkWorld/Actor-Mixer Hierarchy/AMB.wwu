@@ -8511,6 +8511,9 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{30B7A523-BECE-4B75-8A42-1460272EC63A}">

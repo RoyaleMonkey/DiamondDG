@@ -385,20 +385,6 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Stop_SFX_Collectible_Buterflie_Activated_LP_Blue" ID="{C4E23B23-60DC-475B-A45C-C7FC033CB097}">
-											<ChildrenList>
-												<Action Name="" ID="{EB9CFE92-DFBD-4311-94B5-937AE687DCBE}" ShortID="619238919">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="SFX_Collectible_Buterflie_Activated_LP" ID="{1D10A470-B049-4764-A5E8-7E17959A7815}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

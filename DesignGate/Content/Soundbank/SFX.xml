@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1427529044">
+		<SoundBank Id="393239870" Language="SFX" Hash="3980185240">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -26,6 +26,29 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2110018169" Name="Play_Little_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Little_WaterFall" MaxAttenuation="15000.000000"/>
+				<Event Id="1914609227" Name="Play_SFX_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_SFX_Collectible_Blue_Spawn"/>
+				<Event Id="3012505424" Name="Play_SFX_Collectible_Buterflie_Activated_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Purple\Play_SFX_Collectible_Buterflie_Activated_LP">
+					<IncludedMemoryFiles>
+						<File Id="172934826" Language="SFX">
+							<ShortName>SFX_Feather_Collectible_Purple_LP_Activated.wav</ShortName>
+							<Path>SFX\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199690867" Name="Play_SFX_Collectible_Green_Feather_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Green\Play_SFX_Collectible_Green_Feather_LP"/>
+				<Event Id="3114310048" Name="Play_SFX_Collectible_Green_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Green\Play_SFX_Collectible_Green_Spawn"/>
+				<Event Id="1082087329" Name="Play_SFX_Collectible_Spawn_Buterflie" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Purple\Play_SFX_Collectible_Spawn_Buterflie">
+					<IncludedMemoryFiles>
+						<File Id="172934826" Language="SFX">
+							<ShortName>SFX_Feather_Collectible_Purple_LP_Activated.wav</ShortName>
+							<Path>SFX\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem</Path>
+						</File>
+						<File Id="926928792" Language="SFX">
+							<ShortName>SFX_Feather_Collectible_Purple_Spawn_Buterflie.wav</ShortName>
+							<Path>SFX\SFX_Feather_Collectible_Purple_Spawn_Buterflie_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="598048154" Name="Play_SFX_Door" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Door" MaxAttenuation="7000.000000">
 					<IncludedMemoryFiles>
 						<File Id="433880524" Language="SFX">
@@ -1559,6 +1582,9 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1229862554" Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Purple\Stop_SFX_Collectible_Buterflie_Activated_LP" MaxAttenuation="0.000000"/>
+				<Event Id="3111845101" Name="Stop_SFX_Collectible_Buterflie_Activated_LP_Blue" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Stop_SFX_Collectible_Buterflie_Activated_LP_Blue" MaxAttenuation="0.000000"/>
+				<Event Id="3416508261" Name="Stop_SFX_Collectible_Green_Feather_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Green\Stop_SFX_Collectible_Green_Feather_LP" MaxAttenuation="0.000000"/>
 				<Event Id="3102446207" Name="Stop_SFX_GPE_Catapulte_Loop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Stop_SFX_GPE_Catapulte_Loop" MaxAttenuation="0.000000"/>
 				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="8000.000000">
 					<IncludedMemoryFiles>
@@ -1753,6 +1779,10 @@
 					<ShortName>RFX_GPE_Zipline_6.wav</ShortName>
 					<Path>SFX\RFX_GPE_Zipline_6_D8C07C79.wem</Path>
 				</File>
+				<File Id="172934826" Language="SFX">
+					<ShortName>SFX_Feather_Collectible_Purple_LP_Activated.wav</ShortName>
+					<Path>SFX\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem</Path>
+				</File>
 				<File Id="175890529" Language="SFX">
 					<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_Start_1_19CD1EBC.wem</Path>
@@ -1764,6 +1794,10 @@
 				<File Id="183618480" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_A2_D8C07C79.wem</Path>
+				</File>
+				<File Id="187603833" Language="SFX">
+					<ShortName>SFX_Feather_Collectible_Blue_Spawn_3.wav</ShortName>
+					<Path>SFX\SFX_Feather_Collectible_Blue_Spawn_3_D8C07C79.wem</Path>
 				</File>
 				<File Id="188363552" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_DS2.wav</ShortName>
@@ -2053,6 +2087,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="519491556" Language="SFX">
+					<ShortName>SFX_Collectible_Green_Spawn_1.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Green_Spawn_1_D8C07C79.wem</Path>
+				</File>
 				<File Id="524979824" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_D4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_D4_D8C07C79.wem</Path>
@@ -2140,6 +2178,10 @@
 				<File Id="638325598" Language="SFX">
 					<ShortName>AMB_LittleWaterFall_Close_Lp.wav</ShortName>
 					<Path>SFX\AMB_LittleWaterFall_Close_Lp_D8C07C79.wem</Path>
+				</File>
+				<File Id="643378280" Language="SFX">
+					<ShortName>SFX_Collectible_Green_Spawn_2.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Green_Spawn_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="647760645" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>
@@ -2253,6 +2295,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="793614577" Language="SFX">
+					<ShortName>SFX_Collectible_Green_Spawn_3.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Green_Spawn_3_D8C07C79.wem</Path>
+				</File>
 				<File Id="798217334" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_01_D8C07C79.wem</Path>
@@ -2264,6 +2310,10 @@
 				<File Id="808406191" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_2.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="823105042" Language="SFX">
+					<ShortName>SFX_Feather_Collectible_Blue_Spawn_2.wav</ShortName>
+					<Path>SFX\SFX_Feather_Collectible_Blue_Spawn_2_D8C07C79.wem</Path>
 				</File>
 				<File Id="824316949" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_F4.wav</ShortName>
@@ -2345,6 +2395,10 @@
 					<ShortName>SFX_GPE_Telek_G_In.wav</ShortName>
 					<Path>SFX\SFX_GPE_Telek_G_In_FCEB4873.wem</Path>
 				</File>
+				<File Id="926928792" Language="SFX">
+					<ShortName>SFX_Feather_Collectible_Purple_Spawn_Buterflie.wav</ShortName>
+					<Path>SFX\SFX_Feather_Collectible_Purple_Spawn_Buterflie_D8C07C79.wem</Path>
+				</File>
 				<File Id="941605390" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_C2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_C2_D8C07C79.wem</Path>
@@ -2425,6 +2479,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G2_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="1019347384" Language="SFX">
+					<ShortName>SFX_Collectible_Green_Spawn_4.wav</ShortName>
+					<Path>SFX\SFX_Collectible_Green_Spawn_4_D8C07C79.wem</Path>
+				</File>
 				<File Id="1021947564" Language="SFX">
 					<ShortName>SFX_Catapulte_End.wav</ShortName>
 					<Path>SFX\SFX_Catapulte_End_D8C07C79.wem</Path>
@@ -2452,6 +2510,10 @@
 				<File Id="1054465173" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="1054747618" Language="SFX">
+					<ShortName>SFX_Feather_Collectible_Blue_Spawn_1.wav</ShortName>
+					<Path>SFX\SFX_Feather_Collectible_Blue_Spawn_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="1055177857" Language="SFX">
 					<ShortName>SFX_GPE_Telek_C_Out.wav</ShortName>

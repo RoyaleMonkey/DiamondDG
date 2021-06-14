@@ -283,6 +283,126 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="SFX_Collectible" ID="{DF894E92-D87F-45AB-BBF8-807037A77E08}" ShortID="670901764">
+							<ChildrenList>
+								<Folder Name="Purple" ID="{69C894BF-F12D-49F4-8C51-64404890CFB4}" ShortID="955288485">
+									<ChildrenList>
+										<Event Name="Play_SFX_Collectible_Buterflie_Activated_LP" ID="{DAE30122-9A9D-4C1C-842F-40DC008D6A75}">
+											<ChildrenList>
+												<Action Name="" ID="{62EB5B1A-F418-4B98-B949-9EA553CC9E41}" ShortID="541705920">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Buterflie_Activated_LP" ID="{B4D44C0F-8907-4F40-87E7-D133EC364703}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_SFX_Collectible_Spawn_Buterflie" ID="{8383BD27-C67B-4A2F-ACF6-8E934FD77814}">
+											<ChildrenList>
+												<Action Name="" ID="{4D0EC1C0-9B87-4203-A99F-307E33056B40}" ShortID="685069619">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Spawn_Buterflie" ID="{0B5FD610-52D1-4BE1-A5F9-970E37827C01}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{7D64CA56-69B1-4676-8A9D-D5952002FA47}" ShortID="949137199">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Buterflie_Activated_LP" ID="{B4D44C0F-8907-4F40-87E7-D133EC364703}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ID="{A3EFC800-379F-4EAB-AC40-23352685312F}">
+											<ChildrenList>
+												<Action Name="" ID="{B5754F86-B44F-4C80-8668-0FF46BB1AE49}" ShortID="801042075">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Buterflie_Activated_LP" ID="{B4D44C0F-8907-4F40-87E7-D133EC364703}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Green" ID="{45FF3BF5-3124-4D3F-8B9D-23746F5B9503}" ShortID="838048954">
+									<ChildrenList>
+										<Event Name="Stop_SFX_Collectible_Green_Feather_LP" ID="{B4FD8FDF-7CCA-44F0-967C-1841468099FE}">
+											<ChildrenList>
+												<Action Name="" ID="{71F895F2-F21A-47BF-880D-464C71E96747}" ShortID="771417664">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Green_Feather_LP" ID="{FBE95555-32FB-4D92-89F0-B439441AC15D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_SFX_Collectible_Green_Spawn" ID="{8B7976AF-5D64-4F0F-A2F5-EEFC502617A0}">
+											<ChildrenList>
+												<Action Name="" ID="{24C8F075-4EB6-4FE5-9FBE-F0A7E79B7DBF}" ShortID="1008143849">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Green_Spawn" ID="{87CB4360-EA15-4A85-8D45-0D488A1FCCC5}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_SFX_Collectible_Green_Feather_LP" ID="{1667F1F4-9144-4D57-BA2F-B3CDE6D973B9}">
+											<ChildrenList>
+												<Action Name="" ID="{C4B6D1F7-1916-4BCD-835B-ADD3EA9FD4DF}" ShortID="607779290">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Green_Feather_LP" ID="{FBE95555-32FB-4D92-89F0-B439441AC15D}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Blue" ID="{03050146-F367-4D66-8456-DD34014B7D5B}" ShortID="736998724">
+									<ChildrenList>
+										<Event Name="Play_SFX_Collectible_Blue_Spawn" ID="{D8640B88-AB3E-4240-810C-E7FB1D90758C}">
+											<ChildrenList>
+												<Action Name="" ID="{E0A1400C-C731-4FFC-8AA6-8748055C268A}" ShortID="874327321">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Blue_Spawn" ID="{757EE4DA-C92C-4D19-BC6C-7D050A088A2E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_SFX_Collectible_Buterflie_Activated_LP_Blue" ID="{C4E23B23-60DC-475B-A45C-C7FC033CB097}">
+											<ChildrenList>
+												<Action Name="" ID="{EB9CFE92-DFBD-4311-94B5-937AE687DCBE}" ShortID="619238919">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Buterflie_Activated_LP" ID="{1D10A470-B049-4764-A5E8-7E17959A7815}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="Amb_Tonal" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" PersistMode="Reference"/>

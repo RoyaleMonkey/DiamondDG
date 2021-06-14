@@ -196,6 +196,13 @@
 								</Property>
 							</PropertyList>
 						</Bus>
+						<AuxBus Name="RVB_Cave_Small" ID="{A0491926-B0B9-48F1-8AB3-9E79A31BEA8B}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

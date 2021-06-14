@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -67,7 +67,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2004483826",
+    "Hash": "1820329343",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -2669,12 +2669,6 @@
       "MaxAttenuation": "0.000000"
      },
      {
-      "Id": "3111845101",
-      "Name": "Stop_SFX_Collectible_Buterflie_Activated_LP_Blue",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Stop_SFX_Collectible_Buterflie_Activated_LP_Blue",
-      "MaxAttenuation": "0.000000"
-     },
-     {
       "Id": "3416508261",
       "Name": "Stop_SFX_Collectible_Green_Feather_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Green\\Stop_SFX_Collectible_Green_Feather_LP",
@@ -4202,7 +4196,7 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
-    "Hash": "3965012961",
+    "Hash": "2013468150",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -4695,6 +4689,12 @@
       "Id": "179754113",
       "Name": "Play_Mus_Zelda_Win",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Zelda_Win"
+     },
+     {
+      "Id": "4179124425",
+      "Name": "Stop_Mus_Back_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Back_Menu",
+      "MaxAttenuation": "0.000000"
      }
     ],
     "ReferencedStreamedFiles": [
@@ -4846,7 +4846,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "1148761296",
+    "Hash": "4114530276",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -6268,7 +6268,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "682543784",
+    "Hash": "3446545988",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -6277,6 +6277,11 @@
       "Id": "1566008239",
       "Name": "RVB_FOREST",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+     },
+     {
+      "Id": "2270178643",
+      "Name": "RVB_Cave_Small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
      }
     ],
     "GameParameters": [
@@ -6295,7 +6300,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "1558070563",
+    "Hash": "3297273627",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -6494,6 +6499,12 @@
       ]
      },
      {
+      "Id": "4179124425",
+      "Name": "Stop_Mus_Back_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Back_Menu",
+      "MaxAttenuation": "0.000000"
+     },
+     {
       "Id": "3867830866",
       "Name": "Stop_Mus_Waterfall",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Stop_Mus_Waterfall",
@@ -6627,7 +6638,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "712849737",
+    "Hash": "3813946772",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",

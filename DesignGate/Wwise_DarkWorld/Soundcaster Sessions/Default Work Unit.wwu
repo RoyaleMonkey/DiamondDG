@@ -169,6 +169,10 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Mus_Waterfall" ID="{F7915240-719A-4914-AA9C-6FA965F0B067}" WorkUnitID="{220FA83D-3B11-472C-9A3F-759F19B9DDB0}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Flute_Zelda_02" ID="{85648A92-09F4-48AC-B962-CCD3E181CBAD}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="1" Y="1"/>
 						</Module>
@@ -260,7 +264,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Waterfall_Out" ID="{0DD4E9D1-1BCF-4C57-97EA-529C39F39623}"/>
+						<CurrentStateRef Name="Waterfall_In" ID="{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}"/>
 						<CurrentStateRef Name="Discovery_In" ID="{0DA84E63-99AD-4D0E-ACC7-5FEC761B974C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

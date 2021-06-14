@@ -196,9 +196,9 @@ namespace AK
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_CHUIMESTEST = 2048695412U;
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
+        static const AkUniqueID STOP_MUS_BACK_MENU = 4179124425U;
         static const AkUniqueID STOP_MUS_WATERFALL = 3867830866U;
         static const AkUniqueID STOP_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP = 1229862554U;
-        static const AkUniqueID STOP_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP_BLUE = 3111845101U;
         static const AkUniqueID STOP_SFX_COLLECTIBLE_GREEN_FEATHER_LP = 3416508261U;
         static const AkUniqueID STOP_SFX_GPE_CATAPULTE_LOOP = 3102446207U;
         static const AkUniqueID STOP_SFX_GPE_GEYSER_END = 1587068986U;
@@ -320,6 +320,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID RVB_CAVE_SMALL = 2270178643U;
         static const AkUniqueID RVB_FOREST = 1566008239U;
     } // namespace AUX_BUSSES
 

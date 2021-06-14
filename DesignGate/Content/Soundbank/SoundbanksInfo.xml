@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -40,7 +40,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3980185240">
+		<SoundBank Id="393239870" Language="SFX" Hash="4101024601">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -1615,7 +1615,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1229862554" Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Purple\Stop_SFX_Collectible_Buterflie_Activated_LP" MaxAttenuation="0.000000"/>
-				<Event Id="3111845101" Name="Stop_SFX_Collectible_Buterflie_Activated_LP_Blue" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Stop_SFX_Collectible_Buterflie_Activated_LP_Blue" MaxAttenuation="0.000000"/>
 				<Event Id="3416508261" Name="Stop_SFX_Collectible_Green_Feather_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Green\Stop_SFX_Collectible_Green_Feather_LP" MaxAttenuation="0.000000"/>
 				<Event Id="3102446207" Name="Stop_SFX_GPE_Catapulte_Loop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Stop_SFX_GPE_Catapulte_Loop" MaxAttenuation="0.000000"/>
 				<Event Id="1587068986" Name="Stop_SFX_GPE_Geyser_end" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Geyser\Stop_SFX_GPE_Geyser_end" MaxAttenuation="8000.000000">
@@ -2576,7 +2575,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX">
+		<SoundBank Id="1075435911" Language="SFX" Hash="3408167501">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -2596,6 +2595,7 @@
 				<Event Id="1949017518" Name="Play_Flute_Zelda_GDS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_In"/>
 				<Event Id="533658235" Name="Play_Flute_Zelda_Wrong" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Event\Play_Flute_Zelda_Wrong"/>
 				<Event Id="179754113" Name="Play_Mus_Zelda_Win" ObjectPath="\Events\Default Work Unit\Music\Play_Mus_Zelda_Win"/>
+				<Event Id="4179124425" Name="Stop_Mus_Back_Menu" ObjectPath="\Events\Default Work Unit\Music\Stop_Mus_Back_Menu" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="1047992909"/>
@@ -2695,7 +2695,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX">
+		<SoundBank Id="1167860281" Language="SFX" Hash="2692188132">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -3190,19 +3190,20 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="682543784">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3446545988">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
 				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX">
+		<SoundBank Id="3991942870" Language="SFX" Hash="2754201150">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -3217,6 +3218,7 @@
 						<ActionSetStateEntry Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="4179124425" Name="Stop_Mus_Back_Menu" ObjectPath="\Events\Default Work Unit\Music\Stop_Mus_Back_Menu" MaxAttenuation="0.000000"/>
 				<Event Id="3867830866" Name="Stop_Mus_Waterfall" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Stop_Mus_Waterfall" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -3261,7 +3263,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1127039777">
+		<SoundBank Id="4056684167" Language="SFX" Hash="385584285">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

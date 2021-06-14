@@ -167,7 +167,19 @@
 				<MusicSegment Name="Mus_Zelda_Win" ID="{E772CD89-66B3-4E7A-89C5-C82DF27EAB15}" ShortID="714536633">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="57857.1458333333"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="112"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -240,6 +252,20 @@
 					</CueList>
 				</MusicSegment>
 				<MusicSwitchContainer Name="Mus_Discovery" ID="{79222EEA-35A6-4667-88C2-B581383383A5}" ShortID="149203919">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -383,6 +409,13 @@
 								<MusicSegment Name="Mus_Discovery_Out" ID="{339C64B2-BB6C-43EF-B652-3F7BD3B6B832}" ShortID="1044844866">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="27500"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="96"/>
 									</PropertyList>
@@ -565,6 +598,13 @@
 				<MusicSwitchContainer Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" ShortID="59456273">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="153"/>
 						<Property Name="Volume" Type="Real64">
@@ -584,6 +624,12 @@
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Mus_Waterfall_In" ID="{56187D2C-9725-41CB-86A2-CA26F84C8CFA}" ShortID="796977593">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Tempo" Type="Real64" Value="153"/>
 							</PropertyList>
 							<ReferenceList>
@@ -757,6 +803,12 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Mus_Waterfall_2nd" ID="{36613FBE-CF82-44AE-8A4A-980A51D00A0E}" ShortID="770251610">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Tempo" Type="Real64" Value="153"/>
 							</PropertyList>
 							<ReferenceList>
@@ -770,7 +822,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Mus_Waterfall_2nd" ID="{216EBA15-6A70-4DDF-8E09-7D8539EDFB44}" ShortID="375738386">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="57430.4232766761"/>
+										<Property Name="EndPosition" Type="Real64" Value="58039.2156862745"/>
 										<Property Name="Tempo" Type="Real64" Value="153"/>
 									</PropertyList>
 									<ReferenceList>
@@ -817,11 +869,71 @@
 													<ClipList>
 														<MusicClip Name="Mus_Waterfall_2nd" ID="{C774A32D-BB55-49F7-8CD5-EF9998B2F4F1}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="56470.5833333333"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="1583.73590651558"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56470.5882352941"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="2797.44321879884"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="4223.29575070821"/>
+																<Property Name="PlayAt" Type="Real64" Value="2.04636307898909E-12"/>
 															</PropertyList>
 															<AudioSourceRef Name="Mus_Waterfall_2nd" ID="{2A0D66BC-5A80-4548-86B5-CAD964472673}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{68D6CF37-6951-45E9-866C-C99743C97409}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.47059</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A5540F07-084B-486B-8637-5A0B4E89B24F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.47059</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{9889ECBE-747C-4345-9E93-3CFDC4C094C0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.47059</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -837,7 +949,7 @@
 										<MusicCue Name="Exit Cue" ID="{C8F55D0B-2A2B-40A4-9762-D40889C29ABD}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="53333.3333333333"/>
+												<Property Name="TimeMs" Type="Real64" Value="51764.7058823529"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -875,6 +987,12 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Mus_Waterfall_3rd" ID="{51D6986A-32EB-4320-9C4F-DC5A488837D2}" ShortID="918979915">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Tempo" Type="Real64" Value="153"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1038,6 +1156,12 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Mus_Waterfall_Out" ID="{56712879-9F0C-4351-A804-1206BED1CF86}" ShortID="4800834">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Tempo" Type="Real64" Value="153"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1480,6 +1604,20 @@
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicPlaylistContainer Name="Mus_Menu" ID="{DA8C90DD-4C29-4434-8B85-CFD6F2C3A637}" ShortID="110386764">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>

@@ -84,6 +84,11 @@ namespace AK
         static const AkUniqueID PLAY_MUS_WATERFALL = 1494399980U;
         static const AkUniqueID PLAY_MUS_ZELDA_WIN = 179754113U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_SFX_COLLECTIBLE_BLUE_SPAWN = 1914609227U;
+        static const AkUniqueID PLAY_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP = 3012505424U;
+        static const AkUniqueID PLAY_SFX_COLLECTIBLE_GREEN_FEATHER_LP = 2199690867U;
+        static const AkUniqueID PLAY_SFX_COLLECTIBLE_GREEN_SPAWN = 3114310048U;
+        static const AkUniqueID PLAY_SFX_COLLECTIBLE_SPAWN_BUTERFLIE = 1082087329U;
         static const AkUniqueID PLAY_SFX_DOOR = 598048154U;
         static const AkUniqueID PLAY_SFX_GPE_BUMPER = 1429665634U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULT_MELODY_01 = 3274171620U;
@@ -192,6 +197,9 @@ namespace AK
         static const AkUniqueID STOP_CHUIMESTEST = 2048695412U;
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
         static const AkUniqueID STOP_MUS_WATERFALL = 3867830866U;
+        static const AkUniqueID STOP_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP = 1229862554U;
+        static const AkUniqueID STOP_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP_BLUE = 3111845101U;
+        static const AkUniqueID STOP_SFX_COLLECTIBLE_GREEN_FEATHER_LP = 3416508261U;
         static const AkUniqueID STOP_SFX_GPE_CATAPULTE_LOOP = 3102446207U;
         static const AkUniqueID STOP_SFX_GPE_GEYSER_END = 1587068986U;
         static const AkUniqueID STOP_SFX_GPE_STELE_A2 = 1164948654U;

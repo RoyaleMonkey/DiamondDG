@@ -2980,7 +2980,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="4114530276">
+		<SoundBank Id="1167860281" Language="SFX" Hash="564857643">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -4068,7 +4068,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3813946772">
+		<SoundBank Id="4056684167" Language="SFX" Hash="2001645135">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -6933,11 +6933,55 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3239645937" Name="Play_UI_Menu_Enter" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Menu_Enter">
+					<IncludedMemoryFiles>
+						<File Id="500156867" Language="SFX">
+							<ShortName>UI_Menu_Enter.wav</ShortName>
+							<Path>SFX\UI_Menu_Enter_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3805496685" Name="Play_UI_Menu_Exit" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Menu_Exit">
+					<IncludedMemoryFiles>
+						<File Id="820100572" Language="SFX">
+							<ShortName>UI_Menu_Exit.wav</ShortName>
+							<Path>SFX\UI_Menu_Exit_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1343567939" Name="Play_UI_Menu_Selec" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Menu_Selec">
+					<IncludedMemoryFiles>
+						<File Id="287868022" Language="SFX">
+							<ShortName>UI_Menu_Selec.wav</ShortName>
+							<Path>SFX\UI_Menu_Selec_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2834464783" Name="Play_UI_Menu_Selec_In" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Menu_Selec_In">
+					<IncludedMemoryFiles>
+						<File Id="360451169" Language="SFX">
+							<ShortName>UI_Menu_Selec_In.wav</ShortName>
+							<Path>SFX\UI_Menu_Selec_In_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="231060866" Name="Play_UI_Menu_Selec_Out" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Menu_Selec_Out">
+					<IncludedMemoryFiles>
+						<File Id="686615105" Language="SFX">
+							<ShortName>UI_Menu_Selec_Out.wav</ShortName>
+							<Path>SFX\UI_Menu_Selec_Out_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
 				<Event Id="2048695412" Name="Stop_ChuimesTEST" ObjectPath="\Events\Default Work Unit\Stop_ChuimesTEST" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
+			<IncludedAuxBusses>
+				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
+			</IncludedAuxBusses>
 			<ReferencedStreamedFiles>
 				<File Id="292638806"/>
 			</ReferencedStreamedFiles>
@@ -8451,6 +8495,8 @@
 				<GameParameter Id="33954365" Name="MC_Falling" ObjectPath="\Game Parameters\Default Work Unit\MC_Falling"/>
 				<GameParameter Id="1227053913" Name="MC_Speed" ObjectPath="\Game Parameters\Default Work Unit\MC_Speed"/>
 				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
+				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">

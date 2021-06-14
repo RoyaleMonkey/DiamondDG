@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="496758581">
+		<SoundBank Id="4056684167" Language="SFX" Hash="4019941376">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -383,6 +383,7 @@
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
+				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
 				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
 			</IncludedAuxBusses>
 			<ReferencedStreamedFiles>
@@ -1901,6 +1902,8 @@
 				<GameParameter Id="33954365" Name="MC_Falling" ObjectPath="\Game Parameters\Default Work Unit\MC_Falling"/>
 				<GameParameter Id="1227053913" Name="MC_Speed" ObjectPath="\Game Parameters\Default Work Unit\MC_Speed"/>
 				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
+				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">

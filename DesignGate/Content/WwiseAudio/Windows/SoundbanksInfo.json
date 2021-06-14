@@ -4846,7 +4846,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "4114530276",
+    "Hash": "564857643",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -6638,7 +6638,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "3813946772",
+    "Hash": "2001645135",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -11326,6 +11326,71 @@
       ]
      },
      {
+      "Id": "3239645937",
+      "Name": "Play_UI_Menu_Enter",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_Enter",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "500156867",
+        "Language": "SFX",
+        "ShortName": "UI_Menu_Enter.wav",
+        "Path": "SFX\\UI_Menu_Enter_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3805496685",
+      "Name": "Play_UI_Menu_Exit",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_Exit",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "820100572",
+        "Language": "SFX",
+        "ShortName": "UI_Menu_Exit.wav",
+        "Path": "SFX\\UI_Menu_Exit_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1343567939",
+      "Name": "Play_UI_Menu_Selec",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_Selec",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "287868022",
+        "Language": "SFX",
+        "ShortName": "UI_Menu_Selec.wav",
+        "Path": "SFX\\UI_Menu_Selec_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2834464783",
+      "Name": "Play_UI_Menu_Selec_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_Selec_In",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "360451169",
+        "Language": "SFX",
+        "ShortName": "UI_Menu_Selec_In.wav",
+        "Path": "SFX\\UI_Menu_Selec_In_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "231060866",
+      "Name": "Play_UI_Menu_Selec_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_Selec_Out",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "686615105",
+        "Language": "SFX",
+        "ShortName": "UI_Menu_Selec_Out.wav",
+        "Path": "SFX\\UI_Menu_Selec_Out_D8C07C79.wem"
+       }
+      ]
+     },
+     {
       "Id": "3516178482",
       "Name": "Stop_Amb_Lake",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Stop_Amb_Lake",
@@ -11348,6 +11413,18 @@
       "Name": "Volume_AmbT_Pad_Zelda",
       "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Volume_AmbT_Pad_Zelda",
       "MaxAttenuation": "0.000000"
+     }
+    ],
+    "IncludedAuxBusses": [
+     {
+      "Id": "1566008239",
+      "Name": "RVB_FOREST",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+     },
+     {
+      "Id": "2270178643",
+      "Name": "RVB_Cave_Small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
      }
     ],
     "ReferencedStreamedFiles": [
@@ -13628,6 +13705,16 @@
       "Id": "1240670792",
       "Name": "Distance",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance"
+     },
+     {
+      "Id": "1985131783",
+      "Name": "SoundEffectVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SoundEffectVolume"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume"
      }
     ],
     "SwitchGroups": [

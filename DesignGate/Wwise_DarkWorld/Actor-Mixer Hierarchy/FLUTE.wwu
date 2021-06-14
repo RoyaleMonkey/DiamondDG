@@ -9,6 +9,12 @@
 			<ChildrenList>
 				<ActorMixer Name="MC_Flute_Note" ID="{675217F4-684D-4E62-A9C4-6CD297DF0895}" ShortID="325888847">
 					<PropertyList>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>5</Value>

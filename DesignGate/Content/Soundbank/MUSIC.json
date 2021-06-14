@@ -15,7 +15,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "3361485324",
+    "Hash": "2754201150",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -43,6 +43,12 @@
         "ObjectPath": "\\States\\Default Work Unit\\Mus_Waterfall\\Waterfall_In"
        }
       ]
+     },
+     {
+      "Id": "4179124425",
+      "Name": "Stop_Mus_Back_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Back_Menu",
+      "MaxAttenuation": "0.000000"
      },
      {
       "Id": "3867830866",

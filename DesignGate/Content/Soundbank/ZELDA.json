@@ -15,7 +15,7 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
-    "Hash": "2968092039",
+    "Hash": "3408167501",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -94,6 +94,12 @@
       "Id": "179754113",
       "Name": "Play_Mus_Zelda_Win",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Zelda_Win"
+     },
+     {
+      "Id": "4179124425",
+      "Name": "Stop_Mus_Back_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Back_Menu",
+      "MaxAttenuation": "0.000000"
      }
     ],
     "ReferencedStreamedFiles": [

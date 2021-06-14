@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1075435911" Language="SFX" Hash="2968092039">
+		<SoundBank Id="1075435911" Language="SFX" Hash="3408167501">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -28,6 +28,7 @@
 				<Event Id="1949017518" Name="Play_Flute_Zelda_GDS_In" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_In"/>
 				<Event Id="533658235" Name="Play_Flute_Zelda_Wrong" ObjectPath="\Events\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Event\Play_Flute_Zelda_Wrong"/>
 				<Event Id="179754113" Name="Play_Mus_Zelda_Win" ObjectPath="\Events\Default Work Unit\Music\Play_Mus_Zelda_Win"/>
+				<Event Id="4179124425" Name="Stop_Mus_Back_Menu" ObjectPath="\Events\Default Work Unit\Music\Stop_Mus_Back_Menu" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="1047992909" Language="SFX">

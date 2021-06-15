@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2237806232",
+    "Hash": "3068097551",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -3199,6 +3199,26 @@
       "Name": "Play_Waterfall_blnd",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Waterfall_blnd",
       "MaxAttenuation": "13000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "95843208",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Waterfall_Away.wav",
+        "Path": "SFX\\SFX_LE_Waterfall_Away_D8C07C79.wem"
+       },
+       {
+        "Id": "330405534",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Waterfall_close_LP.wav",
+        "Path": "SFX\\SFX_LE_Waterfall_close_LP_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2095972928",
+      "Name": "Play_Waterfall_blnd_Void",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Waterfall_blnd_Void",
+      "MaxAttenuation": "12500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "95843208",

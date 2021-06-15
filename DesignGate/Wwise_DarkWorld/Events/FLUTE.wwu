@@ -9,23 +9,45 @@
 			<ChildrenList>
 				<Folder Name="Flute_Melody" ID="{2A4D2309-5424-4C33-91DA-1C78EB26568D}" ShortID="1058293872">
 					<ChildrenList>
-						<Event Name="Play_SFX_GPE_Catapult_Melody_01" ID="{D3596E52-7D7D-4D9F-B140-F5A143BDC487}">
+						<Event Name="Play_SFX_GPE_Catapult_Melody_01" ID="{463430F2-B6AC-4861-A5CC-BEBA2F8EB129}">
 							<ChildrenList>
-								<Action Name="" ID="{D1D23B62-7160-461D-9207-382833C9C2B5}" ShortID="979352686">
+								<Action Name="" ID="{02DE10BD-8EDE-4985-94A6-A6036B57F961}" ShortID="130350413">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Catapult_Melody_01" ID="{5ACE3EAF-C620-43FE-B460-9F3A945B338D}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+											<ObjectRef Name="SFX_GPE_Catapult_Melody_01" ID="{D13053EE-5685-4EF0-A192-6620005E9F5F}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_SFX_GPE_Catapult_Melody_02" ID="{8350C2D1-AF5E-47C4-A946-795442F90923}">
+						<Event Name="Play_SFX_GPE_Catapult_Melody_02" ID="{BB986C2F-36C3-49E8-B450-74CA18C60A8B}">
 							<ChildrenList>
-								<Action Name="" ID="{C019FCC2-DD12-4663-AE4C-DB8DCE43D672}" ShortID="469787361">
+								<Action Name="" ID="{6DBC2415-AD06-4C31-9C53-D655A65686E6}" ShortID="828124476">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_Catapult_Melody_02" ID="{5CA488DC-A926-4F83-A80F-C8331EA47C66}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+											<ObjectRef Name="SFX_GPE_Catapult_Melody_02" ID="{7FA92161-A27C-455D-BA31-7A35423F4AF8}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Catapult_Melody_04" ID="{6376A081-DEDC-4BB7-B8F0-4FD5C1719FDC}">
+							<ChildrenList>
+								<Action Name="" ID="{54F4FB85-7A8E-4858-A2E0-82FD88BC942C}" ShortID="295072809">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Catapult_Melody_04" ID="{9A8BAC69-7CD2-4E5C-963F-D2EB1D98649C}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Catapult_Melody_03" ID="{58AD5EBD-AEB3-4EB9-B7C2-0FE48EDB23FA}">
+							<ChildrenList>
+								<Action Name="" ID="{69A9B743-7CF4-49DF-8AB5-6D8F58AEBF41}" ShortID="250127350">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Catapult_Melody_03" ID="{32824EA1-4839-4AFA-9857-0DFE2F987990}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

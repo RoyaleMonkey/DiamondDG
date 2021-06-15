@@ -3555,10 +3555,45 @@
 								<Action Name="" ID="{C1C13796-55BC-4598-BBBB-09B4AB15F37B}" ShortID="108110471">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_Zipline_Bld" ID="{452EBD09-F785-45E3-989B-2199F69C2B69}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_GPE_Zipline_Portail_Loop" ID="{EBE03118-EFD8-4D22-BF99-48CC9134E66C}">
+							<ChildrenList>
+								<Action Name="" ID="{82095C59-2372-4372-8C9D-0074BB3B97E9}" ShortID="121004993">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Zipline_Portail_Loop" ID="{4F08177C-288A-4544-89B4-557A25211276}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Zipline_Portail_Start" ID="{72E44A66-2E5A-4E22-AA04-A8D9027FD06C}">
+							<ChildrenList>
+								<Action Name="" ID="{01500184-1452-4F3C-BBDF-95358B2849E1}" ShortID="866873050">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Zipline_Portail_Start" ID="{84EE9FF5-2ED0-4DA0-A7F6-5771D3E5B2CB}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A5EDDACE-3D30-4EC2-A6B2-21E4DC854EE5}" ShortID="815443670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Zipline_Portail_Loop" ID="{4F08177C-288A-4544-89B4-557A25211276}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

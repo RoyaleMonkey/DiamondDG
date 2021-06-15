@@ -8,7 +8,6 @@
 						<ObjectRef Name="MC" ID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb_Wind_Valley" ID="{B89D65E3-F71C-4151-A319-FEC0120640BF}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_ChuimesTEST" ID="{1B061188-8868-45D8-91D7-3D3421B332A6}" WorkUnitID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB" ID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Tonal" ID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}" WorkUnitID="{EA0B4C85-E2DB-4809-9268-E172FED419A1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RVB_Cave_Small" ID="{A0491926-B0B9-48F1-8AB3-9E79A31BEA8B}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}" Origin="Manual" Filter="7"/>
@@ -54,6 +53,7 @@
 						<ObjectRef Name="Play_SFX_GPE_Geyser_Start" ID="{F7962E1F-408E-4C97-BBB6-11D5AA6D4A9A}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_GPE_Geyser_end" ID="{7E48629B-9C82-4CB2-8046-53AB135B88F5}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_GPE_Catapulte_Loop" ID="{3E1ACEEF-053F-4D5B-92C0-7E880EF41469}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_GPE_Zipline_Portail_Start" ID="{72E44A66-2E5A-4E22-AA04-A8D9027FD06C}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_GPE_Catapulte_Start" ID="{E1BEEE66-959F-4E79-B58E-EE56A400D551}" WorkUnitID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ID="{A3EFC800-379F-4EAB-AC40-23352685312F}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

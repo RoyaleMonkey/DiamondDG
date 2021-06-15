@@ -15,7 +15,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "4019941376",
+    "Hash": "258037786",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -60,7 +60,6 @@
       "Id": "1413324378",
       "Name": "Play_Amb_Birds_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Birds_RFX",
-      "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "4589486",
@@ -177,20 +176,17 @@
      {
       "Id": "3623306286",
       "Name": "Play_Amb_CavernLore",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_CavernLore",
-      "MaxAttenuation": "3500.000000"
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_CavernLore"
      },
      {
       "Id": "2982907204",
       "Name": "Play_Amb_Drip_Cavern",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Drip_Cavern",
-      "MaxAttenuation": "6500.000000"
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Drip_Cavern"
      },
      {
       "Id": "172812343",
       "Name": "Play_Amb_Fall_Dirt_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Fall_Dirt_RFX",
-      "MaxAttenuation": "1500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "370379099",
@@ -223,7 +219,6 @@
       "Id": "2577208230",
       "Name": "Play_Amb_Frog_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Frog_RFX",
-      "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "409538992",
@@ -272,8 +267,7 @@
      {
       "Id": "832042763",
       "Name": "Play_Amb_Lake_LP",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_LP",
-      "MaxAttenuation": "8000.000000"
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_LP"
      },
      {
       "Id": "3619535171",
@@ -284,7 +278,6 @@
       "Id": "4244289267",
       "Name": "Play_Amb_Wind_Valley",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Valley",
-      "MaxAttenuation": "7500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "45234010",
@@ -376,26 +369,12 @@
       "Id": "305604352",
       "Name": "Play_Amb_Wind_Void",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Void",
-      "MaxAttenuation": "5500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "735267049",
         "Language": "SFX",
         "ShortName": "AMB_Cavern_void_LP.wav",
         "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2279321334",
-      "Name": "Play_ChuimesTEST",
-      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_ChuimesTEST",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "25502751",
-        "Language": "SFX",
-        "ShortName": "SFX_Green_Feather_Collectible_LP.wav",
-        "Path": "SFX\\SFX_Green_Feather_Collectible_LP_D8C07C79.wem"
        }
       ]
      },
@@ -408,7 +387,6 @@
       "Id": "1075472767",
       "Name": "Play_Insect_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Insect_RFX",
-      "MaxAttenuation": "3500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "79269412",
@@ -583,6 +561,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Jump"
      },
      {
+      "Id": "2685490133",
+      "Name": "Play_MC_Soft_Falling",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Soft_Falling"
+     },
+     {
       "Id": "3531921507",
       "Name": "Play_MC_Step",
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Step"
@@ -591,6 +574,19 @@
       "Id": "3757054751",
       "Name": "Play_MC_Taps",
       "ObjectPath": "\\Events\\Default Work Unit\\MC\\Play_MC_Taps"
+     },
+     {
+      "Id": "1583121471",
+      "Name": "Play_RoyaleMonkey_Logo",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_RoyaleMonkey_Logo",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "425398019",
+        "Language": "SFX",
+        "ShortName": "RoyaleMonkey_Logo.wav",
+        "Path": "SFX\\RoyaleMonkey_Logo_D8C07C79.wem"
+       }
+      ]
      },
      {
       "Id": "3239645937",
@@ -658,15 +654,15 @@
       ]
      },
      {
-      "Id": "2048695412",
-      "Name": "Stop_ChuimesTEST",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_ChuimesTEST",
-      "MaxAttenuation": "0.000000"
-     },
-     {
       "Id": "3181251971",
       "Name": "Stop_DarkWorld_Zelda_Pad",
       "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Stop_DarkWorld_Zelda_Pad",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "4170786443",
+      "Name": "Stop_MC_Soft_Falling",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC\\Stop_MC_Soft_Falling",
       "MaxAttenuation": "0.000000"
      },
      {
@@ -744,12 +740,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_Falling_PH.wav",
       "Path": "SFX\\SFX_MC_Falling_PH_0762CC47.wem"
-     },
-     {
-      "Id": "25502751",
-      "Language": "SFX",
-      "ShortName": "SFX_Green_Feather_Collectible_LP.wav",
-      "Path": "SFX\\SFX_Green_Feather_Collectible_LP_D8C07C79.wem"
      },
      {
       "Id": "26887683",
@@ -1212,6 +1202,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Os_Jump_03.wav",
       "Path": "SFX\\SFX_MC_FOL_Os_Jump_03_D8C07C79.wem"
+     },
+     {
+      "Id": "270900544",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_Soft_Fall_3.wav",
+      "Path": "SFX\\SFX_MC_Soft_Fall_3_0762CC47.wem"
      },
      {
       "Id": "275830104",
@@ -1880,6 +1876,12 @@
       "Path": "SFX\\SFX_MC_FT_Dirt_Run_10_D8C07C79.wem"
      },
      {
+      "Id": "595746430",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_Soft_Fall_4.wav",
+      "Path": "SFX\\SFX_MC_Soft_Fall_4_0762CC47.wem"
+     },
+     {
       "Id": "599670379",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Walk_06.wav",
@@ -1974,6 +1976,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Dirt_Run_04.wav",
       "Path": "SFX\\SFX_MC_FT_Dirt_Run_04_D8C07C79.wem"
+     },
+     {
+      "Id": "640938860",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_Soft_Fall_2.wav",
+      "Path": "SFX\\SFX_MC_Soft_Fall_2_0762CC47.wem"
      },
      {
       "Id": "642940918",
@@ -2700,6 +2708,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Long_Walk_05.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Long_Walk_05_D8C07C79.wem"
+     },
+     {
+      "Id": "946772322",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_Soft_Fall_1.wav",
+      "Path": "SFX\\SFX_MC_Soft_Fall_1_0762CC47.wem"
      },
      {
       "Id": "955406727",

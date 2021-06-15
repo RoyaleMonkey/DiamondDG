@@ -10745,7 +10745,7 @@
 						<ActiveSource Name="SFX_MC_Falling_PH" ID="{F6040101-0036-4311-8310-18EC3175760A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="MC_Soft_Falling_PH" ID="{54418CB5-E0B2-4DCE-A7DB-652A50DDAB68}" ShortID="860169222">
+				<RandomSequenceContainer Name="MC_Soft_Falling" ID="{99AED494-C4D2-44FF-8FFF-37D120DF2CFE}" ShortID="47570119">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -10755,18 +10755,108 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="SFX_Green_Feather_Collectible_LP" ID="{7B120667-1F01-43F0-8FDF-35BE84DE493A}">
-							<Language>SFX</Language>
-							<AudioFile>SFX_Green_Feather_Collectible_LP.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="25502751"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="SFX_MC_Soft_Fall_1" ID="{8E6BBF05-6458-4736-8156-B21576958F70}" ShortID="179552827">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Soft_Fall_1" ID="{8D66358D-AEF0-41C1-BBC5-713DDD63ED88}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_MC_Soft_Fall_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="946772322"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Soft_Fall_1" ID="{8D66358D-AEF0-41C1-BBC5-713DDD63ED88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_MC_Soft_Fall_2" ID="{014C296D-F326-48A8-8489-EF555F01E355}" ShortID="654265104">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Soft_Fall_2" ID="{23F6D4F7-5EF8-4F67-9D7B-D3A34A506ED7}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_MC_Soft_Fall_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="640938860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Soft_Fall_2" ID="{23F6D4F7-5EF8-4F67-9D7B-D3A34A506ED7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_MC_Soft_Fall_3" ID="{8F887247-7859-4253-8780-23720BACC9EE}" ShortID="208063360">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Soft_Fall_3" ID="{C87DB568-D932-4446-8535-8B39430308BF}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_MC_Soft_Fall_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="270900544"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Soft_Fall_3" ID="{C87DB568-D932-4446-8535-8B39430308BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_MC_Soft_Fall_4" ID="{86B96052-50D8-4967-B362-422039C7FA61}" ShortID="784093411">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Soft_Fall_4" ID="{E04B238D-0CEC-42EC-8B60-55644B516E99}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_MC_Soft_Fall_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="595746430"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Soft_Fall_4" ID="{E04B238D-0CEC-42EC-8B60-55644B516E99}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Green_Feather_Collectible_LP" ID="{7B120667-1F01-43F0-8FDF-35BE84DE493A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

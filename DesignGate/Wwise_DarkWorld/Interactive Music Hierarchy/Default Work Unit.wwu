@@ -191,7 +191,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+							<ObjectRef Name="MUSIC" ID="{2BDC07A9-CDAB-4D09-BEFD-233A423155FE}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -271,7 +271,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+							<ObjectRef Name="MUSIC" ID="{2BDC07A9-CDAB-4D09-BEFD-233A423155FE}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -618,7 +618,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+							<ObjectRef Name="MUSIC" ID="{2BDC07A9-CDAB-4D09-BEFD-233A423155FE}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1623,7 +1623,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+							<ObjectRef Name="MUSIC" ID="{2BDC07A9-CDAB-4D09-BEFD-233A423155FE}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

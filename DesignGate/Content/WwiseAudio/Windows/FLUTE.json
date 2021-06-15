@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "689524455",
+    "Hash": "3958662023",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -322,22 +322,10 @@
       "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Play_SFX_GPE_Catapult_Melody_01",
       "IncludedMemoryFiles": [
        {
-        "Id": "18721990",
+        "Id": "48088021",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Melody_Magical_01.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Melody_Magical_01_F6F93F8B.wem"
-       },
-       {
-        "Id": "27177814",
-        "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Melody_Stereo_01.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Melody_Stereo_01_A5598237.wem"
-       },
-       {
-        "Id": "460294500",
-        "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Melody_Mono_01.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Melody_Mono_01_FFAADAA3.wem"
+        "ShortName": "SFX_GPE_Catapult_Melody_01.wav",
+        "Path": "SFX\\SFX_GPE_Catapult_Melody_01_D8C07C79.wem"
        }
       ]
      },
@@ -347,22 +335,36 @@
       "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Play_SFX_GPE_Catapult_Melody_02",
       "IncludedMemoryFiles": [
        {
-        "Id": "691000022",
+        "Id": "1024950535",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Melody_Stereo_02.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Melody_Stereo_02_D8C07C79.wem"
-       },
+        "ShortName": "SFX_GPE_Catapult_Melody_02.wav",
+        "Path": "SFX\\SFX_GPE_Catapult_Melody_02_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3274171622",
+      "Name": "Play_SFX_GPE_Catapult_Melody_03",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Play_SFX_GPE_Catapult_Melody_03",
+      "IncludedMemoryFiles": [
        {
-        "Id": "927789172",
+        "Id": "611046109",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Melody_Mono_02.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Melody_Mono_02_D8C07C79.wem"
-       },
+        "ShortName": "SFX_GPE_Catapult_Melody_03.wav",
+        "Path": "SFX\\SFX_GPE_Catapult_Melody_03_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3274171617",
+      "Name": "Play_SFX_GPE_Catapult_Melody_04",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Flute_Melody\\Play_SFX_GPE_Catapult_Melody_04",
+      "IncludedMemoryFiles": [
        {
-        "Id": "1013251824",
+        "Id": "229451759",
         "Language": "SFX",
-        "ShortName": "SFX_GPE_Catapult_Melody_Magical_02.wav",
-        "Path": "SFX\\SFX_GPE_Catapult_Melody_Magical_02_D8C07C79.wem"
+        "ShortName": "SFX_GPE_Catapult_Melody_04.wav",
+        "Path": "SFX\\SFX_GPE_Catapult_Melody_04_D8C07C79.wem"
        }
       ]
      },
@@ -773,28 +775,10 @@
       "Path": "SFX\\Flt_D#_Layer_Loop_D8C07C79.wem"
      },
      {
-      "Id": "18721990",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Melody_Magical_01.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Melody_Magical_01_F6F93F8B.wem"
-     },
-     {
-      "Id": "27177814",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Melody_Stereo_01.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Melody_Stereo_01_A5598237.wem"
-     },
-     {
       "Id": "27921046",
       "Language": "SFX",
       "ShortName": "Flt_C_Reverb_Start.wav",
       "Path": "SFX\\Flt_C_Reverb_Start_D8C07C79.wem"
-     },
-     {
-      "Id": "30534036",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Reverb_F.wav",
-      "Path": "SFX\\Flute_Melody_Reverb_F_D8C07C79.wem"
      },
      {
       "Id": "31284809",
@@ -827,22 +811,16 @@
       "Path": "SFX\\SFX_GPE_Melody_Note1_Oct3_AS_D8C07C79.wem"
      },
      {
-      "Id": "43780261",
+      "Id": "48088021",
       "Language": "SFX",
-      "ShortName": "Flute_Melody_Main_DS.wav",
-      "Path": "SFX\\Flute_Melody_Main_DS_D8C07C79.wem"
+      "ShortName": "SFX_GPE_Catapult_Melody_01.wav",
+      "Path": "SFX\\SFX_GPE_Catapult_Melody_01_D8C07C79.wem"
      },
      {
       "Id": "50587423",
       "Language": "SFX",
       "ShortName": "Flt_D#_Main_End.wav",
       "Path": "SFX\\Flt_D#_Main_End_3C5EAB40.wem"
-     },
-     {
-      "Id": "53249534",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Main_F.wav",
-      "Path": "SFX\\Flute_Melody_Main_F_D8C07C79.wem"
      },
      {
       "Id": "60463401",
@@ -857,12 +835,6 @@
       "Path": "SFX\\Flt_F_Reverb_End_D8C07C79.wem"
      },
      {
-      "Id": "67001878",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Reverb_DS.wav",
-      "Path": "SFX\\Flute_Melody_Reverb_DS_D8C07C79.wem"
-     },
-     {
       "Id": "77292527",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note2_Oct4_Int5_01.wav",
@@ -873,12 +845,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note1_Oct3_DS.wav",
       "Path": "SFX\\SFX_GPE_Melody_Note1_Oct3_DS_D8C07C79.wem"
-     },
-     {
-      "Id": "108630294",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Reverb_G.wav",
-      "Path": "SFX\\Flute_Melody_Reverb_G_D8C07C79.wem"
      },
      {
       "Id": "122548726",
@@ -945,6 +911,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note2_Oct3_Int1_02.wav",
       "Path": "SFX\\SFX_GPE_Melody_Note2_Oct3_Int1_02_D8C07C79.wem"
+     },
+     {
+      "Id": "229451759",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Catapult_Melody_04.wav",
+      "Path": "SFX\\SFX_GPE_Catapult_Melody_04_D8C07C79.wem"
      },
      {
       "Id": "236007781",
@@ -1073,12 +1045,6 @@
       "Path": "SFX\\SFX_GPE_Melody_Note2_Oct4_Int6_01_D8C07C79.wem"
      },
      {
-      "Id": "431232726",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Magical_G.wav",
-      "Path": "SFX\\Flute_Melody_Magical_G_D8C07C79.wem"
-     },
-     {
       "Id": "446395729",
       "Language": "SFX",
       "ShortName": "Flt_D#_Layer_Start.wav",
@@ -1089,18 +1055,6 @@
       "Language": "SFX",
       "ShortName": "Flt_F_Layer_Loop.wav",
       "Path": "SFX\\Flt_F_Layer_Loop_D8C07C79.wem"
-     },
-     {
-      "Id": "460294500",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Melody_Mono_01.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Melody_Mono_01_FFAADAA3.wem"
-     },
-     {
-      "Id": "470087089",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Magical_DS.wav",
-      "Path": "SFX\\Flute_Melody_Magical_DS_D8C07C79.wem"
      },
      {
       "Id": "473983661",
@@ -1145,12 +1099,6 @@
       "Path": "SFX\\Flt_C_Reverb_Loop_D8C07C79.wem"
      },
      {
-      "Id": "571855905",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Main_G.wav",
-      "Path": "SFX\\Flute_Melody_Main_G_D8C07C79.wem"
-     },
-     {
       "Id": "583435392",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note2_Oct4_Int7_02.wav",
@@ -1167,6 +1115,12 @@
       "Language": "SFX",
       "ShortName": "Flt_F_Main_Loop.wav",
       "Path": "SFX\\Flt_F_Main_Loop_D8C07C79.wem"
+     },
+     {
+      "Id": "611046109",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Catapult_Melody_03.wav",
+      "Path": "SFX\\SFX_GPE_Catapult_Melody_03_D8C07C79.wem"
      },
      {
       "Id": "618168026",
@@ -1215,12 +1169,6 @@
       "Language": "SFX",
       "ShortName": "Flt_F_Main_End.wav",
       "Path": "SFX\\Flt_F_Main_End_B40D0640.wem"
-     },
-     {
-      "Id": "691000022",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Melody_Stereo_02.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Melody_Stereo_02_D8C07C79.wem"
      },
      {
       "Id": "695114102",
@@ -1343,18 +1291,6 @@
       "Path": "SFX\\SFX_GPE_Melody_Note1_Oct3_C_D8C07C79.wem"
      },
      {
-      "Id": "927789172",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Melody_Mono_02.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Melody_Mono_02_D8C07C79.wem"
-     },
-     {
-      "Id": "945158233",
-      "Language": "SFX",
-      "ShortName": "Flute_Melody_Magical_F.wav",
-      "Path": "SFX\\Flute_Melody_Magical_F_D8C07C79.wem"
-     },
-     {
       "Id": "965290922",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note1_Oct3_A.wav",
@@ -1385,12 +1321,6 @@
       "Path": "SFX\\SFX_GPE_Melody_Note2_Oct4_Int6_02_D8C07C79.wem"
      },
      {
-      "Id": "1013251824",
-      "Language": "SFX",
-      "ShortName": "SFX_GPE_Catapult_Melody_Magical_02.wav",
-      "Path": "SFX\\SFX_GPE_Catapult_Melody_Magical_02_D8C07C79.wem"
-     },
-     {
       "Id": "1021185733",
       "Language": "SFX",
       "ShortName": "Flt_F_Layer_Start.wav",
@@ -1401,6 +1331,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Melody_Note3_Oct4_Int4_01.wav",
       "Path": "SFX\\SFX_GPE_Melody_Note3_Oct4_Int4_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1024950535",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Catapult_Melody_02.wav",
+      "Path": "SFX\\SFX_GPE_Catapult_Melody_02_D8C07C79.wem"
      },
      {
       "Id": "1027134471",

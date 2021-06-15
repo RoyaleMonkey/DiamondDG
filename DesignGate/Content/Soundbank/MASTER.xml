@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="4019941376">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1860002426">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -226,14 +226,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2279321334" Name="Play_ChuimesTEST" ObjectPath="\Events\Default Work Unit\MC\Play_ChuimesTEST">
-					<IncludedMemoryFiles>
-						<File Id="25502751" Language="SFX">
-							<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
-							<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="2904809513" Name="Play_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Play_DarkWorld_Zelda_Pad"/>
 				<Event Id="1075472767" Name="Play_Insect_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Insect_RFX" MaxAttenuation="3500.000000">
 					<IncludedMemoryFiles>
@@ -336,6 +328,7 @@
 				<Event Id="2017862678" Name="Play_MC_FOL_Scuff" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Scuff"/>
 				<Event Id="4164330385" Name="Play_MC_FOL_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_FOL_Step"/>
 				<Event Id="3022734957" Name="Play_MC_Jump" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Jump"/>
+				<Event Id="2685490133" Name="Play_MC_Soft_Falling" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Soft_Falling"/>
 				<Event Id="3531921507" Name="Play_MC_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Step"/>
 				<Event Id="3757054751" Name="Play_MC_Taps" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Taps"/>
 				<Event Id="3239645937" Name="Play_UI_Menu_Enter" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Menu_Enter">
@@ -378,8 +371,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2048695412" Name="Stop_ChuimesTEST" ObjectPath="\Events\Default Work Unit\Stop_ChuimesTEST" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
+				<Event Id="4170786443" Name="Stop_MC_Soft_Falling" ObjectPath="\Events\Default Work Unit\MC\Stop_MC_Soft_Falling" MaxAttenuation="0.000000"/>
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
@@ -424,10 +417,6 @@
 				<File Id="25445270" Language="SFX">
 					<ShortName>SFX_MC_Falling_PH.wav</ShortName>
 					<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
-				</File>
-				<File Id="25502751" Language="SFX">
-					<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
-					<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
 				</File>
 				<File Id="26887683" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>
@@ -736,6 +725,10 @@
 				<File Id="270687085" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Jump_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="270900544" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_3.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_3_0762CC47.wem</Path>
 				</File>
 				<File Id="275830104" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Scuff_04.wav</ShortName>
@@ -1181,6 +1174,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Run_10.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Run_10_D8C07C79.wem</Path>
 				</File>
+				<File Id="595746430" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_4.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_4_0762CC47.wem</Path>
+				</File>
 				<File Id="599670379" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_06_D8C07C79.wem</Path>
@@ -1244,6 +1241,10 @@
 				<File Id="637958023" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Run_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Run_04_D8C07C79.wem</Path>
+				</File>
+				<File Id="640938860" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_2.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_2_0762CC47.wem</Path>
 				</File>
 				<File Id="642940918" Language="SFX">
 					<ShortName>SFX_MC_Tap_Grass_2.wav</ShortName>
@@ -1728,6 +1729,10 @@
 				<File Id="942385044" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_05_D8C07C79.wem</Path>
+				</File>
+				<File Id="946772322" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_1.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_1_0762CC47.wem</Path>
 				</File>
 				<File Id="955406727" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_04.wav</ShortName>

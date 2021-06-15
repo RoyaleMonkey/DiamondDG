@@ -109,12 +109,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_ChuimesTEST" ID="{1B061188-8868-45D8-91D7-3D3421B332A6}">
+				<Event Name="Play_MC_Soft_Falling" ID="{7038E8F3-4B48-4CF4-80AF-3422D20F149D}">
 					<ChildrenList>
-						<Action Name="" ID="{EE40187C-13EC-4CBC-8745-5BCE546A1032}" ShortID="159149659">
+						<Action Name="" ID="{142DBEC4-C587-4915-9227-E81264FD54D7}" ShortID="383347306">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MC_Soft_Falling_PH" ID="{54418CB5-E0B2-4DCE-A7DB-652A50DDAB68}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+									<ObjectRef Name="MC_Soft_Falling" ID="{99AED494-C4D2-44FF-8FFF-37D120DF2CFE}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MC_Soft_Falling" ID="{5E3A9640-A561-47A8-9AA4-C567AFCA0549}">
+					<ChildrenList>
+						<Action Name="" ID="{A0255B57-5FFC-4DD3-93CB-447C9CCEC46D}" ShortID="243824714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Soft_Falling" ID="{99AED494-C4D2-44FF-8FFF-37D120DF2CFE}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

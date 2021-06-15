@@ -37,7 +37,6 @@ namespace AK
         static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
         static const AkUniqueID PLAY_AMB_WIND_VALLEY = 4244289267U;
         static const AkUniqueID PLAY_AMB_WIND_VOID = 305604352U;
-        static const AkUniqueID PLAY_CHUIMESTEST = 2279321334U;
         static const AkUniqueID PLAY_DARKWORLD_ZELDA_PAD = 2904809513U;
         static const AkUniqueID PLAY_ENDING_WATERFALL = 2488731060U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_01 = 764168061U;
@@ -77,6 +76,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_FOL_SCUFF = 2017862678U;
         static const AkUniqueID PLAY_MC_FOL_STEP = 4164330385U;
         static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
+        static const AkUniqueID PLAY_MC_SOFT_FALLING = 2685490133U;
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
         static const AkUniqueID PLAY_MUS_DISCOVERY = 3311863392U;
@@ -186,7 +186,11 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_F = 2012244447U;
         static const AkUniqueID PLAY_SFX_GPE_TOYPLANT_G = 2012244446U;
         static const AkUniqueID PLAY_SFX_GPE_ZIPLINE_BLD = 513126929U;
+        static const AkUniqueID PLAY_SFX_GPE_ZIPLINE_PORTAIL_START = 3189841639U;
         static const AkUniqueID PLAY_SFX_LE_BASERO_LP = 30825167U;
+        static const AkUniqueID PLAY_SFX_STATUE_DESTRUCTION_1 = 1396017883U;
+        static const AkUniqueID PLAY_SFX_STATUE_DESTRUCTION_2 = 1396017880U;
+        static const AkUniqueID PLAY_SFX_STATUE_DESTRUCTION_3 = 1396017881U;
         static const AkUniqueID PLAY_SFX_WATERFALL_BIG = 2590190883U;
         static const AkUniqueID PLAY_UI_MENU_ENTER = 3239645937U;
         static const AkUniqueID PLAY_UI_MENU_EXIT = 3805496685U;
@@ -199,8 +203,8 @@ namespace AK
         static const AkUniqueID SET_STATE_WATERFALL_3RD = 1171744134U;
         static const AkUniqueID SET_STATE_WATERFALL_OUT = 1078101995U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
-        static const AkUniqueID STOP_CHUIMESTEST = 2048695412U;
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
+        static const AkUniqueID STOP_MC_SOFT_FALLING = 4170786443U;
         static const AkUniqueID STOP_MUS_BACK_MENU = 4179124425U;
         static const AkUniqueID STOP_MUS_WATERFALL = 3867830866U;
         static const AkUniqueID STOP_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP = 1229862554U;
@@ -223,6 +227,7 @@ namespace AK
         static const AkUniqueID STOP_SFX_GPE_STELE_G3 = 1131393349U;
         static const AkUniqueID STOP_SFX_GPE_TELEKINESIE = 437964639U;
         static const AkUniqueID STOP_SFX_GPE_ZIPLINE_BLD = 3367732063U;
+        static const AkUniqueID STOP_SFX_GPE_ZIPLINE_PORTAIL_LOOP = 3319603641U;
         static const AkUniqueID VOLUME_AMBT_PAD_ZELDA = 1977485633U;
     } // namespace EVENTS
 

@@ -389,6 +389,39 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_SFX_Statue_Destruction_2" ID="{A901C6FF-B76E-4E66-A627-D297DDB90061}">
+							<ChildrenList>
+								<Action Name="" ID="{B1B95F4F-A6DF-4176-B686-F90EA71B7AC4}" ShortID="26476920">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Statue_Destruction_2" ID="{8F1EDA13-122E-422A-9E96-481637845967}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Statue_Destruction_1" ID="{4F264C16-8D3A-417D-9234-DE6EAE062A14}">
+							<ChildrenList>
+								<Action Name="" ID="{09077E20-2BFA-4CBC-8709-1415EA1F803F}" ShortID="758887539">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Statue_Destruction_1" ID="{3500365C-4349-4838-9F96-8DDAF84BAD03}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Statue_Destruction_3" ID="{2AC011D8-B3A3-4015-81E1-75FFD8A35BB7}">
+							<ChildrenList>
+								<Action Name="" ID="{C96BA801-F957-4DDE-9C5F-14EE2C2C9E57}" ShortID="371669453">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Statue_Destruction_3" ID="{375432DF-21C5-4A6E-BA40-4E9AAB7C27B5}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="Amb_Tonal" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" PersistMode="Reference"/>
@@ -399,20 +432,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_ChuimesTEST" ID="{7C148D49-57E6-40BC-B4FB-8F40C3843785}">
-					<ChildrenList>
-						<Action Name="" ID="{BDCC289D-17B9-489F-9B55-4BAE19DCD470}" ShortID="733737180">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MC_Soft_Falling_PH" ID="{54418CB5-E0B2-4DCE-A7DB-652A50DDAB68}" WorkUnitID="{BB3EFD1B-521B-4091-86B9-C913391FDFA0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -44,7 +44,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2902696175">
+		<SoundBank Id="393239870" Language="SFX" Hash="3433122044">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -203,9 +203,9 @@
 							<ShortName>SFX_Catapulte_Start_02.wav</ShortName>
 							<Path>SFX\SFX_Catapulte_Start_02_D8C07C79.wem</Path>
 						</File>
-						<File Id="957060995" Language="SFX">
-							<ShortName>SFX_Catapulte_Start.wav</ShortName>
-							<Path>SFX\SFX_Catapulte_Start_D8C07C79.wem</Path>
+						<File Id="243601624" Language="SFX">
+							<ShortName>SFX_Catapulte_Start_01.wav</ShortName>
+							<Path>SFX\SFX_Catapulte_Start_01_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1649,6 +1649,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3189841639" Name="Play_SFX_GPE_Zipline_Portail_Start" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Zipline\Play_SFX_GPE_Zipline_Portail_Start" MaxAttenuation="3000.000000">
+					<IncludedMemoryFiles>
+						<File Id="167371545" Language="SFX">
+							<ShortName>SFX_Portail_Zipline_LP.wav</ShortName>
+							<Path>SFX\SFX_Portail_Zipline_LP_0762CC47.wem</Path>
+						</File>
+						<File Id="458019149" Language="SFX">
+							<ShortName>SFX_Portail_Zipline_Start.wav</ShortName>
+							<Path>SFX\SFX_Portail_Zipline_Start_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="30825167" Name="Play_SFX_LE_Basero_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Basero_LP" MaxAttenuation="950.000000">
 					<IncludedMemoryFiles>
 						<File Id="70124005" Language="SFX">
@@ -1665,6 +1677,9 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1396017883" Name="Play_SFX_Statue_Destruction_1" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_1"/>
+				<Event Id="1396017880" Name="Play_SFX_Statue_Destruction_2" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_2"/>
+				<Event Id="1396017881" Name="Play_SFX_Statue_Destruction_3" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_3"/>
 				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000"/>
 				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
@@ -1720,6 +1735,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3367732063" Name="Stop_SFX_GPE_Zipline_Bld" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Zipline\Stop_SFX_GPE_Zipline_Bld" MaxAttenuation="0.000000"/>
+				<Event Id="3319603641" Name="Stop_SFX_GPE_Zipline_Portail_Loop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Zipline\Stop_SFX_GPE_Zipline_Portail_Loop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="4604180" Language="SFX">
@@ -1822,6 +1838,10 @@
 					<ShortName>SFX_LE_Waterfall_Away.wav</ShortName>
 					<Path>SFX\SFX_LE_Waterfall_Away_D8C07C79.wem</Path>
 				</File>
+				<File Id="97574193" Language="SFX">
+					<ShortName>SFX_Destruction_Statue_2.wav</ShortName>
+					<Path>SFX\SFX_Destruction_Statue_2_D8C07C79.wem</Path>
+				</File>
 				<File Id="98890993" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_F2.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem</Path>
@@ -1873,6 +1893,10 @@
 				<File Id="166139696" Language="SFX">
 					<ShortName>RFX_GPE_Zipline_6.wav</ShortName>
 					<Path>SFX\RFX_GPE_Zipline_6_D8C07C79.wem</Path>
+				</File>
+				<File Id="167371545" Language="SFX">
+					<ShortName>SFX_Portail_Zipline_LP.wav</ShortName>
+					<Path>SFX\SFX_Portail_Zipline_LP_0762CC47.wem</Path>
 				</File>
 				<File Id="172934826" Language="SFX">
 					<ShortName>SFX_Feather_Collectible_Purple_LP_Activated.wav</ShortName>
@@ -1961,6 +1985,10 @@
 				<File Id="239712345" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Idle_Open_LP_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Idle_Open_LP_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="243601624" Language="SFX">
+					<ShortName>SFX_Catapulte_Start_01.wav</ShortName>
+					<Path>SFX\SFX_Catapulte_Start_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="243623444" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F2_02.wav</ShortName>
@@ -2141,6 +2169,10 @@
 				<File Id="443084533" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_F3_D8C07C79.wem</Path>
+				</File>
+				<File Id="458019149" Language="SFX">
+					<ShortName>SFX_Portail_Zipline_Start.wav</ShortName>
+					<Path>SFX\SFX_Portail_Zipline_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="460369264" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_A3.wav</ShortName>
@@ -2338,6 +2370,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_01_D8C07C79.wem</Path>
 				</File>
+				<File Id="711404652" Language="SFX">
+					<ShortName>SFX_Destruction_Statue_3.wav</ShortName>
+					<Path>SFX\SFX_Destruction_Statue_3_D8C07C79.wem</Path>
+				</File>
 				<File Id="712658994" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_03_D8C07C79.wem</Path>
@@ -2381,10 +2417,6 @@
 				<File Id="768679159" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_A1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_A1_D8C07C79.wem</Path>
-				</File>
-				<File Id="771746067" Language="SFX">
-					<ShortName>SFX_Collectible_Wing_End.wav</ShortName>
-					<Path>SFX\SFX_Collectible_Wing_End_D8C07C79.wem</Path>
 				</File>
 				<File Id="784161327" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_03.wav</ShortName>
@@ -2510,17 +2542,9 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem</Path>
 				</File>
-				<File Id="953424105" Language="SFX">
-					<ShortName>SFX_Collectible_Wing_Start.wav</ShortName>
-					<Path>SFX\SFX_Collectible_Wing_Start_D8C07C79.wem</Path>
-				</File>
 				<File Id="955535201" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_02_D8C07C79.wem</Path>
-				</File>
-				<File Id="957060995" Language="SFX">
-					<ShortName>SFX_Catapulte_Start.wav</ShortName>
-					<Path>SFX\SFX_Catapulte_Start_D8C07C79.wem</Path>
 				</File>
 				<File Id="957458129" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D3_03.wav</ShortName>
@@ -2590,6 +2614,10 @@
 					<ShortName>SFX_Telekinesie_End__3.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_End__3_A5AE5356.wem</Path>
 				</File>
+				<File Id="1033420327" Language="SFX">
+					<ShortName>SFX_Destruction_Statue_1.wav</ShortName>
+					<Path>SFX\SFX_Destruction_Statue_1_D8C07C79.wem</Path>
+				</File>
 				<File Id="1034101597" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_F2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_F2_D8C07C79.wem</Path>
@@ -2640,7 +2668,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX" Hash="2013468150">
+		<SoundBank Id="1075435911" Language="SFX" Hash="1873043230">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -2980,7 +3008,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="564857643">
+		<SoundBank Id="1167860281" Language="SFX" Hash="689524455">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -3900,7 +3928,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3297273627">
+		<SoundBank Id="3991942870" Language="SFX" Hash="340568578">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -4068,7 +4096,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="2001645135">
+		<SoundBank Id="4056684167" Language="SFX" Hash="2768978127">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -4320,14 +4348,6 @@
 						<File Id="735267049" Language="SFX">
 							<ShortName>AMB_Cavern_void_LP.wav</ShortName>
 							<Path>SFX\AMB_Cavern_void_LP_0762CC47.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2279321334" Name="Play_ChuimesTEST" ObjectPath="\Events\Default Work Unit\MC\Play_ChuimesTEST">
-					<IncludedMemoryFiles>
-						<File Id="25502751" Language="SFX">
-							<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
-							<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -5878,6 +5898,26 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2685490133" Name="Play_MC_Soft_Falling" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Soft_Falling">
+					<IncludedMemoryFiles>
+						<File Id="270900544" Language="SFX">
+							<ShortName>SFX_MC_Soft_Fall_3.wav</ShortName>
+							<Path>SFX\SFX_MC_Soft_Fall_3_0762CC47.wem</Path>
+						</File>
+						<File Id="595746430" Language="SFX">
+							<ShortName>SFX_MC_Soft_Fall_4.wav</ShortName>
+							<Path>SFX\SFX_MC_Soft_Fall_4_0762CC47.wem</Path>
+						</File>
+						<File Id="640938860" Language="SFX">
+							<ShortName>SFX_MC_Soft_Fall_2.wav</ShortName>
+							<Path>SFX\SFX_MC_Soft_Fall_2_0762CC47.wem</Path>
+						</File>
+						<File Id="946772322" Language="SFX">
+							<ShortName>SFX_MC_Soft_Fall_1.wav</ShortName>
+							<Path>SFX\SFX_MC_Soft_Fall_1_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3531921507" Name="Play_MC_Step" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Step">
 					<IncludedMemoryFiles>
 						<File Id="4232739" Language="SFX">
@@ -6925,6 +6965,30 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
+				<Event Id="1396017883" Name="Play_SFX_Statue_Destruction_1" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_1">
+					<IncludedMemoryFiles>
+						<File Id="1033420327" Language="SFX">
+							<ShortName>SFX_Destruction_Statue_1.wav</ShortName>
+							<Path>SFX\SFX_Destruction_Statue_1_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1396017880" Name="Play_SFX_Statue_Destruction_2" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_2">
+					<IncludedMemoryFiles>
+						<File Id="97574193" Language="SFX">
+							<ShortName>SFX_Destruction_Statue_2.wav</ShortName>
+							<Path>SFX\SFX_Destruction_Statue_2_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1396017881" Name="Play_SFX_Statue_Destruction_3" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_3">
+					<IncludedMemoryFiles>
+						<File Id="711404652" Language="SFX">
+							<ShortName>SFX_Destruction_Statue_3.wav</ShortName>
+							<Path>SFX\SFX_Destruction_Statue_3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000">
 					<IncludedMemoryFiles>
 						<File Id="668422005" Language="SFX">
@@ -6974,8 +7038,8 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
-				<Event Id="2048695412" Name="Stop_ChuimesTEST" ObjectPath="\Events\Default Work Unit\Stop_ChuimesTEST" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
+				<Event Id="4170786443" Name="Stop_MC_Soft_Falling" ObjectPath="\Events\Default Work Unit\MC\Stop_MC_Soft_Falling" MaxAttenuation="0.000000"/>
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
@@ -7017,10 +7081,6 @@
 				<File Id="25445270" Language="SFX">
 					<ShortName>SFX_MC_Falling_PH.wav</ShortName>
 					<Path>SFX\SFX_MC_Falling_PH_0762CC47.wem</Path>
-				</File>
-				<File Id="25502751" Language="SFX">
-					<ShortName>SFX_Green_Feather_Collectible_LP.wav</ShortName>
-					<Path>SFX\SFX_Green_Feather_Collectible_LP_D8C07C79.wem</Path>
 				</File>
 				<File Id="26887683" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_04.wav</ShortName>
@@ -7329,6 +7389,10 @@
 				<File Id="270687085" Language="SFX">
 					<ShortName>SFX_MC_FOL_Os_Jump_03.wav</ShortName>
 					<Path>SFX\SFX_MC_FOL_Os_Jump_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="270900544" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_3.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_3_0762CC47.wem</Path>
 				</File>
 				<File Id="275830104" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Scuff_04.wav</ShortName>
@@ -7774,6 +7838,10 @@
 					<ShortName>SFX_MC_FT_Dirt_Run_10.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Run_10_D8C07C79.wem</Path>
 				</File>
+				<File Id="595746430" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_4.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_4_0762CC47.wem</Path>
+				</File>
 				<File Id="599670379" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_06.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_06_D8C07C79.wem</Path>
@@ -7837,6 +7905,10 @@
 				<File Id="637958023" Language="SFX">
 					<ShortName>SFX_MC_FT_Dirt_Run_04.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Dirt_Run_04_D8C07C79.wem</Path>
+				</File>
+				<File Id="640938860" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_2.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_2_0762CC47.wem</Path>
 				</File>
 				<File Id="642940918" Language="SFX">
 					<ShortName>SFX_MC_Tap_Grass_2.wav</ShortName>
@@ -8321,6 +8393,10 @@
 				<File Id="942385044" Language="SFX">
 					<ShortName>SFX_MC_FT_Grass_Long_Walk_05.wav</ShortName>
 					<Path>SFX\SFX_MC_FT_Grass_Long_Walk_05_D8C07C79.wem</Path>
+				</File>
+				<File Id="946772322" Language="SFX">
+					<ShortName>SFX_MC_Soft_Fall_1.wav</ShortName>
+					<Path>SFX\SFX_MC_Soft_Fall_1_0762CC47.wem</Path>
 				</File>
 				<File Id="955406727" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Scuff_04.wav</ShortName>

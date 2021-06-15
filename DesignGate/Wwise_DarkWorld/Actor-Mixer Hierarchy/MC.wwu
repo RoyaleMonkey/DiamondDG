@@ -33,6 +33,37 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+							<RTPCList>
+								<RTPC Name="" ID="{886A4848-9306-4C86-BA2E-1A6FE76E6CED}" ShortID="280703004">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5817DC6E-0BC4-4A45-9030-DA6F0FEDB2BB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>550</XPos>
+												<YPos>-1.41162</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2776.73861</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3000</XPos>
+												<YPos>-1.12446</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>

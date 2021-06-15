@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "4177101678",
+    "Hash": "4092900100",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -367,6 +367,11 @@
         "Path": "SFX\\SFX_GPE_Catapult_Melody_04_D8C07C79.wem"
        }
       ]
+     },
+     {
+      "Id": "2006607759",
+      "Name": "Play_SFX_GPE_Melody_Feat_Amongus",
+      "ObjectPath": "\\Events\\Default Work Unit\\FLUTE\\Play_SFX_GPE_Melody_Feature\\Play_SFX_GPE_Melody_Feat_Amongus"
      },
      {
       "Id": "448114921",
@@ -1031,6 +1036,12 @@
       "Language": "SFX",
       "ShortName": "Flt_C_Layer_End.wav",
       "Path": "SFX\\Flt_C_Layer_End_D8C07C79.wem"
+     },
+     {
+      "Id": "403237185",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Melody_Feat_Amongus.wav",
+      "Path": "SFX\\SFX_GPE_Melody_Feat_Amongus_D8C07C79.wem"
      },
      {
       "Id": "425749807",

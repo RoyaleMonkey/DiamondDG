@@ -9,7 +9,7 @@
 			<ChildrenList>
 				<Folder Name="SFX_GPE_Stele" ID="{FA8008D5-7DE4-42C6-9140-CD0B99DE3362}" ShortID="894082602">
 					<ChildrenList>
-						<Folder Name="Play_SFX_GPE_Stele_3" ID="{B236994C-B105-4341-A877-F92C0108A42E}" ShortID="1056415674">
+						<Folder Name="SFX_GPE_Stele_3" ID="{B236994C-B105-4341-A877-F92C0108A42E}" ShortID="1056415674">
 							<ChildrenList>
 								<Event Name="Play_SFX_GPE_Stele_F3" ID="{87502380-4EE4-404F-877A-E5A16DF97C1D}">
 									<ChildrenList>
@@ -1159,7 +1159,7 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Play_SFX_GPE_Stele_2" ID="{CC8D89DD-539E-45BD-A4A3-6C48D56FD515}" ShortID="473946075">
+						<Folder Name="SFX_GPE_Stele_2" ID="{CC8D89DD-539E-45BD-A4A3-6C48D56FD515}" ShortID="473946075">
 							<ChildrenList>
 								<Event Name="Play_SFX_GPE_Stele_A2" ID="{78FE8FF3-DD56-41FA-B0D3-D0AEF7369FFB}">
 									<ChildrenList>
@@ -1978,7 +1978,7 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Play_SFX_GPE_Stele_Chord" ID="{901647C0-224A-40F8-BA35-1F1A28DAA290}" ShortID="630679849">
+						<Folder Name="SFX_GPE_Stele_Chord" ID="{901647C0-224A-40F8-BA35-1F1A28DAA290}" ShortID="630679849">
 							<ChildrenList>
 								<Event Name="Play_SFX_GPE_Stele_DA3" ID="{8EA2B5E6-E39D-4D8F-9AF1-9E410CC3BB3C}">
 									<ChildrenList>
@@ -2547,7 +2547,7 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Play_SFX_GPE_Stele_End" ID="{50C956A5-1B3E-4C6D-9DFC-4A09C7413F7D}" ShortID="730051900">
+						<Folder Name="SFX_GPE_Stele_End" ID="{50C956A5-1B3E-4C6D-9DFC-4A09C7413F7D}" ShortID="730051900">
 							<ChildrenList>
 								<Folder Name="Play_SFX_GPE_Stele_End_3" ID="{6E278BFD-B908-4292-85BC-3C7C05A482EC}" ShortID="279656698">
 									<ChildrenList>
@@ -2933,6 +2933,54 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="SFX_GPE_Stele_Ground" ID="{1DEFA617-0E7A-4670-99D1-73E11F21EF9D}" ShortID="810878412">
+							<ChildrenList>
+								<Event Name="Play_SFX_GPE_Stele_Ground_F" ID="{D9D84CBE-9786-4A42-8F9D-081B63DF27F0}">
+									<ChildrenList>
+										<Action Name="" ID="{D475AA94-2B7C-4F90-B80C-77A899E97065}" ShortID="345878944">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Stele_Ground_F" ID="{08C93ACF-BE02-4E80-96E3-A5FB7CF180DE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Stele_Ground_C" ID="{2107ED25-DC57-4EDA-9BA0-B3ED3A0CF6FB}">
+									<ChildrenList>
+										<Action Name="" ID="{9232EA23-B363-434E-A292-81FB62D9C258}" ShortID="56951774">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Stele_Ground_C" ID="{A5BACC75-A09D-4A94-8355-6A6EE375AD67}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Stele_Ground_DS" ID="{F191911B-AF3C-428E-8A25-F61437BFF177}">
+									<ChildrenList>
+										<Action Name="" ID="{821AD8DE-098E-4134-95D0-5D6496D4ECBA}" ShortID="649364698">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Stele_Ground_DS" ID="{AF17BC3A-2F18-46A6-A869-8247F21092F1}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_GPE_Stele_Ground_G" ID="{5B3B5497-AF5D-4A45-9340-A18400FE5411}">
+									<ChildrenList>
+										<Action Name="" ID="{70DB64E4-A667-466E-8C7A-5E1E67796D44}" ShortID="107606130">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Stele_Ground_G" ID="{A6D2AC83-D1AC-466D-B761-E6997F5B2A56}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX_GPE_PlantPlatform" ID="{04645C53-625A-4116-A64A-047821F1C7C4}" ShortID="615228094">
@@ -3305,6 +3353,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{9C3A37C7-4FF6-472F-A64A-FD124DA85F77}" ShortID="674472373">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Rustle" ID="{081A22F2-99B3-4F82-89DF-6E1BC2B2F799}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_SFX_GPE_ToyPlant_F" ID="{D6ED2472-EB4D-4E83-AC2B-78F19E534F2D}">
@@ -3343,6 +3398,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{691CF04A-25CA-4336-8AFE-1C3CFF2D8A04}" ShortID="844492404">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Rustle" ID="{081A22F2-99B3-4F82-89DF-6E1BC2B2F799}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_SFX_GPE_ToyPlant_A" ID="{5827433F-B34D-4A53-9CF9-70A69A14B7B7}">
@@ -3377,7 +3439,14 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_GPE_ToyPlant_Chimes_A" ID="{997260E1-34C4-42AB-9B93-4EC831F4BD76}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+											<ObjectRef Name="sdf" ID="{997260E1-34C4-42AB-9B93-4EC831F4BD76}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{19A0DD95-CBA7-485B-9573-5C8438984702}" ShortID="1020853181">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Rustle" ID="{081A22F2-99B3-4F82-89DF-6E1BC2B2F799}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -3419,6 +3488,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{63FB5293-E24E-4EAE-B64A-868556CA5059}" ShortID="683421935">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Rustle" ID="{081A22F2-99B3-4F82-89DF-6E1BC2B2F799}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_SFX_GPE_ToyPlant_C" ID="{71BBF87B-B681-4960-9028-9EB473FA027E}">
@@ -3454,6 +3530,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_C" ID="{B7A68E15-A39E-434D-8D40-0B1338604C25}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7674F1C3-73AA-4132-9860-DBE8C3C38D15}" ShortID="185148885">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Rustle" ID="{081A22F2-99B3-4F82-89DF-6E1BC2B2F799}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -3495,6 +3578,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{7EA93CFF-93E8-48E6-8EED-96DB98FC3BBE}" ShortID="858838772">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Rustle" ID="{081A22F2-99B3-4F82-89DF-6E1BC2B2F799}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_SFX_GPE_ToyPlant_DS" ID="{989F16D1-0EE7-4E7D-BCC3-35972C327489}">
@@ -3530,6 +3620,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_GPE_ToyPlant_Whisper_DS" ID="{1D786016-B404-4966-BA4D-2C5BC8DCB40E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B8E2F28B-E2B6-4F0E-89C4-9C39B633008E}" ShortID="816458912">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_ToyPlant_Rustle" ID="{081A22F2-99B3-4F82-89DF-6E1BC2B2F799}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

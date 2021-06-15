@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1167860281" Language="SFX" Hash="4177101678">
+		<SoundBank Id="1167860281" Language="SFX" Hash="4092900100">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -237,6 +237,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2006607759" Name="Play_SFX_GPE_Melody_Feat_Amongus" ObjectPath="\Events\Default Work Unit\FLUTE\Play_SFX_GPE_Melody_Feature\Play_SFX_GPE_Melody_Feat_Amongus"/>
 				<Event Id="448114921" Name="Play_SFX_GPE_Melody_Note1_Oct34_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct34_Int4"/>
 				<Event Id="293585246" Name="Play_SFX_GPE_Melody_Note1_Oct3_Int1" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct3_Int1">
 					<IncludedMemoryFiles>
@@ -644,6 +645,10 @@
 				<File Id="400648656" Language="SFX">
 					<ShortName>Flt_C_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_End_D8C07C79.wem</Path>
+				</File>
+				<File Id="403237185" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Feat_Amongus.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Feat_Amongus_D8C07C79.wem</Path>
 				</File>
 				<File Id="425749807" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int3_02.wav</ShortName>

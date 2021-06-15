@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1104266428",
+    "Hash": "1278896039",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -29,25 +29,25 @@
         "Id": "14694151",
         "Language": "SFX",
         "ShortName": "AMB_RFX_Bat_3.wav",
-        "Path": "SFX\\AMB_RFX_Bat_3_B9E032CF.wem"
+        "Path": "SFX\\AMB_RFX_Bat_3_6CB4C17D.wem"
        },
        {
         "Id": "54107815",
         "Language": "SFX",
         "ShortName": "AMB_RFX_Bat_4.wav",
-        "Path": "SFX\\AMB_RFX_Bat_4_A29C5751.wem"
+        "Path": "SFX\\AMB_RFX_Bat_4_1E16CCA3.wem"
        },
        {
         "Id": "862795115",
         "Language": "SFX",
         "ShortName": "AMB_RFX_Bat_2.wav",
-        "Path": "SFX\\AMB_RFX_Bat_2_315AF6AE.wem"
+        "Path": "SFX\\AMB_RFX_Bat_2_5242D464.wem"
        },
        {
         "Id": "987714074",
         "Language": "SFX",
         "ShortName": "AMB_RFX_Bat_1.wav",
-        "Path": "SFX\\AMB_RFX_Bat_1_31F74A34.wem"
+        "Path": "SFX\\AMB_RFX_Bat_1_EB31EE3B.wem"
        }
       ],
       "AuxBusSends": [
@@ -783,7 +783,7 @@
       "Id": "14694151",
       "Language": "SFX",
       "ShortName": "AMB_RFX_Bat_3.wav",
-      "Path": "SFX\\AMB_RFX_Bat_3_B9E032CF.wem"
+      "Path": "SFX\\AMB_RFX_Bat_3_6CB4C17D.wem"
      },
      {
       "Id": "21057580",
@@ -855,7 +855,7 @@
       "Id": "54107815",
       "Language": "SFX",
       "ShortName": "AMB_RFX_Bat_4.wav",
-      "Path": "SFX\\AMB_RFX_Bat_4_A29C5751.wem"
+      "Path": "SFX\\AMB_RFX_Bat_4_1E16CCA3.wem"
      },
      {
       "Id": "60053343",
@@ -2637,7 +2637,7 @@
       "Id": "862795115",
       "Language": "SFX",
       "ShortName": "AMB_RFX_Bat_2.wav",
-      "Path": "SFX\\AMB_RFX_Bat_2_315AF6AE.wem"
+      "Path": "SFX\\AMB_RFX_Bat_2_5242D464.wem"
      },
      {
       "Id": "869242387",
@@ -2919,7 +2919,7 @@
       "Id": "987714074",
       "Language": "SFX",
       "ShortName": "AMB_RFX_Bat_1.wav",
-      "Path": "SFX\\AMB_RFX_Bat_1_31F74A34.wem"
+      "Path": "SFX\\AMB_RFX_Bat_1_EB31EE3B.wem"
      },
      {
       "Id": "988188749",

@@ -2995,6 +2995,21 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Play_SFX_GPE_Melody_Feature" ID="{32E91FB3-0A3C-49E2-ABD7-0DA20C466B45}" ShortID="1014653762">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Melody_Feat_Amongus" ID="{88CEF73F-B3CF-49D4-A86F-C40C5F8062CC}">
+							<ChildrenList>
+								<Action Name="" ID="{AAC285A6-98C5-45D3-A4C6-0A71DE8930D9}" ShortID="7991702">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Melody_Feat_Amongus" ID="{648FB87A-673D-4A95-88EA-32CFA8242B27}" WorkUnitID="{4A78E9A1-4700-4DED-8218-0D463B173437}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

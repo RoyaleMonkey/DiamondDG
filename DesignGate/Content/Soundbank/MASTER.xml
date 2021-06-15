@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1104266428">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1278896039">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -17,19 +17,19 @@
 					<IncludedMemoryFiles>
 						<File Id="14694151" Language="SFX">
 							<ShortName>AMB_RFX_Bat_3.wav</ShortName>
-							<Path>SFX\AMB_RFX_Bat_3_B9E032CF.wem</Path>
+							<Path>SFX\AMB_RFX_Bat_3_6CB4C17D.wem</Path>
 						</File>
 						<File Id="54107815" Language="SFX">
 							<ShortName>AMB_RFX_Bat_4.wav</ShortName>
-							<Path>SFX\AMB_RFX_Bat_4_A29C5751.wem</Path>
+							<Path>SFX\AMB_RFX_Bat_4_1E16CCA3.wem</Path>
 						</File>
 						<File Id="862795115" Language="SFX">
 							<ShortName>AMB_RFX_Bat_2.wav</ShortName>
-							<Path>SFX\AMB_RFX_Bat_2_315AF6AE.wem</Path>
+							<Path>SFX\AMB_RFX_Bat_2_5242D464.wem</Path>
 						</File>
 						<File Id="987714074" Language="SFX">
 							<ShortName>AMB_RFX_Bat_1.wav</ShortName>
-							<Path>SFX\AMB_RFX_Bat_1_31F74A34.wem</Path>
+							<Path>SFX\AMB_RFX_Bat_1_EB31EE3B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -426,7 +426,7 @@
 				</File>
 				<File Id="14694151" Language="SFX">
 					<ShortName>AMB_RFX_Bat_3.wav</ShortName>
-					<Path>SFX\AMB_RFX_Bat_3_B9E032CF.wem</Path>
+					<Path>SFX\AMB_RFX_Bat_3_6CB4C17D.wem</Path>
 				</File>
 				<File Id="21057580" Language="SFX">
 					<ShortName>SFX_MC_FT_Wood_Walk_08.wav</ShortName>
@@ -474,7 +474,7 @@
 				</File>
 				<File Id="54107815" Language="SFX">
 					<ShortName>AMB_RFX_Bat_4.wav</ShortName>
-					<Path>SFX\AMB_RFX_Bat_4_A29C5751.wem</Path>
+					<Path>SFX\AMB_RFX_Bat_4_1E16CCA3.wem</Path>
 				</File>
 				<File Id="60053343" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Puddle_Land_02.wav</ShortName>
@@ -1662,7 +1662,7 @@
 				</File>
 				<File Id="862795115" Language="SFX">
 					<ShortName>AMB_RFX_Bat_2.wav</ShortName>
-					<Path>SFX\AMB_RFX_Bat_2_315AF6AE.wem</Path>
+					<Path>SFX\AMB_RFX_Bat_2_5242D464.wem</Path>
 				</File>
 				<File Id="869242387" Language="SFX">
 					<ShortName>SFX_MC_FT_Water_Shallow_Land_01.wav</ShortName>
@@ -1850,7 +1850,7 @@
 				</File>
 				<File Id="987714074" Language="SFX">
 					<ShortName>AMB_RFX_Bat_1.wav</ShortName>
-					<Path>SFX\AMB_RFX_Bat_1_31F74A34.wem</Path>
+					<Path>SFX\AMB_RFX_Bat_1_EB31EE3B.wem</Path>
 				</File>
 				<File Id="988188749" Language="SFX">
 					<ShortName>SFX_MC_FOL_Scuff_05.wav</ShortName>

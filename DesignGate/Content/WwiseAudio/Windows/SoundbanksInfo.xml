@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -44,7 +44,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1375244375">
+		<SoundBank Id="393239870" Language="SFX" Hash="2237806232">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -352,7 +352,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1686349880" Name="Play_SFX_GPE_Stele_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_A2" MaxAttenuation="10000.000000">
+				<Event Id="1686349880" Name="Play_SFX_GPE_Stele_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_A2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="183618480" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
@@ -372,7 +372,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1686349881" Name="Play_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_A3" MaxAttenuation="10000.000000">
+				<Event Id="1686349881" Name="Play_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_A3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="399423359" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_A3.wav</ShortName>
@@ -396,7 +396,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3024238153" Name="Play_SFX_GPE_Stele_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_AS2" MaxAttenuation="10000.000000">
+				<Event Id="3024238153" Name="Play_SFX_GPE_Stele_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_AS2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="197037388" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
@@ -416,7 +416,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3024238152" Name="Play_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_AS3" MaxAttenuation="10000.000000">
+				<Event Id="3024238152" Name="Play_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_AS3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="219560079" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_AS4.wav</ShortName>
@@ -440,7 +440,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1948521748" Name="Play_SFX_GPE_Stele_ASAS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASAS3" MaxAttenuation="10000.000000">
+				<Event Id="1948521748" Name="Play_SFX_GPE_Stele_ASAS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASAS3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="197037388" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
@@ -464,7 +464,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3694864379" Name="Play_SFX_GPE_Stele_ASC3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASC3" MaxAttenuation="10000.000000">
+				<Event Id="3694864379" Name="Play_SFX_GPE_Stele_ASC3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASC3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -500,7 +500,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2" MaxAttenuation="10000.000000">
+				<Event Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -520,7 +520,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3" MaxAttenuation="10000.000000">
+				<Event Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="204593150" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_C3.wav</ShortName>
@@ -544,7 +544,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3581240682" Name="Play_SFX_GPE_Stele_CCF3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCF3" MaxAttenuation="10000.000000">
+				<Event Id="3581240682" Name="Play_SFX_GPE_Stele_CCF3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCF3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -580,7 +580,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3564463093" Name="Play_SFX_GPE_Stele_CCG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCG3" MaxAttenuation="10000.000000">
+				<Event Id="3564463093" Name="Play_SFX_GPE_Stele_CCG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCG3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -616,7 +616,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2" MaxAttenuation="10000.000000">
+				<Event Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -636,7 +636,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3" MaxAttenuation="10000.000000">
+				<Event Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="261695194" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
@@ -660,7 +660,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2990138531" Name="Play_SFX_GPE_Stele_DA3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DA3" MaxAttenuation="10000.000000">
+				<Event Id="2990138531" Name="Play_SFX_GPE_Stele_DA3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DA3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -696,7 +696,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2016317611" Name="Play_SFX_GPE_Stele_DDG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DDG3" MaxAttenuation="10000.000000">
+				<Event Id="2016317611" Name="Play_SFX_GPE_Stele_DDG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DDG3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -732,7 +732,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2755251892" Name="Play_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_DS2" MaxAttenuation="10000.000000">
+				<Event Id="2755251892" Name="Play_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_DS2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="66082767" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_DS3.wav</ShortName>
@@ -752,7 +752,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2755251893" Name="Play_SFX_GPE_Stele_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_DS3" MaxAttenuation="10000.000000">
+				<Event Id="2755251893" Name="Play_SFX_GPE_Stele_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_DS3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="24149264" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -776,7 +776,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1744874496" Name="Play_SFX_GPE_Stele_DSG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DSG3" MaxAttenuation="10000.000000">
+				<Event Id="1744874496" Name="Play_SFX_GPE_Stele_DSG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DSG3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="24149264" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -816,7 +816,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="713787098" Name="Play_SFX_GPE_Stele_End_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_A2" MaxAttenuation="10000.000000">
+				<Event Id="713787098" Name="Play_SFX_GPE_Stele_End_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_A2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="183618480" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
@@ -832,7 +832,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="713787099" Name="Play_SFX_GPE_Stele_End_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_A3" MaxAttenuation="10000.000000">
+				<Event Id="713787099" Name="Play_SFX_GPE_Stele_End_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_A3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="460369264" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_A3.wav</ShortName>
@@ -848,7 +848,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2493834803" Name="Play_SFX_GPE_Stele_End_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_AS2" MaxAttenuation="10000.000000">
+				<Event Id="2493834803" Name="Play_SFX_GPE_Stele_End_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_AS2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="197037388" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
@@ -864,7 +864,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2493834802" Name="Play_SFX_GPE_Stele_End_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_AS3" MaxAttenuation="10000.000000">
+				<Event Id="2493834802" Name="Play_SFX_GPE_Stele_End_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_AS3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="334241974" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS3.wav</ShortName>
@@ -880,7 +880,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="747342396" Name="Play_SFX_GPE_Stele_End_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_C2" MaxAttenuation="10000.000000">
+				<Event Id="747342396" Name="Play_SFX_GPE_Stele_End_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_C2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -896,7 +896,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="747342397" Name="Play_SFX_GPE_Stele_End_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_C3" MaxAttenuation="10000.000000">
+				<Event Id="747342397" Name="Play_SFX_GPE_Stele_End_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_C3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="659122690" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_C3.wav</ShortName>
@@ -912,7 +912,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="797675253" Name="Play_SFX_GPE_Stele_End_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_D2" MaxAttenuation="10000.000000">
+				<Event Id="797675253" Name="Play_SFX_GPE_Stele_End_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_D2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -928,7 +928,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="797675252" Name="Play_SFX_GPE_Stele_End_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_D3" MaxAttenuation="10000.000000">
+				<Event Id="797675252" Name="Play_SFX_GPE_Stele_End_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_D3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="261695194" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
@@ -944,7 +944,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2360452462" Name="Play_SFX_GPE_Stele_End_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_DS2" MaxAttenuation="10000.000000">
+				<Event Id="2360452462" Name="Play_SFX_GPE_Stele_End_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_DS2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="66082767" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_DS3.wav</ShortName>
@@ -960,7 +960,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2360452463" Name="Play_SFX_GPE_Stele_End_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_DS3" MaxAttenuation="10000.000000">
+				<Event Id="2360452463" Name="Play_SFX_GPE_Stele_End_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_DS3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="24149264" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -976,7 +976,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="831230431" Name="Play_SFX_GPE_Stele_End_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_F2" MaxAttenuation="10000.000000">
+				<Event Id="831230431" Name="Play_SFX_GPE_Stele_End_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_F2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="383078185" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_F2.wav</ShortName>
@@ -992,7 +992,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="831230430" Name="Play_SFX_GPE_Stele_End_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_F3" MaxAttenuation="10000.000000">
+				<Event Id="831230430" Name="Play_SFX_GPE_Stele_End_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_F3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="443084533" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>
@@ -1008,7 +1008,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="814452840" Name="Play_SFX_GPE_Stele_End_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_G2" MaxAttenuation="10000.000000">
+				<Event Id="814452840" Name="Play_SFX_GPE_Stele_End_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_G2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="133630538" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
@@ -1024,7 +1024,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="814452841" Name="Play_SFX_GPE_Stele_End_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_G3" MaxAttenuation="10000.000000">
+				<Event Id="814452841" Name="Play_SFX_GPE_Stele_End_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_G3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="279707459" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_G3.wav</ShortName>
@@ -1040,7 +1040,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1602461721" Name="Play_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_F2" MaxAttenuation="10000.000000">
+				<Event Id="1602461721" Name="Play_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_F2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="11866814" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_F3.wav</ShortName>
@@ -1060,7 +1060,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1602461720" Name="Play_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_F3" MaxAttenuation="10000.000000">
+				<Event Id="1602461720" Name="Play_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_F3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="11866814" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_F3.wav</ShortName>
@@ -1084,7 +1084,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2935724227" Name="Play_SFX_GPE_Stele_FFG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_FFG3" MaxAttenuation="10000.000000">
+				<Event Id="2935724227" Name="Play_SFX_GPE_Stele_FFG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_FFG3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="279707459" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_G3.wav</ShortName>
@@ -1120,7 +1120,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2" MaxAttenuation="10000.000000">
+				<Event Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="58158967" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_G3.wav</ShortName>
@@ -1140,7 +1140,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3" MaxAttenuation="10000.000000">
+				<Event Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="58158967" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_G3.wav</ShortName>
@@ -1164,7 +1164,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3358804830" Name="Play_SFX_GPE_Stele_GG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_GG3" MaxAttenuation="10000.000000">
+				<Event Id="3358804830" Name="Play_SFX_GPE_Stele_GG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_GG3" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="133630538" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
@@ -1185,6 +1185,38 @@
 						<File Id="759739255" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_G3.wav</ShortName>
 							<Path>SFX\SFX_GPE_Butterfly_Layer_G3_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4194096238" Name="Play_SFX_GPE_Stele_Ground_C" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_C" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="376816743" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Ground_C.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Ground_C_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4060242232" Name="Play_SFX_GPE_Stele_Ground_DS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_DS" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="611766086" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Ground_DS.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Ground_DS_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4194096235" Name="Play_SFX_GPE_Stele_Ground_F" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_F" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="155530451" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Ground_F.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Ground_F_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4194096234" Name="Play_SFX_GPE_Stele_Ground_G" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_G" MaxAttenuation="10000.000000">
+					<IncludedMemoryFiles>
+						<File Id="463504844" Language="SFX">
+							<ShortName>SFX_GPE_Stele_Ground_G.wav</ShortName>
+							<Path>SFX\SFX_GPE_Stele_Ground_G_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1306,6 +1338,18 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A2_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_01_D8C07C79.wem</Path>
 						</File>
+						<File Id="56668630" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="61500006" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="75118493" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
+						</File>
 						<File Id="93449857" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A1_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_02_D8C07C79.wem</Path>
@@ -1313,6 +1357,18 @@
 						<File Id="106982745" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A3_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="107925199" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+						</File>
+						<File Id="118996732" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="190349782" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
 						</File>
 						<File Id="233991831" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A1_03.wav</ShortName>
@@ -1325,6 +1381,14 @@
 						<File Id="402286783" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A3_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="456025790" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="499274518" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
 						</File>
 						<File Id="570281229" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A1_01.wav</ShortName>
@@ -1342,9 +1406,21 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A2_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A2_02_D8C07C79.wem</Path>
 						</File>
+						<File Id="712934498" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
+						</File>
 						<File Id="947279076" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_A3_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="997012060" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="1019777354" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1354,17 +1430,49 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_01_D8C07C79.wem</Path>
 						</File>
+						<File Id="56668630" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="61500006" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="75118493" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="107925199" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+						</File>
 						<File Id="110874952" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="118996732" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="190349782" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
 						</File>
 						<File Id="192162486" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
 						</File>
+						<File Id="456025790" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+						</File>
 						<File Id="470056985" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="499274518" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
 						</File>
 						<File Id="514383079" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_AS1.wav</ShortName>
@@ -1373,6 +1481,10 @@
 						<File Id="600199274" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="712934498" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
 						</File>
 						<File Id="758764640" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_01.wav</ShortName>
@@ -1386,9 +1498,17 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS3_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS3_02_D8C07C79.wem</Path>
 						</File>
+						<File Id="997012060" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+						</File>
 						<File Id="1011144336" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_AS2.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Chimes_AS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="1019777354" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
 						</File>
 						<File Id="1070609207" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_01.wav</ShortName>
@@ -1398,13 +1518,45 @@
 				</Event>
 				<Event Id="2012244442" Name="Play_SFX_GPE_ToyPlant_C" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_C" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
+						<File Id="56668630" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="61500006" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="75118493" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="107925199" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+						</File>
+						<File Id="118996732" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="190349782" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
+						</File>
 						<File Id="309400106" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_C2.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Chimes_C2_D8C07C79.wem</Path>
 						</File>
+						<File Id="456025790" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+						</File>
 						<File Id="483306855" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_C1_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="499274518" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
 						</File>
 						<File Id="553186713" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_C2_03.wav</ShortName>
@@ -1422,6 +1574,10 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_C1_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_02_D8C07C79.wem</Path>
 						</File>
+						<File Id="712934498" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
+						</File>
 						<File Id="800108783" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_C3_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_02_D8C07C79.wem</Path>
@@ -1438,9 +1594,17 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_C2_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem</Path>
 						</File>
+						<File Id="997012060" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+						</File>
 						<File Id="999835100" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_C2_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1019777354" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1450,13 +1614,45 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_D1_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_02_D8C07C79.wem</Path>
 						</File>
+						<File Id="56668630" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="61500006" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="75118493" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="107925199" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+						</File>
+						<File Id="118996732" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
+						</File>
 						<File Id="148533558" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_D3_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_01_D8C07C79.wem</Path>
 						</File>
+						<File Id="190349782" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
+						</File>
 						<File Id="259028868" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_D1_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D1_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="456025790" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="499274518" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
 						</File>
 						<File Id="518900440" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_D1_01.wav</ShortName>
@@ -1465,6 +1661,10 @@
 						<File Id="680490105" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_D3_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="712934498" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
 						</File>
 						<File Id="798217334" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_D2_01.wav</ShortName>
@@ -1482,9 +1682,17 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_D2_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_D2_03_D8C07C79.wem</Path>
 						</File>
+						<File Id="997012060" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+						</File>
 						<File Id="1013658289" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_D2.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Chimes_D2_D8C07C79.wem</Path>
+						</File>
+						<File Id="1019777354" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
 						</File>
 						<File Id="1040005805" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_D1.wav</ShortName>
@@ -1494,9 +1702,29 @@
 				</Event>
 				<Event Id="2893457044" Name="Play_SFX_GPE_ToyPlant_DS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_ToyPlant\Play_SFX_GPE_ToyPlant_DS" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
+						<File Id="56668630" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="61500006" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="75118493" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
+						</File>
 						<File Id="79435795" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="107925199" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+						</File>
+						<File Id="118996732" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
 						</File>
 						<File Id="139256099" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_DS1.wav</ShortName>
@@ -1505,6 +1733,10 @@
 						<File Id="188363552" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_DS2.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Chimes_DS2_D8C07C79.wem</Path>
+						</File>
+						<File Id="190349782" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
 						</File>
 						<File Id="239111183" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_03.wav</ShortName>
@@ -1522,6 +1754,14 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_02_D8C07C79.wem</Path>
 						</File>
+						<File Id="456025790" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="499274518" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
+						</File>
 						<File Id="535226205" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_03_D8C07C79.wem</Path>
@@ -1530,13 +1770,25 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_03_D8C07C79.wem</Path>
 						</File>
+						<File Id="712934498" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
+						</File>
 						<File Id="949988494" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_DS1_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS1_01_D8C07C79.wem</Path>
 						</File>
+						<File Id="997012060" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+						</File>
 						<File Id="1014862457" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_DS2_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS2_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="1019777354" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1546,9 +1798,33 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_F3_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_01_D8C07C79.wem</Path>
 						</File>
+						<File Id="56668630" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="61500006" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="75118493" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
+						</File>
 						<File Id="98890993" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_F2.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Chimes_F2_D8C07C79.wem</Path>
+						</File>
+						<File Id="107925199" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+						</File>
+						<File Id="118996732" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="190349782" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
 						</File>
 						<File Id="243623444" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_F2_02.wav</ShortName>
@@ -1566,9 +1842,21 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_F2_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F2_01_D8C07C79.wem</Path>
 						</File>
+						<File Id="456025790" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="499274518" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
+						</File>
 						<File Id="678544366" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Chimes_F1.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Chimes_F1_D8C07C79.wem</Path>
+						</File>
+						<File Id="712934498" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
 						</File>
 						<File Id="724302095" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_F3_02.wav</ShortName>
@@ -1582,6 +1870,14 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_F1_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_03_D8C07C79.wem</Path>
 						</File>
+						<File Id="997012060" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+						</File>
+						<File Id="1019777354" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
+						</File>
 						<File Id="1054465173" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_F1_01.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_F1_01_D8C07C79.wem</Path>
@@ -1594,6 +1890,30 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_G1_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_03_D8C07C79.wem</Path>
 						</File>
+						<File Id="56668630" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+						</File>
+						<File Id="61500006" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
+						</File>
+						<File Id="75118493" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
+						</File>
+						<File Id="107925199" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+						</File>
+						<File Id="118996732" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
+						</File>
+						<File Id="190349782" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
+						</File>
 						<File Id="201527366" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_G2_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_02_D8C07C79.wem</Path>
@@ -1605,6 +1925,14 @@
 						<File Id="318329739" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_G1_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G1_02_D8C07C79.wem</Path>
+						</File>
+						<File Id="456025790" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+						</File>
+						<File Id="499274518" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
 						</File>
 						<File Id="594698355" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_G2_01.wav</ShortName>
@@ -1622,6 +1950,10 @@
 							<ShortName>SFX_GPE_ToyPlant_Whisper_G3_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_03_D8C07C79.wem</Path>
 						</File>
+						<File Id="712934498" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
+						</File>
 						<File Id="884640607" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_G3_02.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_02_D8C07C79.wem</Path>
@@ -1630,9 +1962,17 @@
 							<ShortName>SFX_GPE_ToyPlant_Chimes_G1.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Chimes_G1_D8C07C79.wem</Path>
 						</File>
+						<File Id="997012060" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+						</File>
 						<File Id="1016339075" Language="SFX">
 							<ShortName>SFX_GPE_ToyPlant_Whisper_G2_03.wav</ShortName>
 							<Path>SFX\SFX_GPE_ToyPlant_Whisper_G2_03_D8C07C79.wem</Path>
+						</File>
+						<File Id="1019777354" Language="SFX">
+							<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+							<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1735,20 +2075,20 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1164948654" Name="Stop_SFX_GPE_Stele_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_A2" MaxAttenuation="0.000000"/>
-				<Event Id="1164948655" Name="Stop_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_A3" MaxAttenuation="0.000000"/>
-				<Event Id="1037685775" Name="Stop_SFX_GPE_Stele_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_AS2" MaxAttenuation="0.000000"/>
-				<Event Id="1037685774" Name="Stop_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_AS3" MaxAttenuation="0.000000"/>
-				<Event Id="1198503920" Name="Stop_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_C2" MaxAttenuation="0.000000"/>
-				<Event Id="1198503921" Name="Stop_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_C3" MaxAttenuation="0.000000"/>
-				<Event Id="1114615761" Name="Stop_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_D2" MaxAttenuation="0.000000"/>
-				<Event Id="1114615760" Name="Stop_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_D3" MaxAttenuation="0.000000"/>
-				<Event Id="634478466" Name="Stop_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_DS2" MaxAttenuation="0.000000"/>
-				<Event Id="634478467" Name="Stop_SFX_GPE_Stele_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_DS3" MaxAttenuation="0.000000"/>
-				<Event Id="1148171067" Name="Stop_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_F2" MaxAttenuation="0.000000"/>
-				<Event Id="1148171066" Name="Stop_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_F3" MaxAttenuation="0.000000"/>
-				<Event Id="1131393348" Name="Stop_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_G2" MaxAttenuation="0.000000"/>
-				<Event Id="1131393349" Name="Stop_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\Play_SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_G3" MaxAttenuation="0.000000"/>
+				<Event Id="1164948654" Name="Stop_SFX_GPE_Stele_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_A2" MaxAttenuation="0.000000"/>
+				<Event Id="1164948655" Name="Stop_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_A3" MaxAttenuation="0.000000"/>
+				<Event Id="1037685775" Name="Stop_SFX_GPE_Stele_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_AS2" MaxAttenuation="0.000000"/>
+				<Event Id="1037685774" Name="Stop_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_AS3" MaxAttenuation="0.000000"/>
+				<Event Id="1198503920" Name="Stop_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_C2" MaxAttenuation="0.000000"/>
+				<Event Id="1198503921" Name="Stop_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_C3" MaxAttenuation="0.000000"/>
+				<Event Id="1114615761" Name="Stop_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_D2" MaxAttenuation="0.000000"/>
+				<Event Id="1114615760" Name="Stop_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_D3" MaxAttenuation="0.000000"/>
+				<Event Id="634478466" Name="Stop_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_DS2" MaxAttenuation="0.000000"/>
+				<Event Id="634478467" Name="Stop_SFX_GPE_Stele_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_DS3" MaxAttenuation="0.000000"/>
+				<Event Id="1148171067" Name="Stop_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_F2" MaxAttenuation="0.000000"/>
+				<Event Id="1148171066" Name="Stop_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_F3" MaxAttenuation="0.000000"/>
+				<Event Id="1131393348" Name="Stop_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_G2" MaxAttenuation="0.000000"/>
+				<Event Id="1131393349" Name="Stop_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_G3" MaxAttenuation="0.000000"/>
 				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Stop_SFX_GPE_Telekinesie">
 					<IncludedMemoryFiles>
 						<File Id="622243301" Language="SFX">
@@ -1821,9 +2161,17 @@
 					<ShortName>SFX_Catapulte_Start_02.wav</ShortName>
 					<Path>SFX\SFX_Catapulte_Start_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="56668630" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_08.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_08_D8C07C79.wem</Path>
+				</File>
 				<File Id="58158967" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_G3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_LP_G3_0762CC47.wem</Path>
+				</File>
+				<File Id="61500006" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_05.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_05_D8C07C79.wem</Path>
 				</File>
 				<File Id="64635819" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C4.wav</ShortName>
@@ -1844,6 +2192,10 @@
 				<File Id="72119939" Language="SFX">
 					<ShortName>SFX_GPE_Telek_DS_In.wav</ShortName>
 					<Path>SFX\SFX_GPE_Telek_DS_In_B2BCC3F4.wem</Path>
+				</File>
+				<File Id="75118493" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_01.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_01_D8C07C79.wem</Path>
 				</File>
 				<File Id="75417464" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -1885,6 +2237,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A3_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="107925199" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_11.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_11_D8C07C79.wem</Path>
+				</File>
 				<File Id="109901540" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_D2_D8C07C79.wem</Path>
@@ -1896,6 +2252,10 @@
 				<File Id="117693384" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_FS.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_FS_D8C07C79.wem</Path>
+				</File>
+				<File Id="118996732" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_07.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_07_D8C07C79.wem</Path>
 				</File>
 				<File Id="122514194" Language="SFX">
 					<ShortName>RFX_GPE_Zipline_5.wav</ShortName>
@@ -1920,6 +2280,10 @@
 				<File Id="148533558" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_D3_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_D3_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="155530451" Language="SFX">
+					<ShortName>SFX_GPE_Stele_Ground_F.wav</ShortName>
+					<Path>SFX\SFX_GPE_Stele_Ground_F_D8C07C79.wem</Path>
 				</File>
 				<File Id="166139696" Language="SFX">
 					<ShortName>RFX_GPE_Zipline_6.wav</ShortName>
@@ -1956,6 +2320,10 @@
 				<File Id="189226895" Language="SFX">
 					<ShortName>SFX_GPE_Telek_F_In.wav</ShortName>
 					<Path>SFX\SFX_GPE_Telek_F_In_386C73DE.wem</Path>
+				</File>
+				<File Id="190349782" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_06.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_06_D8C07C79.wem</Path>
 				</File>
 				<File Id="192162486" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
@@ -2129,6 +2497,10 @@
 					<ShortName>AMB_Ending_WaterFall_Away.wav</ShortName>
 					<Path>SFX\AMB_Ending_WaterFall_Away_0762CC47.wem</Path>
 				</File>
+				<File Id="376816743" Language="SFX">
+					<ShortName>SFX_GPE_Stele_Ground_C.wav</ShortName>
+					<Path>SFX\SFX_GPE_Stele_Ground_C_D8C07C79.wem</Path>
+				</File>
 				<File Id="377871452" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D4_D8C07C79.wem</Path>
@@ -2201,6 +2573,10 @@
 					<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Stone_F3_D8C07C79.wem</Path>
 				</File>
+				<File Id="456025790" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_10.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_10_D8C07C79.wem</Path>
+				</File>
 				<File Id="458019149" Language="SFX">
 					<ShortName>SFX_Portail_Zipline_Start.wav</ShortName>
 					<Path>SFX\SFX_Portail_Zipline_Start_D8C07C79.wem</Path>
@@ -2208,6 +2584,10 @@
 				<File Id="460369264" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_Layer_A3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_A3_D8C07C79.wem</Path>
+				</File>
+				<File Id="463504844" Language="SFX">
+					<ShortName>SFX_GPE_Stele_Ground_G.wav</ShortName>
+					<Path>SFX\SFX_GPE_Stele_Ground_G_D8C07C79.wem</Path>
 				</File>
 				<File Id="467225163" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C2.wav</ShortName>
@@ -2232,6 +2612,10 @@
 				<File Id="486250280" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Close_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Close_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="499274518" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_02.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_02_D8C07C79.wem</Path>
 				</File>
 				<File Id="513996057" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_DS.wav</ShortName>
@@ -2316,6 +2700,10 @@
 				<File Id="610677375" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_G2_D8C07C79.wem</Path>
+				</File>
+				<File Id="611766086" Language="SFX">
+					<ShortName>SFX_GPE_Stele_Ground_DS.wav</ShortName>
+					<Path>SFX\SFX_GPE_Stele_Ground_DS_D8C07C79.wem</Path>
 				</File>
 				<File Id="615154265" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_A1.wav</ShortName>
@@ -2408,6 +2796,10 @@
 				<File Id="712658994" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_G3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_G3_03_D8C07C79.wem</Path>
+				</File>
+				<File Id="712934498" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_09.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_09_D8C07C79.wem</Path>
 				</File>
 				<File Id="713070006" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_C.wav</ShortName>
@@ -2601,6 +2993,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C2_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="997012060" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_04.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_04_D8C07C79.wem</Path>
+				</File>
 				<File Id="999522006" Language="SFX">
 					<ShortName>SFX_Telekinesie_Start_2.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_Start_2_D8C07C79.wem</Path>
@@ -2632,6 +3028,10 @@
 				<File Id="1019347384" Language="SFX">
 					<ShortName>SFX_Collectible_Green_Spawn_4.wav</ShortName>
 					<Path>SFX\SFX_Collectible_Green_Spawn_4_D8C07C79.wem</Path>
+				</File>
+				<File Id="1019777354" Language="SFX">
+					<ShortName>SFX_GPE_ToyPlant_Rustle_03.wav</ShortName>
+					<Path>SFX\SFX_GPE_ToyPlant_Rustle_03_D8C07C79.wem</Path>
 				</File>
 				<File Id="1021947564" Language="SFX">
 					<ShortName>SFX_Catapulte_End.wav</ShortName>
@@ -2699,7 +3099,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX" Hash="191091199">
+		<SoundBank Id="1075435911" Language="SFX" Hash="1092940743">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -3039,7 +3439,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="4177101678">
+		<SoundBank Id="1167860281" Language="SFX" Hash="4092900100">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -3268,6 +3668,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2006607759" Name="Play_SFX_GPE_Melody_Feat_Amongus" ObjectPath="\Events\Default Work Unit\FLUTE\Play_SFX_GPE_Melody_Feature\Play_SFX_GPE_Melody_Feat_Amongus"/>
 				<Event Id="448114921" Name="Play_SFX_GPE_Melody_Note1_Oct34_Int4" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct34_Int4"/>
 				<Event Id="293585246" Name="Play_SFX_GPE_Melody_Note1_Oct3_Int1" ObjectPath="\Events\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note1\Play_SFX_GPE_Melody_Note1_Oct3_Int1">
 					<IncludedMemoryFiles>
@@ -3676,6 +4077,10 @@
 					<ShortName>Flt_C_Layer_End.wav</ShortName>
 					<Path>SFX\Flt_C_Layer_End_D8C07C79.wem</Path>
 				</File>
+				<File Id="403237185" Language="SFX">
+					<ShortName>SFX_GPE_Melody_Feat_Amongus.wav</ShortName>
+					<Path>SFX\SFX_GPE_Melody_Feat_Amongus_D8C07C79.wem</Path>
+				</File>
 				<File Id="425749807" Language="SFX">
 					<ShortName>SFX_GPE_Melody_Note3_Oct4_Int3_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_Melody_Note3_Oct4_Int3_02_D8C07C79.wem</Path>
@@ -3916,7 +4321,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="50139617">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3062672280">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -4084,7 +4489,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="289296726">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1672749975">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

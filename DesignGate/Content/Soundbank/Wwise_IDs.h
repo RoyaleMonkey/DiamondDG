@@ -108,6 +108,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_END = 1431744796U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_START = 1728506047U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_START = 2168219807U;
+        static const AkUniqueID PLAY_SFX_GPE_MELODY_FEAT_AMONGUS = 2006607759U;
         static const AkUniqueID PLAY_SFX_GPE_MELODY_NOTE1_OCT3_INT1 = 293585246U;
         static const AkUniqueID PLAY_SFX_GPE_MELODY_NOTE1_OCT3_INT2 = 293585245U;
         static const AkUniqueID PLAY_SFX_GPE_MELODY_NOTE1_OCT3_INT3 = 293585244U;
@@ -177,6 +178,10 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_STELE_G2 = 1585684138U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_G3 = 1585684139U;
         static const AkUniqueID PLAY_SFX_GPE_STELE_GG3 = 3358804830U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_GROUND_C = 4194096238U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_GROUND_DS = 4060242232U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_GROUND_F = 4194096235U;
+        static const AkUniqueID PLAY_SFX_GPE_STELE_GROUND_G = 4194096234U;
         static const AkUniqueID PLAY_SFX_GPE_TELEK_C_IN = 3201623454U;
         static const AkUniqueID PLAY_SFX_GPE_TELEK_C_OUT = 4063519041U;
         static const AkUniqueID PLAY_SFX_GPE_TELEK_DS_IN = 2782477296U;

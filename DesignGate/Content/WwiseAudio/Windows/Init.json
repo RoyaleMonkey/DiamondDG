@@ -15,11 +15,16 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "3446545988",
+    "Hash": "3032513008",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "IncludedAuxBusses": [
+     {
+      "Id": "161541955",
+      "Name": "RVB_Cave_Medium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+     },
      {
       "Id": "1566008239",
       "Name": "RVB_FOREST",

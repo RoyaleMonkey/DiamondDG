@@ -19,6 +19,7 @@
 					<ChildrenList>
 						<BlendContainer Name="Amb_Bat_RFX" ID="{37A01DEE-5858-41E2-827C-E0EA7B041F93}" ShortID="895761464">
 							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ModifierList>
 										<ModifierInfo>
@@ -56,6 +57,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -81,11 +83,10 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-19</Value>
+												<Value>-28</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -107,6 +108,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RVB_Cave_Medium" ID="{A0491926-B0B9-48F1-8AB3-9E79A31BEA8B}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="AMB_RFX_Bat_1" ID="{92590317-888E-4E46-814B-81EF5839A2A6}" ShortID="391374916">
@@ -120,6 +124,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_RFX_Bat_1" ID="{B46D0AF1-13CE-4D38-A9FE-4BE0D1625A45}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.340923052226027"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_RFX_Bat_1.wav</AudioFile>
 													<MediaIDList>
@@ -142,6 +151,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_RFX_Bat_2" ID="{1C236EA1-EA49-42D5-9BC3-B8FE6C04E8CE}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.317097602739726"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_RFX_Bat_2.wav</AudioFile>
 													<MediaIDList>
@@ -164,6 +178,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_RFX_Bat_3" ID="{FF505A1B-6686-4749-A3F9-EA01D05E120E}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.560775720605023"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_RFX_Bat_3.wav</AudioFile>
 													<MediaIDList>
@@ -186,6 +205,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_RFX_Bat_4" ID="{762129EC-FCD4-438D-B839-CCA0E81F5EC6}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.419940068493151"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_RFX_Bat_4.wav</AudioFile>
 													<MediaIDList>
@@ -617,6 +641,7 @@
 						<BlendContainer Name="Insect_RFX" ID="{20B19351-A569-498A-AE31-95F4682A8DDB}" ShortID="1057633070">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -4833,6 +4858,7 @@
 						<BlendContainer Name="Amb_Frog_RFX" ID="{91E734E9-7AF2-4EF9-A49A-40916CC3D07C}" ShortID="56676533">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
@@ -7059,6 +7085,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -8019,6 +8046,7 @@
 						<BlendContainer Name="Amb_Wind_Valley" ID="{089F2094-223E-47AB-8058-841CD1561614}" ShortID="93982560">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -8654,6 +8682,8 @@
 						<RandomSequenceContainer Name="Amb_Fall_Rocks_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" ShortID="812476859">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -8671,7 +8701,7 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+									<ObjectRef Name="RVB_Cave_Medium" ID="{A0491926-B0B9-48F1-8AB3-9E79A31BEA8B}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -8768,6 +8798,7 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>12</Value>
@@ -8802,6 +8833,7 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>5</Value>
@@ -8836,6 +8868,7 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -8861,6 +8894,955 @@
 								<ActiveSource Name="AMB_LoreCavern_LP" ID="{29CB23EC-772B-45CB-B667-91CEA0D0FEEB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Amb_SnakeRattle_RFX" ID="{9B92779D-AD3E-4FD0-A714-D4653A057BBC}" ShortID="672894584">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-21</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation Bird RFX" ID="{04AE22BF-3CC5-4B6A-8D98-6DB27BDC0A1A}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="RVB_Cave_Small" ID="{A26E318A-86D7-4FB6-ABE0-5BB255378471}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_RFX_SnakeRattle_1" ID="{FB912342-CAA6-4BD5-81D3-3749AF03927E}" ShortID="525169513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_SnakeRattle_1" ID="{68715439-71A2-4174-A36A-C35F8226996D}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_SnakeRattle_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945396998"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_SnakeRattle_1" ID="{68715439-71A2-4174-A36A-C35F8226996D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_SnakeRattle_2" ID="{55D30EAE-CDD6-4AE8-BDB0-0556EDA46549}" ShortID="673388681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_SnakeRattle_2" ID="{DAABD4BF-0012-4322-997F-8DA3D576F1E4}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_SnakeRattle_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="985361885"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_SnakeRattle_2" ID="{DAABD4BF-0012-4322-997F-8DA3D576F1E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_SnakeRattle_3" ID="{142ED4BC-6035-4E1A-BC64-FC83C9D571EB}" ShortID="912895317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_SnakeRattle_3" ID="{B1AD3283-C71C-4F12-B033-74A00A6979F1}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_SnakeRattle_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973033970"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_SnakeRattle_3" ID="{B1AD3283-C71C-4F12-B033-74A00A6979F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_SnakeRattle_4" ID="{3468486D-8831-4538-9EDC-203B7B698B7D}" ShortID="213503136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_SnakeRattle_4" ID="{1AD6F663-2A37-4C70-A0DD-E6798231CF2A}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_SnakeRattle_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1060522671"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_SnakeRattle_4" ID="{1AD6F663-2A37-4C70-A0DD-E6798231CF2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_SnakeRattle_5" ID="{D8882A34-7C51-453F-B8B6-41D5C0BE39EC}" ShortID="684189238">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_SnakeRattle_5" ID="{49751416-17DA-47C8-BF92-95FD57D6D065}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_SnakeRattle_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="892140746"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_SnakeRattle_5" ID="{49751416-17DA-47C8-BF92-95FD57D6D065}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_SnakeRattle_6" ID="{2347B299-DEF2-4878-9BFE-400C992535ED}" ShortID="1016463352">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_SnakeRattle_6" ID="{12D7D358-583A-4AF4-845A-D9413A0CC2B5}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_SnakeRattle_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="714297343"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_SnakeRattle_6" ID="{12D7D358-583A-4AF4-845A-D9413A0CC2B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Amb_Bird_Serdge" ID="{9CAD4196-47F0-4777-9C22-D02C4E0911FC}" ShortID="494682973">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Animals_RFX_ATT" ID="{E5DDF266-0A98-400F-AB38-AC7538115EE4}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_RFX_Bird_Sedge_1" ID="{834683AE-DE3E-4D54-AD21-AE832CEEA008}" ShortID="633876374">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Bird_Sedge_1" ID="{D4069429-B49D-475D-8D74-4C0056A7DF44}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Bird_Sedge_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="953674896"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Bird_Sedge_1" ID="{D4069429-B49D-475D-8D74-4C0056A7DF44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Bird_Sedge_2" ID="{81A2AF20-CB48-4766-9131-5D5742E9AA4F}" ShortID="941369812">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Bird_Sedge_2" ID="{3B085547-F6DD-424E-882E-EFD0310FA62A}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Bird_Sedge_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="381930802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Bird_Sedge_2" ID="{3B085547-F6DD-424E-882E-EFD0310FA62A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Bird_Sedge_3" ID="{BFC1DB05-6C53-47F6-A3F2-4DCB17854400}" ShortID="453597079">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Bird_Sedge_3" ID="{0C8F6BE5-BCAB-40ED-9BBA-81577ACF5AF9}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Bird_Sedge_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941985229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Bird_Sedge_3" ID="{0C8F6BE5-BCAB-40ED-9BBA-81577ACF5AF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Bird_Sedge_4" ID="{575705D9-9936-4238-8761-A4F812B5BE05}" ShortID="828911620">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Bird_Sedge_4" ID="{9AAB57FA-E754-42B8-AFB0-A02538F8F75D}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Bird_Sedge_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="829335835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Bird_Sedge_4" ID="{9AAB57FA-E754-42B8-AFB0-A02538F8F75D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Amb_Wind_Howling_RFX" ID="{8A83499B-0BFF-4082-8A32-465C5731252F}" ShortID="783864959">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{29E6D46C-2A4D-4E6C-8CB3-84AAEC64DA05}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="7"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AB529799-933A-4801-8258-110DE15F95B0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{23A4F14F-BEBE-4D8F-B90B-1CEE418917CA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AMB Valley ATT" ID="{06F6E7AD-7FCF-4695-BA58-16BE9CC160EE}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AMB" ID="{5A33D80D-2DCB-4A14-85DE-75D4E8E080B4}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Wind_Howling_RFX_1" ID="{E48842F6-D15C-470D-B88A-26232A0193D9}" ShortID="589707691">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_1" ID="{F343DAE8-7C50-42BB-B0BA-ABF07C7817AA}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="425133638"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_1" ID="{F343DAE8-7C50-42BB-B0BA-ABF07C7817AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_2" ID="{20C6BB5A-0835-4D65-AE6C-D3EBA4A04600}" ShortID="22971640">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_2" ID="{1369E320-2F81-446D-BEE0-CA6DB4E185FC}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861360394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_2" ID="{1369E320-2F81-446D-BEE0-CA6DB4E185FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_3" ID="{5823A779-6E86-4EA0-96AE-BE89237E6D96}" ShortID="57546944">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_3" ID="{A0B2D68B-E2AF-4D44-94C8-36E25F56CABC}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="843512823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_3" ID="{A0B2D68B-E2AF-4D44-94C8-36E25F56CABC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_4" ID="{9A0B41C4-43CC-4319-85C6-3877DD58FF9A}" ShortID="427940087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_4" ID="{495A401A-06ED-4BE2-9308-3B0B83AA758F}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="440308598"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_4" ID="{495A401A-06ED-4BE2-9308-3B0B83AA758F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_5" ID="{7B1A4C91-4582-44A8-8798-12E252DB36B1}" ShortID="737161287">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_5" ID="{F6B2C1DB-14C9-4001-89F8-79483BE27794}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="306243768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_5" ID="{F6B2C1DB-14C9-4001-89F8-79483BE27794}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Wind_Howling_RFX_6" ID="{BC8104AB-4ADA-4D49-9699-B6D85A86D2B4}" ShortID="696116805">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Wind_Howling_RFX_6" ID="{C3FDCC53-58D5-4232-8A09-F517B39D62A0}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Wind_Howling_RFX_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="529781311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Wind_Howling_RFX_6" ID="{C3FDCC53-58D5-4232-8A09-F517B39D62A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Amb_Cave_Critter" ID="{DDFFAA41-D791-476A-896D-3CECEBDEFC83}" ShortID="333595562">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5CCA6CF1-FB57-4126-BE32-6EC3EC5D7BA6}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{74FC14EB-6177-45D1-8759-7F38ED09710E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A738EE72-D449-4640-8F09-DBE311F17C44}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="18"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AMB Insect ATT" ID="{7C52DBC4-6615-44BC-AA8D-1ED8FB91A0EC}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="RVB_Cave_Medium" ID="{A0491926-B0B9-48F1-8AB3-9E79A31BEA8B}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_RFX_Cave_Critter_1" ID="{7852A26A-F708-4C8A-AE5A-5B51AF10B93F}" ShortID="574281496">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Cave_Critter_1" ID="{41B2C78F-130E-420B-9CF9-87BAE019817A}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Cave_Critter_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="436226302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Cave_Critter_1" ID="{41B2C78F-130E-420B-9CF9-87BAE019817A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Cave_Critter_2" ID="{239B640F-7375-44CD-8DCB-6797E4F8870B}" ShortID="13089511">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Cave_Critter_2" ID="{F2594E29-3426-4597-8687-3E8AC126388B}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Cave_Critter_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="374431017"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Cave_Critter_2" ID="{F2594E29-3426-4597-8687-3E8AC126388B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Cave_Critter_3" ID="{37C52BF0-83BD-4049-94CC-A093FA1F7511}" ShortID="290579946">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Cave_Critter_3" ID="{9A50ED5D-2B5D-48C1-9B29-AB55105FC13E}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Cave_Critter_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92525567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Cave_Critter_3" ID="{9A50ED5D-2B5D-48C1-9B29-AB55105FC13E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Cave_Critter_4" ID="{9BD5646F-0844-4B00-B94F-76ECFCE3D456}" ShortID="23158812">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Cave_Critter_4" ID="{884FF1F9-9E5E-4D56-B7F9-D0E2C5F325B8}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Cave_Critter_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="814320669"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Cave_Critter_4" ID="{884FF1F9-9E5E-4D56-B7F9-D0E2C5F325B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Cave_Critter_5" ID="{C1D933DC-AD41-42E8-BD2E-B931D0D9A92F}" ShortID="355980716">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Cave_Critter_5" ID="{7F5DB8D4-7924-4EAD-8B89-BA1D4452FA56}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Cave_Critter_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="30858979"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Cave_Critter_5" ID="{7F5DB8D4-7924-4EAD-8B89-BA1D4452FA56}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_RFX_Cave_Critter_6" ID="{84A664F3-55FC-4065-AC76-D989E70106BF}" ShortID="197396212">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_RFX_Cave_Critter_6" ID="{DFFDEF0E-4AEE-4458-B772-80D7566B8094}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_RFX_Cave_Critter_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="704355372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_RFX_Cave_Critter_6" ID="{DFFDEF0E-4AEE-4458-B772-80D7566B8094}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<BlendContainer Name="Amb_Lake_Lapping_Little" ID="{3A40236C-B5E7-4C5D-BE8C-37ADD7D70799}" ShortID="430298185">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AMB Little Lake Lapping" ID="{B3F3CC09-B1B2-433D-87BD-6F32F57B669E}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AMB" ID="{5A33D80D-2DCB-4A14-85DE-75D4E8E080B4}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Lake_Lapping" ID="{3C7990D4-38DC-44B2-982B-B099EDD37EED}" ShortID="34386354">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="AMB Little Lake Lapping" ID="{B3F3CC09-B1B2-433D-87BD-6F32F57B669E}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RVB_Cave_Small" ID="{A26E318A-86D7-4FB6-ABE0-5BB255378471}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Lake_Lapping" ID="{E853325A-9845-457F-BCD6-ED4B3CD11323}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_Lake_Lapping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="193220923"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Lake_Lapping" ID="{E853325A-9845-457F-BCD6-ED4B3CD11323}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Amb_Frog_RFX_OS" ID="{6ED115F1-C202-4768-8B11-E370D365A8DA}" ShortID="695185421">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation Bird RFX" ID="{04AE22BF-3CC5-4B6A-8D98-6DB27BDC0A1A}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AMB" ID="{5A33D80D-2DCB-4A14-85DE-75D4E8E080B4}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Amb_Frog_RFX" ID="{38E296D3-B0D3-44E5-84E2-586E4998884D}" ShortID="924943210">
+									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{29BA4AC1-3D70-4BD7-9DC2-2F85CF953FD9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0C60DC53-458D-4C4C-A34F-1408A3B17FFC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3F7F1DD5-F895-4207-964B-C36ADC62E00A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{655060AE-E486-4E5B-8587-F8E5E24B50FF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_RFX_Frog_6" ID="{4380938A-3EC2-4D0A-8B44-64EE2A87A8CE}" ShortID="355396466">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_RFX_Frog_6" ID="{988449C4-C2B6-4A66-A030-984C96112BAC}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_RFX_Frog_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="409538992"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_RFX_Frog_6" ID="{988449C4-C2B6-4A66-A030-984C96112BAC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_RFX_Frgo_1" ID="{04E83858-48D6-4FBD-AC79-39FA9841A718}" ShortID="910450348">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_RFX_Frgo_1" ID="{5930BE1C-A30A-4EE7-B3E9-952C5D3AF37D}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_RFX_Frgo_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="490814595"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_RFX_Frgo_1" ID="{5930BE1C-A30A-4EE7-B3E9-952C5D3AF37D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_RFX_Frog_3" ID="{01ED06CD-3685-415F-8D35-5A37B1E31DA2}" ShortID="635853922">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_RFX_Frog_3" ID="{7A09129F-C59A-4701-A1A9-6F76ED6D1ED3}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_RFX_Frog_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="963492842"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_RFX_Frog_3" ID="{7A09129F-C59A-4701-A1A9-6F76ED6D1ED3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_RFX_Frog_4" ID="{CB54EC5E-7E8F-4BAC-92BA-21856F2A3DDF}" ShortID="950048963">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_RFX_Frog_4" ID="{BD6EDEDD-DFE2-4DA0-B009-76F690A29178}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_RFX_Frog_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="450842700"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_RFX_Frog_4" ID="{BD6EDEDD-DFE2-4DA0-B009-76F690A29178}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_RFX_Frog_2" ID="{48BB930B-054E-4A79-8F42-480A34842AB1}" ShortID="581519508">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_RFX_Frog_2" ID="{66499342-26E1-4207-8B80-EB52DD327B86}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_RFX_Frog_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="843275976"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_RFX_Frog_2" ID="{66499342-26E1-4207-8B80-EB52DD327B86}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_RFX_Frog_5" ID="{8D141BA5-6581-4CA4-AD61-177BE93CFA0A}" ShortID="126486196">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_RFX_Frog_5" ID="{BCED6296-4F12-4446-860D-3D92859F9AC2}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_RFX_Frog_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="825207247"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_RFX_Frog_5" ID="{BCED6296-4F12-4446-860D-3D92859F9AC2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

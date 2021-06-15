@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1458999182	Play_SFX_GPE_Melody_Note3_Int1_End			\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note3\Play_SFX_GPE_Melody_Note3_Int1_End	
 	1526197270	Play_SFX_GPE_Melody_Note2_Int2_End			\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note2\Play_SFX_GPE_Melody_Note2_Int2_End	
 	1634689741	Flute_G_End			\Default Work Unit\FLUTE\Flute_Note\Flute_G_End	
+	2006607759	Play_SFX_GPE_Melody_Feat_Amongus			\Default Work Unit\FLUTE\Play_SFX_GPE_Melody_Feature\Play_SFX_GPE_Melody_Feat_Amongus	
 	2009155612	Play_SFX_GPE_Melody_Note3_Oct3_Int1			\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note3\Play_SFX_GPE_Melody_Note3_Oct3_Int1	
 	2009155615	Play_SFX_GPE_Melody_Note3_Oct3_Int2			\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note3\Play_SFX_GPE_Melody_Note3_Oct3_Int2	
 	2027045613	Flute_DS_End			\Default Work Unit\FLUTE\Flute_Note\Flute_DS_End	
@@ -86,6 +87,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	377343345	SFX_GPE_Melody_Note1_Oct4_C	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_GPE_Melody_Note1_Oct4_C_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\Flute_Melody\SFX_GPE_Melody\SFX_GPE_Melody_Note1\SFX_GPE_Melody_Note1_Oct34_Int4\SFX_GPE_Melody_Note1_Oct4_C		49085
 	392890804	Flt_F_Reverb_Loop	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Flt_F_Reverb_Loop_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\MC_Flute_Note\F\Flute_F_Loop\Flute_F_Reverb_Loop\Flt_F_Reverb_Loop		121919
 	400648656	Flt_C_Layer_End	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Flt_C_Layer_End_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\MC_Flute_Note\C\Flute_C_End\Flute_C_Layer_End\Flt_C_Layer_End		37360
+	403237185	SFX_GPE_Melody_Feat_Amongus	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_GPE_Melody_Feat_Amongus_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\Flute_Melody\SFX_GPE_Melody_Feature\SFX_GPE_Melody_Feat_Amongus		111122
 	425749807	SFX_GPE_Melody_Note3_Oct4_Int3_02	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_GPE_Melody_Note3_Oct4_Int3_02_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\Flute_Melody\SFX_GPE_Melody\SFX_GPE_Melody_Note3\SFX_GPE_Melody_Note3_Oct4_Int3\SFX_GPE_Melody_Note3_Oct4_Int3_02		55752
 	429556374	SFX_GPE_Melody_Note2_Oct4_Int6_01	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\SFX_GPE_Melody_Note2_Oct4_Int6_01_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\Flute_Melody\SFX_GPE_Melody\SFX_GPE_Melody_Note2\SFX_GPE_Melody_Note2_Oct4_Int6\SFX_GPE_Melody_Note2_Oct4_Int6_01		49448
 	446395729	Flt_DD_Layer_Start	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Flt_D#_Layer_Start_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\MC_Flute_Note\DS\Flute_DS_Start\Flute_DS_Layer_Start\Flt_DD_Layer_Start		87612

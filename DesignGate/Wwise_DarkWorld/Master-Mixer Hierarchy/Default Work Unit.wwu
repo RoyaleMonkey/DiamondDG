@@ -196,10 +196,17 @@
 								</Property>
 							</PropertyList>
 						</Bus>
-						<AuxBus Name="RVB_Cave_Small" ID="{A0491926-B0B9-48F1-8AB3-9E79A31BEA8B}">
+						<AuxBus Name="RVB_Cave_Medium" ID="{A0491926-B0B9-48F1-8AB3-9E79A31BEA8B}">
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="RVB_Cave_Small" ID="{A26E318A-86D7-4FB6-ABE0-5BB255378471}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Plate_Sizzle" ID="{D4A5BBF1-6A59-47A7-BB97-E7695900B72F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 							</ReferenceList>
 						</AuxBus>

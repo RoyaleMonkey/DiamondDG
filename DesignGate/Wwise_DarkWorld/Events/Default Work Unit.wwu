@@ -213,9 +213,78 @@
 						<Event Name="Play_Amb_Bat_RFX_OS" ID="{ED94BE4B-BA8E-4E0E-8441-B292F4843171}">
 							<ChildrenList>
 								<Action Name="" ID="{2C2DD76C-69A9-43FA-B7A2-4CED1CD73EE4}" ShortID="808628461">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_Bat_RFX" ID="{D6B89D7A-15E1-4E03-BA46-4FCE29CB483D}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_SnakeRattle_RFX" ID="{762157C9-86EB-487A-8272-ED627DCAD393}">
+							<ChildrenList>
+								<Action Name="" ID="{F834D61B-2CF2-4227-9BA1-60D863DCA2DE}" ShortID="614339181">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_SnakeRattle_RFX" ID="{9B92779D-AD3E-4FD0-A714-D4653A057BBC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Bird_Serdge" ID="{50DA3824-643C-4B75-86FB-29EE4B0EAF91}">
+							<ChildrenList>
+								<Action Name="" ID="{3FB32DB9-8130-4410-BFA5-3EC9AE33BAA2}" ShortID="903613163">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Bird_Serdge" ID="{9CAD4196-47F0-4777-9C22-D02C4E0911FC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Wind_Howling_RFX" ID="{7A46B92B-9897-42DD-A1F9-7F4336F638D1}">
+							<ChildrenList>
+								<Action Name="" ID="{9B84755B-52FD-4095-994C-85B7FEF1E3A5}" ShortID="785934758">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Wind_Howling_RFX" ID="{8A83499B-0BFF-4082-8A32-465C5731252F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Cave_Critter" ID="{715EB5CE-EA74-4478-ABB7-21283E27027A}">
+							<ChildrenList>
+								<Action Name="" ID="{1BBCACD0-EFF6-47BC-B6C4-547EBB79AD2B}" ShortID="275452161">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Cave_Critter" ID="{DDFFAA41-D791-476A-896D-3CECEBDEFC83}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Lake_Lapping_Little" ID="{F4398357-60FD-4A02-ACAF-5AE0B77ECDBB}">
+							<ChildrenList>
+								<Action Name="" ID="{688CB6A9-69A4-4755-836E-131628B923BA}" ShortID="994819396">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lake_Lapping_Little" ID="{3A40236C-B5E7-4C5D-BE8C-37ADD7D70799}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Frog_RFX_OS" ID="{857986D0-815E-451B-B323-99FC1EC6F317}">
+							<ChildrenList>
+								<Action Name="" ID="{E8D828D0-1AD2-4EEB-9D4D-97572359DB11}" ShortID="1019527446">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Frog_RFX_OS" ID="{6ED115F1-C202-4768-8B11-E370D365A8DA}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -227,6 +296,10 @@
 				<WorkUnit Name="FLUTE" ID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}" PersistMode="Reference"/>
 				<WorkUnit Name="SFX_GPE" ID="{5A099611-D9FF-4133-A60A-BAD106A85ED1}" PersistMode="Reference"/>
 				<Folder Name="SFX_LE" ID="{311994D0-F7F7-4FD5-81C2-98335E818CD5}" ShortID="207866815">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_SFX_Door" ID="{DF44E23E-B8DF-463D-BDE4-0D34AA5C562E}">
 							<ChildrenList>

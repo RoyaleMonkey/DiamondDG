@@ -5,21 +5,72 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3872846096",
+    "Hash": "1375244375",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "906982068",
+      "Name": "Play_Amb_SnakeRattle_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_SnakeRattle_RFX",
+      "MaxAttenuation": "6500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "714297343",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_SnakeRattle_6.wav",
+        "Path": "SFX\\AMB_RFX_SnakeRattle_6_D8C07C79.wem"
+       },
+       {
+        "Id": "892140746",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_SnakeRattle_5.wav",
+        "Path": "SFX\\AMB_RFX_SnakeRattle_5_D8C07C79.wem"
+       },
+       {
+        "Id": "945396998",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_SnakeRattle_1.wav",
+        "Path": "SFX\\AMB_RFX_SnakeRattle_1_D8C07C79.wem"
+       },
+       {
+        "Id": "973033970",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_SnakeRattle_3.wav",
+        "Path": "SFX\\AMB_RFX_SnakeRattle_3_D8C07C79.wem"
+       },
+       {
+        "Id": "985361885",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_SnakeRattle_2.wav",
+        "Path": "SFX\\AMB_RFX_SnakeRattle_2_D8C07C79.wem"
+       },
+       {
+        "Id": "1060522671",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_SnakeRattle_4.wav",
+        "Path": "SFX\\AMB_RFX_SnakeRattle_4_D8C07C79.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2270178643",
+        "Name": "RVB_Cave_Small",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+       }
+      ]
+     },
      {
       "Id": "2488731060",
       "Name": "Play_Ending_WaterFall",

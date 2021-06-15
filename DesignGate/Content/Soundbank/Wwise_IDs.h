@@ -23,20 +23,42 @@ namespace AK
         static const AkUniqueID FLUTE_G_START = 1149564230U;
         static const AkUniqueID PLAY_AMB_BAT_RFX = 2396100607U;
         static const AkUniqueID PLAY_AMB_BAT_RFX_OS = 372692456U;
+        static const AkUniqueID PLAY_AMB_BIRD_SERDGE = 2695765601U;
         static const AkUniqueID PLAY_AMB_BIRDS_RFX = 1413324378U;
+        static const AkUniqueID PLAY_AMB_CAVE_CRITTER = 1177617482U;
         static const AkUniqueID PLAY_AMB_CAVERN = 3686445418U;
         static const AkUniqueID PLAY_AMB_CAVERN_LEVEL = 1521220657U;
         static const AkUniqueID PLAY_AMB_CAVERNLORE = 3623306286U;
         static const AkUniqueID PLAY_AMB_DRIP_CAVERN = 2982907204U;
         static const AkUniqueID PLAY_AMB_FALL_DIRT_RFX = 172812343U;
+        static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
+        static const AkUniqueID PLAY_AMB_FOUNTAIN = 570117905U;
         static const AkUniqueID PLAY_AMB_FROG_RFX = 2577208230U;
+        static const AkUniqueID PLAY_AMB_FROG_RFX_OS = 322584507U;
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
+        static const AkUniqueID PLAY_AMB_LAKE_LAPPING_LITTLE = 3887990129U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
+        static const AkUniqueID PLAY_AMB_SNAKERATTLE_RFX = 906982068U;
         static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
+        static const AkUniqueID PLAY_AMB_WIND_HOWLING_RFX = 540871045U;
         static const AkUniqueID PLAY_AMB_WIND_VALLEY = 4244289267U;
         static const AkUniqueID PLAY_AMB_WIND_VOID = 305604352U;
         static const AkUniqueID PLAY_DARKWORLD_ZELDA_PAD = 2904809513U;
         static const AkUniqueID PLAY_ENDING_WATERFALL = 2488731060U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_01 = 764168061U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_02 = 764168062U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_03 = 764168063U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_04 = 764168056U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_05 = 764168057U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_06 = 764168058U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_07 = 764168059U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_08 = 764168052U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_09 = 764168053U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_10 = 780945647U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_11 = 780945646U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_12 = 780945645U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_13 = 780945644U;
+        static const AkUniqueID PLAY_FLUTE_ZELDA_14 = 780945643U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_C_END = 1910747961U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_C_IN = 4197336763U;
         static const AkUniqueID PLAY_FLUTE_ZELDA_DS_END = 1464240645U;
@@ -64,8 +86,10 @@ namespace AK
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
         static const AkUniqueID PLAY_MUS_DISCOVERY = 3311863392U;
+        static const AkUniqueID PLAY_MUS_MENU = 4249884003U;
         static const AkUniqueID PLAY_MUS_WATERFALL = 1494399980U;
         static const AkUniqueID PLAY_MUS_ZELDA_WIN = 179754113U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_ROYALEMONKEY_LOGO = 1583121471U;
         static const AkUniqueID PLAY_SFX_COLLECTIBLE_BLUE_SPAWN = 1914609227U;
         static const AkUniqueID PLAY_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP = 3012505424U;
@@ -183,6 +207,11 @@ namespace AK
         static const AkUniqueID PLAY_UI_MENU_SELEC_IN = 2834464783U;
         static const AkUniqueID PLAY_UI_MENU_SELEC_OUT = 231060866U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
+        static const AkUniqueID SET_STATE_DISCOVERY_IN_OUT = 2359598589U;
+        static const AkUniqueID SET_STATE_WATERFALL_2ND = 1540999039U;
+        static const AkUniqueID SET_STATE_WATERFALL_3RD = 1171744134U;
+        static const AkUniqueID SET_STATE_WATERFALL_OUT = 1078101995U;
+        static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
         static const AkUniqueID STOP_MC_SOFT_FALLING = 4170786443U;
         static const AkUniqueID STOP_MUS_BACK_MENU = 4179124425U;
@@ -310,6 +339,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID RVB_CAVE_MEDIUM = 161541955U;
         static const AkUniqueID RVB_CAVE_SMALL = 2270178643U;
         static const AkUniqueID RVB_FOREST = 1566008239U;
     } // namespace AUX_BUSSES

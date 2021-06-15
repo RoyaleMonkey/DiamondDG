@@ -38,6 +38,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING_LITTLE = 3887990129U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
+        static const AkUniqueID PLAY_AMB_RAT_RFX = 3429545583U;
         static const AkUniqueID PLAY_AMB_SNAKERATTLE_RFX = 906982068U;
         static const AkUniqueID PLAY_AMB_WATER_RFX = 3619535171U;
         static const AkUniqueID PLAY_AMB_WIND_HOWLING_RFX = 540871045U;
@@ -212,6 +213,7 @@ namespace AK
         static const AkUniqueID PLAY_UI_MENU_SELEC_IN = 2834464783U;
         static const AkUniqueID PLAY_UI_MENU_SELEC_OUT = 231060866U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
+        static const AkUniqueID PLAY_WATERFALL_BLND_VOID = 2095972928U;
         static const AkUniqueID SET_STATE_DISCOVERY_IN_OUT = 2359598589U;
         static const AkUniqueID SET_STATE_WATERFALL_2ND = 1540999039U;
         static const AkUniqueID SET_STATE_WATERFALL_3RD = 1171744134U;
@@ -346,7 +348,9 @@ namespace AK
     {
         static const AkUniqueID RVB_CAVE_MEDIUM = 161541955U;
         static const AkUniqueID RVB_CAVE_SMALL = 2270178643U;
+        static const AkUniqueID RVB_CAVERN_WATERFALL = 816626644U;
         static const AkUniqueID RVB_FOREST = 1566008239U;
+        static const AkUniqueID RVB_ZIPLINE = 2669887163U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

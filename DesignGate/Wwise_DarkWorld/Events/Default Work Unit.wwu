@@ -290,6 +290,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Rat_RFX" ID="{E3E6ACBF-B20E-4E31-8BBA-9E05AFA9290F}">
+							<ChildrenList>
+								<Action Name="" ID="{0582870A-6379-47F9-A386-DD1AEA0723C6}" ShortID="116167840">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Rat_RFX" ID="{1D2CDFFD-E3D2-4DD7-BEBB-1A7FF6182C66}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>
@@ -490,6 +501,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_Statue_Destruction_3" ID="{375432DF-21C5-4A6E-BA40-4E9AAB7C27B5}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Waterfall_blnd_Void" ID="{AE905700-7204-45F5-951A-260A58B56660}">
+							<ChildrenList>
+								<Action Name="" ID="{4763889D-7A63-45BC-957C-7A003D9B2A69}" ShortID="779486133">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterfall_blnd_Void" ID="{799E67D7-7E13-4BAE-A328-4669DB2743E8}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

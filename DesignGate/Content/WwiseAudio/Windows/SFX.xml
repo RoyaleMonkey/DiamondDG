@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2237806232">
+		<SoundBank Id="393239870" Language="SFX" Hash="3068097551">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -2017,6 +2017,18 @@
 				<Event Id="1396017881" Name="Play_SFX_Statue_Destruction_3" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_3"/>
 				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000"/>
 				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
+					<IncludedMemoryFiles>
+						<File Id="95843208" Language="SFX">
+							<ShortName>SFX_LE_Waterfall_Away.wav</ShortName>
+							<Path>SFX\SFX_LE_Waterfall_Away_D8C07C79.wem</Path>
+						</File>
+						<File Id="330405534" Language="SFX">
+							<ShortName>SFX_LE_Waterfall_close_LP.wav</ShortName>
+							<Path>SFX\SFX_LE_Waterfall_close_LP_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2095972928" Name="Play_Waterfall_blnd_Void" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd_Void" MaxAttenuation="12500.000000">
 					<IncludedMemoryFiles>
 						<File Id="95843208" Language="SFX">
 							<ShortName>SFX_LE_Waterfall_Away.wav</ShortName>

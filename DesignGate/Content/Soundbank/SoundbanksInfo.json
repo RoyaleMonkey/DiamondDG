@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -61,7 +61,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "2591689944",
+    "Hash": "3946743974",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -3129,6 +3129,12 @@
       ]
      },
      {
+      "Id": "2095972928",
+      "Name": "Play_Waterfall_blnd_Void",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Waterfall_blnd_Void",
+      "MaxAttenuation": "12500.000000"
+     },
+     {
       "Id": "1229862554",
       "Name": "Stop_SFX_Collectible_Buterflie_Activated_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Purple\\Stop_SFX_Collectible_Buterflie_Activated_LP",
@@ -4771,7 +4777,6 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
-    "Hash": "2306329442",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -5007,7 +5012,6 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "3305258633",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -5836,7 +5840,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "3032513008",
+    "Hash": "4049287664",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -5847,6 +5851,11 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
      },
      {
+      "Id": "816626644",
+      "Name": "RVB_Cavern_Waterfall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cavern_Waterfall"
+     },
+     {
       "Id": "1566008239",
       "Name": "RVB_FOREST",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
@@ -5855,6 +5864,11 @@
       "Id": "2270178643",
       "Name": "RVB_Cave_Small",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+     },
+     {
+      "Id": "2669887163",
+      "Name": "RVB_Zipline",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Zipline"
      }
     ],
     "GameParameters": [
@@ -5873,7 +5887,6 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "1537064676",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -6018,7 +6031,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1278896039",
+    "Hash": "4102847943",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -6307,6 +6320,11 @@
       "Id": "832042763",
       "Name": "Play_Amb_Lake_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_LP"
+     },
+     {
+      "Id": "3429545583",
+      "Name": "Play_Amb_Rat_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Rat_RFX"
      },
      {
       "Id": "906982068",
@@ -6733,6 +6751,11 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
      },
      {
+      "Id": "816626644",
+      "Name": "RVB_Cavern_Waterfall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cavern_Waterfall"
+     },
+     {
       "Id": "1566008239",
       "Name": "RVB_FOREST",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
@@ -6741,6 +6764,11 @@
       "Id": "2270178643",
       "Name": "RVB_Cave_Small",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+     },
+     {
+      "Id": "2669887163",
+      "Name": "RVB_Zipline",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Zipline"
      }
     ],
     "ReferencedStreamedFiles": [
@@ -6784,6 +6812,12 @@
       "Language": "SFX",
       "ShortName": "AMB_RFX_Bat_3.wav",
       "Path": "SFX\\AMB_RFX_Bat_3_6CB4C17D.wem"
+     },
+     {
+      "Id": "18332290",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Rat_4.wav",
+      "Path": "SFX\\AMB_RFX_Rat_4_D8C07C79.wem"
      },
      {
       "Id": "21057580",
@@ -7056,6 +7090,12 @@
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Jump_04_D8C07C79.wem"
      },
      {
+      "Id": "149070518",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Rat_2.wav",
+      "Path": "SFX\\AMB_RFX_Rat_2_D8C07C79.wem"
+     },
+     {
       "Id": "154782633",
       "Language": "SFX",
       "ShortName": "Amb_RFX_Bird_Eurasian_Wren_2.wav",
@@ -7110,6 +7150,12 @@
       "Path": "SFX\\SFX_MC_FOL_Pivot_03_2B7AB334.wem"
      },
      {
+      "Id": "176291993",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Rat_1.wav",
+      "Path": "SFX\\AMB_RFX_Rat_1_D8C07C79.wem"
+     },
+     {
       "Id": "179054816",
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Pivot_01.wav",
@@ -7144,6 +7190,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FOL_Os_Pivot_05.wav",
       "Path": "SFX\\SFX_MC_FOL_Os_Pivot_05_D8C07C79.wem"
+     },
+     {
+      "Id": "196348357",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Rat_5.wav",
+      "Path": "SFX\\AMB_RFX_Rat_5_D8C07C79.wem"
      },
      {
       "Id": "201495576",
@@ -8842,6 +8894,12 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_Soft_Fall_1.wav",
       "Path": "SFX\\SFX_MC_Soft_Fall_1_0762CC47.wem"
+     },
+     {
+      "Id": "952765744",
+      "Language": "SFX",
+      "ShortName": "AMB_RFX_Rat_3.wav",
+      "Path": "SFX\\AMB_RFX_Rat_3_D8C07C79.wem"
      },
      {
       "Id": "953674896",

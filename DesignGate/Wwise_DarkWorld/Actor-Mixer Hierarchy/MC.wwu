@@ -7242,6 +7242,14 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<ActorMixer Name="MC_Foleys" ID="{6425DB7C-1630-45F0-AFF8-E10521376E7C}" ShortID="610386626">
+					<PropertyList>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -9537,6 +9545,12 @@
 				</ActorMixer>
 				<ActorMixer Name="MC_Taps" ID="{DEDFF5E3-74B0-4F52-B994-4340499B3744}" ShortID="235975332">
 					<PropertyList>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>12</Value>

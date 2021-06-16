@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_FROG_RFX_OS = 322584507U;
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING = 4124567974U;
         static const AkUniqueID PLAY_AMB_LAKE_LAPPING_LITTLE = 3887990129U;
+        static const AkUniqueID PLAY_AMB_LAKE_LAPPING_LITTLE_BIG_CAVERN = 3488501086U;
         static const AkUniqueID PLAY_AMB_LAKE_LP = 832042763U;
         static const AkUniqueID PLAY_AMB_RAT_RFX = 3429545583U;
         static const AkUniqueID PLAY_AMB_SNAKERATTLE_RFX = 906982068U;
@@ -203,6 +204,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_ZIPLINE_BLD = 513126929U;
         static const AkUniqueID PLAY_SFX_GPE_ZIPLINE_PORTAIL_START = 3189841639U;
         static const AkUniqueID PLAY_SFX_LE_BASERO_LP = 30825167U;
+        static const AkUniqueID PLAY_SFX_LE_WHALE_SEQ = 901061857U;
         static const AkUniqueID PLAY_SFX_STATUE_DESTRUCTION_1 = 1396017883U;
         static const AkUniqueID PLAY_SFX_STATUE_DESTRUCTION_2 = 1396017880U;
         static const AkUniqueID PLAY_SFX_STATUE_DESTRUCTION_3 = 1396017881U;
@@ -213,6 +215,7 @@ namespace AK
         static const AkUniqueID PLAY_UI_MENU_SELEC_IN = 2834464783U;
         static const AkUniqueID PLAY_UI_MENU_SELEC_OUT = 231060866U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
+        static const AkUniqueID PLAY_WATERFALL_BLND_CAVERN_BIG = 1176979258U;
         static const AkUniqueID PLAY_WATERFALL_BLND_VOID = 2095972928U;
         static const AkUniqueID SET_PAUSE = 2912493720U;
         static const AkUniqueID SET_STATE_DISCOVERY_IN_OUT = 2359598589U;
@@ -224,6 +227,7 @@ namespace AK
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
         static const AkUniqueID STOP_MC_SOFT_FALLING = 4170786443U;
         static const AkUniqueID STOP_MUS_BACK_MENU = 4179124425U;
+        static const AkUniqueID STOP_MUS_CREDIT = 884093183U;
         static const AkUniqueID STOP_MUS_WATERFALL = 3867830866U;
         static const AkUniqueID STOP_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP = 1229862554U;
         static const AkUniqueID STOP_SFX_COLLECTIBLE_GREEN_FEATHER_LP = 3416508261U;

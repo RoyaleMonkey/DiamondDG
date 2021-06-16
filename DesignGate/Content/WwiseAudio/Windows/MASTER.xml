@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1661829502">
+		<SoundBank Id="4056684167" Language="SFX" Hash="540248649">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -304,6 +304,7 @@
 						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="8000.000000"/>
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP"/>
 				<Event Id="3429545583" Name="Play_Amb_Rat_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Rat_RFX"/>
 				<Event Id="906982068" Name="Play_Amb_SnakeRattle_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_SnakeRattle_RFX" MaxAttenuation="6500.000000"/>
@@ -3056,11 +3057,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000">
+				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="23500.000000">
 					<IncludedMemoryFiles>
-						<File Id="668422005" Language="SFX">
-							<ShortName>SFX_WaterFall_BIG.wav</ShortName>
-							<Path>SFX\SFX_WaterFall_BIG_0762CC47.wem</Path>
+						<File Id="726391781" Language="SFX">
+							<ShortName>SFX_LE_WaterFall_Cavern_Big.wav</ShortName>
+							<Path>SFX\SFX_LE_WaterFall_Cavern_Big_0762CC47.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3103,6 +3104,16 @@
 							<Path>SFX\UI_Menu_Selec_Out_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2912493720" Name="Set_Pause" ObjectPath="\Events\Default Work Unit\States\Set_Pause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4170605783" Name="Set_Unpause" ObjectPath="\Events\Default Work Unit\States\Set_Unpause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
@@ -4732,6 +4743,14 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 				<GameParameter Id="2876994821" Name="MC_Camera" ObjectPath="\Game Parameters\Default Work Unit\MC_Camera"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">
 					<Switches>

@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1661829502",
+    "Hash": "540248649",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -505,6 +505,12 @@
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
        }
       ]
+     },
+     {
+      "Id": "3488501086",
+      "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "MaxAttenuation": "8000.000000"
      },
      {
       "Id": "832042763",
@@ -5005,13 +5011,13 @@
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
-      "MaxAttenuation": "22000.000000",
+      "MaxAttenuation": "23500.000000",
       "IncludedMemoryFiles": [
        {
-        "Id": "668422005",
+        "Id": "726391781",
         "Language": "SFX",
-        "ShortName": "SFX_WaterFall_BIG.wav",
-        "Path": "SFX\\SFX_WaterFall_BIG_0762CC47.wem"
+        "ShortName": "SFX_LE_WaterFall_Cavern_Big.wav",
+        "Path": "SFX\\SFX_LE_WaterFall_Cavern_Big_0762CC47.wem"
        }
       ]
      },
@@ -5077,6 +5083,32 @@
         "Language": "SFX",
         "ShortName": "UI_Menu_Selec_Out.wav",
         "Path": "SFX\\UI_Menu_Selec_Out_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2912493720",
+      "Name": "Set_Pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Pause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause"
+       }
+      ]
+     },
+     {
+      "Id": "4170605783",
+      "Name": "Set_Unpause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Unpause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3412868374",
+        "Name": "Unpause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause"
        }
       ]
      },
@@ -7572,6 +7604,20 @@
       "Id": "2876994821",
       "Name": "MC_Camera",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Camera"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause",
+      "States": []
+     },
+     {
+      "Id": "3412868374",
+      "Name": "Unpause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause",
+      "States": []
      }
     ],
     "SwitchGroups": [

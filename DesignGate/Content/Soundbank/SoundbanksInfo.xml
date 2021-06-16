@@ -48,7 +48,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2572050337">
+		<SoundBank Id="393239870" Language="SFX" Hash="1374689887">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -153,19 +153,35 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3898119337" Name="Play_SFX_GPE_Emissive_Big" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Big">
+					<IncludedMemoryFiles>
+						<File Id="463687491" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Low_0762CC47.wem</Path>
+						</File>
+						<File Id="609893475" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_High_0762CC47.wem</Path>
+						</File>
+						<File Id="741612675" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Mid_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2038128406" Name="Play_SFX_GPE_Emissive_Small" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Small">
 					<IncludedMemoryFiles>
-						<File Id="192967094" Language="SFX">
-							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
-							<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
-						</File>
-						<File Id="417422286" Language="SFX">
+						<File Id="463687491" Language="SFX">
 							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
-							<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Emissive_Low_0762CC47.wem</Path>
 						</File>
-						<File Id="464595709" Language="SFX">
+						<File Id="609893475" Language="SFX">
 							<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
-							<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Emissive_High_0762CC47.wem</Path>
+						</File>
+						<File Id="741612675" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Mid_0762CC47.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2269,10 +2285,6 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="192967094" Language="SFX">
-					<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
-					<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
-				</File>
 				<File Id="197037388" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
@@ -2493,10 +2505,6 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem</Path>
 				</File>
-				<File Id="417422286" Language="SFX">
-					<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
-					<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
-				</File>
 				<File Id="428077751" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_LP_C4_0762CC47.wem</Path>
@@ -2541,9 +2549,9 @@
 					<ShortName>SFX_GPE_Stele_Ground_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Ground_G_D8C07C79.wem</Path>
 				</File>
-				<File Id="464595709" Language="SFX">
-					<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
-					<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
+				<File Id="463687491" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Low_0762CC47.wem</Path>
 				</File>
 				<File Id="467225163" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C2.wav</ShortName>
@@ -2656,6 +2664,10 @@
 				<File Id="602179295" Language="SFX">
 					<ShortName>RFX_GPE_Zipline_2.wav</ShortName>
 					<Path>SFX\RFX_GPE_Zipline_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="609893475" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_High_0762CC47.wem</Path>
 				</File>
 				<File Id="610677375" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
@@ -2780,6 +2792,10 @@
 				<File Id="726963180" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D3_D8C07C79.wem</Path>
+				</File>
+				<File Id="741612675" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Mid_0762CC47.wem</Path>
 				</File>
 				<File Id="749644177" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_02.wav</ShortName>
@@ -3676,20 +3692,21 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1530052587">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1433897473">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
-				<AuxBus Id="816626644" Name="RVB_Cavern_Waterfall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cavern_Waterfall"/>
-				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
-				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
-				<AuxBus Id="2669887163" Name="RVB_Zipline" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Zipline"/>
+				<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
+				<AuxBus Id="816626644" Name="RVB_Cavern_Waterfall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cavern_Waterfall"/>
+				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
+				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
+				<AuxBus Id="2669887163" Name="RVB_Zipline" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Zipline"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3991942870" Language="SFX" Hash="1206832582">
@@ -3773,7 +3790,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="4182432339">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1506164987">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -3798,7 +3815,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
+						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="372692456" Name="Play_Amb_Bat_RFX_OS" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Bat_RFX_OS"/>
@@ -3863,7 +3880,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1177617482" Name="Play_Amb_Cave_Critter" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cave_Critter" MaxAttenuation="3500.000000"/>
@@ -3894,7 +3911,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
+						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2577208230" Name="Play_Amb_Frog_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Frog_RFX" MaxAttenuation="6500.000000">
@@ -4087,7 +4104,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1369325311" Name="Play_MC_Falling_Air" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Falling_Air">
@@ -4160,11 +4177,11 @@
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
-				<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
-				<AuxBus Id="816626644" Name="RVB_Cavern_Waterfall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cavern_Waterfall"/>
-				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
-				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
-				<AuxBus Id="2669887163" Name="RVB_Zipline" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Zipline"/>
+				<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
+				<AuxBus Id="816626644" Name="RVB_Cavern_Waterfall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cavern_Waterfall"/>
+				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
+				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
+				<AuxBus Id="2669887163" Name="RVB_Zipline" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Zipline"/>
 			</IncludedAuxBusses>
 			<ReferencedStreamedFiles>
 				<File Id="292638806"/>
@@ -5778,6 +5795,7 @@
 				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 				<GameParameter Id="2876994821" Name="MC_Camera" ObjectPath="\Game Parameters\Default Work Unit\MC_Camera"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">

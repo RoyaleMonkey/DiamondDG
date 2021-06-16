@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="4290333632">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1292400111">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -33,7 +33,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
+						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="372692456" Name="Play_Amb_Bat_RFX_OS" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Bat_RFX_OS">
@@ -56,7 +56,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
+						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2695765601" Name="Play_Amb_Bird_Serdge" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Bird_Serdge" MaxAttenuation="200.000000">
@@ -139,7 +139,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1177617482" Name="Play_Amb_Cave_Critter" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cave_Critter" MaxAttenuation="3500.000000">
@@ -170,7 +170,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
+						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3686445418" Name="Play_Amb_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cavern" MaxAttenuation="8000.000000">
@@ -221,7 +221,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
+						<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="994146778" Name="Play_Amb_Forest" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Forest"/>
@@ -282,7 +282,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping" MaxAttenuation="8000.000000">
@@ -301,7 +301,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
+						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="8000.000000"/>
@@ -504,7 +504,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1369325311" Name="Play_MC_Falling_Air" ObjectPath="\Events\Default Work Unit\MC\Play_MC_Falling_Air">
@@ -3121,11 +3121,11 @@
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
-				<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Medium"/>
-				<AuxBus Id="816626644" Name="RVB_Cavern_Waterfall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cavern_Waterfall"/>
-				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_FOREST"/>
-				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
-				<AuxBus Id="2669887163" Name="RVB_Zipline" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Zipline"/>
+				<AuxBus Id="161541955" Name="RVB_Cave_Medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium"/>
+				<AuxBus Id="816626644" Name="RVB_Cavern_Waterfall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cavern_Waterfall"/>
+				<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
+				<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
+				<AuxBus Id="2669887163" Name="RVB_Zipline" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Zipline"/>
 			</IncludedAuxBusses>
 			<ReferencedStreamedFiles>
 				<File Id="292638806" Language="SFX">
@@ -4742,6 +4742,7 @@
 				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 				<GameParameter Id="2876994821" Name="MC_Camera" ObjectPath="\Game Parameters\Default Work Unit\MC_Camera"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause">

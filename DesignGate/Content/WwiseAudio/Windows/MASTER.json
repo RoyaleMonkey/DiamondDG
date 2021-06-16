@@ -15,7 +15,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "4290333632",
+    "Hash": "1292400111",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -54,7 +54,7 @@
        {
         "Id": "161541955",
         "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
        }
       ]
      },
@@ -92,7 +92,7 @@
        {
         "Id": "161541955",
         "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
        }
       ]
      },
@@ -223,7 +223,7 @@
        {
         "Id": "1566008239",
         "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
        }
       ]
      },
@@ -274,7 +274,7 @@
        {
         "Id": "161541955",
         "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
        }
       ]
      },
@@ -362,7 +362,7 @@
        {
         "Id": "161541955",
         "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
        }
       ]
      },
@@ -467,7 +467,7 @@
        {
         "Id": "1566008239",
         "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
        }
       ]
      },
@@ -502,7 +502,7 @@
        {
         "Id": "2270178643",
         "Name": "RVB_Cave_Small",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
        }
       ]
      },
@@ -835,7 +835,7 @@
        {
         "Id": "1566008239",
         "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
        }
       ]
      },
@@ -5141,27 +5141,27 @@
      {
       "Id": "161541955",
       "Name": "RVB_Cave_Medium",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
      },
      {
       "Id": "816626644",
       "Name": "RVB_Cavern_Waterfall",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cavern_Waterfall"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cavern_Waterfall"
      },
      {
       "Id": "1566008239",
       "Name": "RVB_FOREST",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
      },
      {
       "Id": "2270178643",
       "Name": "RVB_Cave_Small",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
      },
      {
       "Id": "2669887163",
       "Name": "RVB_Zipline",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Zipline"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Zipline"
      }
     ],
     "ReferencedStreamedFiles": [
@@ -7604,6 +7604,11 @@
       "Id": "2876994821",
       "Name": "MC_Camera",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Camera"
+     },
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume"
      }
     ],
     "StateGroups": [

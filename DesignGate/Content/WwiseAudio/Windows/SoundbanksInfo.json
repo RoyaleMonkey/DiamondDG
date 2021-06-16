@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -73,7 +73,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "819052723",
+    "Hash": "2713468633",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -404,6 +404,31 @@
         "Language": "SFX",
         "ShortName": "SFX_Catapulte_Start_01.wav",
         "Path": "SFX\\SFX_Catapulte_Start_01_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "607610138",
+      "Name": "Play_SFX_GPE_Emissive",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\Play_SFX_GPE_Emissive",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "192967094",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_Mid.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_Mid_D8C07C79.wem"
+       },
+       {
+        "Id": "417422286",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_Low.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_Low_D8C07C79.wem"
+       },
+       {
+        "Id": "464595709",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_High.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_High_D8C07C79.wem"
        }
       ]
      },
@@ -3856,6 +3881,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem"
      },
      {
+      "Id": "192967094",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Emissive_Mid.wav",
+      "Path": "SFX\\SFX_GPE_Emissive_Mid_D8C07C79.wem"
+     },
+     {
       "Id": "197037388",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_AS2.wav",
@@ -4186,6 +4217,12 @@
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem"
      },
      {
+      "Id": "417422286",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Emissive_Low.wav",
+      "Path": "SFX\\SFX_GPE_Emissive_Low_D8C07C79.wem"
+     },
+     {
       "Id": "428077751",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Butterfly_LP_C4.wav",
@@ -4250,6 +4287,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Ground_G.wav",
       "Path": "SFX\\SFX_GPE_Stele_Ground_G_D8C07C79.wem"
+     },
+     {
+      "Id": "464595709",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Emissive_High.wav",
+      "Path": "SFX\\SFX_GPE_Emissive_High_D8C07C79.wem"
      },
      {
       "Id": "467225163",
@@ -5054,13 +5097,23 @@
       "Id": "1147290023",
       "Name": "VelocityZipline",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\VelocityZipline"
+     },
+     {
+      "Id": "2876994821",
+      "Name": "MC_Camera",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Camera"
+     },
+     {
+      "Id": "3518473146",
+      "Name": "Emissive_Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Emissive_Distance"
      }
     ]
    },
    {
     "Id": "1075435911",
     "Language": "SFX",
-    "Hash": "4130788087",
+    "Hash": "3085892223",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -5750,7 +5803,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "4170558374",
+    "Hash": "1230972005",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -7127,7 +7180,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "3178014392",
+    "Hash": "1530052587",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -7174,7 +7227,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "3873350866",
+    "Hash": "693082795",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -7575,7 +7628,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "540248649",
+    "Hash": "4290333632",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",

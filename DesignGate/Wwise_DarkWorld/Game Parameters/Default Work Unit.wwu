@@ -36,6 +36,13 @@
 				<GameParameter Name="MasterVolume" ID="{AC7B4B71-4F90-47FC-B913-4654D108F56F}"/>
 				<GameParameter Name="SoundEffectVolume" ID="{476CA907-FF94-4D5B-93AF-5F996827F6EF}"/>
 				<GameParameter Name="MusicVolume" ID="{31A69514-E96D-4A71-9706-330088372C3E}"/>
+				<GameParameter Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="600"/>
+						<Property Name="Max" Type="Real64" Value="3000"/>
+						<Property Name="Min" Type="Real64" Value="550"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

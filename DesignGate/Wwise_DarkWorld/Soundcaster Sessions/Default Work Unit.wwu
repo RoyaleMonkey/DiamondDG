@@ -203,6 +203,10 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Mus_Credit" ID="{6821B24B-316D-49B1-8D95-4F8E0B22ED8C}" WorkUnitID="{220FA83D-3B11-472C-9A3F-759F19B9DDB0}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Flute_Zelda_04" ID="{3CC43CAF-B03B-4237-A6C5-DFF7A3BB80C4}" WorkUnitID="{4D229174-A68A-44FA-80CE-F9FDB6D1FE5F}"/>
 							<Position X="3" Y="1"/>
 						</Module>
@@ -245,6 +249,10 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}"/>
+							<Value>600</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="MasterVolume" ID="{AC7B4B71-4F90-47FC-B913-4654D108F56F}"/>
 							<Value>50</Value>
 						</RTPCValue>
@@ -255,6 +263,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}"/>
 							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}"/>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}"/>

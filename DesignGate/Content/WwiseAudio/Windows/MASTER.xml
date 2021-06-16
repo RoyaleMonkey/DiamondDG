@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1292400111">
+		<SoundBank Id="4056684167" Language="SFX" Hash="928813156">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -308,7 +308,7 @@
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP"/>
 				<Event Id="3429545583" Name="Play_Amb_Rat_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Rat_RFX"/>
 				<Event Id="906982068" Name="Play_Amb_SnakeRattle_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_SnakeRattle_RFX" MaxAttenuation="6500.000000"/>
-				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX">
+				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX" MaxAttenuation="6500.000000">
 					<IncludedMemoryFiles>
 						<File Id="709545759" Language="SFX">
 							<ShortName>Amb_Cavern_Drip.wav</ShortName>

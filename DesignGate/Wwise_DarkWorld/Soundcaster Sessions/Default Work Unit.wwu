@@ -296,6 +296,14 @@
 							<ObjectRef Name="Play_Mus_Discovery" ID="{0D1438D8-171C-4F62-BCD3-74A633E4B9EE}" WorkUnitID="{220FA83D-3B11-472C-9A3F-759F19B9DDB0}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="SFX_GPE_Emissive_Big" ID="{3AC2213F-C934-4B15-BFB9-041E7F04BD0E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_GPE_Emissive_Small" ID="{5FADD71A-D30C-45B6-A39E-CE3EEED115FE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+							<Position X="4" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -317,6 +325,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}"/>
 							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}"/>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}"/>

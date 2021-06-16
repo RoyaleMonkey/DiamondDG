@@ -107,6 +107,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_END = 3513385354U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_LOOP = 811517645U;
         static const AkUniqueID PLAY_SFX_GPE_CATAPULTE_START = 2138146425U;
+        static const AkUniqueID PLAY_SFX_GPE_EMISSIVE_BIG = 3898119337U;
+        static const AkUniqueID PLAY_SFX_GPE_EMISSIVE_SMALL = 2038128406U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_END = 1431744796U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_LARGE_START = 1728506047U;
         static const AkUniqueID PLAY_SFX_GPE_GEYSER_START = 2168219807U;
@@ -331,6 +333,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID EMISSIVE_DISTANCE = 3518473146U;
         static const AkUniqueID MASTERVOLUME = 2918011349U;
         static const AkUniqueID MC_CAMERA = 2876994821U;
         static const AkUniqueID MC_FALLING = 33954365U;

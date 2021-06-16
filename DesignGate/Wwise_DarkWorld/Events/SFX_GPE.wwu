@@ -3815,6 +3815,32 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SFX_GPE_Emissive" ID="{4B06B139-7CE4-4EDC-8CCC-710A67C72F4B}" ShortID="398835332">
+					<ChildrenList>
+						<Event Name="Play_SFX_GPE_Emissive_Small" ID="{AA3D2081-64E2-4CA1-A0B1-5DD13B4863B3}">
+							<ChildrenList>
+								<Action Name="" ID="{DECC04AB-7025-4066-BA1C-982B006746A8}" ShortID="190277787">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Emissive_Small" ID="{5FADD71A-D30C-45B6-A39E-CE3EEED115FE}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_GPE_Emissive_Big" ID="{266A6AB1-EBA0-4C13-98D9-1EF0306896F7}">
+							<ChildrenList>
+								<Action Name="" ID="{B25D4DCF-CA59-4DC8-BC29-56A63FA891F0}" ShortID="278612747">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Emissive_Big" ID="{3AC2213F-C934-4B15-BFB9-041E7F04BD0E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

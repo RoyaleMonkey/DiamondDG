@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -73,7 +73,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "534391602",
+    "Hash": "1873212221",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -251,6 +251,56 @@
         "Language": "SFX",
         "ShortName": "SFX_Catapulte_Start_01.wav",
         "Path": "SFX\\SFX_Catapulte_Start_01_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3898119337",
+      "Name": "Play_SFX_GPE_Emissive_Big",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Emissive\\Play_SFX_GPE_Emissive_Big",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "463687491",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_Low.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_Low_0762CC47.wem"
+       },
+       {
+        "Id": "609893475",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_High.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_High_0762CC47.wem"
+       },
+       {
+        "Id": "741612675",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_Mid.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_Mid_0762CC47.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2038128406",
+      "Name": "Play_SFX_GPE_Emissive_Small",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Emissive\\Play_SFX_GPE_Emissive_Small",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "463687491",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_Low.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_Low_0762CC47.wem"
+       },
+       {
+        "Id": "609893475",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_High.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_High_0762CC47.wem"
+       },
+       {
+        "Id": "741612675",
+        "Language": "SFX",
+        "ShortName": "SFX_GPE_Emissive_Mid.wav",
+        "Path": "SFX\\SFX_GPE_Emissive_Mid_0762CC47.wem"
        }
       ]
      },
@@ -4051,6 +4101,12 @@
       "Path": "SFX\\SFX_GPE_Stele_Ground_G_D8C07C79.wem"
      },
      {
+      "Id": "463687491",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Emissive_Low.wav",
+      "Path": "SFX\\SFX_GPE_Emissive_Low_0762CC47.wem"
+     },
+     {
       "Id": "467225163",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Stone_C2.wav",
@@ -4217,6 +4273,12 @@
       "Language": "SFX",
       "ShortName": "RFX_GPE_Zipline_2.wav",
       "Path": "SFX\\RFX_GPE_Zipline_2_D8C07C79.wem"
+     },
+     {
+      "Id": "609893475",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Emissive_High.wav",
+      "Path": "SFX\\SFX_GPE_Emissive_High_0762CC47.wem"
      },
      {
       "Id": "610677375",
@@ -4403,6 +4465,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_D3.wav",
       "Path": "SFX\\SFX_GPE_Stele_Butterfly_D3_D8C07C79.wem"
+     },
+     {
+      "Id": "741612675",
+      "Language": "SFX",
+      "ShortName": "SFX_GPE_Emissive_Mid.wav",
+      "Path": "SFX\\SFX_GPE_Emissive_Mid_0762CC47.wem"
      },
      {
       "Id": "749644177",
@@ -4848,12 +4916,23 @@
       "Id": "1147290023",
       "Name": "VelocityZipline",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\VelocityZipline"
+     },
+     {
+      "Id": "2876994821",
+      "Name": "MC_Camera",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Camera"
+     },
+     {
+      "Id": "3518473146",
+      "Name": "Emissive_Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Emissive_Distance"
      }
     ]
    },
    {
     "Id": "1075435911",
     "Language": "SFX",
+    "Hash": "3558886846",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -5129,6 +5208,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
+    "Hash": "3905899802",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -5957,7 +6037,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "3178014392",
+    "Hash": "1433897473",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -5965,27 +6045,27 @@
      {
       "Id": "161541955",
       "Name": "RVB_Cave_Medium",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
      },
      {
       "Id": "816626644",
       "Name": "RVB_Cavern_Waterfall",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cavern_Waterfall"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cavern_Waterfall"
      },
      {
       "Id": "1566008239",
       "Name": "RVB_FOREST",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
      },
      {
       "Id": "2270178643",
       "Name": "RVB_Cave_Small",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
      },
      {
       "Id": "2669887163",
       "Name": "RVB_Zipline",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Zipline"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Zipline"
      }
     ],
     "GameParameters": [
@@ -5998,12 +6078,18 @@
       "Id": "2346531308",
       "Name": "MusicVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume"
+     },
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume"
      }
     ]
    },
    {
     "Id": "3991942870",
     "Language": "SFX",
+    "Hash": "1206832582",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -6208,7 +6294,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1521121130",
+    "Hash": "3111188788",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -6247,7 +6333,7 @@
        {
         "Id": "161541955",
         "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
        }
       ]
      },
@@ -6357,7 +6443,7 @@
        {
         "Id": "1566008239",
         "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
        }
       ]
      },
@@ -6427,7 +6513,7 @@
        {
         "Id": "161541955",
         "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
        }
       ]
      },
@@ -6518,7 +6604,8 @@
      {
       "Id": "3619535171",
       "Name": "Play_Amb_Water_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Water_RFX"
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Water_RFX",
+      "MaxAttenuation": "6500.000000"
      },
      {
       "Id": "540871045",
@@ -6768,7 +6855,7 @@
        {
         "Id": "1566008239",
         "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
        }
       ]
      },
@@ -6931,27 +7018,27 @@
      {
       "Id": "161541955",
       "Name": "RVB_Cave_Medium",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Medium"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
      },
      {
       "Id": "816626644",
       "Name": "RVB_Cavern_Waterfall",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cavern_Waterfall"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cavern_Waterfall"
      },
      {
       "Id": "1566008239",
       "Name": "RVB_FOREST",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_FOREST"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
      },
      {
       "Id": "2270178643",
       "Name": "RVB_Cave_Small",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
      },
      {
       "Id": "2669887163",
       "Name": "RVB_Zipline",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Zipline"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Zipline"
      }
     ],
     "ReferencedStreamedFiles": [
@@ -9391,6 +9478,11 @@
       "Id": "2876994821",
       "Name": "MC_Camera",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Camera"
+     },
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume"
      }
     ],
     "SwitchGroups": [

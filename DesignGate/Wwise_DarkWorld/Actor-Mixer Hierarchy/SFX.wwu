@@ -8954,6 +8954,523 @@
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
+						<BlendContainer Name="SFX_GPE_Emissive_Small" ID="{5FADD71A-D30C-45B6-A39E-CE3EEED115FE}" ShortID="230588709">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_GPE_Emissive_Small_High" ID="{F3E5E7B0-D47F-41C4-8BB9-34DBB098A8D9}" ShortID="423794000">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{9F811C11-04D9-4E00-8655-43E61F849FB2}" ShortID="284500995">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{87041513-1DCA-423D-B1C1-EA50976CFE0C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.36207</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.71264</XPos>
+																<YPos>-2.867</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Emissive_High" ID="{8AAA9E50-172B-436A-9C72-A9E7E5227316}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_High.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609893475"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_GPE_Emissive_Small_High" ID="{9A99FF34-29CF-4E86-8958-6D42B919B99B}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Small_High.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592392579"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Emissive_High" ID="{8AAA9E50-172B-436A-9C72-A9E7E5227316}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Emissive_Small_Low" ID="{23C7467B-2F10-41A6-B1AC-8D2F5BDCDE62}" ShortID="180694532">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{EA74F707-7038-44E5-9F23-6E0DFC6733D2}" ShortID="870742667">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{69F47F00-FF36-43B6-9013-73DFF81A1C19}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.52729</XPos>
+																<YPos>-2.14576</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Emissive_Low" ID="{E2D6E400-0C8E-4A1E-BFBD-ED990E4B28E0}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Low.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="463687491"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_GPE_Emissive_Small_Low" ID="{344FFE0F-EA09-4DBA-8C34-4D1EB0FFACD0}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Small_Low.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="532965748"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Emissive_Low" ID="{E2D6E400-0C8E-4A1E-BFBD-ED990E4B28E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Emissive_Small_Mid" ID="{A89B1990-0098-4753-A7C8-9A842B7CB514}" ShortID="333858776">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{BA1952A4-F7B0-4D0E-B23F-20D25CA0ED00}" ShortID="568059907">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{11C30E99-51BD-44B5-95CD-2BB357E65BC3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.001</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.19828</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.65517</XPos>
+																<YPos>-2.57368</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Emissive_Mid" ID="{CA58A104-C3C5-4F7E-963A-D15055B392E7}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="741612675"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_GPE_Emissive_Small_Mid" ID="{A2D8D913-BA5C-42F5-A3DF-CEE67DB95C40}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Small_Mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928999286"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Emissive_Mid" ID="{CA58A104-C3C5-4F7E-963A-D15055B392E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{33003804-F01A-4B77-874E-BADB33FB6360}" ShortID="297932498">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<BlendContainer Name="SFX_GPE_Emissive_Big" ID="{3AC2213F-C934-4B15-BFB9-041E7F04BD0E}" ShortID="145509568">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{47ED5C76-7D85-4011-8783-3C9A233316B3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_GPE_Emissive_Big_High" ID="{D146EB00-B414-489D-8B47-BE14FFBC2815}" ShortID="883642347">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-700</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{094FAA2F-0758-4DEB-8F76-3B641ADF666E}" ShortID="426499011">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{88956F04-41CC-4097-B3DD-737E79410E07}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.36207</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.71264</XPos>
+																<YPos>-2.867</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Emissive_High" ID="{817EF032-FF49-416F-81C2-AE8F111E8171}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_High.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609893475"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_GPE_Emissive_Big_High" ID="{E51A960F-2B44-4CA5-9D48-7BD4E08A3596}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Big_High.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1025618184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Emissive_High" ID="{817EF032-FF49-416F-81C2-AE8F111E8171}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Emissive_Big_Low" ID="{9E0C5E3C-0AED-4441-8790-A4B8C1A873A8}" ShortID="1020294400">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-700</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1BA64D4E-8EF8-4BAF-8F8A-FD72F1C0982F}" ShortID="69964891">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9C911DF5-FF61-4105-98C0-E3202CD437FF}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.52729</XPos>
+																<YPos>-2.14576</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Emissive_Low" ID="{1DAFD920-151B-4615-A347-53032D092D47}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Low.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="463687491"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_GPE_Emissive_Big_Low" ID="{2F1F71CB-E5A4-40D2-A9E0-8EB5C040F5EF}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Big_Low.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="896101738"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Emissive_Low" ID="{1DAFD920-151B-4615-A347-53032D092D47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_GPE_Emissive_Big_Mid" ID="{FCC705DE-1D78-4517-9097-1BAD5FD0A575}" ShortID="1073703646">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-700</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{13838D78-F5A4-49E9-8B38-21E5C4FA2A1E}" ShortID="389518305">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{663851A7-1558-4BB8-B333-622887DABB3F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.001</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.19828</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.65517</XPos>
+																<YPos>-2.57368</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_GPE_Emissive_Mid" ID="{9C7B18CC-28D2-4251-9DF2-BF3A345E1F61}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="741612675"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_GPE_Emissive_Big_Mid" ID="{7CCE3891-23A9-47BB-A3FA-912D872D75D2}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_GPE_Emissive_Big_Mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1025031989"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_GPE_Emissive_Mid" ID="{9C7B18CC-28D2-4251-9DF2-BF3A345E1F61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{A30901A5-B76C-407D-912B-39284145B508}" ShortID="828711396">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>

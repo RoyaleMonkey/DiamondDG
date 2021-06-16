@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -48,7 +48,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="534391602">
+		<SoundBank Id="393239870" Language="SFX" Hash="2572050337">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -150,6 +150,22 @@
 						<File Id="243601624" Language="SFX">
 							<ShortName>SFX_Catapulte_Start_01.wav</ShortName>
 							<Path>SFX\SFX_Catapulte_Start_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2038128406" Name="Play_SFX_GPE_Emissive_Small" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Small">
+					<IncludedMemoryFiles>
+						<File Id="192967094" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
+						</File>
+						<File Id="417422286" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
+						</File>
+						<File Id="464595709" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2253,6 +2269,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="192967094" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
+				</File>
 				<File Id="197037388" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
@@ -2473,6 +2493,10 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem</Path>
 				</File>
+				<File Id="417422286" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
+				</File>
 				<File Id="428077751" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_LP_C4_0762CC47.wem</Path>
@@ -2516,6 +2540,10 @@
 				<File Id="463504844" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Ground_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Ground_G_D8C07C79.wem</Path>
+				</File>
+				<File Id="464595709" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
 				</File>
 				<File Id="467225163" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C2.wav</ShortName>
@@ -3048,9 +3076,11 @@
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
+				<GameParameter Id="2876994821" Name="MC_Camera" ObjectPath="\Game Parameters\Default Work Unit\MC_Camera"/>
+				<GameParameter Id="3518473146" Name="Emissive_Distance" ObjectPath="\Game Parameters\Default Work Unit\Emissive_Distance"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX">
+		<SoundBank Id="1075435911" Language="SFX" Hash="3558886846">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -3188,7 +3218,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX">
+		<SoundBank Id="1167860281" Language="SFX" Hash="3905899802">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -3646,7 +3676,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3178014392">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1530052587">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -3662,7 +3692,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1206832582">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -3743,7 +3773,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1521121130">
+		<SoundBank Id="4056684167" Language="SFX" Hash="4182432339">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

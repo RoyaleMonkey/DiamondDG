@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="819052723">
+		<SoundBank Id="393239870" Language="SFX" Hash="2713468633">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -212,6 +212,22 @@
 						<File Id="243601624" Language="SFX">
 							<ShortName>SFX_Catapulte_Start_01.wav</ShortName>
 							<Path>SFX\SFX_Catapulte_Start_01_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="607610138" Name="Play_SFX_GPE_Emissive" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_Emissive">
+					<IncludedMemoryFiles>
+						<File Id="192967094" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
+						</File>
+						<File Id="417422286" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
+						</File>
+						<File Id="464595709" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2352,6 +2368,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
 				</File>
+				<File Id="192967094" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
+				</File>
 				<File Id="197037388" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
@@ -2572,6 +2592,10 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem</Path>
 				</File>
+				<File Id="417422286" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
+				</File>
 				<File Id="428077751" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_LP_C4_0762CC47.wem</Path>
@@ -2615,6 +2639,10 @@
 				<File Id="463504844" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Ground_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Ground_G_D8C07C79.wem</Path>
+				</File>
+				<File Id="464595709" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
 				</File>
 				<File Id="467225163" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C2.wav</ShortName>
@@ -3148,6 +3176,8 @@
 			<GameParameters>
 				<GameParameter Id="33954365" Name="MC_Falling" ObjectPath="\Game Parameters\Default Work Unit\MC_Falling"/>
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
+				<GameParameter Id="2876994821" Name="MC_Camera" ObjectPath="\Game Parameters\Default Work Unit\MC_Camera"/>
+				<GameParameter Id="3518473146" Name="Emissive_Distance" ObjectPath="\Game Parameters\Default Work Unit\Emissive_Distance"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>

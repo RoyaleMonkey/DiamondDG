@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "4195896571",
+    "Hash": "3103708900",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -3173,6 +3173,12 @@
         "Path": "SFX\\RFX_GPE_Zipline_Flap_Cloth_2_D8C07C79.wem"
        },
        {
+        "Id": "562362238",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_Zipline_Montage.wav",
+        "Path": "SFX\\SFX_MC_Zipline_Montage_D8C07C79.wem"
+       },
+       {
         "Id": "602179295",
         "Language": "SFX",
         "ShortName": "RFX_GPE_Zipline_2.wav",
@@ -4344,6 +4350,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_Bumper_1.wav",
       "Path": "SFX\\SFX_GPE_Bumper_1_D8C07C79.wem"
+     },
+     {
+      "Id": "562362238",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_Zipline_Montage.wav",
+      "Path": "SFX\\SFX_MC_Zipline_Montage_D8C07C79.wem"
      },
      {
       "Id": "567258248",

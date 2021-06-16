@@ -6061,6 +6061,28 @@
 												</Reference>
 											</ReferenceList>
 										</RandomSequenceContainer>
+										<Sound Name="SFX_MC_Zipline_Montage" ID="{42B9450B-34F7-4208-9D8C-7D74BF4454C9}" ShortID="570439431">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Zipline_Montage" ID="{362340BC-B9ED-4D64-AEC1-2C96208AE38A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_MC_Zipline_Montage.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="562362238"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Zipline_Montage" ID="{362340BC-B9ED-4D64-AEC1-2C96208AE38A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</BlendContainer>
 								<Sound Name="SFX_GPE_Zipline_Portail_Start" ID="{84EE9FF5-2ED0-4DA0-A7F6-5771D3E5B2CB}" ShortID="831582586">
@@ -9207,7 +9229,17 @@
 						</BlendContainer>
 						<BlendContainer Name="SFX_GPE_Emissive_Big" ID="{3AC2213F-C934-4B15-BFB9-041E7F04BD0E}" ShortID="145509568">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>

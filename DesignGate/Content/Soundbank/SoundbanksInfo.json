@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -73,7 +73,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1873212221",
+    "Hash": "3535405377",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -3078,6 +3078,12 @@
         "Path": "SFX\\RFX_GPE_Zipline_Flap_Cloth_2_D8C07C79.wem"
        },
        {
+        "Id": "562362238",
+        "Language": "SFX",
+        "ShortName": "SFX_MC_Zipline_Montage.wav",
+        "Path": "SFX\\SFX_MC_Zipline_Montage_D8C07C79.wem"
+       },
+       {
         "Id": "602179295",
         "Language": "SFX",
         "ShortName": "RFX_GPE_Zipline_2.wav",
@@ -4203,6 +4209,12 @@
       "Path": "SFX\\SFX_GPE_Bumper_1_D8C07C79.wem"
      },
      {
+      "Id": "562362238",
+      "Language": "SFX",
+      "ShortName": "SFX_MC_Zipline_Montage.wav",
+      "Path": "SFX\\SFX_MC_Zipline_Montage_D8C07C79.wem"
+     },
+     {
       "Id": "567258248",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Telek_DS_LP.wav",
@@ -4932,7 +4944,6 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
-    "Hash": "3558886846",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -5208,7 +5219,6 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "3905899802",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -6089,7 +6099,6 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "3653941620",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -6294,7 +6303,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "3111188788",
+    "Hash": "890412645",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",

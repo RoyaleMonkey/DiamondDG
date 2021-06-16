@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="733587470">
+		<SoundBank Id="393239870" Language="SFX" Hash="534391602">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -1921,10 +1921,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="901061857" Name="Play_SFX_LE_Whale_Seq" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Whale_Seq"/>
 				<Event Id="1396017883" Name="Play_SFX_Statue_Destruction_1" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_1"/>
 				<Event Id="1396017880" Name="Play_SFX_Statue_Destruction_2" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_2"/>
 				<Event Id="1396017881" Name="Play_SFX_Statue_Destruction_3" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_3"/>
-				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="22000.000000"/>
+				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="23500.000000"/>
 				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
 						<File Id="95843208" Language="SFX">
@@ -1937,6 +1938,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1176979258" Name="Play_Waterfall_blnd_Cavern_Big" ObjectPath="\Events\Default Work Unit\AMB\Play_Waterfall_blnd_Cavern_Big" MaxAttenuation="13000.000000"/>
 				<Event Id="2095972928" Name="Play_Waterfall_blnd_Void" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd_Void" MaxAttenuation="12500.000000"/>
 				<Event Id="1229862554" Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Purple\Stop_SFX_Collectible_Buterflie_Activated_LP" MaxAttenuation="0.000000"/>
 				<Event Id="3416508261" Name="Stop_SFX_Collectible_Green_Feather_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Green\Stop_SFX_Collectible_Green_Feather_LP" MaxAttenuation="0.000000"/>
@@ -1994,6 +1996,10 @@
 				<File Id="8221998" Language="SFX">
 					<ShortName>SFX_GPE_Geyser_Lp.wav</ShortName>
 					<Path>SFX\SFX_GPE_Geyser_Lp_D8C07C79.wem</Path>
+				</File>
+				<File Id="10487025" Language="SFX">
+					<ShortName>AMB_Whale_Dive_In.wav</ShortName>
+					<Path>SFX\AMB_Whale_Dive_In_D8C07C79.wem</Path>
 				</File>
 				<File Id="11866814" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_F3.wav</ShortName>
@@ -2082,6 +2088,10 @@
 				<File Id="79435795" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="83363388" Language="SFX">
+					<ShortName>AMB_Whale_Wing_1.wav</ShortName>
+					<Path>SFX\AMB_Whale_Wing_1_D8C07C79.wem</Path>
 				</File>
 				<File Id="85145748" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS4.wav</ShortName>
@@ -2302,6 +2312,10 @@
 				<File Id="295003249" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_DS3_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_DS3_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="300014115" Language="SFX">
+					<ShortName>AMB_Whale_Wing_6.wav</ShortName>
+					<Path>SFX\AMB_Whale_Wing_6_D8C07C79.wem</Path>
 				</File>
 				<File Id="309400106" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_C2.wav</ShortName>
@@ -2531,6 +2545,10 @@
 					<ShortName>SFX_GPE_Telek_DS_LP.wav</ShortName>
 					<Path>SFX\SFX_GPE_Telek_DS_LP_0762CC47.wem</Path>
 				</File>
+				<File Id="568383572" Language="SFX">
+					<ShortName>AMB_Whale_WaterBlow.wav</ShortName>
+					<Path>SFX\AMB_Whale_WaterBlow_D8C07C79.wem</Path>
+				</File>
 				<File Id="570281229" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_A1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_A1_01_D8C07C79.wem</Path>
@@ -2591,6 +2609,10 @@
 					<ShortName>SFX_Telekinesie_End__1.wav</ShortName>
 					<Path>SFX\SFX_Telekinesie_End__1_7C6D776D.wem</Path>
 				</File>
+				<File Id="627719488" Language="SFX">
+					<ShortName>AMB_Whale_Sing.wav</ShortName>
+					<Path>SFX\AMB_Whale_Sing_D8C07C79.wem</Path>
+				</File>
 				<File Id="637741118" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_D4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_LP_D4_0762CC47.wem</Path>
@@ -2607,6 +2629,10 @@
 					<ShortName>SFX_GPE_Butterfly_Layer_DS4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem</Path>
 				</File>
+				<File Id="651020931" Language="SFX">
+					<ShortName>AMB_Whale_Wing_2.wav</ShortName>
+					<Path>SFX\AMB_Whale_Wing_2_D8C07C79.wem</Path>
+				</File>
 				<File Id="655731917" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_C1.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Chimes_C1_D8C07C79.wem</Path>
@@ -2618,10 +2644,6 @@
 				<File Id="661246042" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C3_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem</Path>
-				</File>
-				<File Id="668422005" Language="SFX">
-					<ShortName>SFX_WaterFall_BIG.wav</ShortName>
-					<Path>SFX\SFX_WaterFall_BIG_0762CC47.wem</Path>
 				</File>
 				<File Id="669892981" Language="SFX">
 					<ShortName>SFX_GPE_Geyser_End_1.wav</ShortName>
@@ -2682,6 +2704,10 @@
 				<File Id="724302095" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F3_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem</Path>
+				</File>
+				<File Id="726391781" Language="SFX">
+					<ShortName>SFX_LE_WaterFall_Cavern_Big.wav</ShortName>
+					<Path>SFX\SFX_LE_WaterFall_Cavern_Big_0762CC47.wem</Path>
 				</File>
 				<File Id="726963180" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D3.wav</ShortName>
@@ -2755,6 +2781,10 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_C1_03.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_C1_03_D8C07C79.wem</Path>
 				</File>
+				<File Id="853314946" Language="SFX">
+					<ShortName>AMB_Whale_Wing_5.wav</ShortName>
+					<Path>SFX\AMB_Whale_Wing_5_D8C07C79.wem</Path>
+				</File>
 				<File Id="854186318" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_DS1_D8C07C79.wem</Path>
@@ -2786,6 +2816,10 @@
 				<File Id="867625013" Language="SFX">
 					<ShortName>SFX_GPE_PlantPlatorm_Open_4.wav</ShortName>
 					<Path>SFX\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem</Path>
+				</File>
+				<File Id="870686688" Language="SFX">
+					<ShortName>AMB_Whale_Wing_4.wav</ShortName>
+					<Path>SFX\AMB_Whale_Wing_4_D8C07C79.wem</Path>
 				</File>
 				<File Id="880595821" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_A4.wav</ShortName>
@@ -2966,6 +3000,10 @@
 				<File Id="1070609207" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS1_01.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS1_01_D8C07C79.wem</Path>
+				</File>
+				<File Id="1071421019" Language="SFX">
+					<ShortName>AMB_Whale_Wing_3.wav</ShortName>
+					<Path>SFX\AMB_Whale_Wing_3_D8C07C79.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>

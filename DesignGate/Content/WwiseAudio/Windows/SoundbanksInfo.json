@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -73,11 +73,32 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1314948516",
+    "Hash": "819052723",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3488501086",
+      "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "MaxAttenuation": "8000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "193220923",
+        "Language": "SFX",
+        "ShortName": "Amb_Lake_Lapping.wav",
+        "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2270178643",
+        "Name": "RVB_Cave_Small",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
+       }
+      ]
+     },
      {
       "Id": "906982068",
       "Name": "Play_Amb_SnakeRattle_RFX",
@@ -3232,6 +3253,31 @@
       ]
      },
      {
+      "Id": "901061857",
+      "Name": "Play_SFX_LE_Whale_Seq",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_SFX_LE_Whale_Seq",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "10487025",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Dive_In.wav",
+        "Path": "SFX\\AMB_Whale_Dive_In_D8C07C79.wem"
+       },
+       {
+        "Id": "568383572",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_WaterBlow.wav",
+        "Path": "SFX\\AMB_Whale_WaterBlow_D8C07C79.wem"
+       },
+       {
+        "Id": "627719488",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Sing.wav",
+        "Path": "SFX\\AMB_Whale_Sing_D8C07C79.wem"
+       }
+      ]
+     },
+     {
       "Id": "1396017883",
       "Name": "Play_SFX_Statue_Destruction_1",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_SFX_Statue_Destruction_1"
@@ -3250,12 +3296,32 @@
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
-      "MaxAttenuation": "22000.000000"
+      "MaxAttenuation": "23500.000000"
      },
      {
       "Id": "967636871",
       "Name": "Play_Waterfall_blnd",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Waterfall_blnd",
+      "MaxAttenuation": "13000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "95843208",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Waterfall_Away.wav",
+        "Path": "SFX\\SFX_LE_Waterfall_Away_D8C07C79.wem"
+       },
+       {
+        "Id": "330405534",
+        "Language": "SFX",
+        "ShortName": "SFX_LE_Waterfall_close_LP.wav",
+        "Path": "SFX\\SFX_LE_Waterfall_close_LP_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1176979258",
+      "Name": "Play_Waterfall_blnd_Cavern_Big",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Waterfall_blnd_Cavern_Big",
       "MaxAttenuation": "13000.000000",
       "IncludedMemoryFiles": [
        {
@@ -3466,6 +3532,12 @@
       "Path": "SFX\\SFX_GPE_Geyser_Lp_D8C07C79.wem"
      },
      {
+      "Id": "10487025",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Dive_In.wav",
+      "Path": "SFX\\AMB_Whale_Dive_In_D8C07C79.wem"
+     },
+     {
       "Id": "11866814",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Butterfly_LP_F3.wav",
@@ -3596,6 +3668,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_01.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_01_D8C07C79.wem"
+     },
+     {
+      "Id": "83363388",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Wing_1.wav",
+      "Path": "SFX\\AMB_Whale_Wing_1_D8C07C79.wem"
      },
      {
       "Id": "85145748",
@@ -3926,6 +4004,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_DS3_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_DS3_02_D8C07C79.wem"
+     },
+     {
+      "Id": "300014115",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Wing_6.wav",
+      "Path": "SFX\\AMB_Whale_Wing_6_D8C07C79.wem"
      },
      {
       "Id": "309400106",
@@ -4270,6 +4354,12 @@
       "Path": "SFX\\SFX_GPE_Telek_DS_LP_0762CC47.wem"
      },
      {
+      "Id": "568383572",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_WaterBlow.wav",
+      "Path": "SFX\\AMB_Whale_WaterBlow_D8C07C79.wem"
+     },
+     {
       "Id": "570281229",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_A1_01.wav",
@@ -4360,6 +4450,12 @@
       "Path": "SFX\\SFX_Telekinesie_End__1_7C6D776D.wem"
      },
      {
+      "Id": "627719488",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Sing.wav",
+      "Path": "SFX\\AMB_Whale_Sing_D8C07C79.wem"
+     },
+     {
       "Id": "637741118",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Butterfly_LP_D4.wav",
@@ -4384,6 +4480,12 @@
       "Path": "SFX\\SFX_GPE_Butterfly_Layer_DS4_D8C07C79.wem"
      },
      {
+      "Id": "651020931",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Wing_2.wav",
+      "Path": "SFX\\AMB_Whale_Wing_2_D8C07C79.wem"
+     },
+     {
       "Id": "655731917",
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Chimes_C1.wav",
@@ -4400,12 +4502,6 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_C3_03.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C3_03_D8C07C79.wem"
-     },
-     {
-      "Id": "668422005",
-      "Language": "SFX",
-      "ShortName": "SFX_WaterFall_BIG.wav",
-      "Path": "SFX\\SFX_WaterFall_BIG_0762CC47.wem"
      },
      {
       "Id": "669892981",
@@ -4496,6 +4592,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_F3_02.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_F3_02_D8C07C79.wem"
+     },
+     {
+      "Id": "726391781",
+      "Language": "SFX",
+      "ShortName": "SFX_LE_WaterFall_Cavern_Big.wav",
+      "Path": "SFX\\SFX_LE_WaterFall_Cavern_Big_0762CC47.wem"
      },
      {
       "Id": "726963180",
@@ -4606,6 +4708,12 @@
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_C1_03_D8C07C79.wem"
      },
      {
+      "Id": "853314946",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Wing_5.wav",
+      "Path": "SFX\\AMB_Whale_Wing_5_D8C07C79.wem"
+     },
+     {
       "Id": "854186318",
       "Language": "SFX",
       "ShortName": "SFX_GPE_Stele_Butterfly_DS1.wav",
@@ -4652,6 +4760,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_PlantPlatorm_Open_4.wav",
       "Path": "SFX\\SFX_GPE_PlantPlatorm_Open_4_D8C07C79.wem"
+     },
+     {
+      "Id": "870686688",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Wing_4.wav",
+      "Path": "SFX\\AMB_Whale_Wing_4_D8C07C79.wem"
      },
      {
       "Id": "880595821",
@@ -4922,6 +5036,12 @@
       "Language": "SFX",
       "ShortName": "SFX_GPE_ToyPlant_Whisper_AS1_01.wav",
       "Path": "SFX\\SFX_GPE_ToyPlant_Whisper_AS1_01_D8C07C79.wem"
+     },
+     {
+      "Id": "1071421019",
+      "Language": "SFX",
+      "ShortName": "AMB_Whale_Wing_3.wav",
+      "Path": "SFX\\AMB_Whale_Wing_3_D8C07C79.wem"
      }
     ],
     "GameParameters": [
@@ -4940,7 +5060,7 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
-    "Hash": "3085892223",
+    "Hash": "4130788087",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -5630,7 +5750,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "1230972005",
+    "Hash": "4170558374",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -7054,7 +7174,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "1631360202",
+    "Hash": "3873350866",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -7298,6 +7418,12 @@
       "MaxAttenuation": "0.000000"
      },
      {
+      "Id": "884093183",
+      "Name": "Stop_Mus_Credit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Credit",
+      "MaxAttenuation": "0.000000"
+     },
+     {
       "Id": "3867830866",
       "Name": "Stop_Mus_Waterfall",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Waterfall\\Stop_Mus_Waterfall",
@@ -7449,7 +7575,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "1661829502",
+    "Hash": "540248649",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -7939,6 +8065,12 @@
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RVB_Cave_Small"
        }
       ]
+     },
+     {
+      "Id": "3488501086",
+      "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "MaxAttenuation": "8000.000000"
      },
      {
       "Id": "832042763",
@@ -12439,13 +12571,13 @@
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
-      "MaxAttenuation": "22000.000000",
+      "MaxAttenuation": "23500.000000",
       "IncludedMemoryFiles": [
        {
-        "Id": "668422005",
+        "Id": "726391781",
         "Language": "SFX",
-        "ShortName": "SFX_WaterFall_BIG.wav",
-        "Path": "SFX\\SFX_WaterFall_BIG_0762CC47.wem"
+        "ShortName": "SFX_LE_WaterFall_Cavern_Big.wav",
+        "Path": "SFX\\SFX_LE_WaterFall_Cavern_Big_0762CC47.wem"
        }
       ]
      },
@@ -12511,6 +12643,32 @@
         "Language": "SFX",
         "ShortName": "UI_Menu_Selec_Out.wav",
         "Path": "SFX\\UI_Menu_Selec_Out_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2912493720",
+      "Name": "Set_Pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Pause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause"
+       }
+      ]
+     },
+     {
+      "Id": "4170605783",
+      "Name": "Set_Unpause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Unpause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3412868374",
+        "Name": "Unpause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause"
        }
       ]
      },
@@ -15003,6 +15161,20 @@
       "Id": "2876994821",
       "Name": "MC_Camera",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Camera"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause",
+      "States": []
+     },
+     {
+      "Id": "3412868374",
+      "Name": "Unpause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause",
+      "States": []
      }
     ],
     "SwitchGroups": [

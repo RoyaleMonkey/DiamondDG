@@ -102,10 +102,10 @@
 						</Event>
 						<Event Name="Play_SFX_WaterFall_BIG" ID="{C670D86F-BF23-461F-8A2D-78100CFE738B}">
 							<ChildrenList>
-								<Action Name="" ID="{CA06230A-6D14-4B3B-919C-B9372593A48D}" ShortID="965001096">
+								<Action Name="" ID="{6AEDF4D5-F4A6-4711-B4B2-8C33CAB055B9}" ShortID="341834437">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_WaterFall_BIG" ID="{947465FC-CF28-4816-BA75-B3609B651A8E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+											<ObjectRef Name="SFX_LE_Waterfall_Cavern_Big" ID="{1AB5C6D5-3E7F-42F7-B68F-2AB42ABC6E5E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -296,6 +296,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_Rat_RFX" ID="{1D2CDFFD-E3D2-4DD7-BEBB-1A7FF6182C66}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Waterfall_blnd_Cavern_Big" ID="{AD5E2648-FF73-4158-9343-3D9D4F951BBF}">
+							<ChildrenList>
+								<Action Name="" ID="{B1AA8B4F-754E-481F-9BAD-81A1DD78B04B}" ShortID="335826062">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterfall_blnd_Cavern_Big" ID="{B387D70E-A10A-44F3-BA9E-DA38330912F5}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ID="{01EA9CE1-B0F0-4E31-9F29-D7E5E6F0DD8C}">
+							<ChildrenList>
+								<Action Name="" ID="{8AC742E3-4AB7-4980-B59E-DC8B1ED15523}" ShortID="840223114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lake_Lapping_Little_Big_Cavern" ID="{2FC119FC-8673-48FC-9BA0-621D7B12BF44}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -512,6 +534,42 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Waterfall_blnd_Void" ID="{799E67D7-7E13-4BAE-A328-4669DB2743E8}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_LE_Whale_Seq" ID="{45F18B1C-534E-463E-A4A0-728BAF770944}">
+							<ChildrenList>
+								<Action Name="" ID="{A29132EE-04D3-47F6-A2DF-DEED94913F8D}" ShortID="238893090">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_LE_Whale_Dive_In" ID="{660758B7-31AB-44F3-AE43-45EAD91C85FB}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{44F3AF34-EC05-4E12-8DC5-D26369E163F7}" ShortID="6436694">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_LE_Whale_Sing" ID="{F02F0C42-593A-46CB-8B4B-8C498D398038}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ECC8B78E-1648-4D0B-9A90-8907FDF38D7E}" ShortID="196344721">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_LE_Whale_Water_Blow" ID="{B9889874-CB98-494A-93D5-0195297000F2}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

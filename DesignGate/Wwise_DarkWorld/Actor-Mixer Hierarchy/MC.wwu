@@ -10819,6 +10819,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<RandomSequenceContainer Name="MC_Soft_Falling" ID="{99AED494-C4D2-44FF-8FFF-37D120DF2CFE}" ShortID="47570119">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>

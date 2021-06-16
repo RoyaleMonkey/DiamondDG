@@ -43,6 +43,12 @@
 						<Property Name="Min" Type="Real64" Value="550"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Emissive_Distance" ID="{192D532A-633E-4A25-A4F2-E56045345B0F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

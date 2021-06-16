@@ -6445,6 +6445,34 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{00FEFA2A-CE75-4437-A82F-0B86C29FA698}" ShortID="224542899">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EDCAD151-5E85-4DAD-B65E-AD74F9CA48E4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>550</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -6459,6 +6487,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="SFX_GPE_Geyser_Large_Start" ID="{D2189E29-C60B-429A-BAE5-26348920F54B}" ShortID="802711321">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -6501,7 +6536,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6544,7 +6579,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -9326,50 +9361,6 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<RandomSequenceContainer Name="SFX_WaterFall_BIG" ID="{947465FC-CF28-4816-BA75-B3609B651A8E}" ShortID="609126795">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="WaterFall BIG ATT" ID="{A5D44BA5-6ABD-4A4C-9A19-A9C9D2B549F2}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="SFX_WaterFall_BIG_Place_Holder" ID="{2AC11C61-A1D4-4D1F-9E47-BB5158CECB49}" ShortID="851013237">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_WaterFall_BIG" ID="{EFDFC0FF-EAF5-4BD4-B73B-D9326DC5C14E}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_WaterFall_BIG.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="668422005"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_WaterFall_BIG" ID="{EFDFC0FF-EAF5-4BD4-B73B-D9326DC5C14E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<BlendContainer Name="Ending_WaterFall" ID="{1099E65E-09B1-45F2-96F2-3479AFC7A886}" ShortID="433178412">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -9473,7 +9464,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<ActorMixer Name="SFX_Collectible" ID="{05D546AB-F4CD-4161-A4A2-A5B06AEB46AE}" ShortID="1073035971">
+						<ActorMixer Name="SFX_LE_Collectible" ID="{05D546AB-F4CD-4161-A4A2-A5B06AEB46AE}" ShortID="1073035971">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -9815,7 +9806,7 @@
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
-						<ActorMixer Name="SFX_Statue_Destruction_Tuto" ID="{CCD421F4-F5FD-4853-AB8E-02E4FA6E88A0}" ShortID="825306854">
+						<ActorMixer Name="SFX_LE_Statue_Destruction_Tuto" ID="{CCD421F4-F5FD-4853-AB8E-02E4FA6E88A0}" ShortID="825306854">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -9996,6 +9987,413 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<Sound Name="SFX_LE_Waterfall_Cavern_Big" ID="{1AB5C6D5-3E7F-42F7-B68F-2AB42ABC6E5E}" ShortID="540042352">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WaterFall BIG ATT" ID="{A5D44BA5-6ABD-4A4C-9A19-A9C9D2B549F2}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_LE_WaterFall_Cavern_Big" ID="{337BB6AD-B8E7-46A5-B507-6B7501EDAEBA}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_LE_WaterFall_Cavern_Big.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="726391781"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_LE_WaterFall_Cavern_Big" ID="{337BB6AD-B8E7-46A5-B507-6B7501EDAEBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="Waterfall_blnd_Cavern_Big" ID="{B387D70E-A10A-44F3-BA9E-DA38330912F5}" ShortID="486014289">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{47ED5C76-7D85-4011-8783-3C9A233316B3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Waterfall_close" ID="{FABABA88-2100-4CCA-BD25-A73BC48D1FE6}" ShortID="940026551">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation WaterFall Close" ID="{E69360FD-DB71-43AF-A234-D8B670FE9D8B}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_LE_Waterfall_close_LP" ID="{42417019-7179-4176-8232-61A635AD6322}" ShortID="17049542">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_LE_Waterfall_close_LP" ID="{7B9D8700-46D8-44DB-A952-D46223A5E068}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_LE_Waterfall_close_LP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="330405534"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_LE_Waterfall_close_LP" ID="{7B9D8700-46D8-44DB-A952-D46223A5E068}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Waterfall_away" ID="{F7038FDD-9264-4119-B395-79839A1DD291}" ShortID="845436870">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation WaterFall Away" ID="{59A44A8A-2768-4E9A-A3F2-2B857E895579}" WorkUnitID="{FB6F0915-3CF5-40F8-9A6E-B5BF4075F8CA}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_LE_Waterfall_Away" ID="{D2832DDC-B5B2-41E1-AD19-D61B584131CE}" ShortID="743387077">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_LE_Waterfall_Away" ID="{38C0EEE1-FB92-4304-8AC4-6826340E202D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_LE_Waterfall_Away.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="95843208"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_LE_Waterfall_Away" ID="{38C0EEE1-FB92-4304-8AC4-6826340E202D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<ActorMixer Name="SFX_LE_Whale_Cavern" ID="{AD881BAD-4ADC-4D58-995B-01010B1D860F}" ShortID="923281950">
+							<PropertyList>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_LE_Whale_Sing" ID="{F02F0C42-593A-46CB-8B4B-8C498D398038}" ShortID="673948345">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Whale_Sing" ID="{E75B49C5-95EB-4B4B-8177-0FDCEDE05F1D}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Whale_Sing.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="627719488"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Whale_Sing" ID="{E75B49C5-95EB-4B4B-8177-0FDCEDE05F1D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_LE_Whale_Water_Blow" ID="{B9889874-CB98-494A-93D5-0195297000F2}" ShortID="770464175">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Whale_WaterBlow" ID="{02F93557-2F2C-4DD6-AE30-2AF303E5DB86}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Whale_WaterBlow.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568383572"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Whale_WaterBlow" ID="{02F93557-2F2C-4DD6-AE30-2AF303E5DB86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_LE_Whale_Dive_In" ID="{660758B7-31AB-44F3-AE43-45EAD91C85FB}" ShortID="136955282">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Whale_Dive_In" ID="{724C48AF-28C2-4759-9A55-D956C2BB629D}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Whale_Dive_In.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="10487025"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Whale_Dive_In" ID="{724C48AF-28C2-4759-9A55-D956C2BB629D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="SFX_LE_Whale_Wings" ID="{B4D2E7ED-B84C-4348-9A08-190CAA422F23}" ShortID="699810464">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Whale_Wing_1" ID="{DD93F812-E6A4-4D07-8C85-A69227F68D2D}" ShortID="757821895">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Whale_Wing_1" ID="{F078636A-363C-45A9-9437-8B8B3D674E4E}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Whale_Wing_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83363388"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Whale_Wing_1" ID="{F078636A-363C-45A9-9437-8B8B3D674E4E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Whale_Wing_2" ID="{1688E440-495C-4200-BA51-B00AE630DFB5}" ShortID="1040986284">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Whale_Wing_2" ID="{BF998138-009E-41BF-9110-AE3C6F002C0B}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Whale_Wing_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="651020931"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Whale_Wing_2" ID="{BF998138-009E-41BF-9110-AE3C6F002C0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Whale_Wing_3" ID="{62E94727-F83A-455E-B9B0-D58BCD2E5320}" ShortID="874647019">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Whale_Wing_3" ID="{579B9583-8366-41B8-9694-8600031A9D3E}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Whale_Wing_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1071421019"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Whale_Wing_3" ID="{579B9583-8366-41B8-9694-8600031A9D3E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Whale_Wing_4" ID="{3F5A6003-A524-493C-90E2-93D24ED1B357}" ShortID="201088452">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Whale_Wing_4" ID="{0E480D1B-5E0A-4EFD-9ED6-55757857F97D}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Whale_Wing_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="870686688"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Whale_Wing_4" ID="{0E480D1B-5E0A-4EFD-9ED6-55757857F97D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Whale_Wing_5" ID="{7DFE3F0A-04BE-45D2-9EF0-F3B04FFBC3A3}" ShortID="940119945">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Whale_Wing_5" ID="{0F42D736-FD82-4EF3-91D7-008DD83ED2FC}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Whale_Wing_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="853314946"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Whale_Wing_5" ID="{0F42D736-FD82-4EF3-91D7-008DD83ED2FC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Whale_Wing_6" ID="{DE420D69-08BA-485A-88D1-205E15CD2173}" ShortID="19532689">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Whale_Wing_6" ID="{0CEFC71D-5484-4E96-A8E8-EBEFC3219A22}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Whale_Wing_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="300014115"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Whale_Wing_6" ID="{0CEFC71D-5484-4E96-A8E8-EBEFC3219A22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>

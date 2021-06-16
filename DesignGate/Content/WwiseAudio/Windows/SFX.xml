@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2713468633">
+		<SoundBank Id="393239870" Language="SFX" Hash="2014976347">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -21,7 +21,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
+						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="906982068" Name="Play_Amb_SnakeRattle_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_SnakeRattle_RFX" MaxAttenuation="6500.000000">
@@ -52,7 +52,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RVB_Cave_Small"/>
+						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2488731060" Name="Play_Ending_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Ending_WaterFall" MaxAttenuation="13000.000000">
@@ -215,19 +215,35 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="607610138" Name="Play_SFX_GPE_Emissive" ObjectPath="\Events\Default Work Unit\SFX_GPE\Play_SFX_GPE_Emissive">
+				<Event Id="3898119337" Name="Play_SFX_GPE_Emissive_Big" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Big">
 					<IncludedMemoryFiles>
-						<File Id="192967094" Language="SFX">
-							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
-							<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
-						</File>
-						<File Id="417422286" Language="SFX">
+						<File Id="463687491" Language="SFX">
 							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
-							<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Emissive_Low_0762CC47.wem</Path>
 						</File>
-						<File Id="464595709" Language="SFX">
+						<File Id="609893475" Language="SFX">
 							<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
-							<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
+							<Path>SFX\SFX_GPE_Emissive_High_0762CC47.wem</Path>
+						</File>
+						<File Id="741612675" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Mid_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2038128406" Name="Play_SFX_GPE_Emissive_Small" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Small">
+					<IncludedMemoryFiles>
+						<File Id="463687491" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Low_0762CC47.wem</Path>
+						</File>
+						<File Id="609893475" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_High_0762CC47.wem</Path>
+						</File>
+						<File Id="741612675" Language="SFX">
+							<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+							<Path>SFX\SFX_GPE_Emissive_Mid_0762CC47.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2368,10 +2384,6 @@
 					<ShortName>SFX_GPE_ToyPlant_Whisper_AS2_02.wav</ShortName>
 					<Path>SFX\SFX_GPE_ToyPlant_Whisper_AS2_02_D8C07C79.wem</Path>
 				</File>
-				<File Id="192967094" Language="SFX">
-					<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
-					<Path>SFX\SFX_GPE_Emissive_Mid_D8C07C79.wem</Path>
-				</File>
 				<File Id="197037388" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_AS2_D8C07C79.wem</Path>
@@ -2592,10 +2604,6 @@
 					<ShortName>SFX_GPE_Stele_Butterfly_D2.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D2_D8C07C79.wem</Path>
 				</File>
-				<File Id="417422286" Language="SFX">
-					<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
-					<Path>SFX\SFX_GPE_Emissive_Low_D8C07C79.wem</Path>
-				</File>
 				<File Id="428077751" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_C4.wav</ShortName>
 					<Path>SFX\SFX_GPE_Butterfly_LP_C4_0762CC47.wem</Path>
@@ -2640,9 +2648,9 @@
 					<ShortName>SFX_GPE_Stele_Ground_G.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Ground_G_D8C07C79.wem</Path>
 				</File>
-				<File Id="464595709" Language="SFX">
-					<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
-					<Path>SFX\SFX_GPE_Emissive_High_D8C07C79.wem</Path>
+				<File Id="463687491" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Low_0762CC47.wem</Path>
 				</File>
 				<File Id="467225163" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Stone_C2.wav</ShortName>
@@ -2755,6 +2763,10 @@
 				<File Id="602179295" Language="SFX">
 					<ShortName>RFX_GPE_Zipline_2.wav</ShortName>
 					<Path>SFX\RFX_GPE_Zipline_2_D8C07C79.wem</Path>
+				</File>
+				<File Id="609893475" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_High.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_High_0762CC47.wem</Path>
 				</File>
 				<File Id="610677375" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_G2.wav</ShortName>
@@ -2879,6 +2891,10 @@
 				<File Id="726963180" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_D3.wav</ShortName>
 					<Path>SFX\SFX_GPE_Stele_Butterfly_D3_D8C07C79.wem</Path>
+				</File>
+				<File Id="741612675" Language="SFX">
+					<ShortName>SFX_GPE_Emissive_Mid.wav</ShortName>
+					<Path>SFX\SFX_GPE_Emissive_Mid_0762CC47.wem</Path>
 				</File>
 				<File Id="749644177" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Whisper_F1_02.wav</ShortName>

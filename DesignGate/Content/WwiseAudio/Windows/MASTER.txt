@@ -89,6 +89,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1985131783	SoundEffectVolume			\Default Work Unit\SoundEffectVolume	
 	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
 	2876994821	MC_Camera			\Default Work Unit\MC_Camera	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	292717054	MC_Flute			\Default Work Unit\Master Audio Bus\MC\MC_Flute	
@@ -102,11 +103,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4035004657	Foleys			\Default Work Unit\Master Audio Bus\MC\Foleys	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	161541955	RVB_Cave_Medium			\Default Work Unit\Master Audio Bus\RVB_Cave_Medium	
-	816626644	RVB_Cavern_Waterfall			\Default Work Unit\Master Audio Bus\RVB_Cavern_Waterfall	
-	1566008239	RVB_FOREST			\Default Work Unit\Master Audio Bus\RVB_FOREST	
-	2270178643	RVB_Cave_Small			\Default Work Unit\Master Audio Bus\RVB_Cave_Small	
-	2669887163	RVB_Zipline			\Default Work Unit\Master Audio Bus\RVB_Zipline	
+	161541955	RVB_Cave_Medium			\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Medium	
+	816626644	RVB_Cavern_Waterfall			\Default Work Unit\Master Audio Bus\SFX\RVB_Cavern_Waterfall	
+	1566008239	RVB_FOREST			\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST	
+	2270178643	RVB_Cave_Small			\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small	
+	2669887163	RVB_Zipline			\Default Work Unit\Master Audio Bus\SFX\RVB_Zipline	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			

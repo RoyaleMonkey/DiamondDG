@@ -47,12 +47,29 @@
 										<PointList>
 											<Point>
 												<XPos>550</XPos>
-												<YPos>-1.41162</YPos>
+												<YPos>0.06227</YPos>
 												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>2776.73861</XPos>
-												<YPos>-200</YPos>
+												<XPos>993.58513</XPos>
+												<YPos>-6.52099</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1343.16547</XPos>
+												<YPos>-9.61988</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1748.56115</XPos>
+												<YPos>-12.0095</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2770.86331</XPos>
+												<YPos>-42.92256</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
@@ -7280,6 +7297,56 @@
 							</ValueList>
 						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{3488B6BC-F480-4C41-91FA-98DA62C308C2}" ShortID="663318153">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C6317A10-C7B5-41F2-8DEC-0BF23C1A67C2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>550</XPos>
+												<YPos>0.06194</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>993.585</XPos>
+												<YPos>-6.521</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1343.165</XPos>
+												<YPos>-9</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1748.561</XPos>
+												<YPos>-12.009</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2776.739</XPos>
+												<YPos>-42.923</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -9586,6 +9653,62 @@
 							<ValueList>
 								<Value>12</Value>
 							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{01996F98-16DA-49CF-8D53-0ECC20C10107}" ShortID="1718212">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}" WorkUnitID="{B48E7D95-47B2-4CB4-BD9A-9DA3271D37F3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{68DA49A4-6700-412C-8750-C19A2DCE4C7E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>550</XPos>
+												<YPos>-0.18848</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>993.585</XPos>
+												<YPos>-6.521</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1343.165</XPos>
+												<YPos>-9</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1748.561</XPos>
+												<YPos>-12</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2477.09832</XPos>
+												<YPos>-16.87959</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2747.3618</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>

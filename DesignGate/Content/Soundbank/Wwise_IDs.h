@@ -86,11 +86,11 @@ namespace AK
         static const AkUniqueID PLAY_MC_SOFT_FALLING = 2685490133U;
         static const AkUniqueID PLAY_MC_STEP = 3531921507U;
         static const AkUniqueID PLAY_MC_TAPS = 3757054751U;
+        static const AkUniqueID PLAY_MUS_CREDIT = 3471391801U;
         static const AkUniqueID PLAY_MUS_DISCOVERY = 3311863392U;
         static const AkUniqueID PLAY_MUS_MENU = 4249884003U;
         static const AkUniqueID PLAY_MUS_WATERFALL = 1494399980U;
         static const AkUniqueID PLAY_MUS_ZELDA_WIN = 179754113U;
-        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_ROYALEMONKEY_LOGO = 1583121471U;
         static const AkUniqueID PLAY_SFX_COLLECTIBLE_BLUE_SPAWN = 1914609227U;
         static const AkUniqueID PLAY_SFX_COLLECTIBLE_BUTERFLIE_ACTIVATED_LP = 3012505424U;
@@ -214,10 +214,12 @@ namespace AK
         static const AkUniqueID PLAY_UI_MENU_SELEC_OUT = 231060866U;
         static const AkUniqueID PLAY_WATERFALL_BLND = 967636871U;
         static const AkUniqueID PLAY_WATERFALL_BLND_VOID = 2095972928U;
+        static const AkUniqueID SET_PAUSE = 2912493720U;
         static const AkUniqueID SET_STATE_DISCOVERY_IN_OUT = 2359598589U;
         static const AkUniqueID SET_STATE_WATERFALL_2ND = 1540999039U;
         static const AkUniqueID SET_STATE_WATERFALL_3RD = 1171744134U;
         static const AkUniqueID SET_STATE_WATERFALL_OUT = 1078101995U;
+        static const AkUniqueID SET_UNPAUSE = 4170605783U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
         static const AkUniqueID STOP_MC_SOFT_FALLING = 4170786443U;
@@ -249,6 +251,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace MENU_PAUSE
+        {
+            static const AkUniqueID GROUP = 2170009975U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PAUSE = 3092587493U;
+                static const AkUniqueID UNPAUSE = 3412868374U;
+            } // namespace STATE
+        } // namespace MENU_PAUSE
+
         namespace MUS_DISCOVERY
         {
             static const AkUniqueID GROUP = 597806937U;
@@ -314,6 +328,7 @@ namespace AK
     {
         static const AkUniqueID DISTANCE = 1240670792U;
         static const AkUniqueID MASTERVOLUME = 2918011349U;
+        static const AkUniqueID MC_CAMERA = 2876994821U;
         static const AkUniqueID MC_FALLING = 33954365U;
         static const AkUniqueID MC_SPEED = 1227053913U;
         static const AkUniqueID MUSICVOLUME = 2346531308U;

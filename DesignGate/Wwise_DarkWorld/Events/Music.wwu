@@ -220,6 +220,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Mus_Credit" ID="{6821B24B-316D-49B1-8D95-4F8E0B22ED8C}">
+					<ChildrenList>
+						<Action Name="" ID="{92C7868E-FA0A-4838-ACCA-E4322EF8CFFA}" ShortID="74570225">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mus_Credit" ID="{BF518972-7D0A-4895-9613-F08B91257694}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Mus_Credit" ID="{7F112E02-0A27-41AD-AD98-59AEEEAF3E42}">
+					<ChildrenList>
+						<Action Name="" ID="{953EE5F4-5DE3-4964-82B6-9215A0E8100C}" ShortID="345376714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mus_Credit" ID="{BF518972-7D0A-4895-9613-F08B91257694}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

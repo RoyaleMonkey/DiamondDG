@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -29,6 +29,10 @@
 			<ShortName>Mus_Waterfall_3rd.wav</ShortName>
 			<Path>SFX\Mus_Waterfall_3rd_0762CC47.wem</Path>
 		</File>
+		<File Id="736382649" Language="SFX">
+			<ShortName>Mus_Credit.wav</ShortName>
+			<Path>SFX\Mus_Credit_0762CC47.wem</Path>
+		</File>
 		<File Id="874064522" Language="SFX">
 			<ShortName>Mus_Waterfall_In.wav</ShortName>
 			<Path>SFX\Mus_Waterfall_In_0762CC47.wem</Path>
@@ -44,7 +48,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3068097551">
+		<SoundBank Id="393239870" Language="SFX" Hash="1314948516">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -3111,7 +3115,7 @@
 				<GameParameter Id="1147290023" Name="VelocityZipline" ObjectPath="\Game Parameters\Default Work Unit\VelocityZipline"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX" Hash="191091199">
+		<SoundBank Id="1075435911" Language="SFX" Hash="3085892223">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -3351,6 +3355,16 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="179754113" Name="Play_Mus_Zelda_Win" ObjectPath="\Events\Default Work Unit\Music\Play_Mus_Zelda_Win"/>
+				<Event Id="2912493720" Name="Set_Pause" ObjectPath="\Events\Default Work Unit\States\Set_Pause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4170605783" Name="Set_Unpause" ObjectPath="\Events\Default Work Unit\States\Set_Unpause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="4179124425" Name="Stop_Mus_Back_Menu" ObjectPath="\Events\Default Work Unit\Music\Stop_Mus_Back_Menu" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -3450,8 +3464,16 @@
 					<Path>SFX\Flute_Zelda_GDS_End_D8C07C79.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="1577219493">
+		<SoundBank Id="1167860281" Language="SFX" Hash="1230972005">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -4326,7 +4348,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4049287664">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3178014392">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -4342,11 +4364,19 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="50139617">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1631360202">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3471391801" Name="Play_Mus_Credit" ObjectPath="\Events\Default Work Unit\Music\Play_Mus_Credit">
+					<ReferencedStreamedFiles>
+						<File Id="736382649" Language="SFX">
+							<ShortName>Mus_Credit.wav</ShortName>
+							<Path>SFX\Mus_Credit_0762CC47.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
 				<Event Id="3311863392" Name="Play_Mus_Discovery" ObjectPath="\Events\Default Work Unit\Music\Mus_Discovery\Play_Mus_Discovery">
 					<IncludedMemoryFiles>
 						<File Id="261559977" Language="SFX">
@@ -4433,6 +4463,11 @@
 						<ActionSetStateEntry Id="2536640561" Name="Waterfall_In" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_In"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="2912493720" Name="Set_Pause" ObjectPath="\Events\Default Work Unit\States\Set_Pause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="2359598589" Name="Set_State_Discovery_In_Out" ObjectPath="\Events\Default Work Unit\Music\Mus_Discovery\Set_State_Discovery_In_Out" MaxAttenuation="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1301698044" Name="Discovery_In_Out" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In_Out"/>
@@ -4453,13 +4488,20 @@
 						<ActionSetStateEntry Id="701165264" Name="Waterfall_Out" ObjectPath="\States\Default Work Unit\Mus_Waterfall\Waterfall_Out"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="4170605783" Name="Set_Unpause" ObjectPath="\Events\Default Work Unit\States\Set_Unpause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="4179124425" Name="Stop_Mus_Back_Menu" ObjectPath="\Events\Default Work Unit\Music\Stop_Mus_Back_Menu" MaxAttenuation="0.000000"/>
 				<Event Id="3867830866" Name="Stop_Mus_Waterfall" ObjectPath="\Events\Default Work Unit\Music\Mus_Waterfall\Stop_Mus_Waterfall" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="170212341"/>
 				<File Id="409174316"/>
+				<File Id="653775956"/>
 				<File Id="711199377"/>
+				<File Id="736382649"/>
 				<File Id="874064522"/>
 				<File Id="1014553215"/>
 			</ReferencedStreamedFiles>
@@ -4508,9 +4550,15 @@
 				<StateGroup Id="2668247669" Name="Discovery_In" ObjectPath="\States\Default Work Unit\Mus_Discovery\Discovery_In">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause">
+					<States/>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1065815963">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1661829502">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -7526,7 +7574,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
 				<Event Id="1583121471" Name="Play_RoyaleMonkey_Logo" ObjectPath="\Events\Default Work Unit\UI\Play_RoyaleMonkey_Logo">
 					<IncludedMemoryFiles>
 						<File Id="425398019" Language="SFX">
@@ -9230,6 +9277,7 @@
 				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
 				<GameParameter Id="1985131783" Name="SoundEffectVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectVolume"/>
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
+				<GameParameter Id="2876994821" Name="MC_Camera" ObjectPath="\Game Parameters\Default Work Unit\MC_Camera"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3043323106" Name="MC_MvtState" ObjectPath="\Switches\Default Work Unit\MC_MvtState">

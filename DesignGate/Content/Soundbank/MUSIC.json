@@ -15,11 +15,16 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "1537064676",
+    "Hash": "835155107",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3471391801",
+      "Name": "Play_Mus_Credit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Credit"
+     },
      {
       "Id": "3311863392",
       "Name": "Play_Mus_Discovery",
@@ -31,6 +36,11 @@
         "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In"
        }
       ]
+     },
+     {
+      "Id": "4249884003",
+      "Name": "Play_Mus_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Menu"
      },
      {
       "Id": "1494399980",
@@ -45,9 +55,41 @@
       ]
      },
      {
+      "Id": "2912493720",
+      "Name": "Set_Pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Pause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause"
+       }
+      ]
+     },
+     {
+      "Id": "4170605783",
+      "Name": "Set_Unpause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Unpause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3412868374",
+        "Name": "Unpause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause"
+       }
+      ]
+     },
+     {
       "Id": "4179124425",
       "Name": "Stop_Mus_Back_Menu",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Back_Menu",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "884093183",
+      "Name": "Stop_Mus_Credit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Credit",
       "MaxAttenuation": "0.000000"
      },
      {
@@ -71,10 +113,22 @@
       "Path": "SFX\\Mus_Waterfall_Out_0762CC47.wem"
      },
      {
+      "Id": "653775956",
+      "Language": "SFX",
+      "ShortName": "Mus_Menu.wav",
+      "Path": "SFX\\Mus_Menu_0762CC47.wem"
+     },
+     {
       "Id": "711199377",
       "Language": "SFX",
       "ShortName": "Mus_Waterfall_3rd.wav",
       "Path": "SFX\\Mus_Waterfall_3rd_0762CC47.wem"
+     },
+     {
+      "Id": "736382649",
+      "Language": "SFX",
+      "ShortName": "Mus_Credit.wav",
+      "Path": "SFX\\Mus_Credit_0762CC47.wem"
      },
      {
       "Id": "874064522",
@@ -168,6 +222,18 @@
       "Id": "2668247669",
       "Name": "Discovery_In",
       "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In",
+      "States": []
+     },
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause",
+      "States": []
+     },
+     {
+      "Id": "3412868374",
+      "Name": "Unpause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause",
       "States": []
      }
     ]

@@ -41,6 +41,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	4054995221	Play_SFX_GPE_Melody_Note2_Int1_End			\Default Work Unit\FLUTE\SFX_GPE_Melody\SFX_GPE_Melody_Note2\Play_SFX_GPE_Melody_Note2_Int1_End	
 	4214291931	Flute_F_Start			\Default Work Unit\FLUTE\Flute_Note\Flute_F_Start	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2170009975	Menu_Pause			\Default Work Unit\Menu_Pause	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menu_Pause			
+	3092587493	Pause	Menu_Pause			
+	3412868374	Unpause	Menu_Pause			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	23918623	Pause	Menu_Pause	\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\Flute_Melody		
+	639743284	Pause	Menu_Pause	\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\MC_Flute_Note		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9462856	Flt_G_Main_Start	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Flt_G_Main_Start_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\MC_Flute_Note\G\Flute_G_Start\Flute_G_Main_Start\Flt_G_Main_Start		70895
 	9877435	Flt_DD_Layer_Loop	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Flt_D#_Layer_Loop_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\FLUTE\MC_Flute_Note\DS\Flute_DS_Loop\Flute_DS_Layer_Loop\Flt_DD_Layer_Loop		123109

@@ -124,6 +124,10 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}"/>
+							<Value>600</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="MasterVolume" ID="{AC7B4B71-4F90-47FC-B913-4654D108F56F}"/>
 							<Value>50</Value>
 						</RTPCValue>
@@ -148,7 +152,9 @@
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{76EF865F-5348-47DC-98B0-AECEBCDD107B}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{2F403FEB-15CE-442C-A6BA-006C2BDECC7E}"/>
 						<CurrentSwitchRef Name="Jump" ID="{1CE1BF98-2832-419E-847E-B6EFA0044C62}"/>
@@ -265,6 +271,69 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Waterfall_In" ID="{8F795C4F-0C59-4FC4-8CA4-A12A7FB9C51C}"/>
+						<CurrentStateRef Name="Discovery_In" ID="{0DA84E63-99AD-4D0E-ACC7-5FEC761B974C}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{2F403FEB-15CE-442C-A6BA-006C2BDECC7E}"/>
+						<CurrentSwitchRef Name="Jump" ID="{1CE1BF98-2832-419E-847E-B6EFA0044C62}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SC_State" ID="{1E242675-F736-4FA0-B937-26940E51FE99}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Set_Pause" ID="{65E2B7FE-80FA-4697-B8F0-AFB200002C12}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_Unpause" ID="{A412E1E0-1F25-446A-BA1C-370024652C4A}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Amb_Birds_RFX" ID="{1B08CCB5-E01B-4C6A-B576-8610AFCAEAA1}" WorkUnitID="{E5482311-EA18-40DD-A277-B2AA53354992}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Mus_Discovery" ID="{0D1438D8-171C-4F62-BCD3-74A633E4B9EE}" WorkUnitID="{220FA83D-3B11-472C-9A3F-759F19B9DDB0}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{CF86ACDA-065D-4621-9788-1BE866EF64CF}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MC_Camera" ID="{5ABD8AAB-3C29-4647-BB5A-51E3BC2A0D29}"/>
+							<Value>600</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{AC7B4B71-4F90-47FC-B913-4654D108F56F}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MC_Speed" ID="{D0915ADA-C332-48B2-B976-B0F0003A8577}"/>
+							<Value>8.33438055082695E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MC_Falling" ID="{2DD0862C-5627-49A2-AAAF-7CC53BDB7BDB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VelocityZipline" ID="{A44580EA-30CA-4A64-BCB6-616F663B66DC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{31A69514-E96D-4A71-9706-330088372C3E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SoundEffectVolume" ID="{476CA907-FF94-4D5B-93AF-5F996827F6EF}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Waterfall_2nd" ID="{0CF251E6-DAD5-4769-9AB3-105921E02D3F}"/>
+						<CurrentStateRef Name="Pause" ID="{E5FB312C-3E60-4907-8717-B8F750048453}"/>
 						<CurrentStateRef Name="Discovery_In" ID="{0DA84E63-99AD-4D0E-ACC7-5FEC761B974C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

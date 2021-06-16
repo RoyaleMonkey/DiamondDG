@@ -564,6 +564,28 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Menu_Pause" ID="{41F33F3B-FEDA-4618-B736-2202248D8ED2}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Pause" ID="{E5FB312C-3E60-4907-8717-B8F750048453}"/>
+								<CustomState Name="" ID="{42264F66-1AF9-4803-BEF1-72CB2601F3A3}" ShortID="426620628">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="40"/>
+										<Property Name="Volume" Type="Real64" Value="-8"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Unpause" ID="{1D5D6ECD-16DF-4C1E-82C7-DC40C17BBAA0}"/>
+								<CustomState Name="" ID="{17328F65-9BE1-41FF-BD98-F30E6E9CC5A7}" ShortID="561272870"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

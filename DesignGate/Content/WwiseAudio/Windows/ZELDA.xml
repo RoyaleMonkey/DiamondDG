@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1075435911" Language="SFX" Hash="191091199">
+		<SoundBank Id="1075435911" Language="SFX" Hash="3085892223">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -248,6 +248,16 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="179754113" Name="Play_Mus_Zelda_Win" ObjectPath="\Events\Default Work Unit\Music\Play_Mus_Zelda_Win"/>
+				<Event Id="2912493720" Name="Set_Pause" ObjectPath="\Events\Default Work Unit\States\Set_Pause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4170605783" Name="Set_Unpause" ObjectPath="\Events\Default Work Unit\States\Set_Unpause" MaxAttenuation="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="4179124425" Name="Stop_Mus_Back_Menu" ObjectPath="\Events\Default Work Unit\Music\Stop_Mus_Back_Menu" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -350,6 +360,14 @@
 					<Path>SFX\Flute_Zelda_GDS_End_D8C07C79.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Menu_Pause\Pause">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

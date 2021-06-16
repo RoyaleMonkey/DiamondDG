@@ -6333,36 +6333,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_GPE_Catapulte_Woosh" ID="{92D60BCD-3DFC-4F75-8D2D-F3D36EB6CF40}" ShortID="704508782">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{D0C9BD31-F788-48B7-8F40-18AA1E812F75}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="35"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
-										</Reference>
-									</ReferenceList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_GPE_Catapulte_Loop" ID="{1EBA3D56-359E-474E-A1D3-4B4595970ABE}" ShortID="494038470">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -8950,6 +8920,28 @@
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Menu_Pause" ID="{41F33F3B-FEDA-4618-B736-2202248D8ED2}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Pause" ID="{E5FB312C-3E60-4907-8717-B8F750048453}"/>
+								<CustomState Name="" ID="{6AC08EA0-274C-4E7D-9C37-18F395E714C6}" ShortID="328768950">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="40"/>
+										<Property Name="Volume" Type="Real64" Value="-8"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Unpause" ID="{1D5D6ECD-16DF-4C1E-82C7-DC40C17BBAA0}"/>
+								<CustomState Name="" ID="{43757811-A386-45FE-A16B-17C6168E284A}" ShortID="487078745"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 				<ActorMixer Name="SFX_LE" ID="{FC2CFB04-C07D-475E-9028-8501E8496117}" ShortID="847968385">
 					<ReferenceList>
@@ -10005,6 +9997,28 @@
 							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Menu_Pause" ID="{41F33F3B-FEDA-4618-B736-2202248D8ED2}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Pause" ID="{E5FB312C-3E60-4907-8717-B8F750048453}"/>
+								<CustomState Name="" ID="{83FFDAA4-32E0-4628-815E-47923EFA97F2}" ShortID="923515405">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="40"/>
+										<Property Name="Volume" Type="Real64" Value="-8"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Unpause" ID="{1D5D6ECD-16DF-4C1E-82C7-DC40C17BBAA0}"/>
+								<CustomState Name="" ID="{A9815D40-9BF4-48C8-81FA-7759C0428842}" ShortID="491862063"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

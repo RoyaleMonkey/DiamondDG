@@ -11,10 +11,23 @@ Event	ID	Name			Wwise Object Path	Notes
 	1910747961	Play_Flute_Zelda_C_End			\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_C_End	
 	1949017518	Play_Flute_Zelda_GDS_In			\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_In	
 	2396251546	Play_Flute_Zelda_GDS_End			\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_GDS_End	
+	2912493720	Set_Pause			\Default Work Unit\States\Set_Pause	
 	3001275592	Play_Flute_Zelda_F_In			\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_F_In	
 	3633558899	Play_Flute_Zelda_End			\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Event\Play_Flute_Zelda_End	
+	4170605783	Set_Unpause			\Default Work Unit\States\Set_Unpause	
 	4179124425	Stop_Mus_Back_Menu			\Default Work Unit\Music\Stop_Mus_Back_Menu	
 	4197336763	Play_Flute_Zelda_C_In			\Default Work Unit\FLUTE\Flute_Zelda\Flute_Zelda_Note\Play_Flute_Zelda_C_In	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2170009975	Menu_Pause			\Default Work Unit\Menu_Pause	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menu_Pause			
+	3092587493	Pause	Menu_Pause			
+	3412868374	Unpause	Menu_Pause			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	426620628	Pause	Menu_Pause	\Actor-Mixer Hierarchy\Default Work Unit\Zelda\Flute_Zelda		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	129762258	Flute_Zelda_F_End	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Flute_Zelda_F_End_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Zelda\Flute_Zelda\Flute_Zelda_F_End		51088

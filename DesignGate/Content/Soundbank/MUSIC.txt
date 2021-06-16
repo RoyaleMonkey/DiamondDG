@@ -1,8 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
+	884093183	Stop_Mus_Credit			\Default Work Unit\Music\Stop_Mus_Credit	
 	1494399980	Play_Mus_Waterfall			\Default Work Unit\Music\Mus_Waterfall\Play_Mus_Waterfall	
+	2912493720	Set_Pause			\Default Work Unit\States\Set_Pause	
 	3311863392	Play_Mus_Discovery			\Default Work Unit\Music\Mus_Discovery\Play_Mus_Discovery	
+	3471391801	Play_Mus_Credit			\Default Work Unit\Music\Play_Mus_Credit	
 	3867830866	Stop_Mus_Waterfall			\Default Work Unit\Music\Mus_Waterfall\Stop_Mus_Waterfall	
+	4170605783	Set_Unpause			\Default Work Unit\States\Set_Unpause	
 	4179124425	Stop_Mus_Back_Menu			\Default Work Unit\Music\Stop_Mus_Back_Menu	
+	4249884003	Play_Mus_Menu			\Default Work Unit\Music\Play_Mus_Menu	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	597806937	Mus_Discovery			\Default Work Unit\Mus_Discovery	
@@ -25,7 +30,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	170212341	Mus_Waterfall_ Fx	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Mus_Waterfall_ Fx_0762CC47.wem	170212341.wem	\Interactive Music Hierarchy\Default Work Unit\Mus_Waterfall\Mus_Waterfall_Out\Mus_Waterfall_Out\Mus_Waterfall_ Fx	
 	409174316	Mus_Waterfall_Out	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Mus_Waterfall_Out_0762CC47.wem	409174316.wem	\Interactive Music Hierarchy\Default Work Unit\Mus_Waterfall\Mus_Waterfall_Out\Mus_Waterfall_Out\Mus_Waterfall_Out	
+	653775956	Mus_Menu	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Mus_Menu_0762CC47.wem	653775956.wem	\Interactive Music Hierarchy\Default Work Unit\Mus_Menu\Mus_Menu\Mus_Menu	
 	711199377	Mus_Waterfall_3rd	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Mus_Waterfall_3rd_0762CC47.wem	711199377.wem	\Interactive Music Hierarchy\Default Work Unit\Mus_Waterfall\Mus_Waterfall_3rd\Mus_Waterfall_3rd\Mus_Waterfall_3rd	
+	736382649	Mus_Credit	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Mus_Credit_0762CC47.wem	736382649.wem	\Interactive Music Hierarchy\Default Work Unit\Mus_Credit\Mus_Credit	
 	874064522	Mus_Waterfall_In	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Mus_Waterfall_In_0762CC47.wem	874064522.wem	\Interactive Music Hierarchy\Default Work Unit\Mus_Waterfall\Mus_Waterfall_In\Mus_Waterfall_In\Mus_Waterfall_In	
 	1014553215	Mus_Waterfall_2nd	S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\SFX\Mus_Waterfall_2nd_0762CC47.wem	1014553215.wem	\Interactive Music Hierarchy\Default Work Unit\Mus_Waterfall\Mus_Waterfall_2nd\Mus_Waterfall_2nd\Mus_Waterfall_2nd	
 

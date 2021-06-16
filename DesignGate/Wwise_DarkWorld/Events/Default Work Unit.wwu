@@ -521,18 +521,263 @@
 				</Folder>
 				<WorkUnit Name="Amb_Tonal" ID="{7F4CAAA8-255D-499C-8817-85C87460AED2}" PersistMode="Reference"/>
 				<WorkUnit Name="Music" ID="{220FA83D-3B11-472C-9A3F-759F19B9DDB0}" PersistMode="Reference"/>
-				<Event Name="Play_Music" ID="{87CE6147-FC28-4A11-8838-1E9E26EE2DC1}">
-					<ChildrenList>
-						<Action Name="" ID="{92A55B46-1BAB-45D5-9B40-5B76797A67BE}" ShortID="257093476">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test" ID="{2ED46CC0-480A-4BD2-B776-671A29BB8102}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<WorkUnit Name="UI" ID="{B490E192-E9F4-4F09-A14B-D0D86D6A90EA}" PersistMode="Reference"/>
+				<Folder Name="States" ID="{5ADB8AC7-E8BA-47C8-8825-18BC5F4671DD}" ShortID="680666384">
+					<ChildrenList>
+						<Event Name="Set_Unpause" ID="{A412E1E0-1F25-446A-BA1C-370024652C4A}">
+							<ChildrenList>
+								<Action Name="" ID="{C392D176-761E-464D-9901-B7D7C5D91881}" ShortID="367246240">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Unpause" ID="{1D5D6ECD-16DF-4C1E-82C7-DC40C17BBAA0}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{775F507A-01D0-43E4-9654-5B62F0F09ABC}" ShortID="541288341">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Discovery" ID="{79222EEA-35A6-4667-88C2-B581383383A5}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{127E7A84-8CC8-4B66-A958-22ABD8B431B7}" ShortID="237312169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7E16FA2E-E12E-4ECD-B4D2-0905C48C49F1}" ShortID="199452388">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Menu" ID="{DA8C90DD-4C29-4434-8B85-CFD6F2C3A637}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0371AB86-9BB9-46D8-8E6C-5F174E02660C}" ShortID="869659710">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Zelda_Win" ID="{E772CD89-66B3-4E7A-89C5-C82DF27EAB15}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{95399470-B78D-4A6D-A6A6-176BA3C11DC7}" ShortID="574274960">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Menu" ID="{DA8C90DD-4C29-4434-8B85-CFD6F2C3A637}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FFCFF50B-D7E9-4030-ABD3-35AE9F3F9919}" ShortID="562343923">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Zelda_Win" ID="{E772CD89-66B3-4E7A-89C5-C82DF27EAB15}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{044F6635-2FD9-4283-9DDE-E391F5286F11}" ShortID="639145595">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0E958B60-02BB-47E3-B3A8-3F31583D431B}" ShortID="614005253">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Discovery" ID="{79222EEA-35A6-4667-88C2-B581383383A5}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Pause" ID="{65E2B7FE-80FA-4697-B8F0-AFB200002C12}">
+							<ChildrenList>
+								<Action Name="" ID="{4EC990FF-7251-459F-A979-540BE26CD887}" ShortID="94617236">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pause" ID="{E5FB312C-3E60-4907-8717-B8F750048453}" WorkUnitID="{FDCD953B-B8D6-4716-81B5-26FB40C5D055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8193FF63-0EF9-450E-8FE2-9B8E5A8C2AEA}" ShortID="1044155790">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Discovery" ID="{79222EEA-35A6-4667-88C2-B581383383A5}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A2790A6D-93C6-459C-8F48-6F7B8974DE5D}" ShortID="930070466">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C3446248-7E47-46D7-9022-271C4B6DC20B}" ShortID="715970032">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Menu" ID="{DA8C90DD-4C29-4434-8B85-CFD6F2C3A637}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E38ECCD6-A039-4910-B48F-820790BF8651}" ShortID="189208283">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Zelda_Win" ID="{E772CD89-66B3-4E7A-89C5-C82DF27EAB15}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{569C5D90-9226-41F8-85DC-85A6E0C16CA5}" ShortID="281862112">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Zelda_Win" ID="{E772CD89-66B3-4E7A-89C5-C82DF27EAB15}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{693CD6A0-C43C-48ED-9EDB-0F845EA00B58}" ShortID="327018547">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Waterfall" ID="{D13914C0-BD63-4463-B152-A6CCF479F917}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F31FC3F7-28FD-4965-96F2-201AA7874193}" ShortID="422587637">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Discovery" ID="{79222EEA-35A6-4667-88C2-B581383383A5}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BE289239-042B-4F40-B324-4B3CE6010F4E}" ShortID="636293695">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Menu" ID="{DA8C90DD-4C29-4434-8B85-CFD6F2C3A637}" WorkUnitID="{59514B60-1D06-4D5B-9B27-9A6C5E8E8016}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

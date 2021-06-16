@@ -9997,6 +9997,28 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Menu_Pause" ID="{41F33F3B-FEDA-4618-B736-2202248D8ED2}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Pause" ID="{E5FB312C-3E60-4907-8717-B8F750048453}"/>
+								<CustomState Name="" ID="{91345CAD-6C6D-4A48-952F-4BF26D5F61AB}" ShortID="355619333">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="40"/>
+										<Property Name="Volume" Type="Real64" Value="-8"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Unpause" ID="{1D5D6ECD-16DF-4C1E-82C7-DC40C17BBAA0}"/>
+								<CustomState Name="" ID="{E361E558-1F28-4A63-8CCA-59A7331BD6B0}" ShortID="701461978"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -32,10 +32,22 @@
     "Path": "SFX\\Mus_Waterfall_Out_0762CC47.wem"
    },
    {
+    "Id": "653775956",
+    "Language": "SFX",
+    "ShortName": "Mus_Menu.wav",
+    "Path": "SFX\\Mus_Menu_0762CC47.wem"
+   },
+   {
     "Id": "711199377",
     "Language": "SFX",
     "ShortName": "Mus_Waterfall_3rd.wav",
     "Path": "SFX\\Mus_Waterfall_3rd_0762CC47.wem"
+   },
+   {
+    "Id": "736382649",
+    "Language": "SFX",
+    "ShortName": "Mus_Credit.wav",
+    "Path": "SFX\\Mus_Credit_0762CC47.wem"
    },
    {
     "Id": "874064522",
@@ -61,7 +73,7 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3946743974",
+    "Hash": "733587470",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -4777,6 +4789,7 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
+    "Hash": "3558886846",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -4855,6 +4868,32 @@
       "Id": "179754113",
       "Name": "Play_Mus_Zelda_Win",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Zelda_Win"
+     },
+     {
+      "Id": "2912493720",
+      "Name": "Set_Pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Pause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause"
+       }
+      ]
+     },
+     {
+      "Id": "4170605783",
+      "Name": "Set_Unpause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Unpause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3412868374",
+        "Name": "Unpause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause"
+       }
+      ]
      },
      {
       "Id": "4179124425",
@@ -5007,11 +5046,26 @@
       "ShortName": "Flute_Zelda_GDS_End.wav",
       "Path": "SFX\\Flute_Zelda_GDS_End_D8C07C79.wem"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause",
+      "States": []
+     },
+     {
+      "Id": "3412868374",
+      "Name": "Unpause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause",
+      "States": []
+     }
     ]
    },
    {
     "Id": "1167860281",
     "Language": "SFX",
+    "Hash": "3905899802",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -5840,7 +5894,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "4049287664",
+    "Hash": "3178014392",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -5887,10 +5941,16 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
+    "Hash": "835155107",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3471391801",
+      "Name": "Play_Mus_Credit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Credit"
+     },
      {
       "Id": "3311863392",
       "Name": "Play_Mus_Discovery",
@@ -5902,6 +5962,11 @@
         "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In"
        }
       ]
+     },
+     {
+      "Id": "4249884003",
+      "Name": "Play_Mus_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Menu"
      },
      {
       "Id": "1494399980",
@@ -5916,9 +5981,41 @@
       ]
      },
      {
+      "Id": "2912493720",
+      "Name": "Set_Pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Pause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause"
+       }
+      ]
+     },
+     {
+      "Id": "4170605783",
+      "Name": "Set_Unpause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Unpause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3412868374",
+        "Name": "Unpause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause"
+       }
+      ]
+     },
+     {
       "Id": "4179124425",
       "Name": "Stop_Mus_Back_Menu",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Back_Menu",
+      "MaxAttenuation": "0.000000"
+     },
+     {
+      "Id": "884093183",
+      "Name": "Stop_Mus_Credit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Credit",
       "MaxAttenuation": "0.000000"
      },
      {
@@ -5936,7 +6033,13 @@
       "Id": "409174316"
      },
      {
+      "Id": "653775956"
+     },
+     {
       "Id": "711199377"
+     },
+     {
+      "Id": "736382649"
      },
      {
       "Id": "874064522"
@@ -6025,13 +6128,25 @@
       "Name": "Discovery_In",
       "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In",
       "States": []
+     },
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause",
+      "States": []
+     },
+     {
+      "Id": "3412868374",
+      "Name": "Unpause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause",
+      "States": []
      }
     ]
    },
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "4102847943",
+    "Hash": "847606669",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -9203,6 +9318,11 @@
       "Id": "2346531308",
       "Name": "MusicVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume"
+     },
+     {
+      "Id": "2876994821",
+      "Name": "MC_Camera",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MC_Camera"
      }
     ],
     "SwitchGroups": [

@@ -5,21 +5,34 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "50139617",
+    "Hash": "1631360202",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3471391801",
+      "Name": "Play_Mus_Credit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mus_Credit",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "736382649",
+        "Language": "SFX",
+        "ShortName": "Mus_Credit.wav",
+        "Path": "SFX\\Mus_Credit_0762CC47.wem"
+       }
+      ]
+     },
      {
       "Id": "3311863392",
       "Name": "Play_Mus_Discovery",
@@ -162,6 +175,19 @@
       ]
      },
      {
+      "Id": "2912493720",
+      "Name": "Set_Pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Pause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause"
+       }
+      ]
+     },
+     {
       "Id": "2359598589",
       "Name": "Set_State_Discovery_In_Out",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Discovery\\Set_State_Discovery_In_Out",
@@ -214,6 +240,19 @@
       ]
      },
      {
+      "Id": "4170605783",
+      "Name": "Set_Unpause",
+      "ObjectPath": "\\Events\\Default Work Unit\\States\\Set_Unpause",
+      "MaxAttenuation": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "3412868374",
+        "Name": "Unpause",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause"
+       }
+      ]
+     },
+     {
       "Id": "4179124425",
       "Name": "Stop_Mus_Back_Menu",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Mus_Back_Menu",
@@ -240,10 +279,22 @@
       "Path": "SFX\\Mus_Waterfall_Out_0762CC47.wem"
      },
      {
+      "Id": "653775956",
+      "Language": "SFX",
+      "ShortName": "Mus_Menu.wav",
+      "Path": "SFX\\Mus_Menu_0762CC47.wem"
+     },
+     {
       "Id": "711199377",
       "Language": "SFX",
       "ShortName": "Mus_Waterfall_3rd.wav",
       "Path": "SFX\\Mus_Waterfall_3rd_0762CC47.wem"
+     },
+     {
+      "Id": "736382649",
+      "Language": "SFX",
+      "ShortName": "Mus_Credit.wav",
+      "Path": "SFX\\Mus_Credit_0762CC47.wem"
      },
      {
       "Id": "874064522",
@@ -361,6 +412,18 @@
       "Id": "2668247669",
       "Name": "Discovery_In",
       "ObjectPath": "\\States\\Default Work Unit\\Mus_Discovery\\Discovery_In",
+      "States": []
+     },
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Pause",
+      "States": []
+     },
+     {
+      "Id": "3412868374",
+      "Name": "Unpause",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause",
       "States": []
      }
     ]

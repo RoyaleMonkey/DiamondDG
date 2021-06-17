@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "896698588",
+    "Hash": "1683689303",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -3292,16 +3292,66 @@
         "Path": "SFX\\AMB_Whale_Dive_In_D8C07C79.wem"
        },
        {
-        "Id": "568383572",
-        "Language": "SFX",
-        "ShortName": "AMB_Whale_WaterBlow.wav",
-        "Path": "SFX\\AMB_Whale_WaterBlow_D8C07C79.wem"
-       },
-       {
         "Id": "627719488",
         "Language": "SFX",
         "ShortName": "AMB_Whale_Sing.wav",
         "Path": "SFX\\AMB_Whale_Sing_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3270877144",
+      "Name": "Play_SFX_LE_Whale_Water_Blow",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_SFX_LE_Whale_Water_Blow",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "568383572",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_WaterBlow.wav",
+        "Path": "SFX\\AMB_Whale_WaterBlow_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3733259300",
+      "Name": "Play_SFX_LE_Whale_Wings",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_SFX_LE_Whale_Wings",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "83363388",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Wing_1.wav",
+        "Path": "SFX\\AMB_Whale_Wing_1_D8C07C79.wem"
+       },
+       {
+        "Id": "300014115",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Wing_6.wav",
+        "Path": "SFX\\AMB_Whale_Wing_6_D8C07C79.wem"
+       },
+       {
+        "Id": "651020931",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Wing_2.wav",
+        "Path": "SFX\\AMB_Whale_Wing_2_D8C07C79.wem"
+       },
+       {
+        "Id": "853314946",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Wing_5.wav",
+        "Path": "SFX\\AMB_Whale_Wing_5_D8C07C79.wem"
+       },
+       {
+        "Id": "870686688",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Wing_4.wav",
+        "Path": "SFX\\AMB_Whale_Wing_4_D8C07C79.wem"
+       },
+       {
+        "Id": "1071421019",
+        "Language": "SFX",
+        "ShortName": "AMB_Whale_Wing_3.wav",
+        "Path": "SFX\\AMB_Whale_Wing_3_D8C07C79.wem"
        }
       ]
      },

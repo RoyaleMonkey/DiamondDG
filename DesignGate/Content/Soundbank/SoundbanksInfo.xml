@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\Soundbank\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\Soundbank\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -48,7 +48,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3401739049">
+		<SoundBank Id="393239870" Language="SFX" Hash="915274459">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -2000,6 +2000,8 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="901061857" Name="Play_SFX_LE_Whale_Seq" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Whale_Seq"/>
+				<Event Id="3270877144" Name="Play_SFX_LE_Whale_Water_Blow" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Whale_Water_Blow"/>
+				<Event Id="3733259300" Name="Play_SFX_LE_Whale_Wings" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Whale_Wings"/>
 				<Event Id="1396017883" Name="Play_SFX_Statue_Destruction_1" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_1"/>
 				<Event Id="1396017880" Name="Play_SFX_Statue_Destruction_2" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_2"/>
 				<Event Id="1396017881" Name="Play_SFX_Statue_Destruction_3" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_3"/>
@@ -3107,7 +3109,7 @@
 				<GameParameter Id="3518473146" Name="Emissive_Distance" ObjectPath="\Game Parameters\Default Work Unit\Emissive_Distance"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1075435911" Language="SFX" Hash="2888939567">
+		<SoundBank Id="1075435911" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\ZELDA</ObjectPath>
 			<ShortName>ZELDA</ShortName>
 			<Path>ZELDA.bnk</Path>
@@ -3245,7 +3247,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1167860281" Language="SFX" Hash="2389064719">
+		<SoundBank Id="1167860281" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\FLUTE</ObjectPath>
 			<ShortName>FLUTE</ShortName>
 			<Path>FLUTE.bnk</Path>
@@ -3720,7 +3722,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="23935842">
+		<SoundBank Id="3991942870" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -3801,7 +3803,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="514854950">
+		<SoundBank Id="4056684167" Language="SFX" Hash="4093146349">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>

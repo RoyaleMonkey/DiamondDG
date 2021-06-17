@@ -15,7 +15,7 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "443426733",
+    "Hash": "2011403727",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -318,6 +318,11 @@
         "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
        }
       ]
+     },
+     {
+      "Id": "397786088",
+      "Name": "Play_AMB_Collectible_Blue_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn"
      },
      {
       "Id": "2982907204",
@@ -5112,6 +5117,12 @@
         "ObjectPath": "\\States\\Default Work Unit\\Menu_Pause\\Unpause"
        }
       ]
+     },
+     {
+      "Id": "3746312350",
+      "Name": "Stop_AMB_Collectible_Blue_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Stop_AMB_Collectible_Blue_Spawn",
+      "MaxAttenuation": "0.000000"
      },
      {
       "Id": "3516178482",

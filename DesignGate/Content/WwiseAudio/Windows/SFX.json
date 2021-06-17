@@ -15,11 +15,16 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3103708900",
+    "Hash": "690641490",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "397786088",
+      "Name": "Play_AMB_Collectible_Blue_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn"
+     },
      {
       "Id": "3488501086",
       "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
@@ -3355,6 +3360,12 @@
         "Path": "SFX\\SFX_LE_Waterfall_close_LP_D8C07C79.wem"
        }
       ]
+     },
+     {
+      "Id": "3746312350",
+      "Name": "Stop_AMB_Collectible_Blue_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Stop_AMB_Collectible_Blue_Spawn",
+      "MaxAttenuation": "0.000000"
      },
      {
       "Id": "1229862554",

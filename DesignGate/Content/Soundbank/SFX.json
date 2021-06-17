@@ -15,11 +15,16 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3535405377",
+    "Hash": "2053992111",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "397786088",
+      "Name": "Play_AMB_Collectible_Blue_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn"
+     },
      {
       "Id": "2488731060",
       "Name": "Play_Ending_WaterFall",
@@ -3154,6 +3159,12 @@
       "Name": "Play_Waterfall_blnd_Void",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Waterfall_blnd_Void",
       "MaxAttenuation": "12500.000000"
+     },
+     {
+      "Id": "3746312350",
+      "Name": "Stop_AMB_Collectible_Blue_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Stop_AMB_Collectible_Blue_Spawn",
+      "MaxAttenuation": "0.000000"
      },
      {
       "Id": "1229862554",

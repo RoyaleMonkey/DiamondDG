@@ -8,11 +8,12 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3535405377">
+		<SoundBank Id="393239870" Language="SFX" Hash="2053992111">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="397786088" Name="Play_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_AMB_Collectible_Blue_Spawn"/>
 				<Event Id="2488731060" Name="Play_Ending_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Ending_WaterFall" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
 						<File Id="360954238" Language="SFX">
@@ -1976,6 +1977,7 @@
 				</Event>
 				<Event Id="1176979258" Name="Play_Waterfall_blnd_Cavern_Big" ObjectPath="\Events\Default Work Unit\AMB\Play_Waterfall_blnd_Cavern_Big" MaxAttenuation="13000.000000"/>
 				<Event Id="2095972928" Name="Play_Waterfall_blnd_Void" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd_Void" MaxAttenuation="12500.000000"/>
+				<Event Id="3746312350" Name="Stop_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Stop_AMB_Collectible_Blue_Spawn" MaxAttenuation="0.000000"/>
 				<Event Id="1229862554" Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Purple\Stop_SFX_Collectible_Buterflie_Activated_LP" MaxAttenuation="0.000000"/>
 				<Event Id="3416508261" Name="Stop_SFX_Collectible_Green_Feather_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Green\Stop_SFX_Collectible_Green_Feather_LP" MaxAttenuation="0.000000"/>
 				<Event Id="3102446207" Name="Stop_SFX_GPE_Catapulte_Loop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Stop_SFX_GPE_Catapulte_Loop" MaxAttenuation="0.000000"/>

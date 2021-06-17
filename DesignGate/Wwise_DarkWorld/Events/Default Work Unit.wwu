@@ -491,6 +491,48 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_AMB_Collectible_Blue_Spawn" ID="{FD598908-987B-4531-AD8C-E3ECDC07FC33}">
+											<ChildrenList>
+												<Action Name="" ID="{A00DB281-7D98-471A-A944-F21628FE083B}" ShortID="611561547">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{EE0FA3A5-AA14-485E-9ECB-97188F5903BA}" ShortID="911693999">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Buterflie_Activated_LP" ID="{1D10A470-B049-4764-A5E8-7E17959A7815}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_AMB_Collectible_Blue_Spawn" ID="{30962E18-66BC-47F6-BD63-5F525CC32DAD}">
+											<ChildrenList>
+												<Action Name="" ID="{3EE10605-D0C6-4D34-8BB2-6E727D5CD6A1}" ShortID="82768349">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Collectible_Buterflie_Activated_LP" ID="{1D10A470-B049-4764-A5E8-7E17959A7815}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{51D69555-87B0-4D8A-B1AE-4688DEA06AE5}" ShortID="257860885">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

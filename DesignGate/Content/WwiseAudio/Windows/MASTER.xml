@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="443426733">
+		<SoundBank Id="4056684167" Language="SFX" Hash="2011403727">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -197,6 +197,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="397786088" Name="Play_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_AMB_Collectible_Blue_Spawn"/>
 				<Event Id="2982907204" Name="Play_Amb_Drip_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Drip_Cavern" MaxAttenuation="6500.000000">
 					<IncludedMemoryFiles>
 						<File Id="938665294" Language="SFX">
@@ -3115,6 +3116,7 @@
 						<ActionSetStateEntry Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3746312350" Name="Stop_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Stop_AMB_Collectible_Blue_Spawn" MaxAttenuation="0.000000"/>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
 				<Event Id="4170786443" Name="Stop_MC_Soft_Falling" ObjectPath="\Events\Default Work Unit\MC\Stop_MC_Soft_Falling" MaxAttenuation="0.000000"/>

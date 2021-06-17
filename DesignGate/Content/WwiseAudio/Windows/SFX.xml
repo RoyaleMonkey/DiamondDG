@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\</ProjectRoot>
-		<SourceFilesRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\</ProjectRoot>
+		<SourceFilesRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>J:\GitSourceTree\PROJECT\AVIAN\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1785125101">
+		<SoundBank Id="393239870" Language="SFX" Hash="1683689303">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -2078,13 +2078,45 @@
 							<ShortName>AMB_Whale_Dive_In.wav</ShortName>
 							<Path>SFX\AMB_Whale_Dive_In_D8C07C79.wem</Path>
 						</File>
+						<File Id="627719488" Language="SFX">
+							<ShortName>AMB_Whale_Sing.wav</ShortName>
+							<Path>SFX\AMB_Whale_Sing_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3270877144" Name="Play_SFX_LE_Whale_Water_Blow" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Whale_Water_Blow">
+					<IncludedMemoryFiles>
 						<File Id="568383572" Language="SFX">
 							<ShortName>AMB_Whale_WaterBlow.wav</ShortName>
 							<Path>SFX\AMB_Whale_WaterBlow_D8C07C79.wem</Path>
 						</File>
-						<File Id="627719488" Language="SFX">
-							<ShortName>AMB_Whale_Sing.wav</ShortName>
-							<Path>SFX\AMB_Whale_Sing_D8C07C79.wem</Path>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3733259300" Name="Play_SFX_LE_Whale_Wings" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Whale_Wings">
+					<IncludedMemoryFiles>
+						<File Id="83363388" Language="SFX">
+							<ShortName>AMB_Whale_Wing_1.wav</ShortName>
+							<Path>SFX\AMB_Whale_Wing_1_D8C07C79.wem</Path>
+						</File>
+						<File Id="300014115" Language="SFX">
+							<ShortName>AMB_Whale_Wing_6.wav</ShortName>
+							<Path>SFX\AMB_Whale_Wing_6_D8C07C79.wem</Path>
+						</File>
+						<File Id="651020931" Language="SFX">
+							<ShortName>AMB_Whale_Wing_2.wav</ShortName>
+							<Path>SFX\AMB_Whale_Wing_2_D8C07C79.wem</Path>
+						</File>
+						<File Id="853314946" Language="SFX">
+							<ShortName>AMB_Whale_Wing_5.wav</ShortName>
+							<Path>SFX\AMB_Whale_Wing_5_D8C07C79.wem</Path>
+						</File>
+						<File Id="870686688" Language="SFX">
+							<ShortName>AMB_Whale_Wing_4.wav</ShortName>
+							<Path>SFX\AMB_Whale_Wing_4_D8C07C79.wem</Path>
+						</File>
+						<File Id="1071421019" Language="SFX">
+							<ShortName>AMB_Whale_Wing_3.wav</ShortName>
+							<Path>SFX\AMB_Whale_Wing_3_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

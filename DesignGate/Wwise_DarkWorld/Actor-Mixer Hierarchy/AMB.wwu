@@ -8,6 +8,31 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="AMB" ID="{5FA63B4F-39D4-449B-835F-CE408F4FE654}" ShortID="445528399">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="PriorityDistanceOffset" Type="int16">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{113EC267-D673-41AC-B7A8-47FF449EAA6C}"/>
@@ -703,7 +728,7 @@
 													<Modifier Name="" ID="{42331C53-AB81-4AA3-B4F7-2B6B6684DBEF}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="6"/>
+															<Property Name="Max" Type="Real64" Value="12"/>
 															<Property Name="Min" Type="Real64" Value="-3"/>
 														</PropertyList>
 													</Modifier>
@@ -1997,7 +2022,7 @@
 													<Modifier Name="" ID="{BAE49AED-5984-4CDD-9F57-3A0A1C5C2DFA}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="7"/>
+															<Property Name="Max" Type="Real64" Value="13"/>
 															<Property Name="Min" Type="Real64" Value="-3"/>
 														</PropertyList>
 													</Modifier>
@@ -3289,7 +3314,7 @@
 													<Modifier Name="" ID="{05D37417-3E57-44A7-821C-2C8136C6B233}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4917,7 +4942,6 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>

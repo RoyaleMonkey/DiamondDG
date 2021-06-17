@@ -5,26 +5,73 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1785125101",
+    "Hash": "3751215337",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
      {
+      "Id": "1178412506",
+      "Name": "Play_Amb_Bird_RFX_BlackBird_TEST_OPTI",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Bird_RFX_BlackBird_TEST_OPTI",
+      "MaxAttenuation": "6500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "73167084",
+        "Language": "SFX",
+        "ShortName": "Amb_Bird_RFX_Blackbird_1.wav",
+        "Path": "SFX\\Amb_Bird_RFX_Blackbird_1_D8C07C79.wem"
+       },
+       {
+        "Id": "732604145",
+        "Language": "SFX",
+        "ShortName": "Amb_Bird_RFX_Blackbird_2.wav",
+        "Path": "SFX\\Amb_Bird_RFX_Blackbird_2_D8C07C79.wem"
+       },
+       {
+        "Id": "794979427",
+        "Language": "SFX",
+        "ShortName": "Amb_Bird_RFX_Blackbird_4.wav",
+        "Path": "SFX\\Amb_Bird_RFX_Blackbird_4_D8C07C79.wem"
+       },
+       {
+        "Id": "997414501",
+        "Language": "SFX",
+        "ShortName": "Amb_Bird_RFX_Blackbird_3.wav",
+        "Path": "SFX\\Amb_Bird_RFX_Blackbird_3_D8C07C79.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1566008239",
+        "Name": "RVB_FOREST",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
+       }
+      ]
+     },
+     {
       "Id": "397786088",
       "Name": "Play_AMB_Collectible_Blue_Spawn",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn",
       "MaxAttenuation": "6000.000000",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "447874868",
+        "Language": "SFX",
+        "ShortName": "AMB_LoreCavern_LP.wav",
+        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
+       }
+      ],
       "IncludedMemoryFiles": [
        {
         "Id": "172934826",
@@ -36,15 +83,16 @@
         "Id": "447874868",
         "Language": "SFX",
         "ShortName": "AMB_LoreCavern_LP.wav",
-        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
+        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem",
+        "PrefetchSize": "2932"
        }
       ]
      },
      {
       "Id": "3488501086",
       "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "MaxAttenuation": "6105.000000",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "MaxAttenuation": "8000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "193220923",
@@ -52,19 +100,12 @@
         "ShortName": "Amb_Lake_Lapping.wav",
         "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
        }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "2270178643",
-        "Name": "RVB_Cave_Small",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
-       }
       ]
      },
      {
       "Id": "906982068",
       "Name": "Play_Amb_SnakeRattle_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_SnakeRattle_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_SnakeRattle_RFX",
       "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
@@ -3323,7 +3364,7 @@
      {
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_SFX_WaterFall_BIG",
       "MaxAttenuation": "20000.000000"
      },
      {
@@ -3349,7 +3390,7 @@
      {
       "Id": "1176979258",
       "Name": "Play_Waterfall_blnd_Cavern_Big",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Waterfall_blnd_Cavern_Big",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Waterfall_blnd_Cavern_Big",
       "MaxAttenuation": "13000.000000",
       "IncludedMemoryFiles": [
        {

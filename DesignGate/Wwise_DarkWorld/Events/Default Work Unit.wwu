@@ -9,315 +9,548 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_Amb_Lake_LP" ID="{628066DA-8FF2-4CF9-9CB9-41A91D0AA442}">
+						<Folder Name="NEW AMB RFX" ID="{58B81485-0FE0-4857-B3AF-3C70E0BE0580}" ShortID="518473192">
 							<ChildrenList>
-								<Action Name="" ID="{8A65B739-1153-4946-85A1-627F7F0D9C92}" ShortID="795415394">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Lake_LP" ID="{DA4747E9-090E-4875-8D92-D7D40F65446F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_RFX_Insect_Cricket_F" ID="{FE485172-C1A5-4E93-BBB0-55BFF1DEE454}">
+									<ChildrenList>
+										<Action Name="" ID="{CAB2FF98-8E95-4DD0-A88A-88675B5AD766}" ShortID="83840084">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Insect_Cricket_F" ID="{6BB8C778-BAA0-46FA-A270-6181FF296BDD}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RFX_Insect_Grasshopper" ID="{91D27D3D-662C-43C4-8EC0-EB5CB29EC083}">
+									<ChildrenList>
+										<Action Name="" ID="{8874D107-084C-49DD-BC7A-EC785AB82071}" ShortID="348453498">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Insect_Grasshopper" ID="{EC7A2B79-F72E-4050-81E2-3AFD3FE4AF80}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RFX_Insect_Cricket_H" ID="{76F83F6A-99AE-4F65-B481-FF53031774BD}">
+									<ChildrenList>
+										<Action Name="" ID="{A2FC9066-BDDE-45EA-A4F1-22FCAFEFCA67}" ShortID="438517660">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Insect_Cricket_H" ID="{CC8E3BBA-B869-48E9-9724-FE23872C19D9}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Wind_Woosh_RFX" ID="{98FF29E5-D2E4-4A43-8824-577E51240F8B}">
+									<ChildrenList>
+										<Action Name="" ID="{61008BAE-E498-440E-A23A-B69AF4BD5488}" ShortID="441579206">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Woosh_RFX" ID="{8F1CAA0F-A73F-4076-91F3-EA4BF7057FB3}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RFX_Insect_Cricket_G" ID="{F6101BCD-3B44-4357-A833-3FE475024924}">
+									<ChildrenList>
+										<Action Name="" ID="{906A9463-A4C6-4D9F-87C8-461C8A174F0D}" ShortID="697883989">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Insect_Cricket_G" ID="{B338E5C3-52EC-4B76-9F57-625110C4C157}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bird_RFX_Eurasian_Wren" ID="{8823599B-D65F-45E1-B20B-FACE329F9D9C}">
+									<ChildrenList>
+										<Action Name="" ID="{0E41518E-D785-4A44-9149-D51F71D39EE2}" ShortID="95415350">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bird_RFX_Eurasian_Wren" ID="{04D1BF5B-0AD2-4FE0-B6DA-085EF4F817C5}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bird_Serdge_01" ID="{BCDA3DD5-5180-4391-AEFF-D7FE5D06B145}">
+									<ChildrenList>
+										<Action Name="" ID="{C63A02D7-FDCB-430A-B6ED-6B86B02C29AF}" ShortID="320154121">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bird_Serdge" ID="{9CAD4196-47F0-4777-9C22-D02C4E0911FC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bird_RFX_Linnet" ID="{1A6003E7-6BA2-490D-A1B8-12B8E3B53091}">
+									<ChildrenList>
+										<Action Name="" ID="{153AED2D-07DA-4724-B984-ED843FA46267}" ShortID="98395786">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bird_RFX_Linnet" ID="{73570CA3-83C5-404B-9EB4-F9C0A1624E90}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Cave_Critter_01" ID="{D63D9687-EADF-4DEA-B76E-43C9CE8FF927}">
+									<ChildrenList>
+										<Action Name="" ID="{926D8B10-CC2A-4526-BE92-E0BD341771F6}" ShortID="454410258">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Cave_Critter" ID="{DDFFAA41-D791-476A-896D-3CECEBDEFC83}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bat_RFX_01" ID="{4AB10896-02CB-48CD-9E9A-01B99D10581F}">
+									<ChildrenList>
+										<Action Name="" ID="{C656FA78-09B9-4556-8E01-C3D41A754968}" ShortID="591871170">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bat_RFX" ID="{D6B89D7A-15E1-4E03-BA46-4FCE29CB483D}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Water_Drip" ID="{CF078344-A7AA-4BE4-B3A5-7E24F001C332}">
+									<ChildrenList>
+										<Action Name="" ID="{CFD95DC7-B8BF-4625-8A5E-9571E302B904}" ShortID="270455311">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Water_Drip" ID="{A7F5BF39-07BF-47B2-81F0-30A3C52FFC70}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Wind_Howling_RFX_01" ID="{CB4D9828-49BE-4055-96A8-469985DBEE59}">
+									<ChildrenList>
+										<Action Name="" ID="{888A8A56-AB4E-499A-B3A5-F798218FCF64}" ShortID="72294509">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Howling_RFX" ID="{8A83499B-0BFF-4082-8A32-465C5731252F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Wind_Howling_RFX_02" ID="{6600DA13-3728-46B0-92DA-8D4BFC9B6B07}">
+									<ChildrenList>
+										<Action Name="" ID="{DF0DEE32-9D46-4C66-8CB6-CE1A27D10FB9}" ShortID="476709945">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Howling_RFX_01" ID="{BB286868-536F-45FD-8E2B-C4ADAF09B0E7}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bird_RFX_BlackBird" ID="{69BAF1EE-744D-42EC-89C8-B32EA4989C7B}">
+									<ChildrenList>
+										<Action Name="" ID="{76DC721E-236E-4B30-9E59-4D5248F38E15}" ShortID="432605989">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bird_RFX_BlackBird" ID="{51E3BA26-1AB4-47DD-9784-1DA3977EA262}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Fall_Rocks_RFX" ID="{0DF92895-6DAE-4C73-9974-935D4C3F71FE}">
+									<ChildrenList>
+										<Action Name="" ID="{26554D9D-78C1-493B-987D-712F5587A489}" ShortID="439961403">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Fall_Rocks_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Rat_RFX_01" ID="{901CFEA2-536F-4E63-93D2-1134765DE29E}">
+									<ChildrenList>
+										<Action Name="" ID="{D39937F6-5F34-471F-AF7E-B14EDA26A4E2}" ShortID="340823891">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Rat_RFX" ID="{1D2CDFFD-E3D2-4DD7-BEBB-1A7FF6182C66}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_RFX_Bird_Dead_Sea_Sparrow" ID="{269FB663-8870-4613-B143-407461A71CC0}">
+									<ChildrenList>
+										<Action Name="" ID="{5EBBE4BA-572F-4511-81BE-32CBC49CA834}" ShortID="361971890">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_RFX_Bird_Dead_Sea_Sparrow" ID="{87B401C1-9438-46BB-ACB7-B2E65061A863}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_SnakeRattle_RFX_01" ID="{C71BC376-6DB5-4020-836E-663303BC193B}">
+									<ChildrenList>
+										<Action Name="" ID="{86AD78DD-FDFD-478D-A783-F285002E0F63}" ShortID="473800146">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_SnakeRattle_RFX" ID="{9B92779D-AD3E-4FD0-A714-D4653A057BBC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Frog_RFX_02" ID="{5153CCD2-9158-44FB-A00E-995C51F0C358}">
+									<ChildrenList>
+										<Action Name="" ID="{6B40814D-88DB-47AF-BC9B-E6093ABEDF52}" ShortID="134244061">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Frog_RFX_01" ID="{38E296D3-B0D3-44E5-84E2-586E4998884D}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Frog_RFX_01" ID="{424926DB-E88E-4BF9-A57D-8A8B9BB6C3CA}">
+									<ChildrenList>
+										<Action Name="" ID="{BECAE1CC-C686-4438-B6A1-B1359EEB5C78}" ShortID="265651343">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Frog_RFX" ID="{FB08A675-7070-4A3C-AE3C-2B17687A531C}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_RFX_Bird_Whitethroat" ID="{6C2F40E9-8C2F-4C32-A0DB-910A09858E42}">
+									<ChildrenList>
+										<Action Name="" ID="{5EC35124-5BB4-431B-8F7C-59A6C06A617E}" ShortID="703675134">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_RFX_Bird_Whitethroat" ID="{BCB6491D-E4A6-40D7-9EBC-1DAD8CCBC8DE}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Fountain" ID="{3D0CA2BD-D308-4979-87F4-C83673979D00}">
+						</Folder>
+						<Folder Name="OLD AMB RFX" ID="{E657DCC7-15E8-44AC-A3A8-4C7D6032633A}" ShortID="732854383">
 							<ChildrenList>
-								<Action Name="" ID="{D2071FA4-C879-495C-8ED5-9D4AD97A8228}" ShortID="225396928">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Fountain" ID="{FBFB3339-4A21-4903-923D-7CF86D30B243}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Amb_Lake_Lapping" ID="{BE08043F-3469-45F8-ACE9-1BC3B0066C65}">
+									<ChildrenList>
+										<Action Name="" ID="{94EB3AC9-DCEE-49DF-96DF-E95C511A3113}" ShortID="1007484762">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Lake_Lapping" ID="{3C7990D4-38DC-44B2-982B-B099EDD37EED}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_CavernLore" ID="{3BCDB512-9E1C-42F5-91B7-EC92D4CB75B8}">
+									<ChildrenList>
+										<Action Name="" ID="{6BD252AF-B5B6-47C0-8F9A-C807E11B62CA}" ShortID="193149589">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Drip_Cavern" ID="{26279C14-C470-4442-B563-D478224104FF}">
+									<ChildrenList>
+										<Action Name="" ID="{14D493BE-E480-44E8-B527-8716ECA6E97A}" ShortID="973447175">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Drip_Cavern" ID="{7255231C-7825-4B07-B1CD-F620D1705040}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Fall_Dirt_RFX" ID="{34665573-36CB-49FB-92FD-0009A7AADA4F}">
+									<ChildrenList>
+										<Action Name="" ID="{58B033D5-6FB7-45A0-A1E2-B48D750D51CB}" ShortID="694605976">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Fall_Rocks_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_WaterFall_BIG" ID="{C670D86F-BF23-461F-8A2D-78100CFE738B}">
+									<ChildrenList>
+										<Action Name="" ID="{6AEDF4D5-F4A6-4711-B4B2-8C33CAB055B9}" ShortID="341834437">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_LE_Waterfall_Cavern_Big" ID="{1AB5C6D5-3E7F-42F7-B68F-2AB42ABC6E5E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Wind_Void" ID="{38BD07D1-3FA9-49B7-8CA3-D4FCEF953B4B}">
+									<ChildrenList>
+										<Action Name="" ID="{05461A29-EC39-40B9-8D16-38C3C805FEE3}" ShortID="180123741">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Void" ID="{205626D5-9B22-4C52-A08D-094CBCC92A47}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_SnakeRattle_RFX" ID="{762157C9-86EB-487A-8272-ED627DCAD393}">
+									<ChildrenList>
+										<Action Name="" ID="{F834D61B-2CF2-4227-9BA1-60D863DCA2DE}" ShortID="614339181">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_SnakeRattle_RFX" ID="{9B92779D-AD3E-4FD0-A714-D4653A057BBC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Cave_Critter" ID="{715EB5CE-EA74-4478-ABB7-21283E27027A}">
+									<ChildrenList>
+										<Action Name="" ID="{1BBCACD0-EFF6-47BC-B6C4-547EBB79AD2B}" ShortID="275452161">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Cave_Critter" ID="{DDFFAA41-D791-476A-896D-3CECEBDEFC83}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Rat_RFX" ID="{E3E6ACBF-B20E-4E31-8BBA-9E05AFA9290F}">
+									<ChildrenList>
+										<Action Name="" ID="{0582870A-6379-47F9-A386-DD1AEA0723C6}" ShortID="116167840">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Rat_RFX" ID="{1D2CDFFD-E3D2-4DD7-BEBB-1A7FF6182C66}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bat_RFX_OS" ID="{ED94BE4B-BA8E-4E0E-8441-B292F4843171}">
+									<ChildrenList>
+										<Action Name="" ID="{2C2DD76C-69A9-43FA-B7A2-4CED1CD73EE4}" ShortID="808628461">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bat_RFX" ID="{D6B89D7A-15E1-4E03-BA46-4FCE29CB483D}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Lake_Lapping_Little" ID="{F4398357-60FD-4A02-ACAF-5AE0B77ECDBB}">
+									<ChildrenList>
+										<Action Name="" ID="{688CB6A9-69A4-4755-836E-131628B923BA}" ShortID="994819396">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Lake_Lapping_02" ID="{BC17DDEB-5FB4-4D1C-A5E0-1BFBB95D673F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Wind_Howling_RFX" ID="{7A46B92B-9897-42DD-A1F9-7F4336F638D1}">
+									<ChildrenList>
+										<Action Name="" ID="{9B84755B-52FD-4095-994C-85B7FEF1E3A5}" ShortID="785934758">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Howling_RFX" ID="{8A83499B-0BFF-4082-8A32-465C5731252F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ID="{01EA9CE1-B0F0-4E31-9F29-D7E5E6F0DD8C}">
+									<ChildrenList>
+										<Action Name="" ID="{8AC742E3-4AB7-4980-B59E-DC8B1ED15523}" ShortID="840223114">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Lake_Lapping_01" ID="{FE605817-DA4A-48B0-86B0-036B6928C7B5}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bird_Serdge" ID="{50DA3824-643C-4B75-86FB-29EE4B0EAF91}">
+									<ChildrenList>
+										<Action Name="" ID="{3FB32DB9-8130-4410-BFA5-3EC9AE33BAA2}" ShortID="903613163">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bird_Serdge" ID="{9CAD4196-47F0-4777-9C22-D02C4E0911FC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Waterfall_blnd_Cavern_Big" ID="{AD5E2648-FF73-4158-9343-3D9D4F951BBF}">
+									<ChildrenList>
+										<Action Name="" ID="{B1AA8B4F-754E-481F-9BAD-81A1DD78B04B}" ShortID="335826062">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Waterfall_blnd_Cavern_Big" ID="{B387D70E-A10A-44F3-BA9E-DA38330912F5}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Bird_RFX_BlackBird_TEST_OPTI" ID="{B30F29A8-AF5D-423C-889A-B0C99F0205AE}">
+									<ChildrenList>
+										<Action Name="" ID="{6499169A-FF24-48F7-965C-341F97F0660F}" ShortID="35136811">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Bird_RFX_BlackBird" ID="{51E3BA26-1AB4-47DD-9784-1DA3977EA262}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Amb_Lake" ID="{B8C2E4E0-87B5-4EFE-BCB3-1186AD16B884}">
+						</Folder>
+						<Folder Name="AMB LP" ID="{38C1AC82-B181-47A1-830D-17734EF7F5DD}" ShortID="316635393">
 							<ChildrenList>
-								<Action Name="" ID="{8E2D0724-7BD1-4A6F-98DF-DA244C199331}" ShortID="47417212">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Lake_LP" ID="{DA4747E9-090E-4875-8D92-D7D40F65446F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Amb_Wind_Void_01" ID="{671CBC71-3CA0-4839-A4A8-158D0967E21B}">
+									<ChildrenList>
+										<Action Name="" ID="{AF5A0784-5C66-4598-84F9-ED00B48ACB72}" ShortID="279795898">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Void" ID="{205626D5-9B22-4C52-A08D-094CBCC92A47}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Lake_Lapping_02" ID="{B517D4AB-08AC-4F46-BBED-655511EE55F0}">
+									<ChildrenList>
+										<Action Name="" ID="{D265991A-4F76-4E93-8CE4-9010BD32FDBD}" ShortID="251428790">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Lake_Lapping_01" ID="{FE605817-DA4A-48B0-86B0-036B6928C7B5}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Lake_Lapping_03" ID="{135C2902-06B2-43A1-BFD7-D5EF278B958A}">
+									<ChildrenList>
+										<Action Name="" ID="{92E565C3-732C-4828-9D04-463750DDA7E2}" ShortID="1032856810">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Lake_Lapping_02" ID="{BC17DDEB-5FB4-4D1C-A5E0-1BFBB95D673F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Wind_Base_layer" ID="{F56C60CB-04ED-47CB-8721-E5F0D4E2F307}">
+									<ChildrenList>
+										<Action Name="" ID="{1D624AC4-F6A9-42C2-81D7-E449C3E8AFEF}" ShortID="10588751">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Base_layer" ID="{71BC9FB4-FAA0-45C2-BA08-02BDA42D8611}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Wind_Forest_LP" ID="{3104B106-1463-4754-B9FD-701FFA8BA867}">
+									<ChildrenList>
+										<Action Name="" ID="{D62E3F47-0696-489D-9736-AD84890E083E}" ShortID="596112201">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Wind_Forest_LP" ID="{160149AD-1FA6-4E2F-96E8-DF59AF94F4A8}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_CavernLore_01" ID="{9F18226D-591B-46AB-BDFE-5DF6B5AF5B3E}">
+									<ChildrenList>
+										<Action Name="" ID="{D2EE1BD7-46DE-421B-BDC2-625A095EDA80}" ShortID="541253721">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Int_Cavern_LP" ID="{C35B9F43-AF95-4BC5-9743-24A6E03B7C99}">
+									<ChildrenList>
+										<Action Name="" ID="{F40F88FB-F6C6-4558-8BA3-8C697CB26846}" ShortID="1059764332">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Int_Cavern_LP" ID="{4F53A116-FA5C-442D-BBBE-425F0C166922}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Drip_Cavern_01" ID="{F81F2E0A-B486-4B2D-B770-02599ADE5835}">
+									<ChildrenList>
+										<Action Name="" ID="{FEFFE8CA-B922-4EA0-BAEE-FEEB84A5B581}" ShortID="823938074">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Drip_Cavern" ID="{7255231C-7825-4B07-B1CD-F620D1705040}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Int_Cavern_LP_01" ID="{37B54AAC-593F-4D1B-8818-F6E543A38DB2}">
+									<ChildrenList>
+										<Action Name="" ID="{7E6469E0-F7D4-4906-AEC8-C90DBB84BB97}" ShortID="368534789">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Int_Cavern_LP_01" ID="{0B56FF21-97AB-4420-AB1F-654C8582643F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Amb_Lake_Lapping_01" ID="{2BA2990A-7BBA-4694-8730-2D68B79DB44F}">
+									<ChildrenList>
+										<Action Name="" ID="{3AC7402E-F518-4FC2-B2C4-8779459EFC4E}" ShortID="1021754479">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Amb_Lake_Lapping" ID="{3C7990D4-38DC-44B2-982B-B099EDD37EED}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Cavern" ID="{FD79E5DF-AFD6-4DF5-A3EB-DC2347FE2C46}">
+						</Folder>
+						<Event Name="Play_Amb_Wind_Valley_Blnd" ID="{807A5085-F04B-4AD0-830D-A116703C6154}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{21426762-43DF-4C2F-B218-5D4C12FD4B61}" ShortID="769433301">
+								<Action Name="" ID="{1603259A-F0E7-48D6-9FE6-8DE573DE62B4}" ShortID="60532374">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Amb_Cavern_Entry" ID="{5459CBC1-1FC4-4E10-98E2-500330BAE550}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Forest" ID="{F7400E08-7E6E-47F4-BDA4-A1109215CD55}">
-							<ChildrenList>
-								<Action Name="" ID="{495C04D2-2835-4A34-B6CC-32327FAD0A24}" ShortID="390743606">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Forest" ID="{29C82455-8A28-46CC-931D-502AE5FF796D}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Birds_RFX" ID="{1B08CCB5-E01B-4C6A-B576-8610AFCAEAA1}">
-							<ChildrenList>
-								<Action Name="" ID="{22B6F2D3-3932-41D9-9ACE-7B73E81C13BC}" ShortID="455859774">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Birds_RFX" ID="{8DD8B6DC-88F5-46AB-AC59-51140DEDB837}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Fall_Dirt_RFX" ID="{34665573-36CB-49FB-92FD-0009A7AADA4F}">
-							<ChildrenList>
-								<Action Name="" ID="{58B033D5-6FB7-45A0-A1E2-B48D750D51CB}" ShortID="694605976">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Fall_Rocks_RFX" ID="{D9D652FE-1FAF-4B03-AA79-41287C5FAF9F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Cavern_Level" ID="{CDC3DC18-0A1A-4B30-A36C-0E9D5B038102}">
-							<ChildrenList>
-								<Action Name="" ID="{11AFA05F-045C-43B2-AE4A-0BEE2269DC9A}" ShortID="727740264">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Cavern_Level" ID="{9DE9C700-EC10-443D-B9E3-03B618F016B8}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_SFX_WaterFall_BIG" ID="{C670D86F-BF23-461F-8A2D-78100CFE738B}">
-							<ChildrenList>
-								<Action Name="" ID="{6AEDF4D5-F4A6-4711-B4B2-8C33CAB055B9}" ShortID="341834437">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_LE_Waterfall_Cavern_Big" ID="{1AB5C6D5-3E7F-42F7-B68F-2AB42ABC6E5E}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Lake_Lapping" ID="{BE08043F-3469-45F8-ACE9-1BC3B0066C65}">
-							<ChildrenList>
-								<Action Name="" ID="{94EB3AC9-DCEE-49DF-96DF-E95C511A3113}" ShortID="1007484762">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Lake_Lapping" ID="{5FD2968B-CBC9-44B6-BDC8-15A44749E2C0}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Water_RFX" ID="{346FEBBD-DC8F-4DE1-BFB7-C621C9DEA9D9}">
-							<ChildrenList>
-								<Action Name="" ID="{489BA518-70BF-4AB8-83F5-845CB99A41A9}" ShortID="1059926088">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Water_RFX" ID="{400FC6CD-FECB-450E-9FA4-D247C80B7CDD}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Insect_RFX" ID="{176371C8-18DE-4946-89D0-4EF8882D14D2}">
-							<ChildrenList>
-								<Action Name="" ID="{77390630-B81F-4631-B27A-13FDDA18CEFE}" ShortID="945498940">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Insect_RFX" ID="{20B19351-A569-498A-AE31-95F4682A8DDB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Wind_Void" ID="{38BD07D1-3FA9-49B7-8CA3-D4FCEF953B4B}">
-							<ChildrenList>
-								<Action Name="" ID="{05461A29-EC39-40B9-8D16-38C3C805FEE3}" ShortID="180123741">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Wind_Void" ID="{205626D5-9B22-4C52-A08D-094CBCC92A47}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_CavernLore" ID="{3BCDB512-9E1C-42F5-91B7-EC92D4CB75B8}">
-							<ChildrenList>
-								<Action Name="" ID="{6BD252AF-B5B6-47C0-8F9A-C807E11B62CA}" ShortID="193149589">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_CavernLore" ID="{91645D2A-769B-4321-9056-31DA7E4467FB}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Drip_Cavern" ID="{26279C14-C470-4442-B563-D478224104FF}">
-							<ChildrenList>
-								<Action Name="" ID="{14D493BE-E480-44E8-B527-8716ECA6E97A}" ShortID="973447175">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Drip_Cavern" ID="{7255231C-7825-4B07-B1CD-F620D1705040}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Wind_Valley" ID="{B89D65E3-F71C-4151-A319-FEC0120640BF}">
-							<ChildrenList>
-								<Action Name="" ID="{14C44FF8-3362-4B13-8E9C-6A5D9FFA4043}" ShortID="134796426">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Wind_Valley" ID="{089F2094-223E-47AB-8058-841CD1561614}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Bat_RFX" ID="{E7E49D10-8022-4C63-AFAB-7D63399C8E66}">
-							<ChildrenList>
-								<Action Name="" ID="{3D23D992-8FE6-44DB-9D08-F6396C4EBDFF}" ShortID="277657382">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Bat_RFX" ID="{37A01DEE-5858-41E2-827C-E0EA7B041F93}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Frog_RFX" ID="{8B0AF78F-9151-4A54-8569-F197A3F2C160}">
-							<ChildrenList>
-								<Action Name="" ID="{A1AFF4A4-4E7C-4B27-95D0-59C719A147EA}" ShortID="529904795">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Frog_RFX" ID="{91E734E9-7AF2-4EF9-A49A-40916CC3D07C}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Bat_RFX_OS" ID="{ED94BE4B-BA8E-4E0E-8441-B292F4843171}">
-							<ChildrenList>
-								<Action Name="" ID="{2C2DD76C-69A9-43FA-B7A2-4CED1CD73EE4}" ShortID="808628461">
-									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Bat_RFX" ID="{D6B89D7A-15E1-4E03-BA46-4FCE29CB483D}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_SnakeRattle_RFX" ID="{762157C9-86EB-487A-8272-ED627DCAD393}">
-							<ChildrenList>
-								<Action Name="" ID="{F834D61B-2CF2-4227-9BA1-60D863DCA2DE}" ShortID="614339181">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_SnakeRattle_RFX" ID="{9B92779D-AD3E-4FD0-A714-D4653A057BBC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Bird_Serdge" ID="{50DA3824-643C-4B75-86FB-29EE4B0EAF91}">
-							<ChildrenList>
-								<Action Name="" ID="{3FB32DB9-8130-4410-BFA5-3EC9AE33BAA2}" ShortID="903613163">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Bird_Serdge" ID="{9CAD4196-47F0-4777-9C22-D02C4E0911FC}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Wind_Howling_RFX" ID="{7A46B92B-9897-42DD-A1F9-7F4336F638D1}">
-							<ChildrenList>
-								<Action Name="" ID="{9B84755B-52FD-4095-994C-85B7FEF1E3A5}" ShortID="785934758">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Wind_Howling_RFX" ID="{8A83499B-0BFF-4082-8A32-465C5731252F}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Cave_Critter" ID="{715EB5CE-EA74-4478-ABB7-21283E27027A}">
-							<ChildrenList>
-								<Action Name="" ID="{1BBCACD0-EFF6-47BC-B6C4-547EBB79AD2B}" ShortID="275452161">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Cave_Critter" ID="{DDFFAA41-D791-476A-896D-3CECEBDEFC83}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Lake_Lapping_Little" ID="{F4398357-60FD-4A02-ACAF-5AE0B77ECDBB}">
-							<ChildrenList>
-								<Action Name="" ID="{688CB6A9-69A4-4755-836E-131628B923BA}" ShortID="994819396">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Lake_Lapping_Little" ID="{3A40236C-B5E7-4C5D-BE8C-37ADD7D70799}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Frog_RFX_OS" ID="{857986D0-815E-451B-B323-99FC1EC6F317}">
-							<ChildrenList>
-								<Action Name="" ID="{E8D828D0-1AD2-4EEB-9D4D-97572359DB11}" ShortID="1019527446">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Frog_RFX_OS" ID="{6ED115F1-C202-4768-8B11-E370D365A8DA}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Rat_RFX" ID="{E3E6ACBF-B20E-4E31-8BBA-9E05AFA9290F}">
-							<ChildrenList>
-								<Action Name="" ID="{0582870A-6379-47F9-A386-DD1AEA0723C6}" ShortID="116167840">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Rat_RFX" ID="{1D2CDFFD-E3D2-4DD7-BEBB-1A7FF6182C66}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Waterfall_blnd_Cavern_Big" ID="{AD5E2648-FF73-4158-9343-3D9D4F951BBF}">
-							<ChildrenList>
-								<Action Name="" ID="{B1AA8B4F-754E-481F-9BAD-81A1DD78B04B}" ShortID="335826062">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Waterfall_blnd_Cavern_Big" ID="{B387D70E-A10A-44F3-BA9E-DA38330912F5}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ID="{01EA9CE1-B0F0-4E31-9F29-D7E5E6F0DD8C}">
-							<ChildrenList>
-								<Action Name="" ID="{8AC742E3-4AB7-4980-B59E-DC8B1ED15523}" ShortID="840223114">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Lake_Lapping_Little_Big_Cavern" ID="{2FC119FC-8673-48FC-9BA0-621D7B12BF44}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+											<ObjectRef Name="Amb_Wind_Valley_Blnd" ID="{A8C3B044-161D-4606-96AA-7E536EFA2309}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

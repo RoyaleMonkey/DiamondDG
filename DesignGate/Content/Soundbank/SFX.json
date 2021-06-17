@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\Soundbank\\",
+   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\Soundbank\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "1488620015",
+    "Hash": "451807462",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -3136,7 +3136,7 @@
      {
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_SFX_WaterFall_BIG",
       "MaxAttenuation": "20000.000000"
      },
      {
@@ -3162,7 +3162,7 @@
      {
       "Id": "1176979258",
       "Name": "Play_Waterfall_blnd_Cavern_Big",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Waterfall_blnd_Cavern_Big",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Waterfall_blnd_Cavern_Big",
       "MaxAttenuation": "13000.000000"
      },
      {

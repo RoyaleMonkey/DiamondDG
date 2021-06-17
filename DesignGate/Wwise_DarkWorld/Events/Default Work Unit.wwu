@@ -605,10 +605,22 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{ECC8B78E-1648-4D0B-9A90-8907FDF38D7E}" ShortID="196344721">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="3"/>
-									</PropertyList>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_LE_Whale_Wings" ID="{71120988-D8AB-4EDE-A1DB-CE268B92626C}">
+							<ChildrenList>
+								<Action Name="" ID="{3B8C7DB8-170F-44D5-B02D-025372423E80}" ShortID="223360028">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_LE_Whale_Wings" ID="{B4D2E7ED-B84C-4348-9A08-190CAA422F23}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_LE_Whale_Water_Blow" ID="{C51E0AE8-9A9F-47F1-ADAB-A4A7A64C3D38}">
+							<ChildrenList>
+								<Action Name="" ID="{27DA65C9-51DC-492B-A810-09F39E397214}" ShortID="933068836">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_LE_Whale_Water_Blow" ID="{B9889874-CB98-494A-93D5-0195297000F2}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>

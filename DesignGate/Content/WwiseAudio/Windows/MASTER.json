@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "2011403727",
+    "Hash": "3034461398",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
@@ -322,7 +322,8 @@
      {
       "Id": "397786088",
       "Name": "Play_AMB_Collectible_Blue_Spawn",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn"
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn",
+      "MaxAttenuation": "6000.000000"
      },
      {
       "Id": "2982907204",
@@ -494,7 +495,7 @@
       "Id": "3887990129",
       "Name": "Play_Amb_Lake_Lapping_Little",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little",
-      "MaxAttenuation": "8000.000000",
+      "MaxAttenuation": "6105.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "193220923",
@@ -515,7 +516,7 @@
       "Id": "3488501086",
       "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "MaxAttenuation": "8000.000000"
+      "MaxAttenuation": "6105.000000"
      },
      {
       "Id": "832042763",
@@ -551,7 +552,7 @@
       "Id": "540871045",
       "Name": "Play_Amb_Wind_Howling_RFX",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Howling_RFX",
-      "MaxAttenuation": "7500.000000",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "306243768",
@@ -595,7 +596,7 @@
       "Id": "4244289267",
       "Name": "Play_Amb_Wind_Valley",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Valley",
-      "MaxAttenuation": "7500.000000",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "45234010",
@@ -687,7 +688,7 @@
       "Id": "305604352",
       "Name": "Play_Amb_Wind_Void",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Void",
-      "MaxAttenuation": "5500.000000",
+      "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "735267049",
@@ -5017,7 +5018,7 @@
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
-      "MaxAttenuation": "23500.000000",
+      "MaxAttenuation": "20000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "726391781",

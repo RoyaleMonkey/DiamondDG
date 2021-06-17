@@ -5,17 +5,17 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "690641490",
+    "Hash": "1785125101",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -23,13 +23,28 @@
      {
       "Id": "397786088",
       "Name": "Play_AMB_Collectible_Blue_Spawn",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn"
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn",
+      "MaxAttenuation": "6000.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "172934826",
+        "Language": "SFX",
+        "ShortName": "SFX_Feather_Collectible_Purple_LP_Activated.wav",
+        "Path": "SFX\\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem"
+       },
+       {
+        "Id": "447874868",
+        "Language": "SFX",
+        "ShortName": "AMB_LoreCavern_LP.wav",
+        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
+       }
+      ]
      },
      {
       "Id": "3488501086",
       "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "MaxAttenuation": "8000.000000",
+      "MaxAttenuation": "6105.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "193220923",
@@ -98,6 +113,11 @@
       ]
      },
      {
+      "Id": "2904809513",
+      "Name": "Play_DarkWorld_Zelda_Pad",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Play_DarkWorld_Zelda_Pad"
+     },
+     {
       "Id": "2488731060",
       "Name": "Play_Ending_WaterFall",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_Ending_WaterFall",
@@ -154,6 +174,7 @@
       "Id": "1914609227",
       "Name": "Play_SFX_Collectible_Blue_Spawn",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_SFX_Collectible_Blue_Spawn",
+      "MaxAttenuation": "6000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "187603833",
@@ -358,6 +379,7 @@
       "Id": "3898119337",
       "Name": "Play_SFX_GPE_Emissive_Big",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Emissive\\Play_SFX_GPE_Emissive_Big",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "463687491",
@@ -383,6 +405,7 @@
       "Id": "2038128406",
       "Name": "Play_SFX_GPE_Emissive_Small",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Emissive\\Play_SFX_GPE_Emissive_Small",
+      "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "463687491",
@@ -590,7 +613,7 @@
       "Id": "1686349880",
       "Name": "Play_SFX_GPE_Stele_A2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_A2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "183618480",
@@ -622,7 +645,7 @@
       "Id": "1686349881",
       "Name": "Play_SFX_GPE_Stele_A3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_A3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "399423359",
@@ -660,7 +683,7 @@
       "Id": "3024238153",
       "Name": "Play_SFX_GPE_Stele_AS2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_AS2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "197037388",
@@ -692,7 +715,7 @@
       "Id": "3024238152",
       "Name": "Play_SFX_GPE_Stele_AS3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_AS3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "219560079",
@@ -730,7 +753,7 @@
       "Id": "1948521748",
       "Name": "Play_SFX_GPE_Stele_ASAS3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_ASAS3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "197037388",
@@ -768,7 +791,7 @@
       "Id": "3694864379",
       "Name": "Play_SFX_GPE_Stele_ASC3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_ASC3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "75417464",
@@ -824,7 +847,7 @@
       "Id": "1652794582",
       "Name": "Play_SFX_GPE_Stele_C2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_C2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "75417464",
@@ -856,7 +879,7 @@
       "Id": "1652794583",
       "Name": "Play_SFX_GPE_Stele_C3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_C3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "204593150",
@@ -894,7 +917,7 @@
       "Id": "3581240682",
       "Name": "Play_SFX_GPE_Stele_CCF3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_CCF3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "75417464",
@@ -950,7 +973,7 @@
       "Id": "3564463093",
       "Name": "Play_SFX_GPE_Stele_CCG3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_CCG3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "75417464",
@@ -1006,7 +1029,7 @@
       "Id": "1636016995",
       "Name": "Play_SFX_GPE_Stele_D2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_D2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "109901540",
@@ -1038,7 +1061,7 @@
       "Id": "1636016994",
       "Name": "Play_SFX_GPE_Stele_D3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_D3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "261695194",
@@ -1076,7 +1099,7 @@
       "Id": "2990138531",
       "Name": "Play_SFX_GPE_Stele_DA3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_DA3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "109901540",
@@ -1132,7 +1155,7 @@
       "Id": "2016317611",
       "Name": "Play_SFX_GPE_Stele_DDG3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_DDG3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "109901540",
@@ -1188,7 +1211,7 @@
       "Id": "2755251892",
       "Name": "Play_SFX_GPE_Stele_DS2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_DS2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "66082767",
@@ -1220,7 +1243,7 @@
       "Id": "2755251893",
       "Name": "Play_SFX_GPE_Stele_DS3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_DS3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "24149264",
@@ -1258,7 +1281,7 @@
       "Id": "1744874496",
       "Name": "Play_SFX_GPE_Stele_DSG3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_DSG3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "24149264",
@@ -1320,7 +1343,7 @@
       "Id": "713787098",
       "Name": "Play_SFX_GPE_Stele_End_A2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_2\\Play_SFX_GPE_Stele_End_A2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "183618480",
@@ -1346,7 +1369,7 @@
       "Id": "713787099",
       "Name": "Play_SFX_GPE_Stele_End_A3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_3\\Play_SFX_GPE_Stele_End_A3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "460369264",
@@ -1372,7 +1395,7 @@
       "Id": "2493834803",
       "Name": "Play_SFX_GPE_Stele_End_AS2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_2\\Play_SFX_GPE_Stele_End_AS2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "197037388",
@@ -1398,7 +1421,7 @@
       "Id": "2493834802",
       "Name": "Play_SFX_GPE_Stele_End_AS3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_3\\Play_SFX_GPE_Stele_End_AS3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "334241974",
@@ -1424,7 +1447,7 @@
       "Id": "747342396",
       "Name": "Play_SFX_GPE_Stele_End_C2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_2\\Play_SFX_GPE_Stele_End_C2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "75417464",
@@ -1450,7 +1473,7 @@
       "Id": "747342397",
       "Name": "Play_SFX_GPE_Stele_End_C3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_3\\Play_SFX_GPE_Stele_End_C3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "659122690",
@@ -1476,7 +1499,7 @@
       "Id": "797675253",
       "Name": "Play_SFX_GPE_Stele_End_D2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_2\\Play_SFX_GPE_Stele_End_D2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "109901540",
@@ -1502,7 +1525,7 @@
       "Id": "797675252",
       "Name": "Play_SFX_GPE_Stele_End_D3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_3\\Play_SFX_GPE_Stele_End_D3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "261695194",
@@ -1528,7 +1551,7 @@
       "Id": "2360452462",
       "Name": "Play_SFX_GPE_Stele_End_DS2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_2\\Play_SFX_GPE_Stele_End_DS2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "66082767",
@@ -1554,7 +1577,7 @@
       "Id": "2360452463",
       "Name": "Play_SFX_GPE_Stele_End_DS3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_3\\Play_SFX_GPE_Stele_End_DS3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "24149264",
@@ -1580,7 +1603,7 @@
       "Id": "831230431",
       "Name": "Play_SFX_GPE_Stele_End_F2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_2\\Play_SFX_GPE_Stele_End_F2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "383078185",
@@ -1606,7 +1629,7 @@
       "Id": "831230430",
       "Name": "Play_SFX_GPE_Stele_End_F3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_3\\Play_SFX_GPE_Stele_End_F3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "443084533",
@@ -1632,7 +1655,7 @@
       "Id": "814452840",
       "Name": "Play_SFX_GPE_Stele_End_G2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_2\\Play_SFX_GPE_Stele_End_G2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "133630538",
@@ -1658,7 +1681,7 @@
       "Id": "814452841",
       "Name": "Play_SFX_GPE_Stele_End_G3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_End\\Play_SFX_GPE_Stele_End_3\\Play_SFX_GPE_Stele_End_G3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "279707459",
@@ -1684,7 +1707,7 @@
       "Id": "1602461721",
       "Name": "Play_SFX_GPE_Stele_F2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_F2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "11866814",
@@ -1716,7 +1739,7 @@
       "Id": "1602461720",
       "Name": "Play_SFX_GPE_Stele_F3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_F3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "11866814",
@@ -1754,7 +1777,7 @@
       "Id": "2935724227",
       "Name": "Play_SFX_GPE_Stele_FFG3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_FFG3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "279707459",
@@ -1810,7 +1833,7 @@
       "Id": "1585684138",
       "Name": "Play_SFX_GPE_Stele_G2",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_2\\Play_SFX_GPE_Stele_G2",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "58158967",
@@ -1842,7 +1865,7 @@
       "Id": "1585684139",
       "Name": "Play_SFX_GPE_Stele_G3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_3\\Play_SFX_GPE_Stele_G3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "58158967",
@@ -1880,7 +1903,7 @@
       "Id": "3358804830",
       "Name": "Play_SFX_GPE_Stele_GG3",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Chord\\Play_SFX_GPE_Stele_GG3",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "133630538",
@@ -1918,7 +1941,7 @@
       "Id": "4194096238",
       "Name": "Play_SFX_GPE_Stele_Ground_C",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Ground\\Play_SFX_GPE_Stele_Ground_C",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "376816743",
@@ -1932,7 +1955,7 @@
       "Id": "4060242232",
       "Name": "Play_SFX_GPE_Stele_Ground_DS",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Ground\\Play_SFX_GPE_Stele_Ground_DS",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "611766086",
@@ -1946,7 +1969,7 @@
       "Id": "4194096235",
       "Name": "Play_SFX_GPE_Stele_Ground_F",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Ground\\Play_SFX_GPE_Stele_Ground_F",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "155530451",
@@ -1960,7 +1983,7 @@
       "Id": "4194096234",
       "Name": "Play_SFX_GPE_Stele_Ground_G",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Stele\\SFX_GPE_Stele_Ground\\Play_SFX_GPE_Stele_Ground_G",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "463504844",
@@ -1974,7 +1997,7 @@
       "Id": "3201623454",
       "Name": "Play_SFX_GPE_Telek_C_In",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_C_In",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "384809180",
@@ -1994,7 +2017,7 @@
       "Id": "4063519041",
       "Name": "Play_SFX_GPE_Telek_C_Out",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_C_Out",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "1055177857",
@@ -2008,7 +2031,7 @@
       "Id": "2782477296",
       "Name": "Play_SFX_GPE_Telek_DS_In",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_DS_In",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "72119939",
@@ -2028,7 +2051,7 @@
       "Id": "3959271639",
       "Name": "Play_SFX_GPE_Telek_DS_Out",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_DS_Out",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "1025266737",
@@ -2042,7 +2065,7 @@
       "Id": "2178549001",
       "Name": "Play_SFX_GPE_Telek_F_In",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_F_In",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "189226895",
@@ -2062,7 +2085,7 @@
       "Id": "2016507816",
       "Name": "Play_SFX_GPE_Telek_F_Out",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_F_Out",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "436996472",
@@ -2076,7 +2099,7 @@
       "Id": "347234866",
       "Name": "Play_SFX_GPE_Telek_G_In",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_G_In",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "247827927",
@@ -2096,7 +2119,7 @@
       "Id": "2982934029",
       "Name": "Play_SFX_GPE_Telek_G_Out",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Tonal\\Play_SFX_GPE_Telek_G_Out",
-      "MaxAttenuation": "10000.000000",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "762878522",
@@ -2110,6 +2133,7 @@
       "Id": "450895549",
       "Name": "Play_SFX_GPE_Telekinesie",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Rock\\Play_SFX_GPE_Telekinesie",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "175890529",
@@ -2141,6 +2165,7 @@
       "Id": "3636920717",
       "Name": "Play_SFX_GPE_Telekinesie_Finish",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Rock\\Play_SFX_GPE_Telekinesie_Finish",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "355805810",
@@ -3233,7 +3258,7 @@
       "Id": "30825167",
       "Name": "Play_SFX_LE_Basero_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\Play_SFX_LE_Basero_LP",
-      "MaxAttenuation": "950.000000",
+      "MaxAttenuation": "1500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "70124005",
@@ -3299,7 +3324,7 @@
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
-      "MaxAttenuation": "23500.000000"
+      "MaxAttenuation": "20000.000000"
      },
      {
       "Id": "967636871",
@@ -3487,6 +3512,7 @@
       "Id": "437964639",
       "Name": "Stop_SFX_GPE_Telekinesie",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_GPE\\SFX_GPE_Telekinesie\\SFX_GPE_Telekinesie_Rock\\Stop_SFX_GPE_Telekinesie",
+      "MaxAttenuation": "9055.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "622243301",

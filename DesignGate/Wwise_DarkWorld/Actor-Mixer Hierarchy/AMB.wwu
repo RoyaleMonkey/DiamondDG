@@ -644,7 +644,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -703,7 +703,7 @@
 													<Modifier Name="" ID="{42331C53-AB81-4AA3-B4F7-2B6B6684DBEF}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Max" Type="Real64" Value="6"/>
 															<Property Name="Min" Type="Real64" Value="-3"/>
 														</PropertyList>
 													</Modifier>
@@ -1997,7 +1997,7 @@
 													<Modifier Name="" ID="{BAE49AED-5984-4CDD-9F57-3A0A1C5C2DFA}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Max" Type="Real64" Value="7"/>
 															<Property Name="Min" Type="Real64" Value="-3"/>
 														</PropertyList>
 													</Modifier>
@@ -3289,8 +3289,7 @@
 													<Modifier Name="" ID="{05D37417-3E57-44A7-821C-2C8136C6B233}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="4"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -3602,8 +3601,7 @@
 													<Modifier Name="" ID="{33751441-8B65-4FB5-9FC6-48DC2C4D4A4F}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="4"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -3659,7 +3657,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-11</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -8052,7 +8050,7 @@
 						</BlendContainer>
 						<BlendContainer Name="Amb_Wind_Valley" ID="{089F2094-223E-47AB-8058-841CD1561614}" ShortID="93982560">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -8691,6 +8689,11 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -8838,7 +8841,7 @@
 						</Sound>
 						<Sound Name="Amb_Wind_Void" ID="{205626D5-9B22-4C52-A08D-094CBCC92A47}" ShortID="304786668">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">

@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\",
-   "SourceFilesRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
-   "SoundBanksRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\",
+   "SourceFilesRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\.cache\\Windows\\",
+   "SoundBanksRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "J:\\GitSourceTree\\PROJECT\\AVIAN\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "S:\\Logiciel\\Jeu\\GIT\\SourceTree\\DarkAvian\\DesignGate\\Wwise_DarkWorld\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -18,12 +18,6 @@
     "Language": "SFX",
     "ShortName": "Mus_Waterfall_ Fx.wav",
     "Path": "SFX\\Mus_Waterfall_ Fx_0762CC47.wem"
-   },
-   {
-    "Id": "269732270",
-    "Language": "SFX",
-    "ShortName": "Amb_Wind_Forest_LP.wav",
-    "Path": "SFX\\Amb_Wind_Forest_LP_0762CC47.wem"
    },
    {
     "Id": "292638806",
@@ -36,12 +30,6 @@
     "Language": "SFX",
     "ShortName": "Mus_Waterfall_Out.wav",
     "Path": "SFX\\Mus_Waterfall_Out_0762CC47.wem"
-   },
-   {
-    "Id": "447874868",
-    "Language": "SFX",
-    "ShortName": "AMB_LoreCavern_LP.wav",
-    "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
    },
    {
     "Id": "653775956",
@@ -85,63 +73,16 @@
    {
     "Id": "393239870",
     "Language": "SFX",
-    "Hash": "3751215337",
+    "Hash": "1785125101",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
      {
-      "Id": "1178412506",
-      "Name": "Play_Amb_Bird_RFX_BlackBird_TEST_OPTI",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Bird_RFX_BlackBird_TEST_OPTI",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "73167084",
-        "Language": "SFX",
-        "ShortName": "Amb_Bird_RFX_Blackbird_1.wav",
-        "Path": "SFX\\Amb_Bird_RFX_Blackbird_1_D8C07C79.wem"
-       },
-       {
-        "Id": "732604145",
-        "Language": "SFX",
-        "ShortName": "Amb_Bird_RFX_Blackbird_2.wav",
-        "Path": "SFX\\Amb_Bird_RFX_Blackbird_2_D8C07C79.wem"
-       },
-       {
-        "Id": "794979427",
-        "Language": "SFX",
-        "ShortName": "Amb_Bird_RFX_Blackbird_4.wav",
-        "Path": "SFX\\Amb_Bird_RFX_Blackbird_4_D8C07C79.wem"
-       },
-       {
-        "Id": "997414501",
-        "Language": "SFX",
-        "ShortName": "Amb_Bird_RFX_Blackbird_3.wav",
-        "Path": "SFX\\Amb_Bird_RFX_Blackbird_3_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
       "Id": "397786088",
       "Name": "Play_AMB_Collectible_Blue_Spawn",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX_LE\\SFX_Collectible\\Blue\\Play_AMB_Collectible_Blue_Spawn",
       "MaxAttenuation": "6000.000000",
-      "ReferencedStreamedFiles": [
-       {
-        "Id": "447874868",
-        "Language": "SFX",
-        "ShortName": "AMB_LoreCavern_LP.wav",
-        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
-       }
-      ],
       "IncludedMemoryFiles": [
        {
         "Id": "172934826",
@@ -153,16 +94,15 @@
         "Id": "447874868",
         "Language": "SFX",
         "ShortName": "AMB_LoreCavern_LP.wav",
-        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem",
-        "PrefetchSize": "2932"
+        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
        }
       ]
      },
      {
       "Id": "3488501086",
       "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "MaxAttenuation": "8000.000000",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "MaxAttenuation": "6105.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "193220923",
@@ -170,12 +110,19 @@
         "ShortName": "Amb_Lake_Lapping.wav",
         "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2270178643",
+        "Name": "RVB_Cave_Small",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
+       }
       ]
      },
      {
       "Id": "906982068",
       "Name": "Play_Amb_SnakeRattle_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_SnakeRattle_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_SnakeRattle_RFX",
       "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
@@ -3434,7 +3381,7 @@
      {
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_SFX_WaterFall_BIG",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
       "MaxAttenuation": "20000.000000"
      },
      {
@@ -3460,7 +3407,7 @@
      {
       "Id": "1176979258",
       "Name": "Play_Waterfall_blnd_Cavern_Big",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Waterfall_blnd_Cavern_Big",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Waterfall_blnd_Cavern_Big",
       "MaxAttenuation": "13000.000000",
       "IncludedMemoryFiles": [
        {
@@ -5240,7 +5187,7 @@
    {
     "Id": "1075435911",
     "Language": "SFX",
-    "Hash": "4130788087",
+    "Hash": "3085892223",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ZELDA",
     "ShortName": "ZELDA",
     "Path": "ZELDA.bnk",
@@ -5930,7 +5877,7 @@
    {
     "Id": "1167860281",
     "Language": "SFX",
-    "Hash": "4170558374",
+    "Hash": "1230972005",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\FLUTE",
     "ShortName": "FLUTE",
     "Path": "FLUTE.bnk",
@@ -7359,7 +7306,7 @@
    {
     "Id": "3991942870",
     "Language": "SFX",
-    "Hash": "3531997778",
+    "Hash": "397884459",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -7760,16 +7707,15 @@
    {
     "Id": "4056684167",
     "Language": "SFX",
-    "Hash": "241016972",
+    "Hash": "3034461398",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MASTER",
     "ShortName": "MASTER",
     "Path": "MASTER.bnk",
     "IncludedEvents": [
      {
-      "Id": "3275117251",
-      "Name": "Play_Amb_Bat_RFX_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Bat_RFX_01",
-      "MaxAttenuation": "6500.000000",
+      "Id": "2396100607",
+      "Name": "Play_Amb_Bat_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Bat_RFX",
       "IncludedMemoryFiles": [
        {
         "Id": "14694151",
@@ -7807,8 +7753,7 @@
      {
       "Id": "372692456",
       "Name": "Play_Amb_Bat_RFX_OS",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Bat_RFX_OS",
-      "MaxAttenuation": "6500.000000",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Bat_RFX_OS",
       "IncludedMemoryFiles": [
        {
         "Id": "14694151",
@@ -7844,16 +7789,90 @@
       ]
      },
      {
-      "Id": "1991768492",
-      "Name": "Play_Amb_Bird_RFX_BlackBird",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Bird_RFX_BlackBird",
+      "Id": "2695765601",
+      "Name": "Play_Amb_Bird_Serdge",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Bird_Serdge",
+      "MaxAttenuation": "200.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "381930802",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bird_Sedge_2.wav",
+        "Path": "SFX\\AMB_RFX_Bird_Sedge_2_D8C07C79.wem"
+       },
+       {
+        "Id": "829335835",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bird_Sedge_4.wav",
+        "Path": "SFX\\AMB_RFX_Bird_Sedge_4_D8C07C79.wem"
+       },
+       {
+        "Id": "941985229",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bird_Sedge_3.wav",
+        "Path": "SFX\\AMB_RFX_Bird_Sedge_3_D8C07C79.wem"
+       },
+       {
+        "Id": "953674896",
+        "Language": "SFX",
+        "ShortName": "AMB_RFX_Bird_Sedge_1.wav",
+        "Path": "SFX\\AMB_RFX_Bird_Sedge_1_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1413324378",
+      "Name": "Play_Amb_Birds_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Birds_RFX",
       "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
+       {
+        "Id": "4589486",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_2.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_2_D8C07C79.wem"
+       },
+       {
+        "Id": "61142170",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Linnet_1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_1_D8C07C79.wem"
+       },
        {
         "Id": "73167084",
         "Language": "SFX",
         "ShortName": "Amb_Bird_RFX_Blackbird_1.wav",
         "Path": "SFX\\Amb_Bird_RFX_Blackbird_1_D8C07C79.wem"
+       },
+       {
+        "Id": "117827227",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Linnet_3.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_3_D8C07C79.wem"
+       },
+       {
+        "Id": "154782633",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_2.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_2_D8C07C79.wem"
+       },
+       {
+        "Id": "162430193",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_4.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_4_D8C07C79.wem"
+       },
+       {
+        "Id": "163611727",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_3.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_3_D8C07C79.wem"
+       },
+       {
+        "Id": "700779729",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_01.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_01_D8C07C79.wem"
        },
        {
         "Id": "732604145",
@@ -7862,10 +7881,28 @@
         "Path": "SFX\\Amb_Bird_RFX_Blackbird_2_D8C07C79.wem"
        },
        {
+        "Id": "768359527",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_1.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_1_D8C07C79.wem"
+       },
+       {
         "Id": "794979427",
         "Language": "SFX",
         "ShortName": "Amb_Bird_RFX_Blackbird_4.wav",
         "Path": "SFX\\Amb_Bird_RFX_Blackbird_4_D8C07C79.wem"
+       },
+       {
+        "Id": "875510383",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Common_Linnet_2.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_2_D8C07C79.wem"
+       },
+       {
+        "Id": "996016742",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_3.wav",
+        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_3_D8C07C79.wem"
        },
        {
         "Id": "997414501",
@@ -7883,159 +7920,9 @@
       ]
      },
      {
-      "Id": "1178412506",
-      "Name": "Play_Amb_Bird_RFX_BlackBird_TEST_OPTI",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Bird_RFX_BlackBird_TEST_OPTI",
-      "MaxAttenuation": "6500.000000"
-     },
-     {
-      "Id": "880714293",
-      "Name": "Play_Amb_Bird_RFX_Eurasian_Wren",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Bird_RFX_Eurasian_Wren",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "154782633",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_2.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_2_D8C07C79.wem"
-       },
-       {
-        "Id": "768359527",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_1.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_1_D8C07C79.wem"
-       },
-       {
-        "Id": "996016742",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Eurasian_Wren_3.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Eurasian_Wren_3_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "1296848246",
-      "Name": "Play_Amb_Bird_RFX_Linnet",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Bird_RFX_Linnet",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "61142170",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Common_Linnet_1.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_1_D8C07C79.wem"
-       },
-       {
-        "Id": "117827227",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Common_Linnet_3.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_3_D8C07C79.wem"
-       },
-       {
-        "Id": "875510383",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Common_Linnet_2.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Common_Linnet_2_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "2695765601",
-      "Name": "Play_Amb_Bird_Serdge",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Bird_Serdge",
-      "MaxAttenuation": "200.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "381930802",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_2.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_2_D8C07C79.wem"
-       },
-       {
-        "Id": "829335835",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_4.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_4_D8C07C79.wem"
-       },
-       {
-        "Id": "941985229",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_3.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_3_D8C07C79.wem"
-       },
-       {
-        "Id": "953674896",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_1.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_1_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "1106527853",
-      "Name": "Play_Amb_Bird_Serdge_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Bird_Serdge_01",
-      "MaxAttenuation": "200.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "381930802",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_2.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_2_D8C07C79.wem"
-       },
-       {
-        "Id": "829335835",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_4.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_4_D8C07C79.wem"
-       },
-       {
-        "Id": "941985229",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_3.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_3_D8C07C79.wem"
-       },
-       {
-        "Id": "953674896",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Bird_Sedge_1.wav",
-        "Path": "SFX\\AMB_RFX_Bird_Sedge_1_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
       "Id": "1177617482",
       "Name": "Play_Amb_Cave_Critter",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Cave_Critter",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Cave_Critter",
       "MaxAttenuation": "3500.000000",
       "IncludedMemoryFiles": [
        {
@@ -8084,99 +7971,43 @@
       ]
      },
      {
-      "Id": "2649832392",
-      "Name": "Play_Amb_Cave_Critter_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Cave_Critter_01",
-      "MaxAttenuation": "3500.000000",
+      "Id": "3686445418",
+      "Name": "Play_Amb_Cavern",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Cavern",
+      "MaxAttenuation": "8000.000000",
       "IncludedMemoryFiles": [
        {
-        "Id": "30858979",
+        "Id": "977388727",
         "Language": "SFX",
-        "ShortName": "AMB_RFX_Cave_Critter_5.wav",
-        "Path": "SFX\\AMB_RFX_Cave_Critter_5_D8C07C79.wem"
-       },
-       {
-        "Id": "92525567",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Cave_Critter_3.wav",
-        "Path": "SFX\\AMB_RFX_Cave_Critter_3_D8C07C79.wem"
-       },
-       {
-        "Id": "374431017",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Cave_Critter_2.wav",
-        "Path": "SFX\\AMB_RFX_Cave_Critter_2_D8C07C79.wem"
-       },
-       {
-        "Id": "436226302",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Cave_Critter_1.wav",
-        "Path": "SFX\\AMB_RFX_Cave_Critter_1_D8C07C79.wem"
-       },
-       {
-        "Id": "704355372",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Cave_Critter_6.wav",
-        "Path": "SFX\\AMB_RFX_Cave_Critter_6_D8C07C79.wem"
-       },
-       {
-        "Id": "814320669",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Cave_Critter_4.wav",
-        "Path": "SFX\\AMB_RFX_Cave_Critter_4_D8C07C79.wem"
+        "ShortName": "Amb_Int_Cavern_LP.wav",
+        "Path": "SFX\\Amb_Int_Cavern_LP_0762CC47.wem"
        }
-      ],
-      "AuxBusSends": [
+      ]
+     },
+     {
+      "Id": "1521220657",
+      "Name": "Play_Amb_Cavern_Level",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Cavern_Level",
+      "IncludedMemoryFiles": [
        {
-        "Id": "161541955",
-        "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
+        "Id": "977388727",
+        "Language": "SFX",
+        "ShortName": "Amb_Int_Cavern_LP.wav",
+        "Path": "SFX\\Amb_Int_Cavern_LP_0762CC47.wem"
        }
       ]
      },
      {
       "Id": "3623306286",
       "Name": "Play_Amb_CavernLore",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_CavernLore",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_CavernLore",
       "MaxAttenuation": "3500.000000",
-      "ReferencedStreamedFiles": [
-       {
-        "Id": "447874868",
-        "Language": "SFX",
-        "ShortName": "AMB_LoreCavern_LP.wav",
-        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
-       }
-      ],
       "IncludedMemoryFiles": [
        {
         "Id": "447874868",
         "Language": "SFX",
         "ShortName": "AMB_LoreCavern_LP.wav",
-        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem",
-        "PrefetchSize": "2932"
-       }
-      ]
-     },
-     {
-      "Id": "2699932348",
-      "Name": "Play_Amb_CavernLore_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_CavernLore_01",
-      "MaxAttenuation": "3500.000000",
-      "ReferencedStreamedFiles": [
-       {
-        "Id": "447874868",
-        "Language": "SFX",
-        "ShortName": "AMB_LoreCavern_LP.wav",
         "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
-       }
-      ],
-      "IncludedMemoryFiles": [
-       {
-        "Id": "447874868",
-        "Language": "SFX",
-        "ShortName": "AMB_LoreCavern_LP.wav",
-        "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem",
-        "PrefetchSize": "2932"
        }
       ]
      },
@@ -8189,21 +8020,7 @@
      {
       "Id": "2982907204",
       "Name": "Play_Amb_Drip_Cavern",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Drip_Cavern",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "938665294",
-        "Language": "SFX",
-        "ShortName": "AMB_Drip_Cavern_LP.wav",
-        "Path": "SFX\\AMB_Drip_Cavern_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1211156714",
-      "Name": "Play_Amb_Drip_Cavern_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Drip_Cavern_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Drip_Cavern",
       "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
@@ -8217,7 +8034,7 @@
      {
       "Id": "172812343",
       "Name": "Play_Amb_Fall_Dirt_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Fall_Dirt_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Fall_Dirt_RFX",
       "MaxAttenuation": "1500.000000",
       "IncludedMemoryFiles": [
        {
@@ -8248,43 +8065,20 @@
       ]
      },
      {
-      "Id": "1681517504",
-      "Name": "Play_Amb_Fall_Rocks_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Fall_Rocks_RFX",
-      "MaxAttenuation": "1500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "370379099",
-        "Language": "SFX",
-        "ShortName": "SFX_Rock_Fall_03.wav",
-        "Path": "SFX\\SFX_Rock_Fall_03_D8C07C79.wem"
-       },
-       {
-        "Id": "624963130",
-        "Language": "SFX",
-        "ShortName": "SFX_Rock_Fall_04.wav",
-        "Path": "SFX\\SFX_Rock_Fall_04_D8C07C79.wem"
-       },
-       {
-        "Id": "833547020",
-        "Language": "SFX",
-        "ShortName": "SFX_Rock_Fall_01.wav",
-        "Path": "SFX\\SFX_Rock_Fall_01_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "161541955",
-        "Name": "RVB_Cave_Medium",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Medium"
-       }
-      ]
+      "Id": "994146778",
+      "Name": "Play_Amb_Forest",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Forest"
      },
      {
-      "Id": "1111132660",
-      "Name": "Play_Amb_Frog_RFX_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Frog_RFX_01",
-      "MaxAttenuation": "8000.000000",
+      "Id": "570117905",
+      "Name": "Play_Amb_Fountain",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Fountain"
+     },
+     {
+      "Id": "2577208230",
+      "Name": "Play_Amb_Frog_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Frog_RFX",
+      "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "409538992",
@@ -8322,19 +8116,12 @@
         "ShortName": "AMB_RFX_Frog_3.wav",
         "Path": "SFX\\AMB_RFX_Frog_3_D8C07C79.wem"
        }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
       ]
      },
      {
-      "Id": "1111132663",
-      "Name": "Play_Amb_Frog_RFX_02",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Frog_RFX_02",
+      "Id": "322584507",
+      "Name": "Play_Amb_Frog_RFX_OS",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Frog_RFX_OS",
       "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
@@ -8383,78 +8170,9 @@
       ]
      },
      {
-      "Id": "4257799471",
-      "Name": "Play_Amb_Int_Cavern_LP",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Int_Cavern_LP",
-      "MaxAttenuation": "8000.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "977388727",
-        "Language": "SFX",
-        "ShortName": "Amb_Int_Cavern_LP.wav",
-        "Path": "SFX\\Amb_Int_Cavern_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2480501299",
-      "Name": "Play_Amb_Int_Cavern_LP_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Int_Cavern_LP_01",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "977388727",
-        "Language": "SFX",
-        "ShortName": "Amb_Int_Cavern_LP.wav",
-        "Path": "SFX\\Amb_Int_Cavern_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
       "Id": "4124567974",
       "Name": "Play_Amb_Lake_Lapping",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Lake_Lapping",
-      "MaxAttenuation": "6105.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "193220923",
-        "Language": "SFX",
-        "ShortName": "Amb_Lake_Lapping.wav",
-        "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "2270178643",
-        "Name": "RVB_Cave_Small",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
-       }
-      ]
-     },
-     {
-      "Id": "2937666548",
-      "Name": "Play_Amb_Lake_Lapping_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Lake_Lapping_01",
-      "MaxAttenuation": "6105.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "193220923",
-        "Language": "SFX",
-        "ShortName": "Amb_Lake_Lapping.wav",
-        "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "2270178643",
-        "Name": "RVB_Cave_Small",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
-       }
-      ]
-     },
-     {
-      "Id": "2937666551",
-      "Name": "Play_Amb_Lake_Lapping_02",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Lake_Lapping_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping",
       "MaxAttenuation": "8000.000000",
       "IncludedMemoryFiles": [
        {
@@ -8462,34 +8180,13 @@
         "Language": "SFX",
         "ShortName": "Amb_Lake_Lapping.wav",
         "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2937666550",
-      "Name": "Play_Amb_Lake_Lapping_03",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Lake_Lapping_03",
-      "MaxAttenuation": "6105.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "193220923",
-        "Language": "SFX",
-        "ShortName": "Amb_Lake_Lapping.wav",
-        "Path": "SFX\\Amb_Lake_Lapping_0762CC47.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "2270178643",
-        "Name": "RVB_Cave_Small",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
        }
       ]
      },
      {
       "Id": "3887990129",
       "Name": "Play_Amb_Lake_Lapping_Little",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Lake_Lapping_Little",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little",
       "MaxAttenuation": "6105.000000",
       "IncludedMemoryFiles": [
        {
@@ -8510,199 +8207,29 @@
      {
       "Id": "3488501086",
       "Name": "Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
-      "MaxAttenuation": "8000.000000"
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_Lapping_Little_Big_Cavern",
+      "MaxAttenuation": "6105.000000"
+     },
+     {
+      "Id": "832042763",
+      "Name": "Play_Amb_Lake_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Lake_LP"
      },
      {
       "Id": "3429545583",
       "Name": "Play_Amb_Rat_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Rat_RFX",
-      "MaxAttenuation": "6500.000000"
-     },
-     {
-      "Id": "4176022643",
-      "Name": "Play_Amb_Rat_RFX_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Rat_RFX_01",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "18332290",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Rat_4.wav",
-        "Path": "SFX\\AMB_RFX_Rat_4_D8C07C79.wem"
-       },
-       {
-        "Id": "149070518",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Rat_2.wav",
-        "Path": "SFX\\AMB_RFX_Rat_2_D8C07C79.wem"
-       },
-       {
-        "Id": "176291993",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Rat_1.wav",
-        "Path": "SFX\\AMB_RFX_Rat_1_D8C07C79.wem"
-       },
-       {
-        "Id": "196348357",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Rat_5.wav",
-        "Path": "SFX\\AMB_RFX_Rat_5_D8C07C79.wem"
-       },
-       {
-        "Id": "952765744",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_Rat_3.wav",
-        "Path": "SFX\\AMB_RFX_Rat_3_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "1582291669",
-      "Name": "Play_Amb_RFX_Bird_Dead_Sea_Sparrow",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_RFX_Bird_Dead_Sea_Sparrow",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "4589486",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_2.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_2_D8C07C79.wem"
-       },
-       {
-        "Id": "162430193",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_4.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_4_D8C07C79.wem"
-       },
-       {
-        "Id": "163611727",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_3.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_3_D8C07C79.wem"
-       },
-       {
-        "Id": "700779729",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Dead_Sea_Sparrow_01.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Dead_Sea_Sparrow_01_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "3855072827",
-      "Name": "Play_Amb_RFX_Bird_Whitethroat",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_RFX_Bird_Whitethroat",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "613797165",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_4.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_4_D8C07C79.wem"
-       },
-       {
-        "Id": "867267790",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_2.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_2_D8C07C79.wem"
-       },
-       {
-        "Id": "882603162",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_01.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_01_D8C07C79.wem"
-       },
-       {
-        "Id": "934041566",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Bird_Whitethroat_3.wav",
-        "Path": "SFX\\Amb_RFX_Bird_Whitethroat_3_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Rat_RFX"
      },
      {
       "Id": "906982068",
       "Name": "Play_Amb_SnakeRattle_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_SnakeRattle_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_SnakeRattle_RFX",
       "MaxAttenuation": "6500.000000"
      },
      {
-      "Id": "3801455770",
-      "Name": "Play_Amb_SnakeRattle_RFX_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_SnakeRattle_RFX_01",
-      "MaxAttenuation": "6500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "714297343",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_SnakeRattle_6.wav",
-        "Path": "SFX\\AMB_RFX_SnakeRattle_6_D8C07C79.wem"
-       },
-       {
-        "Id": "892140746",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_SnakeRattle_5.wav",
-        "Path": "SFX\\AMB_RFX_SnakeRattle_5_D8C07C79.wem"
-       },
-       {
-        "Id": "945396998",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_SnakeRattle_1.wav",
-        "Path": "SFX\\AMB_RFX_SnakeRattle_1_D8C07C79.wem"
-       },
-       {
-        "Id": "973033970",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_SnakeRattle_3.wav",
-        "Path": "SFX\\AMB_RFX_SnakeRattle_3_D8C07C79.wem"
-       },
-       {
-        "Id": "985361885",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_SnakeRattle_2.wav",
-        "Path": "SFX\\AMB_RFX_SnakeRattle_2_D8C07C79.wem"
-       },
-       {
-        "Id": "1060522671",
-        "Language": "SFX",
-        "ShortName": "AMB_RFX_SnakeRattle_4.wav",
-        "Path": "SFX\\AMB_RFX_SnakeRattle_4_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "2270178643",
-        "Name": "RVB_Cave_Small",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_Cave_Small"
-       }
-      ]
-     },
-     {
-      "Id": "3253069768",
-      "Name": "Play_Amb_Water_Drip",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Water_Drip",
+      "Id": "3619535171",
+      "Name": "Play_Amb_Water_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Water_RFX",
       "MaxAttenuation": "6500.000000",
       "IncludedMemoryFiles": [
        {
@@ -8714,36 +8241,9 @@
       ]
      },
      {
-      "Id": "3160578091",
-      "Name": "Play_Amb_Wind_Base_layer",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Wind_Base_layer",
-      "MaxAttenuation": "10000.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "45234010",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Valley_LP.wav",
-        "Path": "SFX\\AMB_Wind_Valley_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1932165212",
-      "Name": "Play_Amb_Wind_Forest_LP",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Wind_Forest_LP",
-      "ReferencedStreamedFiles": [
-       {
-        "Id": "269732270",
-        "Language": "SFX",
-        "ShortName": "Amb_Wind_Forest_LP.wav",
-        "Path": "SFX\\Amb_Wind_Forest_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
       "Id": "540871045",
       "Name": "Play_Amb_Wind_Howling_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Wind_Howling_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Howling_RFX",
       "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
@@ -8785,97 +8285,9 @@
       ]
      },
      {
-      "Id": "4162627489",
-      "Name": "Play_Amb_Wind_Howling_RFX_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Wind_Howling_RFX_01",
-      "MaxAttenuation": "10000.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "306243768",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_5.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_5_D8C07C79.wem"
-       },
-       {
-        "Id": "425133638",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_1.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_1_D8C07C79.wem"
-       },
-       {
-        "Id": "440308598",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_4.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_4_D8C07C79.wem"
-       },
-       {
-        "Id": "529781311",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_6.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_6_D8C07C79.wem"
-       },
-       {
-        "Id": "843512823",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_3.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_3_D8C07C79.wem"
-       },
-       {
-        "Id": "861360394",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_2.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_2_D8C07C79.wem"
-       }
-      ]
-     },
-     {
-      "Id": "4162627490",
-      "Name": "Play_Amb_Wind_Howling_RFX_02",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Wind_Howling_RFX_02",
-      "MaxAttenuation": "10000.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "306243768",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_5.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_5_D8C07C79.wem"
-       },
-       {
-        "Id": "425133638",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_1.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_1_D8C07C79.wem"
-       },
-       {
-        "Id": "440308598",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_4.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_4_D8C07C79.wem"
-       },
-       {
-        "Id": "529781311",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_6.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_6_D8C07C79.wem"
-       },
-       {
-        "Id": "843512823",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_3.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_3_D8C07C79.wem"
-       },
-       {
-        "Id": "861360394",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Howling_RFX_2.wav",
-        "Path": "SFX\\AMB_Wind_Howling_RFX_2_D8C07C79.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2118539834",
-      "Name": "Play_Amb_Wind_Valley_Blnd",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Valley_Blnd",
+      "Id": "4244289267",
+      "Name": "Play_Amb_Wind_Valley",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Valley",
       "MaxAttenuation": "10000.000000",
       "IncludedMemoryFiles": [
        {
@@ -8967,7 +8379,7 @@
      {
       "Id": "305604352",
       "Name": "Play_Amb_Wind_Void",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_Amb_Wind_Void",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Amb_Wind_Void",
       "MaxAttenuation": "5000.000000",
       "IncludedMemoryFiles": [
        {
@@ -8975,70 +8387,6 @@
         "Language": "SFX",
         "ShortName": "AMB_Cavern_void_LP.wav",
         "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
-      "Id": "995698102",
-      "Name": "Play_Amb_Wind_Void_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\AMB LP\\Play_Amb_Wind_Void_01",
-      "MaxAttenuation": "5000.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "735267049",
-        "Language": "SFX",
-        "ShortName": "AMB_Cavern_void_LP.wav",
-        "Path": "SFX\\AMB_Cavern_void_LP_0762CC47.wem"
-       }
-      ]
-     },
-     {
-      "Id": "4155198531",
-      "Name": "Play_Amb_Wind_Woosh_RFX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_Amb_Wind_Woosh_RFX",
-      "MaxAttenuation": "10000.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "84461640",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Woosh_1.wav",
-        "Path": "SFX\\AMB_Wind_Woosh_1_D8C07C79.wem"
-       },
-       {
-        "Id": "262062722",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Woosh_6.wav",
-        "Path": "SFX\\AMB_Wind_Woosh_6_D8C07C79.wem"
-       },
-       {
-        "Id": "464762509",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Woosh_3.wav",
-        "Path": "SFX\\AMB_Wind_Woosh_3_D8C07C79.wem"
-       },
-       {
-        "Id": "500368980",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Woosh_4.wav",
-        "Path": "SFX\\AMB_Wind_Woosh_4_D8C07C79.wem"
-       },
-       {
-        "Id": "848827159",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Woosh_5.wav",
-        "Path": "SFX\\AMB_Wind_Woosh_5_D8C07C79.wem"
-       },
-       {
-        "Id": "919202679",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Woosh_2.wav",
-        "Path": "SFX\\AMB_Wind_Woosh_2_D8C07C79.wem"
-       },
-       {
-        "Id": "990263423",
-        "Language": "SFX",
-        "ShortName": "AMB_Wind_Woosh_7.wav",
-        "Path": "SFX\\AMB_Wind_Woosh_7_D8C07C79.wem"
        }
       ]
      },
@@ -9052,6 +8400,141 @@
         "Language": "SFX",
         "ShortName": "AmbT_Pad_Zelda.wav",
         "Path": "SFX\\AmbT_Pad_Zelda_0762CC47.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1075472767",
+      "Name": "Play_Insect_RFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Insect_RFX",
+      "MaxAttenuation": "3500.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "79269412",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem"
+       },
+       {
+        "Id": "101981967",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem"
+       },
+       {
+        "Id": "201495576",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem"
+       },
+       {
+        "Id": "209477513",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem"
+       },
+       {
+        "Id": "210186342",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_03.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem"
+       },
+       {
+        "Id": "367785812",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_04.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem"
+       },
+       {
+        "Id": "450701258",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_03.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem"
+       },
+       {
+        "Id": "456137261",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_06.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem"
+       },
+       {
+        "Id": "483271574",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_B_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem"
+       },
+       {
+        "Id": "532737880",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem"
+       },
+       {
+        "Id": "689684698",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_10.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem"
+       },
+       {
+        "Id": "697869690",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_A_06.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem"
+       },
+       {
+        "Id": "768527910",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem"
+       },
+       {
+        "Id": "771849626",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Grasshopper_B_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem"
+       },
+       {
+        "Id": "815945173",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_04.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem"
+       },
+       {
+        "Id": "884753223",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_14.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem"
+       },
+       {
+        "Id": "919915685",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_H_05.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem"
+       },
+       {
+        "Id": "929734054",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_01.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem"
+       },
+       {
+        "Id": "1008890909",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_G_02.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem"
+       },
+       {
+        "Id": "1023739985",
+        "Language": "SFX",
+        "ShortName": "Amb_RFX_Insect_Cricket_F_07.wav",
+        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1566008239",
+        "Name": "RVB_FOREST",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
        }
       ]
      },
@@ -13172,186 +12655,6 @@
       ]
      },
      {
-      "Id": "3189966310",
-      "Name": "Play_RFX_Insect_Cricket_F",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_RFX_Insect_Cricket_F",
-      "MaxAttenuation": "3500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "101981967",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_F_02.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_02_D8C07C79.wem"
-       },
-       {
-        "Id": "456137261",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_F_06.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_06_D8C07C79.wem"
-       },
-       {
-        "Id": "689684698",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_F_10.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_10_D8C07C79.wem"
-       },
-       {
-        "Id": "884753223",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_F_14.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_14_D8C07C79.wem"
-       },
-       {
-        "Id": "1023739985",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_F_07.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_F_07_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "3189966311",
-      "Name": "Play_RFX_Insect_Cricket_G",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_RFX_Insect_Cricket_G",
-      "MaxAttenuation": "3500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "79269412",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_G_05.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_05_D8C07C79.wem"
-       },
-       {
-        "Id": "210186342",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_G_03.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_03_D8C07C79.wem"
-       },
-       {
-        "Id": "815945173",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_G_04.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_04_D8C07C79.wem"
-       },
-       {
-        "Id": "929734054",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_G_01.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_01_D8C07C79.wem"
-       },
-       {
-        "Id": "1008890909",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_G_02.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_G_02_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "3189966312",
-      "Name": "Play_RFX_Insect_Cricket_H",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_RFX_Insect_Cricket_H",
-      "MaxAttenuation": "3500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "209477513",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_H_02.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_02_D8C07C79.wem"
-       },
-       {
-        "Id": "367785812",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_H_04.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_04_D8C07C79.wem"
-       },
-       {
-        "Id": "450701258",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_H_03.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_03_D8C07C79.wem"
-       },
-       {
-        "Id": "768527910",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_H_01.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_01_D8C07C79.wem"
-       },
-       {
-        "Id": "919915685",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Cricket_H_05.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Cricket_H_05_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
-      "Id": "4156947360",
-      "Name": "Play_RFX_Insect_Grasshopper",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\NEW AMB RFX\\Play_RFX_Insect_Grasshopper",
-      "MaxAttenuation": "3500.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "201495576",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Grasshopper_A_01.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_01_D8C07C79.wem"
-       },
-       {
-        "Id": "483271574",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Grasshopper_B_01.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_01_D8C07C79.wem"
-       },
-       {
-        "Id": "532737880",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Grasshopper_A_05.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_05_D8C07C79.wem"
-       },
-       {
-        "Id": "697869690",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Grasshopper_A_06.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_A_06_D8C07C79.wem"
-       },
-       {
-        "Id": "771849626",
-        "Language": "SFX",
-        "ShortName": "Amb_RFX_Insect_Grasshopper_B_02.wav",
-        "Path": "SFX\\Amb_RFX_Insect_Grasshopper_B_02_D8C07C79.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1566008239",
-        "Name": "RVB_FOREST",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\RVB_FOREST"
-       }
-      ]
-     },
-     {
       "Id": "1583121471",
       "Name": "Play_RoyaleMonkey_Logo",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_RoyaleMonkey_Logo",
@@ -13406,7 +12709,7 @@
      {
       "Id": "2590190883",
       "Name": "Play_SFX_WaterFall_BIG",
-      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\OLD AMB RFX\\Play_SFX_WaterFall_BIG",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_SFX_WaterFall_BIG",
       "MaxAttenuation": "20000.000000",
       "IncludedMemoryFiles": [
        {
@@ -13515,6 +12818,12 @@
       "MaxAttenuation": "0.000000"
      },
      {
+      "Id": "3516178482",
+      "Name": "Stop_Amb_Lake",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Stop_Amb_Lake",
+      "MaxAttenuation": "0.000000"
+     },
+     {
       "Id": "3181251971",
       "Name": "Stop_DarkWorld_Zelda_Pad",
       "ObjectPath": "\\Events\\Default Work Unit\\Amb_Tonal\\Stop_DarkWorld_Zelda_Pad",
@@ -13562,13 +12871,7 @@
     ],
     "ReferencedStreamedFiles": [
      {
-      "Id": "269732270"
-     },
-     {
       "Id": "292638806"
-     },
-     {
-      "Id": "447874868"
      }
     ],
     "IncludedMemoryFiles": [
@@ -14500,8 +13803,7 @@
       "Id": "447874868",
       "Language": "SFX",
       "ShortName": "AMB_LoreCavern_LP.wav",
-      "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem",
-      "PrefetchSize": "2932"
+      "Path": "SFX\\AMB_LoreCavern_LP_0762CC47.wem"
      },
      {
       "Id": "450701258",
@@ -14844,12 +14146,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Wood_Land_04.wav",
       "Path": "SFX\\SFX_MC_FT_Wood_Land_04_D8C07C79.wem"
-     },
-     {
-      "Id": "613797165",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_4.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_4_D8C07C79.wem"
      },
      {
       "Id": "614695433",
@@ -15494,12 +14790,6 @@
       "Path": "SFX\\AMB_RFX_Bat_2_5242D464.wem"
      },
      {
-      "Id": "867267790",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_2.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_2_D8C07C79.wem"
-     },
-     {
       "Id": "869242387",
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Land_01.wav",
@@ -15516,12 +14806,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Water_Shallow_Run_09.wav",
       "Path": "SFX\\SFX_MC_FT_Water_Shallow_Run_09_D8C07C79.wem"
-     },
-     {
-      "Id": "882603162",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_01.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_01_D8C07C79.wem"
      },
      {
       "Id": "884753223",
@@ -15648,12 +14932,6 @@
       "Language": "SFX",
       "ShortName": "SFX_MC_FT_Grass_Short_Debris_10.wav",
       "Path": "SFX\\SFX_MC_FT_Grass_Short_Debris_10_D8C07C79.wem"
-     },
-     {
-      "Id": "934041566",
-      "Language": "SFX",
-      "ShortName": "Amb_RFX_Bird_Whitethroat_3.wav",
-      "Path": "SFX\\Amb_RFX_Bird_Whitethroat_3_D8C07C79.wem"
      },
      {
       "Id": "935116845",

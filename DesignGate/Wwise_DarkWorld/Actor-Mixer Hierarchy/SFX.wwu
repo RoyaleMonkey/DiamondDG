@@ -10882,7 +10882,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -10911,7 +10911,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -10938,9 +10938,10 @@
 								</Sound>
 								<Sound Name="SFX_LE_Whale_Dive_In" ID="{660758B7-31AB-44F3-AE43-45EAD91C85FB}" ShortID="136955282">
 									<PropertyList>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-23</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -10950,6 +10951,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -10967,11 +10971,13 @@
 								</Sound>
 								<RandomSequenceContainer Name="SFX_LE_Whale_Wings" ID="{B4D2E7ED-B84C-4348-9A08-190CAA422F23}" ShortID="699810464">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -10981,6 +10987,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RVB_FOREST" ID="{F8EE4D53-5E51-4E39-8C5F-869E91A8052A}" WorkUnitID="{300DE984-CA09-4B80-91B1-BD2812E93453}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -10995,6 +11004,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_Whale_Wing_1" ID="{F078636A-363C-45A9-9437-8B8B3D674E4E}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.586090967465753"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_Whale_Wing_1.wav</AudioFile>
 													<MediaIDList>
@@ -11017,6 +11031,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_Whale_Wing_2" ID="{BF998138-009E-41BF-9110-AE3C6F002C0B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.754184503424657"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_Whale_Wing_2.wav</AudioFile>
 													<MediaIDList>
@@ -11039,6 +11058,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_Whale_Wing_3" ID="{579B9583-8366-41B8-9694-8600031A9D3E}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.915918057933792"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_Whale_Wing_3.wav</AudioFile>
 													<MediaIDList>
@@ -11061,6 +11085,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_Whale_Wing_4" ID="{0E480D1B-5E0A-4EFD-9ED6-55757857F97D}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.575911815068493"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_Whale_Wing_4.wav</AudioFile>
 													<MediaIDList>
@@ -11083,6 +11112,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_Whale_Wing_5" ID="{0F42D736-FD82-4EF3-91D7-008DD83ED2FC}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.488875214041096"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_Whale_Wing_5.wav</AudioFile>
 													<MediaIDList>
@@ -11105,6 +11139,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AMB_Whale_Wing_6" ID="{0CEFC71D-5484-4E96-A8E8-EBEFC3219A22}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.701732234589041"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>AMB_Whale_Wing_6.wav</AudioFile>
 													<MediaIDList>

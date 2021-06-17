@@ -48,7 +48,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1683689303">
+		<SoundBank Id="393239870" Language="SFX" Hash="670173739">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -2123,6 +2123,9 @@
 							<Path>SFX\AMB_Whale_Sing_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3270877144" Name="Play_SFX_LE_Whale_Water_Blow" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Whale_Water_Blow">
 					<IncludedMemoryFiles>
@@ -2136,29 +2139,32 @@
 					<IncludedMemoryFiles>
 						<File Id="83363388" Language="SFX">
 							<ShortName>AMB_Whale_Wing_1.wav</ShortName>
-							<Path>SFX\AMB_Whale_Wing_1_D8C07C79.wem</Path>
+							<Path>SFX\AMB_Whale_Wing_1_ABFC6026.wem</Path>
 						</File>
 						<File Id="300014115" Language="SFX">
 							<ShortName>AMB_Whale_Wing_6.wav</ShortName>
-							<Path>SFX\AMB_Whale_Wing_6_D8C07C79.wem</Path>
+							<Path>SFX\AMB_Whale_Wing_6_CE1F993B.wem</Path>
 						</File>
 						<File Id="651020931" Language="SFX">
 							<ShortName>AMB_Whale_Wing_2.wav</ShortName>
-							<Path>SFX\AMB_Whale_Wing_2_D8C07C79.wem</Path>
+							<Path>SFX\AMB_Whale_Wing_2_98928ABA.wem</Path>
 						</File>
 						<File Id="853314946" Language="SFX">
 							<ShortName>AMB_Whale_Wing_5.wav</ShortName>
-							<Path>SFX\AMB_Whale_Wing_5_D8C07C79.wem</Path>
+							<Path>SFX\AMB_Whale_Wing_5_C7E12B03.wem</Path>
 						</File>
 						<File Id="870686688" Language="SFX">
 							<ShortName>AMB_Whale_Wing_4.wav</ShortName>
-							<Path>SFX\AMB_Whale_Wing_4_D8C07C79.wem</Path>
+							<Path>SFX\AMB_Whale_Wing_4_EC2CEDD9.wem</Path>
 						</File>
 						<File Id="1071421019" Language="SFX">
 							<ShortName>AMB_Whale_Wing_3.wav</ShortName>
-							<Path>SFX\AMB_Whale_Wing_3_D8C07C79.wem</Path>
+							<Path>SFX\AMB_Whale_Wing_3_DF6DDA82.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1566008239" Name="RVB_FOREST" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_FOREST"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1396017883" Name="Play_SFX_Statue_Destruction_1" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_1"/>
 				<Event Id="1396017880" Name="Play_SFX_Statue_Destruction_2" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_2"/>
@@ -2352,7 +2358,7 @@
 				</File>
 				<File Id="83363388" Language="SFX">
 					<ShortName>AMB_Whale_Wing_1.wav</ShortName>
-					<Path>SFX\AMB_Whale_Wing_1_D8C07C79.wem</Path>
+					<Path>SFX\AMB_Whale_Wing_1_ABFC6026.wem</Path>
 				</File>
 				<File Id="85145748" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS4.wav</ShortName>
@@ -2576,7 +2582,7 @@
 				</File>
 				<File Id="300014115" Language="SFX">
 					<ShortName>AMB_Whale_Wing_6.wav</ShortName>
-					<Path>SFX\AMB_Whale_Wing_6_D8C07C79.wem</Path>
+					<Path>SFX\AMB_Whale_Wing_6_CE1F993B.wem</Path>
 				</File>
 				<File Id="309400106" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_C2.wav</ShortName>
@@ -2904,7 +2910,7 @@
 				</File>
 				<File Id="651020931" Language="SFX">
 					<ShortName>AMB_Whale_Wing_2.wav</ShortName>
-					<Path>SFX\AMB_Whale_Wing_2_D8C07C79.wem</Path>
+					<Path>SFX\AMB_Whale_Wing_2_98928ABA.wem</Path>
 				</File>
 				<File Id="655731917" Language="SFX">
 					<ShortName>SFX_GPE_ToyPlant_Chimes_C1.wav</ShortName>
@@ -3060,7 +3066,7 @@
 				</File>
 				<File Id="853314946" Language="SFX">
 					<ShortName>AMB_Whale_Wing_5.wav</ShortName>
-					<Path>SFX\AMB_Whale_Wing_5_D8C07C79.wem</Path>
+					<Path>SFX\AMB_Whale_Wing_5_C7E12B03.wem</Path>
 				</File>
 				<File Id="854186318" Language="SFX">
 					<ShortName>SFX_GPE_Stele_Butterfly_DS1.wav</ShortName>
@@ -3096,7 +3102,7 @@
 				</File>
 				<File Id="870686688" Language="SFX">
 					<ShortName>AMB_Whale_Wing_4.wav</ShortName>
-					<Path>SFX\AMB_Whale_Wing_4_D8C07C79.wem</Path>
+					<Path>SFX\AMB_Whale_Wing_4_EC2CEDD9.wem</Path>
 				</File>
 				<File Id="880595821" Language="SFX">
 					<ShortName>SFX_GPE_Butterfly_LP_A4.wav</ShortName>
@@ -3280,7 +3286,7 @@
 				</File>
 				<File Id="1071421019" Language="SFX">
 					<ShortName>AMB_Whale_Wing_3.wav</ShortName>
-					<Path>SFX\AMB_Whale_Wing_3_D8C07C79.wem</Path>
+					<Path>SFX\AMB_Whale_Wing_3_DF6DDA82.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>

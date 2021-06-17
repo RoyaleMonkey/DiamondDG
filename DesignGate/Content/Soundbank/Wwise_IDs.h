@@ -29,6 +29,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_CAVERN = 3686445418U;
         static const AkUniqueID PLAY_AMB_CAVERN_LEVEL = 1521220657U;
         static const AkUniqueID PLAY_AMB_CAVERNLORE = 3623306286U;
+        static const AkUniqueID PLAY_AMB_COLLECTIBLE_BLUE_SPAWN = 397786088U;
         static const AkUniqueID PLAY_AMB_DRIP_CAVERN = 2982907204U;
         static const AkUniqueID PLAY_AMB_FALL_DIRT_RFX = 172812343U;
         static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
@@ -225,6 +226,7 @@ namespace AK
         static const AkUniqueID SET_STATE_WATERFALL_3RD = 1171744134U;
         static const AkUniqueID SET_STATE_WATERFALL_OUT = 1078101995U;
         static const AkUniqueID SET_UNPAUSE = 4170605783U;
+        static const AkUniqueID STOP_AMB_COLLECTIBLE_BLUE_SPAWN = 3746312350U;
         static const AkUniqueID STOP_AMB_LAKE = 3516178482U;
         static const AkUniqueID STOP_DARKWORLD_ZELDA_PAD = 3181251971U;
         static const AkUniqueID STOP_MC_SOFT_FALLING = 4170786443U;

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>S:\Logiciel\Jeu\GIT\SourceTree\DarkAvian\DesignGate\Wwise_DarkWorld\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3111188788">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1345348484">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -112,6 +112,7 @@
 				</Event>
 				<Event Id="1521220657" Name="Play_Amb_Cavern_Level" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Cavern_Level"/>
 				<Event Id="3623306286" Name="Play_Amb_CavernLore" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_CavernLore" MaxAttenuation="3500.000000"/>
+				<Event Id="397786088" Name="Play_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_AMB_Collectible_Blue_Spawn" MaxAttenuation="6000.000000"/>
 				<Event Id="2982907204" Name="Play_Amb_Drip_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Drip_Cavern" MaxAttenuation="6500.000000"/>
 				<Event Id="172812343" Name="Play_Amb_Fall_Dirt_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Fall_Dirt_RFX" MaxAttenuation="1500.000000">
 					<IncludedMemoryFiles>
@@ -162,14 +163,14 @@
 				</Event>
 				<Event Id="322584507" Name="Play_Amb_Frog_RFX_OS" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Frog_RFX_OS" MaxAttenuation="6500.000000"/>
 				<Event Id="4124567974" Name="Play_Amb_Lake_Lapping" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping" MaxAttenuation="8000.000000"/>
-				<Event Id="3887990129" Name="Play_Amb_Lake_Lapping_Little" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little" MaxAttenuation="8000.000000"/>
-				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="8000.000000"/>
+				<Event Id="3887990129" Name="Play_Amb_Lake_Lapping_Little" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little" MaxAttenuation="6105.000000"/>
+				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="6105.000000"/>
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP"/>
 				<Event Id="3429545583" Name="Play_Amb_Rat_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Rat_RFX"/>
 				<Event Id="906982068" Name="Play_Amb_SnakeRattle_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_SnakeRattle_RFX" MaxAttenuation="6500.000000"/>
 				<Event Id="3619535171" Name="Play_Amb_Water_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Water_RFX" MaxAttenuation="6500.000000"/>
-				<Event Id="540871045" Name="Play_Amb_Wind_Howling_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Howling_RFX" MaxAttenuation="7500.000000"/>
-				<Event Id="4244289267" Name="Play_Amb_Wind_Valley" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Valley" MaxAttenuation="7500.000000">
+				<Event Id="540871045" Name="Play_Amb_Wind_Howling_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Howling_RFX" MaxAttenuation="10000.000000"/>
+				<Event Id="4244289267" Name="Play_Amb_Wind_Valley" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Valley" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="45234010" Language="SFX">
 							<ShortName>AMB_Wind_Valley_LP.wav</ShortName>
@@ -229,7 +230,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="305604352" Name="Play_Amb_Wind_Void" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Void" MaxAttenuation="5500.000000">
+				<Event Id="305604352" Name="Play_Amb_Wind_Void" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Void" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="735267049" Language="SFX">
 							<ShortName>AMB_Cavern_void_LP.wav</ShortName>
@@ -390,6 +391,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3746312350" Name="Stop_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Stop_AMB_Collectible_Blue_Spawn" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
 				<Event Id="4170786443" Name="Stop_MC_Soft_Falling" ObjectPath="\Events\Default Work Unit\MC\Stop_MC_Soft_Falling" MaxAttenuation="0.000000"/>
 				<Event Id="1977485633" Name="Volume_AmbT_Pad_Zelda" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Volume_AmbT_Pad_Zelda" MaxAttenuation="0.000000"/>

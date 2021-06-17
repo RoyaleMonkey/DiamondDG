@@ -48,12 +48,24 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="4195896571">
+		<SoundBank Id="393239870" Language="SFX" Hash="1785125101">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="8000.000000">
+				<Event Id="397786088" Name="Play_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_AMB_Collectible_Blue_Spawn" MaxAttenuation="6000.000000">
+					<IncludedMemoryFiles>
+						<File Id="172934826" Language="SFX">
+							<ShortName>SFX_Feather_Collectible_Purple_LP_Activated.wav</ShortName>
+							<Path>SFX\SFX_Feather_Collectible_Purple_LP_Activated_0762CC47.wem</Path>
+						</File>
+						<File Id="447874868" Language="SFX">
+							<ShortName>AMB_LoreCavern_LP.wav</ShortName>
+							<Path>SFX\AMB_LoreCavern_LP_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="6105.000000">
 					<IncludedMemoryFiles>
 						<File Id="193220923" Language="SFX">
 							<ShortName>Amb_Lake_Lapping.wav</ShortName>
@@ -95,6 +107,7 @@
 						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="2904809513" Name="Play_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Play_DarkWorld_Zelda_Pad"/>
 				<Event Id="2488731060" Name="Play_Ending_WaterFall" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Ending_WaterFall" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
 						<File Id="360954238" Language="SFX">
@@ -127,7 +140,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1914609227" Name="Play_SFX_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_SFX_Collectible_Blue_Spawn">
+				<Event Id="1914609227" Name="Play_SFX_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_SFX_Collectible_Blue_Spawn" MaxAttenuation="6000.000000">
 					<IncludedMemoryFiles>
 						<File Id="187603833" Language="SFX">
 							<ShortName>SFX_Feather_Collectible_Blue_Spawn_3.wav</ShortName>
@@ -255,7 +268,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3898119337" Name="Play_SFX_GPE_Emissive_Big" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Big">
+				<Event Id="3898119337" Name="Play_SFX_GPE_Emissive_Big" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Big" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="463687491" Language="SFX">
 							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
@@ -271,7 +284,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2038128406" Name="Play_SFX_GPE_Emissive_Small" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Small">
+				<Event Id="2038128406" Name="Play_SFX_GPE_Emissive_Small" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Emissive\Play_SFX_GPE_Emissive_Small" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="463687491" Language="SFX">
 							<ShortName>SFX_GPE_Emissive_Low.wav</ShortName>
@@ -399,7 +412,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1686349880" Name="Play_SFX_GPE_Stele_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_A2" MaxAttenuation="10000.000000">
+				<Event Id="1686349880" Name="Play_SFX_GPE_Stele_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_A2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="183618480" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
@@ -419,7 +432,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1686349881" Name="Play_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_A3" MaxAttenuation="10000.000000">
+				<Event Id="1686349881" Name="Play_SFX_GPE_Stele_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_A3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="399423359" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_A3.wav</ShortName>
@@ -443,7 +456,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3024238153" Name="Play_SFX_GPE_Stele_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_AS2" MaxAttenuation="10000.000000">
+				<Event Id="3024238153" Name="Play_SFX_GPE_Stele_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_AS2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="197037388" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
@@ -463,7 +476,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3024238152" Name="Play_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_AS3" MaxAttenuation="10000.000000">
+				<Event Id="3024238152" Name="Play_SFX_GPE_Stele_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_AS3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="219560079" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_AS4.wav</ShortName>
@@ -487,7 +500,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1948521748" Name="Play_SFX_GPE_Stele_ASAS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASAS3" MaxAttenuation="10000.000000">
+				<Event Id="1948521748" Name="Play_SFX_GPE_Stele_ASAS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASAS3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="197037388" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
@@ -511,7 +524,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3694864379" Name="Play_SFX_GPE_Stele_ASC3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASC3" MaxAttenuation="10000.000000">
+				<Event Id="3694864379" Name="Play_SFX_GPE_Stele_ASC3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_ASC3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -547,7 +560,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2" MaxAttenuation="10000.000000">
+				<Event Id="1652794582" Name="Play_SFX_GPE_Stele_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_C2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -567,7 +580,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3" MaxAttenuation="10000.000000">
+				<Event Id="1652794583" Name="Play_SFX_GPE_Stele_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_C3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="204593150" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_C3.wav</ShortName>
@@ -591,7 +604,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3581240682" Name="Play_SFX_GPE_Stele_CCF3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCF3" MaxAttenuation="10000.000000">
+				<Event Id="3581240682" Name="Play_SFX_GPE_Stele_CCF3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCF3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -627,7 +640,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3564463093" Name="Play_SFX_GPE_Stele_CCG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCG3" MaxAttenuation="10000.000000">
+				<Event Id="3564463093" Name="Play_SFX_GPE_Stele_CCG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_CCG3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -663,7 +676,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2" MaxAttenuation="10000.000000">
+				<Event Id="1636016995" Name="Play_SFX_GPE_Stele_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_D2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -683,7 +696,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3" MaxAttenuation="10000.000000">
+				<Event Id="1636016994" Name="Play_SFX_GPE_Stele_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_D3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="261695194" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
@@ -707,7 +720,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2990138531" Name="Play_SFX_GPE_Stele_DA3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DA3" MaxAttenuation="10000.000000">
+				<Event Id="2990138531" Name="Play_SFX_GPE_Stele_DA3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DA3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -743,7 +756,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2016317611" Name="Play_SFX_GPE_Stele_DDG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DDG3" MaxAttenuation="10000.000000">
+				<Event Id="2016317611" Name="Play_SFX_GPE_Stele_DDG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DDG3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -779,7 +792,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2755251892" Name="Play_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_DS2" MaxAttenuation="10000.000000">
+				<Event Id="2755251892" Name="Play_SFX_GPE_Stele_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_DS2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="66082767" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_DS3.wav</ShortName>
@@ -799,7 +812,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2755251893" Name="Play_SFX_GPE_Stele_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_DS3" MaxAttenuation="10000.000000">
+				<Event Id="2755251893" Name="Play_SFX_GPE_Stele_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_DS3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="24149264" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -823,7 +836,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1744874496" Name="Play_SFX_GPE_Stele_DSG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DSG3" MaxAttenuation="10000.000000">
+				<Event Id="1744874496" Name="Play_SFX_GPE_Stele_DSG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_DSG3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="24149264" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -863,7 +876,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="713787098" Name="Play_SFX_GPE_Stele_End_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_A2" MaxAttenuation="10000.000000">
+				<Event Id="713787098" Name="Play_SFX_GPE_Stele_End_A2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_A2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="183618480" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_A2.wav</ShortName>
@@ -879,7 +892,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="713787099" Name="Play_SFX_GPE_Stele_End_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_A3" MaxAttenuation="10000.000000">
+				<Event Id="713787099" Name="Play_SFX_GPE_Stele_End_A3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_A3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="460369264" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_A3.wav</ShortName>
@@ -895,7 +908,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2493834803" Name="Play_SFX_GPE_Stele_End_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_AS2" MaxAttenuation="10000.000000">
+				<Event Id="2493834803" Name="Play_SFX_GPE_Stele_End_AS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_AS2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="197037388" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS2.wav</ShortName>
@@ -911,7 +924,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2493834802" Name="Play_SFX_GPE_Stele_End_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_AS3" MaxAttenuation="10000.000000">
+				<Event Id="2493834802" Name="Play_SFX_GPE_Stele_End_AS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_AS3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="334241974" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_AS3.wav</ShortName>
@@ -927,7 +940,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="747342396" Name="Play_SFX_GPE_Stele_End_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_C2" MaxAttenuation="10000.000000">
+				<Event Id="747342396" Name="Play_SFX_GPE_Stele_End_C2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_C2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="75417464" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_C3.wav</ShortName>
@@ -943,7 +956,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="747342397" Name="Play_SFX_GPE_Stele_End_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_C3" MaxAttenuation="10000.000000">
+				<Event Id="747342397" Name="Play_SFX_GPE_Stele_End_C3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_C3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="659122690" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_C3.wav</ShortName>
@@ -959,7 +972,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="797675253" Name="Play_SFX_GPE_Stele_End_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_D2" MaxAttenuation="10000.000000">
+				<Event Id="797675253" Name="Play_SFX_GPE_Stele_End_D2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_D2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="109901540" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D2.wav</ShortName>
@@ -975,7 +988,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="797675252" Name="Play_SFX_GPE_Stele_End_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_D3" MaxAttenuation="10000.000000">
+				<Event Id="797675252" Name="Play_SFX_GPE_Stele_End_D3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_D3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="261695194" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_D3.wav</ShortName>
@@ -991,7 +1004,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2360452462" Name="Play_SFX_GPE_Stele_End_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_DS2" MaxAttenuation="10000.000000">
+				<Event Id="2360452462" Name="Play_SFX_GPE_Stele_End_DS2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_DS2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="66082767" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_Layer_DS3.wav</ShortName>
@@ -1007,7 +1020,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2360452463" Name="Play_SFX_GPE_Stele_End_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_DS3" MaxAttenuation="10000.000000">
+				<Event Id="2360452463" Name="Play_SFX_GPE_Stele_End_DS3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_DS3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="24149264" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_DS3.wav</ShortName>
@@ -1023,7 +1036,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="831230431" Name="Play_SFX_GPE_Stele_End_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_F2" MaxAttenuation="10000.000000">
+				<Event Id="831230431" Name="Play_SFX_GPE_Stele_End_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_F2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="383078185" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_F2.wav</ShortName>
@@ -1039,7 +1052,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="831230430" Name="Play_SFX_GPE_Stele_End_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_F3" MaxAttenuation="10000.000000">
+				<Event Id="831230430" Name="Play_SFX_GPE_Stele_End_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_F3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="443084533" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_F3.wav</ShortName>
@@ -1055,7 +1068,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="814452840" Name="Play_SFX_GPE_Stele_End_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_G2" MaxAttenuation="10000.000000">
+				<Event Id="814452840" Name="Play_SFX_GPE_Stele_End_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_2\Play_SFX_GPE_Stele_End_G2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="133630538" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
@@ -1071,7 +1084,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="814452841" Name="Play_SFX_GPE_Stele_End_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_G3" MaxAttenuation="10000.000000">
+				<Event Id="814452841" Name="Play_SFX_GPE_Stele_End_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_End\Play_SFX_GPE_Stele_End_3\Play_SFX_GPE_Stele_End_G3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="279707459" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_G3.wav</ShortName>
@@ -1087,7 +1100,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1602461721" Name="Play_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_F2" MaxAttenuation="10000.000000">
+				<Event Id="1602461721" Name="Play_SFX_GPE_Stele_F2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_F2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="11866814" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_F3.wav</ShortName>
@@ -1107,7 +1120,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1602461720" Name="Play_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_F3" MaxAttenuation="10000.000000">
+				<Event Id="1602461720" Name="Play_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_F3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="11866814" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_F3.wav</ShortName>
@@ -1131,7 +1144,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2935724227" Name="Play_SFX_GPE_Stele_FFG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_FFG3" MaxAttenuation="10000.000000">
+				<Event Id="2935724227" Name="Play_SFX_GPE_Stele_FFG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_FFG3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="279707459" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Butterfly_G3.wav</ShortName>
@@ -1167,7 +1180,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2" MaxAttenuation="10000.000000">
+				<Event Id="1585684138" Name="Play_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Play_SFX_GPE_Stele_G2" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="58158967" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_G3.wav</ShortName>
@@ -1187,7 +1200,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3" MaxAttenuation="10000.000000">
+				<Event Id="1585684139" Name="Play_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Play_SFX_GPE_Stele_G3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="58158967" Language="SFX">
 							<ShortName>SFX_GPE_Butterfly_LP_G3.wav</ShortName>
@@ -1211,7 +1224,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3358804830" Name="Play_SFX_GPE_Stele_GG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_GG3" MaxAttenuation="10000.000000">
+				<Event Id="3358804830" Name="Play_SFX_GPE_Stele_GG3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Chord\Play_SFX_GPE_Stele_GG3" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="133630538" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Stone_G2.wav</ShortName>
@@ -1235,7 +1248,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4194096238" Name="Play_SFX_GPE_Stele_Ground_C" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_C" MaxAttenuation="10000.000000">
+				<Event Id="4194096238" Name="Play_SFX_GPE_Stele_Ground_C" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_C" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="376816743" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Ground_C.wav</ShortName>
@@ -1243,7 +1256,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4060242232" Name="Play_SFX_GPE_Stele_Ground_DS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_DS" MaxAttenuation="10000.000000">
+				<Event Id="4060242232" Name="Play_SFX_GPE_Stele_Ground_DS" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_DS" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="611766086" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Ground_DS.wav</ShortName>
@@ -1251,7 +1264,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4194096235" Name="Play_SFX_GPE_Stele_Ground_F" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_F" MaxAttenuation="10000.000000">
+				<Event Id="4194096235" Name="Play_SFX_GPE_Stele_Ground_F" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_F" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="155530451" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Ground_F.wav</ShortName>
@@ -1259,7 +1272,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4194096234" Name="Play_SFX_GPE_Stele_Ground_G" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_G" MaxAttenuation="10000.000000">
+				<Event Id="4194096234" Name="Play_SFX_GPE_Stele_Ground_G" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_Ground\Play_SFX_GPE_Stele_Ground_G" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="463504844" Language="SFX">
 							<ShortName>SFX_GPE_Stele_Ground_G.wav</ShortName>
@@ -1267,7 +1280,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3201623454" Name="Play_SFX_GPE_Telek_C_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_C_In" MaxAttenuation="10000.000000">
+				<Event Id="3201623454" Name="Play_SFX_GPE_Telek_C_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_C_In" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="384809180" Language="SFX">
 							<ShortName>SFX_GPE_Telek_C_LP.wav</ShortName>
@@ -1279,7 +1292,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4063519041" Name="Play_SFX_GPE_Telek_C_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_C_Out" MaxAttenuation="10000.000000">
+				<Event Id="4063519041" Name="Play_SFX_GPE_Telek_C_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_C_Out" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="1055177857" Language="SFX">
 							<ShortName>SFX_GPE_Telek_C_Out.wav</ShortName>
@@ -1287,7 +1300,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2782477296" Name="Play_SFX_GPE_Telek_DS_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_DS_In" MaxAttenuation="10000.000000">
+				<Event Id="2782477296" Name="Play_SFX_GPE_Telek_DS_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_DS_In" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="72119939" Language="SFX">
 							<ShortName>SFX_GPE_Telek_DS_In.wav</ShortName>
@@ -1299,7 +1312,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3959271639" Name="Play_SFX_GPE_Telek_DS_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_DS_Out" MaxAttenuation="10000.000000">
+				<Event Id="3959271639" Name="Play_SFX_GPE_Telek_DS_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_DS_Out" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="1025266737" Language="SFX">
 							<ShortName>SFX_GPE_Telek_DS_Out.wav</ShortName>
@@ -1307,7 +1320,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2178549001" Name="Play_SFX_GPE_Telek_F_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_F_In" MaxAttenuation="10000.000000">
+				<Event Id="2178549001" Name="Play_SFX_GPE_Telek_F_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_F_In" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="189226895" Language="SFX">
 							<ShortName>SFX_GPE_Telek_F_In.wav</ShortName>
@@ -1319,7 +1332,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2016507816" Name="Play_SFX_GPE_Telek_F_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_F_Out" MaxAttenuation="10000.000000">
+				<Event Id="2016507816" Name="Play_SFX_GPE_Telek_F_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_F_Out" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="436996472" Language="SFX">
 							<ShortName>SFX_GPE_Telek_F_Out.wav</ShortName>
@@ -1327,7 +1340,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="347234866" Name="Play_SFX_GPE_Telek_G_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_G_In" MaxAttenuation="10000.000000">
+				<Event Id="347234866" Name="Play_SFX_GPE_Telek_G_In" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_G_In" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="247827927" Language="SFX">
 							<ShortName>SFX_GPE_Telek_G_LP.wav</ShortName>
@@ -1339,7 +1352,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2982934029" Name="Play_SFX_GPE_Telek_G_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_G_Out" MaxAttenuation="10000.000000">
+				<Event Id="2982934029" Name="Play_SFX_GPE_Telek_G_Out" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Tonal\Play_SFX_GPE_Telek_G_Out" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="762878522" Language="SFX">
 							<ShortName>SFX_GPE_Telek_G_Out.wav</ShortName>
@@ -1347,7 +1360,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="450895549" Name="Play_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Play_SFX_GPE_Telekinesie">
+				<Event Id="450895549" Name="Play_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Play_SFX_GPE_Telekinesie" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="175890529" Language="SFX">
 							<ShortName>SFX_Telekinesie_Start_1.wav</ShortName>
@@ -1367,7 +1380,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3636920717" Name="Play_SFX_GPE_Telekinesie_Finish" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Play_SFX_GPE_Telekinesie_Finish">
+				<Event Id="3636920717" Name="Play_SFX_GPE_Telekinesie_Finish" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Play_SFX_GPE_Telekinesie_Finish" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="355805810" Language="SFX">
 							<ShortName>SFX_Telekinesie_Complete_2.wav</ShortName>
@@ -2049,6 +2062,10 @@
 							<ShortName>RFX_GPE_Zipline_Flap_Cloth_2.wav</ShortName>
 							<Path>SFX\RFX_GPE_Zipline_Flap_Cloth_2_D8C07C79.wem</Path>
 						</File>
+						<File Id="562362238" Language="SFX">
+							<ShortName>SFX_MC_Zipline_Montage.wav</ShortName>
+							<Path>SFX\SFX_MC_Zipline_Montage_D8C07C79.wem</Path>
+						</File>
 						<File Id="602179295" Language="SFX">
 							<ShortName>RFX_GPE_Zipline_2.wav</ShortName>
 							<Path>SFX\RFX_GPE_Zipline_2_D8C07C79.wem</Path>
@@ -2079,7 +2096,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="30825167" Name="Play_SFX_LE_Basero_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Basero_LP" MaxAttenuation="950.000000">
+				<Event Id="30825167" Name="Play_SFX_LE_Basero_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_LE_Basero_LP" MaxAttenuation="1500.000000">
 					<IncludedMemoryFiles>
 						<File Id="70124005" Language="SFX">
 							<ShortName>SFX_LE_Brasero_LP_1.wav</ShortName>
@@ -2114,7 +2131,7 @@
 				<Event Id="1396017883" Name="Play_SFX_Statue_Destruction_1" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_1"/>
 				<Event Id="1396017880" Name="Play_SFX_Statue_Destruction_2" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_2"/>
 				<Event Id="1396017881" Name="Play_SFX_Statue_Destruction_3" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_SFX_Statue_Destruction_3"/>
-				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="23500.000000"/>
+				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="20000.000000"/>
 				<Event Id="967636871" Name="Play_Waterfall_blnd" ObjectPath="\Events\Default Work Unit\SFX_LE\Play_Waterfall_blnd" MaxAttenuation="13000.000000">
 					<IncludedMemoryFiles>
 						<File Id="95843208" Language="SFX">
@@ -2151,6 +2168,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3746312350" Name="Stop_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Stop_AMB_Collectible_Blue_Spawn" MaxAttenuation="0.000000"/>
 				<Event Id="1229862554" Name="Stop_SFX_Collectible_Buterflie_Activated_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Purple\Stop_SFX_Collectible_Buterflie_Activated_LP" MaxAttenuation="0.000000"/>
 				<Event Id="3416508261" Name="Stop_SFX_Collectible_Green_Feather_LP" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Green\Stop_SFX_Collectible_Green_Feather_LP" MaxAttenuation="0.000000"/>
 				<Event Id="3102446207" Name="Stop_SFX_GPE_Catapulte_Loop" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Catapulte\Stop_SFX_GPE_Catapulte_Loop" MaxAttenuation="0.000000"/>
@@ -2176,7 +2194,7 @@
 				<Event Id="1148171066" Name="Stop_SFX_GPE_Stele_F3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_F3" MaxAttenuation="0.000000"/>
 				<Event Id="1131393348" Name="Stop_SFX_GPE_Stele_G2" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_2\Stop_SFX_GPE_Stele_G2" MaxAttenuation="0.000000"/>
 				<Event Id="1131393349" Name="Stop_SFX_GPE_Stele_G3" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Stele\SFX_GPE_Stele_3\Stop_SFX_GPE_Stele_G3" MaxAttenuation="0.000000"/>
-				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Stop_SFX_GPE_Telekinesie">
+				<Event Id="437964639" Name="Stop_SFX_GPE_Telekinesie" ObjectPath="\Events\Default Work Unit\SFX_GPE\SFX_GPE_Telekinesie\SFX_GPE_Telekinesie_Rock\Stop_SFX_GPE_Telekinesie" MaxAttenuation="9055.000000">
 					<IncludedMemoryFiles>
 						<File Id="622243301" Language="SFX">
 							<ShortName>SFX_Telekinesie_End__1.wav</ShortName>
@@ -2755,6 +2773,10 @@
 				<File Id="555465848" Language="SFX">
 					<ShortName>SFX_GPE_Bumper_1.wav</ShortName>
 					<Path>SFX\SFX_GPE_Bumper_1_D8C07C79.wem</Path>
+				</File>
+				<File Id="562362238" Language="SFX">
+					<ShortName>SFX_MC_Zipline_Montage.wav</ShortName>
+					<Path>SFX\SFX_MC_Zipline_Montage_D8C07C79.wem</Path>
 				</File>
 				<File Id="567258248" Language="SFX">
 					<ShortName>SFX_GPE_Telek_DS_LP.wav</ShortName>
@@ -4486,7 +4508,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1043200563">
+		<SoundBank Id="3991942870" Language="SFX" Hash="397884459">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
@@ -4681,7 +4703,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="928813156">
+		<SoundBank Id="4056684167" Language="SFX" Hash="3034461398">
 			<ObjectPath>\SoundBanks\Default Work Unit\MASTER</ObjectPath>
 			<ShortName>MASTER</ShortName>
 			<Path>MASTER.bnk</Path>
@@ -4870,6 +4892,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="397786088" Name="Play_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Play_AMB_Collectible_Blue_Spawn" MaxAttenuation="6000.000000"/>
 				<Event Id="2982907204" Name="Play_Amb_Drip_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Drip_Cavern" MaxAttenuation="6500.000000">
 					<IncludedMemoryFiles>
 						<File Id="938665294" Language="SFX">
@@ -4966,7 +4989,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3887990129" Name="Play_Amb_Lake_Lapping_Little" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little" MaxAttenuation="8000.000000">
+				<Event Id="3887990129" Name="Play_Amb_Lake_Lapping_Little" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little" MaxAttenuation="6105.000000">
 					<IncludedMemoryFiles>
 						<File Id="193220923" Language="SFX">
 							<ShortName>Amb_Lake_Lapping.wav</ShortName>
@@ -4977,7 +5000,7 @@
 						<AuxBus Id="2270178643" Name="RVB_Cave_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\RVB_Cave_Small"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="8000.000000"/>
+				<Event Id="3488501086" Name="Play_Amb_Lake_Lapping_Little_Big_Cavern" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_Lapping_Little_Big_Cavern" MaxAttenuation="6105.000000"/>
 				<Event Id="832042763" Name="Play_Amb_Lake_LP" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Lake_LP"/>
 				<Event Id="3429545583" Name="Play_Amb_Rat_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Rat_RFX"/>
 				<Event Id="906982068" Name="Play_Amb_SnakeRattle_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_SnakeRattle_RFX" MaxAttenuation="6500.000000"/>
@@ -4989,7 +5012,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="540871045" Name="Play_Amb_Wind_Howling_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Howling_RFX" MaxAttenuation="7500.000000">
+				<Event Id="540871045" Name="Play_Amb_Wind_Howling_RFX" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Howling_RFX" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="306243768" Language="SFX">
 							<ShortName>AMB_Wind_Howling_RFX_5.wav</ShortName>
@@ -5017,7 +5040,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4244289267" Name="Play_Amb_Wind_Valley" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Valley" MaxAttenuation="7500.000000">
+				<Event Id="4244289267" Name="Play_Amb_Wind_Valley" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Valley" MaxAttenuation="10000.000000">
 					<IncludedMemoryFiles>
 						<File Id="45234010" Language="SFX">
 							<ShortName>AMB_Wind_Valley_LP.wav</ShortName>
@@ -5077,7 +5100,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="305604352" Name="Play_Amb_Wind_Void" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Void" MaxAttenuation="5500.000000">
+				<Event Id="305604352" Name="Play_Amb_Wind_Void" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Wind_Void" MaxAttenuation="5000.000000">
 					<IncludedMemoryFiles>
 						<File Id="735267049" Language="SFX">
 							<ShortName>AMB_Cavern_void_LP.wav</ShortName>
@@ -7730,7 +7753,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="23500.000000">
+				<Event Id="2590190883" Name="Play_SFX_WaterFall_BIG" ObjectPath="\Events\Default Work Unit\AMB\Play_SFX_WaterFall_BIG" MaxAttenuation="20000.000000">
 					<IncludedMemoryFiles>
 						<File Id="726391781" Language="SFX">
 							<ShortName>SFX_LE_WaterFall_Cavern_Big.wav</ShortName>
@@ -7788,6 +7811,7 @@
 						<ActionSetStateEntry Id="3412868374" Name="Unpause" ObjectPath="\States\Default Work Unit\Menu_Pause\Unpause"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3746312350" Name="Stop_AMB_Collectible_Blue_Spawn" ObjectPath="\Events\Default Work Unit\SFX_LE\SFX_Collectible\Blue\Stop_AMB_Collectible_Blue_Spawn" MaxAttenuation="0.000000"/>
 				<Event Id="3516178482" Name="Stop_Amb_Lake" ObjectPath="\Events\Default Work Unit\AMB\Stop_Amb_Lake" MaxAttenuation="0.000000"/>
 				<Event Id="3181251971" Name="Stop_DarkWorld_Zelda_Pad" ObjectPath="\Events\Default Work Unit\Amb_Tonal\Stop_DarkWorld_Zelda_Pad" MaxAttenuation="0.000000"/>
 				<Event Id="4170786443" Name="Stop_MC_Soft_Falling" ObjectPath="\Events\Default Work Unit\MC\Stop_MC_Soft_Falling" MaxAttenuation="0.000000"/>

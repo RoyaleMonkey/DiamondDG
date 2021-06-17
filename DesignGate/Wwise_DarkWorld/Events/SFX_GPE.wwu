@@ -3778,6 +3778,18 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{6E8D0407-82ED-41C5-8407-611EF7EA86C2}" ShortID="506555968">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GPE_Geyser_Lp" ID="{860E3C8F-0F01-4A1F-9026-484A24C198E9}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Folder Name="SFX_GPE_Geyser_Large" ID="{6900C6C6-9702-451F-BA6F-A2C8EC337C39}" ShortID="188677012">
@@ -3788,6 +3800,18 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_GPE_Geyser_Large_End" ID="{5306FEC0-715E-4988-B849-341F741F29C1}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{261930C3-A582-4528-9E4B-2DB22D609233}" ShortID="680728046">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_GPE_Geyser_Large_Lp" ID="{BD452311-2063-4406-9861-0AAFD088D606}" WorkUnitID="{E6447BCD-AF7C-48B2-8F57-14416DADDAD1}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

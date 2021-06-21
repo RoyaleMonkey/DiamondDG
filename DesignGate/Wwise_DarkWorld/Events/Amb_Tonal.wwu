@@ -83,7 +83,7 @@
 								<Property Name="FadeInCurve" Type="int16" Value="7"/>
 								<Property Name="FadeTime" Type="Real64" Value="10"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-6"/>
+								<Property Name="Volume" Type="Real64" Value="-8"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -113,8 +113,8 @@
 						<Action Name="" ID="{DA12A1F8-51E0-4F96-8A6B-AE7127911679}" ShortID="113193834">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>

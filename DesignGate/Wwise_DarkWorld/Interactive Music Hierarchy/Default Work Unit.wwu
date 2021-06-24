@@ -698,7 +698,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Mus_Waterfall_In" ID="{22A739B6-93B7-4EBB-9A48-89B6F7B8A7D3}" ShortID="703109243">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="63242.7873780296"/>
+										<Property Name="EndPosition" Type="Real64" Value="56470.5833333333"/>
 										<Property Name="Tempo" Type="Real64" Value="153"/>
 									</PropertyList>
 									<ReferenceList>
@@ -877,7 +877,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Mus_Waterfall_2nd" ID="{216EBA15-6A70-4DDF-8E09-7D8539EDFB44}" ShortID="375738386">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="58039.2156862745"/>
+										<Property Name="EndPosition" Type="Real64" Value="56470.5882352941"/>
 										<Property Name="Tempo" Type="Real64" Value="153"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1061,7 +1061,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Mus_Waterfall_3rd" ID="{B0D0A9AE-47BC-46D3-977A-6EF5178D421C}" ShortID="221526755">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="60620.9976392823"/>
+										<Property Name="EndPosition" Type="Real64" Value="59607.8333333333"/>
 										<Property Name="Tempo" Type="Real64" Value="153"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1486,9 +1486,13 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{15FCE5A9-1CE1-4843-92FE-AED4D4CB7B5D}" ShortID="720041483">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{75267921-E5E2-46B2-945A-FC96ED552E83}" ShortID="351335028">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Mus_Waterfall_Out" ID="{C53EC5E5-C3FA-43FF-A1AE-CC702692FEAD}"/>

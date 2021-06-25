@@ -323,6 +323,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Aquatic_RFX" ID="{AA3F6224-38AF-4773-88AB-E63A59DA03DC}">
+							<ChildrenList>
+								<Action Name="" ID="{881760C5-2D7F-4CE8-A846-FD8388806169}" ShortID="634592005">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Aquatic_RFX" ID="{70D0E155-A2A4-4D1A-9F69-2879F8E0BE57}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Damoiselle_RFX" ID="{D95F79FB-AA46-463F-9B56-18D88DC5B69E}">
+							<ChildrenList>
+								<Action Name="" ID="{0B0A7E90-E1FB-4EA4-91BE-91810F03E3C0}" ShortID="123212799">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Damoiselle_RFX" ID="{A785E56D-D4F3-4934-9D29-06F8F5DF21B6}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_Alpine" ID="{7E83FF85-4787-44EF-B7B8-657B6B739906}">
+							<ChildrenList>
+								<Action Name="" ID="{61A15966-EA31-4C98-B8AC-1B96BA752417}" ShortID="528631635">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Alpine" ID="{96BB404A-6635-4035-8749-6E989908863A}" WorkUnitID="{99453D74-D7A9-4750-AD1B-2BDED642624A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<WorkUnit Name="MC" ID="{D8726790-14A6-4D16-BE3F-DB27E71A39F6}" PersistMode="Reference"/>
